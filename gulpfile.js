@@ -9,12 +9,12 @@ gulp.task('buildTokens', function() {
 });
 
 gulp.task('buildCss', function() {
-  gulp.src('./scss/{,*/}*.{scss,sass}')
+  gulp.src('./src/scss/{,*/}*.{scss,sass}')
     .pipe(sass({
       errLogToConsole: true,
-      outputStyle: 'compressed', //alt options: nested, compact, compressed
+      outputStyle: 'expanded', //alt options: nested, compact, compressed
     }))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./build/css'));
 });
 
 gulp.task('default', ['buildTokens', 'buildCss']);
