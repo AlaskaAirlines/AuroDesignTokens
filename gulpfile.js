@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const gulpautoprefixer = require('gulp-autoprefixer');
 const StyleDictionary = require('style-dictionary').extend('./config.json');
 
 
@@ -14,6 +15,7 @@ gulp.task('buildCss', function() {
       errLogToConsole: true,
       outputStyle: 'expanded', //alt options: nested, compact, compressed
     }))
+    .pipe(gulpautoprefixer({ browsers: ['last 4 versions'], cascade: false }))
     .pipe(gulp.dest('./build/css'));
 });
 

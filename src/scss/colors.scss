@@ -4,3 +4,12 @@
   color: $color-base-gray-light;
   color: $color-font-tertiary;
 }
+
+.foo {
+  border-radius: 10px;
+  font-size: $size-font-base;
+}
+
+.foobar {
+  color: green;
+}

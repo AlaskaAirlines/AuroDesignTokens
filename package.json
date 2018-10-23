@@ -13,6 +13,7 @@
     "style-dictionary": "^2.4.0"
   },
   "dependencies": {
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
   }
 }
