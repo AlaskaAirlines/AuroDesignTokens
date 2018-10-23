@@ -11,5 +11,8 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "style-dictionary": "^2.4.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.2"
   }
 }
