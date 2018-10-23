@@ -1,0 +1,15 @@
+{
+  "name": "tokens",
+  "version": "0.1.0",
+  "description": "tokens example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "style-dictionary": "^2.4.0"
+  }
+}
