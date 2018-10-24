@@ -1,0 +1,9 @@
+{
+  "color": {
+    "accessibility": {
+      "border": {
+        "active": {"value": "{color.base.nemo.value}"}
+      }
+    }
+  }
+}

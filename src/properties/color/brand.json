@@ -1,0 +1,14 @@
+{
+  "color": {
+    "brand": {
+      "blue": {
+        "midnight": {"value": "#01426A"},
+        "atlas": {"value": "#0074C8"},
+        "breeze": {"value": "#00C7E6"}
+      },
+      "green": {
+        "tropical": {"value": "#C0E585"}
+      }
+    }
+  }
+}
