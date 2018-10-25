@@ -1,0 +1,19 @@
+{
+  "color": {
+    "type": {
+      "theme": {
+        "dark": {
+          "primary": {"value": "{color.base.white.value}"},
+          "secondary": {"value": "{color.base.manatee.value}"},
+          "link": {"value": "{color.brand.blue.breeze.value}"}
+        },
+        "light": {
+          "primary": {"value": "{color.base.orca.value}"},
+          "secondary": {"value": "{color.base.shark.value}"},
+          "link": {"value": "{color.brand.blue.atlas.value}"}
+        }
+      },
+      "disabled": {"value": "{color.base.fog.value}"}
+    }
+  }
+}
