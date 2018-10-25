@@ -10,13 +10,13 @@ gulp.task('buildTokens', function() {
 });
 
 gulp.task('buildCss', function() {
-  gulp.src('./src/scss/{,*/}*.{scss,sass}')
+  gulp.src('./example/src/{,*/}*.{scss,sass}')
     .pipe(sass({
       errLogToConsole: true,
       outputStyle: 'expanded', //alt options: nested, compact, compressed
     }))
     .pipe(gulpautoprefixer({ browsers: ['last 4 versions'], cascade: false }))
-    .pipe(gulp.dest('./build/css'));
+    .pipe(gulp.dest('./example/build/css'));
 });
 
 gulp.task('default', ['buildTokens', 'buildCss']);
