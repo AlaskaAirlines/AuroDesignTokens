@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "tokens example",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -14,6 +11,7 @@
   },
   "dependencies": {
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "versiony-cli": "^1.3.0"
   }
 }

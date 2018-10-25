@@ -1,21 +1,25 @@
 {
-  "source": ["src/properties/**/*.json"],
+  "source": ["src/**/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scssTokens/",
-      "files": [{
-        "destination": "_TokenVariables.scss",
-        "format": "scss/variables"
-      }]
+      "files": [
+        {
+          "destination": "_TokenVariables.scss",
+          "format": "scss/variables"
+        }
+      ]
     },
     "css": {
       "transformGroup": "css",
       "buildPath": "build/cssTokens/",
-      "files": [{
-        "destination": "_TokenVariables.css",
-        "format": "css/variables"
-      }]
+      "files": [
+        {
+          "destination": "_TokenVariables.css",
+          "format": "css/variables"
+        }
+      ]
     }
   }
 }
