@@ -1,7 +1,4 @@
 {
-  "scripts": {
-    "set-patch": "versiony ./src/package.json --patch"
-  },
   "version": "0.1.0",
   "author": "",
   "license": "ISC"
