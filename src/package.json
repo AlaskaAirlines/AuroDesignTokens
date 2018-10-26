@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "set-patch": "versiony ./package.json --patch"
+    "set-patch": "versiony ./src/package.json --patch"
   },
   "version": "0.1.0",
   "author": "",
