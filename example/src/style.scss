@@ -1,5 +1,23 @@
+// Sass variables need to be imported into the scope
+// of the Sass files being processed
 @import "./build/scssTokens/TokenVariables";
 
-.color {
+// Example of using Sass variable for CSS output
+.colorFromSass {
   color: $color-brand-blue-midnight;
+}
+
+// Example using native CSS Custom Properties
+// Cannot import CSS Custom Props into Sass file,
+// recommended to import in the build pipeline
+.colorFromCustomProp {
+  color: var(--color-brand-blue-midnight);
+}
+
+
+// PostCSS Autoprefixer supported to reduce
+// manual coding of vendor prefixed CSS
+.autoPrefixerSupport {
+  filter: blur(20px);
+  border-radius: 10px;
 }
