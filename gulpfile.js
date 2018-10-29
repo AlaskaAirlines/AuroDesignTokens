@@ -4,10 +4,12 @@ const gulp = require('gulp'),
   StyleDictionary = require('style-dictionary').extend('./config.json'),
   postcssCustomProperties = require('postcss-custom-properties'),
   postcss = require('gulp-postcss'),
-  concat = require('gulp-concat');
+  concat = require('gulp-concat'),
+  clean = require('gulp-clean');
 
 const tokensDir = './build/cssTokens/_TokenVariables.css';
-const tempResources = './example/temp/css';
+const tempResources = './example/temp/';
+const destination = './example/build/';
 
 
 // Gulp task to process Design Tokens to Sass variable file
@@ -18,14 +20,14 @@ gulp.task('buildTokens', function() {
 
 
 // Gulp task to build CSS file
-gulp.task('processCss', function() {
+gulp.task('processCss', ['cleanTemp'], function () {
   // set path to where Sass files are located to be processed
   return gulp.src('./example/src/{,*/}*.{scss,sass}')
 
     // Sass pipeline
     .pipe(sass({
       errLogToConsole: true,
-      outputStyle: 'expanded', //alt options: nested, compact, compressed
+      outputStyle: 'compressed', //alt options: nested, compact, expanded
     }))
 
     // Post Sass to CSS process for addressing proprietary prefixes
@@ -48,10 +50,19 @@ gulp.task('processCss', function() {
     .pipe(gulp.dest(tempResources));
 });
 
+
+// Gulp task to concatenate out CSS from Sass and the Tokens CSS Custom Props file
 gulp.task('concatResources', function () {
-  return gulp.src([tokensDir, tempResources + '/*.css'])
-    .pipe(concat("build.css"))
-    .pipe(gulp.dest('./example/build/css'));
+  return gulp.src([tokensDir, tempResources + '*.css'])
+    .pipe(concat('build.css'))
+    .pipe(gulp.dest(destination));
+});
+
+
+// Utility task to clean up processed resources
+gulp.task('cleanTemp', function () {
+  return gulp.src(tempResources, {read: false})
+    .pipe(clean());
 });
 
 
