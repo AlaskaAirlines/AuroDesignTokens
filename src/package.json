@@ -1,5 +1,6 @@
 {
-  "name": "alaskaair-design-tokens",
+  "name": "@alaskaair/alaskaair-design-tokens",
+  "description": "AlaskaAir Design Tokens",
   "version": "0.1.0",
   "author": "",
   "license": "ISC"
