@@ -1,4 +1,5 @@
 const gulp = require('gulp'),
+  gulpSequence = require('gulp-sequence'),
   sass = require('gulp-sass'),
   gulpautoprefixer = require('gulp-autoprefixer'),
   StyleDictionary = require('style-dictionary').extend('./config.json'),
@@ -67,4 +68,5 @@ gulp.task('cleanTemp', function () {
 
 
 // Task(s)
-gulp.task('default', ['buildTokens', 'processCss', 'concatResources']);
+// Gulp Sequence is used to force Gulp to address tasks in specific build order
+gulp.task('default', gulpSequence('buildTokens', 'processCss', 'concatResources'))
