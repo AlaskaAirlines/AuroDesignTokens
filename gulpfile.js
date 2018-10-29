@@ -1,9 +1,13 @@
-const gulp = require('gulp');
-const sass = require('gulp-sass');
-const gulpautoprefixer = require('gulp-autoprefixer');
-const StyleDictionary = require('style-dictionary').extend('./config.json');
-const postcssCustomProperties = require('postcss-custom-properties');
-const postcss = require('gulp-postcss');
+const gulp = require('gulp'),
+  sass = require('gulp-sass'),
+  gulpautoprefixer = require('gulp-autoprefixer'),
+  StyleDictionary = require('style-dictionary').extend('./config.json'),
+  postcssCustomProperties = require('postcss-custom-properties'),
+  postcss = require('gulp-postcss'),
+  concat = require('gulp-concat');
+
+const tokensDir = './build/cssTokens/_TokenVariables.css';
+const tempResources = './example/temp/css';
 
 
 // Gulp task to process Design Tokens to Sass variable file
@@ -14,9 +18,9 @@ gulp.task('buildTokens', function() {
 
 
 // Gulp task to build CSS file
-gulp.task('buildCss', function() {
+gulp.task('processCss', function() {
   // set path to where Sass files are located to be processed
-  gulp.src('./example/src/{,*/}*.{scss,sass}')
+  return gulp.src('./example/src/{,*/}*.{scss,sass}')
 
     // Sass pipeline
     .pipe(sass({
@@ -36,14 +40,20 @@ gulp.task('buildCss', function() {
         preserve: true,
 
         // Import CSS Custom Properties for token variable use
-        importFrom: './build/cssTokens/_TokenVariables.css'
+        importFrom: tokensDir
       })
     ]))
 
     // Output final CSS in destination
+    .pipe(gulp.dest(tempResources));
+});
+
+gulp.task('concatResources', function () {
+  return gulp.src([tokensDir, tempResources + '/*.css'])
+    .pipe(concat("build.css"))
     .pipe(gulp.dest('./example/build/css'));
 });
 
 
 // Task(s)
-gulp.task('default', ['buildTokens', 'buildCss']);
+gulp.task('default', ['buildTokens', 'processCss', 'concatResources']);
