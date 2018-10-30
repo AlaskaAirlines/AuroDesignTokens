@@ -2,15 +2,15 @@ const gulp = require('gulp'),
   gulpSequence = require('gulp-sequence'),
   sass = require('gulp-sass'),
   gulpautoprefixer = require('gulp-autoprefixer'),
-  StyleDictionary = require('style-dictionary').extend('./config.json'),
+  StyleDictionary = require('style-dictionary').extend('./example/config.json'),
   postcssCustomProperties = require('postcss-custom-properties'),
   postcss = require('gulp-postcss'),
   concat = require('gulp-concat'),
   clean = require('gulp-clean');
 
-const tokensDir = './build/cssTokens/_TokenVariables.css';
+const cssTokens = './example/tokensBuild/*.css';
 const tempResources = './example/temp/';
-const destination = './example/build/';
+const destination = './example/prodBuild/';
 
 
 // Gulp task to process Design Tokens to Sass variable file
@@ -43,7 +43,7 @@ gulp.task('processCss', ['cleanTemp'], function () {
         preserve: true,
 
         // Import CSS Custom Properties for token variable use
-        importFrom: tokensDir
+        importFrom: cssTokens
       })
     ]))
 
@@ -54,8 +54,8 @@ gulp.task('processCss', ['cleanTemp'], function () {
 
 // Gulp task to concatenate out CSS from Sass and the Tokens CSS Custom Props file
 gulp.task('concatResources', function () {
-  return gulp.src([tokensDir, tempResources + '*.css'])
-    .pipe(concat('build.css'))
+  return gulp.src([cssTokens, tempResources + '*.css'])
+    .pipe(concat('prodBuild.css'))
     .pipe(gulp.dest(destination));
 });
 

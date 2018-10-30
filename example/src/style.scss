@@ -1,6 +1,6 @@
 // Sass variables need to be imported into the scope
 // of the Sass files being processed
-@import "./build/scssTokens/TokenVariables";
+@import "./example/tokensBuild/TokenVariables.scss";
 
 // Example of using Sass variable for CSS output
 .colorFromSass {

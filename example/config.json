@@ -1,9 +1,9 @@
 {
-  "source": ["src/**/*.json"],
+  "source": ["./src/**/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scssTokens/",
+      "buildPath": "./example/tokensBuild/",
       "files": [
         {
           "destination": "_TokenVariables.scss",
@@ -13,10 +13,10 @@
     },
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/cssTokens/",
+      "buildPath": "./example/tokensBuild/",
       "files": [
         {
-          "destination": "_TokenVariables.css",
+          "destination": "TokenVariables.css",
           "format": "css/variables"
         }
       ]
