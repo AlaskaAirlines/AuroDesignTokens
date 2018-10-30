@@ -1,3 +1,14 @@
+// =====================================================================
+
+/*
+  This is an EXAMPLE GULP PIPELINE for the purpose of building
+  usable Sass and CSS resources from DesignToken.json file resources.
+
+  This is NOT used for src build management!
+*/
+
+// =====================================================================
+
 const gulp = require('gulp'),
   gulpSequence = require('gulp-sequence'),
   sass = require('gulp-sass'),
