@@ -1,9 +1,14 @@
 {
-  "name": "Orion Design Tokens",
+  "name": "@alaska/orion-design-tokens",
   "version": "0.1.0",
   "description": "Alaska Air Orion Design System token repository",
-  "main": "",
-  "author": "Dale Sande dale.sande@alaskaair.com",
+  "homepage": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens?_a=readme",
+  "author": "Product design and research",
+  "repository": {
+    "type": "git",
+    "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"
+  },
+  "main": "src/",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -12,11 +17,11 @@
     "gulp-postcss": "^8.0.0",
     "gulp-sequence": "^1.0.0",
     "postcss-custom-properties": "^8.0.8",
-    "style-dictionary": "^2.4.0"
-  },
-  "dependencies": {
+    "style-dictionary": "^2.4.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2",
+  },
+  "dependencies": {
     "versiony-cli": "^1.3.0"
   },
   "scripts": {
