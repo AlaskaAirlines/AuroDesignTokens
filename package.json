@@ -1,9 +1,9 @@
 {
-  "name": "tokens",
+  "name": "Orion Design Tokens",
   "version": "0.1.0",
-  "description": "tokens example",
-  "main": "index.js",
-  "author": "",
+  "description": "Alaska Air Orion Design System token repository",
+  "main": "",
+  "author": "Dale Sande dale.sande@alaskaair.com",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
