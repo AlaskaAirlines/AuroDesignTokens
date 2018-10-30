@@ -1,7 +1,11 @@
 {
-  "name": "@alaskaair/alaskaair-design-tokens",
+  "name": "@alaskaair/orion-design-tokens",
   "description": "AlaskaAir Design Tokens",
   "version": "0.1.0",
-  "author": "",
-  "license": "ISC"
+  "author": "Product design and research",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"
+  }
 }
