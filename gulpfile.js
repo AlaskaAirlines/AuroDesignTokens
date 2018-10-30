@@ -19,7 +19,7 @@ const gulp = require('gulp'),
   concat = require('gulp-concat'),
   clean = require('gulp-clean');
 
-const cssTokens = './example/tokensBuild/*.css';
+const cssTokens = './example/tokensBuild/TokenVariables.css';
 const tempResources = './example/temp/';
 const destination = './example/prodBuild/';
 
