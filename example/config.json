@@ -3,7 +3,6 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb"],
       "buildPath": "./example/tokensBuild/",
       "files": [
         {
@@ -24,11 +23,22 @@
     },
     "android": {
       "transformGroup": "android",
-      "transforms": ["attribute/cti", "name/cti/camel"],
       "buildPath": "./example/tokensBuild/droid/",
       "files": [{
-        "destination": "colors.xml",
+        "destination": "style_dictionary_colors.xml",
         "template": "android/colors"
+      },{
+        "destination": "style_dictionary_font_dimens.xml",
+        "template": "android/fontDimens"
+      },{
+        "destination": "style_dictionary_dimens.xml",
+        "template": "android/dimens"
+      },{
+        "destination": "style_dictionary_integers.xml",
+        "template": "android/integers"
+     },{
+        "destination": "style_dictionary_strings.xml",
+        "template": "android/strings"
       }]
     },
     "ios": {
