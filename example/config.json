@@ -3,6 +3,7 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb"],
       "buildPath": "./example/tokensBuild/",
       "files": [
         {
@@ -20,6 +21,60 @@
           "format": "css/variables"
         }
       ]
+    },
+    "android": {
+      "transformGroup": "android",
+      "transforms": ["attribute/cti", "name/cti/camel"],
+      "buildPath": "./example/tokensBuild/droid/",
+      "files": [{
+        "destination": "colors.xml",
+        "template": "android/colors"
+      }]
+    },
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "./example/tokensBuild/ios/",
+      "files": [{
+        "destination": "StyleDictionaryColor.h",
+        "template": "ios/colors.h",
+        "className": "StyleDictionaryColor",
+        "type": "StyleDictionaryColorName",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "StyleDictionaryColor.m",
+        "template": "ios/colors.m",
+        "className": "StyleDictionaryColor",
+        "type": "StyleDictionaryColorName",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "StyleDictionarySize.h",
+        "template": "ios/static.h",
+        "className": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },{
+        "destination": "StyleDictionarySize.m",
+        "template": "ios/static.m",
+        "className": "StyleDictionarySize",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      }]
     }
   }
 }
