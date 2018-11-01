@@ -15,11 +15,21 @@ This repository serves two purposes:
 
 Within the project's `src/` dir are the various token values stored in `.json` format.
 
-Only these source files are included in the npm build for project reference. Example pipelines and documentation are not.
+Only these source files are included in the npm build for project reference. Example pipelines and documentation are **not**.
 
 ### The example/ dir
 
-Contained within the `example/` directory are example Sass and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
+Contained within the `example/` directory is an example `style.scss` and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
+
+### Example config.json file
+
+Contained with the `example/` dir is an example `config.json` file. This fill will output multiple production consumable assets, but you will not use ALL of them on any one project. Examples for the following platforms are currently exemplified and supported:
+
+1. CSS
+1. Sass
+1. Android
+1. iOS
+1. Sketch (specifically color palette generation)
 
 ### The gulpfile
 

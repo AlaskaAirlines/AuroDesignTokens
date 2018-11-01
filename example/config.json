@@ -21,6 +21,16 @@
         }
       ]
     },
+    "sketch": {
+      "transformGroup": "assets",
+      "buildPath": "./example/tokensBuild/",
+      "files": [
+        {
+          "destination": "TokenVariables.sketchpalette",
+          "format": "sketch/palette"
+        }
+      ]
+    },
     "android": {
       "transformGroup": "android",
       "buildPath": "./example/tokensBuild/droid/",
