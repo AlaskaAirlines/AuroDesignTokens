@@ -1,9 +1,0 @@
-{
-  "width": {
-    "breakpoint": {
-      "mobile": {"value": "512px"},
-      "tablet": {"value": "768px"},
-      "desktop": {"value": "1024px"}
-    }
-  }
-}
