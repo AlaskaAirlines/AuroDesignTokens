@@ -1,0 +1,13 @@
+{
+  "depth": {
+    "hidden": {"value": "-1"},
+    "surface": {"value": "0"},
+    "tropo": {"value": "10"},
+    "meso": {"value": "20"},
+    "exo": {"value": "30"},
+    "dialog": {"value": "{depth.tropo.value}"},
+    "overlay": {"value": "{depth.meso.value}"},
+    "modal": {"value": "{depth.exo.value}"},
+    "tooltip": {"value": "{depth.exo.value}"}
+  }
+}

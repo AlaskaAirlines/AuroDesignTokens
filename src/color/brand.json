@@ -1,0 +1,31 @@
+{
+  "color": {
+    "brand": {
+      "blue": {
+        "midnight":   {"value": "01426a"},
+        "atlas":      {"value": "0074c8"},
+        "breeze":     {"value": "00C7e6"}
+      },
+      "green": {
+        "tropical":   {"value": "c0e585"}
+      },
+      "comment":      "Orion brand color"
+    },
+    "deprecated": {
+      "classic": {
+        "atlas":        {
+          "value": "2774ae",
+          "comment": "{color.deprecated.comment}"
+        },
+        "breeze":       {
+          "value": "48a9c5",
+          "comment": "{color.deprecated.comment}"
+        },
+        "tropical":     {
+          "value": "b3d57d",
+          "comment": "{color.deprecated.comment}"
+        }
+      }
+    }
+  }
+}

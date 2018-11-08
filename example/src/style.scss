@@ -3,21 +3,111 @@
 @import "./example/tokensBuild/TokenVariables.scss";
 
 // Example of using Sass variable for CSS output
-.colorFromSass {
-  color: $color-brand-blue-midnight;
-}
+// .colorFromSass {
+//   background-color: $color-background-headline;
+//   background-color: var(--color-background-headline);
+// }
 
-// Example using native CSS Custom Properties
-// Cannot import CSS Custom Props into Sass file,
-// recommended to import in the build pipeline
+/*
+  Example using native CSS Custom Properties
+  Cannot import CSS Custom Props into Sass file,
+  recommended to import in the build pipeline
+*/
 .colorFromCustomProp {
-  color: var(--color-brand-blue-midnight);
+  background-color: var(--color-background-headline);
 }
 
 
-// PostCSS Autoprefixer supported to reduce
-// manual coding of vendor prefixed CSS
+/*
+  PostCSS Autoprefixer supported to reduce
+  manual coding of vendor prefixed CSS
+*/
 .autoPrefixerSupport {
-  filter: blur(20px);
-  border-radius: 10px;
+  border-radius: $size-border-radius-default;
+}
+
+/* Example for base styles */
+
+* {
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+
+  &:focus {
+    outline: 3px solid $color-accessibility-border-active;
+    box-shadow: 0 0 0 3px $color-accessibility-border-active;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $size-root;
+}
+
+body {
+ font-family: $font-family-base;
+ font-weight: $weight-book;
+ font-size: $size-breakpoint-all-med;
+ line-height: $vertical-alignment-body;
+ color: $color-type-theme-light-primary;
+}
+
+p {
+  margin-bottom: $size-margin-baseline;
+}
+
+.hyperlink {
+  color: $color-type-theme-light-link;
+  text-decoration: none;
+  &:hover {
+    color: $color-type-theme-light-link-hover;
+  }
+}
+
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4 {
+ margin: $size-margin-y-axis $size-margin-x-axis;
+ font-weight: inherit;
+ line-height: $vertical-alignment-heading;
+}
+
+.heading-1 {
+  font-size: $size-breakpoint-mobile-max;
+  margin-top: 0;
+
+  @media screen and ($breakpoint-width-medium) {
+    font-size: $size-breakpoint-desktop-max;
+  }
+}
+
+.heading-2 {
+  font-size: $size-breakpoint-mobile-xxl;
+
+  @media screen and ($breakpoint-width-medium) {
+    font-size: $size-breakpoint-desktop-xxl;
+  }
+}
+
+.heading-3 {
+  font-size: $size-breakpoint-mobile-xl;
+
+  @media screen and ($breakpoint-width-medium) {
+    font-size: $size-breakpoint-desktop-xl;
+  }
+}
+
+.heading-4 {
+  font-size: $size-breakpoint-mobile-lg;
+
+  @media screen and ($breakpoint-width-medium) {
+    font-size: $size-breakpoint-desktop-lg;
+  }
+}
+
+small,
+.font--small {
+  font-size: $size-breakpoint-all-small;
 }

@@ -1,0 +1,72 @@
+{
+  "color": {
+    "base": {
+      "white":        {"value": "ffffff"},
+      "orca":         {"value": "222222"},
+      "shark":        {"value": "6e7783"},
+      "manatee":      {"value": "9fabbb"},
+      "fog":          {"value": "c8c9c7"},
+      "cloud":        {"value": "f7f7f7"},
+      "mist":         {"value": "e8e8e8"},
+      "dusk":         {"value": "336787"},
+      "galapagos":    {"value": "008568"},
+      "chili":        {"value": "df0b37"},
+      "limeade":      {"value": "def279"},
+      "beluga":       {"value": "e5ecf0"},
+      "nemo":         {"value": "f26135"}
+    },
+    "deprecated": {
+      "classic": {
+        "orca":           {
+          "value": "000",
+          "comment": "{color.deprecated.comment}"
+        },
+        "calm":           {
+          "value": "8ba6c1",
+          "comment": "{color.deprecated.comment}"
+        },
+        "mist":           {
+          "value": "{color.base.fog.value}",
+          "comment": "{color.deprecated.comment}"
+        },
+        "ctaGreen":       {
+          "value": "48850b",
+          "comment": "{color.deprecated.comment}"
+        },
+        "generalAlert":   {
+          "value": "d47f2f",
+          "comment": "{color.deprecated.comment}"
+        },
+        "warningAlert":   {
+          "value": "cb391f",
+          "comment": "{color.deprecated.comment}"
+        },
+        "titlesHeaders":  {
+          "value": "212223",
+          "comment": "{color.deprecated.comment}"
+        },
+        "primaryCopy":    {
+          "value": "3c3b3f",
+          "comment": "{color.deprecated.comment}"
+        },
+        "secondaryCopy":  {
+          "value": "656565",
+          "comment": "{color.deprecated.comment}"
+        },
+        "offwhite":       {
+          "value": "f5f5f5",
+          "comment": "{color.deprecated.comment}"
+        },
+        "offwhite2":      {
+          "value": "eeeeee",
+          "comment": "{color.deprecated.comment}"
+        },
+        "offwhite3":      {
+          "value": "e9e9e9",
+          "comment": "{color.deprecated.comment}"
+        }
+      },
+      "comment":        "deprecated classic color"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "size": {
+    "border": {
+      "radius": {
+        "default": {"value": 0.666}
+      }
+    }
+  }
+}

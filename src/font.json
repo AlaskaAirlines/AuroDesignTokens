@@ -1,0 +1,23 @@
+{
+  "font": {
+    "family": {
+      "base": {
+        "value": "'{asset.font.circular.family-name.value}', Helvetica Neue, Arial, sans-serif"
+      },
+      "mono": {
+        "value": "Menlo, Monaco, Consolas, 'Courier New', monospace"
+      }
+    }
+  },
+  "weight": {
+    "book": {"value": "400"},
+    "light": {
+      "value": "200",
+      "comment": "Not to be used with size-med or size-small"
+    }
+  },
+  "verticalAlignment": {
+    "heading": {"value": 1.2},
+    "body": {"value": 1.45}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "color": {
+    "type": {
+      "theme": {
+        "dark": {
+          "primary":    {"value": "{color.base.white.value}"},
+          "secondary":  {"value": "{color.base.manatee.value}"},
+          "link":       {"value": "{color.brand.blue.breeze.value}"},
+          "linkHover":  {"value": "{color.brand.blue.atlas.value}"}
+        },
+        "light": {
+          "primary":    {"value": "{color.base.orca.value}"},
+          "secondary":  {"value": "{color.base.shark.value}"},
+          "link":       {"value": "{color.brand.blue.atlas.value}"},
+          "linkHover":  {"value": "{color.brand.blue.midnight.value}"}
+        },
+        "classic": {
+          "primary":    {
+            "value": "{color.brand.blue.midnight.value}",
+            "comment": "{color.deprecated.comment}"},
+          "heading":    {
+            "value": "{color.deprecated.classic.titlesHeaders.value}",
+            "comment": "{color.deprecated.comment}"},
+          "secondary":  {
+            "value": "{color.deprecated.classic.primaryCopy.value}",
+            "comment": "{color.deprecated.comment}"},
+          "tertiary":   {
+            "value": "{color.deprecated.classic.secondaryCopy.value}",
+            "comment": "{color.deprecated.comment}"},
+          "link": {
+            "value": "{color.deprecated.classic.atlas.value}",
+            "comment": "{color.deprecated.comment}"
+          },
+          "linkHover": {
+            "value": "{color.brand.blue.midnight.value}",
+            "comment": "{color.deprecated.comment}"
+          }
+        }
+      },
+      "disabled":       {"value": "{color.base.fog.value}"}
+    }
+  }
+}

@@ -39,7 +39,7 @@ gulp.task('processCss', ['cleanTemp'], function () {
     // Sass pipeline
     .pipe(sass({
       errLogToConsole: true,
-      outputStyle: 'compressed', //alt options: nested, compact, expanded
+      outputStyle: 'expanded', //alt options: nested, compact, compressed
     }))
 
     // Post Sass to CSS process for addressing proprietary prefixes
