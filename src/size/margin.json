@@ -2,8 +2,10 @@
   "size": {
     "margin": {
       "baseline": {"value": 1.3},
-      "xAxis": {"value": 0.5},
-      "yAxis": {"value": 1.414}
+      "header": {
+        "xAxis": {"value": 0.5},
+        "yAxis": {"value": 1.414}
+      }
     }
   }
 }
