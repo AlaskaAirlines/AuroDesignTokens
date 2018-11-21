@@ -17,23 +17,23 @@
         "classic": {
           "primary":    {
             "value": "{color.brand.blue.midnight.value}",
-            "comment": "{color.deprecated.comment}"},
+            "comment": "{color.classic.comment}"},
           "heading":    {
-            "value": "{color.deprecated.classic.titlesHeaders.value}",
-            "comment": "{color.deprecated.comment}"},
+            "value": "{color.classic.titlesHeaders.value}",
+            "comment": "{color.classic.comment}"},
           "secondary":  {
-            "value": "{color.deprecated.classic.primaryCopy.value}",
-            "comment": "{color.deprecated.comment}"},
+            "value": "{color.classic.primaryCopy.value}",
+            "comment": "{color.classic.comment}"},
           "tertiary":   {
-            "value": "{color.deprecated.classic.secondaryCopy.value}",
-            "comment": "{color.deprecated.comment}"},
+            "value": "{color.classic.secondaryCopy.value}",
+            "comment": "{color.classic.comment}"},
           "link": {
-            "value": "{color.deprecated.classic.atlas.value}",
-            "comment": "{color.deprecated.comment}"
+            "value": "{color.classic.atlas.value}",
+            "comment": "{color.classic.comment}"
           },
           "linkHover": {
             "value": "{color.brand.blue.midnight.value}",
-            "comment": "{color.deprecated.comment}"
+            "comment": "{color.classic.comment}"
           }
         }
       },
