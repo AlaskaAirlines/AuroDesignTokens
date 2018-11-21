@@ -2,10 +2,16 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
-
-## [0.1.1390651] - (11/19/2018 4:48:45 PM)
+## [0.1.1391392] - (11/21/2018 1:18:11 PM)
 
 Initial stable release version ready for team consumption.
+
+### Changed
+
+- update reference to classic colors to reduce variable name convention
+
+
+## [0.1.1390651] - (11/19/2018 4:48:45 PM)
 
 ### Fixed
 
