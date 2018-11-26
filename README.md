@@ -1,6 +1,6 @@
 # Orion Design Tokens (ODT)
 
-Design Tokens are abstract UI sub-atomic values that make up the greater Orion Design System (ODT).
+Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODT).
 
 The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts rather than be looked upon as a manually communicated design dependency.
 
@@ -19,11 +19,11 @@ Only these source files are included in the npm build for project reference. Exa
 
 ### The example/ dir
 
-Contained within the `example/` directory is an example `style.scss` and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
+Contained within the `example/` directory are example `style.scss` and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
 
 ### Example config.json file
 
-Contained with the `example/` dir is an example `config.json` file. This fill will output multiple production consumable assets, but you will not use ALL of them on any one project. Examples for the following platforms are currently exemplified and supported:
+Contained with the `example/` dir is an example `config.json` file. This file will output multiple production consumable assets, but **you will not use ALL of them** on any one project. Examples for the following platforms are currently supported:
 
 1. CSS
 1. Sass
@@ -33,7 +33,7 @@ Contained with the `example/` dir is an example `config.json` file. This fill wi
 
 ### The gulpfile
 
-The `gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project.
+The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project.
 
 ### Webpack
 
@@ -55,7 +55,7 @@ Once all the dependencies are installed, the pipeline should output all the nece
 To install ODT into your production project requires two steps:
 
 1. npm install the [ODT package](https://itsals.visualstudio.com/Orion%20Design%20System/_packaging?feed=as.com-npm&package=%40alaskaair%2Falaskaair-design-tokens&version=0.1.1384816&protocolType=Npm&_a=package)
-1. Build processing pipeline
+1. Build a processing pipeline
 
 ## Build ODT pipeline
 
@@ -63,17 +63,47 @@ The example pipeline contains all the steps you should consider when building yo
 
 The example pipeline currently supports Sass and CSS examples. Native mobile platforms are supported, but not yet documented in this project.
 
-### Style Dictionary (dependency)
+### Project config.json install
 
-For processing of `.json` files to a usable Sass/CSS resources, the ODT project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formating and build process are engineered to Style Dictionary's opinions.
+To use Design Tokens with your project, you may need to create a `config.json` wherever makes sense for your build pipeline. 
 
-For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
+Referencing the example `config.json` file, look for the `"source"` key. In here, please update the path to where your npm packages are stored. It's most likely that you will use the following example.
 
-### config.json
+```
+"source": [ "./node_modules/@alaskaair/orion-design-tokens/**/*.json" ]
+```
 
-Within the `example/` dir is an example `config.json` file that is required for Style Dictionary. Engineers will be required to edit this document in their prod project to fit their project's specifications.
+### Processing platform
 
-`"source":` will point to where the tokens are installed within the project
+The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use. 
+
+Update the **buildPath** key to reference the directory where you want the generated file(s) to be placed.
+
+```
+"buildPath": "./[project dir path]/[empty dir]/"
+``` 
+
+Update the **destination** key if you prefer a different name other than `_TokenVariables.scss`
+
+Your `config.json` file would most likely look like the following: 
+
+```
+{
+  "source": [ "./node_modules/@alaskaair/orion-design-tokens/**/*.json" ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./assets/src/sass/global/orion-design-tokens/",
+      "files": [
+        {
+          "destination": "_TokenVariables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
+```
 
 ### Config within pipeline
 
@@ -81,11 +111,11 @@ If preferred, you can bypass the `config.json` dependency and extend the configu
 
 ```js
 const StyleDictionary = require('style-dictionary').extend({
-  source: ['./src/**/*.json'],
+  "source": [ "./node_modules/@alaskaair/orion-design-tokens/**/*.json" ],
   platforms: {
     scss: {
       transformGroup: 'scss',
-      buildPath: './example/tokensBuild/',
+      "buildPath": "./assets/src/sass/global/orion-design-tokens/",
       files: [{
         destination: '_TokenVariables.scss',
         format: 'scss/variables'
@@ -95,6 +125,33 @@ const StyleDictionary = require('style-dictionary').extend({
 });
 
 StyleDictionary.buildAllPlatforms();
+```
+
+### Style Dictionary (dependency)
+
+For processing of `.json` files to a usable Sass/CSS resources, the ODT project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
+
+For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
+
+
+#### Install package dependency
+
+```
+$ npm i style-dictionary -D
+```
+
+### Install w/Gulp
+
+Once you have installed the Style Dictionary npm dependency and completed configuration of the `config.json` file, in your `gulpfile.js` simply add the following dependency and task. 
+
+```
+const StyleDictionary = require('style-dictionary').extend('./[location]/config.json')
+
+// Gulp task to process Design Tokens to Sass variable file
+// See config.json for Style Dictionary process settings
+gulp.task('buildTokens', function() {
+  StyleDictionary.buildAllPlatforms();
+});
 ```
 
 ### Sass or CSS Custom Properties?
@@ -113,4 +170,4 @@ Style Dictionary fully supports native platforms and is able to output resources
 
 CSS Custom Properties are new to CSS and thus do not have good legacy browser support. The term polyfill is used loosely in this scenario in that legacy browser support is best addressed in a PostCSS build pipeline.
 
-In the example, the processed Sass is put through a PostCSS process that take the variable value and create a static property along side the dynamic one. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.
+In the example, the processed Sass is put through a PostCSS process that takes the variable value and creates a static property alongside the dynamic one. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.
