@@ -161,11 +161,10 @@ Once you have installed the Style Dictionary npm dependency and completed config
 A typical scenario includes using a `build.js` and/or `start.js` file. In these files add the following code:
 
 ```js
-const StyleDictionary = require('style-dictionary');
+const StyleDictionary = require('style-dictionary').extend('./config.json');
 
 // Style Dictionary
-const styleDictionary = StyleDictionary.extend('./config.json');
-styleDictionary.buildAllPlatforms();
+StyleDictionary.buildAllPlatforms();
 ```
 
 It's suggested to run this step early on in the build process, especially before any `webpack` calls. This is to ensure that you have the necessary resource files built before any CSS or Sass processing starts.
