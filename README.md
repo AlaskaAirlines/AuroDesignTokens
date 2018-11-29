@@ -2,7 +2,7 @@
 
 Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODT).
 
-The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts rather than be looked upon as a manually communicated design dependency.
+The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts, rather than be a manually communicated design dependency.
 
 ## Contained within this repository
 
@@ -23,7 +23,7 @@ Contained within the `example/` directory are example `style.scss` and `config.j
 
 ### Example config.json file
 
-Contained with the `example/` dir is an example `config.json` file. This file will output multiple production consumable assets, but **you will not use ALL of them** on any one project. Examples for the following platforms are currently supported:
+The `config.json` file, contained within the `example/` directory will output multiple production consumable assets, but **you will not use ALL of them** on any one project. Examples for the following platforms are currently supported:
 
 1. CSS
 1. Sass
@@ -31,15 +31,17 @@ Contained with the `example/` dir is an example `config.json` file. This file wi
 1. iOS
 1. Sketch (specifically color palette generation)
 
-### Gulp
+### The gulpfile
 
-The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project.
+The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project. 
 
-### WebPack
+See code comments for information as to the Gulp tasks. 
 
-See below **Install w/WebPack** for instructions related to running Style Dictionary with a WebPack build work-flow.
+### Webpack
 
-### Run example locally
+A Webpack pipeline is supported. See **Install w/Webpack** for more information.
+
+### Run this example locally
 
 To run locally, clone the resources and run the following commands:
 
@@ -65,9 +67,9 @@ The example pipeline currently supports Sass and CSS examples. Native mobile pla
 
 ### Project config.json install
 
-To use Design Tokens with your project, you may need to create a `config.json` wherever makes sense for your build pipeline.
+To use Design Tokens with your project, it's suggested to create a `config.json` wherever makes sense for your build pipeline. 
 
-Referencing the example `config.json` file, look for the `"source"` key. In here, please update the path to where your npm packages are stored. It's most likely that you will use the following example.
+Referencing the example `config.json` file, look for the `"source"` key. Update the value to the path to where the npm packages are stored. Most likely you will use the following example.
 
 ```
 "source": [ "./node_modules/@alaskaair/orion-design-tokens/**/*.json" ]
@@ -75,17 +77,17 @@ Referencing the example `config.json` file, look for the `"source"` key. In here
 
 ### Processing platform
 
-The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use.
+The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use. 
 
 Update the **buildPath** key to reference the directory where you want the generated file(s) to be placed.
 
 ```
 "buildPath": "./[project dir path]/[empty dir]/"
-```
+``` 
 
 Update the **destination** key if you prefer a different name other than `_TokenVariables.scss`
 
-Your `config.json` file would most likely look like the following:
+Your `config.json` file would most likely look like the following: 
 
 ```
 {
@@ -105,9 +107,34 @@ Your `config.json` file would most likely look like the following:
 }
 ```
 
+### Install w/Gulp
+
+To install with Gulp, add the following example code to your gulpfile.js
+
+```js
+const StyleDictionary = require('style-dictionary').extend('./[dir]/tokenConfig.json')
+
+// Gulp task to process Design Tokens to Sass variable file
+// See config.json for Style Dictionary process settings
+gulp.task('buildTokens', function() {
+  StyleDictionary.buildAllPlatforms();
+});
+```
+
+### Install w/Webpack
+
+Working with Webpack, it's recommend that you use a `build.js` or `start.js` file to manage manual tasks so that the Sass resource is available just in time for the Webpack CSS processing. 
+
+```js
+const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig.json');
+
+// Style Dictionary
+StyleDictionary.buildAllPlatforms();
+```
+
 ### Config within pipeline
 
-If preferred, you can bypass the `config.json` dependency and extend the configuration directly within your build pipeline reference.
+If preferred, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
 
 ```js
 const StyleDictionary = require('style-dictionary').extend({
@@ -140,40 +167,48 @@ For more information, see Style Dictionary's [documentation](https://amzn.github
 $ npm i style-dictionary -D
 ```
 
-### Install w/Gulp
+## Permissions and CI build
 
-Once you have installed the Style Dictionary npm dependency and completed configuration of the `config.json` file, in your `gulpfile.js` simply add the following dependency and task.
+In order to use internal npm packages, locally or CI build, you need to use a security token. 
+
+### User security 
+
+**DO NOT** add a `.npmrc` that contains the security token file in the to your project or track that in version control. 
+
+Place the `.npmrc` file with the security token in your users root directory. 
+
+### Project security
+
+In the root of your project where your build pipeline is, create a new `.npmrc` file, place the following code and commit to version control. 
 
 ```
-const StyleDictionary = require('style-dictionary').extend('./[location]/config.json')
+registry=https://registry.npmjs.com
+always-auth=false
 
-// Gulp task to process Design Tokens to Sass variable file
-// See config.json for Style Dictionary process settings
-gulp.task('buildTokens', function() {
-  StyleDictionary.buildAllPlatforms();
-});
+@alaskaair:registry=https://itsals.pkgs.visualstudio.com/_packaging/as.com-npm/npm/registry/
+@alaskaair:always-auth=true
 ```
 
-### Install w/WebPack
+### CI security 
 
-Once you have installed the Style Dictionary npm dependency and completed configuration of the `config.json` file, building the necessary supporting files from the Design Tokens will be part of the build process that invokes WebPack.
+In order for the CI build to have permissions from VSTS, add the following script commands to your `package.json` files. 
 
-A typical scenario includes using a `build.js` and/or `start.js` file. In these files add the following code:
-
-```js
-const StyleDictionary = require('style-dictionary').extend('./config.json');
-
-// Style Dictionary
-StyleDictionary.buildAllPlatforms();
+```
+"install-vsts-npm-auth" : "npm install -g vsts-npm-auth",
+"generate-vsts-token": "vsts-npm-auth -config .npmrc -T %userprofile%\\.npmrc"
 ```
 
-It's suggested to run this step early on in the build process, especially before any `webpack` calls. This is to ensure that you have the necessary resource files built before any CSS or Sass processing starts.
+These steps will install the `vsts-npm-auth` package and run the auth process. 
 
-### .gitignore
+#### VSTS wysiwyg pipline builder
 
-It is highly recommended that any resource **files that are built from Style Dictionary are NOT added to version control**. These resource files are to be build from the version controlled source package.
+If preferred, you can add these npm commands to the VSTS pipeline builder as well. But the `.npmrc` file needs to be committed to your project's version control. 
 
-### Sass or CSS Custom Properties?
+#### macOS issues
+
+The `vsts-npm-auth` process is **WINDOWS ONLY**. For macOS users building locally, you may need to comment out these lines from the `package.json` file if the build breaks running those commands. 
+
+## Sass or CSS Custom Properties?
 
 Style Dictionary is able to output variable files in either Sass or CSS Custom Properties (variables) format. The example pipeline and the `style.scss` file has references to both Sass and CSS variables.
 
@@ -181,13 +216,11 @@ Style Dictionary is able to output variable files in either Sass or CSS Custom P
 
 The example build pipeline addresses this by concatenating the CSS variables with the final CSS output file.
 
-### Native output support
+## Native output support
 
 Style Dictionary fully supports native platforms and is able to output resources that are usable in both iOS and Android native development.
 
-Native mobile integration examples are WIP.
-
-### CSS Custom Properties browser support
+## CSS Custom Properties browser support
 
 CSS Custom Properties are new to CSS and thus do not have good legacy browser support. The term polyfill is used loosely in this scenario in that legacy browser support is best addressed in a PostCSS build pipeline.
 
