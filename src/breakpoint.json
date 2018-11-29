@@ -3,7 +3,8 @@
     "width": {
       "narrow": {"value": "'min-width: 480px'"},
       "medium": {"value": "'min-width: 840px'"},
-      "wide": {"value": "'min-width: 1024px'"}
+      "wide": {"value": "'min-width: 1024px'"},
+      "max": {"value": "'min-width: 1440px'"}
     }
   }
 }
