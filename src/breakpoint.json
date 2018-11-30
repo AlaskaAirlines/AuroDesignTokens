@@ -1,10 +1,10 @@
 {
   "breakpoint": {
     "width": {
-      "narrow": {"value": "'min-width: 480px'"},
-      "medium": {"value": "'min-width: 840px'"},
-      "wide": {"value": "'min-width: 1024px'"},
-      "max": {"value": "'min-width: 1440px'"}
+      "narrow": {"value": "480px"},
+      "medium": {"value": "840px"},
+      "wide": {"value": "1024px"},
+      "max": {"value": "1440px"}
     }
   }
 }

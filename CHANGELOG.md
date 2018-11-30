@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [] - ()
+
+### Changed
+
+- Remove 'min-width' attribute from token
+
 ## [0.2.1393237] - (11/28/2018 5:58:29 PM)
 
 ### Changed
