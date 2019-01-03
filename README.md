@@ -54,6 +54,28 @@ $ gulp    // run example gulp build pipeline
 
 Once all the dependencies are installed, the pipeline should output all the necessary build resources from the repo's example and output them within the `example/` dir.
 
+## Contributing
+
+Please be sure to follow current Design Token patterns and follow the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item). Any submissions to this project that does not follow these guidelines will be considered non-compliant and your submission will be rejected.
+
+Also, please see this repo's [contributing guidelines](https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens?path=%2FCONTRIBUTING.md&version=GBmaster).
+
+Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control:
+
+```
+$ npm i
+$ gulp
+```
+
+If you just want to validate the JSON, you can do the following:
+
+```
+$ npm i
+$ gulp test
+```
+
+**PLEASE TEST JSON BEFORE SUBMITTING PULL REQUEST**
+
 ## Install with your production project
 
 To install ODT into your production project requires two steps:

@@ -17,12 +17,12 @@ const gulp = require('gulp'),
   postcssCustomProperties = require('postcss-custom-properties'),
   postcss = require('gulp-postcss'),
   concat = require('gulp-concat'),
-  clean = require('gulp-clean');
+  clean = require('gulp-clean'),
+  jsonlint = require("gulp-jsonlint");
 
 const cssTokens = './example/tokensBuild/TokenVariables.css';
 const tempResources = './example/temp/';
 const destination = './example/prodBuild/';
-
 
 // Gulp task to process Design Tokens to Sass variable file
 // See config.json for Style Dictionary process settings
@@ -30,6 +30,11 @@ gulp.task('buildTokens', function() {
   StyleDictionary.buildAllPlatforms();
 });
 
+gulp.task('test', function() {
+  gulp.src("./src/**/*.json")
+    .pipe(jsonlint())
+    .pipe(jsonlint.reporter());
+});
 
 // Gulp task to build CSS file
 gulp.task('processCss', ['cleanTemp'], function () {
