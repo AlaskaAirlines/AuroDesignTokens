@@ -1,5 +1,7 @@
 # Orion Design Tokens (ODT)
 
+[![Build status](https://itsals.visualstudio.com/Orion%20Design%20System/_apis/build/status/Design%20Tokens)](https://itsals.visualstudio.com/Orion%20Design%20System/_build/latest?definitionId=2769)
+
 Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODT).
 
 The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts, rather than be a manually communicated design dependency.
