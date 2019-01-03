@@ -33,9 +33,9 @@ The `config.json` file, contained within the `example/` directory will output mu
 
 ### The gulpfile
 
-The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project. 
+The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the necessary resources for a production project.
 
-See code comments for information as to the Gulp tasks. 
+See code comments for information as to the Gulp tasks.
 
 ### Webpack
 
@@ -67,7 +67,7 @@ The example pipeline currently supports Sass and CSS examples. Native mobile pla
 
 ### Project config.json install
 
-To use Design Tokens with your project, it's suggested to create a `config.json` wherever makes sense for your build pipeline. 
+To use Design Tokens with your project, it's suggested to create a `config.json` wherever makes sense for your build pipeline.
 
 Referencing the example `config.json` file, look for the `"source"` key. Update the value to the path to where the npm packages are stored. Most likely you will use the following example.
 
@@ -77,17 +77,17 @@ Referencing the example `config.json` file, look for the `"source"` key. Update 
 
 ### Processing platform
 
-The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use. 
+The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use.
 
 Update the **buildPath** key to reference the directory where you want the generated file(s) to be placed.
 
 ```
 "buildPath": "./[project dir path]/[empty dir]/"
-``` 
+```
 
 Update the **destination** key if you prefer a different name other than `_TokenVariables.scss`
 
-Your `config.json` file would most likely look like the following: 
+Your `config.json` file would most likely look like the following:
 
 ```
 {
@@ -123,7 +123,7 @@ gulp.task('buildTokens', function() {
 
 ### Install w/Webpack
 
-Working with Webpack, it's recommend that you use a `build.js` or `start.js` file to manage manual tasks so that the Sass resource is available just in time for the Webpack CSS processing. 
+Working with Webpack, it's recommend that you use a `build.js` or `start.js` file to manage manual tasks so that the Sass resource is available just in time for the Webpack CSS processing.
 
 ```js
 const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig.json');
@@ -166,47 +166,6 @@ For more information, see Style Dictionary's [documentation](https://amzn.github
 ```
 $ npm i style-dictionary -D
 ```
-
-## Permissions and CI build
-
-In order to use internal npm packages, locally or CI build, you need to use a security token. 
-
-### User security 
-
-**DO NOT** add a `.npmrc` that contains the security token file in the to your project or track that in version control. 
-
-Place the `.npmrc` file with the security token in your users root directory. 
-
-### Project security
-
-In the root of your project where your build pipeline is, create a new `.npmrc` file, place the following code and commit to version control. 
-
-```
-registry=https://registry.npmjs.com
-always-auth=false
-
-@alaskaair:registry=https://itsals.pkgs.visualstudio.com/_packaging/as.com-npm/npm/registry/
-@alaskaair:always-auth=true
-```
-
-### CI security 
-
-In order for the CI build to have permissions from VSTS, add the following script commands to your `package.json` files. 
-
-```
-"install-vsts-npm-auth" : "npm install -g vsts-npm-auth",
-"generate-vsts-token": "vsts-npm-auth -config .npmrc -T %userprofile%\\.npmrc"
-```
-
-These steps will install the `vsts-npm-auth` package and run the auth process. 
-
-#### VSTS wysiwyg pipline builder
-
-If preferred, you can add these npm commands to the VSTS pipeline builder as well. But the `.npmrc` file needs to be committed to your project's version control. 
-
-#### macOS issues
-
-The `vsts-npm-auth` process is **WINDOWS ONLY**. For macOS users building locally, you may need to comment out these lines from the `package.json` file if the build breaks running those commands. 
 
 ## Sass or CSS Custom Properties?
 

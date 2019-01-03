@@ -1,0 +1,8 @@
+{
+  "color": {
+    "icon": {
+      "toggleArrow": {"value": "{color.brand.blue.atlas.value}"},
+      "chevronArrow": {"value": "{color.brand.blue.atlas.value}"}
+    }
+  }
+}

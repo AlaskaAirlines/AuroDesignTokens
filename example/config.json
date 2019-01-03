@@ -36,19 +36,19 @@
       "buildPath": "./example/tokensBuild/droid/",
       "files": [{
         "destination": "style_dictionary_colors.xml",
-        "template": "android/colors"
+        "format": "android/colors"
       },{
         "destination": "style_dictionary_font_dimens.xml",
-        "template": "android/fontDimens"
+        "format": "android/fontDimens"
       },{
         "destination": "style_dictionary_dimens.xml",
-        "template": "android/dimens"
+        "format": "android/dimens"
       },{
         "destination": "style_dictionary_integers.xml",
-        "template": "android/integers"
+        "format": "android/integers"
      },{
         "destination": "style_dictionary_strings.xml",
-        "template": "android/strings"
+        "format": "android/strings"
       }]
     },
     "ios": {
@@ -56,7 +56,7 @@
       "buildPath": "./example/tokensBuild/ios/",
       "files": [{
         "destination": "StyleDictionaryColor.h",
-        "template": "ios/colors.h",
+        "format": "ios/colors.h",
         "className": "StyleDictionaryColor",
         "type": "StyleDictionaryColorName",
         "filter": {
@@ -66,7 +66,7 @@
         }
       },{
         "destination": "StyleDictionaryColor.m",
-        "template": "ios/colors.m",
+        "format": "ios/colors.m",
         "className": "StyleDictionaryColor",
         "type": "StyleDictionaryColorName",
         "filter": {
@@ -76,7 +76,7 @@
         }
       },{
         "destination": "StyleDictionarySize.h",
-        "template": "ios/static.h",
+        "format": "ios/static.h",
         "className": "StyleDictionarySize",
         "type": "float",
         "filter": {
@@ -86,7 +86,7 @@
         }
       },{
         "destination": "StyleDictionarySize.m",
-        "template": "ios/static.m",
+        "format": "ios/static.m",
         "className": "StyleDictionarySize",
         "type": "float",
         "filter": {

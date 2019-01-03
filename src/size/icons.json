@@ -1,0 +1,22 @@
+{
+  "size": {
+    "icon": {
+      "toggleArrow": {
+        "horizontal": {
+          "width": { "value": 0.533 }
+        },
+        "vertical": {
+          "width": { "value": 0.266 }
+        }
+      }
+    },
+    "chevronArrow": {
+      "horizontal": {
+        "width": { "value": 1 }
+      },
+      "vertical": {
+        "height": { "value": 1 }
+      }
+    }
+  }
+}
