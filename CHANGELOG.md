@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [0.3.0] - ()
+
+### Changed
+
+- Update JSON to add new Icon specs
+- Add JSON validation testing to Gulpfile
+
 ## [0.2.1395001] - (12/4/2018 12:31:34 PM)
 
 ### Changed
