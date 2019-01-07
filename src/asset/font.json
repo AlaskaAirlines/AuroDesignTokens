@@ -2,7 +2,13 @@
   "asset": {
     "font": {
       "circular": {
-        "family-name": { "value": "AS Circular" }
+        "family-name": { "value": "AS Circular" },
+        "dir": { "value": "/assets/fonts/" },
+        "filename": { "value": "ASCircularWeb" },
+        "weight": {
+          "light": { "value": "-Light"},
+          "book": { "value": "-Medium"}
+        }
       }
     }
   }
