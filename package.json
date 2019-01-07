@@ -11,6 +11,7 @@
   "main": "src/",
   "license": "ISC",
   "devDependencies": {
+    "auto-changelog": "^1.10.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean": "^0.4.0",
@@ -26,6 +27,7 @@
     "versiony-cli": "^1.3.0"
   },
   "scripts": {
-    "set-patch": "versiony ./src/package.json --patch"
+    "set-patch": "versiony ./src/package.json --patch",
+    "version": "auto-changelog ./src/package.json && git add CHANGELOG.md"
   }
 }
