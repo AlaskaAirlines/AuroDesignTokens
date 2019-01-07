@@ -1,5 +1,5 @@
 {
-  "name": "@alaska/orion-design-tokens",
+  "name": "@alaskaair/orion-design-tokens",
   "version": "0.2.0",
   "description": "Alaska Air Orion Design System token repository",
   "homepage": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens?_a=readme",
@@ -11,7 +11,6 @@
   "main": "src/",
   "license": "ISC",
   "devDependencies": {
-    "auto-changelog": "^1.10.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean": "^0.4.0",
@@ -27,7 +26,5 @@
     "versiony-cli": "^1.3.0"
   },
   "scripts": {
-    "set-patch": "versiony ./src/package.json --patch",
-    "version": "auto-changelog ./src/package.json && git add CHANGELOG.md"
-  }
+    "set-patch": "versiony ./src/package.json --patch"  }
 }
