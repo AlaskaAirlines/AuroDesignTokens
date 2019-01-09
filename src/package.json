@@ -3,7 +3,7 @@
   "description": "AlaskaAir Design Tokens",
   "version": "0.2.0",
   "author": "Product design and research",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"

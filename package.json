@@ -9,7 +9,7 @@
     "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"
   },
   "main": "src/",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
