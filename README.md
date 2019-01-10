@@ -131,30 +131,69 @@ Your `config.json` file would most likely look like the following:
 }
 ```
 
-### Install w/Gulp
+### Running Style Dictionary
 
-To install with Gulp, add the following example code to your gulpfile.js
+To run Style Dictionary, you simply need to require the dependency and call the function. This will work in any Node.js instance.
 
 ```js
-const StyleDictionary = require('style-dictionary').extend('./[dir]/tokenConfig.json')
+// Required dependency
+const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig.json');
 
-// Gulp task to process Design Tokens to Sass variable file
-// See config.json for Style Dictionary process settings
+// Style Dictionary build function
+StyleDictionary.buildAllPlatforms();
+```
+
+### Run w/Gulp
+
+To run with Gulp, simply require the dependency and wrap the function in any Gulp task;
+
+```js
 gulp.task('buildTokens', function() {
   StyleDictionary.buildAllPlatforms();
 });
 ```
 
-### Install w/Webpack
+### Install w/Webpack and build.js
 
-Working with Webpack, it's recommend that you use a `build.js` or `start.js` file to manage manual tasks so that the Sass resource is available just in time for the Webpack CSS processing.
+If you are using Webpack and a `build.js` or `start.js`, simply require the dependency and call the function. The only requirement is that the Style Dictionary function must run before running Webpack.
+
+### Install w/Webpack and styleDictionary.js
+
+If your project is not using a `build.js` or `start.js` configuration, another way to use Style Dictionary is to place the function call in a separate `.js` file.
+
+For example, in your project you could place the required dependency call and function in `./src/scripts/styleDictionary.js`.
+
+To execute the file, you could concatenate calls in your `package.json` build step, for example;
 
 ```js
-const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig.json');
-
-// Style Dictionary
-StyleDictionary.buildAllPlatforms();
+"scripts": {
+  "build": "node scripts/styleDictionary.js && webpack"
+},
 ```
+
+### Use Webpack Shell Plugin
+
+This 3rd option is a combination of the two previous options. In your project you could place the required dependency call and function in `./src/scripts/styleDictionary.js`. Then in your Webpack config file, require the Webpack Shell Plugin.
+
+```js
+const WebpackShellPlugin = require('webpack-shell-plugin');
+```
+
+Then further down in the same file, add the following plugin option:
+
+```js
+module.exports = {
+  ...
+  plugins: [
+    new WebpackShellPlugin({
+      onBuildStart:['node scripts/styleDictionary.js']
+    })
+  ],
+  ...
+}
+```
+
+This plugin will execute the necessary Style Dictionary command prior to executing Webpack.
 
 ### Config within pipeline
 
