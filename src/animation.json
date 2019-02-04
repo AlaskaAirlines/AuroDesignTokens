@@ -1,0 +1,9 @@
+{
+  "animation": {
+    "default": {
+      "property": {"value": "all"},
+      "duration": {"value": "0.3s"},
+      "timing": {"value": "ease-out"}
+    }
+  }
+}

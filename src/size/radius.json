@@ -2,7 +2,7 @@
   "size": {
     "border": {
       "radius": {
-        "default": {"value": 0.666}
+        "default": {"value": 0.4}
       }
     }
   }

@@ -15,6 +15,14 @@
       "beluga":       {"value": "e5ecf0"},
       "nemo":         {"value": "f26135"}
     },
+    "interactive": {
+      "shadow": {
+        "medium": {"value": "rgba(1,66,106,0.4)"},
+        "light": {"value": "rgba(1,66,106,0.2)"}
+      },
+      "active": {"value": "005694"},
+      "hover": {"value": "0c75e0"}
+    },
     "classic": {
       "orca":           {
         "value": "000",

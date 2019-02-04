@@ -6,13 +6,14 @@
           "primary":    {"value": "{color.base.white.value}"},
           "secondary":  {"value": "{color.base.manatee.value}"},
           "link":       {"value": "{color.brand.blue.breeze.value}"},
-          "linkHover":  {"value": "{color.brand.blue.atlas.value}"}
+          "linkHover":      {"value": "{color.brand.blue.atlas.value}"}
         },
         "light": {
           "primary":    {"value": "{color.base.orca.value}"},
           "secondary":  {"value": "{color.base.shark.value}"},
           "link":       {"value": "{color.brand.blue.atlas.value}"},
-          "linkHover":  {"value": "{color.brand.blue.midnight.value}"}
+          "linkHover":      {"value": "{color.interactive.hover.value}"},
+          "active":     {"value": "{color.interactive.active.value}"}
         },
         "classic": {
           "primary":    {
