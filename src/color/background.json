@@ -1,10 +1,10 @@
 {
   "color": {
     "background": {
-      "bookingBar":       {"value": "{color.brand.blue.midnight.value}"},
-      "footer":           {"value": "{color.brand.blue.midnight.value}"},
-      "accountDrawer":    {"value": "{color.brand.blue.midnight.value}"},
-      "logo":             {"value": "{color.brand.blue.midnight.value}"},
+      "bookingBar":       {"value": "{color.brand.blue.midnight.base.value}"},
+      "footer":           {"value": "{color.brand.blue.midnight.base.value}"},
+      "accountDrawer":    {"value": "{color.brand.blue.midnight.base.value}"},
+      "logo":             {"value": "{color.brand.blue.midnight.base.value}"},
       "headline":         {"value": "{color.base.white.value}"},
       "header":           {"value": "{color.base.white.value}"},
       "sectionSeperator": {"value": "{color.base.cloud.value}"},

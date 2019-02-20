@@ -2,27 +2,41 @@
   "color": {
     "brand": {
       "blue": {
-        "midnight":   {"value": "01426a"},
-        "atlas":      {"value": "0074c8"},
-        "breeze":     {"value": "00C7e6"}
+        "midnight": {
+          "base": { "value": "01426a" }
+        },
+        "atlas": {
+          "base":     { "value": "0074c8" },
+          "lighten":  { "value": "176cff" },
+          "darken":   { "value": "0064c6" }
+        },
+        "breeze": {
+          "base":     { "value": "00C7e6" },
+          "lighten":  { "value": "17d8ff" },
+          "darken":   { "value": "00bae4" }
+        }
       },
       "green": {
-        "tropical":   {"value": "c0e585"}
+        "tropical": {
+          "base":     { "value": "c0e585" },
+          "lighten":  { "value": "0086df" },
+          "darken":   { "value": "abd76f" }
+        }
       },
       "comment":      "Orion brand color"
     },
     "classic": {
       "atlas":        {
         "value": "2774ae",
-        "comment": "{color.classic.comment}"
+        "comment": "{ color.classic.comment }"
       },
       "breeze":       {
         "value": "48a9c5",
-        "comment": "{color.classic.comment}"
+        "comment": "{ color.classic.comment }"
       },
       "tropical":     {
         "value": "b3d57d",
-        "comment": "{color.classic.comment}"
+        "comment": "{ color.classic.comment }"
       }
     }
   }
