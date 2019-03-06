@@ -30,7 +30,7 @@ gulp.task('buildTokens', function() {
   StyleDictionary.buildAllPlatforms();
 });
 
-gulp.task('jsonTest', function() {
+gulp.task('test', function() {
   gulp.src("./src/**/*.json")
     .pipe(jsonlint())
     .pipe(jsonlint.reporter());
@@ -85,4 +85,4 @@ gulp.task('cleanTemp', function () {
 
 // Task(s)
 // Gulp Sequence is used to force Gulp to address tasks in specific build order
-gulp.task('default', gulpSequence('jsonTest', 'buildTokens', 'processCss', 'concatResources'))
+gulp.task('default', gulpSequence('test', 'buildTokens', 'processCss', 'concatResources'))

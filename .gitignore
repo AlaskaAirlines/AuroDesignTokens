@@ -2,6 +2,7 @@
 .npmrc
 node_modules
 build
+dist
 css
 example/temp
 example/prodBuild/

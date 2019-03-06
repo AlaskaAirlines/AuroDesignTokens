@@ -11,6 +11,7 @@
   "main": "src/",
   "license": "Apache-2.0",
   "devDependencies": {
+    "copyfiles": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-clean": "^0.4.0",
@@ -27,6 +28,7 @@
   },
   "scripts": {
     "buildTokens": "node example/scripts/styleDictionary.js",
+    "buildDist": "copyfiles -u 1 -V ./src/**/*.json ./dist",
     "set-patch": "versiony ./src/package.json --patch"
   }
 }
