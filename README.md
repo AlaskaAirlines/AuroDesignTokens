@@ -1,8 +1,6 @@
-# Orion Design Tokens (ODT)
+# Orion Design Tokens
 
-[![Build status](https://itsals.visualstudio.com/Orion%20Design%20System/_apis/build/status/Design%20Tokens)](https://itsals.visualstudio.com/Orion%20Design%20System/_build/latest?definitionId=2769)
-
-Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODT).
+Orion Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODS).
 
 The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts, rather than be a manually communicated design dependency.
 
@@ -16,8 +14,6 @@ This repository serves two purposes:
 ### The src/ dir
 
 Within the project's `src/` dir are the various token values stored in `.json` format.
-
-Only these source files are included in the npm build for project reference. Example pipelines and documentation are **not**.
 
 ### The example/ dir
 
@@ -63,29 +59,28 @@ Also, please see this repo's [contributing guidelines](https://itsals.visualstud
 Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control:
 
 ```
-$ npm i
 $ gulp
 ```
 
 If you just want to validate the JSON, you can do the following:
 
 ```
-$ npm i
-$ gulp test
+$ gulp jsonTest
 ```
 
-**PLEASE TEST JSON BEFORE SUBMITTING PULL REQUEST**
+**All tests will run with the automated build, but it's a good idea to run tests locally to ensure stability of pull request**
 
-## Install with your production project
+## Install
 
-To install ODT into your production project requires two steps:
+To install in your project, install the npm package:
 
-1. npm install the [ODT package](https://itsals.visualstudio.com/Orion%20Design%20System/_packaging?feed=as.com-npm&package=%40alaskaair%2Falaskaair-design-tokens&version=0.1.1384816&protocolType=Npm&_a=package)
-1. Build a processing pipeline
+```
+$ npm i @alaskaair/orion-design-tokens -s
+```
 
-## Build ODT pipeline
+## Build Orion Design Tokens pipeline
 
-The example pipeline contains all the steps you should consider when building your integrated ODT pipeline.
+The example pipeline contains all the steps you should consider when building your integrated Orion Design Tokens pipeline.
 
 The example pipeline currently supports Sass and CSS examples. Native mobile platforms are supported, but not yet documented in this project.
 
@@ -99,7 +94,7 @@ Referencing the example `config.json` file, look for the `"source"` key. Update 
 "source": [ "./node_modules/@alaskaair/orion-design-tokens/**/*.json" ]
 ```
 
-### Processing platform
+### Processing
 
 The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use.
 
@@ -131,7 +126,7 @@ Your `config.json` file would most likely look like the following:
 }
 ```
 
-### Running Style Dictionary
+### Running Style Dictionary (options)
 
 To run Style Dictionary, you simply need to require the dependency and call the function. This will work in any Node.js instance.
 
@@ -143,7 +138,7 @@ const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig
 StyleDictionary.buildAllPlatforms();
 ```
 
-### Run w/Gulp
+#### Gulp
 
 To run with Gulp, simply require the dependency and wrap the function in any Gulp task;
 
@@ -153,11 +148,11 @@ gulp.task('buildTokens', function() {
 });
 ```
 
-### Install w/Webpack and build.js
+#### Webpack and build.js (ejected create-react-app)
 
 If you are using Webpack and a `build.js` or `start.js`, simply require the dependency and call the function. The only requirement is that the Style Dictionary function must run before running Webpack.
 
-### Install w/Webpack and styleDictionary.js
+#### Webpack and styleDictionary.js
 
 If your project is not using a `build.js` or `start.js` configuration, another way to use Style Dictionary is to place the function call in a separate `.js` file.
 
@@ -171,7 +166,13 @@ To execute the file, you could concatenate calls in your `package.json` build st
 },
 ```
 
-### Use Webpack Shell Plugin
+For example, see `./example/scripts/styleDictionary.js`. To run, use the following command:
+
+```
+$ npm run buildTokens
+```
+
+#### Webpack Shell Plugin
 
 This 3rd option is a combination of the two previous options. In your project you could place the required dependency call and function in `./src/scripts/styleDictionary.js`. Then in your Webpack config file, require the Webpack Shell Plugin.
 
@@ -195,7 +196,7 @@ module.exports = {
 
 This plugin will execute the necessary Style Dictionary command prior to executing Webpack.
 
-### Config within pipeline
+#### Config within pipeline
 
 If preferred, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
 
@@ -219,16 +220,12 @@ StyleDictionary.buildAllPlatforms();
 
 ### Style Dictionary (dependency)
 
-For processing of `.json` files to a usable Sass/CSS resources, the ODT project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
+For processing of `.json` files to a usable Sass/CSS resources, the Orion Design Tokens project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
 
 For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
 
 
-#### Install package dependency
-
-```
-$ npm i style-dictionary -D
-```
+Dependency is installed with this package
 
 ## Sass or CSS Custom Properties?
 
