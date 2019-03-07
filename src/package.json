@@ -1,14 +1,40 @@
 {
-  "name": "@alaskaair/orion-design-tokens",
-  "description": "AlaskaAir Design Tokens",
-  "version": "0.4.0",
-  "author": "Product design and research",
+  "name": "@alaskaairux/orion-design-tokens",
+  "description": "Alaska Air Orion Design System token support project",
+  "version": "1.0.0",
+  "author": "Alaska Airlines Product design and research",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"
+    "url": "https://github.com/AlaskaAirlines/OrionDesignTokens"
   },
   "dependencies": {
     "style-dictionary": "^2.7.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "alaska airlines",
+    "style dictionary",
+    "orion design system",
+    "css",
+    "properties",
+    "tokens",
+    "sass",
+    "ios",
+    "android"
+  ],
+  "contributors": [
+    {
+      "name": "Dale Sande",
+      "email": "dale.sande@alaskaair.com"
+    }, {
+      "name": "Camron Lockeby",
+      "email": "camron.lockeby@AlaskaAir.com"
+    }, {
+      "name": "Kevin Sonnichsen",
+      "email": "Kevin.Sonnichsen@alaskaair.com"
+    }
+  ]
 }

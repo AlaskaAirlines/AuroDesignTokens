@@ -1,12 +1,12 @@
 {
-  "name": "@alaskaair/orion-design-tokens",
-  "version": "0.4.0",
+  "name": "@alaskaairux/orion-design-tokens",
+  "version": "1.0.0",
   "description": "Alaska Air Orion Design System token repository",
-  "homepage": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens?_a=readme",
-  "author": "Product design and research",
+  "homepage": "https://github.com/AlaskaAirlines/OrionDesignTokens",
+  "author": "Alaska Airlines Product design and research",
   "repository": {
     "type": "git",
-    "url": "https://itsals.visualstudio.com/Orion%20Design%20System/_git/designTokens"
+    "url": "https://github.com/AlaskaAirlines/OrionDesignTokens"
   },
   "main": "src/",
   "license": "Apache-2.0",
@@ -28,7 +28,12 @@
   },
   "scripts": {
     "buildTokens": "node example/scripts/styleDictionary.js",
-    "buildDist": "copyfiles -u 1 -V ./src/**/*.json ./dist",
+    "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
+    "copyReadme": "copyfiles -f -V './src/README.md' ./dist",
+    "buildDist": "npm run copyReadme | npm run copyJson",
     "set-patch": "versiony ./src/package.json --patch"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
