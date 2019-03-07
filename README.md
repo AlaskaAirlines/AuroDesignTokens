@@ -1,5 +1,9 @@
 # Orion Design Tokens
 
+[![Build Status](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens)
+![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?color=orange)
+![NPM](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue)
+
 Orion Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODS).
 
 The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts, rather than be a manually communicated design dependency.
