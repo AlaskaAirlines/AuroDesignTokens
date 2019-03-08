@@ -11,6 +11,8 @@
   "main": "src/",
   "license": "Apache-2.0",
   "devDependencies": {
+    "auto-changelog": "^1.11.0",
+    "concat": "^1.0.3",
     "copyfiles": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
@@ -28,10 +30,12 @@
   },
   "scripts": {
     "buildTokens": "node example/scripts/styleDictionary.js",
+    "changelog": "auto-changelog --template ./template.hbs --output ./dist/CHANGELOG.md -p -b 5",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
-    "copyReadme": "copyfiles -f -V './src/README.md' ./dist",
-    "buildDist": "npm run copyReadme | npm run copyJson",
-    "set-patch": "versiony ./src/package.json --patch"
+    "copyReadme": "copyfiles -f -V './src/doc.md' ./dist",
+    "concat": "concat -o ./dist/README.md ./dist/doc.md ./dist/CHANGELOG.md",
+    "set-patch-root": "versiony ./package.json --patch",
+    "set-patch-src": "versiony ./src/package.json --patch"
   },
   "publishConfig": {
     "access": "public"

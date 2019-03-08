@@ -3,12 +3,16 @@ node_js:
  - "node"
 script:
   - npm run buildTokens
-  - npm run set-patch $TRAVIS_BUILD_ID
+  - npm run set-patch-root $TRAVIS_BUILD_ID
+  - npm run set-patch-src $TRAVIS_BUILD_ID
 branches:
   only:
     - master
 before_deploy:
-  - npm run buildDist
+  - npm run copyReadme
+  - npm run copyJson
+  - npm run changelog
+  - npm run concat
   - cd dist
 deploy:
   on:
