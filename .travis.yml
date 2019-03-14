@@ -21,3 +21,5 @@ deploy:
   email: "$NPM_EMAIL"
   api_key: "$NPM_TOKEN"
   skip_cleanup: true
+notifications:
+  webhooks: https://outlook.office.com/webhook/47d2147c-afa1-4bd4-ae32-2749757844b2@0f44c5d4-42b0-45c2-bf55-d0fea8430d33/TravisCI/6ccc70bb60f948809957cbd7ab063223/c3c71b9e-d319-4002-a79c-b694111e2be8
