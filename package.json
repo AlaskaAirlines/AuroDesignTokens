@@ -29,7 +29,7 @@
     "versiony-cli": "^1.3.0"
   },
   "scripts": {
-    "buildTokens": "node example/scripts/styleDictionary.js",
+    "buildTokens": "node scripts/styleDictionary.js",
     "changelog": "auto-changelog --template ./template.hbs --output ./dist/CHANGELOG.md -p -b 5",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "copyReadme": "copyfiles -f -V './src/doc.md' ./dist",

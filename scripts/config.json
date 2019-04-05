@@ -1,0 +1,35 @@
+{
+  "source": ["./src/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "_TokenVariables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "TokenProperties.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "sass": {
+      "transformGroup": "css",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "_TokenProperties.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}
