@@ -231,6 +231,43 @@ For more information, see Style Dictionary's [documentation](https://amzn.github
 
 Dependency is installed with this package
 
+## Install pre-processed resources
+
+Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory. 
+
+```
+└── tokens
+   ├── TokenProperties.css
+   ├── _TokenProperties.scss
+   └── _TokenVariables.scss
+```
+
+| file | type | syntax |
+|---|---|---|
+| TokenProperties.css | CSS Custom Properties | CSS |
+| _TokenProperties.scss | CSS Custom Properties | SCSS | 
+| _TokenVariables.scss | Sass variables | SCSS |
+
+**To install in Sass file:**
+
+```
+@import "~@alaskaairux/orion-design-tokens/tokens/TokenVariables";
+
+or 
+
+@import "~@alaskaairux/orion-design-tokens/tokens/TokenProperties";
+```
+
+**To install CSS file:**
+
+With React or similar framework, the CSS file can be imported directly from the npm:
+
+```
+import "@alaskaairux/orion-design-tokens/tokens/TokenProperties.css";
+```
+
+For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario. 
+
 ## Sass or CSS Custom Properties?
 
 Style Dictionary is able to output variable files in either Sass or CSS Custom Properties (variables) format. The example pipeline and the `style.scss` file has references to both Sass and CSS variables.

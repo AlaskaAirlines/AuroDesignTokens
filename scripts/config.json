@@ -27,7 +27,7 @@
       "files": [
         {
           "destination": "_TokenProperties.scss",
-          "format": "scss/variables"
+          "format": "css/variables"
         }
       ]
     }
