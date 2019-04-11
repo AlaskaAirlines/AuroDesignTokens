@@ -1,7 +1,8 @@
 {
   "size": {
     "width": {
-      "max": {"value": 88}
+      "max": {"value": 82.5},
+      "comment": "style guide value 1320px"
     }
   }
 }

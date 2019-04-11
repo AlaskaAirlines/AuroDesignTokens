@@ -1,6 +1,6 @@
 {
   "name": "@alaskaairux/orion-design-tokens",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Alaska Air Orion Design System token repository",
   "homepage": "https://github.com/AlaskaAirlines/OrionDesignTokens",
   "author": "Alaska Airlines Product design and research",
@@ -10,6 +10,9 @@
   },
   "main": "src/",
   "license": "Apache-2.0",
+  "dependencies": {
+    "style-dictionary": "^2.7.0"
+  },
   "devDependencies": {
     "auto-changelog": "^1.12.0",
     "concat": "^1.0.3",
@@ -23,21 +26,44 @@
     "gulp-sass": "^4.0.2",
     "gulp-sequence": "^1.0.0",
     "postcss-custom-properties": "^8.0.8",
-    "style-dictionary": "^2.7.0"
-  },
-  "dependencies": {
+    "style-dictionary": "^2.7.0",
     "versiony-cli": "^1.3.0"
   },
   "scripts": {
     "buildTokens": "node scripts/styleDictionary.js",
-    "changelog": "auto-changelog --template ./template.hbs --output ./dist/CHANGELOG.md -p -b 5",
+    "changelog": "auto-changelog --template ./scripts/template.hbs --output ./dist/CHANGELOG.md -p -b 5",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
-    "copyReadme": "copyfiles -f -V './src/doc.md' ./dist",
-    "concat": "concat -o ./dist/README.md ./dist/doc.md ./dist/CHANGELOG.md",
-    "set-patch-root": "versiony ./package.json --patch",
-    "set-patch-src": "versiony ./src/package.json --patch"
+    "copyPkg": "copyfiles -V './package.json' ./dist",
+    "copyReadme": "copyfiles -f -V './src/npmREADME.md' ./dist",
+    "concat": "concat -o ./dist/README.md ./dist/npmREADME.md ./dist/CHANGELOG.md",
+    "set-patch": "versiony ./package.json --patch"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "alaska airlines",
+    "style dictionary",
+    "orion design system",
+    "css",
+    "properties",
+    "tokens",
+    "sass",
+    "ios",
+    "android"
+  ],
+  "contributors": [
+    {
+      "name": "Dale Sande",
+      "email": "dale.sande@alaskaair.com"
+    },
+    {
+      "name": "Camron Lockeby",
+      "email": "camron.lockeby@AlaskaAir.com"
+    },
+    {
+      "name": "Kevin Sonnichsen",
+      "email": "Kevin.Sonnichsen@alaskaair.com"
+    }
+  ]
 }

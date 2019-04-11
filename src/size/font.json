@@ -1,53 +1,53 @@
 {
   "size": {
     "root": {
-      "value": 0.9375,
+      "value": 1,
       "comment": "style guide value 15px"
     },
     "breakpoint": {
       "all": {
         "med": {
           "value": 1,
-          "comment": "style guide value 15px, not to be used with light font weight"
+          "comment": "style guide value 16px, not to be used with light font weight"
         },
         "small": {
-          "value": 0.8,
+          "value": 0.75,
           "comment": "style guide value 12px, not to be used with light font weight"
         }
       },
       "desktop": {
         "max": {
-          "value": 3.2,
+          "value": 3,
           "comment": "style guide value 48px"
         },
         "xxl": {
-          "value": 2.4,
+          "value": 2.25,
           "comment": "style guide value 36px"
         },
         "xl": {
-          "value": 1.866,
+          "value": 1.75,
           "comment": "style guide value 28px"
         },
         "lg": {
-          "value": 1.333,
+          "value": 1.25,
           "comment": "style guide value 20px"
         }
       },
       "mobile": {
         "max": {
-          "value": 2,
+          "value": 1.875,
           "comment": "style guide value 30px"
         },
         "xxl": {
-          "value": 1.733,
+          "value": 1.625,
           "comment": "style guide value 26px"
         },
         "xl": {
-          "value": 1.4,
+          "value": 1.3125,
           "comment": "style guide value 21px"
         },
         "lg": {
-          "value": 1.2,
+          "value": 1.125,
           "comment": "style guide value 18px"
         }
       }
