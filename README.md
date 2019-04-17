@@ -17,17 +17,17 @@ This repository serves two purposes:
 1. To maintain the single source of record of the distributed token files
 1. Provide example pipelines of how to use Design Tokens in prod apps
 
-### The src/ dir
+### The ./src dir
 
-Within the project's `src/` dir are the various token values stored in `.json` format.
+Within the project's `src/` dir are the various token values stored in `.json` format. These are the production resources distributed via npm.
 
-### The example/ dir
+### The ./example dir
 
 Contained within the `example/` directory are example `style.scss` and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
 
-### Example config.json file
+### ./example/config.json file
 
-The `config.json` file, contained within the `example/` directory will output multiple production consumable assets, but **you will not use ALL of them** on any one project. Examples for the following platforms are currently supported:
+The `config.json` file, contained within the `./example/` directory will output multiple production consumable assets. Examples for the following platforms are currently supported:
 
 1. CSS
 1. Sass
@@ -35,15 +35,11 @@ The `config.json` file, contained within the `example/` directory will output mu
 1. iOS
 1. Sketch (specifically color palette generation)
 
-### The gulpfile
+### Example ./gulpfile.js
 
-The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the resources for a production project.
+The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the resources for a production project. It is not used for any production or recommended for use outside this project. 
 
 See code comments for information as to the Gulp tasks.
-
-### Webpack
-
-A Webpack pipeline is supported. See **Install w/Webpack** for more information.
 
 ### Run this example locally
 
@@ -112,7 +108,7 @@ Update the **buildPath** key to reference the directory where you want the gener
 
 Update the **destination** key if you prefer a different name other than `_TokenVariables.scss`
 
-Your `config.json` file would most likely look like the following:
+Here is an example `config.json` file:
 
 ```
 {
@@ -144,31 +140,15 @@ const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig
 StyleDictionary.buildAllPlatforms();
 ```
 
-#### Gulp
+#### Using ./scripts/styleDictionary.js
 
-To run with Gulp, simply require the dependency and wrap the function in any Gulp task;
-
-```js
-gulp.task('buildTokens', function() {
-  StyleDictionary.buildAllPlatforms();
-});
-```
-
-#### Webpack and build.js (ejected create-react-app)
-
-If you are using Webpack and a `build.js` or `start.js`, simply require the dependency and call the function. The only requirement is that the Style Dictionary function must run before running Webpack.
-
-#### Webpack and styleDictionary.js
-
-If your project is not using a `build.js` or `start.js` configuration, another way to use Style Dictionary is to place the function call in a separate `.js` file.
-
-For example, in your project you could place the required dependency call and function in `./src/scripts/styleDictionary.js`.
+The easiest way to integrate the Style Dictionary step is to create a `styleDictionary.js` file using the JavaScript API example shown above. 
 
 To execute the file, you could concatenate calls in your `package.json` build step, for example;
 
 ```js
 "scripts": {
-  "build": "node scripts/styleDictionary.js && webpack"
+  "build": "node scripts/styleDictionary.js || webpack"
 },
 ```
 
@@ -202,9 +182,13 @@ module.exports = {
 
 This plugin will execute the necessary Style Dictionary command prior to executing Webpack.
 
+#### Webpack and build.js (ejected create-react-app)
+
+If you are using Webpack and a `build.js` or `start.js`, simply require the dependency and call the function. The only requirement is that the Style Dictionary function must run before running Webpack.
+
 #### Config within pipeline
 
-If preferred, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
+If prefer, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
 
 ```js
 const StyleDictionary = require('style-dictionary').extend({
@@ -286,4 +270,4 @@ Style Dictionary fully supports native platforms and is able to output resources
 
 CSS Custom Properties are new to CSS and thus do not have good legacy browser support. The term polyfill is used loosely in this scenario in that legacy browser support is best addressed in a PostCSS build pipeline.
 
-In the example, the processed Sass is put through a PostCSS process that takes the variable value and creates a static property alongside the dynamic one. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.
+In the example `gulpfile.js` the processed Sass is put through a PostCSS process to create a fallback CSS property. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.

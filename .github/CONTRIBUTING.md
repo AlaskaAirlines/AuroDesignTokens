@@ -22,6 +22,8 @@ Poor bug reports will be reassigned back to the creator for revision prior to an
 
 ## Submitting pull requests
 
+No one other than repository managers have direct access to the repository. For all pull requests you must first fork the project to your own Github account. 
+
 All new work that is to be considered for merging with the `MASTER` branch must start from a new feature branch of work. This feature branch should be in response to either a bug or a new business requirement.
 
 #### Feature branch naming
@@ -49,9 +51,9 @@ For example:
 
 #### Push branch and submit pull request
 
-One you have committed new work to your feature branch, be sure to push your updates to the Azure repository. Depending on your IDE or CLI configuration this may be a manual or automatic step.
+One you have committed new work to your feature branch, be sure to push your updates to the Github repository. Depending on your IDE or CLI configuration this may be a manual or automatic step.
 
-To submit a new pull request, please go to [https://itsals.visualstudio.com/](https://itsals.visualstudio.com/) to find your project. Within the project navigate to **REPOS > BRANCHES**. Hover over your branch and you should see `New pull request` appear to the right. Click on `New pull request`.
+To submit a new pull request, please go to [https://github.com/AlaskaAirlines](https://github.com/AlaskaAirlines) to find your project and submit the Pull Request. 
 
 On the pull request page, the new pull request should be `[your-new-branch] into [master]`
 
