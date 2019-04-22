@@ -1,7 +1,7 @@
 {
   "source": ["./src/**/*.json"],
   "platforms": {
-    "scss": {
+    "SassVariables": {
       "transformGroup": "scss",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -11,17 +11,17 @@
         }
       ]
     },
-    "css": {
+    "CSSCustomElements": {
       "transformGroup": "css",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "TokenProperties.css",
+          "destination": "CSSTokenProperties.css",
           "format": "css/variables"
         }
       ]
     },
-    "sass": {
+    "CSSCustomElements_SassFiletype": {
       "transformGroup": "css",
       "buildPath": "./dist/tokens/",
       "files": [

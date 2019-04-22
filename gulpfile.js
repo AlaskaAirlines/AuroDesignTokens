@@ -10,14 +10,12 @@
 // =====================================================================
 
 const gulp = require('gulp'),
-  gulpSequence = require('gulp-sequence'),
   sass = require('gulp-sass'),
   gulpautoprefixer = require('gulp-autoprefixer'),
   StyleDictionary = require('style-dictionary').extend('./example/config.json'),
   postcssCustomProperties = require('postcss-custom-properties'),
   postcss = require('gulp-postcss'),
   concat = require('gulp-concat'),
-  clean = require('gulp-clean'),
   jsonlint = require("gulp-jsonlint");
 
 const cssTokens = './example/tokensBuild/TokenVariables.css';
@@ -26,18 +24,21 @@ const destination = './example/prodBuild/';
 
 // Gulp task to process Design Tokens to Sass variable file
 // See config.json for Style Dictionary process settings
-gulp.task('buildTokens', function() {
+gulp.task('buildTokens', function(cb) {
   StyleDictionary.buildAllPlatforms();
+  cb();
 });
 
-gulp.task('test', function() {
+gulp.task('test', function(cb) {
   gulp.src("./src/**/*.json")
     .pipe(jsonlint())
     .pipe(jsonlint.reporter());
+  cb();
 });
 
+
 // Gulp task to build CSS file
-gulp.task('processCss', ['cleanTemp'], function () {
+gulp.task('processCss', function () {
   // set path to where Sass files are located to be processed
   return gulp.src('./example/src/{,*/}*.{scss,sass}')
 
@@ -76,13 +77,6 @@ gulp.task('concatResources', function () {
 });
 
 
-// Utility task to clean up processed resources
-gulp.task('cleanTemp', function () {
-  return gulp.src(tempResources, {read: false})
-    .pipe(clean());
-});
-
-
 // Task(s)
 // Gulp Sequence is used to force Gulp to address tasks in specific build order
-gulp.task('default', gulpSequence('test', 'buildTokens', 'processCss', 'concatResources'))
+gulp.task('default', gulp.series(gulp.parallel('test', 'buildTokens', 'processCss', 'concatResources')));
