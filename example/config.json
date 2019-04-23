@@ -21,6 +21,16 @@
         }
       ]
     },
+    "JavaScript": {
+      "transformGroup": "js",
+      "buildPath": "./example/tokensBuild/",
+      "files": [
+        {
+          "destination": "TokenVariables.js",
+          "format": "javascript/module"
+        }
+      ]
+    },
     "sketch": {
       "transformGroup": "assets",
       "buildPath": "./example/tokensBuild/",
