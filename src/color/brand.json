@@ -19,8 +19,8 @@
       "green": {
         "tropical": {
           "base":     { "value": "c0e585" },
-          "lighten":  { "value": "0086df" },
-          "darken":   { "value": "abd76f" }
+          "lighten":  { "value": "bff380" },
+          "darken":   { "value": "a6d36a" }
         }
       },
       "comment":      "Orion brand color"
