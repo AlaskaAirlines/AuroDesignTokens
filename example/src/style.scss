@@ -42,13 +42,13 @@
 
 html {
   box-sizing: border-box;
-  font-size: $size-root;
+  font-size: 1rem;
 }
 
 body {
  font-family: $font-family-base;
  font-weight: $weight-book;
- font-size: $size-breakpoint-all-med;
+ font-size: $size-font-breakpoint-all-med;
  line-height: $vertical-alignment-body;
  color: $color-type-theme-light-primary;
 }
@@ -75,39 +75,39 @@ p {
 }
 
 .heading-1 {
-  font-size: $size-breakpoint-mobile-max;
+  font-size: $size-font-breakpoint-mobile-max;
   margin-top: 0;
 
   @media screen and ($breakpoint-width-medium) {
-    font-size: $size-breakpoint-desktop-max;
+    font-size: $size-font-breakpoint-desktop-max;
   }
 }
 
 .heading-2 {
-  font-size: $size-breakpoint-mobile-xxl;
+  font-size: $size-font-breakpoint-mobile-xxl;
 
   @media screen and ($breakpoint-width-medium) {
-    font-size: $size-breakpoint-desktop-xxl;
+    font-size: $size-font-breakpoint-desktop-xxl;
   }
 }
 
 .heading-3 {
-  font-size: $size-breakpoint-mobile-xl;
+  font-size: $size-font-breakpoint-mobile-xl;
 
   @media screen and ($breakpoint-width-medium) {
-    font-size: $size-breakpoint-desktop-xl;
+    font-size: $size-font-breakpoint-desktop-xl;
   }
 }
 
 .heading-4 {
-  font-size: $size-breakpoint-mobile-lg;
+  font-size: $size-font-breakpoint-mobile-lg;
 
   @media screen and ($breakpoint-width-medium) {
-    font-size: $size-breakpoint-desktop-lg;
+    font-size: $size-font-breakpoint-desktop-lg;
   }
 }
 
 small,
 .font--small {
-  font-size: $size-breakpoint-all-small;
+  font-size: $size-font-breakpoint-all-small;
 }

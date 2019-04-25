@@ -1,0 +1,30 @@
+{
+  "size": {
+    "scale": {
+      "sml": {
+        "value": 0.5,
+        "comment": "style guide value 8px"
+      },
+      "med": {
+        "value": 1,
+        "comment": "style guide value 16px"
+      },
+      "lg": {
+        "value": 1.5,
+        "comment": "style guide value 24px"
+      },
+      "xl": {
+        "value": 2,
+        "comment": "style guide value 32px"
+      },
+      "xxl": {
+        "value": 3,
+        "comment": "style guide value 48px"
+      },
+      "max": {
+        "value": 3.5,
+        "comment": "style guide value 56px"
+      }
+    }
+  }
+}
