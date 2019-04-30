@@ -7,7 +7,7 @@
           "comment": "style guide value 8px"
         },
         "vertical": {
-          "width": { "value": 0.25 },
+          "height": { "value": 0.25 },
           "comment": "style guide value 4px"
         }
       },
