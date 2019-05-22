@@ -22,13 +22,60 @@ Poor bug reports will be reassigned back to the creator for revision prior to an
 
 ## Submitting pull requests
 
-No one other than repository managers have direct access to the repository. For all pull requests you must first fork the project to your own Github account. 
+No one other than repository managers have direct access to the repository. For all pull requests you must first fork the project to your own Github account.
 
 All new work that is to be considered for merging with the `MASTER` branch must start from a new feature branch of work. This feature branch should be in response to either a bug or a new business requirement.
 
-#### Feature branch naming
+### Feature branch naming
 
 The name of the feature branch should be descriptive as to the nature of the work and please include any references to the story or bug work item ID.
+
+### Conventional Commits
+
+This project utilizes [Conventional Commits](https://www.conventionalcommits.org/) to auto-generate release verions, based on the [Angular Commit Message Guidelines](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines).
+
+
+```
+<type>[optional scope]: <description>
+```
+
+All commit messages must be prefixed with a specific type so that the semver release configuration can analyze the commit and apply the correct version release. Please see the following types with their respective meanings.
+
+#### MAJOR
+
+For a MAJOR release, you MUST follow this template. The use of `perf:` and `BREAKING CHANGE:` are needed in order to push a major release.
+
+```
+perf(pencil): remove graphiteWidth option
+
+BREAKING CHANGE: The graphiteWidth option has been removed.
+The default graphite width of 10mm is always used for performance reasons.
+```
+
+#### MINOR
+```
+feat(pencil): add 'graphiteWidth' option
+```
+
+#### PATCH
+```
+fix(pencil): stop graphite breaking when too much pressure applied
+```
+
+#### Other commit types
+
+| type | description |
+|---|---|
+| build | Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm) |
+| ci | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) |
+| docs | Documentation only changes |
+| feat | A new feature (this correlates with `MINOR` in semantic versioning) |
+| fix | A bug fix (this correlates with `PATCH` in semantic versioning) |
+| perf | A code change that improves performance (correlating with `MAJOR` in semantic versioning) |
+| BREAKING CHANGE | A code change that is not backwards compatable (correlating with `MAJOR` in semantic versioning) |
+| refactor | A code change that neither fixes a bug nor adds a feature |
+| style | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
+| test | Adding missing tests or correcting existing tests  |
 
 #### Git commit messages
 
@@ -49,11 +96,25 @@ For example:
 * If applied, this commit will `refactor component X for accessibility`
 * If applied, this commit will `add feature Y to component X`
 
-#### Push branch and submit pull request
+Example messages when using Conventional Commits:
+
+```
+$ build: update to Gulp 4.x
+
+$ docs: address issue #14, typo in install instructions
+
+$ perf: restructure API to comply with new feature spec
+
+$ feat: add ability to consume large data as an array versus string
+
+$ fix: address issue #57 in regards to color output
+```
+
+### Push branch and submit pull request
 
 One you have committed new work to your feature branch, be sure to push your updates to the Github repository. Depending on your IDE or CLI configuration this may be a manual or automatic step.
 
-To submit a new pull request, please go to [https://github.com/AlaskaAirlines](https://github.com/AlaskaAirlines) to find your project and submit the Pull Request. 
+To submit a new pull request, please go to [https://github.com/AlaskaAirlines](https://github.com/AlaskaAirlines) to find your project and submit the Pull Request.
 
 On the pull request page, the new pull request should be `[your-new-branch] into [master]`
 
