@@ -1,4 +1,4 @@
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="125" align="right" /> 
+<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="125" align="right" />
 
 [![Build Status](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens)
 ![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?color=orange)
@@ -37,7 +37,7 @@ The `config.json` file, contained within the `./example/` directory will output 
 
 ### Example ./gulpfile.js
 
-The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the resources for a production project. It is not used for any production or recommended for use outside this project. 
+The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the resources for a production project. It is not used for any production or recommended for use outside this project.
 
 See code comments for information as to the Gulp tasks.
 
@@ -77,7 +77,7 @@ $ gulp test
 To install in your project, see instructions from [npmjs.org](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
 
 ```
-npm i @alaskaairux/orion-design-tokens -s
+npm i @alaskaairux/orion-design-tokens
 ```
 
 ## Build Orion Design Tokens pipeline
@@ -142,7 +142,7 @@ StyleDictionary.buildAllPlatforms();
 
 #### Using ./scripts/styleDictionary.js
 
-The easiest way to integrate the Style Dictionary step is to create a `styleDictionary.js` file using the JavaScript API example shown above. 
+The easiest way to integrate the Style Dictionary step is to create a `styleDictionary.js` file using the JavaScript API example shown above.
 
 To execute the file, you could concatenate calls in your `package.json` build step, for example;
 
@@ -219,7 +219,7 @@ Dependency is installed with this package
 
 ## Install pre-processed resources
 
-Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory. 
+Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory.
 
 ```
 └── tokens
@@ -231,7 +231,7 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 | file | type | syntax |
 |---|---|---|
 | TokenProperties.css | CSS Custom Properties | CSS |
-| _TokenProperties.scss | CSS Custom Properties | SCSS | 
+| _TokenProperties.scss | CSS Custom Properties | SCSS |
 | _TokenVariables.scss | Sass variables | SCSS |
 
 **To install in Sass file:**
@@ -239,7 +239,7 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 ```
 @import "~@alaskaairux/orion-design-tokens/tokens/TokenVariables";
 
-or 
+or
 
 @import "~@alaskaairux/orion-design-tokens/tokens/TokenProperties";
 ```
@@ -252,7 +252,7 @@ With React or similar framework, the CSS file can be imported directly from the 
 import "@alaskaairux/orion-design-tokens/tokens/TokenProperties.css";
 ```
 
-For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario. 
+For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
 
 ## Sass or CSS Custom Properties?
 
