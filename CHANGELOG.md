@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [2.0.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v1.0.0...v2.0.0) (2019-05-22)
+
+
+### Performance Improvements
+
+* **semantic-release:** overhaul release process) ([a4d72c0](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/a4d72c0))
+
+
+### BREAKING CHANGES
+
+* **semantic-release:** This is reuqired for full MAJOR version change
+
 # 1.0.0 (2019-05-22)
 
 
