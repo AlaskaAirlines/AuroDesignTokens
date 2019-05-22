@@ -30,6 +30,16 @@
           "format": "css/variables"
         }
       ]
+    },
+    "JSONtest": {
+      "transformGroup": "css",
+      "buildPath": "./test/",
+      "files": [
+        {
+          "destination": "validJSON",
+          "format": "css/variables"
+        }
+      ]
     }
   }
 }

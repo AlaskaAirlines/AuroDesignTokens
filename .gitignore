@@ -2,6 +2,7 @@
 node_modules
 build
 dist
+test
 css
 example/temp
 example/prodBuild/
