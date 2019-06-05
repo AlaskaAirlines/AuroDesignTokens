@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.2.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.1.0...v2.2.0) (2019-06-05)
+
+
+### Features
+
+* update support for icons, add support for new micro size scale ([#8](https://github.com/AlaskaAirlines/OrionDesignTokens/issues/8)) ([d9cd6a5](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/d9cd6a5))
+
 # [2.1.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.0.0...v2.1.0) (2019-05-22)
 
 
