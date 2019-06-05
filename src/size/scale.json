@@ -1,6 +1,10 @@
 {
   "size": {
     "scale": {
+      "micro": {
+        "value": 0.25,
+        "comment": "style guide value 4px"
+      },
       "sml": {
         "value": 0.5,
         "comment": "style guide value 8px"

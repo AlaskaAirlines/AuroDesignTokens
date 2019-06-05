@@ -20,6 +20,10 @@
           "height": { "value": 1 },
           "comment": "style guide value 16px"
         }
+      },
+      "stepOut": {
+        "width": { "value": 0.6},
+        "height": { "value": 0.6 }
       }
     }
   }
