@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.3.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.2.0...v2.3.0) (2019-06-06)
+
+
+### Features
+
+* add support for unitless scale ([d2df81b](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/d2df81b))
+
 # [2.2.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.1.0...v2.2.0) (2019-06-05)
 
 
