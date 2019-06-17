@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.3.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.3.0...v2.3.1) (2019-06-17)
+
+
+### Bug Fixes
+
+* [#6](https://github.com/AlaskaAirlines/OrionDesignTokens/issues/6) issue with incorrect font sizes on mobile scale ([cc79e27](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/cc79e27))
+
 # [2.3.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.2.0...v2.3.0) (2019-06-06)
 
 
