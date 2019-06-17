@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.3.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.3.1...v2.3.2) (2019-06-17)
+
+
+### Bug Fixes
+
+* address incorrect NaN properties in output files ([ab018a7](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/ab018a7))
+
 ## [2.3.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.3.0...v2.3.1) (2019-06-17)
 
 
