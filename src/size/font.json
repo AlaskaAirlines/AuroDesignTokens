@@ -8,7 +8,7 @@
       "breakpoint": {
         "all": {
           "med": {
-            "value": {"value": "{size.scale.med.value}"},
+            "value": "{size.scale.med.value}",
             "comment": "style guide value 16px, not to be used with light font weight"
           },
           "small": {
@@ -18,7 +18,7 @@
         },
         "desktop": {
           "max": {
-            "value": {"value": "{size.scale.xxl.value}"},
+            "value": "{size.scale.xxl.value}",
             "comment": "style guide value 48px"
           },
           "xxl": {
