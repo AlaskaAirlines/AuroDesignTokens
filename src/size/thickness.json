@@ -1,0 +1,8 @@
+{
+  "border": {
+    "width": {
+      "thin": {"value": "1px"},
+      "thick": {"value": "2px"}
+    }
+  }
+}
