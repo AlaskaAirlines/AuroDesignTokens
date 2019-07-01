@@ -237,11 +237,11 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 **To install in Sass file:**
 
 ```
-@import "~@alaskaairux/orion-design-tokens/tokens/TokenVariables";
+@import "~@alaskaairux/orion-design-tokens/tokens/dist/TokenVariables";
 
 or
 
-@import "~@alaskaairux/orion-design-tokens/tokens/TokenProperties";
+@import "~@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties";
 ```
 
 **To install CSS file:**
@@ -249,7 +249,7 @@ or
 With React or similar framework, the CSS file can be imported directly from the npm:
 
 ```
-import "@alaskaairux/orion-design-tokens/tokens/TokenProperties.css";
+import "@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties.css";
 ```
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
