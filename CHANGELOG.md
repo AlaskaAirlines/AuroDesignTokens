@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.4.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.0...v2.4.1) (2019-07-08)
+
+
+### Bug Fixes
+
+* update to header margin x-axis ([527c7bd](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/527c7bd))
+
 # [2.4.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.3.2...v2.4.0) (2019-06-25)
 
 
