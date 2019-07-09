@@ -7,7 +7,7 @@
         "filename": { "value": "ASCircularWeb" },
         "weight": {
           "light": { "value": "-Light"},
-          "book": { "value": "-Medium"}
+          "book": { "value": "-Book"}
         }
       }
     }
