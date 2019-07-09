@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.4.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.1...v2.4.2) (2019-07-09)
+
+
+### Bug Fixes
+
+* update token reference to font-weight ([d3b05d9](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/d3b05d9))
+
 ## [2.4.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.0...v2.4.1) (2019-07-08)
 
 
