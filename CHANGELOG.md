@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.5.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.5.0...v2.5.1) (2019-08-02)
+
+
+### Bug Fixes
+
+* change export type ([740bfff](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/740bfff))
+
 # [2.5.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.2...v2.5.0) (2019-08-02)
 
 
