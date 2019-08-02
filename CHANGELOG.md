@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.5.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.2...v2.5.0) (2019-08-02)
+
+
+### Features
+
+* include JS data object in npm dist ([00471d1](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/00471d1))
+
 ## [2.4.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.4.1...v2.4.2) (2019-07-09)
 
 
