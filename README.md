@@ -33,7 +33,6 @@ The `config.json` file, contained within the `./example/` directory will output 
 1. Sass
 1. Android
 1. iOS
-1. Sketch (specifically color palette generation)
 
 ### Example ./gulpfile.js
 
@@ -225,7 +224,8 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 └── tokens
    ├── TokenProperties.css
    ├── _TokenProperties.scss
-   └── _TokenVariables.scss
+   ├── _TokenVariables.scss
+   └── TokenColorVariables.js
 ```
 
 | file | type | syntax |
@@ -233,6 +233,7 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 | TokenProperties.css | CSS Custom Properties | CSS |
 | _TokenProperties.scss | CSS Custom Properties | SCSS |
 | _TokenVariables.scss | Sass variables | SCSS |
+| TokenVariables.js | data | JS |
 
 **To install in Sass file:**
 

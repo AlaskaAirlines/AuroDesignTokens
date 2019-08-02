@@ -31,6 +31,21 @@
         }
       ]
     },
+    "JavaScript": {
+      "transformGroup": "js",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "TokenColorVariables.js",
+          "format": "javascript/object",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        }
+      ]
+    },
     "JSONtest": {
       "transformGroup": "css",
       "buildPath": "./test/",
