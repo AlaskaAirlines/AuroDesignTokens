@@ -37,7 +37,7 @@
       "files": [
         {
           "destination": "TokenColorVariables.js",
-          "format": "javascript/object",
+          "format": "javascript/module",
           "filter": {
             "attributes": {
               "category": "color"
