@@ -79,7 +79,52 @@ To install in your project, see instructions from [npmjs.org](https://www.npmjs.
 npm i @alaskaairux/orion-design-tokens
 ```
 
+## Install pre-processed resources
+
+Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory.
+
+```
+└── tokens
+   ├── TokenProperties.css
+   ├── _TokenProperties.scss
+   ├── _TokenVariables.scss
+   └── TokenColorVariables.js
+```
+
+| file | type | syntax |
+|---|---|---|
+| TokenProperties.css | CSS Custom Properties | CSS |
+| _TokenProperties.scss | CSS Custom Properties | SCSS |
+| _TokenVariables.scss | Sass variables | SCSS |
+| TokenVariables.js | data | JS |
+
+**To install in Sass file:**
+
+```
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables";
+
+or
+
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenProperties";
+```
+
+**To install CSS file:**
+
+With React or similar framework, the CSS file can be imported directly from the npm:
+
+```
+import "@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties.css";
+```
+
+For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
+
 ## Build Orion Design Tokens pipeline
+
+Install dependency
+
+```
+$ npm i style-dictionary
+```
 
 The example pipeline contains all the steps you should consider when building your integrated Orion Design Tokens pipeline.
 
@@ -212,48 +257,6 @@ StyleDictionary.buildAllPlatforms();
 For processing of `.json` files to a usable Sass/CSS resources, the Orion Design Tokens project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
 
 For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
-
-
-Dependency is installed with this package
-
-## Install pre-processed resources
-
-Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory.
-
-```
-└── tokens
-   ├── TokenProperties.css
-   ├── _TokenProperties.scss
-   ├── _TokenVariables.scss
-   └── TokenColorVariables.js
-```
-
-| file | type | syntax |
-|---|---|---|
-| TokenProperties.css | CSS Custom Properties | CSS |
-| _TokenProperties.scss | CSS Custom Properties | SCSS |
-| _TokenVariables.scss | Sass variables | SCSS |
-| TokenVariables.js | data | JS |
-
-**To install in Sass file:**
-
-```
-@import "~@alaskaairux/orion-design-tokens/tokens/dist/TokenVariables";
-
-or
-
-@import "~@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties";
-```
-
-**To install CSS file:**
-
-With React or similar framework, the CSS file can be imported directly from the npm:
-
-```
-import "@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties.css";
-```
-
-For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
 
 ## Sass or CSS Custom Properties?
 
