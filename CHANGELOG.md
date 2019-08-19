@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.6.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.5.1...v2.6.0) (2019-08-19)
+
+
+### Features
+
+* remove reference to size/icons.json as this is now managed with the Orion Icons repo ([612bd5e](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/612bd5e))
+
 ## [2.5.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.5.0...v2.5.1) (2019-08-02)
 
 
