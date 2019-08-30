@@ -26,7 +26,7 @@
     "gulp-sass": "^4.0.2",
     "husky": "^2.4.0",
     "postcss-custom-properties": "^8.0.10",
-    "semantic-release": "^15.13.15",
+    "semantic-release": "^15.13.24",
     "style-dictionary": "^2.8.0"
   },
   "scripts": {
@@ -63,7 +63,8 @@
         {
           "assets": [
             "./CHANGELOG.md",
-            "package.json"
+            "package.json",
+            "package-lock.json"
           ]
         }
       ],
