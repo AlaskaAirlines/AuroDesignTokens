@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.7.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.6.0...v2.7.0) (2019-09-03)
+
+
+### Features
+
+* ship es6 token variables ([#11](https://github.com/AlaskaAirlines/OrionDesignTokens/issues/11)) ([a98e2b4](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/a98e2b4))
+
 # [2.6.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.5.1...v2.6.0) (2019-08-19)
 
 
