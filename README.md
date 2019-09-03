@@ -88,7 +88,8 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
    ├── TokenProperties.css
    ├── _TokenProperties.scss
    ├── _TokenVariables.scss
-   └── TokenColorVariables.js
+   ├── TokenColorVariables.js
+   └── TokenVariables.esm.js
 ```
 
 | file | type | syntax |
@@ -96,14 +97,15 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 | TokenProperties.css | CSS Custom Properties | CSS |
 | _TokenProperties.scss | CSS Custom Properties | SCSS |
 | _TokenVariables.scss | Sass variables | SCSS |
-| TokenVariables.js | data | JS |
+| TokenColorVariables.js | data | JS |
+| TokenVariables.esm.js | ESModule | JS |
 
 **To install in Sass file:**
 
-```
+```scss
 @import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables";
 
-or
+// or
 
 @import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenProperties";
 ```
@@ -112,11 +114,19 @@ or
 
 With React or similar framework, the CSS file can be imported directly from the npm:
 
-```
+```js
 import "@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties.css";
 ```
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
+
+**To install ESModules file:**
+
+Within a webpacked application or a `type="module"` script:
+
+```js
+import { BreakpointWidthNarrow, BreakpointWidthMedium } from '@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables.esm.js';
+```
 
 ## Build Orion Design Tokens pipeline
 
@@ -136,7 +146,7 @@ To use Design Tokens with your project, it's suggested to create a `config.json`
 
 Referencing the example `config.json` file, look for the `"source"` key. Update the value to the path to where the npm packages are stored. Most likely you will use the following example.
 
-```
+```json
 "source": [ "./node_modules/@alaskaairux/orion-design-tokens/**/*.json" ]
 ```
 
@@ -146,7 +156,7 @@ The example `config.json` file covers a lot of possible outputs from the Design 
 
 Update the **buildPath** key to reference the directory where you want the generated file(s) to be placed.
 
-```
+```json
 "buildPath": "./[project dir path]/[empty dir]/"
 ```
 
@@ -154,7 +164,7 @@ Update the **destination** key if you prefer a different name other than `_Token
 
 Here is an example `config.json` file:
 
-```
+```json
 {
   "source": [ "./node_modules/@alaskaairux/orion-design-tokens/**/*.json" ],
   "platforms": {
