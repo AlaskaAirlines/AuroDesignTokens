@@ -92,13 +92,13 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
    └── TokenVariables.esm.js
 ```
 
-| file | type | syntax |
-|---|---|---|
-| TokenProperties.css | CSS Custom Properties | CSS |
-| _TokenProperties.scss | CSS Custom Properties | SCSS |
-| _TokenVariables.scss | Sass variables | SCSS |
-| TokenColorVariables.js | data | JS |
-| TokenVariables.esm.js | ESModule | JS |
+| file | type | Use | syntax |
+|---|---|---|---|
+| TokenProperties.css | Tokens as CSS Custom Properties | Link to CSS file | CSS |
+| _TokenProperties.scss | Tokens as CSS Custom Properties as Sass file | Import Sass file | SCSS |
+| _TokenVariables.scss | Tokens as Sass variables | Import Sass file | SCSS |
+| TokenColorVariables.js | Token Color data object | Import data from ... | JS |
+| TokenVariables.esm.js | ESModule of all Token variables | import { variable(s)} from ... | JS |
 
 **To install in Sass file:**
 
