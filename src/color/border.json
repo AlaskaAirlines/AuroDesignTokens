@@ -1,0 +1,10 @@
+{
+  "color": {
+    "border": {
+      "button": {
+        "default": { "value": "{color.brand.blue.atlas.base.value}" },
+        "disabled": { "value": "{color.base.cloud.value}" }
+      }
+    }
+  }
+}
