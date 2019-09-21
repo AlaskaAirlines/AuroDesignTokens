@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.7.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.1...v2.7.2) (2019-09-21)
+
+
+### Bug Fixes
+
+* add classic values for button ([30957f5](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/30957f5))
+
 ## [2.7.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.0...v2.7.1) (2019-09-12)
 
 
