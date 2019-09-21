@@ -38,6 +38,10 @@
         "value": "48850b",
         "comment": "{color.classic.comment}"
       },
+      "ctaGreenHover":       {
+        "value": "3b6d09",
+        "comment": "{color.classic.comment}"
+      },
       "generalAlert":   {
         "value": "d47f2f",
         "comment": "{color.classic.comment}"

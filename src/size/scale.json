@@ -28,6 +28,10 @@
       "max": {
         "value": 3.5,
         "comment": "style guide value 56px"
+      },
+      "classic": {
+        "value": 0.875,
+        "comment": "classic style  value 12px"
       }
     }
   }
