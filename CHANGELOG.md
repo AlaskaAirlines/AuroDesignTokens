@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.7.3](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.2...v2.7.3) (2019-10-09)
+
+
+### Bug Fixes
+
+* update base.shark to new hex ([9dfd0fb](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/9dfd0fb))
+
 ## [2.7.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.1...v2.7.2) (2019-09-21)
 
 
