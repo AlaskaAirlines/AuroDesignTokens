@@ -276,6 +276,12 @@ Style Dictionary is able to output variable files in either Sass or CSS Custom P
 
 The example build pipeline addresses this by concatenating the CSS variables with the final CSS output file.
 
+## Hex Codes
+
+Style Dictionary requires that color definitions be established as hex values that then can be transformed into various outputs, e.g. rgba, rgb 6-digit hex, iOS and Android color vars. 
+
+To support alpha values, it is suggested to use 8-digit or RGBA hex values, where the last digit(s) represents the alpha value. For more information see [8-Digit Hex Codes?](https://css-tricks.com/8-digit-hex-codes/) and here for a full [#RRGGBBAA table](https://borderleft.com/toolbox/rrggbbaa/).
+
 ## Native output support
 
 Style Dictionary fully supports native platforms and is able to output resources that are usable in both iOS and Android native development.
@@ -285,3 +291,11 @@ Style Dictionary fully supports native platforms and is able to output resources
 CSS Custom Properties are new to CSS and thus do not have good legacy browser support. The term polyfill is used loosely in this scenario in that legacy browser support is best addressed in a PostCSS build pipeline.
 
 In the example `gulpfile.js` the processed Sass is put through a PostCSS process to create a fallback CSS property. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.
+
+
+##
+
+<footer>
+Alaska Airlines Orion Design System<br>
+Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
+</footer>
