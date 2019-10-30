@@ -31,6 +31,7 @@
   },
   "scripts": {
     "buildTokens": "node scripts/styleDictionary.js",
+    "ciBuild": "npm run buildTokens",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "test": "node scripts/jsonTest.js"
   },
