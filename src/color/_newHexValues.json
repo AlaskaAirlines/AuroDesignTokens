@@ -1,0 +1,107 @@
+{
+  "ods-color-background-lightest": "FFFFFF",
+  "ods-color-background-lighter": "F7F7F7",
+  "ods-color-background-darker": "01426A",
+  "ods-color-background-darkest": "00274A",
+
+  "ods-color-ui-default-on-light": "0074C8",
+  "ods-color-ui-hover-on-light": "054687",
+  "ods-color-ui-active-on-light": "054687",
+  "ods-color-ui-disabled-on-light": "0074C8 @20%",
+
+  "ods-color-ui-default-on-dark": "00CFF0",
+  "ods-color-ui-hover-on-dark": "5DE3F7",
+  "ods-color-ui-active-on-dark": "5DE3F7",
+  "ods-color-ui-disabled-on-dark": "00CFF0 @30%",
+
+  "ods-color-border-primary-on-light": "000000 @15%",
+  "ods-color-border-active-on-light": "0074C8",
+  "ods-color-border-error-on-light": "DF0B37",
+  "ods-color-border-disabled-on-light": "DBDBDB",
+
+  "ods-color-border-primary-on-dark": "FFFFFF @40%",
+  "ods-color-border-active-on-dark": "00CFF0",
+  "ods-color-border-error-on-dark": "FF999B",
+  "ods-color-border-disabled-on-dark": "DBDBDB",
+
+  "ods-color-text-primary-on-light": "222222",
+  "ods-color-text-secondary-on-light": "626B79",
+  "ods-color-text-link-on-light": "0074C8",
+  "ods-color-text-error-on-light": "DF0B37",
+  "ods-color-text-disabled-on-light": "DBDBDB",
+
+  "ods-color-text-primary-on-dark": "FFFFFF",
+  "ods-color-text-secondary-on-dark": "9FABBB",
+  "ods-color-text-link-on-dark": "00CFF0",
+  "ods-color-text-error-on-dark": "FF999B",
+  "ods-color-text-disabled-on-dark": "DBDBDB",
+
+  "ods-color-icon-primary-on-light": "626B79",
+  "ods-color-icon-emphasis-on-light": "222222",
+  "ods-color-icon-accent-on-light": "0074C8",
+  "ods-color-icon-disabled-on-light": "DBDBDB",
+
+  "ods-color-icon-primary-on-dark": "9FABBB",
+  "ods-color-icon-emphasis-on-dark": "FFFFFF",
+  "ods-color-icon-accent-on-dark": "00CFF0",
+  "ods-color-icon-disabled-on-dark": "DBDBDB",
+
+  "ods-color-alert-notification-on-light": "0074C8",
+  "ods-color-alert-warning-on-light": "DE750C",
+  "ods-color-alert-error-on-light": "DF0B37",
+  "ods-color-alert-success-on-light": "00805D",
+  "ods-color-alert-advisory-on-light": "FFF0CD",
+
+  "ods-color-alert-notification-on-dark": "00CFF0",
+  "ods-color-alert-error-on-dark": "FF999B",
+  "ods-color-alert-success-on-dark": "69CF96",
+  "ods-color-alert-advisory-on-dark": "FFF0CD",
+
+  "ods-color-brand-midnight-100": "C1DAF0",
+  "ods-color-brand-midnight-200": "569ED7",
+  "ods-color-brand-midnight-300": "156FAD",
+  "ods-color-brand-midnight-400": "01426A",
+  "ods-color-brand-midnight-500": "00274A",
+
+  "ods-color-brand-atlas-100": "CDE6FF",
+  "ods-color-brand-atlas-200": "6BB7FB",
+  "ods-color-brand-atlas-300": "2492EB",
+  "ods-color-brand-atlas-400": "0074CA",
+  "ods-color-brand-atlas-500": "054687",
+
+  "ods-color-brand-breeze-100": "C0F7FF",
+  "ods-color-brand-breeze-200": "5DE3F7",
+  "ods-color-brand-breeze-300": "00CFF0",
+  "ods-color-brand-breeze-400": "099DC5",
+  "ods-color-brand-breeze-500": "0B5575",
+
+  "ods-color-brand-tropical-100": "E2FFCD",
+  "ods-color-brand-tropical-200": "D0F8A6",
+  "ods-color-brand-tropical-300": "C0E585",
+  "ods-color-brand-tropical-400": "91BE62",
+  "ods-color-brand-tropical-500": "5E8741",
+
+  "ods-color-brand-alpine-100": "BCAAE6",
+  "ods-color-brand-alpine-200": "9E73EA",
+  "ods-color-brand-alpine-300": "8439EF",
+  "ods-color-brand-alpine-400": "631DB8",
+  "ods-color-brand-alpine-500": "39115C",
+
+  "ods-color-brand-flamingo-100": "FFEBEE",
+  "ods-color-brand-flamingo-200": "FFC0CA",
+  "ods-color-brand-flamingo-300": "FF94A7",
+  "ods-color-brand-flamingo-400": "F65B7B",
+  "ods-color-brand-flamingo-500": "B82B47",
+
+  "ods-color-brand-canyon-100": "FFCAB6",
+  "ods-color-brand-canyon-200": "F99574",
+  "ods-color-brand-canyon-300": "F26135",
+  "ods-color-brand-canyon-400": "DE3E09",
+  "ods-color-brand-canyon-500": "B83302",
+
+  "ods-color-brand-goldcoast-100": "FFF0CD",
+  "ods-color-brand-goldcoast-200": "FFDB67",
+  "ods-color-brand-goldcoast-300": "FFD200",
+  "ods-color-brand-goldcoast-400": "E5AD07",
+  "ods-color-brand-goldcoast-500": "B88624"
+}

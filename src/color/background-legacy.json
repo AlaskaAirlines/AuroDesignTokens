@@ -1,0 +1,82 @@
+{
+  "color": {
+    "background": {
+      "bookingBar": {
+        "value": "{color.brand.blue.midnight.base.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "footer":{
+        "value": "{color.brand.blue.midnight.base.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "accountDrawer": {
+        "value": "{color.brand.blue.midnight.base.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "logo": {
+        "value": "{color.brand.blue.midnight.base.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "headline": {
+        "value": "{color.base.white.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "header": {
+        "value": "{color.base.white.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "sectionSeperator": {
+        "value": "{color.base.cloud.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "error": {
+        "value": "{color.base.chili.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "alert": {
+        "value": "{color.base.limeade.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "advisory": {
+        "value": "{color.base.beluga.value}",
+        "comment": "{comments.color.deprecated.comment}",
+        "deprecated": true,
+        "legacy": true
+      },
+      "dark": {
+        "rule": {
+          "value": "{color.base.dusk.value}",
+          "comment": "{comments.color.deprecated.comment}",
+          "deprecated": true,
+          "legacy": true
+        }
+      },
+      "light": {
+        "rule": {
+          "value": "{color.base.mist.value}",
+          "comment": "{comments.color.deprecated.comment}",
+          "deprecated": true,
+          "legacy": true
+        }
+      }
+    }
+  }
+}

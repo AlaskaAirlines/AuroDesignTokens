@@ -1,0 +1,70 @@
+{
+  "color": {
+    "alert": {
+      "notification": {
+        "onLight": {
+          "value": "{color.base.ui.value}",
+          "current": true,
+          "usage": "Notification color on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "current": true,
+          "usage": "Notification color on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "error": {
+        "onLight": {
+          "value": "{color.base.crimson.500.value}",
+          "current": true,
+          "usage": "Error color on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.crimson.100.value}",
+          "current": true,
+          "usage": "Error color on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "warning": {
+        "onLight": {
+          "value": "{color.base.sunset.500.value}",
+          "current": true,
+          "usage": "Warning color on light backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "success": {
+        "onLight": {
+          "value": "{color.base.emerald.500.value}",
+          "current": true,
+          "usage": "Success color on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.emerald.100.value}",
+          "current": true,
+          "usage": "Success color on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "advisory": {
+        "onLight": {
+          "value": "{color.brand.goldcoast.100.value}",
+          "current": true,
+          "usage": "Travel advisory or system maintenance color on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.brand.goldcoast.100.value}",
+          "current": true,
+          "usage": "Travel advisory or system maintenance color on dark backgrounds",
+          "wcag": "AAA"
+        }
+      }
+    }
+  }
+}

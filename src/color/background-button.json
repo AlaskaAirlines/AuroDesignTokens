@@ -1,0 +1,70 @@
+{
+  "color": {
+    "background": {
+      "defaultButton": {
+        "value": "{color.brand.blue.atlas.base.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "activeButton": {
+        "value": "{color.brand.blue.atlas.darken.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "isActiveButton": {
+        "value": "{color.brand.blue.atlas.base.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "secondaryButton": {
+        "value": "{color.base.white.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "completeButton": {
+        "value": "{color.brand.green.tropical.base.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "hoverCompleteButton": {
+        "value": "{color.brand.green.tropical.lighten.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "hoverButton": {
+        "value": "{color.brand.blue.atlas.lighten.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      },
+      "disabledButton": {
+        "value": "{color.base.cloud.value}",
+        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "deprecated": true,
+        "legacy": true,
+        "redirect": true,
+        "reference": "UNKNOWN"
+      }
+    }
+  }
+}

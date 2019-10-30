@@ -1,38 +1,29 @@
 {
   "color": {
     "background": {
-      "bookingBar":           {"value": "{color.brand.blue.midnight.base.value}"},
-      "footer":               {"value": "{color.brand.blue.midnight.base.value}"},
-      "accountDrawer":        {"value": "{color.brand.blue.midnight.base.value}"},
-      "logo":                 {"value": "{color.brand.blue.midnight.base.value}"},
-      "headline":             {"value": "{color.base.white.value}"},
-      "header":               {"value": "{color.base.white.value}"},
-      "sectionSeperator":     {"value": "{color.base.cloud.value}"},
-      "error":                {"value": "{color.base.chili.value}"},
-      "alert":                {"value": "{color.base.limeade.value}"},
-      "advisory":             {"value": "{color.base.beluga.value}"},
-      "defaultButton":        {"value": "{color.brand.blue.atlas.base.value}"},
-      "activeButton":         {"value": "{color.brand.blue.atlas.darken.value}"},
-      "isActiveButton":       {"value": "{color.brand.blue.atlas.base.value}"},
-      "secondaryButton":      {"value": "{color.base.white.value}"},
-      "completeButton":       {"value": "{color.brand.green.tropical.base.value}"},
-      "hoverCompleteButton":  {"value": "{color.brand.green.tropical.lighten.value}"},
-      "hoverButton":          {"value": "{color.brand.blue.atlas.lighten.value}"},
-      "disabledButton":       {"value": "{color.base.cloud.value}"},
-      "dark": {
-        "rule": {
-          "value": "{color.base.dusk.value}",
-          "comment": "Used with light backgrounds"
-        }
+      "lightest": {
+        "value": "{color.base.white.value}",
+        "current": true,
+        "usage": "Used for creating light backgrounds",
+        "wcag": "n/a"
       },
-      "light": {
-        "rule": {
-          "value": "{color.base.mist.value}",
-          "comment": "Used with dark backgrounds",
-          "classic": {
-            "value": "{color.base.fog.value}"
-          }
-        }
+      "lighter": {
+        "value": "{color.base.cloud.value}",
+        "current": true,
+        "usage": "Used for creating light backgrounds @ 90% white",
+        "wcag": "n/a"
+      },
+      "darker": {
+        "value": "{color.brand.midnight.400.value}",
+        "current": true,
+        "usage": "Used for creating dark backgrounds",
+        "wcag": "n/a"
+      },
+      "darkest": {
+        "value": "{color.brand.midnight.500.value}",
+        "current": true,
+        "usage": "Used for creating dark backgrounds @ 20% darker",
+        "wcag": "n/a"
       }
     }
   }

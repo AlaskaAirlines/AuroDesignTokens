@@ -1,0 +1,62 @@
+{
+  "color": {
+    "icon": {
+      "primary": {
+        "onLight": {
+          "value": "{color.base.unionblue.value}",
+          "current": true,
+          "usage": "Primary color for icons on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.manatee.value}",
+          "current": true,
+          "usage": "Primary color for icons on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "emphasis": {
+        "onLight": {
+          "value": "{color.base.orca.value}",
+          "current": true,
+          "usage": "Emphasis or darkest icon color on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "current": true,
+          "usage": "Emphasis or lightest icon color on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled icon color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled icon color on dark backgrounds",
+          "wcag": "n/a"
+        }
+      },
+      "accent": {
+        "onLight": {
+          "value": "{color.base.ui.value}",
+          "current": true,
+          "usage": "Accent color for icon color on light backgrounds",
+          "wcag": "AA"
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "current": true,
+          "usage": "Accent color for icon color on dark backgrounds",
+          "wcag": "AA"
+        }
+      }
+    }
+  }
+}
