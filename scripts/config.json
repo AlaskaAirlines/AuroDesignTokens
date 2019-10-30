@@ -65,7 +65,7 @@
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSTokenProperties.css",
+          "destination": "TokenProperties.css",
           "format": "css/variables",
           "filter": {
             "legacy": true
