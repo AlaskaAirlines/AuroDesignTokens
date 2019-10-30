@@ -1,38 +1,152 @@
 {
   "source": ["./src/**/*.json"],
   "platforms": {
-    "SassVariables": {
+    "SCSSVariables": {
       "transformGroup": "scss",
+      "prefix": "ods",
+      "comment": "File type: SCSS; variable type: Sass; filter: current",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSVariables.scss",
+          "format": "scss/variables",
+          "filter": {
+            "current": true
+          }
+        }
+      ]
+    },
+    "SCSSVariables--deprecatedFile": {
+      "transformGroup": "scss",
+      "comment": "File type: SCSS; variable type: Sass; filter: legacy",
       "buildPath": "./dist/tokens/",
       "files": [
         {
           "destination": "_TokenVariables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "filter": {
+            "legacy": true
+          }
         }
       ]
     },
-    "CSSCustomElements": {
+    "CSSCustomProperties": {
       "transformGroup": "css",
+      "prefix": "ods",
+      "comment": "File type: CSS; variable type: CSS; filter: current",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "current": true
+          }
+        }
+      ]
+    },
+    "CSSCustomProperties--classicColors": {
+      "transformGroup": "css",
+      "comment": "File type: CSS; variable type: CSS; filter: Classic Colors",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties--classicColors.css",
+          "format": "css/variables",
+          "filter": {
+            "classic": true
+          }
+        }
+      ]
+    },
+    "CSSCustomProperties--deprecatedFile": {
+      "transformGroup": "css",
+      "comment": "File type: CSS; variable type: CSS; filter: legacy",
       "buildPath": "./dist/tokens/",
       "files": [
         {
           "destination": "CSSTokenProperties.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "filter": {
+            "legacy": true
+          }
         }
       ]
     },
-    "CSSCustomElements_SassFiletype": {
+    "SassCustomProperties": {
       "transformGroup": "css",
+      "prefix": "ods",
+      "comment": "File type: SCSS; variable type: CSS; filter: current",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SassCustomProperties.scss",
+          "format": "css/variables",
+          "filter": {
+            "current": true
+          }
+        }
+      ]
+    }
+    ,
+    "SassCustomProperties--deprecatedFile": {
+      "transformGroup": "css",
+      "comment": "File type: CSS; variable type: CSS; filter: legacy",
       "buildPath": "./dist/tokens/",
       "files": [
         {
           "destination": "_TokenProperties.scss",
-          "format": "css/variables"
+          "format": "css/variables",
+          "filter": {
+            "legacy": true
+          }
         }
       ]
     },
-    "JavaScript": {
+    "SassCustomProperties--classicColors": {
+      "transformGroup": "scss",
+      "comment": "File type: SCSS; variable type: Sass; filter: Classic Colors",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SassCustomProperties--classicColors.scss",
+          "format": "scss/variables",
+          "filter": {
+            "classic": true
+          }
+        }
+      ]
+    },
+    "JSExports--color": {
       "transformGroup": "js",
+      "comment": "File type: JS; variable type: JS; filter: colors || current",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSData--color.js",
+          "format": "javascript/module",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "current": true
+          }
+        },
+        {
+          "destination": "JSVariables--color.js",
+          "format": "javascript/es6",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "current": true
+          }
+        }
+      ]
+    },
+    "JSExports--color--deprecatedFile": {
+      "transformGroup": "js",
+      "comment": "File type: JS; variable type: JS; filter: color / legacy",
       "buildPath": "./dist/tokens/",
       "files": [
         {
@@ -41,12 +155,55 @@
           "filter": {
             "attributes": {
               "category": "color"
-            }
+            },
+            "legacy": true
           }
         },
         {
           "destination": "TokenVariables.esm.js",
           "format": "javascript/es6"
+        }
+      ]
+    },
+    "JSObject--deprecatedTokens": {
+      "transformGroup": "js",
+      "comment": "File type: JS; variable type: JS; filter: deprecated",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSObject--deprecated.js",
+          "format": "javascript/module",
+          "filter": {
+            "deprecated": true
+          }
+        }
+      ]
+    },
+    "JSObject--classicColors": {
+      "transformGroup": "js",
+      "comment": "File type: JS; variable type: JS; filter: classic colors",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSObject--classicColors.js",
+          "format": "javascript/module",
+          "filter": {
+            "classic": true
+          }
+        }
+      ]
+    },
+    "JSObject--colorRedirects": {
+      "transformGroup": "js",
+      "comment": "File type: JS; variable type: JS; filter: redirect",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSObject--colorRedirects.js",
+          "format": "javascript/module",
+          "filter": {
+            "redirect": true
+          }
         }
       ]
     },
