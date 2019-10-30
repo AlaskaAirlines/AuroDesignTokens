@@ -1,8 +1,22 @@
 {
   "border": {
     "width": {
-      "thin": {"value": "1px"},
-      "thick": {"value": "2px"}
+      "thin": {
+        "value": "1px",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      },
+      "thick": {
+        "value": "2px",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      }
     }
   }
 }

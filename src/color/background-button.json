@@ -3,67 +3,67 @@
     "background": {
       "defaultButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "activeButton": {
         "value": "{color.brand.blue.atlas.darken.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "isActiveButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "secondaryButton": {
         "value": "{color.base.white.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "completeButton": {
         "value": "{color.brand.green.tropical.base.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "hoverCompleteButton": {
         "value": "{color.brand.green.tropical.lighten.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "hoverButton": {
         "value": "{color.brand.blue.atlas.lighten.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       },
       "disabledButton": {
         "value": "{color.base.cloud.value}",
-        "comment": "{comments.color.reference.comment} UNKNOWN",
+        "comment": "{comments.color.reference.comment} TBD",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "UNKNOWN"
+        "reference": "TBD"
       }
     }
   }

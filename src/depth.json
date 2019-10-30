@@ -1,13 +1,76 @@
 {
   "depth": {
-    "hidden": {"value": "-1"},
-    "surface": {"value": "0"},
-    "tropo": {"value": "10"},
-    "meso": {"value": "20"},
-    "exo": {"value": "30"},
-    "dialog": {"value": "{depth.tropo.value}"},
-    "overlay": {"value": "{depth.meso.value}"},
-    "modal": {"value": "{depth.exo.value}"},
-    "tooltip": {"value": "{depth.exo.value}"}
+    "hidden": {
+      "value": "-1",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "surface": {
+      "value": "0",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "tropo": {
+      "value": "10",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "meso": {
+      "value": "20",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "exo": {
+      "value": "30",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "dialog": {
+      "value": "{depth.tropo.value}",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "overlay": {
+      "value": "{depth.meso.value}",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "modal": {
+      "value": "{depth.exo.value}",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "tooltip": {
+      "value": "{depth.exo.value}",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    }
   }
 }

@@ -1,8 +1,12 @@
 {
   "size": {
     "width": {
-      "max": {"value": 82.5},
-      "comment": "style guide value 1320px"
+      "max": {
+        "value": 82.5,
+        "legacy": true,
+        "deprecated": true,
+        "comment": "{comments.deprecated.comment}"
+      }
     }
   }
 }
