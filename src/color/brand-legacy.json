@@ -1,0 +1,83 @@
+{
+  "color": {
+    "brand": {
+      "blue": {
+        "midnight": {
+          "base": {
+            "value": "{color.brand.midnight.300.value}",
+            "comment": "{comments.color.reference.comment} color.brand.midnight.300",
+            "redirect": true,
+            "deprecated": true,
+            "legacy": true,
+            "reference": "color.brand.midnight.300"
+          }
+        },
+        "atlas": {
+          "base": {
+            "value": "{color.base.ui.value}",
+            "comment": "{comments.color.reference.comment} color.base.ui",
+            "redirect": true,
+            "deprecated": true,
+            "legacy": true,
+            "reference": "color.base.ui"
+          },
+          "lighten": {
+            "value": "176cff",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true,
+            "redirect": false
+          },
+          "darken": {
+            "value": "0064c6",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          }
+        },
+        "breeze": {
+          "base": {
+            "value": "00C7e6",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          },
+          "lighten": {
+            "value": "17d8ff",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          },
+          "darken": {
+            "value": "00bae4",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          }
+        }
+      },
+      "green": {
+        "tropical": {
+          "base": {
+            "value": "c0e585",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          },
+          "lighten": {
+            "value": "bff380",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          },
+          "darken": {
+            "value": "a6d36a",
+            "comment": "{comments.color.deprecated.comment}",
+            "deprecated": true,
+            "legacy": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "onLight": {
+          "value": "{color.base.orca.value}",
+          "current": true,
+          "usage": "Primary color for body and header text on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "current": true,
+          "usage": "Primary color for body and header text on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "secondary": {
+        "onLight": {
+          "value": "{color.base.unionblue.value}",
+          "current": true,
+          "usage": "Secondary color for body text on light backgrounds",
+          "wcag": "AAA"
+        },
+        "onDark": {
+          "value": "{color.base.manatee.value}",
+          "current": true,
+          "usage": "Secondary color for body text on dark backgrounds",
+          "wcag": "AAA"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled text color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled text color on dark backgrounds",
+          "wcag": "n/a"
+        }
+      },
+      "link": {
+        "onLight": {
+          "value": "{color.base.ui.value}",
+          "current": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA"
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "current": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA"
+        }
+      },
+      "error": {
+        "onLight": {
+          "value": "{color.base.crimson.500.value}",
+          "current": true,
+          "usage": "Error text color on light backgrounds",
+          "wcag": "AA"
+        },
+        "onDark": {
+          "value": "{color.base.crimson.100.value}",
+          "current": true,
+          "usage": "Error text color on dark backgrounds",
+          "wcag": "AA"
+        }
+      }
+    }
+  }
+}

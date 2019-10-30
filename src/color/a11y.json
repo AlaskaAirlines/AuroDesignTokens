@@ -2,7 +2,12 @@
   "color": {
     "accessibility": {
       "border": {
-        "active": {"value": "{color.base.nemo.value}"}
+        "active": {
+          "value": "{color.base.nemo.value}",
+          "deprecated": true,
+          "legacy": true,
+          "comment": "{comments.color.deprecated.comment}"
+        }
       }
     }
   }

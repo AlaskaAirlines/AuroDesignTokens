@@ -1,9 +1,61 @@
 {
   "color": {
     "border": {
-      "button": {
-        "default": { "value": "{color.brand.blue.atlas.base.value}" },
-        "disabled": { "value": "{color.base.cloud.value}" }
+      "primary": {
+        "onLight": {
+          "value": "{color.base.black-opacity-15.value}",
+          "current": true,
+          "usage": "Primary border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.white-opacity-40.value}",
+          "current": true,
+          "usage": "Primary border color on dark background",
+          "wcag": "n/a"
+        }
+      },
+      "active": {
+        "onLight": {
+          "value": "{color.base.ui.value}",
+          "current": true,
+          "usage": "Active border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "current": true,
+          "usage": "Active border color on dark backgrounds",
+          "wcag": "n/a"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.disabled.value}",
+          "current": true,
+          "usage": "Disabled border color on dark background",
+          "wcag": "n/a"
+        }
+      },
+      "error": {
+        "onLight": {
+          "value": "{color.base.crimson.500.value}",
+          "current": true,
+          "usage": "Error states border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.crimson.100.value}",
+          "current": true,
+          "usage": "Error states border color on dark background",
+          "wcag": "n/a"
+        }
       }
     }
   }

@@ -1,0 +1,24 @@
+{
+  "color": {
+    "border": {
+      "button": {
+        "default": {
+          "value": "{color.brand.blue.atlas.base.value}",
+          "comment": "{comments.color.reference.comment} color-base-ui",
+          "redirect": true,
+          "deprecated": true,
+          "legacy": true,
+          "reference": "color-base-ui"
+        },
+        "disabled": {
+          "value": "{color.base.cloud.value}",
+          "comment": "{comments.color.reference.comment} UNKNOWN",
+          "redirect": true,
+          "deprecated": true,
+          "legacy": true,
+          "reference": "UNKNOWN"
+        }
+      }
+    }
+  }
+}

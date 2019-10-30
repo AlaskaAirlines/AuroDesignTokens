@@ -1,0 +1,88 @@
+{
+  "color": {
+    "type": {
+      "theme": {
+        "dark": {
+          "primary": {
+            "value": "{color.base.white.value}",
+            "comment": "{comments.color.reference.comment} color-text-primary-on-dark",
+            "redirect": true,
+            "deprecated": true,
+            "legacy": true,
+            "reference": "color.text.primary.onDark"
+          },
+          "secondary": {
+            "value": "{color.base.manatee.value}",
+            "legacy": true
+          },
+          "link": {
+            "value": "{color.brand.blue.breeze.base.value}",
+            "legacy": true
+          },
+          "linkHover": {
+            "value": "{color.brand.blue.atlas.base.value}",
+            "legacy": true
+          }
+        },
+        "light": {
+          "primary": {
+            "value": "{color.base.orca.value}",
+            "legacy": true
+          },
+          "secondary": {
+            "value": "{color.base.shark.value}",
+            "legacy": true
+          },
+          "link": {
+            "value": "{color.brand.blue.atlas.base.value}",
+            "legacy": true
+          },
+          "linkHover": {
+            "value": "{color.brand.blue.atlas.lighten.value}",
+            "legacy": true
+          },
+          "active": {
+            "value": "{color.brand.blue.atlas.darken.value}",
+            "legacy": true
+          }
+        },
+        "classic": {
+          "primary": {
+            "value": "{color.brand.blue.midnight.base.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          },
+          "heading": {
+            "value": "{color.classic.titlesHeaders.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          },
+          "secondary": {
+            "value": "{color.classic.primaryCopy.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          },
+          "tertiary": {
+            "value": "{color.classic.secondaryCopy.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          },
+          "link": {
+            "value": "{color.classic.atlas.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          },
+          "linkHover": {
+            "value": "{color.brand.blue.midnight.base.value}",
+            "comment": "{comments.color.classic.comment}",
+            "classic": true
+          }
+        }
+      },
+      "disabled": {
+        "value": "{color.base.fog.value}",
+        "legacy": true
+      }
+    }
+  }
+}
