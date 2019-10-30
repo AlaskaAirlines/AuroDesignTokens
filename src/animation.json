@@ -1,9 +1,30 @@
 {
   "animation": {
     "default": {
-      "property": {"value": "all"},
-      "duration": {"value": "0.3s"},
-      "timing": {"value": "ease-out"}
+      "property": {
+        "value": "all",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      },
+      "duration": {
+        "value": "0.3s",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      },
+      "timing": {
+        "value": "ease-out",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      }
     }
   }
 }

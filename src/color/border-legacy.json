@@ -12,11 +12,11 @@
         },
         "disabled": {
           "value": "{color.base.cloud.value}",
-          "comment": "{comments.color.reference.comment} UNKNOWN",
+          "comment": "{comments.color.reference.comment} color-border-disabled-(onLight/onDark)",
           "redirect": true,
           "deprecated": true,
           "legacy": true,
-          "reference": "UNKNOWN"
+          "reference": "color-border-disabled-(onLight/onDark)"
         }
       }
     }

@@ -2,8 +2,15 @@
   "size": {
     "border": {
       "radius": {
-        "default": {"value": 0.375},
-        "comment": "style guide value 6px"
+        "default": {
+          "value": 0.375,
+          "legacy": true,
+          "deprecated": true,
+          "redirect": true,
+          "reference": "TBD",
+          "comment": "{comments.reference.comment} TBD"
+        },
+        "legacyComment": "style guide value 6px"
       }
     }
   }

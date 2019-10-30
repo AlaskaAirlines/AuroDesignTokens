@@ -5,21 +5,21 @@
         "midnight": {
           "base": {
             "value": "{color.brand.midnight.300.value}",
-            "comment": "{comments.color.reference.comment} color.brand.midnight.300",
+            "comment": "{comments.color.reference.comment} color-bran-midnight-300",
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color.brand.midnight.300"
+            "reference": "color-brand-midnight-300"
           }
         },
         "atlas": {
           "base": {
             "value": "{color.base.ui.value}",
-            "comment": "{comments.color.reference.comment} color.base.ui",
+            "comment": "{comments.color.reference.comment} color-base-ui",
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color.base.ui"
+            "reference": "color-base-ui"
           },
           "lighten": {
             "value": "176cff",

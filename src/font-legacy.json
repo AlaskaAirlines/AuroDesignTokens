@@ -1,0 +1,55 @@
+{
+  "font": {
+    "family": {
+      "base": {
+        "value": "'{asset.font.circular.family-name.value}', Helvetica Neue, Arial, sans-serif",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      },
+      "mono": {
+        "value": "Menlo, Monaco, Consolas, 'Courier New', monospace",
+        "legacy": true,
+        "current": true
+      }
+    }
+  },
+  "weight": {
+    "book": {
+      "value": "400",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "light": {
+      "value": "200",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    }
+  },
+  "verticalAlignment": {
+    "heading": {
+      "value": 1.2,
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    },
+    "body": {
+      "value": 1.45,
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "TBD",
+      "comment": "{comments.reference.comment} TBD"
+    }
+  }
+}

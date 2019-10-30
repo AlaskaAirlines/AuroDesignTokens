@@ -1,9 +1,9 @@
 {
-  "unitless": {
+  "size": {
     "scale": {
       "micro": {
         "value": 0.25,
-        "legacyComment": "style guide value 4px",
+        "LegacyComment": "style guide value 4px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -12,7 +12,7 @@
       },
       "sml": {
         "value": 0.5,
-        "legacyComment": "style guide value 8px",
+        "LegacyComment": "style guide value 8px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -21,7 +21,7 @@
       },
       "med": {
         "value": 1,
-        "legacyComment": "style guide value 16px",
+        "LegacyComment": "style guide value 16px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -30,7 +30,7 @@
       },
       "lg": {
         "value": 1.5,
-        "legacyComment": "style guide value 24px",
+        "LegacyComment": "style guide value 24px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -39,7 +39,7 @@
       },
       "xl": {
         "value": 2,
-        "legacyComment": "style guide value 32px",
+        "LegacyComment": "style guide value 32px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -48,7 +48,7 @@
       },
       "xxl": {
         "value": 3,
-        "legacyComment": "style guide value 48px",
+        "LegacyComment": "style guide value 48px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
@@ -57,7 +57,16 @@
       },
       "max": {
         "value": 3.5,
-        "legacyComment": "style guide value 56px",
+        "LegacyComment": "style guide value 56px",
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
+      },
+      "classic": {
+        "value": 0.875,
+        "LegacyComment": "classic style  value 12px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,

@@ -2,12 +2,47 @@
   "asset": {
     "font": {
       "circular": {
-        "family-name": { "value": "AS Circular" },
-        "dir": { "value": "../fonts/" },
-        "filename": { "value": "ASCircularWeb" },
+        "family-name": {
+          "value": "AS Circular",
+          "legacy": true,
+          "deprecated": true,
+          "redirect": true,
+          "reference": "TBD",
+          "comment": "{comments.reference.comment} TBD"
+        },
+        "dir": {
+          "value": "../fonts/",
+          "legacy": true,
+          "deprecated": true,
+          "redirect": true,
+          "reference": "TBD",
+          "comment": "{comments.reference.comment} TBD"
+        },
+        "filename": {
+          "value": "ASCircularWeb",
+          "legacy": true,
+          "deprecated": true,
+          "redirect": true,
+          "reference": "TBD",
+          "comment": "{comments.reference.comment} TBD"
+        },
         "weight": {
-          "light": { "value": "-Light"},
-          "book": { "value": "-Book"}
+          "light": {
+            "value": "-Light",
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
+          },
+          "book": {
+            "value": "-Book",
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
+          }
         }
       }
     }

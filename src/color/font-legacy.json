@@ -9,41 +9,73 @@
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color.text.primary.onDark"
+            "reference": "color-text-primary-on-dark"
           },
           "secondary": {
             "value": "{color.base.manatee.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "link": {
             "value": "{color.brand.blue.breeze.base.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "linkHover": {
             "value": "{color.brand.blue.atlas.base.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           }
         },
         "light": {
           "primary": {
             "value": "{color.base.orca.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "secondary": {
             "value": "{color.base.shark.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "link": {
             "value": "{color.brand.blue.atlas.base.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "linkHover": {
             "value": "{color.brand.blue.atlas.lighten.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           },
           "active": {
             "value": "{color.brand.blue.atlas.darken.value}",
-            "legacy": true
+            "legacy": true,
+            "deprecated": true,
+            "redirect": true,
+            "reference": "TBD",
+            "comment": "{comments.reference.comment} TBD"
           }
         },
         "classic": {
@@ -81,7 +113,11 @@
       },
       "disabled": {
         "value": "{color.base.fog.value}",
-        "legacy": true
+        "legacy": true,
+        "deprecated": true,
+        "redirect": true,
+        "reference": "TBD",
+        "comment": "{comments.reference.comment} TBD"
       }
     }
   }
