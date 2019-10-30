@@ -15,41 +15,34 @@ The goal of this project is to maintain these core values in such a way as to fe
 This repository serves two purposes:
 
 1. To maintain the single source of record of the distributed token files
-1. Provide example pipelines of how to use Design Tokens in prod apps
+1. Export pre-defined resources for projects to consume 
 
 ### The ./src dir
 
 Within the project's `src/` dir are the various token values stored in `.json` format. These are the production resources distributed via npm.
 
-### The ./example dir
+## Config filter API
 
-Contained within the `example/` directory are example `style.scss` and `config.json` files that illustrate how the Orion Design Tokens can be included with a production project.
+The following table illustrated the different JSON options currently being used to filter the data output. 
 
-### ./example/config.json file
+| filter | type | description |
+|---|---|---|
+| attributes {category/type/option} | string | follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
+| classic | boolean | token filter for `classic` theme values |
+| comment | string | comment that will appear in CSS/Sass output |
+| core | boolean | token filter for values not intended to outout CSS/Sass variables |
+| current | boolean | token filter for currently approved Design System tokens |
+| deprecated | boolean | token marked as `deprecated` will be delted with next MAJOR relase version |
+| legacy | boolean | token filter for legacy tokens |
+| redirect | boolean | token filter for legacy tokens that have a new reference |
+| reference | string | new token redirect reference |
+| usage | string | description of toke use |
+| wcag | string | WCAG accessibility rating of applicable |
+| value | string / number | the value of the token |
 
-The `config.json` file, contained within the `./example/` directory will output multiple production consumable assets. Examples for the following platforms are currently supported:
-
-1. CSS
-1. Sass
-1. Android
-1. iOS
-
-### Example ./gulpfile.js
-
-The `./gulpfile.js` file is an example build pipeline that will consume the Orion Design Tokens and create the resources for a production project. It is not used for any production or recommended for use outside this project.
-
-See code comments for information as to the Gulp tasks.
-
-### Run this example locally
-
-To run locally, clone the resources and run the following commands:
-
-```
-$ npm i   // install all dependencies
-$ gulp    // run example gulp build pipeline
-```
-
-Once all the dependencies are installed, the pipeline should output all the necessary build resources from the repo's example and output them within the `example/` dir.
+* **Current:** Currently approved for use Orion Design Tokens
+* **Legacy:** Tokens established prior to v2.8 release
+* **Classic:** Tokens that reference Alasks CLASSIC themes
 
 ## Contributing
 
@@ -57,16 +50,12 @@ Please be sure to follow current Design Token patterns and follow the [CTI Struc
 
 Also, please see this repo's [contributing guidelines](https://github.com/AlaskaAirlines/OrionDesignTokens/blob/master/CONTRIBUTING.md).
 
-Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control:
+Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control.
 
-```
-$ gulp
-```
+To mimic a CI Build and ensure a successful build with a merge, please run the following command to test the build pipeline: 
 
-If you just want to validate the JSON, you can do the following:
-
-```
-$ gulp test
+```bash
+$ npm run ciBuild
 ```
 
 **All tests will run with the automated build, but it's a good idea to run tests locally to ensure stability of pull request**
@@ -85,29 +74,50 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 
 ```
 └── tokens
-   ├── TokenProperties.css
-   ├── _TokenProperties.scss
-   ├── _TokenVariables.scss
+   ├── CSSCustomProperties--classicColors.css
+   ├── CSSCustomProperties.css
+   ├── JSData--color.js
+   ├── JSObject--classicColors.js
+   ├── JSObject--colorRedirects.js
+   ├── JSObject--deprecated.js
+   ├── JSVariables--color.js
+   ├── SCSSVariables.scss
+   ├── SassCustomProperties--classicColors.scss
+   ├── SassCustomProperties.scss
    ├── TokenColorVariables.js
-   └── TokenVariables.esm.js
+   ├── TokenProperties.css
+   ├── TokenVariables.esm.js
+   ├── _TokenProperties.scss
+   └── _TokenVariables.scss
 ```
 
-| file | type | Use | syntax |
-|---|---|---|---|
-| TokenProperties.css | Tokens as CSS Custom Properties | Link to CSS file | CSS |
-| _TokenProperties.scss | Tokens as CSS Custom Properties as Sass file | Import Sass file | SCSS |
-| _TokenVariables.scss | Tokens as Sass variables | Import Sass file | SCSS |
-| TokenColorVariables.js | Token Color data object | Import data from ... | JS |
-| TokenVariables.esm.js | ESModule of all Token variables | import { variable(s)} from ... | JS |
+| file | syntax | type | status | filter type / description |
+|---|---|---|---|---|
+| CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
+| CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
+| JSData--color | JS module | color data | current | filter: color, current |
+| JSObject--classicColors | js module | color data | current | filter: classic |
+| JSObject--colorRedirects | js module | color data | current | filter: redirect |
+| JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
+| JSVariables--color | js es6 | color data | current | filter: color |
+| SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
+| SassCustomProperties--classicColors | scss | custom properties | current | filter: classic |
+| SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |
+| TokenColorVariables | js module | color data | deprecated | filter: color |
+| TokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
+| TokenVariables.esm | js es6 | all data | deprecated | full list of < v2.8 tokens |
+| _TokenProperties | scss | customn properties | deprecated | full list of < v2.8 tokens |
+| _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
+
 
 **To install in Sass file:**
 
 ```scss
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables";
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
 
 // or
 
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/TokenProperties";
+@import "~@alaskaairux/orion-design-tokens/dist/tokens/SassCustomProperties";
 ```
 
 **To install CSS file:**
@@ -115,7 +125,7 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 With React or similar framework, the CSS file can be imported directly from the npm:
 
 ```js
-import "@alaskaairux/orion-design-tokens/tokens/dist/TokenProperties.css";
+import "@alaskaairux/orion-design-tokens/tokens/dist/CSSCustomProperties.css";
 ```
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
@@ -125,7 +135,7 @@ For other frameworks, it's suggested that the CSS file be copied from the npm in
 Within a webpacked application or a `type="module"` script:
 
 ```js
-import { BreakpointWidthNarrow, BreakpointWidthMedium } from '@alaskaairux/orion-design-tokens/dist/tokens/TokenVariables.esm.js';
+import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
 ```
 
 ## Build Orion Design Tokens pipeline
@@ -278,19 +288,13 @@ The example build pipeline addresses this by concatenating the CSS variables wit
 
 ## Hex Codes
 
-Style Dictionary requires that color definitions be established as hex values that then can be transformed into various outputs, e.g. rgba, rgb 6-digit hex, iOS and Android color vars. 
+Style Dictionary requires that color definitions be established as hex values that then can be transformed into various outputs, e.g. rgba, rgb 6-digit hex, iOS and Android color vars.
 
 To support alpha values, it is suggested to use 8-digit or RGBA hex values, where the last digit(s) represents the alpha value. For more information see [8-Digit Hex Codes?](https://css-tricks.com/8-digit-hex-codes/) and here for a full [#RRGGBBAA table](https://borderleft.com/toolbox/rrggbbaa/).
 
 ## Native output support
 
 Style Dictionary fully supports native platforms and is able to output resources that are usable in both iOS and Android native development.
-
-## CSS Custom Properties browser support
-
-CSS Custom Properties are new to CSS and thus do not have good legacy browser support. The term polyfill is used loosely in this scenario in that legacy browser support is best addressed in a PostCSS build pipeline.
-
-In the example `gulpfile.js` the processed Sass is put through a PostCSS process to create a fallback CSS property. You have the option to preserve the custom property or remove it from the final output CSS. It is recommended that you **preserve** the dynamic value for browsers that support this convention.
 
 
 ##
