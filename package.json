@@ -32,7 +32,7 @@
   },
   "scripts": {
     "buildTokens": "node scripts/styleDictionary.js",
-    "ciBuild": "npm-run-all sweep test buildTokens copyJson",
+    "ciBuild": "npm-run-all sweep test copyJson buildTokens",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/"

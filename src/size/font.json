@@ -2,24 +2,24 @@
   "size": {
     "font": {
       "root": {
-        "value": 1,
+        "value": "{text.body.size.default.value}",
         "legacyComment": "style guide value 16px",
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "reference": "ods-text-body-size-default",
+        "comment": "{comments.reference.comment} ods-text-body-size-default"
       },
       "breakpoint": {
         "all": {
           "med": {
-            "value": "{size.scale.med.value}",
+            "value": "{text.body.size.default.value}",
             "legacyComment": "style guide value 16px, not to be used with light font weight",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-body-size-default",
+            "comment": "{comments.reference.comment} ods-text-body-size-default"
           },
           "small": {
             "value": 0.75,
@@ -27,8 +27,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-body-size-xs",
+            "comment": "{comments.reference.comment} ods-text-body-size-xs"
           }
         },
         "desktop": {
@@ -38,8 +38,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-display-size-breakpoint-med",
+            "comment": "{comments.reference.comment} ods-text-heading-display-size-breakpoint-med"
           },
           "xxl": {
             "value": 2.25,
@@ -47,8 +47,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-800-size-breakpoint-lg",
+            "comment": "{comments.reference.comment} ods-text-heading-800-breakpoint-lg-size"
           },
           "xl": {
             "value": 1.75,
@@ -56,8 +56,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-700-size-breakpoint-sml",
+            "comment": "{comments.reference.comment} ods-text-heading-700-breakpoint-sml-size"
           },
           "lg": {
             "value": 1.25,
@@ -65,8 +65,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-400-size",
+            "comment": "{comments.reference.comment} ods-text-heading-400-size"
           }
         },
         "mobile": {
@@ -75,9 +75,7 @@
             "legacyComment": "style guide value 35px",
             "legacy": true,
             "deprecated": true,
-            "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "comment": "{comments.deprecated.comment} -- no new reference"
           },
           "xxl": {
             "value": 1.625,
@@ -85,17 +83,15 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-600-size-breakpoint-sml",
+            "comment": "{comments.reference.comment} ods-text-heading-600-breakpoint-sml-size"
           },
           "xl": {
             "value": 1.44,
             "legacyComment": "style guide value 23px",
             "legacy": true,
             "deprecated": true,
-            "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "comment": "{comments.deprecated.comment} -- no new reference"
           },
           "lg": {
             "value": 1.25,
@@ -103,8 +99,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "ods-text-heading-400-size",
+            "comment": "{comments.reference.comment} ods-text-heading-400-size"
           }
         }
       }
