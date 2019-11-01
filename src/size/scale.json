@@ -1,5 +1,74 @@
 {
   "size": {
+    "font": {
+      "scale": {
+        "base": {
+          "70": {
+            "value": 0.75,
+            "core": true
+          },
+          "80": {
+            "value": 0.875,
+            "core": true
+          },
+          "100": {
+            "value": 1,
+            "core": true
+          },
+          "110": {
+            "value": 1.125,
+            "core": true
+          },
+          "120": {
+            "value": 1.25,
+            "core": true
+          }
+          ,
+          "130": {
+            "value": 1.375,
+            "core": true
+          },
+          "150": {
+            "value": 1.5,
+            "core": true
+          }
+        },
+        "responsive": {
+          "160": {
+            "value": 1.625,
+            "core": true
+          },
+          "170": {
+            "value": 1.75,
+            "core": true
+          },
+          "200": {
+            "value": 2,
+            "core": true
+          },
+          "220": {
+            "value": 2.25,
+            "core": true
+          },
+          "250": {
+            "value": 2.5,
+            "core": true
+          },
+          "270": {
+            "value": 2.75,
+            "core": true
+          },
+          "300": {
+            "value": 3.0,
+            "core": true
+          },
+          "350": {
+            "value": 3.5,
+            "core": true
+          }
+        }
+      }
+    },
     "eighth": {
       "value": 0.125,
       "comment": "style guide value 2px",
@@ -30,6 +99,11 @@
       "comment": "style guide value 16px",
       "current": true
     },
+    "baseEighth": {
+      "value": 1.125,
+      "comment": "style guide value 18px",
+      "current": true
+    },
     "baseHalf": {
       "value": 1.5,
       "comment": "style guide value 24px",
@@ -38,6 +112,11 @@
     "baseDos": {
       "value": 2,
       "comment": "style guide value 32px",
+      "current": true
+    },
+    "baseDosQuarter": {
+      "value": 2.25,
+      "comment": "style guide value 36px",
       "current": true
     },
     "baseTriple": {
