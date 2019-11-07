@@ -74,61 +74,153 @@
       "comment": "style guide value 2px",
       "current": true
     },
+    "eighth-stretch": {
+      "value": "{size.quarter.value} {size.eighth.value}",
+      "comment": "style guide value 4px / 2px",
+      "current": true
+    },
+    "eighth-squish": {
+      "value": "0 {size.eighth.value}",
+      "comment": "style guide value 0 / 2px",
+      "current": true
+    },
+
     "quarter": {
       "value": 0.25,
       "comment": "style guide value 4px",
       "current": true
     },
+    "quarter-stretch": {
+      "value": 0,
+      "comment": "style guide value 6px / 4px",
+      "current": true
+    },
+    "quarter-squish": {
+      "value": 0,
+      "comment": "style guide value 2px / 4px",
+      "current": true
+    },
+
     "third": {
       "value": 0.375,
       "comment": "style guide value 6px",
       "current": true
     },
+
     "half": {
       "value": 0.5,
       "comment": "style guide value 8px",
       "current": true
     },
+    "half-stretch": {
+      "value": 0,
+      "comment": "style guide value 12px / 8px",
+      "current": true
+    },
+    "half-squish": {
+      "value": 0,
+      "comment": "style guide value 4px / 8px",
+      "current": true
+    },
+
     "threeQuarter": {
       "value": 0.875,
       "comment": "style guide value 12px",
       "current": true
     },
+    "threeQuarter-stretch": {
+      "value": 0,
+      "comment": "style guide value 18px / 12px",
+      "current": true
+    },
+    "threeQuarter-squish": {
+      "value": 0,
+      "comment": "style guide value 6px / 12px",
+      "current": true
+    },
+
     "base": {
       "value": 1,
       "comment": "style guide value 16px",
       "current": true
     },
+    "base-stretch": {
+      "value": 0,
+      "comment": "style guide value 24px / 16px",
+      "current": true
+    },
+    "base-squish": {
+      "value": 0,
+      "comment": "style guide value 8px / 16px",
+      "current": true
+    },
+
     "baseEighth": {
       "value": 1.125,
       "comment": "style guide value 18px",
       "current": true
     },
+
     "baseHalf": {
       "value": 1.5,
       "comment": "style guide value 24px",
       "current": true
     },
+    "baseHalf-stretch": {
+      "value": 0,
+      "comment": "style guide value 36px / 24px",
+      "current": true
+    },
+    "baseHalf-squish": {
+      "value": 0,
+      "comment": "style guide value 12px / 24px",
+      "current": true
+    },
+
     "baseDos": {
       "value": 2,
       "comment": "style guide value 32px",
       "current": true
     },
+    "baseDos-stretch": {
+      "value": 0,
+      "comment": "style guide value 48px / 32px",
+      "current": true
+    },
+    "baseDos-squish": {
+      "value": 0,
+      "comment": "style guide value 16px / 32px",
+      "current": true
+    },
+
     "baseDosQuarter": {
       "value": 2.25,
       "comment": "style guide value 36px",
       "current": true
     },
+
     "baseTriple": {
       "value": 3,
       "comment": "style guide value 48px",
       "current": true
     },
+
     "baseQuad": {
       "value": 4,
       "comment": "style guide value 64px",
       "current": true
     },
+    "baseQuad-stretch": {
+      "value": 0,
+      "comment": "style guide value 96px / 64px",
+      "current": true
+    },
+    "baseQuad-squish": {
+      "value": 0,
+      "comment": "style guide value 32px / 64px",
+      "current": true
+    },
+
     "baseHex": {
       "value": 6,
       "comment": "style guide value 96px",
