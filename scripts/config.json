@@ -16,6 +16,24 @@
         }
       ]
     },
+    "SCSSVariableMap": {
+      "transformGroup": "scss",
+      "prefix": "ods",
+      "comment": "File type: SCSS; variable type: Sassmap; filter: size, current",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSVariableMap.scss",
+          "format": "scss/map-deep",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "current": true
+          }
+        }
+      ]
+    },
     "SCSSVariables--deprecatedFile": {
       "transformGroup": "scss",
       "comment": "File type: SCSS; variable type: Sass; filter: legacy",
