@@ -5,35 +5,35 @@
         "dark": {
           "primary": {
             "value": "{color.base.white.value}",
-            "comment": "{comments.color.reference.comment} color-text-primary-on-dark",
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color-text-primary-on-dark"
+            "reference": "color-text-primary-on-dark",
+            "comment": "{comments.color.reference.comment} color-text-primary-on-dark"
           },
           "secondary": {
             "value": "{color.base.manatee.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-text-secondary-on-dark",
+            "comment": "{comments.reference.comment} color-text-secondary-on-dark"
           },
           "link": {
             "value": "{color.brand.blue.breeze.base.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-text-link-on-dark",
+            "comment": "{comments.reference.comment} color-text-link-on-dark"
           },
           "linkHover": {
             "value": "{color.brand.blue.atlas.base.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-ui-hover-on-dark",
+            "comment": "{comments.reference.comment} color-ui-hover-on-dark"
           }
         },
         "light": {
@@ -42,72 +42,78 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-text-primary-on-light",
+            "comment": "{comments.reference.comment} color-text-primary-on-light"
           },
           "secondary": {
             "value": "{color.base.shark.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-text-secondary-on-light",
+            "comment": "{comments.reference.comment} color-text-secondary-on-light"
           },
           "link": {
             "value": "{color.brand.blue.atlas.base.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-text-link-on-light",
+            "comment": "{comments.reference.comment} color-text-link-on-light"
           },
           "linkHover": {
             "value": "{color.brand.blue.atlas.lighten.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-ui-hover-on-light",
+            "comment": "{comments.reference.comment} color-ui-hover-on-light"
           },
           "active": {
             "value": "{color.brand.blue.atlas.darken.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "TBD",
-            "comment": "{comments.reference.comment} TBD"
+            "reference": "color-ui-active-on-light",
+            "comment": "{comments.reference.comment} color-ui-active-on-light"
           }
         },
         "classic": {
           "primary": {
             "value": "{color.brand.blue.midnight.base.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           },
           "heading": {
             "value": "{color.classic.titlesHeaders.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           },
           "secondary": {
             "value": "{color.classic.primaryCopy.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           },
           "tertiary": {
             "value": "{color.classic.secondaryCopy.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           },
           "link": {
             "value": "{color.classic.atlas.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           },
           "linkHover": {
             "value": "{color.brand.blue.midnight.base.value}",
             "comment": "{comments.color.classic.comment}",
-            "classic": true
+            "classic": true,
+            "legacy": true
           }
         }
       },
@@ -116,8 +122,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "reference": "color-ui-disabled-on-light",
+        "comment": "{comments.reference.comment} color-ui-disabled-on-light"
       }
     }
   }

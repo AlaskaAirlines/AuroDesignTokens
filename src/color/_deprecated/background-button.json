@@ -3,67 +3,55 @@
     "background": {
       "defaultButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.color.reference.comment} color.base.ui",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "TBD"
+        "reference": "color.base.ui"
       },
       "activeButton": {
         "value": "{color.brand.blue.atlas.darken.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       },
       "isActiveButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.color.reference.comment} color.base.ui",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "TBD"
+        "reference": "color.base.ui"
       },
       "secondaryButton": {
         "value": "{color.base.white.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       },
       "completeButton": {
         "value": "{color.brand.green.tropical.base.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       },
       "hoverCompleteButton": {
         "value": "{color.brand.green.tropical.lighten.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       },
       "hoverButton": {
         "value": "{color.brand.blue.atlas.lighten.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       },
       "disabledButton": {
         "value": "{color.base.cloud.value}",
-        "comment": "{comments.color.reference.comment} TBD",
+        "comment": "{comments.deprecated.comment}",
         "deprecated": true,
-        "legacy": true,
-        "redirect": true,
-        "reference": "TBD"
+        "legacy": true
       }
     }
   }

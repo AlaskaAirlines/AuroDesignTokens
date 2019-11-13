@@ -4,93 +4,70 @@
       "white": {
         "value": "ffffff",
         "comment": "{comments.color.base.value.comment}",
-        "core": true,
         "legacy": true
       },
       "white-opacity-40": {
         "value": "ffffff66",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
+        "comment": "white @ 40%"
       },
       "black": {
         "value": "000000",
         "comment": "{comments.color.base.value.comment}",
-        "core": true,
         "legacy": true
       },
       "black-opacity-15": {
         "value": "00000026",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
+        "comment": "black @ 15%"
       },
-      "orca": {
-        "value": "222222",
+      "cloud": {
+        "value": "f7f7f7",
         "comment": "{comments.color.base.value.comment}",
-        "core": true,
         "legacy": true
       },
       "crimson": {
         "100": {
-          "value": "ff999b",
-          "comment": "{comments.color.base.value.comment}",
-          "core": true
+          "value": "ff999b"
         },
         "500": {
-          "value": "df0b37",
-          "comment": "{comments.color.base.value.comment}",
-          "core": true
+          "value": "df0b37"
         }
       },
-      "sunset": {
-        "500": {
-          "value": "de750c",
-          "comment": "{comments.color.base.value.comment}",
-          "core": true
-        }
+      "disabled": {
+        "value": "dbdbdb"
       },
       "emerald": {
         "100": {
-          "value": "69cf96",
-          "comment": "{comments.color.base.value.comment}",
-          "core": true
+          "value": "69cf96"
         },
         "500": {
-          "value": "00805d",
-          "comment": "{comments.color.base.value.comment}",
-          "core": true
+          "value": "00805d"
         }
       },
       "manatee": {
         "value": "9fabbb",
         "comment": "{comments.color.base.value.comment}",
-        "core": true,
         "legacy": true
       },
-      "cloud": {
-        "value": "f7f7f7",
+      "orca": {
+        "value": "222222",
         "comment": "{comments.color.base.value.comment}",
-        "core": true,
         "legacy": true
+      },
+      "sunset": {
+        "500": {
+          "value": "de750c"
+        }
       },
       "ui": {
-        "value": "0074c8",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
+        "value": "0074c8"
       },
       "ui-opacity-20": {
         "value": "0074C833",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
-      },
-      "disabled": {
-        "value": "dbdbdb",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
+        "comment": "base UI color @ 20%"
       },
       "unionblue": {
         "value": "626b79",
-        "comment": "{comments.color.base.value.comment}",
-        "core": true
+        "comment": "{comments.color.base.value.comment}"
       }
     }
   }

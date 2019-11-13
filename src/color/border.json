@@ -29,20 +29,6 @@
           "wcag": "n/a"
         }
       },
-      "disabled": {
-        "onLight": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled border color on light backgrounds",
-          "wcag": "n/a"
-        },
-        "onDark": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled border color on dark background",
-          "wcag": "n/a"
-        }
-      },
       "error": {
         "onLight": {
           "value": "{color.base.crimson.500.value}",
@@ -54,6 +40,20 @@
           "value": "{color.base.crimson.100.value}",
           "public": true,
           "usage": "Error states border color on dark background",
+          "wcag": "n/a"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.disabled.value}",
+          "public": true,
+          "usage": "Disabled border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.disabled.value}",
+          "public": true,
+          "usage": "Disabled border color on dark background",
           "wcag": "n/a"
         }
       }

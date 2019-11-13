@@ -29,20 +29,6 @@
           "wcag": "AAA"
         }
       },
-      "disabled": {
-        "onLight": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled text color on light backgrounds",
-          "wcag": "n/a"
-        },
-        "onDark": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled text color on dark backgrounds",
-          "wcag": "n/a"
-        }
-      },
       "link": {
         "onLight": {
           "value": "{color.base.ui.value}",
@@ -69,6 +55,20 @@
           "public": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.disabled.value}",
+          "public": true,
+          "usage": "Disabled text color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.disabled.value}",
+          "public": true,
+          "usage": "Disabled text color on dark backgrounds",
+          "wcag": "n/a"
         }
       }
     }

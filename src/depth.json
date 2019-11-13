@@ -2,75 +2,39 @@
   "depth": {
     "hidden": {
       "value": "-1",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "public": true
     },
-    "surface": {
+    "0": {
       "value": "0",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "public": true
     },
-    "tropo": {
-      "value": "10",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+    "100": {
+      "value": "100",
+      "public": true
     },
-    "meso": {
-      "value": "20",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+    "200": {
+      "value": "200",
+      "public": true
     },
-    "exo": {
-      "value": "30",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+    "300": {
+      "value": "300",
+      "public": true
     },
     "dialog": {
-      "value": "{depth.tropo.value}",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "value": "{depth.100.value}",
+      "public": true
     },
     "overlay": {
-      "value": "{depth.meso.value}",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "value": "{depth.200.value}",
+      "public": true
     },
     "modal": {
-      "value": "{depth.exo.value}",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "value": "{depth.300.value}",
+      "public": true
     },
     "tooltip": {
-      "value": "{depth.exo.value}",
-      "legacy": true,
-      "deprecated": true,
-      "redirect": true,
-      "reference": "TBD",
-      "comment": "{comments.reference.comment} TBD"
+      "value": "{depth.300.value}",
+      "public": true
     }
   }
 }
