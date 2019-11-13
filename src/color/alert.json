@@ -15,6 +15,14 @@
           "wcag": "AAA"
         }
       },
+      "warning": {
+        "onLight": {
+          "value": "{color.base.sunset.500.value}",
+          "public": true,
+          "usage": "Warning color on light backgrounds",
+          "wcag": "AAA"
+        }
+      },
       "error": {
         "onLight": {
           "value": "{color.base.crimson.500.value}",
@@ -26,14 +34,6 @@
           "value": "{color.base.crimson.100.value}",
           "public": true,
           "usage": "Error color on dark backgrounds",
-          "wcag": "AAA"
-        }
-      },
-      "warning": {
-        "onLight": {
-          "value": "{color.base.sunset.500.value}",
-          "public": true,
-          "usage": "Warning color on light backgrounds",
           "wcag": "AAA"
         }
       },

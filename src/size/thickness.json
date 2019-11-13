@@ -5,17 +5,13 @@
         "value": "1px",
         "legacy": true,
         "deprecated": true,
-        "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "comment": "{comments.deprecated.comment}"
       },
       "thick": {
         "value": "2px",
         "legacy": true,
         "deprecated": true,
-        "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "comment": "{comments.deprecated.comment}"
       }
     }
   }

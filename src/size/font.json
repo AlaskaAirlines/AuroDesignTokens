@@ -7,8 +7,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "ods-text-body-size-default",
-        "comment": "{comments.reference.comment} ods-text-body-size-default"
+        "reference": "text-body-size-default",
+        "comment": "{comments.reference.comment} text-body-size-default"
       },
       "breakpoint": {
         "all": {
@@ -18,8 +18,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-body-size-default",
-            "comment": "{comments.reference.comment} ods-text-body-size-default"
+            "reference": "text-body-size-default",
+            "comment": "{comments.reference.comment} text-body-size-default"
           },
           "small": {
             "value": 0.75,
@@ -27,8 +27,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-body-size-xs",
-            "comment": "{comments.reference.comment} ods-text-body-size-xs"
+            "reference": "text-body-size-xs",
+            "comment": "{comments.reference.comment} text-body-size-xs"
           }
         },
         "desktop": {
@@ -38,8 +38,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-display-size-breakpoint-med",
-            "comment": "{comments.reference.comment} ods-text-heading-display-size-breakpoint-med"
+            "reference": "text-heading-display-size-breakpoint-med",
+            "comment": "{comments.reference.comment} text-heading-display-size-breakpoint-med"
           },
           "xxl": {
             "value": 2.25,
@@ -47,8 +47,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-800-size-breakpoint-lg",
-            "comment": "{comments.reference.comment} ods-text-heading-800-breakpoint-lg-size"
+            "reference": "text-heading-800-size-breakpoint-lg",
+            "comment": "{comments.reference.comment} text-heading-800-breakpoint-lg-size"
           },
           "xl": {
             "value": 1.75,
@@ -56,8 +56,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-700-size-breakpoint-sml",
-            "comment": "{comments.reference.comment} ods-text-heading-700-breakpoint-sml-size"
+            "reference": "text-heading-700-size-breakpoint-sml",
+            "comment": "{comments.reference.comment} text-heading-700-breakpoint-sml-size"
           },
           "lg": {
             "value": 1.25,
@@ -65,8 +65,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-400-size",
-            "comment": "{comments.reference.comment} ods-text-heading-400-size"
+            "reference": "text-heading-400-size",
+            "comment": "{comments.reference.comment} text-heading-400-size"
           }
         },
         "mobile": {
@@ -83,8 +83,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-600-size-breakpoint-sml",
-            "comment": "{comments.reference.comment} ods-text-heading-600-breakpoint-sml-size"
+            "reference": "text-heading-600-size-breakpoint-sml",
+            "comment": "{comments.reference.comment} text-heading-600-breakpoint-sml-size"
           },
           "xl": {
             "value": 1.44,
@@ -99,8 +99,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "ods-text-heading-400-size",
-            "comment": "{comments.reference.comment} ods-text-heading-400-size"
+            "reference": "text-heading-400-size",
+            "comment": "{comments.reference.comment} text-heading-400-size"
           }
         }
       }

@@ -6,8 +6,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "ods-font-family-default",
-        "comment": "{comments.reference.comment} ods-font-family-default"
+        "reference": "font-family-default",
+        "comment": "{comments.reference.comment} font-family-default"
       },
       "default": {
         "value": "'{asset.font.circular.familyName.value}', Helvetica Neue, Arial, sans-serif",
@@ -197,36 +197,12 @@
       },
       "500": {
         "size": {
-          "breakpoint": {
-            "sm": {
-              "value": "{size.font.scale.base.130.value}",
-              "public": true
-            },
-            "md": {
-              "value": "{size.font.scale.base.150.value}",
-              "public": true
-            },
-            "lg": {
-              "value": "{size.font.scale.base.150.value}",
-              "public": true
-            }
-          }
+          "value": "{size.font.scale.base.150.value}",
+          "public": true
         },
         "height": {
-          "breakpoint": {
-            "sm": {
-              "value": "{unitless.scale.160.value}",
-              "public": true
-            },
-            "md": {
-              "value": "{unitless.scale.180.value}",
-              "public": true
-            },
-            "lg": {
-              "value": "{unitless.scale.200.value}",
-              "public": true
-            }
-          }
+          "value": "{unitless.scale.200.value}",
+          "public": true
         }
       },
       "400": {
@@ -235,7 +211,7 @@
           "public": true
         },
         "height": {
-          "value": "{unitless.scale.160.value}",
+          "value": "{unitless.scale.170.value}",
           "public": true
         }
       },

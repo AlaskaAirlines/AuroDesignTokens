@@ -1,0 +1,36 @@
+{
+  "depth": {
+    "surface": {
+      "value": "0",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "depth.0",
+      "comment": "{comments.reference.comment} depth.0"
+    },
+    "tropo": {
+      "value": "10",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "depth.100",
+      "comment": "{comments.reference.comment} depth.100"
+    },
+    "meso": {
+      "value": "20",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "depth.200",
+      "comment": "{comments.reference.comment} depth.200"
+    },
+    "exo": {
+      "value": "30",
+      "legacy": true,
+      "deprecated": true,
+      "redirect": true,
+      "reference": "depth.300",
+      "comment": "{comments.reference.comment} depth.300"
+    }
+  }
+}

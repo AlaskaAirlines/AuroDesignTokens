@@ -29,20 +29,6 @@
           "wcag": "AAA"
         }
       },
-      "disabled": {
-        "onLight": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled icon color on light backgrounds",
-          "wcag": "n/a"
-        },
-        "onDark": {
-          "value": "{color.base.disabled.value}",
-          "public": true,
-          "usage": "Disabled icon color on dark backgrounds",
-          "wcag": "n/a"
-        }
-      },
       "accent": {
         "onLight": {
           "value": "{color.base.ui.value}",
@@ -55,6 +41,20 @@
           "public": true,
           "usage": "Accent color for icon color on dark backgrounds",
           "wcag": "AA"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.black-opacity-15.value}",
+          "public": true,
+          "usage": "Disabled icon color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.white-opacity-40.value}",
+          "public": true,
+          "usage": "Disabled icon color on dark backgrounds",
+          "wcag": "n/a"
         }
       }
     }

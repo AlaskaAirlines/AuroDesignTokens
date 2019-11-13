@@ -4,26 +4,17 @@
       "property": {
         "value": "all",
         "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "public": true
       },
       "duration": {
         "value": "0.3s",
         "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "public": true
       },
       "timing": {
         "value": "ease-out",
         "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "TBD",
-        "comment": "{comments.reference.comment} TBD"
+        "public": true
       }
     }
   }

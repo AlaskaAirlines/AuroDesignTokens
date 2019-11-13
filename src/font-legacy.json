@@ -21,12 +21,18 @@
     "heading": {
       "value": 1.2,
       "legacy": true,
-      "deprecated": true
+      "deprecated": true,
+      "redirect": true,
+      "reference": "text-body-height-sm",
+      "comment": "{comments.reference.comment} text-body-height-sm"
     },
     "body": {
       "value": 1.45,
       "legacy": true,
-      "deprecated": true
+      "deprecated": true,
+      "redirect": true,
+      "reference": "text-body-height-default",
+      "comment": "{comments.reference.comment} text-body-height-default"
     }
   }
 }

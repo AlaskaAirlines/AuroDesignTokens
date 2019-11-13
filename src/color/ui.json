@@ -15,20 +15,6 @@
           "wcag": "AAA"
         }
       },
-      "disabled": {
-        "onLight": {
-          "value": "{color.base.ui-opacity-20.value}",
-          "public": true,
-          "usage": "Disabled interaction color on light backgrounds",
-          "wcag": "n/a"
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300-opacity-30.value}",
-          "public": true,
-          "usage": "Disabled interaction color on dark backgrounds",
-          "wcag": "n/a"
-        }
-      },
       "hover": {
         "onLight": {
           "value": "{color.brand.atlas.500.value}",
@@ -55,6 +41,20 @@
           "public": true,
           "usage": "Active interaction color on dark backgrounds",
           "wcag": "AAA"
+        }
+      },
+      "disabled": {
+        "onLight": {
+          "value": "{color.base.ui-opacity-20.value}",
+          "public": true,
+          "usage": "Disabled interaction color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300-opacity-30.value}",
+          "public": true,
+          "usage": "Disabled interaction color on dark backgrounds",
+          "wcag": "n/a"
         }
       }
     }
