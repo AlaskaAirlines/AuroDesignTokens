@@ -11,7 +11,7 @@
           "destination": "SCSSVariables.scss",
           "format": "scss/variables",
           "filter": {
-            "current": true
+            "public": true
           }
         }
       ]
@@ -29,7 +29,7 @@
             "attributes": {
               "category": "size"
             },
-            "current": true
+            "public": true
           }
         }
       ]
@@ -58,7 +58,7 @@
           "destination": "CSSCustomProperties.css",
           "format": "css/variables",
           "filter": {
-            "current": true
+            "public": true
           }
         }
       ]
@@ -101,7 +101,7 @@
           "destination": "SassCustomProperties.scss",
           "format": "css/variables",
           "filter": {
-            "current": true
+            "public": true
           }
         }
       ]
@@ -147,7 +147,7 @@
             "attributes": {
               "category": "color"
             },
-            "current": true
+            "public": true
           }
         },
         {
@@ -157,7 +157,7 @@
             "attributes": {
               "category": "color"
             },
-            "current": true
+            "public": true
           }
         }
       ]

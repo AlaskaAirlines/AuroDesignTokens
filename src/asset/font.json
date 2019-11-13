@@ -5,7 +5,7 @@
         "familyName": {
           "value": "AS Circular",
           "legacy": true,
-          "current": true
+          "public": true
         },
         "dir": {
           "value": "../fonts/",
@@ -15,22 +15,22 @@
         "filename": {
           "value": "ASCircularWeb",
           "legacy": true,
-          "current": true
+          "public": true
         },
         "weight": {
           "light": {
             "value": "-Light",
             "legacy": true,
-            "current": true
+            "public": true
           },
           "medium": {
             "value": "-Medium",
-            "current": true
+            "public": true
           },
           "book": {
             "value": "-Book",
             "legacy": true,
-            "current": true
+            "public": true
           }
         }
       }

@@ -3,25 +3,25 @@
     "background": {
       "lightest": {
         "value": "{color.base.white.value}",
-        "current": true,
+        "public": true,
         "usage": "Used for creating light backgrounds",
         "wcag": "n/a"
       },
       "lighter": {
         "value": "{color.base.cloud.value}",
-        "current": true,
+        "public": true,
         "usage": "Used for creating light backgrounds @ 90% white",
         "wcag": "n/a"
       },
       "darker": {
         "value": "{color.brand.midnight.400.value}",
-        "current": true,
+        "public": true,
         "usage": "Used for creating dark backgrounds",
         "wcag": "n/a"
       },
       "darkest": {
         "value": "{color.brand.midnight.500.value}",
-        "current": true,
+        "public": true,
         "usage": "Used for creating dark backgrounds @ 20% darker",
         "wcag": "n/a"
       }
