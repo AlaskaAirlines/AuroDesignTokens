@@ -4,227 +4,108 @@
       "scale": {
         "base": {
           "70": {
-            "value": 0.75,
-            "core": true
+            "value": 0.75
           },
           "80": {
-            "value": 0.875,
-            "core": true
+            "value": 0.875
           },
           "100": {
-            "value": 1,
-            "core": true
+            "value": 1
           },
           "110": {
-            "value": 1.125,
-            "core": true
+            "value": 1.125
           },
           "120": {
-            "value": 1.25,
-            "core": true
+            "value": 1.25
           }
           ,
           "130": {
-            "value": 1.375,
-            "core": true
+            "value": 1.375
           },
           "150": {
-            "value": 1.5,
-            "core": true
+            "value": 1.5
           }
         },
         "responsive": {
           "160": {
-            "value": 1.625,
-            "core": true
+            "value": 1.625
           },
           "170": {
-            "value": 1.75,
-            "core": true
+            "value": 1.75
           },
           "200": {
-            "value": 2,
-            "core": true
+            "value": 2
           },
           "220": {
-            "value": 2.25,
-            "core": true
+            "value": 2.25
           },
           "250": {
-            "value": 2.5,
-            "core": true
+            "value": 2.5
           },
           "270": {
-            "value": 2.75,
-            "core": true
+            "value": 2.75
           },
           "300": {
-            "value": 3.0,
-            "core": true
+            "value": 3.0
           },
           "350": {
-            "value": 3.5,
-            "core": true
+            "value": 3.5
           }
         }
       }
     },
-    "eighth": {
+    "xxxs": {
       "value": 0.125,
       "comment": "style guide value 2px",
-      "current": true
-    },
-    "eighth-stretch": {
-      "value": "{size.quarter.value} {size.eighth.value}",
-      "comment": "style guide value 4px / 2px",
-      "current": true
-    },
-    "eighth-squish": {
-      "value": "0 {size.eighth.value}",
-      "comment": "style guide value 0 / 2px",
-      "current": true
+      "public": true
     },
 
-    "quarter": {
+    "xxs": {
       "value": 0.25,
       "comment": "style guide value 4px",
-      "current": true
-    },
-    "quarter-stretch": {
-      "value": 0,
-      "comment": "style guide value 6px / 4px",
-      "current": true
-    },
-    "quarter-squish": {
-      "value": 0,
-      "comment": "style guide value 2px / 4px",
-      "current": true
+      "public": true
     },
 
-    "third": {
-      "value": 0.375,
-      "comment": "style guide value 6px",
-      "current": true
-    },
-
-    "half": {
+    "xs": {
       "value": 0.5,
       "comment": "style guide value 8px",
-      "current": true
-    },
-    "half-stretch": {
-      "value": 0,
-      "comment": "style guide value 12px / 8px",
-      "current": true
-    },
-    "half-squish": {
-      "value": 0,
-      "comment": "style guide value 4px / 8px",
-      "current": true
+      "public": true
     },
 
-    "threeQuarter": {
-      "value": 0.875,
+    "sm": {
+      "value": 0.75,
       "comment": "style guide value 12px",
-      "current": true
-    },
-    "threeQuarter-stretch": {
-      "value": 0,
-      "comment": "style guide value 18px / 12px",
-      "current": true
-    },
-    "threeQuarter-squish": {
-      "value": 0,
-      "comment": "style guide value 6px / 12px",
-      "current": true
+      "public": true
     },
 
-    "base": {
+    "md": {
       "value": 1,
       "comment": "style guide value 16px",
-      "current": true
-    },
-    "base-stretch": {
-      "value": 0,
-      "comment": "style guide value 24px / 16px",
-      "current": true
-    },
-    "base-squish": {
-      "value": 0,
-      "comment": "style guide value 8px / 16px",
-      "current": true
+      "public": true
     },
 
-    "baseEighth": {
-      "value": 1.125,
-      "comment": "style guide value 18px",
-      "current": true
-    },
-
-    "baseHalf": {
+    "lg": {
       "value": 1.5,
       "comment": "style guide value 24px",
-      "current": true
-    },
-    "baseHalf-stretch": {
-      "value": 0,
-      "comment": "style guide value 36px / 24px",
-      "current": true
-    },
-    "baseHalf-squish": {
-      "value": 0,
-      "comment": "style guide value 12px / 24px",
-      "current": true
+      "public": true
     },
 
-    "baseDos": {
+    "xl": {
       "value": 2,
       "comment": "style guide value 32px",
-      "current": true
-    },
-    "baseDos-stretch": {
-      "value": 0,
-      "comment": "style guide value 48px / 32px",
-      "current": true
-    },
-    "baseDos-squish": {
-      "value": 0,
-      "comment": "style guide value 16px / 32px",
-      "current": true
+      "public": true
     },
 
-    "baseDosQuarter": {
-      "value": 2.25,
-      "comment": "style guide value 36px",
-      "current": true
-    },
-
-    "baseTriple": {
+    "xxl": {
       "value": 3,
       "comment": "style guide value 48px",
-      "current": true
+      "public": true
     },
 
-    "baseQuad": {
+    "xxxl": {
       "value": 4,
       "comment": "style guide value 64px",
-      "current": true
-    },
-    "baseQuad-stretch": {
-      "value": 0,
-      "comment": "style guide value 96px / 64px",
-      "current": true
-    },
-    "baseQuad-squish": {
-      "value": 0,
-      "comment": "style guide value 32px / 64px",
-      "current": true
-    },
-
-    "baseHex": {
-      "value": 6,
-      "comment": "style guide value 96px",
-      "current": true
+      "public": true
     }
   }
 }

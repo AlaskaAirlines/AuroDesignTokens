@@ -5,31 +5,31 @@
         "100": {
           "value": "c1daf0",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "200": {
           "value": "569ed7",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "300": {
           "value": "156fad",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "400": {
           "value": "01426a",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "500": {
           "value": "00274a",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         }
       },
@@ -37,30 +37,30 @@
         "100": {
           "value": "cde6ff",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true
+          "public": true
         },
         "200": {
           "value": "6bb7fb",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "300": {
           "value": "2492eb",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "400": {
           "value": "0074ca",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "500": {
           "value": "054687",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         }
       },
@@ -68,18 +68,18 @@
         "100": {
           "value": "c0f7ff",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "200": {
           "value": "5de3f7",
           "comment": "{comments.color.brand.value.comment}",
-          "current": true,
+          "public": true,
           "wcag": "n/a"
         },
         "300": {
           "value": "00cff0",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
@@ -91,13 +91,13 @@
         },
         "400": {
           "value": "099dc5",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "0b5575",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
@@ -105,31 +105,31 @@
       "tropical": {
         "100": {
           "value": "e2ffcd",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "200": {
           "value": "d0fba6",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "300": {
           "value": "c0e585",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "400": {
           "value": "91be62",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "5e8741",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
@@ -137,31 +137,31 @@
       "alpine": {
         "100": {
           "value": "bcaae6",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "200": {
           "value": "9e73ea",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "300": {
           "value": "8439ef",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "400": {
           "value": "631db8",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "39115c",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
@@ -169,31 +169,31 @@
       "flamingo": {
         "100": {
           "value": "ffebee",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "200": {
           "value": "ffc0ca",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "300": {
           "value": "ff94a7",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "400": {
           "value": "F65b7b",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "b82b47",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
@@ -201,31 +201,31 @@
       "canyon": {
         "100": {
           "value": "FFCAB6",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "200": {
           "value": "F99574",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "300": {
           "value": "F26135",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "400": {
           "value": "DE3E09",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "B83302",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
@@ -233,31 +233,31 @@
       "goldcoast": {
         "100": {
           "value": "fff0cd",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "200": {
           "value": "ffdb67",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "300": {
           "value": "ffd200",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "400": {
           "value": "e5ad07",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         },
         "500": {
           "value": "b88624",
-          "current": true,
+          "public": true,
           "comment": "{comments.color.brand.value.comment}",
           "wcag": "n/a"
         }
