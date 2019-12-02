@@ -3,7 +3,7 @@
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",
-      "prefix": "ods",
+      "prefix": "auro",
       "comment": "File type: SCSS; variable type: Sass; filter: current",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -18,7 +18,7 @@
     },
     "SCSSVariableMap": {
       "transformGroup": "scss",
-      "prefix": "ods",
+      "prefix": "auro",
       "comment": "File type: SCSS; variable type: Sassmap; filter: size, current",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -50,7 +50,7 @@
     },
     "CSSCustomProperties": {
       "transformGroup": "css",
-      "prefix": "ods",
+      "prefix": "auro",
       "comment": "File type: CSS; variable type: CSS; filter: current",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -83,7 +83,7 @@
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "TokenProperties.css",
+          "destination": "CSSTokenProperties.css",
           "format": "css/variables",
           "filter": {
             "legacy": true
@@ -93,7 +93,7 @@
     },
     "SassCustomProperties": {
       "transformGroup": "css",
-      "prefix": "ods",
+      "prefix": "auro",
       "comment": "File type: SCSS; variable type: CSS; filter: current",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -179,7 +179,10 @@
         },
         {
           "destination": "TokenVariables.esm.js",
-          "format": "javascript/es6"
+          "format": "javascript/es6",
+          "filter": {
+            "legacy": true
+          }
         }
       ]
     },
