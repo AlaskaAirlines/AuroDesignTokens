@@ -20,6 +20,7 @@
       "transformGroup": "scss",
       "prefix": "auro",
       "comment": "File type: SCSS; variable type: Sassmap; filter: size, current",
+      "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
       "buildPath": "./dist/tokens/",
       "files": [
         {

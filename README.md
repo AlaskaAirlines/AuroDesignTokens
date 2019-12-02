@@ -47,8 +47,8 @@ Additional content options are made available within the token data. See the tab
 |---|---|---|
 | comment | string | comment that will appear in CSS/Sass output |
 | reference | string | new token redirect reference |
-| usage | string | description of toke use |
-| wcag | string | WCAG accessibility rating of applicable |
+| usage | string | description of token use |
+| wcag | string | WCAG accessibility rating if applicable |
 | value | string / number | the value of the token |
 
 ## Contributing
@@ -114,7 +114,7 @@ Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tok
 | TokenColorVariables | js module | color data | deprecated | filter: color |
 | CSSTokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
 | TokenVariables.esm | js es6 | all data | deprecated | full list of < v2.8 tokens |
-| _TokenProperties | scss | customn properties | deprecated | full list of < v2.8 tokens |
+| _TokenProperties | scss | custom properties | deprecated | full list of < v2.8 tokens |
 | _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
 
 
