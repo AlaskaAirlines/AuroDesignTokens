@@ -2,7 +2,7 @@
   "color": {
     "base": {
       "chili": {
-        "value": "{color.base.crimson.500}",
+        "value": "{color.base.crimson.500.value}",
         "comment": "{comments.color.reference.comment} color-base-crimson-500",
         "legacy": true,
         "redirect": true,
