@@ -77,7 +77,7 @@ npm i @alaskaairux/orion-design-tokens
 
 ## Install pre-processed resources
 
-Located in the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) version of the Orion Design Tokens is a `./tokens` directory.
+Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) in the `./tokens` directory.
 
 ```
 └── tokens
