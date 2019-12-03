@@ -1,5 +1,21 @@
 # Semantic Release Automated Changelog
 
+# [2.8.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.3...v2.8.0) (2019-12-03)
+
+
+### Bug Fixes
+
+* address reference bug ([9daba28](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/9daba28))
+* update incorrect name listing ([86f2d4a](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/86f2d4a))
+* update prefix and address filter bugs ([38a89b4](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/38a89b4))
+
+
+### Features
+
+* add new font scale tokens ([549297a](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/549297a))
+* update to new color tokens ([c9a4500](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/c9a4500))
+* update tokens with new tagging ([dbe1c51](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/dbe1c51))
+
 ## [2.7.3](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.2...v2.7.3) (2019-10-09)
 
 
