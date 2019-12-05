@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.9.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.8.0...v2.9.0) (2019-12-05)
+
+
+### Features
+
+* add additional meta support ([990bd8f](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/990bd8f))
+
 # [2.8.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.7.3...v2.8.0) (2019-12-03)
 
 
