@@ -5,12 +5,14 @@
         "onLight": {
           "value": "{color.base.ui.value}",
           "public": true,
+          "onLight": true,
           "usage": "Primary interaction color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
+          "onDark": true,
           "usage": "Primary interaction color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -19,12 +21,14 @@
         "onLight": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Hover interaction color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.brand.breeze.200.value}",
           "public": true,
+          "onDark": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -33,12 +37,14 @@
         "onLight": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Active interaction color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.brand.atlas.200.value}",
           "public": true,
+          "onDark": true,
           "usage": "Active interaction color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -47,12 +53,14 @@
         "onLight": {
           "value": "{color.base.ui-opacity-20.value}",
           "public": true,
+          "onLight": true,
           "usage": "Disabled interaction color on light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
           "value": "{color.brand.breeze.300-opacity-30.value}",
           "public": true,
+          "onDark": true,
           "usage": "Disabled interaction color on dark backgrounds",
           "wcag": "n/a"
         }

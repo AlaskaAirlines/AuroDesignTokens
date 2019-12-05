@@ -5,12 +5,14 @@
         "onLight": {
           "value": "{color.base.orca.value}",
           "public": true,
+          "onLight": true,
           "usage": "Primary color for body and header text on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.base.white.value}",
           "public": true,
+          "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
           "wcag": "AAA"
         }
@@ -19,12 +21,14 @@
         "onLight": {
           "value": "{color.base.unionblue.value}",
           "public": true,
+          "onLight": true,
           "usage": "Secondary color for body text on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.base.manatee.value}",
           "public": true,
+          "onDark": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA"
         }
@@ -33,12 +37,14 @@
         "onLight": {
           "value": "{color.base.ui.value}",
           "public": true,
+          "onLight": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA"
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
+          "onDark": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA"
         }
@@ -47,12 +53,14 @@
         "onLight": {
           "value": "{color.base.crimson.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Error text color on light backgrounds",
           "wcag": "AA"
         },
         "onDark": {
           "value": "{color.base.crimson.100.value}",
           "public": true,
+          "onDark": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA"
         }
@@ -61,12 +69,14 @@
         "onLight": {
           "value": "{color.base.disabled.value}",
           "public": true,
+          "onLight": true,
           "usage": "Disabled text color on light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
           "value": "{color.base.disabled.value}",
           "public": true,
+          "onDark": true,
           "usage": "Disabled text color on dark backgrounds",
           "wcag": "n/a"
         }

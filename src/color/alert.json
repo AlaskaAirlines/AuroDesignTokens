@@ -5,12 +5,14 @@
         "onLight": {
           "value": "{color.base.ui.value}",
           "public": true,
+          "onLight": true,
           "usage": "Notification color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
+          "onDark": true,
           "usage": "Notification color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -19,6 +21,7 @@
         "onLight": {
           "value": "{color.base.sunset.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA"
         }
@@ -27,12 +30,14 @@
         "onLight": {
           "value": "{color.base.crimson.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Error color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.base.crimson.100.value}",
           "public": true,
+          "onDark": true,
           "usage": "Error color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -41,12 +46,14 @@
         "onLight": {
           "value": "{color.base.emerald.500.value}",
           "public": true,
+          "onLight": true,
           "usage": "Success color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.base.emerald.100.value}",
           "public": true,
+          "onDark": true,
           "usage": "Success color on dark backgrounds",
           "wcag": "AAA"
         }
@@ -55,12 +62,14 @@
         "onLight": {
           "value": "{color.brand.goldcoast.100.value}",
           "public": true,
+          "onLight": true,
           "usage": "Travel advisory or system maintenance color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
           "value": "{color.brand.goldcoast.100.value}",
           "public": true,
+          "onDark": true,
           "usage": "Travel advisory or system maintenance color on dark backgrounds",
           "wcag": "AAA"
         }
