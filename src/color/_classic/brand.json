@@ -4,17 +4,20 @@
       "atlas": {
         "value": "2774ae",
         "comment": "{ comments.color.classic.comment }",
-        "classic": true
+        "classic": true,
+        "legacy": true
       },
       "breeze": {
         "value": "48a9c5",
         "comment": "{ comments.color.classic.comment }",
-        "classic": true
+        "classic": true,
+        "legacy": true
       },
       "tropical": {
         "value": "b3d57d",
         "comment": "{ comments.color.classic.comment }",
-        "classic": true
+        "classic": true,
+        "legacy": true
       }
     }
   }
