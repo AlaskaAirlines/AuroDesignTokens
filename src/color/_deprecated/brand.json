@@ -4,12 +4,12 @@
       "blue": {
         "midnight": {
           "base": {
-            "value": "{color.brand.midnight.300.value}",
-            "comment": "{comments.color.reference.comment} color-bran-midnight-300",
+            "value": "{color.brand.midnight.400.value}",
+            "comment": "{comments.color.reference.comment} color-bran-midnight-400",
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color-brand-midnight-300"
+            "reference": "color-brand-midnight-400"
           }
         },
         "atlas": {

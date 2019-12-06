@@ -2,7 +2,8 @@
   "depth": {
     "hidden": {
       "value": "-1",
-      "public": true
+      "public": true,
+      "legacy": true
     },
     "0": {
       "value": "0",
@@ -22,19 +23,23 @@
     },
     "dialog": {
       "value": "{depth.100.value}",
-      "public": true
+      "public": true,
+      "legacy": true
     },
     "overlay": {
       "value": "{depth.200.value}",
-      "public": true
+      "public": true,
+      "legacy": true
     },
     "modal": {
       "value": "{depth.300.value}",
-      "public": true
+      "public": true,
+      "legacy": true
     },
     "tooltip": {
       "value": "{depth.300.value}",
-      "public": true
+      "public": true,
+      "legacy": true
     }
   }
 }
