@@ -192,6 +192,7 @@
       "transformGroup": "js",
       "comment": "File type: JS; variable type: JS; filter: deprecated",
       "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
           "destination": "JSObject--deprecated.js",
