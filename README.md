@@ -85,8 +85,8 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
    ├── CSSCustomProperties.css
    ├── CSSTokenProperties.css
    ├── JSData--color.js
+   ├── JSObject--allTokens.js
    ├── JSObject--classicColors.js
-   ├── JSObject--colorRedirects.js
    ├── JSObject--deprecated.js
    ├── JSVariables--color.js
    ├── SCSSVariableMap.scss
@@ -104,8 +104,8 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 | CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
 | CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
 | JSData--color | JS module | color data | current | filter: color, current |
+| JSObject--allTokens.js | JS module | all data | current | filter: public |
 | JSObject--classicColors | js module | color data | current | filter: classic |
-| JSObject--colorRedirects | js module | color data | current | filter: redirect |
 | JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
 | JSVariables--color | js es6 | color data | current | filter: color |
 | SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
@@ -152,7 +152,7 @@ All the Orion tokens are supported with the v2.8 release. All the new Auro token
 
 ### Orion pre-processed resources
 
-If your project is already using pre-processed resources as listed below, your project should see no change in token support. 
+If your project is already using pre-processed resources as listed below, your project should see no change in token support.
 
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
@@ -162,11 +162,11 @@ If your project is already using pre-processed resources as listed below, your p
 | _TokenProperties | scss | custom properties | deprecated | full list of < v2.8 tokens |
 | _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
 
-### Orion local build support 
+### Orion local build support
 
-If your project is using a local Style Dictionary build, by upgrading to v2.8 you will get ALL the tokens. This will include Classic, Orion and Auro. 
+If your project is using a local Style Dictionary build, by upgrading to v2.8 you will get ALL the tokens. This will include Classic, Orion and Auro.
 
-Adding the following filters to your config.json file will filter out all the new Auro tokens and only produce a tokens stylesheet with legacy Orion and Classic tokens. 
+Adding the following filters to your config.json file will filter out all the new Auro tokens and only produce a tokens stylesheet with legacy Orion and Classic tokens.
 
 ```
   "files": [
@@ -180,18 +180,18 @@ Adding the following filters to your config.json file will filter out all the ne
 
 ### Moving from Orion to Auro tokens
 
-When using the Design Tokens, all the deprecated token files have comments as to the status of the token. See examples below for comments that denote a new token to be used in place of a deprecated one, a token that should only be used with CLASSIC UIs, and a deprecated token with no replacement and will be removed with the next major release. 
+When using the Design Tokens, all the deprecated token files have comments as to the status of the token. See examples below for comments that denote a new token to be used in place of a deprecated one, a token that should only be used with CLASSIC UIs, and a deprecated token with no replacement and will be removed with the next major release.
 
 ```
 :root {
 
-   --breakpoint-width-narrow: 480px; /* 
+   --breakpoint-width-narrow: 480px; /*
   // New token, see breakpoint-sm */
-  
-   --color-classic-calm: #8ba6c1; /* 
+
+   --color-classic-calm: #8ba6c1; /*
   // DO NOT USE for anything other than legacy projects or classic component themes */
-  
-   --color-background-booking-bar: #156fad; /* 
+
+   --color-background-booking-bar: #156fad; /*
   // Deprecated, no replacement; token to be REMOVED in next MAJOR release */
 
 }
