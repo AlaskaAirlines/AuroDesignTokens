@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [2.10.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.9.1...v2.10.0) (2019-12-11)
+
+
+### Bug Fixes
+
+* update config to support deprecated listing names view ([346edac](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/346edac))
+
+
+### Features
+
+* add support for new allTokens data output ([a4f729c](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/a4f729c))
+
 ## [2.9.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.9.0...v2.9.1) (2019-12-06)
 
 
