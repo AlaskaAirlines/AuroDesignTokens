@@ -39,6 +39,7 @@
       "transformGroup": "scss",
       "comment": "File type: SCSS; variable type: Sass; filter: legacy",
       "buildPath": "./dist/tokens/",
+      "deprecated": true,
       "files": [
         {
           "destination": "_TokenVariables.scss",
@@ -82,6 +83,7 @@
       "transformGroup": "css",
       "comment": "File type: CSS; variable type: CSS; filter: legacy",
       "buildPath": "./dist/tokens/",
+      "deprecated": true,
       "files": [
         {
           "destination": "CSSTokenProperties.css",
@@ -112,6 +114,7 @@
       "transformGroup": "css",
       "comment": "File type: CSS; variable type: CSS; filter: legacy",
       "buildPath": "./dist/tokens/",
+      "deprecated": true,
       "files": [
         {
           "destination": "_TokenProperties.scss",
@@ -138,7 +141,7 @@
     },
     "JSExports--color": {
       "transformGroup": "js",
-      "comment": "File type: JS; variable type: JS; filter: colors || current",
+      "comment": "File type: JS; data type: JS; filter: colors || current",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
@@ -166,8 +169,9 @@
     },
     "JSExports--color--deprecatedFile": {
       "transformGroup": "js",
-      "comment": "File type: JS; variable type: JS; filter: color / legacy",
+      "comment": "File type: JS; data type: JS; filter: color / legacy",
       "buildPath": "./dist/tokens/",
+      "deprecated": true,
       "files": [
         {
           "destination": "TokenColorVariables.js",
@@ -190,7 +194,7 @@
     },
     "JSObject--deprecatedTokens": {
       "transformGroup": "js",
-      "comment": "File type: JS; variable type: JS; filter: deprecated",
+      "comment": "File type: JS; data type: JS; filter: deprecated",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
@@ -205,7 +209,7 @@
     },
     "JSObject--classicColors": {
       "transformGroup": "js",
-      "comment": "File type: JS; variable type: JS; filter: classic colors",
+      "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/tokens/",
       "files": [
         {
@@ -217,16 +221,17 @@
         }
       ]
     },
-    "JSObject--colorRedirects": {
+    "JSObject--allTokens": {
       "transformGroup": "js",
-      "comment": "File type: JS; variable type: JS; filter: redirect",
+      "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
-          "destination": "JSObject--colorRedirects.js",
+          "destination": "JSObject--allTokens.js",
           "format": "javascript/module",
           "filter": {
-            "redirect": true
+            "public": true
           }
         }
       ]
