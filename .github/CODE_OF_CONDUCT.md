@@ -1,4 +1,4 @@
-# Orion Design Tokens Code of Conduct
+# Code of Conduct
 
 ## Our Pledge
 
