@@ -40,7 +40,7 @@
   "text": {
     "heading": {
       "margin": {
-        "value": 0,
+        "value": "0",
         "public": true
       },
       "spacing": {
