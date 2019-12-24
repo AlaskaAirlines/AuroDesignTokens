@@ -53,6 +53,11 @@
         }
       }
     },
+    "none": {
+      "value": "0",
+      "comment": "style guide value 0",
+      "public": true
+    },
     "xxxs": {
       "value": 0.125,
       "comment": "style guide value 2px",

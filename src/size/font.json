@@ -38,8 +38,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "text-heading-display-size-breakpoint-med",
-            "comment": "{comments.reference.comment} text-heading-display-size-breakpoint-med"
+            "reference": "text-heading-display-size-breakpoint-md",
+            "comment": "{comments.reference.comment} text-heading-display-size-breakpoint-md"
           },
           "xxl": {
             "value": 2.25,
@@ -83,8 +83,8 @@
             "legacy": true,
             "deprecated": true,
             "redirect": true,
-            "reference": "text-heading-600-size-breakpoint-sml",
-            "comment": "{comments.reference.comment} text-heading-600-breakpoint-sml-size"
+            "reference": "text-heading-600-size-breakpoint-sm",
+            "comment": "{comments.reference.comment} text-heading-600-breakpoint-sm-size"
           },
           "xl": {
             "value": 1.44,

@@ -5,16 +5,16 @@
       "legacy": true,
       "deprecated": true,
       "redirect": true,
-      "reference": "font-weight-500",
-      "comment": "{comments.reference.comment} font-weight-500"
+      "reference": "text-body-default-weight",
+      "comment": "{comments.reference.comment} text-body-default-weight"
     },
     "light": {
       "value": "200",
       "legacy": true,
       "deprecated": true,
       "redirect": true,
-      "reference": "font-weight-100",
-      "comment": "{comments.reference.comment} font-weight-100"
+      "reference": "text-heading-display-weight",
+      "comment": "{comments.reference.comment} text-heading-display-weight"
     }
   },
   "verticalAlignment": {

@@ -2,24 +2,19 @@
   "depth": {
     "hidden": {
       "value": "-1",
-      "public": true,
       "legacy": true
     },
     "0": {
-      "value": "0",
-      "public": true
+      "value": "0"
     },
     "100": {
-      "value": "100",
-      "public": true
+      "value": "100"
     },
     "200": {
-      "value": "200",
-      "public": true
+      "value": "200"
     },
     "300": {
-      "value": "300",
-      "public": true
+      "value": "300"
     },
     "dialog": {
       "value": "{depth.100.value}",

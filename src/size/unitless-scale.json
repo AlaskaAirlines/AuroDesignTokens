@@ -71,8 +71,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.20",
-        "comment": "{comments.reference.comment} unitless.scale.20"
+        "reference": "unitless-scale-20",
+        "comment": "{comments.reference.comment} unitless-scale-20"
       },
       "sml": {
         "value": 0.5,
@@ -80,8 +80,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.50",
-        "comment": "{comments.reference.comment} unitless.scale.50"
+        "reference": "unitless-scale-50",
+        "comment": "{comments.reference.comment} unitless-scale-50"
       },
       "med": {
         "value": 1,
@@ -89,8 +89,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.100",
-        "comment": "{comments.reference.comment} unitless.scale.100"
+        "reference": "unitless-scale-100",
+        "comment": "{comments.reference.comment} unitless-scale-100"
       },
       "lg": {
         "value": 1.5,
@@ -98,8 +98,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.150",
-        "comment": "{comments.reference.comment} unitless.scale.150"
+        "reference": "unitless-scale-150",
+        "comment": "{comments.reference.comment} unitless-scale-150"
       },
       "xl": {
         "value": 2,
@@ -107,8 +107,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.200",
-        "comment": "{comments.reference.comment} unitless.scale.200"
+        "reference": "unitless-scale-200",
+        "comment": "{comments.reference.comment} unitless-scale-200"
       },
       "xxl": {
         "value": 3,
@@ -116,8 +116,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.300",
-        "comment": "{comments.reference.comment} unitless.scale.300"
+        "reference": "unitless-scale-300",
+        "comment": "{comments.reference.comment} unitless-scale-300"
       },
       "max": {
         "value": 3.5,
@@ -125,8 +125,8 @@
         "legacy": true,
         "deprecated": true,
         "redirect": true,
-        "reference": "unitless.scale.350",
-        "comment": "{comments.reference.comment} unitless.scale.350"
+        "reference": "unitless-scale-350",
+        "comment": "{comments.reference.comment} unitless-scale-350"
       }
     }
   }

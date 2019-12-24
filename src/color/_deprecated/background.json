@@ -72,9 +72,11 @@
       "light": {
         "rule": {
           "value": "{color.base.mist.value}",
-          "comment": "{comments.color.deprecated.comment}",
           "deprecated": true,
-          "legacy": true
+          "legacy": true,
+          "redirect": true,
+          "reference": "color-border-primary-on-light",
+          "comment": "{comments.color.reference.comment} color-border-primary-on-light"
         }
       }
     }
