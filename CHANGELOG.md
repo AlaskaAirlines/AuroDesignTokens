@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.1...v2.10.2) (2020-01-07)
+
+
+### Bug Fixes
+
+* address bugs with conversion values ([76e7a34](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/76e7a34))
+
 ## [2.10.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.0...v2.10.1) (2019-12-24)
 
 
