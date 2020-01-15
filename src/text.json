@@ -84,15 +84,21 @@
           "breakpoint": {
             "sm": {
               "value": "{unitless.scale.330.value}",
-              "public": true
+              "deprecated": true,
+              "reference": "n/a",
+              "comment": "{comments.color.deprecated.comment}"
             },
             "md": {
               "value": "{unitless.scale.370.value}",
-              "public": true
+              "deprecated": true,
+              "reference": "n/a",
+              "comment": "{comments.color.deprecated.comment}"
             },
             "lg": {
               "value": "{unitless.scale.420.value}",
-              "public": true
+              "deprecated": true,
+              "reference": "n/a",
+              "comment": "{comments.color.deprecated.comment}"
             }
           }
         }
