@@ -60,6 +60,7 @@
         "LegacyComment": "style guide value 56px",
         "legacy": true,
         "deprecated": true,
+        "reference": "unitless-scale-350",
         "comment": "{comments.deprecated.comment}"
       },
       "classic": {
@@ -67,6 +68,7 @@
         "LegacyComment": "classic style value 12px",
         "legacy": true,
         "deprecated": true,
+        "reference": "n/a",
         "comment": "{comments.deprecated.comment}"
       }
     }

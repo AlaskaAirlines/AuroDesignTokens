@@ -25,6 +25,7 @@
             "value": "176cff",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true,
             "redirect": false
           },
@@ -32,26 +33,30 @@
             "value": "0064c6",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true
           }
         },
         "breeze": {
           "base": {
             "value": "00C7e6",
-            "comment": "{comments.color.deprecated.comment}",
+            "comment": "{comments.color.reference.comment} color-brand-breeze-300",
             "deprecated": true,
+            "reference": "color-brand-breeze-300",
             "legacy": true
           },
           "lighten": {
             "value": "17d8ff",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true
           },
           "darken": {
             "value": "00bae4",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true
           }
         }
@@ -60,20 +65,23 @@
         "tropical": {
           "base": {
             "value": "c0e585",
-            "comment": "{comments.color.deprecated.comment}",
+            "comment": "{comments.color.reference.comment} color-brand-tropical-300",
             "deprecated": true,
+            "reference": "color-brand-tropical-300",
             "legacy": true
           },
           "lighten": {
             "value": "bff380",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true
           },
           "darken": {
             "value": "a6d36a",
             "comment": "{comments.color.deprecated.comment}",
             "deprecated": true,
+            "reference": "n/a",
             "legacy": true
           }
         }

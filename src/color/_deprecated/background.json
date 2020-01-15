@@ -3,61 +3,71 @@
     "background": {
       "bookingBar": {
         "value": "{color.brand.blue.midnight.base.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-background-darker",
+        "reference": "color-background-darker",
         "deprecated": true,
         "legacy": true
       },
       "footer":{
         "value": "{color.brand.blue.midnight.base.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-background-darker",
+        "reference": "color-background-darker",
         "deprecated": true,
         "legacy": true
       },
       "accountDrawer": {
         "value": "{color.brand.blue.midnight.base.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-background-darker",
+        "reference": "color-background-darker",
         "deprecated": true,
         "legacy": true
       },
       "logo": {
         "value": "{color.brand.blue.midnight.base.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-background-darker",
+        "reference": "color-background-darker",
         "deprecated": true,
         "legacy": true
       },
       "headline": {
         "value": "{color.base.white.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-base-white",
+        "reference": "color-bas-white",
         "deprecated": true,
         "legacy": true
       },
       "header": {
         "value": "{color.base.white.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-base-white",
+        "reference": "color-bas-white",
         "deprecated": true,
         "legacy": true
       },
       "sectionSeperator": {
         "value": "{color.base.cloud.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-background-lighter",
+        "reference": "color-background-lighter",
         "deprecated": true,
         "legacy": true
       },
       "error": {
         "value": "{color.base.chili.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-[border/text/alert]-error-on-light",
+        "reference": "color-[border/text/alert]-error-on-light",
         "deprecated": true,
         "legacy": true
       },
       "alert": {
         "value": "{color.base.limeade.value}",
         "comment": "{comments.color.deprecated.comment}",
+        "reference": "n/a",
         "deprecated": true,
         "legacy": true
       },
       "advisory": {
         "value": "{color.base.beluga.value}",
-        "comment": "{comments.color.deprecated.comment}",
+        "comment": "{comments.color.reference.comment} color-alert-warning-on-light",
+        "reference": "color-alert-warning-on-light",
         "deprecated": true,
         "legacy": true
       },
@@ -65,6 +75,7 @@
         "rule": {
           "value": "{color.base.dusk.value}",
           "comment": "{comments.color.deprecated.comment}",
+          "reference": "n/a",
           "deprecated": true,
           "legacy": true
         }

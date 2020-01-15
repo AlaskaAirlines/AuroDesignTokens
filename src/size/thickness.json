@@ -4,13 +4,13 @@
       "thin": {
         "value": "1px",
         "legacy": true,
-        "deprecated": true,
+        "public": true,
         "comment": "{comments.deprecated.comment}"
       },
       "thick": {
         "value": "2px",
         "legacy": true,
-        "deprecated": true,
+        "public": true,
         "comment": "{comments.deprecated.comment}"
       }
     }

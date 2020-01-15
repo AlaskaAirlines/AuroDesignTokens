@@ -14,6 +14,7 @@
         "xAxis": {
           "value": 0,
           "legacy": true,
+          "reference": "n/a",
           "deprecated": true,
           "comment": "{comments.deprecated.comment}"
         },
@@ -21,6 +22,7 @@
           "value": 1.375,
           "legacy": true,
           "deprecated": true,
+          "reference": "n/a",
           "comment": "{comments.deprecated.comment}"
         },
         "legacyComment": "style guide value 8px / 22px"

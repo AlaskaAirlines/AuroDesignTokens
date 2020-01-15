@@ -4,6 +4,7 @@
       "max": {
         "value": 82.5,
         "legacy": true,
+        "reference": "n/a",
         "deprecated": true,
         "comment": "{comments.deprecated.comment}"
       }

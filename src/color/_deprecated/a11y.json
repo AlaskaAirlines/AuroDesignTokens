@@ -6,6 +6,7 @@
           "value": "{color.base.nemo.value}",
           "deprecated": true,
           "legacy": true,
+          "reference": "n/a",
           "comment": "{comments.color.deprecated.comment}"
         }
       }

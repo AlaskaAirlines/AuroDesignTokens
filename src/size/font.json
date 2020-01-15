@@ -75,6 +75,7 @@
             "legacyComment": "style guide value 35px",
             "legacy": true,
             "deprecated": true,
+            "reference": "n/a",
             "comment": "{comments.deprecated.comment} -- no new reference"
           },
           "xxl": {
@@ -91,6 +92,7 @@
             "legacyComment": "style guide value 23px",
             "legacy": true,
             "deprecated": true,
+            "reference": "n/a",
             "comment": "{comments.deprecated.comment} -- no new reference"
           },
           "lg": {

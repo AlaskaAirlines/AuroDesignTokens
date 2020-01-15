@@ -3,53 +3,59 @@
     "background": {
       "defaultButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} color.base.ui",
+        "comment": "{comments.color.reference.comment} color-base-ui",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "color.base.ui"
+        "reference": "color-base-ui"
       },
       "activeButton": {
         "value": "{color.brand.blue.atlas.darken.value}",
         "comment": "{comments.deprecated.comment}",
         "deprecated": true,
+        "reference": "n/a",
         "legacy": true
       },
       "isActiveButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} color.base.ui",
+        "comment": "{comments.color.reference.comment} color-base-ui",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "color.base.ui"
+        "reference": "color-base-ui"
       },
       "secondaryButton": {
         "value": "{color.base.white.value}",
-        "comment": "{comments.deprecated.comment}",
+        "comment": "{comments.reference.comment} color-base-white",
+        "reference": "color-base-white",
         "deprecated": true,
         "legacy": true
       },
       "completeButton": {
         "value": "{color.brand.green.tropical.base.value}",
-        "comment": "{comments.deprecated.comment}",
+        "comment": "{comments.reference.comment} color-brand-tropical-300",
+        "reference": "color-brand-tropical-300",
         "deprecated": true,
         "legacy": true
       },
       "hoverCompleteButton": {
         "value": "{color.brand.green.tropical.lighten.value}",
-        "comment": "{comments.deprecated.comment}",
+        "comment": "{comments.reference.comment} color-brand-tropical-200",
+        "reference": "color-brand-tropical-200",
         "deprecated": true,
         "legacy": true
       },
       "hoverButton": {
         "value": "{color.brand.blue.atlas.lighten.value}",
-        "comment": "{comments.deprecated.comment}",
+        "comment": "{comments.reference.comment} color-brand-atlas-200",
+        "reference": "color-brand-atlas-200",
         "deprecated": true,
         "legacy": true
       },
       "disabledButton": {
         "value": "{color.base.cloud.value}",
-        "comment": "{comments.deprecated.comment}",
+        "comment": "{comments.reference.comment} color-ui-disabled-on-light",
+        "reference": "color-ui-disabled-on-light",
         "deprecated": true,
         "legacy": true
       }
