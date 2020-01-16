@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.4](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.3...v2.10.4) (2020-01-16)
+
+
+### Bug Fixes
+
+* update deprecated token references ([e7e5c56](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/e7e5c56))
+
 ## [2.10.3](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.2...v2.10.3) (2020-01-15)
 
 
