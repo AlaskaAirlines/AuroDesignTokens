@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.5](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.4...v2.10.5) (2020-01-17)
+
+
+### Bug Fixes
+
+* update line-height tokens for headings ([e8566de](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/e8566de))
+
 ## [2.10.4](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.3...v2.10.4) (2020-01-16)
 
 
