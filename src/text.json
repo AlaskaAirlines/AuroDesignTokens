@@ -83,22 +83,16 @@
         "height": {
           "breakpoint": {
             "sm": {
-              "value": "{unitless.scale.330.value}",
-              "deprecated": true,
-              "reference": "n/a",
-              "comment": "{comments.color.deprecated.comment}"
+              "value": "{size.font.scale.responsive.330.value}",
+              "public": true
             },
             "md": {
-              "value": "{unitless.scale.370.value}",
-              "deprecated": true,
-              "reference": "n/a",
-              "comment": "{comments.color.deprecated.comment}"
+              "value": "{size.font.scale.responsive.370.value}",
+              "public": true
             },
             "lg": {
-              "value": "{unitless.scale.420.value}",
-              "deprecated": true,
-              "reference": "n/a",
-              "comment": "{comments.color.deprecated.comment}"
+              "value": "{size.font.scale.responsive.420.value}",
+              "public": true
             }
           }
         }
@@ -127,15 +121,15 @@
         "height": {
           "breakpoint": {
             "sm": {
-              "value": "{unitless.scale.230.value}",
+              "value": "{size.font.scale.responsive.230.value}",
               "public": true
             },
             "md": {
-              "value": "{unitless.scale.260.value}",
+              "value": "{size.font.scale.responsive.260.value}",
               "public": true
             },
             "lg": {
-              "value": "{unitless.scale.300.value}",
+              "value": "{size.font.scale.responsive.300.value}",
               "public": true
             }
           }
@@ -165,15 +159,15 @@
         "height": {
           "breakpoint": {
             "sm": {
-              "value": "{unitless.scale.210.value}",
+              "value": "{size.font.scale.responsive.210.value}",
               "public": true
             },
             "md": {
-              "value": "{unitless.scale.230.value}",
+              "value": "{size.font.scale.responsive.230.value}",
               "public": true
             },
             "lg": {
-              "value": "{unitless.scale.270.value}",
+              "value": "{size.font.scale.responsive.270.value}",
               "public": true
             }
           }
@@ -199,15 +193,15 @@
         "height": {
           "breakpoint": {
             "sm": {
-              "value": "{unitless.scale.180.value}",
+              "value": "{size.font.scale.responsive.180.value}",
               "public": true
             },
             "md": {
-              "value": "{unitless.scale.210.value}",
+              "value": "{size.font.scale.responsive.210.value}",
               "public": true
             },
             "lg": {
-              "value": "{unitless.scale.220.value}",
+              "value": "{size.font.scale.responsive.220.value}",
               "public": true
             }
           }
@@ -233,15 +227,15 @@
         "height": {
           "breakpoint": {
             "sm": {
-              "value": "{unitless.scale.160.value}",
+              "value": "{size.font.scale.responsive.160.value}",
               "public": true
             },
             "md": {
-              "value": "{unitless.scale.180.value}",
+              "value": "{size.font.scale.responsive.180.value}",
               "public": true
             },
             "lg": {
-              "value": "{unitless.scale.200.value}",
+              "value": "{size.font.scale.responsive.200.value}",
               "public": true
             }
           }
@@ -253,7 +247,7 @@
           "public": true
         },
         "height": {
-          "value": "{unitless.scale.160.value}",
+          "value": "{size.font.scale.responsive.160.value}",
           "public": true
         }
       },
@@ -263,7 +257,7 @@
           "public": true
         },
         "height": {
-          "value": "{unitless.scale.160.value}",
+          "value": "{size.font.scale.responsive.160.value}",
           "public": true
         }
       }
@@ -295,19 +289,19 @@
       },
       "height": {
         "xs": {
-          "value": "{unitless.scale.100.value}",
+          "value": "{size.font.scale.base.100.value}",
           "public": true
         },
         "sm": {
-          "value": "{unitless.scale.120.value}",
+          "value": "{size.font.scale.base.120.value}",
           "public": true
         },
         "default": {
-          "value": "{unitless.scale.150.value}",
+          "value": "{size.font.scale.base.150.value}",
           "public": true
         },
         "lg": {
-          "value": "{unitless.scale.160.value}",
+          "value": "{size.font.scale.responsive.160.value}",
           "public": true
         }
       }
