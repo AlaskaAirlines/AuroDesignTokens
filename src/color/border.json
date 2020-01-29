@@ -64,7 +64,22 @@
           "usage": "Disabled border color on dark background",
           "wcag": "n/a"
         }
+      },
+      "Focus": {
+        "onLight": {
+          "value": "{color.base.black-opacity-15.value}",
+          "public": true,
+          "onLight": true,
+          "usage": "Focus border color on light backgrounds",
+          "wcag": "n/a"
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Focus border color on dark background",
+          "wcag": "n/a"
+        }
       }
     }
   }
-}
