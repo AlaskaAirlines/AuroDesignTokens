@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.6](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.5...v2.10.6) (2020-01-30)
+
+
+### Bug Fixes
+
+* add new border tokens ([798dd1e](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/798dd1e))
+
 ## [2.10.5](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.4...v2.10.5) (2020-01-17)
 
 
