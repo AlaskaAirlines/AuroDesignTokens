@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.7](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.6...v2.10.7) (2020-02-07)
+
+
+### Bug Fixes
+
+* add support for unitless 140 ([fad20b6](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/fad20b6))
+
 ## [2.10.6](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.5...v2.10.6) (2020-01-30)
 
 
