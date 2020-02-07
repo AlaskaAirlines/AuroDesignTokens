@@ -16,6 +16,10 @@
       "120": {
         "value": 1.25
       },
+      "140": {
+        "value": 1.4,
+        "public": true
+      },
       "150": {
         "value": 1.5,
         "public": true
