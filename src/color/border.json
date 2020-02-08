@@ -66,20 +66,27 @@
         }
       },
       "Focus": {
-        "onLight": {
+        "grey": {
           "value": "{color.base.black-opacity-15.value}",
           "public": true,
           "onLight": true,
-          "usage": "Focus border color on light backgrounds",
+          "usage": "Focus border color for neutral backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
           "value": "{color.base.white.value}",
           "public": true,
           "onDark": true,
-          "usage": "Focus border color on dark background",
+          "usage": "Focus border color for dark backgrounds",
           "wcag": "n/a"
-        }
+        },
+        "onLight": {
+          "value": "{color.base.orca.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Focus border color for light backgrounds",
+          "wcag": "n/a"
+        }  
       }
     }
   }

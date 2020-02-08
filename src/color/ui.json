@@ -42,7 +42,7 @@
           "wcag": "AAA"
         },
         "onDark": {
-          "value": "{color.brand.atlas.200.value}",
+          "value": "{color.brand.breeze.200.value}",
           "public": true,
           "onDark": true,
           "usage": "Active interaction color on dark backgrounds",
