@@ -38,7 +38,7 @@
         },
         "light": {
           "primary": {
-            "value": "{color.base.orca.value}",
+            "value": "{color.base.gray.500.value}",
             "legacy": true,
             "deprecated": true,
             "redirect": true,

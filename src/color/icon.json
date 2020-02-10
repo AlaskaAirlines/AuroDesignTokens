@@ -19,7 +19,7 @@
       },
       "emphasis": {
         "onLight": {
-          "value": "{color.base.orca.value}",
+          "value": "{color.base.gray.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Emphasis or darkest icon color on light backgrounds",
@@ -35,7 +35,7 @@
       },
       "accent": {
         "onLight": {
-          "value": "{color.base.ui.value}",
+          "value": "{color.brand.atlas.400.value}",
           "public": true,
           "onLight": true,
           "usage": "Accent color for icon color on light backgrounds",

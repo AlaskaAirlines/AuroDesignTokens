@@ -3,11 +3,11 @@
     "background": {
       "defaultButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} color-base-ui",
+        "comment": "{comments.color.reference.comment} color-brand-atlas-400",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "color-base-ui"
+        "reference": "color-brand-atlas-400"
       },
       "activeButton": {
         "value": "{color.brand.blue.atlas.darken.value}",
@@ -18,11 +18,11 @@
       },
       "isActiveButton": {
         "value": "{color.brand.blue.atlas.base.value}",
-        "comment": "{comments.color.reference.comment} color-base-ui",
+        "comment": "{comments.color.reference.comment} color-brand-atlas-400",
         "deprecated": true,
         "legacy": true,
         "redirect": true,
-        "reference": "color-base-ui"
+        "reference": "color-brand-atlas-400"
       },
       "secondaryButton": {
         "value": "{color.base.white.value}",
@@ -53,7 +53,7 @@
         "legacy": true
       },
       "disabledButton": {
-        "value": "{color.base.cloud.value}",
+        "value": "{color.base.gray.100.value}",
         "comment": "{comments.reference.comment} color-ui-disabled-on-light",
         "reference": "color-ui-disabled-on-light",
         "deprecated": true,

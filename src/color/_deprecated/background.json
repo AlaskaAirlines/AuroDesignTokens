@@ -44,7 +44,7 @@
         "legacy": true
       },
       "sectionSeperator": {
-        "value": "{color.base.cloud.value}",
+        "value": "{color.base.gray.100.value}",
         "comment": "{comments.color.reference.comment} color-background-lighter",
         "reference": "color-background-lighter",
         "deprecated": true,

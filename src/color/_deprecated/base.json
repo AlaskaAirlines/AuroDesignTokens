@@ -2,13 +2,15 @@
   "color": {
     "base": {
       "chili": {
-        "value": "{color.base.crimson.500.value}",
+        "value": "{color.state.error.500.value}",
         "comment": "{comments.color.reference.comment} color-base-crimson-500",
         "legacy": true,
         "redirect": true,
+        "deprecated": true,
         "reference": "color-base-crimson-500"
       },
-      "shark": {"value": "58606c",
+      "shark": {
+        "value": "58606c",
         "comment": "{comments.color.deprecated.comment}",
         "reference": "n/a",
         "deprecated": true,
@@ -56,10 +58,47 @@
         "deprecated": true,
         "legacy": true
       },
+      "cloud": {
+        "value": "{color.base.gray.100.value}",
+        "comment": "{comments.color.reference.comment} color-base-gray-100",
+        "legacy": true,
+        "redirect": true,
+        "deprecated": true,
+        "reference": "color-base-gray-100"
+      },
       "nemo": {
-        "value": "f26135",
-        "comment": "deprecated, see color-brand-canyon-300",
-        "legacy": true
+        "value": "{color.brand.canyon.300.value}",
+        "comment": "{comments.color.reference.comment} color-brand-canyon-300",
+        "legacy": true,
+        "redirect": true,
+        "deprecated": true,
+        "reference": "color-brand-canyon-300"
+      },
+      "manatee": {
+        "value": "{color.base.neutral.400.value}",
+        "comment": "{comments.color.reference.comment} color-base-neutral-500",
+        "legacy": true,
+        "redirect": true,
+        "deprecated": true,
+        "reference": "color-base-neutral-500"
+      },
+      "orca": {
+        "value": "{color.base.gray.500.value}",
+        "comment": "{comments.color.reference.comment} color-base-gray-500",
+        "legacy": true,
+        "redirect": true,
+        "deprecated": true,
+        "reference": "color-base-gray-500"
+      },
+      "ui": {
+        "value": "{color.brand.atlas.400.value}",
+        "deprecated": true
+      },
+      "unionblue": {
+        "value": "{color.base.neutral.500.value}",
+        "comment": "{comments.color.reference.comment} color-base-neutral-500",
+        "deprecated": true,
+        "reference": "color-base-neutral-500"
       }
     },
     "interactive": {

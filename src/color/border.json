@@ -19,7 +19,7 @@
       },
       "active": {
         "onLight": {
-          "value": "{color.base.ui.value}",
+          "value": "{color.brand.atlas.400.value}",
           "public": true,
           "onLight": true,
           "usage": "Active border color on light backgrounds",
@@ -35,14 +35,14 @@
       },
       "error": {
         "onLight": {
-          "value": "{color.base.crimson.500.value}",
+          "value": "{color.state.error.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Error states border color on light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
-          "value": "{color.base.crimson.100.value}",
+          "value": "{color.state.error.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Error states border color on dark background",
@@ -51,14 +51,14 @@
       },
       "disabled": {
         "onLight": {
-          "value": "{color.base.disabled.value}",
+          "value": "{color.base.gray.200.value}",
           "public": true,
           "onLight": true,
           "usage": "Disabled border color on light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
-          "value": "{color.base.disabled.value}",
+          "value": "{color.base.gray.200.value}",
           "public": true,
           "onDark": true,
           "usage": "Disabled border color on dark background",
@@ -66,18 +66,24 @@
         }
       },
       "Focus": {
-        "onLight": {
+        "newState": {
           "value": "{color.base.black-opacity-15.value}",
           "public": true,
+          "usage": "Focus border color for neutral backgrounds",
+          "wcag": "n/a"
+        },
+        "onLight": {
+          "value": "{color.base.gray.500.value}",
+          "public": true,
           "onLight": true,
-          "usage": "Focus border color on light backgrounds",
+          "usage": "Focus border color for light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
           "value": "{color.base.white.value}",
           "public": true,
           "onDark": true,
-          "usage": "Focus border color on dark background",
+          "usage": "Focus border color for dark backgrounds",
           "wcag": "n/a"
         }
       }

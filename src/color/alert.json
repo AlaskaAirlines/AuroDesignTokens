@@ -3,7 +3,7 @@
     "alert": {
       "notification": {
         "onLight": {
-          "value": "{color.base.ui.value}",
+          "value": "{color.brand.atlas.400.value}",
           "public": true,
           "onLight": true,
           "usage": "Notification color on light backgrounds",
@@ -19,7 +19,7 @@
       },
       "warning": {
         "onLight": {
-          "value": "{color.base.sunset.500.value}",
+          "value": "{color.state.warning.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Warning color on light backgrounds",
@@ -28,14 +28,14 @@
       },
       "error": {
         "onLight": {
-          "value": "{color.base.crimson.500.value}",
+          "value": "{color.state.error.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Error color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
-          "value": "{color.base.crimson.100.value}",
+          "value": "{color.state.error.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Error color on dark backgrounds",
@@ -44,14 +44,14 @@
       },
       "success": {
         "onLight": {
-          "value": "{color.base.emerald.500.value}",
+          "value": "{color.state.success.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Success color on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
-          "value": "{color.base.emerald.100.value}",
+          "value": "{color.state.success.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Success color on dark backgrounds",
