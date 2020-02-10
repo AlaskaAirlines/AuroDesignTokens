@@ -16,6 +16,21 @@
         }
       ]
     },
+    "SCSSOpacityVariables": {
+      "transformGroup": "scss",
+      "prefix": "auro",
+      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSOpacityVariables.scss",
+          "format": "scss/variables",
+          "filter": {
+            "opacity": true
+          }
+        }
+      ]
+    },
     "SCSSVariableMap": {
       "transformGroup": "scss",
       "prefix": "auro",
@@ -61,6 +76,21 @@
           "format": "css/variables",
           "filter": {
             "public": true
+          }
+        }
+      ]
+    },
+    "CSSOpacityCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "auro",
+      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSOpacityVariables.scss",
+          "format": "css/variables",
+          "filter": {
+            "opacity": true
           }
         }
       ]

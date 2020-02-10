@@ -9,7 +9,7 @@
         "wcag": "n/a"
       },
       "lighter": {
-        "value": "{color.base.cloud.value}",
+        "value": "{color.base.gray.100.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds @ 90% white",

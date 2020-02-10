@@ -15,11 +15,11 @@
         "atlas": {
           "base": {
             "value": "{color.base.ui.value}",
-            "comment": "{comments.color.reference.comment} color-base-ui",
+            "comment": "{comments.color.reference.comment} color-brand-atlas-400",
             "redirect": true,
             "deprecated": true,
             "legacy": true,
-            "reference": "color-base-ui"
+            "reference": "color-brand-atlas-400"
           },
           "lighten": {
             "value": "176cff",

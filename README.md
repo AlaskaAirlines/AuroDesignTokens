@@ -33,6 +33,7 @@ By default, no tokens are exposed in an output file unless specifically designat
 | classic | boolean | token filter for `classic` theme values |
 | deprecated | boolean | token marked as `deprecated` will be deleted with next MAJOR release version |
 | legacy | boolean | token filter for legacy values |
+| opacity | boolean | token filter for base colors with an alpha transparency |
 | public | boolean | token filter for publicly exposed Design System tokens per the most recent spec |
 | redirect | boolean | token filter for legacy values that have a new reference |
 

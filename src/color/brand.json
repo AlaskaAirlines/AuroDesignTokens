@@ -69,12 +69,17 @@
           "wcag": "n/a"
         },
         "400": {
-          "value": "0074ca",
+          "value": "0074cb",
           "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a"
+        },
+        "400-opacity-20": {
+          "value": "0074cb33",
+          "comment": "color brand atlas 400 @ 20%",
+          "opacity": true
         },
         "500": {
           "value": "054687",

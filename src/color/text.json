@@ -3,7 +3,7 @@
     "text": {
       "primary": {
         "onLight": {
-          "value": "{color.base.orca.value}",
+          "value": "{color.base.gray.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Primary color for body and header text on light backgrounds",
@@ -35,7 +35,7 @@
       },
       "link": {
         "onLight": {
-          "value": "{color.base.ui.value}",
+          "value": "{color.brand.atlas.400.value}",
           "public": true,
           "onLight": true,
           "usage": "Link text color on light backgrounds",
@@ -51,14 +51,14 @@
       },
       "error": {
         "onLight": {
-          "value": "{color.base.crimson.500.value}",
+          "value": "{color.state.error.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Error text color on light backgrounds",
           "wcag": "AA"
         },
         "onDark": {
-          "value": "{color.base.crimson.100.value}",
+          "value": "{color.state.error.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Error text color on dark backgrounds",
@@ -67,14 +67,14 @@
       },
       "disabled": {
         "onLight": {
-          "value": "{color.base.disabled.value}",
+          "value": "{color.base.gray.200.value}",
           "public": true,
           "onLight": true,
           "usage": "Disabled text color on light backgrounds",
           "wcag": "n/a"
         },
         "onDark": {
-          "value": "{color.base.disabled.value}",
+          "value": "{color.base.gray.200.value}",
           "public": true,
           "onDark": true,
           "usage": "Disabled text color on dark backgrounds",
