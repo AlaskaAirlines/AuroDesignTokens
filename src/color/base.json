@@ -13,7 +13,8 @@
       "black": {
         "value": "000000",
         "comment": "{comments.color.base.value.comment}",
-        "legacy": true
+        "legacy": true,
+        "public": true
       },
       "black-opacity-15": {
         "value": "00000026",
