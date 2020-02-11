@@ -66,12 +66,6 @@
         }
       },
       "Focus": {
-        "newState": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": true,
-          "usage": "Focus border color for neutral backgrounds",
-          "wcag": "n/a"
-        },
         "onLight": {
           "value": "{color.base.gray.500.value}",
           "public": true,
