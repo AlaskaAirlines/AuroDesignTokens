@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.9](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.8...v2.10.9) (2020-02-13)
+
+
+### Bug Fixes
+
+* address issues with color references ([30544b7](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/30544b7))
+
 ## [2.10.8](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.7...v2.10.8) (2020-02-11)
 
 
