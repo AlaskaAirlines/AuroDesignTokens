@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.13](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.12...v2.10.13) (2020-04-22)
+
+
+### Bug Fixes
+
+* address Sass version of new output file ([17b024f](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/17b024f))
+
 ## [2.10.12](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.11...v2.10.12) (2020-04-22)
 
 
