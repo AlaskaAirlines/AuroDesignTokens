@@ -86,6 +86,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
   ├── CSSCustomProperties.css
   ├── CSSOpacityProperties.scss
   ├── CSSSizeCustomProperties.css
+  ├── SCSSSizeCustomProperties.css
   ├── CSSTokenProperties.css
   ├── JSData--color.js
   ├── JSObject--allTokens.js
@@ -109,6 +110,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 | CSSCustomProperties | CSS | custom properties | deprecated | full list of v2.8 release tokens |
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
+| SCSSSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
 | JSObject--allTokens.js | JS module | all data | current | filter: public |
 | JSObject--classicColors | js module | color data | current | filter: classic |

@@ -113,6 +113,24 @@
         }
       ]
     },
+    "SCSSSizeCustomProperties": {
+      "transformGroup": "scss",
+      "prefix": "auro",
+      "comment": "File type: Sass; variable type: Sass; filter: size, public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSSizeCustomProperties.scss",
+          "format": "scss/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
     "CSSCustomProperties--classicColors": {
       "transformGroup": "css",
       "comment": "File type: CSS; variable type: CSS; filter: Classic Colors",
