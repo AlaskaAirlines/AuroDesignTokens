@@ -113,14 +113,14 @@
         }
       ]
     },
-    "SCSSSizeCustomProperties": {
+    "SassSizeCustomProperties": {
       "transformGroup": "scss",
       "prefix": "auro",
       "comment": "File type: Sass; variable type: Sass; filter: size, public",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSSizeCustomProperties.scss",
+          "destination": "SassSizeCustomProperties.scss",
           "format": "css/variables",
           "filter": {
             "attributes": {

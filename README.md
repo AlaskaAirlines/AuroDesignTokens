@@ -86,7 +86,6 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
   ├── CSSCustomProperties.css
   ├── CSSOpacityProperties.scss
   ├── CSSSizeCustomProperties.css
-  ├── SCSSSizeCustomProperties.css
   ├── CSSTokenProperties.css
   ├── JSData--color.js
   ├── JSObject--allTokens.js
@@ -98,6 +97,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
   ├── SCSSVariables.scss
   ├── SassCustomProperties--classicColors.scss
   ├── SassCustomProperties.scss
+  ├── SassSizeCustomProperties.scss
   ├── TokenColorVariables.js
   ├── TokenVariables.esm.js
   ├── _TokenProperties.scss
@@ -110,7 +110,6 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 | CSSCustomProperties | CSS | custom properties | deprecated | full list of v2.8 release tokens |
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
-| CSSSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
 | JSObject--allTokens.js | JS module | all data | current | filter: public |
 | JSObject--classicColors | js module | color data | current | filter: classic |
@@ -121,6 +120,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 | SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
 | SassCustomProperties--classicColors | scss | custom properties | current | filter: classic |
 | SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |
+| SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 | TokenColorVariables | js module | color data | deprecated | filter: color |
 | CSSTokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
 | TokenVariables.esm | js es6 | all data | deprecated | full list of < v2.8 tokens |
