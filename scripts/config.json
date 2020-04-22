@@ -120,8 +120,8 @@
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SCSSSizeCustomProperties.scss",
-          "format": "scss/variables",
+          "destination": "CSSSizeCustomProperties.scss",
+          "format": "css/variables",
           "filter": {
             "attributes": {
               "category": "size"
