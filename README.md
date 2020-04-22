@@ -82,33 +82,40 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 
 ```
 └── tokens
-   ├── CSSCustomProperties--classicColors.css
-   ├── CSSCustomProperties.css
-   ├── CSSTokenProperties.css
-   ├── JSData--color.js
-   ├── JSObject--allTokens.js
-   ├── JSObject--classicColors.js
-   ├── JSObject--deprecated.js
-   ├── JSVariables--color.js
-   ├── SCSSVariableMap.scss
-   ├── SCSSVariables.scss
-   ├── SassCustomProperties--classicColors.scss
-   ├── SassCustomProperties.scss
-   ├── TokenColorVariables.js
-   ├── TokenVariables.esm.js
-   ├── _TokenProperties.scss
-   └── _TokenVariables.scss
+  ├── CSSCustomProperties--classicColors.css
+  ├── CSSCustomProperties.css
+  ├── CSSOpacityProperties.scss
+  ├── CSSSizeCustomProperties.css
+  ├── CSSTokenProperties.css
+  ├── JSData--color.js
+  ├── JSObject--allTokens.js
+  ├── JSObject--classicColors.js
+  ├── JSObject--deprecated.js
+  ├── JSVariables--color.js
+  ├── SCSSOpacityVariables.scss
+  ├── SCSSVariableMap.scss
+  ├── SCSSVariables.scss
+  ├── SassCustomProperties--classicColors.scss
+  ├── SassCustomProperties.scss
+  ├── TokenColorVariables.js
+  ├── TokenVariables.esm.js
+  ├── _TokenProperties.scss
+  └── _TokenVariables.scss
 ```
 
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
 | CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
-| CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
+| CSSCustomProperties | CSS | custom properties | deprecated | full list of v2.8 release tokens |
+| CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
+| CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
 | JSObject--allTokens.js | JS module | all data | current | filter: public |
 | JSObject--classicColors | js module | color data | current | filter: classic |
 | JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
 | JSVariables--color | js es6 | color data | current | filter: color |
+| SCSSOpacityVariables | Sass | Sass variables | current | filter: opacity |
+| SCSSVariableMap | Sass | Sass variable map | current | filter: size, public |
 | SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
 | SassCustomProperties--classicColors | scss | custom properties | current | filter: classic |
 | SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |

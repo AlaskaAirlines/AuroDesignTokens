@@ -4,7 +4,7 @@
     "SCSSVariables": {
       "transformGroup": "scss",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sass; filter: current",
+      "comment": "File type: SCSS; variable type: Sass; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
         {
@@ -34,7 +34,7 @@
     "SCSSVariableMap": {
       "transformGroup": "scss",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sassmap; filter: size, current",
+      "comment": "File type: SCSS; variable type: Sassmap; filter: size, public",
       "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -68,7 +68,7 @@
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: CSS; variable type: CSS; filter: current",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
         {
@@ -87,10 +87,28 @@
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSOpacityVariables.scss",
+          "destination": "CSSOpacityProperties.scss",
           "format": "css/variables",
           "filter": {
             "opacity": true
+          }
+        }
+      ]
+    },
+    "CSSSizeCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "auro",
+      "comment": "File type: CSS; variable type: CSS; filter: size, public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSSizeCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
           }
         }
       ]
@@ -127,7 +145,7 @@
     "SassCustomProperties": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: CSS; filter: current",
+      "comment": "File type: SCSS; variable type: CSS; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
         {
@@ -171,7 +189,7 @@
     },
     "JSExports--color": {
       "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: colors || current",
+      "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
