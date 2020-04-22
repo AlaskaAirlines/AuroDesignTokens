@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.10](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.9...v2.10.10) (2020-04-22)
+
+
+### Bug Fixes
+
+* add support for CSSSizeCustomProperties ([ce88a39](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/ce88a39))
+
 ## [2.10.9](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.8...v2.10.9) (2020-02-13)
 
 
