@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.14](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.13...v2.10.14) (2020-04-28)
+
+
+### Bug Fixes
+
+* update non-size value to rem ([b030804](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/b030804))
+
 ## [2.10.13](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.12...v2.10.13) (2020-04-22)
 
 
