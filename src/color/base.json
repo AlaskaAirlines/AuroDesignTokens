@@ -28,21 +28,38 @@
       "gray": {
         "100": {
           "value": "f7f7f7",
-          "public": true
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a"
         },
         "200": {
           "value": "dbdbdb",
-          "public": true
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a"
         },
         "300": {
-          "value": "b2b2b2"
+          "value": "b2b2b2",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a"
         },
         "400": {
-          "value": "767676"
+          "value": "767676",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a"
         },
         "500": {
           "value": "222222",
-          "public": true
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a"
         }
       },
       "neutral": {
