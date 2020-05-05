@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.10.15](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.14...v2.10.15) (2020-05-05)
+
+
+### Bug Fixes
+
+* add color defs for grays ([aa08100](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/aa08100ad3ed55a2e69b0dcd956e3093afc68e46))
+
 ## [2.10.14](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.13...v2.10.14) (2020-04-28)
 
 
