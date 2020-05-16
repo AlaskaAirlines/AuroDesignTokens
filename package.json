@@ -10,7 +10,9 @@
   },
   "main": "src/",
   "license": "Apache-2.0",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^4.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
@@ -25,8 +27,9 @@
     "style-dictionary": "^2.9.0"
   },
   "scripts": {
+    "postinstall": "node packageScripts/postinstall.js",
     "buildTokens": "node scripts/styleDictionary.js",
-    "ciBuild": "npm-run-all sweep test copyJson buildTokens",
+    "ciBuild": "npm-run-all sweep test copyJson buildTokens postinstall",
     "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/"
