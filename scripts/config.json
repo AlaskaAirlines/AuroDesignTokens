@@ -80,6 +80,44 @@
         }
       ]
     },
+    "CSSCustomPropertiesColorRGB": {
+      "transformGroup": "css",
+      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
+      "prefix": "auro-rgb",
+      "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSCustomPropertiesColorRGB.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "SassCustomPropertiesColorRGB": {
+      "transformGroup": "css",
+      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
+      "prefix": "auro-rgb",
+      "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SassCustomPropertiesColorRGB.scss",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
     "CSSOpacityCustomProperties": {
       "transformGroup": "css",
       "prefix": "auro",

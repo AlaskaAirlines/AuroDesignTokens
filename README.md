@@ -1,5 +1,3 @@
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="125" align="right" />
-
 [![Build Status](https://travis-ci.org/AlaskaAirlines/AuroDesignTokens.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens)
 ![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?color=orange)
 ![NPM](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue)
@@ -84,6 +82,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 └── tokens
   ├── CSSCustomProperties--classicColors.css
   ├── CSSCustomProperties.css
+  ├── CSSCustomPropertiesColorRGB.css
   ├── CSSOpacityProperties.scss
   ├── CSSSizeCustomProperties.css
   ├── CSSTokenProperties.css
@@ -97,6 +96,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
   ├── SCSSVariables.scss
   ├── SassCustomProperties--classicColors.scss
   ├── SassCustomProperties.scss
+  ├── SassCustomPropertiesColorRGB.scss
   ├── SassSizeCustomProperties.scss
   ├── TokenColorVariables.js
   ├── TokenVariables.esm.js
@@ -108,6 +108,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 |---|---|---|---|---|
 | CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
 | CSSCustomProperties | CSS | custom properties | deprecated | full list of v2.8 release tokens |
+| CSSCustomPropertiesColorRGB | CSS | custom properties | current| Filter: color, public<br>custom RGB output
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
@@ -120,6 +121,7 @@ Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaai
 | SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
 | SassCustomProperties--classicColors | scss | custom properties | current | filter: classic |
 | SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |
+| SassCustomPropertiesColorRGB | Sass | custom properties | current| Filter: color, public<br>custom RGB output
 | SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 | TokenColorVariables | js module | color data | deprecated | filter: color |
 | CSSTokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
