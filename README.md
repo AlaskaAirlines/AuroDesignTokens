@@ -1,82 +1,26 @@
-[![Build Status](https://travis-ci.org/AlaskaAirlines/AuroDesignTokens.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens)
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?color=orange)
-![NPM](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue)
+# Auro Design Tokens
 
-# Orion Design Tokens
+Design tokens represent the design decisions needed to construct and maintain a design system — spacing, color, typography, animation, etc. — represented as data. These can represent anything defined by design: color as an RGB value, and opacity as a number, animation ease, etc.
 
-Orion Design Tokens are abstract UI atomic values that make up the greater Orion Design System (ODS).
+Note that design tokens:
 
-The goal of this project is to maintain these core values in such a way as to feed the UI of other engineering efforts, rather than be a manually communicated design dependency.
+* May not have a long lifespan
+* May alter the value more frequently
+* May be used for a wide variety of purposes
 
-## Contained within this repository
+## Install npm
 
-This repository serves two purposes:
-
-1. To maintain the single source of record of the distributed token files
-1. Export pre-defined resources for projects to consume
-
-### The ./src dir
-
-Within the project's `src/` dir are the various token values stored in `.json` format. These are the production resources distributed via npm.
-
-## Config filter API
-
-The following table illustrated the different JSON options currently being used to filter the data output.
-
-By default, no tokens are exposed in an output file unless specifically designated by a config filter option. See the table below for the different types of filters currently in use.
-
-| filter | type | description |
-|---|---|---|
-| attributes {category/type/option} | string | follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
-| classic | boolean | token filter for `classic` theme values |
-| deprecated | boolean | token marked as `deprecated` will be deleted with next MAJOR release version |
-| legacy | boolean | token filter for legacy values |
-| opacity | boolean | token filter for base colors with an alpha transparency |
-| public | boolean | token filter for publicly exposed Design System tokens per the most recent spec |
-| redirect | boolean | token filter for legacy values that have a new reference |
-
-* **Classic:** Tokens that reference Alaska CLASSIC themes
-* **Legacy:** Tokens established prior to v2.8 release
-* **Public:** Currently approved for use Orion Design Tokens
-
-
-Additional content options are made available within the token data. See the table below for these options and their descriptions.
-
-| option | type | description |
-|---|---|---|
-| comment | string | comment that will appear in CSS/Sass output |
-| reference | string | new token redirect reference |
-| usage | string | description of token use |
-| wcag | string | WCAG accessibility rating if applicable |
-| value | string / number | the value of the token |
-
-## Contributing
-
-Please be sure to follow current Design Token patterns and follow the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item). Any submissions to this project that does not follow these guidelines will be considered non-compliant and your submission will be rejected.
-
-Also, please see this repo's [contributing guidelines](https://github.com/AlaskaAirlines/OrionDesignTokens/blob/master/CONTRIBUTING.md).
-
-Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control.
-
-To mimic a CI Build and ensure a successful build with a merge, please run the following command to test the build pipeline:
-
-```bash
-$ npm run ciBuild
-```
-
-**All tests will run with the automated build, but it's a good idea to run tests locally to ensure stability of pull request**
-
-## Install
-
-To install in your project, see instructions from [npmjs.org](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
+[![Build Status](https://img.shields.io/travis/AlaskaAirlines/AuroDesignTokens.svg?branch=master&style=for-the-badge)](https://travis-ci.org/github/AlaskaAirlines/AuroDesignTokens)
+[![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
+[![License](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```
 npm i @alaskaairux/orion-design-tokens
 ```
 
-## Install pre-processed resources
+### Install pre-processed resources
 
-Located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) in the `./tokens` directory.
+The following files are located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) in the `./dist/tokens` directory.
 
 ```
 └── tokens
@@ -157,10 +101,56 @@ Within a webpacked application or a `type="module"` script:
 ```js
 import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
 ```
+## Contributing
+
+Please be sure to follow current Design Token patterns and follow the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item). Any submissions to this project that does not follow these guidelines will be considered non-compliant and your submission will be rejected.
+
+Also, please see this repo's [contributing guidelines](https://github.com/AlaskaAirlines/OrionDesignTokens/blob/master/CONTRIBUTING.md).
+
+Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control.
+
+To mimic a CI Build and ensure a successful build with a merge, please run the following command to test the build pipeline:
+
+```bash
+$ npm run ciBuild
+```
+
+**All tests will run with the automated build, but it's a good idea to run tests locally to ensure stability of pull request**
+
+## Config filter API
+
+The following table illustrated the different JSON options currently being used to filter the data output.
+
+By default, no tokens are exposed in an output file unless specifically designated by a config filter option. See the table below for the different types of filters currently in use.
+
+| filter | type | description |
+|---|---|---|
+| attributes {category/type/option} | string | follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
+| classic | boolean | token filter for `classic` theme values |
+| deprecated | boolean | token marked as `deprecated` will be deleted with next MAJOR release version |
+| legacy | boolean | token filter for legacy values |
+| opacity | boolean | token filter for base colors with an alpha transparency |
+| public | boolean | token filter for publicly exposed Design System tokens per the most recent spec |
+| redirect | boolean | token filter for legacy values that have a new reference |
+
+**Classic:** Tokens that reference Alaska CLASSIC themes
+<br>**Legacy:** Tokens established prior to v2.8 release
+<br>**Public:** Currently approved for use Orion Design Tokens
+
+
+Additional content options are made available within the token data. See the table below for these options and their descriptions.
+
+| option | type | description |
+|---|---|---|
+| comment | string | comment that will appear in CSS/Sass output |
+| reference | string | new token redirect reference |
+| usage | string | description of token use |
+| wcag | string | WCAG accessibility rating if applicable |
+| value | string / number | the value of the token |
 
 ## Managing deprecated resources
 
-All the Orion tokens are supported with the v2.8 release. All the new Auro tokens have been added to allow for deprecation of Orion tokens. Once v3.0 of the Design Tokens is released, all Orion tokens will be deleted from this repo.
+All the Orion tokens are supported with the v2.8 release. All the new Auro tokens have been added to allow for deprecation of Orion tokens. When v3.0 is released, Orion tokens will no longer be supported.
 
 ### Orion pre-processed resources
 
@@ -215,7 +205,6 @@ A web view of all the deprecated tokens will be made available. If required, ple
 |---|---|---|---|---|
 | JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
 
-
 ## Sass or CSS Custom Properties?
 
 Style Dictionary is able to output variable files in either Sass or CSS Custom Properties (variables) format. The example pipeline and the `style.scss` file has references to both Sass and CSS variables.
@@ -233,11 +222,3 @@ To support alpha values, it is suggested to use 8-digit or RGBA hex values, wher
 ## Native output support
 
 Style Dictionary fully supports native platforms and is able to output resources that are usable in both iOS and Android native development.
-
-
-##
-
-<footer>
-Alaska Airlines Orion Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>
