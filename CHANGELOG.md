@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.11.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.15...v2.11.0) (2020-05-19)
+
+
+### Features
+
+* support RGB custom color spec ([3d2486e](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/3d2486e9cd002f9b8f495270d107b5d2fbb13226))
+
 ## [2.10.15](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.14...v2.10.15) (2020-05-05)
 
 
