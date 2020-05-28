@@ -1,14 +1,6 @@
 # Auro Design Tokens
 
-Design tokens represent the design decisions needed to construct and maintain a design system — spacing, color, typography, animation, etc. — represented as data. These can represent anything defined by design: color as an RGB value, and opacity as a number, animation ease, etc.
-
-Note that design tokens:
-
-* May not have a long lifespan
-* May alter the value more frequently
-* May be used for a wide variety of purposes
-
-## Install npm
+## Install
 
 [![Build Status](https://img.shields.io/travis/AlaskaAirlines/AuroDesignTokens.svg?branch=master&style=for-the-badge)](https://travis-ci.org/github/AlaskaAirlines/AuroDesignTokens)
 [![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
@@ -18,9 +10,9 @@ Note that design tokens:
 npm i @alaskaairux/orion-design-tokens
 ```
 
-### Install pre-processed resources
+## Use pre-processed resources
 
-The following files are located in the Orion Design Tokens [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens) in the `./dist/tokens` directory.
+Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens).
 
 ```
 └── tokens
@@ -48,6 +40,8 @@ The following files are located in the Orion Design Tokens [npm](https://www.npm
   └── _TokenVariables.scss
 ```
 
+### Resource Descriptions 
+
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
 | CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
@@ -74,7 +68,7 @@ The following files are located in the Orion Design Tokens [npm](https://www.npm
 | _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
 
 
-**To install in Sass file:**
+### Install with Sass
 
 ```scss
 @import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
@@ -84,7 +78,7 @@ The following files are located in the Orion Design Tokens [npm](https://www.npm
 @import "~@alaskaairux/orion-design-tokens/dist/tokens/SassCustomProperties";
 ```
 
-**To install CSS file:**
+### Install with CSS
 
 With React or similar framework, the CSS file can be imported directly from the npm:
 
@@ -94,131 +88,10 @@ import "@alaskaairux/orion-design-tokens/tokens/dist/CSSCustomProperties.css";
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
 
-**To install ESModules file:**
+### Install ESModules 
 
 Within a webpacked application or a `type="module"` script:
 
 ```js
 import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
 ```
-## Contributing
-
-Please be sure to follow current Design Token patterns and follow the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item). Any submissions to this project that does not follow these guidelines will be considered non-compliant and your submission will be rejected.
-
-Also, please see this repo's [contributing guidelines](https://github.com/AlaskaAirlines/OrionDesignTokens/blob/master/CONTRIBUTING.md).
-
-Before submitting a pull request, please ensure that your JSON is formatted correctly. Testing is easy, you can build out resource files that are not added to the repo's version control.
-
-To mimic a CI Build and ensure a successful build with a merge, please run the following command to test the build pipeline:
-
-```bash
-$ npm run ciBuild
-```
-
-**All tests will run with the automated build, but it's a good idea to run tests locally to ensure stability of pull request**
-
-## Config filter API
-
-The following table illustrated the different JSON options currently being used to filter the data output.
-
-By default, no tokens are exposed in an output file unless specifically designated by a config filter option. See the table below for the different types of filters currently in use.
-
-| filter | type | description |
-|---|---|---|
-| attributes {category/type/option} | string | follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
-| classic | boolean | token filter for `classic` theme values |
-| deprecated | boolean | token marked as `deprecated` will be deleted with next MAJOR release version |
-| legacy | boolean | token filter for legacy values |
-| opacity | boolean | token filter for base colors with an alpha transparency |
-| public | boolean | token filter for publicly exposed Design System tokens per the most recent spec |
-| redirect | boolean | token filter for legacy values that have a new reference |
-
-**Classic:** Tokens that reference Alaska CLASSIC themes
-<br>**Legacy:** Tokens established prior to v2.8 release
-<br>**Public:** Currently approved for use Orion Design Tokens
-
-
-Additional content options are made available within the token data. See the table below for these options and their descriptions.
-
-| option | type | description |
-|---|---|---|
-| comment | string | comment that will appear in CSS/Sass output |
-| reference | string | new token redirect reference |
-| usage | string | description of token use |
-| wcag | string | WCAG accessibility rating if applicable |
-| value | string / number | the value of the token |
-
-## Managing deprecated resources
-
-All the Orion tokens are supported with the v2.8 release. All the new Auro tokens have been added to allow for deprecation of Orion tokens. When v3.0 is released, Orion tokens will no longer be supported.
-
-### Orion pre-processed resources
-
-If your project is already using pre-processed resources as listed below, your project should see no change in token support.
-
-| file | syntax | type | status | filter type / description |
-|---|---|---|---|---|
-| TokenColorVariables | js module | color data | deprecated | filter: color |
-| CSSTokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
-| TokenVariables.esm | js es6 | all data | deprecated | full list of < v2.8 tokens |
-| _TokenProperties | scss | custom properties | deprecated | full list of < v2.8 tokens |
-| _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
-
-### Orion local build support
-
-If your project is using a local Style Dictionary build, by upgrading to v2.8 you will get ALL the tokens. This will include Classic, Orion and Auro.
-
-Adding the following filters to your config.json file will filter out all the new Auro tokens and only produce a tokens stylesheet with legacy Orion and Classic tokens.
-
-```
-  "files": [
-    {
-      "filter": {
-        "legacy": true
-      }
-    }
-  ]
-```
-
-### Moving from Orion to Auro tokens
-
-When using the Design Tokens, all the deprecated token files have comments as to the status of the token. See examples below for comments that denote a new token to be used in place of a deprecated one, a token that should only be used with CLASSIC UIs, and a deprecated token with no replacement and will be removed with the next major release.
-
-```
-:root {
-
-   --breakpoint-width-narrow: 480px; /*
-  // New token, see breakpoint-sm */
-
-   --color-classic-calm: #8ba6c1; /*
-  // DO NOT USE for anything other than legacy projects or classic component themes */
-
-   --color-background-booking-bar: #156fad; /*
-  // Deprecated, no replacement; token to be REMOVED in next MAJOR release */
-
-}
-```
-
-A web view of all the deprecated tokens will be made available. If required, please see the following data file for reference:
-
-| file | syntax | type | status | filter type / description |
-|---|---|---|---|---|
-| JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
-
-## Sass or CSS Custom Properties?
-
-Style Dictionary is able to output variable files in either Sass or CSS Custom Properties (variables) format. The example pipeline and the `style.scss` file has references to both Sass and CSS variables.
-
-**Important:** CSS variables need to have their references available to them in the final output CSS. Whereas Sass will convert these values to static values in the output CSS.
-
-The example build pipeline addresses this by concatenating the CSS variables with the final CSS output file.
-
-## Hex Codes
-
-Style Dictionary requires that color definitions be established as hex values that then can be transformed into various outputs, e.g. rgba, rgb 6-digit hex, iOS and Android color vars.
-
-To support alpha values, it is suggested to use 8-digit or RGBA hex values, where the last digit(s) represents the alpha value. For more information see [8-Digit Hex Codes?](https://css-tricks.com/8-digit-hex-codes/) and here for a full [#RRGGBBAA table](https://borderleft.com/toolbox/rrggbbaa/).
-
-## Native output support
-
-Style Dictionary fully supports native platforms and is able to output resources that are usable in both iOS and Android native development.

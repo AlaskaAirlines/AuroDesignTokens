@@ -1,18 +1,12 @@
-<img src="https://resource.alaskaair.net/-/media/2C1969F8FB244C919205CD48429C13AC" alt="Orion Design System Logo" title="Be the change you want to see" width="125" align="right" />
+# Style Dictionary build pipeline
 
-[![Build Status](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens.svg?branch=master)](https://travis-ci.org/AlaskaAirlines/OrionDesignTokens)
-![npm (scoped)](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?color=orange)
-![NPM](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue)
-
-# Build Orion Design Tokens pipeline
-
-Install dependency
+## Install
 
 ```
 $ npm i style-dictionary
 ```
 
-The example pipeline contains all the steps you should consider when building your integrated Orion Design Tokens pipeline.
+The example pipeline contains all the steps you should consider when building your integrated Auro Design Tokens pipeline.
 
 The example pipeline currently supports Sass and CSS examples. Native mobile platforms are supported, but not yet documented in this project.
 
@@ -143,10 +137,3 @@ StyleDictionary.buildAllPlatforms();
 For processing of `.json` files to a usable Sass/CSS resources, the Orion Design Tokens project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
 
 For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
-
-##
-
-<footer>
-Alaska Airlines Orion Design System<br>
-Copyright 2019 Alaska Airlines, Inc. or its affiliates. All Rights Reserved.
-</footer>
