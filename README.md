@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```
-npm i @alaskaairux/orion-design-tokens
+$ npm i @alaskaairux/orion-design-tokens
 ```
 
 ## Use pre-processed resources
@@ -40,7 +40,7 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
   └── _TokenVariables.scss
 ```
 
-### Resource Descriptions 
+### Resource Descriptions
 
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
@@ -88,7 +88,7 @@ import "@alaskaairux/orion-design-tokens/tokens/dist/CSSCustomProperties.css";
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
 
-### Install ESModules 
+### Install ESModules
 
 Within a webpacked application or a `type="module"` script:
 
