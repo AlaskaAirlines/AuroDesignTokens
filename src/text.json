@@ -64,6 +64,22 @@
           "value": "{font.weight.100.value}",
           "public": true
         },
+        "px": {
+          "breakpoint" : {
+            "sm": {
+              "value": "{size.font.scale.responsive.270.px.value}",
+              "public": true
+            },
+            "md": {
+              "value": "{size.font.scale.responsive.300.px.value}",
+              "public": true
+            },
+            "lg": {
+              "value": "{size.font.scale.responsive.350.px.value}",
+              "public": true
+            }
+          }
+        },
         "size": {
           "breakpoint": {
             "sm": {
@@ -86,12 +102,24 @@
               "value": "{size.font.scale.responsive.330.value}",
               "public": true
             },
+            "px-sm": {
+              "value": "{size.font.scale.responsive.330.px.value}",
+              "public": true
+            },
             "md": {
               "value": "{size.font.scale.responsive.370.value}",
               "public": true
             },
+            "px-md": {
+              "value": "{size.font.scale.responsive.370.px.value}",
+              "public": true
+            },
             "lg": {
               "value": "{size.font.scale.responsive.420.value}",
+              "public": true
+            },
+            "px-lg": {
+              "value": "{size.font.scale.responsive.420.px.value}",
               "public": true
             }
           }
@@ -101,6 +129,22 @@
         "weight": {
           "value": "{font.weight.300.value}",
           "public": true
+        },
+        "px": {
+          "breakpoint": {
+            "sm": {
+              "value": "{size.font.scale.responsive.200.px.value}",
+              "public": true
+            },
+            "md": {
+              "value": "{size.font.scale.responsive.220.px.value}",
+              "public": true
+            },
+            "lg": {
+              "value": "{size.font.scale.responsive.250.px.value}",
+              "public": true
+            }
+          }
         },
         "size": {
           "breakpoint": {
@@ -124,12 +168,24 @@
               "value": "{size.font.scale.responsive.230.value}",
               "public": true
             },
+            "px-sm": {
+              "value": "{size.font.scale.responsive.230.px.value}",
+              "public": true
+            },
             "md": {
               "value": "{size.font.scale.responsive.260.value}",
               "public": true
             },
+            "px-md": {
+              "value": "{size.font.scale.responsive.260.px.value}",
+              "public": true
+            },
             "lg": {
               "value": "{size.font.scale.responsive.300.value}",
+              "public": true
+            },
+            "px-lg": {
+              "value": "{size.font.scale.responsive.300.px.value}",
               "public": true
             }
           }
@@ -139,6 +195,22 @@
         "weight": {
           "value": "{font.weight.300.value}",
           "public": true
+        },
+        "px": {
+          "breakpoint": {
+            "sm": {
+              "value": "{size.font.scale.responsive.170.px.value}",
+              "public": true
+            },
+            "md": {
+              "value": "{size.font.scale.responsive.200.px.value}",
+              "public": true
+            },
+            "lg": {
+              "value": "{size.font.scale.responsive.220.px.value}",
+              "public": true
+            }
+          }
         },
         "size": {
           "breakpoint": {
@@ -162,18 +234,46 @@
               "value": "{size.font.scale.responsive.210.value}",
               "public": true
             },
+            "px-sm": {
+              "value": "{size.font.scale.responsive.210.px.value}",
+              "public": true
+            },
             "md": {
               "value": "{size.font.scale.responsive.230.value}",
               "public": true
             },
+            "px-md": {
+              "value": "{size.font.scale.responsive.230.px.value}",
+              "public": true
+            },
             "lg": {
               "value": "{size.font.scale.responsive.270.value}",
+              "public": true
+            },
+            "px-lg": {
+              "value": "{size.font.scale.responsive.270.px.value}",
               "public": true
             }
           }
         }
       },
       "600": {
+        "px": {
+          "breakpoint": {
+            "sm": {
+              "value": "{size.font.scale.responsive.160.px.value}",
+              "public": true
+            },
+            "md": {
+              "value": "{size.font.scale.responsive.170.px.value}",
+              "public": true
+            },
+            "lg": {
+              "value": "{size.font.scale.responsive.170.px.value}",
+              "public": true
+            }
+          }
+        },
         "size": {
           "breakpoint": {
             "sm": {
@@ -196,18 +296,46 @@
               "value": "{size.font.scale.responsive.180.value}",
               "public": true
             },
+            "px-sm": {
+              "value": "{size.font.scale.responsive.180.px.value}",
+              "public": true
+            },
             "md": {
               "value": "{size.font.scale.responsive.210.value}",
               "public": true
             },
+            "px-md": {
+              "value": "{size.font.scale.responsive.210.px.value}",
+              "public": true
+            },
             "lg": {
               "value": "{size.font.scale.responsive.220.value}",
+              "public": true
+            },
+            "px-lg": {
+              "value": "{size.font.scale.responsive.220.px.value}",
               "public": true
             }
           }
         }
       },
       "500": {
+        "px": {
+          "breakpoint": {
+            "sm": {
+              "value": "{size.font.scale.base.130.px.value}",
+              "public": true
+            },
+            "md": {
+              "value": "{size.font.scale.base.150.px.value}",
+              "public": true
+            },
+            "lg": {
+              "value": "{size.font.scale.base.150.px.value}",
+              "public": true
+            }
+          }
+        },
         "size": {
           "breakpoint": {
             "sm": {
@@ -230,18 +358,34 @@
               "value": "{size.font.scale.responsive.160.value}",
               "public": true
             },
+            "px-sm": {
+              "value": "{size.font.scale.responsive.160.px.value}",
+              "public": true
+            },
             "md": {
               "value": "{size.font.scale.responsive.180.value}",
               "public": true
             },
+            "px-md": {
+              "value": "{size.font.scale.responsive.180.px.value}",
+              "public": true
+            },
             "lg": {
               "value": "{size.font.scale.responsive.200.value}",
+              "public": true
+            },
+            "px-lg": {
+              "value": "{size.font.scale.responsive.200.px.value}",
               "public": true
             }
           }
         }
       },
       "400": {
+        "px": {
+          "value": "{size.font.scale.base.120.px.value}",
+          "public": true
+        },
         "size": {
           "value": "{size.font.scale.base.120.value}",
           "public": true
@@ -249,15 +393,27 @@
         "height": {
           "value": "{size.font.scale.responsive.160.value}",
           "public": true
+        },
+        "height-px": {
+          "value": "{size.font.scale.responsive.160.px.value}",
+          "public": true
         }
       },
       "300": {
+        "px": {
+          "value": "{size.font.scale.base.110.px.value}",
+          "public": true
+        },
         "size": {
           "value": "{size.font.scale.base.110.value}",
           "public": true
         },
         "height": {
           "value": "{size.font.scale.responsive.160.value}",
+          "public": true
+        },
+        "height-px": {
+          "value": "{size.font.scale.responsive.160.px.value}",
           "public": true
         }
       }
