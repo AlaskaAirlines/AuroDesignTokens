@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [2.12.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.11.0...v2.12.0) (2020-07-15)
+
+
+### Features
+
+* add support for px value type settings ([0a6d13e](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/0a6d13e0c2a99733df287e343d0aeeafcf7d136d))
+
 # [2.11.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.10.15...v2.11.0) (2020-05-19)
 
 
