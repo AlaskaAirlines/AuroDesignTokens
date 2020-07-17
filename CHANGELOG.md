@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.12.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.12.0...v2.12.1) (2020-07-17)
+
+
+### Bug Fixes
+
+* update background color use to meet a11y contrast standards ([6b0f490](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/6b0f49089836ddb3444e8f1e9c97dc61d2d89ff8))
+
 # [2.12.0](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.11.0...v2.12.0) (2020-07-15)
 
 
