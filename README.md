@@ -45,7 +45,7 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
 | CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
-| CSSCustomProperties | CSS | custom properties | deprecated | full list of v2.8 release tokens |
+| CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
 | CSSCustomPropertiesColorRGB | CSS | custom properties | current| Filter: color, public<br>custom RGB output
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
