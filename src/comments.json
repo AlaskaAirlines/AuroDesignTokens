@@ -23,6 +23,9 @@
       "classic": {
         "comment": "\n  // DO NOT USE for anything other than legacy projects or classic component themes"
       },
+      "matrix": {
+        "comment": "\n  // DO NOT USE for anything other than legacy projects related to the matrix search"
+      },
       "reference": {
         "comment": "{comments.reference.comment}"
       }

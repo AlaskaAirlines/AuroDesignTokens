@@ -349,6 +349,51 @@
           "format": "css/variables"
         }
       ]
+    },
+    "SCSSVariables--legacyMatrixColors": {
+      "transformGroup": "scss",
+      "comment": "File type: SCSS; variable type: Sass; filter: matrix",
+      "buildPath": "./dist/tokens/",
+      "deprecated": true,
+      "files": [
+        {
+          "destination": "MatrixVariables.scss",
+          "format": "scss/variables",
+          "filter": {
+            "matrix": true
+          }
+        }
+      ]
+    },
+    "CSSCustomProperties--legacyMatrixColors": {
+      "transformGroup": "css",
+      "comment": "File type: CSS; variable type: CSS; filter: matrix",
+      "buildPath": "./dist/tokens/",
+      "deprecated": true,
+      "files": [
+        {
+          "destination": "MatrixProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "matrix": true
+          }
+        }
+      ]
+    },
+    "SassCustomProperties--legacyMatrixColors": {
+      "transformGroup": "scss",
+      "comment": "File type: scss; variable type: CSS; filter: matrix",
+      "buildPath": "./dist/tokens/",
+      "deprecated": true,
+      "files": [
+        {
+          "destination": "MatrixProperties.scss",
+          "format": "css/variables",
+          "filter": {
+            "matrix": true
+          }
+        }
+      ]
     }
   }
 }

@@ -19,6 +19,23 @@
         "classic": true,
         "legacy": true
       }
+    },
+    "matrix": {
+      "saver": {
+        "value": "eda0bc",
+        "comment": "{ comments.color.matrix.comment }",
+        "matrix": true
+      },
+      "main": {
+        "value": "2774ae",
+        "comment": "{ comments.color.matrix.comment }",
+        "matrix": true
+      },
+      "firstClass": {
+        "value": "{color.brand.midnight.400.value}",
+        "comment": "{ comments.color.matrix.comment }",
+        "matrix": true
+      }
     }
   }
 }
