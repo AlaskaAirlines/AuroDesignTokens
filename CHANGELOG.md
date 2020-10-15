@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [2.12.2](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.12.1...v2.12.2) (2020-10-15)
+
+
+### Bug Fixes
+
+* add legacy matrix specific colors ([cd6f3a0](https://github.com/AlaskaAirlines/OrionDesignTokens/commit/cd6f3a007c45ab71fcc91782ea95c981ca579a26))
+
 ## [2.12.1](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.12.0...v2.12.1) (2020-07-17)
 
 
