@@ -95,3 +95,17 @@ Within a webpacked application or a `type="module"` script:
 ```js
 import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
 ```
+
+### Install from CMS
+
+Using unpkg.com, every file in the dist directory can be accessed.
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/@alaskaairux/orion-design-tokens@latest/dist/tokens/CSSCustomProperties.css">
+```
+
+For specifically the CSSCustomProperties.css file, a faster CDN resource is available.
+
+```html
+<link rel="stylesheet" href="https://p2pcontentstortest.blob.core.windows.net/icons/tokens/CSSCustomProperties.css">
+```
