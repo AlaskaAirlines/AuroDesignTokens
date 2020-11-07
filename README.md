@@ -83,7 +83,7 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 With React or similar framework, the CSS file can be imported directly from the npm:
 
 ```js
-import "@alaskaairux/orion-design-tokens/tokens/dist/CSSCustomProperties.css";
+import "@alaskaairux/orion-design-tokens/dist/tokens/CSSCustomProperties.css"
 ```
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
@@ -107,5 +107,5 @@ Using unpkg.com, every file in the dist directory can be accessed.
 For specifically the CSSCustomProperties.css file, a faster CDN resource is available.
 
 ```html
-<link rel="stylesheet" href="https://p2pcontentstortest.blob.core.windows.net/icons/tokens/CSSCustomProperties.css">
+<link rel="stylesheet" href="https://p2pcontent-fd-prod.azurefd.net/auro/orion-design-tokens/tokens/CSSCustomProperties.css">
 ```
