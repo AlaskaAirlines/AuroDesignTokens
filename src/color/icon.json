@@ -3,14 +3,14 @@
     "icon": {
       "primary": {
         "onLight": {
-          "value": "{color.base.unionblue.value}",
+          "value": "{color.base.neutral.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Primary color for icons on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
-          "value": "{color.base.manatee.value}",
+          "value": "{color.base.neutral.400.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary color for icons on dark backgrounds",

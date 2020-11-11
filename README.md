@@ -16,28 +16,19 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 
 ```
 └── tokens
-  ├── CSSCustomProperties--classicColors.css
-  ├── CSSCustomProperties.css
-  ├── CSSCustomPropertiesColorRGB.css
-  ├── CSSOpacityProperties.scss
-  ├── CSSSizeCustomProperties.css
-  ├── CSSTokenProperties.css
-  ├── JSData--color.js
-  ├── JSObject--allTokens.js
-  ├── JSObject--classicColors.js
-  ├── JSObject--deprecated.js
-  ├── JSVariables--color.js
-  ├── SCSSOpacityVariables.scss
-  ├── SCSSVariableMap.scss
-  ├── SCSSVariables.scss
-  ├── SassCustomProperties--classicColors.scss
-  ├── SassCustomProperties.scss
-  ├── SassCustomPropertiesColorRGB.scss
-  ├── SassSizeCustomProperties.scss
-  ├── TokenColorVariables.js
-  ├── TokenVariables.esm.js
-  ├── _TokenProperties.scss
-  └── _TokenVariables.scss
+   ├── CSSCustomProperties.css
+   ├── CSSCustomPropertiesColorRGB.css
+   ├── CSSOpacityProperties.scss
+   ├── CSSSizeCustomProperties.css
+   ├── JSData--color.js
+   ├── JSObject--allTokens.js
+   ├── JSVariables--color.js
+   ├── SCSSOpacityVariables.scss
+   ├── SCSSVariableMap.scss
+   ├── SCSSVariables.scss
+   ├── SassCustomProperties.scss
+   ├── SassCustomPropertiesColorRGB.scss
+   └── SassSizeCustomProperties.scss
 ```
 
 ### Resource Descriptions
@@ -51,21 +42,13 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
 | JSObject--allTokens.js | JS module | all data | current | filter: public |
-| JSObject--classicColors | js module | color data | current | filter: classic |
-| JSObject--deprecated | js module | deprecated tokens | current | filter: deprecated |
 | JSVariables--color | js es6 | color data | current | filter: color |
 | SCSSOpacityVariables | Sass | Sass variables | current | filter: opacity |
 | SCSSVariableMap | Sass | Sass variable map | current | filter: size, public |
 | SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
-| SassCustomProperties--classicColors | scss | custom properties | current | filter: classic |
 | SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |
 | SassCustomPropertiesColorRGB | Sass | custom properties | current| Filter: color, public<br>custom RGB output
 | SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
-| TokenColorVariables | js module | color data | deprecated | filter: color |
-| CSSTokenProperties | CSS | custom properties | deprecated | full list of < v2.8 tokens |
-| TokenVariables.esm | js es6 | all data | deprecated | full list of < v2.8 tokens |
-| _TokenProperties | scss | custom properties | deprecated | full list of < v2.8 tokens |
-| _TokenVariables | scss | Sass variables | deprecated | full list of < v2.8 tokens |
 
 
 ### Install with Sass
@@ -107,5 +90,5 @@ Using unpkg.com, every file in the dist directory can be accessed.
 For specifically the CSSCustomProperties.css file, a faster CDN resource is available.
 
 ```html
-<link rel="stylesheet" href="https://p2pcontent-fd-prod.azurefd.net/auro/orion-design-tokens/tokens/CSSCustomProperties.css">
+<link rel="stylesheet" href="https://p2pcontent-fd-prod.azurefd.net/auro/tokens/CSSCustomProperties.css">
 ```

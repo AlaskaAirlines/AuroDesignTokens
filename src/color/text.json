@@ -19,14 +19,14 @@
       },
       "secondary": {
         "onLight": {
-          "value": "{color.base.unionblue.value}",
+          "value": "{color.base.neutral.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Secondary color for body text on light backgrounds",
           "wcag": "AAA"
         },
         "onDark": {
-          "value": "{color.base.manatee.value}",
+          "value": "{color.base.neutral.400.value}",
           "public": true,
           "onDark": true,
           "usage": "Secondary color for body text on dark backgrounds",
