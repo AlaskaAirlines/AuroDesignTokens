@@ -1,12 +1,12 @@
 {
-  "name": "@alaskaairux/orion-design-tokens",
+  "name": "@alaskaairux/design-tokens",
   "version": "2.12.3",
-  "description": "Alaska Air Orion Design System token repository",
-  "homepage": "https://github.com/AlaskaAirlines/OrionDesignTokens",
+  "description": "Alaska Air Auro Design System token repository",
+  "homepage": "https://github.com/AlaskaAirlines/DesignTokens",
   "author": "Alaska Airlines Product design and research",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlaskaAirlines/OrionDesignTokens"
+    "url": "https://github.com/AlaskaAirlines/DesignTokens"
   },
   "main": "src/",
   "license": "Apache-2.0",
@@ -76,14 +76,9 @@
   },
   "keywords": [
     "alaska airlines",
-    "style dictionary",
-    "orion design system",
     "css",
     "properties",
-    "tokens",
-    "sass",
-    "ios",
-    "android"
+    "tokens"
   ],
   "contributors": [
     {

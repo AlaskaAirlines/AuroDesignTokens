@@ -11,40 +11,6 @@
     "lg": {
       "value": "1232px",
       "public": true
-    },
-    "width": {
-      "narrow": {
-        "value": "480px",
-        "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "breakpoint-sm",
-        "comment": "{comments.reference.comment} breakpoint-sm"
-      },
-      "medium": {
-        "value": "840px",
-        "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "breakpoint-sm",
-        "comment": "{comments.reference.comment} breakpoint-sm"
-      },
-      "wide": {
-        "value": "1024px",
-        "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "breakpoint-md",
-        "comment": "{comments.reference.comment} breakpoint-md"
-      },
-      "max": {
-        "value": "1440px",
-        "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "breakpoint-lg",
-        "comment": "{comments.reference.comment} breakpoint-lg"
-      }
     }
   }
 }

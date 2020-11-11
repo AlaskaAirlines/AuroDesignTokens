@@ -1,14 +1,6 @@
 {
   "font": {
     "family": {
-      "base": {
-        "value": "{font.family.default.value}",
-        "legacy": true,
-        "deprecated": true,
-        "redirect": true,
-        "reference": "font-family-default",
-        "comment": "{comments.reference.comment} font-family-default"
-      },
       "default": {
         "value": "'{asset.font.circular.familyName.value}', Helvetica Neue, Arial, sans-serif",
         "public": true

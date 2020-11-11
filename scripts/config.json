@@ -50,21 +50,7 @@
         }
       ]
     },
-    "SCSSVariables--deprecatedFile": {
-      "transformGroup": "scss",
-      "comment": "File type: SCSS; variable type: Sass; filter: legacy",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "_TokenVariables.scss",
-          "format": "scss/variables",
-          "filter": {
-            "legacy": true
-          }
-        }
-      ]
-    },
+
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "auro",
@@ -169,35 +155,6 @@
         }
       ]
     },
-    "CSSCustomProperties--classicColors": {
-      "transformGroup": "css",
-      "comment": "File type: CSS; variable type: CSS; filter: Classic Colors",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSCustomProperties--classicColors.css",
-          "format": "css/variables",
-          "filter": {
-            "classic": true
-          }
-        }
-      ]
-    },
-    "CSSCustomProperties--deprecatedFile": {
-      "transformGroup": "css",
-      "comment": "File type: CSS; variable type: CSS; filter: legacy",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "CSSTokenProperties.css",
-          "format": "css/variables",
-          "filter": {
-            "legacy": true
-          }
-        }
-      ]
-    },
     "SassCustomProperties": {
       "transformGroup": "css",
       "prefix": "auro",
@@ -209,36 +166,6 @@
           "format": "css/variables",
           "filter": {
             "public": true
-          }
-        }
-      ]
-    }
-    ,
-    "SassCustomProperties--deprecatedFile": {
-      "transformGroup": "css",
-      "comment": "File type: CSS; variable type: CSS; filter: legacy",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "_TokenProperties.scss",
-          "format": "css/variables",
-          "filter": {
-            "legacy": true
-          }
-        }
-      ]
-    },
-    "SassCustomProperties--classicColors": {
-      "transformGroup": "scss",
-      "comment": "File type: SCSS; variable type: Sass; filter: Classic Colors",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SassCustomProperties--classicColors.scss",
-          "format": "scss/variables",
-          "filter": {
-            "classic": true
           }
         }
       ]
@@ -278,60 +205,6 @@
         }
       ]
     },
-    "JSExports--color--deprecatedFile": {
-      "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: color / legacy",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "TokenColorVariables.js",
-          "format": "javascript/module",
-          "filter": {
-            "attributes": {
-              "category": "color"
-            },
-            "legacy": true
-          }
-        },
-        {
-          "destination": "TokenVariables.esm.js",
-          "format": "javascript/es6",
-          "filter": {
-            "legacy": true
-          }
-        }
-      ]
-    },
-    "JSObject--deprecatedTokens": {
-      "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: deprecated",
-      "buildPath": "./dist/tokens/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
-      "files": [
-        {
-          "destination": "JSObject--deprecated.js",
-          "format": "javascript/module",
-          "filter": {
-            "deprecated": true
-          }
-        }
-      ]
-    },
-    "JSObject--classicColors": {
-      "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: classic colors",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "JSObject--classicColors.js",
-          "format": "javascript/module",
-          "filter": {
-            "classic": true
-          }
-        }
-      ]
-    },
     "JSObject--allTokens": {
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: classic colors",
@@ -354,51 +227,6 @@
         {
           "destination": "validJSON",
           "format": "css/variables"
-        }
-      ]
-    },
-    "SCSSVariables--legacyMatrixColors": {
-      "transformGroup": "scss",
-      "comment": "File type: SCSS; variable type: Sass; filter: matrix",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "MatrixVariables.scss",
-          "format": "scss/variables",
-          "filter": {
-            "matrix": true
-          }
-        }
-      ]
-    },
-    "CSSCustomProperties--legacyMatrixColors": {
-      "transformGroup": "css",
-      "comment": "File type: CSS; variable type: CSS; filter: matrix",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "MatrixProperties.css",
-          "format": "css/variables",
-          "filter": {
-            "matrix": true
-          }
-        }
-      ]
-    },
-    "SassCustomProperties--legacyMatrixColors": {
-      "transformGroup": "scss",
-      "comment": "File type: scss; variable type: CSS; filter: matrix",
-      "buildPath": "./dist/tokens/",
-      "deprecated": true,
-      "files": [
-        {
-          "destination": "MatrixProperties.scss",
-          "format": "css/variables",
-          "filter": {
-            "matrix": true
-          }
         }
       ]
     }

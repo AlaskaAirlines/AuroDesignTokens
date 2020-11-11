@@ -7,13 +7,6 @@
           "legacy": true,
           "public": true
         },
-        "dir": {
-          "value": "../fonts/",
-          "legacy": true,
-          "deprecated": true,
-          "reference": "n/a",
-          "comment": "{comments.color.deprecated.comment}"
-        },
         "filename": {
           "value": "ASCircularWeb",
           "legacy": true,
