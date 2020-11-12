@@ -2,17 +2,17 @@
 
 ## Install
 
-[![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/orion-design-tokens/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/orion-design-tokens/actions?query=workflow%3A%22test+and+publish%22)
-[![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
-[![License](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/design-tokens/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/design-tokens/actions?query=workflow%3A%22test+and+publish%22)
+[![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/design-tokens.svg?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@alaskaairux/design-tokens)
+[![License](https://img.shields.io/npm/l/@alaskaairux/design-tokens.svg?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```
-$ npm i @alaskaairux/orion-design-tokens
+$ npm i @alaskaairux/design-tokens
 ```
 
 ## Use pre-processed resources
 
-Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens).
+Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/package/@alaskaairux/design-tokens).
 
 ```
 └── tokens
@@ -35,7 +35,6 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
-| CSSCustomProperties--classicColors | CSS | custom properties | current | filter: classic |
 | CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
 | CSSCustomPropertiesColorRGB | CSS | custom properties | current| Filter: color, public<br>custom RGB output
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
@@ -54,11 +53,11 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 ### Install with Sass
 
 ```scss
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SCSSVariables";
+@import "~@alaskaairux/design-tokens/dist/tokens/SCSSVariables";
 
 // or
 
-@import "~@alaskaairux/orion-design-tokens/dist/tokens/SassCustomProperties";
+@import "~@alaskaairux/design-tokens/dist/tokens/SassCustomProperties";
 ```
 
 ### Install with CSS
@@ -66,7 +65,7 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 With React or similar framework, the CSS file can be imported directly from the npm:
 
 ```js
-import "@alaskaairux/orion-design-tokens/dist/tokens/CSSCustomProperties.css"
+import "@alaskaairux/design-tokens/dist/tokens/CSSCustomProperties.css"
 ```
 
 For other frameworks, it's suggested that the CSS file be copied from the npm into the scope of the project with a build scenario.
@@ -76,7 +75,7 @@ For other frameworks, it's suggested that the CSS file be copied from the npm in
 Within a webpacked application or a `type="module"` script:
 
 ```js
-import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
+import { AuroColorAlertNotificationOnLight, AuroColorBorderErrorOnLight } from '@alaskaairux/design-tokens/dist/tokens/JSVariables--color.js';
 ```
 
 ### Install from CDN
@@ -84,7 +83,7 @@ import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaa
 Using unpkg.com, every file in the dist directory can be accessed.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@alaskaairux/orion-design-tokens@latest/dist/tokens/CSSCustomProperties.css">
+<link rel="stylesheet" href="https://unpkg.com/@alaskaairux/design-tokens@latest/dist/tokens/CSSCustomProperties.css">
 ```
 
 For specifically the CSSCustomProperties.css file, a faster CDN resource is available.
