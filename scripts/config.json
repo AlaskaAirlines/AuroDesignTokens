@@ -243,7 +243,7 @@
         }
       ]
     },
-    "JSExports--color": {
+    "JSmodule--color": {
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
@@ -258,7 +258,14 @@
             },
             "public": true
           }
-        },
+        }
+      ]
+    },
+    "JSes6--color": {
+      "transformGroup": "js",
+      "comment": "File type: JS; data type: JS; filter: colors || public",
+      "buildPath": "./dist/tokens/",
+      "files": [
         {
           "destination": "JSVariables--color.js",
           "format": "javascript/es6",
