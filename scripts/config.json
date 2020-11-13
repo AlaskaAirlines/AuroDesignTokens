@@ -171,6 +171,7 @@
       ]
     },
     "JSmodule--color": {
+      "prefix": "auro",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
@@ -189,6 +190,7 @@
       ]
     },
     "JSes6--color": {
+      "prefix": "auro",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
@@ -207,6 +209,7 @@
     },
     "JSObject--allTokens": {
       "transformGroup": "js",
+      "prefix": "auro",
       "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
