@@ -1,0 +1,201 @@
+repository:
+  # See https://docs.github.com/en/free-pro-team@latest/rest/reference/repos#edit for all available settings.
+
+  # A short description of the repository that will show up on GitHub
+  description: Abstract UI atomic values to support the Auro Design System.
+
+  # A URL with more information about the repository
+  homepage: https://auro.alaskaair.com/getting-started/developers/design-tokens
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: false
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: false
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: false
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: true
+
+branches:
+  - name: master
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews:
+        # The number of approvals required. (1-6)
+        required_approving_review_count: 1
+        # Dismiss approved reviews automatically when a new commit is pushed.
+        dismiss_stale_reviews: true
+        # Blocks merge until code owners have reviewed.
+        require_code_owner_reviews: false
+        # Specify which users and teams can dismiss pull request reviews. Pass an empty dismissal_restrictions object to disable. User and team dismissal_restrictions are only available for organization-owned repositories. Omit this parameter for personal repositories.
+        dismissal_restrictions:
+          users: ["blackfalcon"]
+      # Required. Require status checks to pass before merging. Set to null to disable
+      required_status_checks:
+        # Required. Require branches to be up to date before merging.
+        strict: true
+        # Required. The list of status checks to require in order to merge into this branch
+        contexts: ["test", "license/cla"]
+      # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
+      enforce_admins: false
+      # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
+      restrictions: null
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: duplicate
+    color: cde6ff
+    description: This Issue or Pull Request already exists
+  - name: good first issue
+    color: 6bb7fb
+    description: Good for newcomers
+    aliases:
+    - beginner-friendly
+    - beginner
+    - good-starter-issue
+    - good for beginner
+    - Good for beginners
+    - starter-issue
+    - starter
+  - name: help wanted
+    color: 2492eb
+    description: Extra attention is needed, this user requires assistance to complete
+      the work
+  - name: 'Project: Version Zero'
+    color: '222222'
+    description: Issues related to the epic Project Zero
+  - name: 'Project: Auro User Definition'
+    color: '222222'
+    description: Issues related to the epic User Research
+  - name: 'Project: Doc Site Strategy'
+    color: '222222'
+    description: Issues related to the epic Doc Site Strategy
+  - name: released
+    color: A9A9A9
+    description: Completed work has been released
+  - name: 'Status: Backlogged'
+    color: e2ffcd
+    description: Backlogged item is a proposed question or solution, the user is requesting
+      feedback
+    aliases:
+    - idea
+    - Idea
+    - proposal
+    - Proposal
+    - discussion
+  - name: 'Status: Prioritized for work'
+    color: d0fba6
+    description: Proposal has been prioritized for development (issues only)
+  - name: 'Status: Work In Progress'
+    description: Issue or Pull Request work is in Progress
+    color: c0e585
+  - name: 'Status: Review Needed'
+    color: 91be62
+    description: Work is completed, user is requesting feedback
+  - name: 'Status: Complete'
+    color: 5e8741
+    description: Owner has completed work and considers it ready to be merged
+  - name: 'Status: Blocked'
+    color: df0b37
+    description: Progress on the issue is Blocked, immediate attention is required
+    aliases:
+    - blocked
+  - name: 'Status: Discovery'
+    color: c1daf0
+    description: New work that is still in a discovery phase
+  - name: 'Status: PR Welcome'
+    color: 569ed7
+    description: Assigned to issues, requesting general public support
+    aliases:
+    - Patch Welcome
+    - 'Status: Ready for PR'
+  - name: 'Status: Abandoned'
+    color: 156fad
+    description: The issue or Pull Request is wontfix
+    aliases:
+    - wontfix
+    - invalid
+  - name: 'Type: Bug'
+    color: df0b37
+    description: Bug or Bug fixes
+    aliases:
+    - bug
+  - name: 'Type: Breaking Change'
+    color: b88624
+    description: Includes breaking changes, will require MAJOR version release
+    aliases:
+    - breaking
+    - breaking-change
+  - name: 'Type: Feature'
+    color: e5ad07
+    description: New Feature
+    aliases:
+    - enhancement
+  - name: 'Type: Design'
+    color: e5ad07
+    description: New Design
+    aliases:
+    - enhancement
+  - name: 'Type: Content/data'
+    color: ffd200
+    description: Adding or editing new content or data to the repo
+    aliases:
+    - enhancement
+  - name: 'Type: Refactoring'
+    color: ffdb67
+    description: A code change that neither fixes a bug nor adds a feature
+    aliases:
+    - refactor
+  - name: 'Type: Testing'
+    color: fff0cd
+    description: Adding missing tests or correcting existing tests
+    aliases:
+    - test
+    - testing
+  - name: 'Type: Documentation'
+    color: f26135
+    description: Documentation only changes
+    aliases:
+    - documents
+    - document
+  - name: 'Type: Maintenance'
+    color: b83302
+    description: Repository Maintenance
+    aliases:
+    - greenkeeper
+    - maintenance
+  - name: 'Type: CI'
+    color: b83302
+    description: Changes to CI configuration files and scripts
+    aliases:
+    - ci
+  - name: 'Type: Question'
+    color: b83302
+    description: Further information is requested
+    aliases:
+    - question
+  - name: 'Type: Dependencies'
+    color: b83302
+    description: Pull requests that update a dependency file
+    aliases:
+    - dependencies
+  - name: 'Type: High Risk'
+    color: b83302
+    description: Work is high risk, pay close attention to updates and tests
