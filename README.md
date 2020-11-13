@@ -2,7 +2,7 @@
 
 ## Install
 
-[![Build Status](https://img.shields.io/travis/AlaskaAirlines/AuroDesignTokens.svg?branch=master&style=for-the-badge)](https://travis-ci.org/github/AlaskaAirlines/AuroDesignTokens)
+[![Build Status](https://img.shields.io/github/workflow/status/AlaskaAirlines/orion-design-tokens/Test%20and%20publish?branch=master&style=for-the-badge)](https://github.com/AlaskaAirlines/orion-design-tokens/actions?query=workflow%3A%22test+and+publish%22)
 [![See it on NPM!](https://img.shields.io/npm/v/@alaskaairux/orion-design-tokens.svg?style=for-the-badge&color=orange)](https://www.npmjs.com/package/@alaskaairux/orion-design-tokens)
 [![License](https://img.shields.io/npm/l/@alaskaairux/orion-design-tokens.svg?color=blue&style=for-the-badge)](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -96,7 +96,7 @@ Within a webpacked application or a `type="module"` script:
 import { ColorAlertNotificationOnLight, ColorBorderErrorOnLight } from '@alaskaairux/orion-design-tokens/dist/tokens/JSVariables--color.js';
 ```
 
-### Install from CMS
+### Install from CDN
 
 Using unpkg.com, every file in the dist directory can be accessed.
 
