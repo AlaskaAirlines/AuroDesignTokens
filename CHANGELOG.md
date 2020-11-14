@@ -1,5 +1,28 @@
 # Semantic Release Automated Changelog
 
+# [3.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v2.12.3...v3.0.0) (2020-11-14)
+
+
+### Bug Fixes
+
+* [#31](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/31) update config to output correct data from Tokens ([c548d98](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c548d98138311619b6798e8fbf24cd6ac36763d8))
+
+
+### Build System
+
+* update repo url ([e0a8701](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e0a8701dc0da608e14aa6511814d0753bbe91802))
+
+
+### Performance Improvements
+
+* remove deprecated tokens ([7545302](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/7545302099631ec9a615a625153d9f5eaab15ba3))
+
+
+### BREAKING CHANGES
+
+* forcing chance; previous build failed
+* This update will effectively remove all legacy colors and Orion references
+
 ## [2.12.3](https://github.com/AlaskaAirlines/OrionDesignTokens/compare/v2.12.2...v2.12.3) (2020-11-14)
 
 
