@@ -6,7 +6,7 @@
   "author": "Alaska Airlines Product design and research",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlaskaAirlines/DesignTokens"
+    "url": "https://github.com/AlaskaAirlines/AuroDesignTokens"
   },
   "main": "src/",
   "license": "Apache-2.0",
