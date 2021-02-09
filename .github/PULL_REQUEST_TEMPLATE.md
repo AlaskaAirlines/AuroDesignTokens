@@ -12,10 +12,10 @@ _Please summarize the scope of the changes you have submitted, what the intent o
 
 Please delete options that are not relevant.
 
-- [ ] New capability 
+- [ ] New capability
 - [ ] Revision of an existing capability
 - [ ] Infrastructure change (automation, etc.)
-- [ ] Other (please elaborate) 
+- [ ] Other (please elaborate)
 
 
 ## Checklist:
@@ -25,7 +25,7 @@ Please delete options that are not relevant.
 
 **By submitting this Pull Request, I confirm that my contribution is made under the terms of the Apache 2.0 license.**
 
-_Pull Requests will be evaluated by their quality of update and whether it is consistent with the goals and values of this project. Any submission is to be considered a conversation between the submitter and the maintainers of this project and may require changes to your submission._ 
+_Pull Requests will be evaluated by their quality of update and whether it is consistent with the goals and values of this project. Any submission is to be considered a conversation between the submitter and the maintainers of this project and may require changes to your submission._
 
 **Thank you for your submission!**<br>
--- Orion Design System Team
+-- Auro Design System Team
