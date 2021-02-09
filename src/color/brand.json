@@ -348,6 +348,48 @@
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a"
         }
+      },
+      "neutral": {
+        "100": {
+          "value": "f9fbfc",
+          "public": true,
+          "comment": "{comments.color.brand.value.comment}",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a"
+        },
+        "200": {
+          "value": "e2eaef",
+          "public": true,
+          "comment": "{comments.color.brand.value.comment}",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a"
+        },
+        "300": {
+          "value": "cbd8e2",
+          "public": true,
+          "comment": "{comments.color.brand.value.comment}",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a"
+        },
+        "400": {
+          "value": "9fabbb",
+          "public": true,
+          "comment": "{comments.color.brand.value.comment}",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a"
+        },
+        "500": {
+          "value": "626b79",
+          "public": true,
+          "comment": "{comments.color.brand.value.comment}",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a"
+        }
       }
     }
   }
