@@ -8,7 +8,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "569ed7",
@@ -16,7 +17,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "156fad",
@@ -24,7 +26,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "01426a",
@@ -32,7 +35,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "00274a",
@@ -40,7 +44,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "atlas": {
@@ -50,7 +55,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "6bb7fb",
@@ -58,7 +64,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "2492eb",
@@ -66,7 +73,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "0074cb",
@@ -74,7 +82,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400-opacity-20": {
           "value": "0074cb33",
@@ -87,7 +96,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "breeze": {
@@ -97,7 +107,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "5de3f7",
@@ -105,7 +116,8 @@
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "00cff0",
@@ -113,14 +125,16 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300-opacity-30": {
           "value": "00cff04d",
           "comment": "breeze 300 @ 30%",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "099dc5",
@@ -128,7 +142,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "0b5575",
@@ -136,7 +151,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "tropical": {
@@ -146,7 +162,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "d0fba6",
@@ -154,7 +171,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "c0e585",
@@ -162,7 +180,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "91be62",
@@ -170,7 +189,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "5e8741",
@@ -178,7 +198,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "alpine": {
@@ -188,7 +209,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "9e73ea",
@@ -196,7 +218,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "8439ef",
@@ -204,7 +227,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "631db8",
@@ -212,7 +236,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "39115c",
@@ -220,7 +245,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "flamingo": {
@@ -230,7 +256,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "ffc0ca",
@@ -238,7 +265,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "ff94a7",
@@ -246,7 +274,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "F65b7b",
@@ -254,7 +283,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "b82b47",
@@ -262,7 +292,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "canyon": {
@@ -272,7 +303,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "f99574",
@@ -280,7 +312,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "f26135",
@@ -288,7 +321,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "de3e09",
@@ -296,7 +330,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "b83302",
@@ -304,7 +339,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "goldcoast": {
@@ -314,7 +350,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "ffdb67",
@@ -322,7 +359,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "ffd200",
@@ -330,7 +368,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "e5ad07",
@@ -338,7 +377,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "b88624",
@@ -346,7 +386,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "neutral": {
@@ -356,7 +397,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "TBD...",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "200": {
           "value": "e2eaef",
@@ -364,7 +406,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "TBD...",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "300": {
           "value": "cbd8e2",
@@ -372,7 +415,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "TBD...",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "400": {
           "value": "9fabbb",
@@ -380,7 +424,8 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "TBD...",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
           "value": "626b79",
@@ -388,7 +433,50 @@
           "comment": "{comments.color.brand.value.comment}",
           "neutral": true,
           "usage": "TBD...",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "f8f8f8",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "dbdbdb",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "b2b2b2",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "767676",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "222222",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
         }
       }
     }

@@ -4,17 +4,20 @@
       "property": {
         "value": "all",
         "legacy": true,
-        "public": true
+        "public": true,
+        "deprecated": false
       },
       "duration": {
         "value": "0.3s",
         "legacy": true,
-        "public": true
+        "public": true,
+        "deprecated": false
       },
       "timing": {
         "value": "ease-out",
         "legacy": true,
-        "public": true
+        "public": true,
+        "deprecated": false
       }
     }
   }

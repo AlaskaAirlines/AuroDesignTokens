@@ -2,15 +2,18 @@
   "breakpoint": {
     "sm": {
       "value": "660px",
-      "public": true
+      "public": true,
+      "deprecated": false
     },
     "md": {
       "value": "1024px",
-      "public": true
+      "public": true,
+      "deprecated": false
     },
     "lg": {
       "value": "1232px",
-      "public": true
+      "public": true,
+      "deprecated": false
     }
   }
 }

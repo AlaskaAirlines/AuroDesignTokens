@@ -218,7 +218,8 @@
           "destination": "JSObject--allTokens.js",
           "format": "javascript/module",
           "filter": {
-            "public": true
+            "public": true,
+            "deprecated": false
           }
         }
       ]
@@ -230,6 +231,21 @@
         {
           "destination": "validJSON",
           "format": "css/variables"
+        }
+      ]
+    },
+    "JSObject--deprecatedTokens": {
+      "transformGroup": "js",
+      "comment": "File type: JS; data type: JS; filter: deprecated",
+      "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSObject--deprecated.js",
+          "format": "javascript/module",
+          "filter": {
+            "deprecated": true
+          }
         }
       ]
     }

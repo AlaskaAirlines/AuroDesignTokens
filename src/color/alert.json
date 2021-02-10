@@ -7,14 +7,16 @@
           "public": true,
           "onLight": true,
           "usage": "Notification color on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
           "onDark": true,
           "usage": "Notification color on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "warning": {
@@ -23,7 +25,8 @@
           "public": true,
           "onLight": true,
           "usage": "Warning color on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "error": {
@@ -32,14 +35,16 @@
           "public": true,
           "onLight": true,
           "usage": "Error color on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.state.error.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Error color on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "success": {
@@ -48,14 +53,16 @@
           "public": true,
           "onLight": true,
           "usage": "Success color on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.state.success.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Success color on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "advisory": {
@@ -64,14 +71,16 @@
           "public": true,
           "onLight": true,
           "usage": "Travel advisory or system maintenance color on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.brand.goldcoast.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Travel advisory or system maintenance color on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       }
     }

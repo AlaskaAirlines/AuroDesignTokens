@@ -6,28 +6,32 @@
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds",
-        "wcag": "n/a"
+        "wcag": "n/a",
+        "deprecated": false
       },
       "lighter": {
         "value": "{color.base.gray.100.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds @ 90% white",
-        "wcag": "n/a"
+        "wcag": "n/a",
+        "deprecated": false
       },
       "darker": {
         "value": "{color.brand.midnight.400.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating dark backgrounds",
-        "wcag": "n/a"
+        "wcag": "n/a",
+        "deprecated": false
       },
       "darkest": {
         "value": "{color.brand.midnight.500.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating dark backgrounds @ 20% darker",
-        "wcag": "n/a"
+        "wcag": "n/a",
+        "deprecated": false
       }
     }
   }
