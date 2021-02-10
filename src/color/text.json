@@ -7,14 +7,16 @@
           "public": true,
           "onLight": true,
           "usage": "Primary color for body and header text on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.base.white.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "secondary": {
@@ -23,14 +25,16 @@
           "public": true,
           "onLight": true,
           "usage": "Secondary color for body text on light backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.base.neutral.400.value}",
           "public": true,
           "onDark": true,
           "usage": "Secondary color for body text on dark backgrounds",
-          "wcag": "AAA"
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "link": {
@@ -39,14 +43,16 @@
           "public": true,
           "onLight": true,
           "usage": "Link text color on light backgrounds",
-          "wcag": "AA"
+          "wcag": "AA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
           "onDark": true,
           "usage": "Link text color on light backgrounds",
-          "wcag": "AA"
+          "wcag": "AA",
+          "deprecated": false
         }
       },
       "error": {
@@ -55,14 +61,16 @@
           "public": true,
           "onLight": true,
           "usage": "Error text color on light backgrounds",
-          "wcag": "AA"
+          "wcag": "AA",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.state.error.100.value}",
           "public": true,
           "onDark": true,
           "usage": "Error text color on dark backgrounds",
-          "wcag": "AA"
+          "wcag": "AA",
+          "deprecated": false
         }
       },
       "disabled": {
@@ -71,14 +79,16 @@
           "public": true,
           "onLight": true,
           "usage": "Disabled text color on light backgrounds",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         },
         "onDark": {
           "value": "{color.base.gray.200.value}",
           "public": true,
           "onDark": true,
           "usage": "Disabled text color on dark backgrounds",
-          "wcag": "n/a"
+          "wcag": "n/a",
+          "deprecated": false
         }
       }
     }

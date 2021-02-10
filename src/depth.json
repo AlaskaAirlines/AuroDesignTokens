@@ -19,22 +19,26 @@
     "dialog": {
       "value": "{depth.100.value}",
       "public": true,
-      "legacy": true
+      "legacy": true,
+      "deprecated": false
     },
     "overlay": {
       "value": "{depth.200.value}",
       "public": true,
-      "legacy": true
+      "legacy": true,
+      "deprecated": false
     },
     "modal": {
       "value": "{depth.300.value}",
       "public": true,
-      "legacy": true
+      "legacy": true,
+      "deprecated": false
     },
     "tooltip": {
       "value": "{depth.300.value}",
       "public": true,
-      "legacy": true
+      "legacy": true,
+      "deprecated": false
     }
   }
 }

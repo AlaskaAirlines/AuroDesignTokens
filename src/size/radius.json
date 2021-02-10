@@ -2,7 +2,8 @@
   "border": {
     "radius": {
       "value": "0.375rem",
-      "public": true
+      "public": true,
+      "deprecated": false
     }
   }
 }
