@@ -6,13 +6,13 @@ By default, no tokens are exposed in an output file unless specifically designat
 
 | filter | type | description |
 |---|---|---|
-| attributes {category/type/option} | string | follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
-| classic | boolean | token filter for `classic` theme values |
-| deprecated | boolean | token marked as `deprecated` will be deleted with next MAJOR release version |
-| legacy | boolean | token filter for legacy values |
-| opacity | boolean | token filter for base colors with an alpha transparency |
-| public | boolean | token filter for publicly exposed Design System tokens per the most recent spec |
-| redirect | boolean | token filter for legacy values that have a new reference |
+| attributes {category/type/option} | string | Follow the pattern of the [CTI Structure](https://amzn.github.io/style-dictionary/#/properties?id=category-type-item) to determine the value of a category, type or option in the JSON |
+| classic | boolean | Token filter for `classic` theme values |
+| deprecated | boolean | Tokens marked as `deprecated:false` will be included into the AllTokens data file. Ones marked `deprecated:true` will only appear in the deprecated data. |
+| legacy | boolean | Token filter for legacy values |
+| opacity | boolean | Token filter for base colors with an alpha transparency |
+| public | boolean | Token filter for publicly exposed Design System tokens per the most recent spec |
+| redirect | boolean | Token filter for legacy values that have a new reference |
 
 **Classic:** Tokens that reference Alaska CLASSIC themes
 <br>**Legacy:** Tokens established prior to v2.8 release
@@ -23,8 +23,8 @@ Additional content options are made available within the token data. See the tab
 
 | option | type | description |
 |---|---|---|
-| comment | string | comment that will appear in CSS/Sass output |
-| reference | string | new token redirect reference |
-| usage | string | description of token use |
+| comment | string | Comment that will appear in CSS/Sass output |
+| reference | string | New token redirect reference |
+| usage | string | Description of token use |
 | wcag | string | WCAG accessibility rating if applicable |
-| value | string / number | the value of the token |
+| value | string / number | The value of the token |
