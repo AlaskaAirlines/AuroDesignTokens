@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [3.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.0.0...v3.1.0) (2021-02-11)
+
+
+### Features
+
+* [#36](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/36) add new brand-neutral colors ([9c53acd](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9c53acd6ad01f6d3928c969645a2625890591216))
+* [#36](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/36) support deprecated:false flag for distribution of token data ([9d40067](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9d400676c13d370972ddcd6037fc1f8514cee615))
+
 # [3.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v2.12.3...v3.0.0) (2020-11-14)
 
 
