@@ -1,5 +1,7 @@
 const StyleDictionary = require('style-dictionary');
 const _ = require('lodash');
+const fs = require('fs');
+const join = require('path').join;
 
 const Color = require('tinycolor2');
 
@@ -15,6 +17,11 @@ StyleDictionary.registerTransform({
 
     return newColor.match(reg)[1];
   }
+});
+
+StyleDictionary.registerFormat({
+  name: 'custom/scss/map-flat',
+  formatter:  _.template( fs.readFileSync(join(__dirname,'../templates/map-flat.template')) )
 });
 
 // Required dependency
