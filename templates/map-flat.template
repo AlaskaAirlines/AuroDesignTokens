@@ -28,14 +28,13 @@
     print('\n');
 
     var output = '';
-    var fontFamilyRegex = /font-family/;
     output += `$${this.mapName||'tokens'}: (\n`;
     output += allProperties.map(function(prop){
         var line = '';
         if(prop.comment) {
         line += '  // ' + prop.comment + '\n';
         }
-        line += '  \'' + prop.name + '\': ' + (fontFamilyRegex.test(prop.name) ? '(' : '') + (prop.attributes.category==='asset' ? '"'+prop.value+'"' : prop.value) + (fontFamilyRegex.test(prop.name) ? ')' : '')
+        line += '  \'' + prop.name + '\': (' + (prop.attributes.category==='asset' ? '"'+prop.value+'"' : prop.value) + ')';
         return line;
     }).join(',\n');
     output += '\n);';
