@@ -13,6 +13,14 @@
           "filter": {
             "public": true
           }
+        },
+        {
+          "destination": "SCSSVariablesMapFlat.scss",
+          "format": "custom/scss/map-flat",
+          "mapName": "auroTokens",
+          "filter": {
+            "public": true
+        }
         }
       ]
     },
