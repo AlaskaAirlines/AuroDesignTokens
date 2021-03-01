@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [3.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.1.1...v3.2.0) (2021-03-01)
+
+
+### Bug Fixes
+
+* simplify customization and wrap all values in parens ([0c2ce1d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0c2ce1de4ed59686e7be51d255aacb8817bd6aef))
+
+
+### Features
+
+* add SCSS map of Auro tokens ([aa58f22](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/aa58f22ae8fdef0ba94dcc1fa6e2edfc115057cc))
+
 ## [3.1.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.1.0...v3.1.1) (2021-02-28)
 
 
