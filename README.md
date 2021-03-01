@@ -22,10 +22,12 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
    ├── CSSSizeCustomProperties.css
    ├── JSData--color.js
    ├── JSObject--allTokens.js
+   ├── JSObject--deprecated.js
    ├── JSVariables--color.js
    ├── SCSSOpacityVariables.scss
    ├── SCSSVariableMap.scss
    ├── SCSSVariables.scss
+   ├── SCSSVariablesMapFlat.scss
    ├── SassCustomProperties.scss
    ├── SassCustomPropertiesColorRGB.scss
    └── SassSizeCustomProperties.scss
@@ -35,17 +37,19 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 
 | file | syntax | type | status | filter type / description |
 |---|---|---|---|---|
-| CSSCustomProperties | CSS | custom properties | current | full list of v2.8 release tokens |
+| CSSCustomProperties | CSS | custom properties | current | full list of v3.0x release tokens |
 | CSSCustomPropertiesColorRGB | CSS | custom properties | current| Filter: color, public<br>custom RGB output
 | CSSOpacityProperties | Sass | custom properties | current | filter: opacity |
 | CSSSizeCustomProperties | CSS | custom properties | current | filter: size, public |
 | JSData--color | JS module | color data | current | filter: color, current |
+| JSObject--deprecated | JS module | deprecated tokens | current | filter: deprecated, pubic |
 | JSObject--allTokens.js | JS module | all data | current | filter: public |
 | JSVariables--color | js es6 | color data | current | filter: color |
 | SCSSOpacityVariables | Sass | Sass variables | current | filter: opacity |
 | SCSSVariableMap | Sass | Sass variable map | current | filter: size, public |
-| SCSSVariables | scss | Sass variables | current | full list of v2.8 release tokens |
-| SassCustomProperties | scss | custom properties | current | full list of v2.8 release tokens |
+| SCSSVariables | scss | Sass variables | current | full list of v3.0x release tokens |
+| SCSSVariablesMapFlat | Scss variable map | current | full list of v3.0x release tokens |
+| SassCustomProperties | scss | custom properties | current | full list of v3.0x release tokens |
 | SassCustomPropertiesColorRGB | Sass | custom properties | current| Filter: color, public<br>custom RGB output
 | SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 
