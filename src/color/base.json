@@ -32,7 +32,7 @@
       "gray": {
         "100": {
           "value": "f8f8f8",
-          "version": "3.0.1",
+          "version": "3.1.0",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
@@ -48,7 +48,7 @@
           "usage": "Neutral accent",
           "wcag": "n/a",
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-gray-200",
           "comment": "{comments.reference.comment} color-brand-gray-200"
         },
@@ -59,7 +59,7 @@
           "usage": "Neutral accent",
           "wcag": "n/a",
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-gray-300",
           "comment": "{comments.reference.comment} color-brand-gray-300"
         },
@@ -70,7 +70,7 @@
           "usage": "Neutral accent",
           "wcag": "n/a",
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-gray-400",
           "comment": "{comments.reference.comment} color-brand-gray-400"
         },
@@ -81,7 +81,7 @@
           "usage": "Neutral accent",
           "wcag": "n/a",
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-gray-500",
           "comment": "{comments.reference.comment} color-brand-gray-500"
         }
@@ -91,7 +91,7 @@
           "value": "9fabbb",
           "public": true,
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-neutral-400",
           "comment": "{comments.reference.comment} color-brand-neutral-400"
         },
@@ -99,7 +99,7 @@
           "value": "626b79",
           "public": true,
           "deprecated": true,
-          "version": "3.0.1",
+          "version": "3.1.0",
           "reference": "color-brand-neutral-500",
           "comment": "{comments.reference.comment} color-brand-neutral-500"
         }

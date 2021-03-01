@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.1.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.1.0...v3.1.1) (2021-02-28)
+
+
+### Bug Fixes
+
+* address typo in deprecated version listing ([f8c9b11](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f8c9b11c7acb8d985241cae13e7ceae7c2ce5b1a))
+
 # [3.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.0.0...v3.1.0) (2021-02-11)
 
 
