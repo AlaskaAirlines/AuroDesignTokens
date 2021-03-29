@@ -20,7 +20,7 @@
       "value": "400"
     },
     "dialog": {
-      "value": "{depth.100.value}",
+      "value": "{depth.400.value}",
       "public": true,
       "legacy": true,
       "deprecated": false
@@ -35,7 +35,7 @@
       "value": "{depth.400.value}",
       "public": true,
       "legacy": true,
-      "deprecated": false
+      "deprecated": true
     },
     "tooltip": {
       "value": "{depth.300.value}",
