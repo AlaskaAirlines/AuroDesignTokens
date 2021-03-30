@@ -8,7 +8,6 @@
       },
       "mono": {
         "value": "Menlo, Monaco, Consolas, 'Courier New', monospace",
-        "legacy": true,
         "public": true,
         "deprecated": false
       }
@@ -25,7 +24,7 @@
       },
       "300": {
         "value": "300",
-        "comment": "value to support ASCircularWeb-Mdium",
+        "comment": "value to support ASCircularWeb-Medium",
         "deprecated": false
       },
       "500": {

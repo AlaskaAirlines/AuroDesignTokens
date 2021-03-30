@@ -4,7 +4,6 @@
       "white": {
         "value": "ffffff",
         "comment": "{comments.color.base.value.comment}",
-        "legacy": true,
         "public": true,
         "deprecated": false
       },
@@ -18,7 +17,6 @@
       "black": {
         "value": "000000",
         "comment": "{comments.color.base.value.comment}",
-        "legacy": true,
         "public": true,
         "deprecated": false
       },

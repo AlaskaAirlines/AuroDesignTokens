@@ -4,20 +4,17 @@
       "circular": {
         "familyName": {
           "value": "AS Circular",
-          "legacy": true,
           "public": true,
           "deprecated": false
         },
         "filename": {
           "value": "ASCircularWeb",
-          "legacy": true,
           "public": true,
           "deprecated": false
         },
         "weight": {
           "light": {
             "value": "-Light",
-            "legacy": true,
             "public": true,
             "deprecated": false
           },
@@ -28,7 +25,6 @@
           },
           "book": {
             "value": "-Book",
-            "legacy": true,
             "public": true,
             "deprecated": false
           }
