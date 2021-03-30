@@ -1,43 +1,28 @@
 {
   "depth": {
     "hidden": {
-      "value": "-1",
-      "legacy": true
-    },
-    "0": {
-      "value": "0"
-    },
-    "100": {
-      "value": "100"
-    },
-    "200": {
-      "value": "200"
-    },
-    "300": {
-      "value": "300"
+      "value": "-1"
     },
     "dialog": {
-      "value": "{depth.100.value}",
+      "value": "100",
       "public": true,
-      "legacy": true,
-      "deprecated": false
+      "deprecated": true,
+      "reference": "depth-modal",
+      "version": "3.2.1"
     },
     "overlay": {
-      "value": "{depth.200.value}",
+      "value": "200",
       "public": true,
-      "legacy": true,
       "deprecated": false
     },
     "modal": {
-      "value": "{depth.300.value}",
+      "value": "400",
       "public": true,
-      "legacy": true,
       "deprecated": false
     },
     "tooltip": {
-      "value": "{depth.300.value}",
+      "value": "300",
       "public": true,
-      "legacy": true,
       "deprecated": false
     }
   }
