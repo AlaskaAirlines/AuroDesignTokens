@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.2.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.2.0...v3.2.1) (2021-03-31)
+
+
+### Bug Fixes
+
+* update depth tokens and remove deprecated JSON keys ([ba1e718](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ba1e7181023c14b680d23113eecc6e4c49868e2c))
+
 # [3.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.1.1...v3.2.0) (2021-03-01)
 
 
