@@ -3,7 +3,7 @@
     "border": {
       "primary": {
         "onLight": {
-          "value": "{color.base.black-opacity-15.value}",
+          "value": "{color.brand.neutral.500.value}",
           "public": true,
           "onLight": true,
           "usage": "Primary border color on light backgrounds",
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "onDark": {
-          "value": "{color.base.white-opacity-40.value}",
+          "value": "{color.brand.neutral.400.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary border color on dark background",
@@ -87,6 +87,24 @@
           "public": true,
           "onDark": true,
           "usage": "Focus border color for dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "divider": {
+        "onLight": {
+          "value": "{color.base.black-opacity-15.value}",
+          "public": true,
+          "onLight": true,
+          "usage": "Strict use as divider between elements on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
         }
