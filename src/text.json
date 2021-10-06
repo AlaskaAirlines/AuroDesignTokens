@@ -141,7 +141,7 @@
       },
       "800": {
         "weight": {
-          "value": "{font.weight.300.value}",
+          "value": "{font.weight.500.value}",
           "public": true,
           "deprecated": false
         },
@@ -220,7 +220,7 @@
       },
       "700": {
         "weight": {
-          "value": "{font.weight.300.value}",
+          "value": "{font.weight.500.value}",
           "public": true,
           "deprecated": false
         },
@@ -298,6 +298,11 @@
         }
       },
       "600": {
+        "weight": {
+          "value": "{font.weight.300.value}",
+          "public": true,
+          "deprecated": false
+        },
         "px": {
           "breakpoint": {
             "sm": {
@@ -372,6 +377,11 @@
         }
       },
       "500": {
+        "weight": {
+          "value": "{font.weight.300.value}",
+          "public": true,
+          "deprecated": false
+        },
         "px": {
           "breakpoint": {
             "sm": {
@@ -446,6 +456,11 @@
         }
       },
       "400": {
+        "weight": {
+          "value": "{font.weight.300.value}",
+          "public": true,
+          "deprecated": false
+        },
         "px": {
           "value": "{size.font.scale.base.120.px.value}",
           "public": true,
@@ -468,6 +483,11 @@
         }
       },
       "300": {
+        "weight": {
+          "value": "{font.weight.300.value}",
+          "public": true,
+          "deprecated": false
+        },
         "px": {
           "value": "{size.font.scale.base.110.px.value}",
           "public": true,
