@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.3.0...v3.4.0) (2021-10-08)
+
+
+### Features
+
+* **new tokens:** add new tokens to support type ramp updates [#58](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/58) ([e076630](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e076630d7c17fb4f24ced93eb023f8a72eec8b5b))
+
 # [3.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.2.1...v3.3.0) (2021-06-10)
 
 
