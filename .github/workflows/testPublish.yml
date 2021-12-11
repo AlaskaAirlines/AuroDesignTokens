@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [11.x, 12.x, 14.x]
+        node-version: [ 12.x ]
 
     steps:
       - uses: actions/checkout@v2
@@ -24,8 +24,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run buildTokens
-      - run: npm run copyJson
+      - run: npm run build:tokens
+      - run: npm run copy:json
       - run: npm test
 
   release:
@@ -39,10 +39,10 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 12
       - run: npm ci
-      - run: npm run buildTokens
-      - run: npm run copyJson
+      - run: npm run build:tokens
+      - run: npm run copy:json
       - uses: cycjimmy/semantic-release-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

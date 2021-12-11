@@ -28,9 +28,9 @@
   },
   "scripts": {
     "postinstall": "node packageScripts/postinstall.js",
-    "buildTokens": "node scripts/styleDictionary.js",
-    "ciBuild": "npm-run-all sweep test copyJson buildTokens postinstall",
-    "copyJson": "copyfiles -u 1 -V './src/**/*.json' ./dist",
+    "build:tokens": "node scripts/styleDictionary.js",
+    "build:ci": "npm-run-all sweep test copy:json build:tokens postinstall",
+    "copy:json": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/"
   },
