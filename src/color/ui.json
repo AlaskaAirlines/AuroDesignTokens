@@ -6,7 +6,7 @@
           "value": "{color.brand.atlas.400.value}",
           "public": true,
           "onLight": true,
-          "usage": "Primary interaction color on light backgrounds",
+          "usage": "Default interaction color affordance",
           "wcag": "AAA",
           "deprecated": false
         },
@@ -14,7 +14,7 @@
           "value": "{color.brand.breeze.300.value}",
           "public": true,
           "onDark": true,
-          "usage": "Primary interaction color on dark backgrounds",
+          "usage": "OnDark interaction color affordance",
           "wcag": "AAA",
           "deprecated": false
         }
@@ -24,7 +24,7 @@
           "value": "{color.brand.atlas.500.value}",
           "public": true,
           "onLight": true,
-          "usage": "Hover interaction color on light backgrounds",
+          "usage": "Default hover color affordance",
           "wcag": "AAA",
           "deprecated": false
         },
@@ -42,7 +42,7 @@
           "value": "{color.brand.atlas.500.value}",
           "public": true,
           "onLight": true,
-          "usage": "Active interaction color on light backgrounds",
+          "usage": "Active state color affordance",
           "wcag": "AAA",
           "deprecated": false
         },
@@ -50,7 +50,7 @@
           "value": "{color.brand.breeze.200.value}",
           "public": true,
           "onDark": true,
-          "usage": "Active interaction color on dark backgrounds",
+          "usage": "OnDark active state color affordance",
           "wcag": "AAA",
           "deprecated": false
         }
@@ -60,7 +60,7 @@
           "value": "{color.brand.atlas.400-opacity-20.value}",
           "public": true,
           "onLight": true,
-          "usage": "Disabled interaction color on light backgrounds",
+          "usage": "Disabled state color affordance",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -68,9 +68,27 @@
           "value": "{color.brand.breeze.300-opacity-30.value}",
           "public": true,
           "onDark": true,
-          "usage": "Disabled interaction color on dark backgrounds",
+          "usage": "OnDark disabled state color affordance",
           "wcag": "n/a",
           "deprecated": false
+        }
+      },
+      "bkg": {
+        "hover": {
+          "onDark": {
+            "value": "5de3f71a",
+            "public": true,
+            "onDark": true,
+            "usage": "Default hover affordance for background colors onDark",
+            "deprecated": false
+          },
+          "onLight": {
+            "value": "05468708",
+            "public": true,
+            "onLight": true,
+            "usage": "Default hover affordance for background colors",
+            "deprecated": false
+          }
         }
       }
     }
