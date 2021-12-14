@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.4.0...v3.5.0) (2021-12-14)
+
+
+### Features
+
+* **color ui:** add new ui background tokens [#60](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/60) ([85b7bba](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/85b7bbadd3a036164b5707c804b7be7ac268cc33))
+
 # [3.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.3.0...v3.4.0) (2021-10-08)
 
 
