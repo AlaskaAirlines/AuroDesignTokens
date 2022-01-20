@@ -478,6 +478,52 @@
           "wcag": "n/a",
           "deprecated": false
         }
+      },
+      "goldgray": {
+        "100": {
+          "value": "C5C1BF",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": false
+        },
+        "200": {
+          "value": "726E6C",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": false
+        }
+      },
+      "gold": {
+        "100": {
+          "value": "CCBC94",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": false
+        },
+        "200": {
+          "value": "7F682E",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": false
+        }
+      },
+      "emerald": {
+        "value": "139142",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
+      },
+      "sapphire": {
+        "value": "015DAA",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
+      },
+      "ruby": {
+        "value": "A41D4A",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
       }
     }
   }
