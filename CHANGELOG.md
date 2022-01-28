@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.5.0...v3.6.0) (2022-01-28)
+
+
+### Features
+
+* **new token release:** add new tier color tokens ([#54](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/54)) ([5f73915](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5f73915e135f8f66ab71797e0d0497a7edc92891))
+
 # [3.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.4.0...v3.5.0) (2021-12-14)
 
 
