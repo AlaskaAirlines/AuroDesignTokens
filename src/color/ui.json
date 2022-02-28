@@ -83,7 +83,7 @@
             "deprecated": false
           },
           "onLight": {
-            "value": "05468708",
+            "value": "0000000f",
             "public": true,
             "onLight": true,
             "usage": "Default hover affordance for background colors",
