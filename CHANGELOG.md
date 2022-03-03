@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.6.0...v3.7.0) (2022-03-03)
+
+
+### Features
+
+* darken bkg-hover color [#66](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/66) ([7994b21](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/7994b21852767e4848241c7d50a81ca820b8bef8))
+
 # [3.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.5.0...v3.6.0) (2022-01-28)
 
 
