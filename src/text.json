@@ -519,6 +519,11 @@
         }
       },
       "size": {
+        "xxs": {
+          "value": "{size.font.scale.base.60.value}",
+          "public": true,
+          "deprecated": false
+        },
         "xs": {
           "value": "{size.font.scale.base.70.value}",
           "public": true,

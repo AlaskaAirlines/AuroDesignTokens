@@ -3,6 +3,12 @@
     "font": {
       "scale": {
         "base": {
+          "60": {
+            "value": 0.625,
+            "px": {
+              "value": "10px"
+            }
+          },
           "70": {
             "value": 0.75,
             "px": {
