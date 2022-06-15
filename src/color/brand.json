@@ -77,7 +77,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "0074cb",
+          "value": "0074c8",
           "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
@@ -86,7 +86,7 @@
           "deprecated": false
         },
         "400-opacity-20": {
-          "value": "0074cb33",
+          "value": "0074c833",
           "comment": "color brand atlas 400 @ 20%",
           "opacity": true
         },
