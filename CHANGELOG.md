@@ -1,5 +1,19 @@
 # Semantic Release Automated Changelog
 
+# [3.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.8.0...v3.9.0) (2022-05-05)
+
+
+### Features
+
+* add elevation tokens [#69](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/69) ([d165c2f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d165c2f5adfe1309d8dd57f1e1a73ca89666b126))
+
+# [3.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.7.0...v3.8.0) (2022-04-20)
+
+
+### Features
+
+* add new type token [#70](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/70) ([6502384](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/650238457f8cf36ef3763b3d7c0eebbcca5d3660))
+
 # [3.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.6.0...v3.7.0) (2022-03-03)
 
 
