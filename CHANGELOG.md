@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.9.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.9.0...v3.9.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* change default ui color hex code [#80](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/80) ([df080b9](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/df080b982b7600cd8c7ff2add636e3927d111649))
+
 # [3.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.8.0...v3.9.0) (2022-05-05)
 
 
