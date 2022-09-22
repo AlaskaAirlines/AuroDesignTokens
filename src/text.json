@@ -565,6 +565,11 @@
           "value": "{size.font.scale.responsive.160.value}",
           "public": true,
           "deprecated": false
+        },
+        "form": {
+          "value": "{size.font.scale.responsive.250.px.value}",
+          "public": true,
+          "deprecated": false
         }
       }
     }
