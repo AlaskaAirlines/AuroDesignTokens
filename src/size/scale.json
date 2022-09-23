@@ -148,71 +148,161 @@
     },
     "none": {
       "value": "0",
-      "comment": "style guide value 0",
+      "comment": "Deprecated token, use 0 value",
+      "public": true,
+      "deprecated": true,
+      "reference": "n/a",
+      "version": "3.10.0"
+    },
+    "25": {
+      "value": 0.125,
+      "comment": "2px",
+      "public": true,
+      "deprecated": false
+    },
+    "50": {
+      "value": 0.25,
+      "comment": "4px",
+      "public": true,
+      "deprecated": false
+    },
+    "100": {
+      "value": 0.5,
+      "comment": "8px",
+      "public": true,
+      "deprecated": false
+    },
+    "150": {
+      "value": 0.75,
+      "comment": "12px",
+      "public": true,
+      "deprecated": false
+    },
+    "200": {
+      "value": 1.00,
+      "comment": "16px",
+      "public": true,
+      "deprecated": false
+    },
+    "300": {
+      "value": 1.50,
+      "comment": "24px",
+      "public": true,
+      "deprecated": false
+    },
+    "400": {
+      "value": 2.00,
+      "comment": "32px",
+      "public": true,
+      "deprecated": false
+    },
+    "500": {
+      "value": 2.50,
+      "comment": "40px",
+      "public": true,
+      "deprecated": false
+    },
+    "600": {
+      "value": 3.00,
+      "comment": "48px",
+      "public": true,
+      "deprecated": false
+    },
+    "700": {
+      "value": 3.50,
+      "comment": "56px",
+      "public": true,
+      "deprecated": false
+    },
+    "800": {
+      "value": 4.00,
+      "comment": "64px",
+      "public": true,
+      "deprecated": false
+    },
+    "900": {
+      "value": 4.50,
+      "comment": "72px",
+      "public": true,
+      "deprecated": false
+    },
+    "1000": {
+      "value": 5.00,
+      "comment": "80px",
       "public": true,
       "deprecated": false
     },
     "xxxs": {
       "value": 0.125,
-      "comment": "style guide value 2px",
+      "comment": "{comments.reference.comment} auro-size-25",
       "public": true,
-      "deprecated": false
+      "reference": "size-25",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "xxs": {
       "value": 0.25,
-      "comment": "style guide value 4px",
+      "comment": "{comments.reference.comment} auro-size-50",
       "public": true,
-      "deprecated": false
+      "reference": "size-50",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "xs": {
       "value": 0.5,
-      "comment": "style guide value 8px",
+      "comment": "{comments.reference.comment} auro-size-100",
       "public": true,
-      "deprecated": false
+      "reference": "size-100",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "sm": {
       "value": 0.75,
-      "comment": "style guide value 12px",
+      "comment": "{comments.reference.comment} auro-size-150",
       "public": true,
-      "deprecated": false
+      "reference": "size-150",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "md": {
       "value": 1,
-      "comment": "style guide value 16px",
+      "comment": "{comments.reference.comment} auro-size-200",
       "public": true,
-      "deprecated": false
+      "reference": "size-200",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "lg": {
       "value": 1.5,
-      "comment": "style guide value 24px",
+      "comment": "{comments.reference.comment} auro-size-300",
       "public": true,
-      "deprecated": false
+      "reference": "size-300",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "xl": {
       "value": 2,
-      "comment": "style guide value 32px",
+      "comment": "{comments.reference.comment} auro-size-400",
       "public": true,
-      "deprecated": false
+      "reference": "size-400",
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "xxl": {
       "value": 3,
-      "comment": "style guide value 48px",
+      "comment": "{comments.reference.comment} auro-size-600",
+      "reference": "size-600",
       "public": true,
-      "deprecated": false
+      "deprecated": true,
+      "version": "3.10.0"
     },
-
     "xxxl": {
       "value": 4,
-      "comment": "style guide value 64px",
       "public": true,
-      "deprecated": false
+      "deprecated": true,
+      "version": "3.10.0",
+      "comment": "{comments.reference.comment} auro-size-800",
+      "reference": "size-800"
     }
   }
 }
