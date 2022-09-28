@@ -90,6 +90,24 @@
           "wcag": "n/a",
           "deprecated": false
         }
+      },
+      "emphasis": {
+        "onLight": {
+          "value": "{color.brand.midnight.400.value}",
+          "public": true,
+          "onLight": true,
+          "usage": "Emphasized text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.midnight.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Emphasized text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
       }
     }
   }
