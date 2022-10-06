@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.10.0...v3.11.0) (2022-10-06)
+
+
+### Features
+
+* **emphasis:** add new semantic text color [#83](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/83) ([d44a1ea](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d44a1ea88f7056d754e9fb35ff1935c45c9d3fb9))
+
 # [3.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.9.1...v3.10.0) (2022-09-27)
 
 
