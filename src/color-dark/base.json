@@ -1,0 +1,140 @@
+{
+  "color": {
+    "base": {
+      "white": {
+        "value": "ffffff",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "white-opacity-40": {
+        "value": "ffffff66",
+        "comment": "white @ 40%",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
+      "black": {
+        "value": "000000",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "black-opacity-15": {
+        "value": "00000026",
+        "comment": "black @ 15%",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
+      "gray": {
+        "100": {
+          "value": "f8f8f8",
+          "version": "3.1.0",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": true,
+          "reference": "color-brand-gray-100",
+          "comment": "{comments.reference.comment} color-brand-gray-100"
+        },
+        "200": {
+          "value": "dbdbdb",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-gray-200",
+          "comment": "{comments.reference.comment} color-brand-gray-200"
+        },
+        "300": {
+          "value": "b2b2b2",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-gray-300",
+          "comment": "{comments.reference.comment} color-brand-gray-300"
+        },
+        "400": {
+          "value": "767676",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-gray-400",
+          "comment": "{comments.reference.comment} color-brand-gray-400"
+        },
+        "500": {
+          "value": "222222",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-gray-500",
+          "comment": "{comments.reference.comment} color-brand-gray-500"
+        }
+      },
+      "neutral": {
+        "400": {
+          "value": "9fabbb",
+          "public": true,
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-neutral-400",
+          "comment": "{comments.reference.comment} color-brand-neutral-400"
+        },
+        "500": {
+          "value": "626b79",
+          "public": true,
+          "deprecated": true,
+          "version": "3.1.0",
+          "reference": "color-brand-neutral-500",
+          "comment": "{comments.reference.comment} color-brand-neutral-500"
+        }
+      }
+    },
+    "state": {
+      "error": {
+        "100": {
+          "value": "ff999b",
+          "public": true,
+          "deprecated": false
+        },
+        "500": {
+          "value": "df0b37",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "success": {
+        "100": {
+          "value": "69cf96",
+          "public": true,
+          "deprecated": false
+        },
+        "500": {
+          "value": "00805d",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "500": {
+          "value": "de750c",
+          "public": true,
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

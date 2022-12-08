@@ -1,0 +1,57 @@
+{
+  "color": {
+    "ui": {
+      "default": {
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "hover": {
+        "onDark": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Hover interaction color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "active": {
+        "onDark": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark active state color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "onDark": {
+          "value": "{color.brand.breeze.300-opacity-30.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark disabled state color affordance",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "bkg": {
+        "hover": {
+          "onDark": {
+            "value": "5de3f71a",
+            "public": true,
+            "onDark": true,
+            "usage": "Default hover affordance for background colors onDark",
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

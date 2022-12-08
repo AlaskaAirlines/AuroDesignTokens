@@ -1,0 +1,46 @@
+{
+  "color": {
+    "icon": {
+      "primary": {
+        "onDark": {
+          "value": "{color.base.neutral.400.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Primary color for icons on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Emphasis or lightest icon color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Accent color for icon color on dark backgrounds",
+          "wcag": "AA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "onDark": {
+          "value": "{color.base.white-opacity-40.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Disabled icon color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
