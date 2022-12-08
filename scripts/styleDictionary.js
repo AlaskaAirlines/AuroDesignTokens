@@ -29,3 +29,7 @@ const tokensConfig = StyleDictionary.extend('./scripts/config.json');
 
 // Style Dictionary build function
 tokensConfig.buildAllPlatforms();
+
+const darkTokensConfig = StyleDictionary.extend('./scripts/config-dark.json');
+
+darkTokensConfig.buildAllPlatforms();
