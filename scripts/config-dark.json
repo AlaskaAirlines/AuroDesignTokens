@@ -1,22 +1,22 @@
 {
   "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
-  "source": ["./src/color/*.json"],
+  "source": ["./src/color-dark/*.json"],
   "platforms": {
-    "SCSSVariables": {
+    "SCSSVariables--dark": {
       "transformGroup": "scss",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sass; filter: public",
+      "comment": "File type: SCSS; variable type: Sass; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SCSSVariables.scss",
+          "destination": "SCSSVariables--dark.scss",
           "format": "scss/variables",
           "filter": {
-            "public": true          
+            "public": true
           }
         },
         {
-          "destination": "SCSSVariablesMapFlat.scss",
+          "destination": "SCSSVariablesMapFlat--dark.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
           "filter": {
@@ -25,14 +25,37 @@
         }
       ]
     },
-    "SCSSOpacityVariables": {
-      "transformGroup": "scss",
+    "CSSVariables--dark": {
+      "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
+      "comment": "File type: CSS; variable type: css; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SCSSOpacityVariables.scss",
+          "destination": "CSSVariables--dark.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        },
+        {
+          "destination": "CSSVariablesMapFlat--dark.css",
+          "format": "custom/scss/map-flat",
+          "mapName": "auroTokens",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "SCSSOpacityVariables--dark": {
+      "transformGroup": "scss",
+      "prefix": "auro",
+      "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSOpacityVariables--dark.scss",
           "format": "scss/variables",
           "filter": {
             "opacity": true
@@ -40,15 +63,15 @@
         }
       ]
     },
-    "SCSSVariableMap": {
+    "SCSSVariableMap--dark": {
       "transformGroup": "scss",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sassmap; filter: size, public",
+      "comment": "File type: SCSS; variable type: Sassmap; filter: size, public, theme: dark mode",
       "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SCSSVariableMap.scss",
+          "destination": "SCSSVariableMap--dark.scss",
           "format": "scss/map-deep",
           "filter": {
             "attributes": {
@@ -60,14 +83,14 @@
       ]
     },
 
-    "CSSCustomProperties": {
+    "CSSCustomProperties--dark": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "comment": "File type: CSS; variable type: CSS; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSCustomProperties.css",
+          "destination": "CSSCustomProperties--dark.css",
           "format": "css/variables",
           "filter": {
             "public": true
@@ -75,15 +98,15 @@
         }
       ]
     },
-    "CSSCustomPropertiesColorRGB": {
+    "CSSCustomPropertiesColorRGB--dark": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
       "prefix": "auro-rgb",
-      "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output",
+      "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSCustomPropertiesColorRGB.css",
+          "destination": "CSSCustomPropertiesColorRGB--dark.css",
           "format": "css/variables",
           "filter": {
             "attributes": {
@@ -94,15 +117,15 @@
         }
       ]
     },
-    "SassCustomPropertiesColorRGB": {
+    "SassCustomPropertiesColorRGB--dark": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
       "prefix": "auro-rgb",
-      "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output",
+      "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SassCustomPropertiesColorRGB.scss",
+          "destination": "SassCustomPropertiesColorRGB--dark.scss",
           "format": "css/variables",
           "filter": {
             "attributes": {
@@ -113,14 +136,14 @@
         }
       ]
     },
-    "CSSOpacityCustomProperties": {
+    "CSSOpacityCustomProp--darkerties": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
+      "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSOpacityProperties.scss",
+          "destination": "CSSOpacityProperties--dark.scss",
           "format": "css/variables",
           "filter": {
             "opacity": true
@@ -128,14 +151,14 @@
         }
       ]
     },
-    "CSSSizeCustomProperties": {
+    "CSSSizeCustomProperties--dark": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: CSS; variable type: CSS; filter: size, public",
+      "comment": "File type: CSS; variable type: CSS; filter: size, public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "CSSSizeCustomProperties.css",
+          "destination": "CSSSizeCustomProperties--dark.css",
           "format": "css/variables",
           "filter": {
             "attributes": {
@@ -146,14 +169,14 @@
         }
       ]
     },
-    "SassSizeCustomProperties": {
+    "SassSizeCustomProperties--dark": {
       "transformGroup": "scss",
       "prefix": "auro",
-      "comment": "File type: Sass; variable type: Sass; filter: size, public",
+      "comment": "File type: Sass; variable type: Sass; filter: size, public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SassSizeCustomProperties.scss",
+          "destination": "SassSizeCustomProperties--dark.scss",
           "format": "css/variables",
           "filter": {
             "attributes": {
@@ -164,14 +187,14 @@
         }
       ]
     },
-    "SassCustomProperties": {
+    "SassCustomProperties--dark": {
       "transformGroup": "css",
       "prefix": "auro",
-      "comment": "File type: SCSS; variable type: CSS; filter: public",
+      "comment": "File type: SCSS; variable type: CSS; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "SassCustomProperties.scss",
+          "destination": "SassCustomProperties--dark.scss",
           "format": "css/variables",
           "filter": {
             "public": true
@@ -179,15 +202,15 @@
         }
       ]
     },
-    "JSmodule--color": {
+    "JSmoduledarkC-color": {
       "prefix": "auro",
       "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: colors || public",
+      "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
-          "destination": "JSData--color.js",
+          "destination": "JSData--darkColor.js",
           "format": "javascript/module",
           "filter": {
             "attributes": {
@@ -198,14 +221,14 @@
         }
       ]
     },
-    "JSes6--color": {
+    "JSes6--darkColor": {
       "prefix": "auro",
       "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: colors || public",
+      "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
         {
-          "destination": "JSVariables--color.js",
+          "destination": "JSVariables--darkColor.js",
           "format": "javascript/es6",
           "filter": {
             "attributes": {
@@ -216,15 +239,15 @@
         }
       ]
     },
-    "JSObject--allTokens": {
+    "JSObject--allDarkTokens": {
       "transformGroup": "js",
       "prefix": "auro",
-      "comment": "File type: JS; data type: JS; filter: classic colors",
+      "comment": "File type: JS; data type: JS; filter: classic colors, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
-          "destination": "JSObject--allTokens.js",
+          "destination": "JSObject--allDarkTokens.js",
           "format": "javascript/module",
           "filter": {
             "public": true,
@@ -233,24 +256,24 @@
         }
       ]
     },
-    "JSONtest": {
+    "JSONtest--dark": {
       "transformGroup": "css",
       "buildPath": "./test/",
       "files": [
         {
-          "destination": "validJSON",
+          "destination": "validJSON--dark",
           "format": "css/variables"
         }
       ]
     },
-    "JSObject--deprecatedTokens": {
+    "JSObject--deprecatedDarkTokens": {
       "transformGroup": "js",
-      "comment": "File type: JS; data type: JS; filter: deprecated",
+      "comment": "File type: JS; data type: JS; filter: deprecated, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
-          "destination": "JSObject--deprecated.js",
+          "destination": "JSObject--deprecatedDark.js",
           "format": "javascript/module",
           "filter": {
             "deprecated": true
