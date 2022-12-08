@@ -2,51 +2,51 @@
   "color": {
     "alert": {
       "notification": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
           "public": true,
-          "onLight": true,
-          "usage": "Notification color on light backgrounds",
+          "onDark": true,
+          "usage": "Notification color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "warning": {
-        "onLight": {
+        "onDark": {
           "value": "{color.state.warning.500.value}",
           "public": true,
-          "onLight": true,
+          "onDark": true,
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "error": {
-        "onLight": {
-          "value": "{color.state.error.500.value}",
+        "onDark": {
+          "value": "{color.state.error.100.value}",
           "public": true,
-          "onLight": true,
-          "usage": "Error color on light backgrounds",
+          "onDark": true,
+          "usage": "Error color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "success": {
-        "onLight": {
-          "value": "{color.state.success.500.value}",
+        "onDark": {
+          "value": "{color.state.success.100.value}",
           "public": true,
-          "onLight": true,
-          "usage": "Success color on light backgrounds",
+          "onDark": true,
+          "usage": "Success color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "advisory": {
-        "onLight": {
+        "onDark": {
           "value": "{color.brand.goldcoast.100.value}",
           "public": true,
-          "onLight": true,
-          "usage": "Travel advisory or system maintenance color on light backgrounds",
+          "onDark": true,
+          "usage": "Travel advisory or system maintenance color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
