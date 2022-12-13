@@ -9,6 +9,14 @@
           "usage": "Notification color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Notification color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "warning": {
@@ -19,6 +27,14 @@
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.state.error.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Error color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "error": {
@@ -39,6 +55,14 @@
           "usage": "Success color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.state.success.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Success color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "advisory": {
@@ -49,6 +73,14 @@
           "usage": "Travel advisory or system maintenance color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.goldcoast.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Travel advisory or system maintenance color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
         }
       }
     }

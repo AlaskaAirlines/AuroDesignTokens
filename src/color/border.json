@@ -9,6 +9,14 @@
           "usage": "Primary border color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.neutral.400.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Primary border color on dark background",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "active": {
@@ -19,6 +27,14 @@
           "usage": "Active border color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Active border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "error": {
@@ -29,6 +45,14 @@
           "usage": "Error states border color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.state.error.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Error states border color on dark background",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "disabled": {
@@ -39,6 +63,14 @@
           "usage": "Disabled border color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.base.gray.200.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Disabled border color on dark background",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "Focus": {
@@ -49,6 +81,14 @@
           "usage": "Focus border color for light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Focus border color for dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "divider": {
@@ -59,6 +99,14 @@
           "usage": "Strict use as divider between elements on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Strict use as divider between elements on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
         }
       }
     }

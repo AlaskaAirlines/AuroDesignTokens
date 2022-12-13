@@ -9,6 +9,14 @@
           "usage": "Default interaction color affordance",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "hover": {
@@ -19,6 +27,14 @@
           "usage": "Default hover color affordance",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Hover interaction color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "active": {
@@ -29,6 +45,14 @@
           "usage": "Active state color affordance",
           "wcag": "AAA",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark active state color affordance",
+          "wcag": "AAA",
+          "deprecated": true
         }
       },
       "disabled": {
@@ -39,10 +63,25 @@
           "usage": "Disabled state color affordance",
           "wcag": "n/a",
           "deprecated": false
+        },
+        "onDark": {
+          "value": "{color.brand.breeze.300-opacity-30.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "OnDark disabled state color affordance",
+          "wcag": "n/a",
+          "deprecated": true
         }
       },
       "bkg": {
         "hover": {
+          "onDark": {
+            "value": "5de3f71a",
+            "public": true,
+            "onDark": true,
+            "usage": "Default hover affordance for background colors onDark",
+            "deprecated": true
+          },
           "onLight": {
             "value": "0000000f",
             "public": true,
