@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.12.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.12.0...v3.12.1) (2022-12-13)
+
+
+### Bug Fixes
+
+* **tokens:** re-import deprecated dark tokens [#91](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/91) ([86e3f6c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/86e3f6c642a1e7be5079e828f20d5352be1d42de))
+
 # [3.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.11.0...v3.12.0) (2022-12-13)
 
 
