@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [3.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.11.0...v3.12.0) (2022-12-13)
+
+
+### Features
+
+* **theme:** add build configuration for dark theme tokens [#88](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/88) ([87d8d75](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/87d8d75d0c9c5648642e8a5c5cd8aae3bf2cdbe3))
+
 # [3.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.10.0...v3.11.0) (2022-10-06)
 
 
