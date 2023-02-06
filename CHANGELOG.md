@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.12.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.12.1...v3.12.2) (2023-02-06)
+
+
+### Bug Fixes
+
+* **json:** add reference and version data to tokens [#96](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/96) ([52081b3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/52081b304d036e9b3c2db8615a1b832c1ffd7475))
+
 ## [3.12.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.12.0...v3.12.1) (2022-12-13)
 
 
