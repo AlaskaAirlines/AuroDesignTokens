@@ -48,7 +48,7 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 | SCSSOpacityVariables | Sass | Sass variables | current | filter: opacity |
 | SCSSVariableMap | Sass | Sass variable map | current | filter: size, public |
 | SCSSVariables | scss | Sass variables | current | full list of v3.0x release tokens |
-| SCSSVariablesMapFlat | Scss variable map | current | full list of v3.0x release tokens |
+| SCSSVariablesMapFlat | scss | Scss variable map | current | full list of v3.0x release tokens |
 | SassCustomProperties | scss | custom properties | current | full list of v3.0x release tokens |
 | SassCustomPropertiesColorRGB | Sass | custom properties | current| Filter: color, public<br>custom RGB output
 | SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
