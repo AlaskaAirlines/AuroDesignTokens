@@ -16,7 +16,9 @@
           "onDark": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "emphasis": {
@@ -34,7 +36,9 @@
           "onDark": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "accent": {
@@ -52,7 +56,9 @@
           "onDark": true,
           "usage": "Accent color for icon color on dark backgrounds",
           "wcag": "AA",
-          "deprecated": false
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "disabled": {
@@ -70,7 +76,9 @@
           "onDark": true,
           "usage": "Disabled icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       }
     }
