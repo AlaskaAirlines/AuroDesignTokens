@@ -16,7 +16,9 @@
           "onDark": true,
           "usage": "OnDark interaction color affordance",
           "wcag": "AAA",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "hover": {
@@ -34,7 +36,9 @@
           "onDark": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "active": {
@@ -52,7 +56,9 @@
           "onDark": true,
           "usage": "OnDark active state color affordance",
           "wcag": "AAA",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "disabled": {
@@ -70,7 +76,9 @@
           "onDark": true,
           "usage": "OnDark disabled state color affordance",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "bkg": {
@@ -80,7 +88,9 @@
             "public": true,
             "onDark": true,
             "usage": "Default hover affordance for background colors onDark",
-            "deprecated": true
+            "deprecated": true,
+            "reference": "n/a",
+            "version": "3.12.0"
           },
           "onLight": {
             "value": "0000000f",

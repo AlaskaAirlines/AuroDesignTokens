@@ -17,7 +17,9 @@
                         "onDark": true,
                         "usage": "MVP tier color for Alaska Airlines",
                         "wcag": "n/a",
-                        "deprecated": true
+                        "deprecated": true,
+                        "reference": "n/a",
+                        "version": "3.12.0"
                     }
                 },
                 "mvpgold": {
@@ -35,20 +37,20 @@
                         "onDark": true,
                         "usage": "MVP Gold tier color for Alaska Airlines",
                         "wcag": "n/a",
-                        "deprecated": true
+                        "deprecated": true,
+                        "reference": "n/a",
+                        "version": "3.12.0"
                     }
                 }
             },
             "oneworld": {
                 "emerald": {
-                    "onLight": {
-                        "value": "{color.brand.emerald.value}",
-                        "public": true,
-                        "onLight": true,
-                        "usage": "Emerald tier color for Oneworld",
-                        "wcag": "n/a",
-                        "deprecated": false
-                    }
+                    "value": "{color.brand.emerald.value}",
+                    "public": true,
+                    "onLight": true,
+                    "usage": "Emerald tier color for Oneworld",
+                    "wcag": "n/a",
+                    "deprecated": false
                 },
                 "sapphire": {
                     "value": "{color.brand.sapphire.value}",

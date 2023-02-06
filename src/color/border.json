@@ -16,7 +16,9 @@
           "onDark": true,
           "usage": "Primary border color on dark background",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "active": {
@@ -34,7 +36,9 @@
           "onDark": true,
           "usage": "Active border color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "error": {
@@ -52,7 +56,9 @@
           "onDark": true,
           "usage": "Error states border color on dark background",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "disabled": {
@@ -70,7 +76,9 @@
           "onDark": true,
           "usage": "Disabled border color on dark background",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "Focus": {
@@ -88,7 +96,9 @@
           "onDark": true,
           "usage": "Focus border color for dark backgrounds",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       },
       "divider": {
@@ -106,7 +116,9 @@
           "onDark": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": true,
+          "reference": "n/a",
+          "version": "3.12.0"
         }
       }
     }
