@@ -3,17 +3,17 @@
     "sm": {
       "value": "660px",
       "public": true,
-      "deprecated": false
+      "deprecated": true
     },
     "md": {
       "value": "1024px",
       "public": true,
-      "deprecated": false
+      "deprecated": true
     },
     "lg": {
       "value": "1232px",
       "public": true,
-      "deprecated": false
+      "deprecated": true
     }
   }
 }
