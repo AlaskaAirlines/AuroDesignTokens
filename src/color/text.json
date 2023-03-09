@@ -16,9 +16,7 @@
           "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "secondary": {
@@ -36,9 +34,7 @@
           "onDark": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "link": {
@@ -56,9 +52,7 @@
           "onDark": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "error": {
@@ -76,9 +70,7 @@
           "onDark": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "disabled": {
@@ -116,9 +108,7 @@
           "onDark": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       }
     }
