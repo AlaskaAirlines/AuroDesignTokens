@@ -1,5 +1,5 @@
 {
-  "grid-breakpoint": {
+  "gridBreakpoint": {
     "xs": {
       "value": "320px",
       "public": true,

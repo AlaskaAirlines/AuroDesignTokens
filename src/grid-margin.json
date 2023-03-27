@@ -1,5 +1,5 @@
 {
-  "grid-margin": {
+  "gridMargin": {
     "xs": {
       "value": "{size.200.value}",
       "public": true,
