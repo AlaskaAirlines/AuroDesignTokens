@@ -1,5 +1,5 @@
 {
-  "grid-gutter": {
+  "gridGutter": {
     "xs": {
       "value": "{size.100.value}",
       "public": true,

@@ -3,17 +3,26 @@
     "sm": {
       "value": "660px",
       "public": true,
-      "deprecated": true
+      "deprecated": true,
+      "version": "3.13.0",
+      "reference": "grid-breakpoint-sm",
+      "comment": "{comments.reference.comment} grid-breakpoint-sm"
     },
     "md": {
       "value": "1024px",
       "public": true,
-      "deprecated": true
+      "deprecated": true,
+      "version": "3.13.0",
+      "reference": "grid-breakpoint-md",
+      "comment": "{comments.reference.comment} grid-breakpoint-md"
     },
     "lg": {
       "value": "1232px",
       "public": true,
-      "deprecated": true
+      "deprecated": true,
+      "version": "3.13.0",
+      "reference": "grid-breakpoint-lg",
+      "comment": "{comments.reference.comment} grid-breakpoint-lg"
     }
   }
 }
