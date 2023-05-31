@@ -90,6 +90,26 @@
           "reference": "n/a",
           "version": "3.12.0"
         }
+      },
+      "bkgSuccess": {
+        "default": {
+          "value": "DDF6E8",
+          "public": true,
+          "onLight": true,
+          "usage": "Background success color on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "bkgError": {
+        "default": {
+          "value": "FFEDF1",
+          "public": true,
+          "onLight": true,
+          "usage": "Background error color on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
       }
     }
   }
