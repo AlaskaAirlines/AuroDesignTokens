@@ -37,6 +37,204 @@
                         "wcag": "n/a",
                         "deprecated": false
                     }
+                },
+                "mvpgold75k": {
+                    "onLight": {
+                        "value": "{color.brand.gold.200.value}",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "{color.brand.gold.100.value}",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "mvpgold100k": {
+                    "onLight": {
+                        "value": "{color.brand.gold.200.value}",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "{color.brand.gold.100.value}",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "millionmiler": {
+                    "onLight": {
+                        "value": "{color.brand.gold.200.value}",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "{color.brand.gold.100.value}",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "twomillionmiler": {
+                    "onLight": {
+                        "value": "{color.brand.gold.200.value}",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "{color.brand.gold.100.value}",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "MVP Gold tier color for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "lounge": {
+                    "onLight": {
+                        "value": "{color.brand.midnight.400.value}",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "Lounge Access for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "{color.brand.midnight.400.value}",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "Lounge Access for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "loungeplus": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "Lounge Plus Access for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "Lounge Plus Access for Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "saver": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "Saver class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "Saver class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "main": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "Main cabin passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "Main cabin passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "premium": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "Premium class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "Premium class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "firstclass": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "First class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "First class passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
+                },
+                "nonrev": {
+                    "onLight": {
+                        "value": "53b390",
+                        "public": true,
+                        "onLight": true,
+                        "usage": "To indicate a nonrev passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    },
+                    "onDark": {
+                        "value": "53b390",
+                        "public": true,
+                        "onDark": true,
+                        "usage": "To indicate a nonrev passenger or feature Alaska Airlines",
+                        "wcag": "n/a",
+                        "deprecated": false
+                    }
                 }
             },
             "oneworld": {
