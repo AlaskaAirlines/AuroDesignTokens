@@ -14,7 +14,7 @@
     "chalk": "^4.1.2"
   },
   "engines": {
-    "node": ">=16.13.0"
+    "node": ">=18.15.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
@@ -31,7 +31,8 @@
   "scripts": {
     "postinstall": "node packageScripts/postinstall.js",
     "build:tokens": "node scripts/styleDictionary.js",
-    "build": "npm-run-all sweep test copy:json build:tokens postinstall",
+    "build": "npm-run-all build:tokens copy:json test postinstall",
+    "build:ci": "npm-run-all sweep build",
     "copy:json": "copyfiles -u 1 -V './src/**/*.json' ./dist",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/",
