@@ -1,70 +1,114 @@
 {
     "color": {
-        "tier": {
-            "alaska": {
-                "mvp": {
-                    "onLight": {
-                        "value": "{color.brand.goldgray.200.value}",
-                        "public": true,
-                        "onLight": true,
-                        "usage": "MVP tier color for Alaska Airlines",
-                        "wcag": "n/a",
-                        "deprecated": false
-                    },
-                    "onDark": {
-                        "value": "{color.brand.goldgray.100.value}",
-                        "public": true,
-                        "onDark": true,
-                        "usage": "MVP tier color for Alaska Airlines",
-                        "wcag": "n/a",
-                        "deprecated": false
-                    }
-                },
-                "mvpgold": {
-                    "onLight": {
-                        "value": "{color.brand.gold.200.value}",
-                        "public": true,
-                        "onLight": true,
-                        "usage": "MVP Gold tier color for Alaska Airlines",
-                        "wcag": "n/a",
-                        "deprecated": false
-                    },
-                    "onDark": {
-                        "value": "{color.brand.gold.100.value}",
-                        "public": true,
-                        "onDark": true,
-                        "usage": "MVP Gold tier color for Alaska Airlines",
-                        "wcag": "n/a",
-                        "deprecated": false
-                    }
-                }
+      "tier": {
+        "alaska": {
+          "mvp": {
+            "onLight": {
+              "value": "{color.brand.goldgray.200.value}",
+              "public": true,
+              "onLight": true,
+              "usage": "MVP tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": true,
+              "comment": "Deprecated token",
+              "reference": "color-tier-alaska-mvp-default",
+              "version": "3.15.0"
             },
-            "oneworld": {
-                "emerald": {
-                    "value": "{color.brand.emerald.value}",
-                    "public": true,
-                    "onLight": true,
-                    "usage": "Emerald tier color for Oneworld",
-                    "wcag": "n/a",
-                    "deprecated": false
-                },
-                "sapphire": {
-                    "value": "{color.brand.sapphire.value}",
-                    "public": true,
-                    "onDark": true,
-                    "usage": "Sapphire tier color for Oneworld",
-                    "wcag": "n/a",
-                    "deprecated": false
-                },
-                "ruby": {
-                    "value": "{color.brand.ruby.value}",
-                    "public": true,
-                    "onDark": true,
-                    "usage": "Ruby tier color for Oneworld",
-                    "wcag": "n/a",
-                    "deprecated": false
-                }
+            "default": {
+              "value": "{color.brand.goldgray.200.value}",
+              "public": true,
+              "default": true,
+              "usage": "MVP tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "onDark": {
+              "value": "{color.brand.goldgray.100.value}",
+              "public": true,
+              "onDark": true,
+              "usage": "MVP tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": true,
+              "comment": "Deprecated token",
+              "reference": "color-tier-alaska-mvp-inverse",
+              "version": "3.15.0"
+            },
+            "inverse": {
+              "value": "{color.brand.goldgray.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "MVP tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": false
             }
+          },
+          "mvpgold": {
+            "onLight": {
+              "value": "{color.brand.gold.200.value}",
+              "public": true,
+              "onLight": true,
+              "usage": "MVP Gold tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": true,
+              "comment": "Deprecated token",
+              "reference": "color-tier-alaska-mvpgold-default",
+              "version": "3.15.0"
+            },
+            "default": {
+              "value": "{color.brand.gold.200.value}",
+              "public": true,
+              "default": true,
+              "usage": "MVP Gold tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "onDark": {
+              "value": "{color.brand.gold.100.value}",
+              "public": true,
+              "onDark": true,
+              "usage": "MVP Gold tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": true,
+              "comment": "Deprecated token",
+              "reference": "color-tier-alaska-mvpgold-inverse",
+              "version": "3.15.0"
+            },
+            "inverse": {
+              "value": "{color.brand.gold.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "MVP Gold tier color for Alaska Airlines",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          }
+        },
+        "oneworld": {
+          "emerald": {
+            "value": "{color.brand.emerald.value}",
+            "public": true,
+            "onLight": true,
+            "usage": "Emerald tier color for Oneworld",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "sapphire": {
+            "value": "{color.brand.sapphire.value}",
+            "public": true,
+            "onDark": true,
+            "usage": "Sapphire tier color for Oneworld",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "ruby": {
+            "value": "{color.brand.ruby.value}",
+            "public": true,
+            "onDark": true,
+            "usage": "Ruby tier color for Oneworld",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         }
+      }
     }
-}
+  }
