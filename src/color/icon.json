@@ -16,9 +16,7 @@
           "onDark": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "emphasis": {
@@ -36,9 +34,7 @@
           "onDark": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": true,
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
       "accent": {
