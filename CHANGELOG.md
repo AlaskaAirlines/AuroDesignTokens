@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [3.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.14.0...v3.15.0) (2023-08-01)
+
+
+### Bug Fixes
+
+* **deprecated:** appreciate incorrectly deprecated tokens [#102](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/102) ([07eca70](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/07eca707631b997e2a06eb692db4c0a05d5f4213))
+
+
+### Features
+
+* **naming:** update to new naming convention [#98](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/98) ([ec4e43e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ec4e43ee59e0adcf9e8c0a94a9f170e1cecb8c66))
+
 # [3.14.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.13.0...v3.14.0) (2023-06-02)
 
 
