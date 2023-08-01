@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.15.0...v3.15.1) (2023-08-01)
+
+
+### Bug Fixes
+
+* address incorrectly deleted token ([08150e3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/08150e3413e9dde2b3fd6ae8fd6bc6dc211c1705))
+
 # [3.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.14.0...v3.15.0) (2023-08-01)
 
 
