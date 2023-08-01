@@ -8,6 +8,17 @@
           "onLight": true,
           "usage": "Primary color for body and header text on light backgrounds",
           "wcag": "AAA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-primary-default",
+          "version": "3.15.0"
+        },
+        "default": {
+          "value": "{color.base.gray.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary color for body and header text light mode and light backgrounds",
+          "wcag": "AAA",
           "deprecated": false
         },
         "onDark": {
@@ -15,6 +26,17 @@
           "public": true,
           "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-primary-inverse",
+          "version": "3.15.0"
+        },
+        "inverse": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Primary color for body and header text for dark mode and dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
@@ -26,12 +48,34 @@
           "onLight": true,
           "usage": "Secondary color for body text on light backgrounds",
           "wcag": "AAA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-secondary-default",
+          "version": "3.15.0"
+        },
+        "default": {
+          "value": "{color.base.neutral.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Secondary color for body text on light backgrounds",
+          "wcag": "AAA",
           "deprecated": false
         },
         "onDark": {
           "value": "{color.base.neutral.400.value}",
           "public": true,
           "onDark": true,
+          "usage": "Secondary color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-secondary-inverse",
+          "version": "3.15.0"
+        },
+        "inverse": {
+          "value": "{color.base.neutral.400.value}",
+          "public": true,
+          "inverse": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
@@ -44,12 +88,33 @@
           "onLight": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-link-default",
+          "version": "3.15.0"
+        },
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA",
           "deprecated": false
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
           "onDark": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA",
+          "deprecated":  true,
+          "reference": "color-text-link-inverse",
+          "version": "3.15.0"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
           "deprecated": false
@@ -62,6 +127,17 @@
           "onLight": true,
           "usage": "Error text color on light backgrounds",
           "wcag": "AA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-error-default",
+          "version": "3.15.0"
+        },
+        "default": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error text color on light backgrounds",
+          "wcag": "AA",
           "deprecated": false
         },
         "onDark": {
@@ -70,11 +146,33 @@
           "onDark": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-error-inverse",
+          "version": "3.15.0"
+        },
+        "inverse": {
+          "value": "{color.state.error.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Error text color on dark backgrounds",
+          "wcag": "AA",
           "deprecated": false
         }
       },
       "disabled": {
         "onLight": {
+          "value": "{color.base.gray.200.value}",
+          "public": true,
+          "onLight": true,
+          "usage": "Disabled text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-disabled",
+          "version": "3.15.0"
+        },
+        "default": {
           "value": "{color.base.gray.200.value}",
           "public": true,
           "onLight": true,
@@ -89,6 +187,7 @@
           "usage": "Disabled text color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": true,
+          "comment": "Deprecated token",
           "reference": "n/a",
           "version": "3.12.0"
         }
@@ -100,12 +199,34 @@
           "onLight": true,
           "usage": "Emphasized text color on light backgrounds",
           "wcag": "n/a",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-emphasis-default",
+          "version": "3.15.0"
+        },
+        "default": {
+          "value": "{color.brand.midnight.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasized text color on light backgrounds",
+          "wcag": "n/a",
           "deprecated": false
         },
         "onDark": {
           "value": "{color.brand.midnight.100.value}",
           "public": true,
           "onDark": true,
+          "usage": "Emphasized text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": true,
+          "comment": "Deprecated token",
+          "reference": "color-text-emphasis-inverse",
+          "version": "3.15.0"
+        },
+        "inverse": {
+          "value": "{color.brand.midnight.100.value}",
+          "public": true,
+          "inverse": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
