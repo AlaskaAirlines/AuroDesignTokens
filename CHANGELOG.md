@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [3.15.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.15.2...v3.15.3) (2023-08-02)
+
+
+### Performance Improvements
+
+* **deps:** update repo dependencies ([b81aec5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b81aec531737718b918c0572fae6b3b090bdc2bf))
+
 ## [3.15.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.15.1...v3.15.2) (2023-08-02)
 
 
