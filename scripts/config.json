@@ -4,7 +4,7 @@
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -27,7 +27,7 @@
     },
     "SCSSOpacityVariables": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: opacity",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -42,7 +42,7 @@
     },
     "SCSSVariableMap": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sassmap; filter: size, public",
       "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
       "buildPath": "./dist/tokens/",
@@ -62,7 +62,7 @@
 
     "CSSCustomProperties": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -78,7 +78,7 @@
     "CSSCustomPropertiesColorRGB": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "auro-rgb",
+      "prefix": "ds-rgb",
       "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -97,7 +97,7 @@
     "SassCustomPropertiesColorRGB": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "auro-rgb",
+      "prefix": "ds-rgb",
       "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -115,7 +115,7 @@
     },
     "CSSOpacityCustomProperties": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: opacity",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -130,7 +130,7 @@
     },
     "CSSSizeCustomProperties": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: size, public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -148,7 +148,7 @@
     },
     "SassSizeCustomProperties": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: Sass; variable type: Sass; filter: size, public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -166,7 +166,7 @@
     },
     "SassCustomProperties": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: CSS; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -180,7 +180,7 @@
       ]
     },
     "JSmodule--color": {
-      "prefix": "auro",
+      "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
@@ -199,7 +199,7 @@
       ]
     },
     "JSes6--color": {
-      "prefix": "auro",
+      "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
       "buildPath": "./dist/tokens/",
@@ -218,7 +218,7 @@
     },
     "JSObject--allTokens": {
       "transformGroup": "js",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
