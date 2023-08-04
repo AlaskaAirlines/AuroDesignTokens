@@ -4,7 +4,7 @@
   "platforms": {
     "SCSSVariables--dark": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -27,7 +27,7 @@
     },
     "CSSVariables--dark": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: CSS; variable type: css; filter: public",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -50,7 +50,7 @@
     },
     "SCSSOpacityVariables--dark": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -65,7 +65,7 @@
     },
     "SCSSVariableMap--dark": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sassmap; filter: size, public, theme: dark mode",
       "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
       "buildPath": "./dist/tokens/",
@@ -85,7 +85,7 @@
 
     "CSSCustomProperties--dark": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -101,7 +101,7 @@
     "CSSCustomPropertiesColorRGB--dark": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "auro-rgb",
+      "prefix": "ds-rgb",
       "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -120,7 +120,7 @@
     "SassCustomPropertiesColorRGB--dark": {
       "transformGroup": "css",
       "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "auro-rgb",
+      "prefix": "ds-rgb",
       "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -138,7 +138,7 @@
     },
     "CSSOpacityCustomProp--darkerties": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -153,7 +153,7 @@
     },
     "CSSSizeCustomProperties--dark": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: size, public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -171,7 +171,7 @@
     },
     "SassSizeCustomProperties--dark": {
       "transformGroup": "scss",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: Sass; variable type: Sass; filter: size, public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -189,7 +189,7 @@
     },
     "SassCustomProperties--dark": {
       "transformGroup": "css",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: SCSS; variable type: CSS; filter: public, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "files": [
@@ -203,7 +203,7 @@
       ]
     },
     "JSmoduledarkC-color": {
-      "prefix": "auro",
+      "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
       "buildPath": "./dist/tokens/",
@@ -222,7 +222,7 @@
       ]
     },
     "JSes6--darkColor": {
-      "prefix": "auro",
+      "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
       "buildPath": "./dist/tokens/",
@@ -241,7 +241,7 @@
     },
     "JSObject--allDarkTokens": {
       "transformGroup": "js",
-      "prefix": "auro",
+      "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors, theme: dark mode",
       "buildPath": "./dist/tokens/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
