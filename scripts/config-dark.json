@@ -136,7 +136,7 @@
         }
       ]
     },
-    "CSSOpacityCustomProp--darkerties": {
+    "CSSOpacityCustomProperties--dark": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
