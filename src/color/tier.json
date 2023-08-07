@@ -5,7 +5,7 @@
           "mvp": {
             "onLight": {
               "value": "{color.brand.goldgray.200.value}",
-              "public": true,
+              "public": false,
               "onLight": true,
               "usage": "MVP tier color for Alaska Airlines",
               "wcag": "n/a",
@@ -24,7 +24,7 @@
             },
             "onDark": {
               "value": "{color.brand.goldgray.100.value}",
-              "public": true,
+              "public": false,
               "onDark": true,
               "usage": "MVP tier color for Alaska Airlines",
               "wcag": "n/a",
@@ -45,7 +45,7 @@
           "mvpgold": {
             "onLight": {
               "value": "{color.brand.gold.200.value}",
-              "public": true,
+              "public": false,
               "onLight": true,
               "usage": "MVP Gold tier color for Alaska Airlines",
               "wcag": "n/a",
@@ -64,7 +64,7 @@
             },
             "onDark": {
               "value": "{color.brand.gold.100.value}",
-              "public": true,
+              "public": false,
               "onDark": true,
               "usage": "MVP Gold tier color for Alaska Airlines",
               "wcag": "n/a",

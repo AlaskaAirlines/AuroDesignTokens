@@ -4,7 +4,7 @@
       "primary": {
         "onLight": {
           "value": "{color.base.gray.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Primary color for body and header text on light backgrounds",
           "wcag": "AAA",
@@ -23,7 +23,7 @@
         },
         "onDark": {
           "value": "{color.base.white.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
           "wcag": "AAA",
@@ -44,7 +44,7 @@
       "secondary": {
         "onLight": {
           "value": "{color.base.neutral.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Secondary color for body text on light backgrounds",
           "wcag": "AAA",
@@ -63,7 +63,7 @@
         },
         "onDark": {
           "value": "{color.base.neutral.400.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA",
@@ -84,7 +84,7 @@
       "link": {
         "onLight": {
           "value": "{color.brand.atlas.400.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
@@ -103,7 +103,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
@@ -123,7 +123,7 @@
       "error": {
         "onLight": {
           "value": "{color.state.error.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Error text color on light backgrounds",
           "wcag": "AA",
@@ -142,7 +142,7 @@
         },
         "onDark": {
           "value": "{color.state.error.100.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA",
@@ -163,7 +163,7 @@
       "disabled": {
         "onLight": {
           "value": "{color.base.gray.200.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Disabled text color on light backgrounds",
           "wcag": "n/a",
@@ -182,7 +182,7 @@
         },
         "onDark": {
           "value": "{color.base.gray.200.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Disabled text color on dark backgrounds",
           "wcag": "n/a",
@@ -195,7 +195,7 @@
       "emphasis": {
         "onLight": {
           "value": "{color.brand.midnight.400.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Emphasized text color on light backgrounds",
           "wcag": "n/a",
@@ -214,7 +214,7 @@
         },
         "onDark": {
           "value": "{color.brand.midnight.100.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
