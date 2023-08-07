@@ -2,7 +2,7 @@
   "breakpoint": {
     "sm": {
       "value": "660px",
-      "public": true,
+      "public": false,
       "deprecated": true,
       "version": "3.13.0",
       "reference": "grid-breakpoint-sm",
@@ -10,7 +10,7 @@
     },
     "md": {
       "value": "1024px",
-      "public": true,
+      "public": false,
       "deprecated": true,
       "version": "3.13.0",
       "reference": "grid-breakpoint-md",
@@ -18,7 +18,7 @@
     },
     "lg": {
       "value": "1232px",
-      "public": true,
+      "public": false,
       "deprecated": true,
       "version": "3.13.0",
       "reference": "grid-breakpoint-lg",

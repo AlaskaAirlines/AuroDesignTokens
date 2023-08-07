@@ -4,7 +4,7 @@
       "notification": {
         "onLight": {
           "value": "{color.brand.atlas.400.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Notification color on light backgrounds",
           "wcag": "AAA",
@@ -23,7 +23,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Notification color on dark backgrounds",
           "wcag": "AAA",
@@ -36,7 +36,7 @@
       "warning": {
         "onLight": {
           "value": "{color.state.warning.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA",
@@ -57,7 +57,7 @@
       "error": {
         "onLight": {
           "value": "{color.state.error.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Error color on light backgrounds",
           "wcag": "AAA",
@@ -76,7 +76,7 @@
         },
         "onDark": {
           "value": "{color.state.error.100.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Error color on dark backgrounds",
           "wcag": "AAA",
@@ -89,7 +89,7 @@
       "success": {
         "onLight": {
           "value": "{color.state.success.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Success color on light backgrounds",
           "wcag": "AAA",
@@ -108,7 +108,7 @@
         },
         "onDark": {
           "value": "{color.state.success.100.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Success color on dark backgrounds",
           "wcag": "AAA",
@@ -121,7 +121,7 @@
       "advisory": {
         "onLight": {
           "value": "{color.brand.goldcoast.100.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Travel advisory or system maintenance color on light backgrounds",
           "wcag": "AAA",
@@ -140,7 +140,7 @@
         },
         "onDark": {
           "value": "{color.brand.goldcoast.100.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Travel advisory or system maintenance color on dark backgrounds",
           "wcag": "AAA",

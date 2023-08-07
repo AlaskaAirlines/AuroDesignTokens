@@ -4,7 +4,7 @@
       "primary": {
         "onLight": {
           "value": "{color.base.neutral.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Primary color for icons on light backgrounds",
           "wcag": "AAA",
@@ -23,7 +23,7 @@
         },
         "onDark": {
           "value": "{color.base.neutral.400.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "AAA",
@@ -44,7 +44,7 @@
       "emphasis": {
         "onLight": {
           "value": "{color.base.gray.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Emphasis or darkest icon color on light backgrounds",
           "wcag": "AAA",
@@ -63,7 +63,7 @@
         },
         "onDark": {
           "value": "{color.base.white.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
@@ -84,7 +84,7 @@
       "accent": {
         "onLight": {
           "value": "{color.brand.atlas.400.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Accent color for icon color on light backgrounds",
           "wcag": "AA",
@@ -103,7 +103,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Accent color for icon color on dark backgrounds",
           "wcag": "AA",
@@ -116,7 +116,7 @@
       "disabled": {
         "onLight": {
           "value": "{color.base.black-opacity-15.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Disabled icon color on light backgrounds",
           "wcag": "n/a",
@@ -135,7 +135,7 @@
         },
         "onDark": {
           "value": "{color.base.white-opacity-40.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Disabled icon color on dark backgrounds",
           "wcag": "n/a",

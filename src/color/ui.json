@@ -4,7 +4,7 @@
       "default": {
         "onLight": {
           "value": "{color.brand.atlas.400.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Default interaction color affordance",
           "wcag": "AAA",
@@ -23,7 +23,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.300.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "OnDark interaction color affordance",
           "wcag": "AAA",
@@ -36,7 +36,7 @@
       "hover": {
         "onLight": {
           "value": "{color.brand.atlas.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Default hover color affordance",
           "wcag": "AAA",
@@ -55,7 +55,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.200.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA",
@@ -68,7 +68,7 @@
       "active": {
         "onLight": {
           "value": "{color.brand.atlas.500.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Active state color affordance",
           "wcag": "AAA",
@@ -87,7 +87,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.200.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "OnDark active state color affordance",
           "wcag": "AAA",
@@ -100,7 +100,7 @@
       "disabled": {
         "onLight": {
           "value": "{color.brand.atlas.400-opacity-20.value}",
-          "public": true,
+          "public": false,
           "onLight": true,
           "usage": "Disabled state color affordance",
           "wcag": "n/a",
@@ -119,7 +119,7 @@
         },
         "onDark": {
           "value": "{color.brand.breeze.300-opacity-30.value}",
-          "public": true,
+          "public": false,
           "onDark": true,
           "usage": "OnDark disabled state color affordance",
           "wcag": "n/a",
@@ -133,7 +133,7 @@
         "hover": {
           "onDark": {
             "value": "5de3f71a",
-            "public": true,
+            "public": false,
             "onDark": true,
             "usage": "Default hover affordance for background colors onDark",
             "deprecated": true,
@@ -143,7 +143,7 @@
           },
           "onLight": {
             "value": "0000000f",
-            "public": true,
+            "public": false,
             "onLight": true,
             "usage": "Default hover affordance for background colors",
             "deprecated": true,

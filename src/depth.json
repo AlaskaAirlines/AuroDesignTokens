@@ -5,7 +5,7 @@
     },
     "dialog": {
       "value": "100",
-      "public": true,
+      "public": false,
       "deprecated": true,
       "reference": "depth-modal",
       "version": "3.2.1"

@@ -31,7 +31,7 @@
         "100": {
           "value": "f8f8f8",
           "version": "3.1.0",
-          "public": true,
+          "public": false,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
@@ -41,7 +41,7 @@
         },
         "200": {
           "value": "dbdbdb",
-          "public": true,
+          "public": false,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
@@ -52,7 +52,7 @@
         },
         "300": {
           "value": "b2b2b2",
-          "public": true,
+          "public": false,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
@@ -63,7 +63,7 @@
         },
         "400": {
           "value": "767676",
-          "public": true,
+          "public": false,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
@@ -74,7 +74,7 @@
         },
         "500": {
           "value": "222222",
-          "public": true,
+          "public": false,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
@@ -87,7 +87,7 @@
       "neutral": {
         "400": {
           "value": "9fabbb",
-          "public": true,
+          "public": false,
           "deprecated": true,
           "version": "3.1.0",
           "reference": "color-brand-neutral-400",
@@ -95,7 +95,7 @@
         },
         "500": {
           "value": "626b79",
-          "public": true,
+          "public": false,
           "deprecated": true,
           "version": "3.1.0",
           "reference": "color-brand-neutral-500",
