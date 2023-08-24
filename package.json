@@ -22,7 +22,6 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/npm": "^10.0.4",
-    "copyfiles": "^2.4.1",
     "husky": "^8.0.0",
     "npm-run-all": "^4.1.5",
     "semantic-release": "^21.0.7",
@@ -31,8 +30,7 @@
   "scripts": {
     "postinstall": "node packageScripts/postinstall.mjs",
     "build:tokens": "node scripts/styleDictionary.js",
-    "build:ci": "npm-run-all sweep test copy:json build:tokens postinstall",
-    "copy:json": "copyfiles -u 1 -V './src/**/*.json' ./dist",
+    "build:ci": "npm-run-all sweep test build:tokens postinstall",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/",
     "prepare": "husky install"

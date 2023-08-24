@@ -25,7 +25,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build:tokens
-      - run: npm run copy:json
       - run: npm test
 
   release:
@@ -42,7 +41,6 @@ jobs:
           node-version: 18
       - run: npm ci
       - run: npm run build:tokens
-      - run: npm run copy:json
       - uses: cycjimmy/semantic-release-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
