@@ -1,12 +1,13 @@
 # standard ignore
-.gitignore
-.travis.yml
-example/
-gulpfile.js
-scripts/
-test/
+NOTICE
 
-# ignore src
-src/**/*
+.github/
+.gitignore
+.npmignore
+.husky/
+scripts/
+templates/
+docs/
+test/
 
 # overrides
