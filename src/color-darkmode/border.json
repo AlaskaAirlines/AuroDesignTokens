@@ -2,60 +2,60 @@
   "color": {
     "border": {
       "primary": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.neutral.400.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Primary border color on dark background",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "active": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Active border color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "error": {
-        "onDark": {
+        "default": {
           "value": "{color.state.error.100.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Error states border color on dark background",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "disabled": {
-        "onDark": {
+        "default": {
           "value": "{color.base.gray.200.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Disabled border color on dark background",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "Focus": {
-        "onDark": {
+        "default": {
           "value": "{color.base.white.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Focus border color for dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "divider": {
-        "onDark": {
+        "default": {
           "value": "{color.base.white.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false

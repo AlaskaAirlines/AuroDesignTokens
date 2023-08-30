@@ -3,20 +3,20 @@
     "tier": {
       "alaska": {
         "mvp": {
-          "onDark": {
+          "default": {
             "value": "{color.brand.goldgray.100.value}",
             "public": true,
-            "onDark": true,
+            "default": true,
             "usage": "MVP tier color for Alaska Airlines",
             "wcag": "n/a",
             "deprecated": false
           }
         },
         "mvpgold": {
-          "onDark": {
+          "default": {
             "value": "{color.brand.gold.100.value}",
             "public": true,
-            "onDark": true,
+            "default": true,
             "usage": "MVP Gold tier color for Alaska Airlines",
             "wcag": "n/a",
             "deprecated": false
@@ -35,7 +35,7 @@
         "sapphire": {
             "value": "{color.brand.sapphire.value}",
             "public": true,
-            "onDark": true,
+            "default": true,
             "usage": "Sapphire tier color for Oneworld",
             "wcag": "n/a",
             "deprecated": false
@@ -43,7 +43,7 @@
         "ruby": {
             "value": "{color.brand.ruby.value}",
             "public": true,
-            "onDark": true,
+            "default": true,
             "usage": "Ruby tier color for Oneworld",
             "wcag": "n/a",
             "deprecated": false

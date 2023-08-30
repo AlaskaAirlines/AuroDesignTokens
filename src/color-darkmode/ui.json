@@ -2,52 +2,52 @@
   "color": {
     "ui": {
       "default": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
-          "onDark": true,
-          "usage": "OnDark interaction color affordance",
+          "default": true,
+          "usage": "default interaction color affordance",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "hover": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.200.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "active": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.200.value}",
           "public": true,
-          "onDark": true,
-          "usage": "OnDark active state color affordance",
+          "default": true,
+          "usage": "default active state color affordance",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "disabled": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.300-opacity-30.value}",
           "public": true,
-          "onDark": true,
-          "usage": "OnDark disabled state color affordance",
+          "default": true,
+          "usage": "default disabled state color affordance",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "bkg": {
         "hover": {
-          "onDark": {
+          "default": {
             "value": "5de3f71a",
             "public": true,
-            "onDark": true,
-            "usage": "Default hover affordance for background colors onDark",
+            "default": true,
+            "usage": "Default hover affordance for background colors default",
             "deprecated": false
           }
         }
