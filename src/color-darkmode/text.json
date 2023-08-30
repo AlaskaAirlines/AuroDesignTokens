@@ -2,60 +2,60 @@
   "color": {
     "text": {
       "primary": {
-        "onDark": {
+        "default": {
           "value": "{color.base.white.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Primary color for body and header text on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "secondary": {
-        "onDark": {
+        "default": {
           "value": "{color.base.neutral.400.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
       },
       "link": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
           "deprecated": false
         }
       },
       "error": {
-        "onDark": {
+        "default": {
           "value": "{color.state.error.100.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA",
           "deprecated": false
         }
       },
       "disabled": {
-        "onDark": {
+        "default": {
           "value": "{color.base.gray.200.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Disabled text color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
         }
       },
       "emphasis": {
-        "onDark": {
+        "default": {
           "value": "{color.brand.midnight.100.value}",
           "public": true,
-          "onDark": true,
+          "default": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
