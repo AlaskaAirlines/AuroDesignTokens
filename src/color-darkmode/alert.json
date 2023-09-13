@@ -16,7 +16,7 @@
           "value": "{color.state.warning.500.value}",
           "public": true,
           "default": true,
-          "usage": "Warning color on light backgrounds",
+          "usage": "Warning color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": false
         }
