@@ -1,5 +1,56 @@
 # Semantic Release Automated Changelog
 
+# [4.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.15.5...v4.0.0) (2023-09-13)
+
+
+### Bug Fixes
+
+* **comment:** update comment of dark mode token ([a735309](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a735309138fb4668830dc4db22fa54162039890e))
+* **token:** fix typo in dark token config ([461f5eb](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/461f5eb8b732fd6aa58409f6f8289ef31cb21edd))
+
+
+### chore
+
+* update npm namespace [#122](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/122) ([1ef7d41](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/1ef7d41de5dd5ba629cdc5ff3b92536000068f4d))
+
+
+### Features
+
+* **prefix:** BREAKING CHANGE update token prefix from auro to ds [#118](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/118) ([9aaa33a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9aaa33ae38af80cb7b7cd08ee98fbb72ed3ccdfe))
+
+
+### Performance Improvements
+
+* **darkmode:** update token naming convention [#129](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/129) ([83fee5a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/83fee5a4f0974ff76f9342afb0d804518dd0926d))
+* **public:** change value of deprecated tokens [#122](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/122) ([427f8d9](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/427f8d934696c7e923d0eee6986bd4b06752bf93))
+
+
+### BREAKING CHANGES
+
+* This commit updates the npm namespace
+from @alaskaairux to @aurodesignsystem
+
+Changes to be committed:
+modified:   package.json
+* **public:** This commit changes the public access
+of the token from `true` to `false`. This setting will restrict
+the distribution of the token into the various distributed
+generated resources.
+
+Changes to be committed:
+modified:   src/breakpoint.json
+modified:   src/color-dark/base.json
+modified:   src/color/alert.json
+modified:   src/color/base.json
+modified:   src/color/border.json
+modified:   src/color/icon.json
+modified:   src/color/text.json
+modified:   src/color/tier.json
+modified:   src/color/ui.json
+modified:   src/depth.json
+modified:   src/shadow.json
+modified:   src/size/scale.json
+
 ## [3.15.5](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v3.15.4...v3.15.5) (2023-08-02)
 
 
