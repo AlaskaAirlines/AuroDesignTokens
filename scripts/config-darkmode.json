@@ -1,203 +1,60 @@
 {
-  "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
+  "include": ["./src/color/base.json", "./src/color/brand.json", "./src/color/alert.json", "./src/comments.json"],
   "source": ["./src/color-darkmode/*.json"],
   "platforms": {
-    "SCSSVariables--darkmode": {
+    "SCSSVariables": {
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "files": [
         {
-          "destination": "SCSSVariables--darkmode.scss",
+          "destination": "SCSSVariables.scss",
           "format": "scss/variables",
           "filter": {
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         },
         {
-          "destination": "SCSSVariablesMapFlat--darkmode.scss",
+          "destination": "SCSSVariablesMapFlat.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
           "filter": {
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         }
       ]
     },
-    "CSSVariables--darkmode": {
-      "transformGroup": "css",
-      "prefix": "ds",
-      "comment": "File type: CSS; variable type: css; filter: public",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSVariables--darkmode.css",
-          "format": "css/variables",
-          "filter": {
-            "public": true
-          }
-        },
-        {
-          "destination": "CSSVariablesMapFlat--darkmode.css",
-          "format": "custom/scss/map-flat",
-          "mapName": "auroTokens",
-          "filter": {
-            "public": true
-          }
-        }
-      ]
-    },
-    "SCSSOpacityVariables--darkmode": {
-      "transformGroup": "scss",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SCSSOpacityVariables--darkmode.scss",
-          "format": "scss/variables",
-          "filter": {
-            "opacity": true
-          }
-        }
-      ]
-    },
-    "SCSSVariableMap--darkmode": {
-      "transformGroup": "scss",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sassmap; filter: size, public, theme: dark mode",
-      "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SCSSVariableMap--darkmode.scss",
-          "format": "scss/map-deep",
-          "filter": {
-            "attributes": {
-              "category": "size"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-
-    "CSSCustomProperties--darkmode": {
+    "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "files": [
         {
-          "destination": "CSSCustomProperties--darkmode.css",
+          "destination": "CSSCustomProperties.css",
           "format": "css/variables",
           "filter": {
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         }
       ]
     },
-    "CSSCustomPropertiesColorRGB--darkmode": {
-      "transformGroup": "css",
-      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "ds-rgb",
-      "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSCustomPropertiesColorRGB--darkmode.css",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "color"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "SassCustomPropertiesColorRGB--darkmode": {
-      "transformGroup": "css",
-      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "ds-rgb",
-      "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SassCustomPropertiesColorRGB--darkmode.scss",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "color"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "CSSOpacityCustomProperties--darkmode": {
-      "transformGroup": "css",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSOpacityProperties--darkmode.scss",
-          "format": "css/variables",
-          "filter": {
-            "opacity": true
-          }
-        }
-      ]
-    },
-    "CSSSizeCustomProperties--darkmode": {
-      "transformGroup": "css",
-      "prefix": "ds",
-      "comment": "File type: CSS; variable type: CSS; filter: size, public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSSizeCustomProperties--darkmode.css",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "size"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "SassSizeCustomProperties--darkmode": {
-      "transformGroup": "scss",
-      "prefix": "ds",
-      "comment": "File type: Sass; variable type: Sass; filter: size, public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SassSizeCustomProperties--darkmode.scss",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "size"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "SassCustomProperties--darkmode": {
+    "SassCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: CSS; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "files": [
         {
-          "destination": "SassCustomProperties--darkmode.scss",
+          "destination": "SassCustomProperties.scss",
           "format": "css/variables",
           "filter": {
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         }
       ]
@@ -206,35 +63,37 @@
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
-          "destination": "JSData--darkmodeColor.js",
+          "destination": "JSDataColor.js",
           "format": "javascript/module",
           "filter": {
             "attributes": {
               "category": "color"
             },
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         }
       ]
     },
-    "JSes6--darkmodeColor": {
+    "JSes6Color": {
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "files": [
         {
-          "destination": "JSVariables--darkmodeColor.js",
+          "destination": "JSVariablesColor.js",
           "format": "javascript/es6",
           "filter": {
             "attributes": {
               "category": "color"
             },
-            "public": true
+            "public": true,
+            "darkmode": true
           }
         }
       ]
@@ -243,7 +102,7 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
@@ -251,17 +110,18 @@
           "format": "javascript/module",
           "filter": {
             "public": true,
+            "darkmode": true,
             "deprecated": false
           }
         }
       ]
     },
-    "JSONtest--darkmode": {
+    "JSONtest": {
       "transformGroup": "css",
       "buildPath": "./test/",
       "files": [
         {
-          "destination": "validJSON--darkmode",
+          "destination": "validJSON",
           "format": "css/variables"
         }
       ]
@@ -269,14 +129,16 @@
     "JSObject--deprecatedDarkTokens": {
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: deprecated, theme: dark mode",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/tokens/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
           "destination": "JSObject--deprecatedDark.js",
           "format": "javascript/module",
           "filter": {
-            "deprecated": true
+            "deprecated": true,
+            "public": true,
+            "darkmode": true
           }
         }
       ]

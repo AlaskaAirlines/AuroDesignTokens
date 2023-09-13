@@ -12,7 +12,7 @@
           "destination": "SCSSVariables.scss",
           "format": "scss/variables",
           "filter": {
-            "public": true          
+            "public": true
           }
         },
         {
@@ -21,21 +21,6 @@
           "mapName": "auroTokens",
           "filter": {
             "public": true
-          }
-        }
-      ]
-    },
-    "SCSSOpacityVariables": {
-      "transformGroup": "scss",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SCSSOpacityVariables.scss",
-          "format": "scss/variables",
-          "filter": {
-            "opacity": true
           }
         }
       ]
@@ -71,59 +56,6 @@
           "format": "css/variables",
           "filter": {
             "public": true
-          }
-        }
-      ]
-    },
-    "CSSCustomPropertiesColorRGB": {
-      "transformGroup": "css",
-      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "ds-rgb",
-      "comment": "File type: CSS; variable type: CSS; filter: color; custom rgb output",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSCustomPropertiesColorRGB.css",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "color"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "SassCustomPropertiesColorRGB": {
-      "transformGroup": "css",
-      "transforms": ["attribute/cti", "name/cti/kebab", "custom/color/rgb"],
-      "prefix": "ds-rgb",
-      "comment": "File type: Sass; variable type: CSS; filter: color; custom rgb output",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "SassCustomPropertiesColorRGB.scss",
-          "format": "css/variables",
-          "filter": {
-            "attributes": {
-              "category": "color"
-            },
-            "public": true
-          }
-        }
-      ]
-    },
-    "CSSOpacityCustomProperties": {
-      "transformGroup": "css",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sass; filter: opacity",
-      "buildPath": "./dist/tokens/",
-      "files": [
-        {
-          "destination": "CSSOpacityProperties.scss",
-          "format": "css/variables",
-          "filter": {
-            "opacity": true
           }
         }
       ]
