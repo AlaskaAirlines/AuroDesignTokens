@@ -59,7 +59,7 @@
         }
       ]
     },
-    "JSmoduledarkC-color": {
+    "JSmodule--color": {
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
