@@ -31,6 +31,14 @@
           "comment": "Deprecated token",
           "reference": "n/a",
           "version": "3.12.0"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "OnDark interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "hover": {
@@ -63,6 +71,14 @@
           "comment": "Deprecated token",
           "reference": "n/a",
           "version": "3.12.0"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Hover interaction color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
         }
       },
       "active": {
