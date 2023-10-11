@@ -54,6 +54,21 @@ Located in the `./dist/tokens` directory of the [npm](https://www.npmjs.com/pack
 | SassSizeCustomProperties | Sass | custom properties | current | filter: size, public |
 
 
+### Migration from 3.x to 4.x
+
+With the release of Auro Design Tokens 4.x a new variable namespace was introduced. The project has removed `--auro` and replaced with `--ds`. This was done to support upcoming theming capabilities. 
+
+Since not all Auro web components are using the new tokens, simply removing the 3.x version and replacing with the 4.x version will break your UI. 
+
+To allow for a seamless transition between the two sets of design tokens, we highly recommend the following install supoprt.
+
+1. In your app, please install the new `@aurodesignsystem/design-tokens@4.x`, but DO NOT uninstall `@alaskaairux/design-tokens@3.15.5`.
+1. Update to use the new `@aurodesignsystem/webcorestylesheets` which fully supports the new token naming spec.
+1. Please review the [Deprecated tokens list](https://auro.alaskaair.com/getting-started/developers/design-tokens/deprecated) for a matrix of changes. Understand that some tokens have been removed from the project and need to be updated. 
+
+By allowing your project to support both the legacy and new Auro design tokens, this will ensure a smooth transition until all Auro components have been updated and your project has also updated local SCSS/CSS files with the new references. 
+
+
 ### Install with Sass
 
 ```scss
@@ -89,3 +104,5 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN,  every file in the dist directory
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/tokens/CSSCustomProperties.css">
 ```
+
+**NOTE:** Please use caution when using the CDN solution. We are not responsible for the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot when there are response issues. It is recommended to use the installed version of Auro Design Tokens when using them in critical UIs.
