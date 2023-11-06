@@ -7,9 +7,23 @@
         "public": true,
         "deprecated": false
       },
+      "white-opacity-50": {
+        "value": "ffffff80",
+        "comment": "white @ 50%",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
       "white-opacity-40": {
         "value": "ffffff66",
         "comment": "white @ 40%",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
+      "white-opacity-0": {
+        "value": "ffffff00",
+        "comment": "white @ 0%",
         "public": true,
         "opacity": true,
         "deprecated": false
