@@ -32,6 +32,16 @@
         "usage": "Used for creating dark backgrounds @ 20% darker",
         "wcag": "n/a",
         "deprecated": false
+      },
+      "gradient": {
+        "default": {
+          "value": "linear-gradient(180deg, {color.base.white-opacity-0}, {color.base.white-opacity-50})",
+          "public": true,
+          "neutral": true,
+          "usage": "Used for creating a gradient against all backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
       }
     }
   }
