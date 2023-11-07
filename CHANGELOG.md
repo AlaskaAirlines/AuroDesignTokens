@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [4.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.1.1...v4.2.0) (2023-11-07)
+
+
+### Features
+
+* **base:** add new white tokens with different opacities ([b5a11d6](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b5a11d68a0c73b825d181f01172ecc62d3d71eec))
+* **gradient:** add new gradient token for white backgrounds [#135](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/135) ([f6e99a4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f6e99a4f4806b83175e31e3c8d0f16cc33b85b7e))
+
 ## [4.1.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.1.0...v4.1.1) (2023-09-15)
 
 
