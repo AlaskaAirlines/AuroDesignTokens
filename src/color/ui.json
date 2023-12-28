@@ -111,6 +111,13 @@
           "comment": "Deprecated token",
           "reference": "n/a",
           "version": "3.12.0"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Active state color affordance on dark backgrounds",
+          "deprecated": false
         }
       },
       "disabled": {
@@ -146,6 +153,22 @@
         }
       },
       "bkg": {
+        "default": {
+          "default": {
+            "value": "00000008",
+            "public": true,
+            "default": true,
+            "usage": "Default affordance for background colors",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ffffff08",
+            "public": true,
+            "inverse": true,
+            "usage": "Default affordance for dark background colors",
+            "deprecated": false
+          } 
+        },
         "hover": {
           "onDark": {
             "value": "5de3f71a",
@@ -172,6 +195,13 @@
             "public": true,
             "default": true,
             "usage": "Default hover affordance for background colors",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ffffff0f",
+            "public": true,
+            "inverse": true,
+            "usage": "Default hover affordance for dark background colors",
             "deprecated": false
           }
         }
