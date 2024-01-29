@@ -27,7 +27,7 @@ chalk.hex('#f26135')(`
                   have been DELETED!
 
                 Be sure to update WCSS
-       npm i @alaskaairux/webcorestylesheets@latest
+       npm i @aurodesignsystem/webcorestylesheets@latest
 
 ╰─────────────────────────────── ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─╯
 `)
