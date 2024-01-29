@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.3.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.3.0...v4.3.1) (2024-01-29)
+
+
+### Performance Improvements
+
+* update postinstall message ref to tokens ([35e78c4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/35e78c4bf1d8d208000089a0581e7e1b219e4fd7))
+
 # [4.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.2.0...v4.3.0) (2023-12-29)
 
 
