@@ -27,3 +27,9 @@ body:
     attributes:
       label: Additional context
       description: Add any other context or screenshots about the feature request here.
+  - type: textarea
+    id: exit-criteria
+    attributes:
+      label: Exit criteria
+      description: Define your issue's exit criteria
+      placeholder: "This issue can be closed once the error has been corrected. Any additional scope e.g. updates or refactors, should be discussed PRIOR to adding scope to this issue."
