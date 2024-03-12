@@ -189,6 +189,103 @@
           }
         }
       ]
+    },
+    "iOS--color": {
+      "transformGroup": "color/ColorSwiftUI",
+      "comment": "File type: SwiftUI; data type: JSSwift; filter: color",
+      "buildPath": "./dist/tokens/iosSwiftUI/",
+      "transforms": ["attribute/cti", "name/cti/camel", "color/ColorSwiftUI"],
+      "files": [
+        {
+          "destination": "iOS--color.swift",
+          "format": "ios-swift/any.swift",
+          "className": "AuroColors",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        }
+      ]
+    },
+    "iOS--size": {
+      "transformGroup": "size/swift/remToCGFloat",
+      "comment": "File type: SwiftUI; data type: JSSwift; filter: size",
+      "buildPath": "./dist/tokens/iosSwiftUI/",
+      "transforms": ["attribute/cti", "name/cti/camel", "size/swift/remToCGFloat"],
+      "files": [
+        {
+          "destination": "iOS--size.swift",
+          "format": "ios-swift/any.swift",
+          "className": "AuroSizes",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ]
+    },
+    "ios-swift": {
+      "transformGroup": "ios-swift",
+      "buildPath": "./dist/tokens/iosSwift/",
+      "files": [{
+        "destination": "AuroColor.swift",
+        "format": "ios-swift/any.swift",
+        "className": "AuroColors",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "AuroSize.swift",
+        "format": "ios-swift/any.swift",
+        "className": "AuroSizes",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },
+      {
+        "destination": "Auro.swift",
+        "format": "ios-swift/any.swift",
+        "className": "Auro"
+      }]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "./dist/tokens/compose/",
+      "files": [{
+        "destination": "AuroColor.kt",
+        "format": "compose/object",
+        "className": "AuroColor",
+        "packageName": "com.alaskaairlines.android.ui.theme",
+        "filter": {
+          "attributes": {
+            "category": "color"
+          }
+        }
+      },{
+        "destination": "AuroSize.kt",
+        "format": "compose/object",
+        "className": "AuroSize",
+        "packageName": "com.alaskaairlines.android.ui.theme",
+        "type": "float",
+        "filter": {
+          "attributes": {
+            "category": "size"
+          }
+        }
+      },
+      {
+        "destination": "Auro.kt",
+        "format": "compose/object",
+        "className": "Auro",
+        "packageName": "com.alaskaairlines.android.ui.theme"
+      }]
     }
   }
 }
