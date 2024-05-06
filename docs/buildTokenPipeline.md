@@ -1,49 +1,51 @@
-# Style Dictionary build pipeline
+# Style Dictionary Build Pipeline
 
-## Install
+The implementation of this process is necessary if the team needs to transform raw JSON data into platform-specific outputs. All tokens are pre-processed, and the available file types are listed in the README.md.
+
+## Installation
 
 ```
 $ npm i style-dictionary
 ```
 
-The example pipeline contains all the steps you should consider when building your integrated Auro Design Tokens pipeline.
+The provided example pipeline outlines the essential steps to consider when setting up your integrated Auro Design Tokens pipeline.
 
-The example pipeline currently supports Sass and CSS examples. Native mobile platforms are supported, but not yet documented in this project.
+Currently, the example pipeline supports Sass and CSS. Although native mobile platforms are supported, they are not yet documented in this project.
 
-### Project config.json install
+### Project `config.json` Installation
 
-To use Design Tokens with your project, it's suggested to create a `config.json` wherever makes sense for your build pipeline.
+To integrate Design Tokens into your project, it is recommended to create a `config.json` file wherever it fits best within your build pipeline.
 
-Referencing the example `config.json` file, look for the `"source"` key. Update the value to the path to where the npm packages are stored. Most likely you will use the following example.
+In the example `config.json` file, locate the `"source"` key. Update the value to specify the path where the npm packages are stored. Most likely, you will use a similar example to the following:
 
 ```json
-"source": [ "./node_modules/@alaskaairux/orion-design-tokens/**/*.json" ]
+"source": [ "./node_modules/@aurodesignsystem/design-tokens/**/*.json" ]
 ```
 
 ### Processing
 
-The example `config.json` file covers a lot of possible outputs from the Design Tokens. When installing this into a production project you simply need to cover the platforms you intend to use.
+The example `config.json` file covers various potential outputs from the Design Tokens. When deploying this into a production project, ensure to only include the platforms you intend to use.
 
-Update the **buildPath** key to reference the directory where you want the generated file(s) to be placed.
+Modify the **buildPath** key to specify the directory where you want the generated file(s) to be placed.
 
 ```json
 "buildPath": "./[project dir path]/[empty dir]/"
 ```
 
-Update the **destination** key if you prefer a different name other than `_TokenVariables.scss`
+Update the **destination** key if you prefer a different name other than `_SCSSTokenVariables.scss`.
 
-Here is an example `config.json` file:
+Here's an example `config.json` file:
 
 ```json
 {
-  "source": [ "./node_modules/@alaskaairux/orion-design-tokens/**/*.json" ],
+  "source": [ "./node_modules/@aurodesignsystem/design-tokens/**/*.json" ],
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "./assets/src/sass/global/orion-design-tokens/",
+      "buildPath": "./assets/src/sass/global/tokens/",
       "files": [
         {
-          "destination": "_TokenVariables.scss",
+          "destination": "_SCSSTokenVariables.scss",
           "format": "scss/variables"
         }
       ]
@@ -52,9 +54,9 @@ Here is an example `config.json` file:
 }
 ```
 
-### Running Style Dictionary (options)
+### Running Style Dictionary (Options)
 
-To run Style Dictionary, you simply need to require the dependency and call the function. This will work in any Node.js instance.
+To execute Style Dictionary, simply require the dependency and call the function. This can be done in any Node.js instance.
 
 ```js
 // Required dependency
@@ -64,11 +66,11 @@ const StyleDictionary = require('style-dictionary').extend('./[dir]/tokensConfig
 StyleDictionary.buildAllPlatforms();
 ```
 
-#### Using ./scripts/styleDictionary.js
+#### Using `./scripts/styleDictionary.js`
 
-The easiest way to integrate the Style Dictionary step is to create a `styleDictionary.js` file using the JavaScript API example shown above.
+The simplest way to integrate the Style Dictionary step is to create a `styleDictionary.js` file using the JavaScript API example provided above.
 
-To execute the file, you could concatenate calls in your `package.json` build step, for example;
+To execute the file, concatenate calls in your `package.json` build step, for instance:
 
 ```js
 "scripts": {
@@ -76,7 +78,7 @@ To execute the file, you could concatenate calls in your `package.json` build st
 },
 ```
 
-For example, see `./example/scripts/styleDictionary.js`. To run, use the following command:
+For an example, refer to `./example/scripts/styleDictionary.js`. To run, use the following command:
 
 ```
 $ npm run buildTokens
@@ -84,13 +86,13 @@ $ npm run buildTokens
 
 #### Webpack Shell Plugin
 
-This 3rd option is a combination of the two previous options. In your project you could place the required dependency call and function in `./src/scripts/styleDictionary.js`. Then in your Webpack config file, require the Webpack Shell Plugin.
+This third option combines the previous two. In your project, place the required dependency call and function in `./src/scripts/styleDictionary.js`. Then, in your Webpack config file, require the Webpack Shell Plugin.
 
 ```js
 const WebpackShellPlugin = require('webpack-shell-plugin');
 ```
 
-Then further down in the same file, add the following plugin option:
+Further down in the same file, add the following plugin option:
 
 ```js
 module.exports = {
@@ -104,25 +106,25 @@ module.exports = {
 }
 ```
 
-This plugin will execute the necessary Style Dictionary command prior to executing Webpack.
+This plugin executes the necessary Style Dictionary command before executing Webpack.
 
-#### Webpack and build.js (ejected create-react-app)
+#### Webpack and `build.js` (ejected create-react-app)
 
 If you are using Webpack and a `build.js` or `start.js`, simply require the dependency and call the function. The only requirement is that the Style Dictionary function must run before running Webpack.
 
-#### Config within pipeline
+#### Config within Pipeline
 
-If prefer, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
+Alternatively, you can bypass the `config.json` dependency and extend the configuration directly within the `extend()` function of your build pipeline.
 
 ```js
 const StyleDictionary = require('style-dictionary').extend({
-  "source": [ "./node_modules/@alaskaairux/orion-design-tokens/**/*.json" ],
+  "source": [ "./node_modules/@aurodesignsystem/design-tokens/**/*.json" ],
   platforms: {
     scss: {
       transformGroup: 'scss',
-      "buildPath": "./assets/src/sass/global/orion-design-tokens/",
+      "buildPath": "./assets/src/sass/global/tokens/",
       files: [{
-        destination: '_TokenVariables.scss',
+        destination: '_SCSSTokenVariables.scss',
         format: 'scss/variables'
       }]
     }
@@ -132,8 +134,8 @@ const StyleDictionary = require('style-dictionary').extend({
 StyleDictionary.buildAllPlatforms();
 ```
 
-### Style Dictionary (dependency)
+### Style Dictionary (Dependency)
 
-For processing of `.json` files to a usable Sass/CSS resources, the Orion Design Tokens project uses [Style Dictionary](https://www.npmjs.com/package/style-dictionary). Data formatting and build process are engineered to Style Dictionary's opinions.
+For processing `.json` files into usable Sass/CSS resources, the Orion Design Tokens project relies on [Style Dictionary](https://www.npmjs.com/package/style-dictionary). The data formatting and build process are tailored to conform with Style Dictionary's conventions.
 
-For more information, see Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
+For more information, refer to Style Dictionary's [documentation](https://amzn.github.io/style-dictionary/#/).
