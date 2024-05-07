@@ -166,6 +166,12 @@
       "public": true,
       "deprecated": false
     },
+    "75": {
+      "value": 0.375,
+      "comment": "6px",
+      "public": true,
+      "deprecated": false
+    },
     "100": {
       "value": 0.5,
       "comment": "8px",

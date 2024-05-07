@@ -1,7 +1,7 @@
 {
   "border": {
     "radius": {
-      "value": "0.375rem",
+      "value": "{size.75.value}",
       "public": true,
       "deprecated": false
     }
