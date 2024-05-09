@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [4.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.3.1...v4.4.0) (2024-05-09)
+
+
+### Features
+
+* add support for JSON flat and nested [#144](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/144) ([af7a657](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/af7a657f49aa247172d7f862fbc175992049d7a4))
+
+
+### Performance Improvements
+
+* convert hard value to token [#124](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/124) ([f54d4f4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f54d4f485b15893bb454bc32fb3f7f789dca8b7e))
+
 ## [4.3.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.3.0...v4.3.1) (2024-01-29)
 
 
