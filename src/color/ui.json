@@ -2,35 +2,13 @@
   "color": {
     "ui": {
       "default": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Default interaction color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-default-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
           "default": true,
           "usage": "Default interaction color affordance",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark interaction color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
@@ -38,39 +16,17 @@
           "inverse": true,
           "usage": "OnDark interaction color affordance",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "hover": {
-        "onLight": {
-          "value": "{color.brand.atlas.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Default hover color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-hover-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
           "default": true,
           "usage": "Default hover color affordance",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Hover interaction color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
@@ -78,78 +34,34 @@
           "inverse": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "active": {
-        "onLight": {
-          "value": "{color.brand.atlas.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Active state color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-active-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
           "default": true,
           "usage": "Active state color affordance",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark active state color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Active state color affordance on dark backgrounds",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.brand.atlas.400-opacity-20.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled state color affordance",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-disabled-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400-opacity-20.value}",
           "public": true,
           "default": true,
           "usage": "Disabled state color affordance",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300-opacity-30.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark disabled state color affordance",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "bkg": {
@@ -159,50 +71,30 @@
             "public": true,
             "default": true,
             "usage": "Default affordance for background colors",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "ffffff08",
             "public": true,
             "inverse": true,
             "usage": "Default affordance for dark background colors",
-            "deprecated": false
+            "deprecated": true
           } 
         },
         "hover": {
-          "onDark": {
-            "value": "5de3f71a",
-            "public": false,
-            "onDark": true,
-            "usage": "Default hover affordance for background colors onDark",
-            "deprecated": true,
-            "comment": "Deprecated token",
-            "reference": "n/a",
-            "version": "3.12.0"
-          },
-          "onLight": {
-            "value": "0000000f",
-            "public": false,
-            "onLight": true,
-            "usage": "Default hover affordance for background colors",
-            "deprecated": true,
-            "comment": "Deprecated token",
-            "reference": "color-ui-bkg-hover-default",
-            "version": "3.15.0"
-          },
           "default": {
             "value": "0000000f",
             "public": true,
             "default": true,
             "usage": "Default hover affordance for background colors",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "ffffff0f",
             "public": true,
             "inverse": true,
             "usage": "Default hover affordance for dark background colors",
-            "deprecated": false
+            "deprecated": true
           }
         }
       }

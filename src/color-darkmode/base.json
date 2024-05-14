@@ -5,14 +5,14 @@
         "value": "000000",
         "comment": "{comments.color.base.value.comment}",
         "public": true,
-        "deprecated": false,
+        "deprecated": true,
         "darkmode": true
       },
       "black": {
         "value": "ffffff",
         "comment": "{comments.color.base.value.comment}",
         "public": true,
-        "deprecated": false,
+        "deprecated": true,
         "darkmode": true
       }
     }

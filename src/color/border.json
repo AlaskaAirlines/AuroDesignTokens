@@ -2,218 +2,78 @@
   "color": {
     "border": {
       "primary": {
-        "onLight": {
-          "value": "{color.brand.neutral.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Primary border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-primary-default",
-          "version": "3.15.0"
-        },
-        "default": {
-          "value": "{color.brand.neutral.500.value}",
-          "public": true,
-          "default": true,
-          "usage": "Primary border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.neutral.400.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Primary border color on dark background",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-primary-inverse",
-          "version": "3.15.0"
-        },
         "inverse": {
           "value": "{color.brand.neutral.400.value}",
           "public": true,
           "inverse": true,
           "usage": "Primary border color on dark background",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "active": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Active border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-active-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
           "default": true,
           "usage": "Active border color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Active border color on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
           "public": true,
           "inverse": true,
           "usage": "Active border color on dark backgrounds",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "error": {
-        "onLight": {
-          "value": "{color.state.error.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Error states border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-error-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.state.error.500.value}",
           "public": true,
           "default": true,
           "usage": "Error states border color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.state.error.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Error states border color on dark background",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-disabled-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.gray.200.value}",
           "public": true,
           "default": true,
           "usage": "Disabled border color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Disabled border color on dark background",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "Focus": {
-        "onLight": {
-          "value": "{color.base.gray.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Focus border color for light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-focus-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.gray.500.value}",
           "public": true,
           "default": true,
           "usage": "Focus border color for light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Focus border color for dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "divider": {
-        "onLight": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Strict use as divider between elements on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-divider-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.black-opacity-15.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as divider between elements on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Strict use as divider between elements on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-divider-inverse",
-          "version": "3.15.0"
+          "deprecated": true
         },
         "inverse": {
-          "value": "{color.base.white.value}",
+          "value": "{color.base.white.100.value}",
           "public": true,
           "inverse": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

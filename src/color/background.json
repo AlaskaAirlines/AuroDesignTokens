@@ -2,12 +2,12 @@
   "color": {
     "background": {
       "lightest": {
-        "value": "{color.base.white.value}",
+        "value": "{color.base.white.100.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "lighter": {
         "value": "{color.base.gray.100.value}",
@@ -15,7 +15,7 @@
         "neutral": true,
         "usage": "Used for creating light backgrounds @ 90% white",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "darker": {
         "value": "{color.brand.midnight.400.value}",
@@ -23,7 +23,7 @@
         "neutral": true,
         "usage": "Used for creating dark backgrounds",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "darkest": {
         "value": "{color.brand.midnight.500.value}",
@@ -31,7 +31,7 @@
         "neutral": true,
         "usage": "Used for creating dark backgrounds @ 20% darker",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "gradient": {
         "default": {
@@ -40,7 +40,7 @@
           "neutral": true,
           "usage": "Used for creating a gradient against all backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

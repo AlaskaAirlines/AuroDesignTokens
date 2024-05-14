@@ -2,152 +2,53 @@
   "color": {
     "alert": {
       "notification": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Notification color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-alert-notification-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
           "default": true,
           "usage": "Notification color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Notification color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "warning": {
-        "onLight": {
-          "value": "{color.state.warning.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Warning color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
-        },
         "default": {
           "value": "{color.state.warning.500.value}",
           "public": true,
           "default": true,
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "error": {
-        "onLight": {
-          "value": "{color.state.error.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Error color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-alert-error-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.state.error.500.value}",
           "public": true,
           "default": true,
           "usage": "Error color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.state.error.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Error color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "reference": "n/a",
-          "comment": "Deprecated token",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "success": {
-        "onLight": {
-          "value": "{color.state.success.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Success color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-alert-success-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.state.success.500.value}",
           "public": true,
           "default": true,
           "usage": "Success color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.state.success.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Success color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "advisory": {
-        "onLight": {
-          "value": "{color.brand.goldcoast.100.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Travel advisory or system maintenance color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-alert-advisory-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.goldcoast.100.value}",
           "public": true,
           "default": true,
           "usage": "Travel advisory or system maintenance color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.goldcoast.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Travel advisory or system maintenance color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       },
       "bkgSuccess": {
@@ -157,7 +58,7 @@
           "onLight": true,
           "usage": "Background success color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "bkgError": {
@@ -167,7 +68,7 @@
           "default": true,
           "usage": "Background error color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

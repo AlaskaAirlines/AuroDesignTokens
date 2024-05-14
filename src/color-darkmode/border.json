@@ -9,18 +9,18 @@
           "default": true,
           "usage": "Primary border color on dark background",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "divider": {
         "default": {
-          "value": "{color.base.white.value}",
+          "value": "{color.base.white.100.value}",
           "public": true,
           "darkmode": true,
           "default": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

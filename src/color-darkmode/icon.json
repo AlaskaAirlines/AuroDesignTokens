@@ -9,18 +9,18 @@
           "default": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "emphasis": {
         "default": {
-          "value": "{color.base.white.value}",
+          "value": "{color.base.white.100.value}",
           "public": true,
           "darkmode": true,
           "default": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }
