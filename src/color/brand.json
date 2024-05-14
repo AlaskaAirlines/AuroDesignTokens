@@ -1,5 +1,1111 @@
 {
   "color": {
+    "classic": {
+      "gray": {
+        "100": {
+          "value": "f7f7f7",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "dddddd",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "c5c5c5",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "adadad",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "959595",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "7e7e7e",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "676767",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "525252",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "3d3d3d",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "2a2a2a",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "neutral": {
+        "100": {
+          "value": "f7f8fa",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "e4e8ec",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ccd2db",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "afb9c6",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "939fad",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "7e8894",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "6a717c",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "585e67",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "484d55",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "393d43",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "cyan": {
+        "100": {
+          "value": "ebfafd",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "a8e9f7",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "6ad5ef",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "56bbde",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "4aa2c7",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "3e89aa",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "32718e",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "275b72",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "1d4658",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "12303d",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "blue": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "navy": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "turquoise": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "green": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "lime": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "yellow": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "red": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "pink": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "purple": {
+        "100": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "ffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      }
+    },
     "brand": {
       "midnight": {
         "100": {
@@ -9,7 +1115,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "569ed7",
@@ -18,7 +1124,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "156fad",
@@ -27,7 +1133,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "01426a",
@@ -36,7 +1142,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "00274a",
@@ -45,7 +1151,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "atlas": {
@@ -56,7 +1162,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "6bb7fb",
@@ -65,7 +1171,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "2492eb",
@@ -74,7 +1180,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "0074c8",
@@ -83,7 +1189,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400-opacity-20": {
           "value": "0074c833",
@@ -97,7 +1203,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "breeze": {
@@ -108,7 +1214,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "5de3f7",
@@ -117,7 +1223,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "00cff0",
@@ -126,7 +1232,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300-opacity-30": {
           "value": "00cff04d",
@@ -134,7 +1240,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "099dc5",
@@ -143,7 +1249,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "0b5575",
@@ -152,7 +1258,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "tropical": {
@@ -163,7 +1269,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "d0fba6",
@@ -172,7 +1278,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "c0e585",
@@ -181,7 +1287,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "91be62",
@@ -190,7 +1296,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "5e8741",
@@ -199,7 +1305,7 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "alpine": {
@@ -210,7 +1316,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "9e73ea",
@@ -219,7 +1325,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "8439ef",
@@ -228,7 +1334,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "631db8",
@@ -237,7 +1343,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "39115c",
@@ -246,7 +1352,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "flamingo": {
@@ -257,7 +1363,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "ffc0ca",
@@ -266,7 +1372,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "ff94a7",
@@ -275,7 +1381,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "F65b7b",
@@ -284,7 +1390,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "b82b47",
@@ -293,7 +1399,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "canyon": {
@@ -304,7 +1410,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "f99574",
@@ -313,7 +1419,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "f26135",
@@ -322,7 +1428,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "de3e09",
@@ -331,7 +1437,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "b83302",
@@ -340,7 +1446,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "goldcoast": {
@@ -351,7 +1457,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "ffdb67",
@@ -360,7 +1466,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "ffd200",
@@ -369,7 +1475,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "e5ad07",
@@ -378,7 +1484,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "b88624",
@@ -387,7 +1493,7 @@
           "neutral": true,
           "usage": "Conversational colors add warmth and energy to our experience",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "neutral": {
@@ -398,7 +1504,7 @@
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "e2eaef",
@@ -407,7 +1513,7 @@
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
           "value": "cbd8e2",
@@ -416,7 +1522,7 @@
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
           "value": "9fabbb",
@@ -425,7 +1531,7 @@
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
           "value": "626b79",
@@ -434,49 +1540,7 @@
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "gray": {
-        "100": {
-          "value": "f8f8f8",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "200": {
-          "value": "dbdbdb",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "300": {
-          "value": "b2b2b2",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "400": {
-          "value": "767676",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "500": {
-          "value": "222222",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "goldgray": {
@@ -484,13 +1548,13 @@
           "value": "C5C1BF",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "726E6C",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "gold": {
@@ -498,32 +1562,32 @@
           "value": "CCBC94",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
           "value": "7F682E",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "emerald": {
         "value": "139142",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true
       },
       "sapphire": {
         "value": "015DAA",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true
       },
       "ruby": {
         "value": "A41D4A",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true
       }
     }
   }
