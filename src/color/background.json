@@ -3,7 +3,7 @@
     "primary": {
       "100": {
         "default": {
-          "value": "{color.base.white.value}",
+          "value": "{base.white.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -77,7 +77,7 @@
     "secondary": {
       "100": {
         "default": {
-          "value": "{color.base.white.value}",
+          "value": "{base.white.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
