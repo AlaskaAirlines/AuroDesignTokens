@@ -59,7 +59,7 @@
           "comment": "{comments.reference.comment} color-brand-neutral-500"
         }
       },
-      "gray": {
+      "grey": {
         "100": {
           "value": "f8f8f8",
           "version": "3.1.0",
@@ -68,8 +68,8 @@
           "usage": "Neutral accent",
           "wcag": "n/a",
           "deprecated": true,
-          "reference": "color-brand-gray-100",
-          "comment": "{comments.reference.comment} color-brand-gray-100"
+          "reference": "color-brand-grey-100",
+          "comment": "{comments.reference.comment} color-brand-grey-100"
         },
         "200": {
           "value": "dbdbdb",
@@ -79,8 +79,8 @@
           "wcag": "n/a",
           "deprecated": true,
           "version": "3.1.0",
-          "reference": "color-brand-gray-200",
-          "comment": "{comments.reference.comment} color-brand-gray-200"
+          "reference": "color-brand-grey-200",
+          "comment": "{comments.reference.comment} color-brand-grey-200"
         },
         "500": {
           "value": "222222",
@@ -90,8 +90,8 @@
           "wcag": "n/a",
           "deprecated": true,
           "version": "3.1.0",
-          "reference": "color-brand-gray-500",
-          "comment": "{comments.reference.comment} color-brand-gray-500"
+          "reference": "color-brand-grey-500",
+          "comment": "{comments.reference.comment} color-brand-grey-500"
         }
       }
     },

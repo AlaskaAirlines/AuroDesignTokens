@@ -21,7 +21,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.base.gray.500.value}",
+          "value": "{color.base.grey.500.value}",
           "public": true,
           "default": true,
           "usage": "Emphasis or darkest icon color on light backgrounds",

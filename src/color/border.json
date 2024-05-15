@@ -40,7 +40,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.base.gray.200.value}",
+          "value": "{color.base.grey.200.value}",
           "public": true,
           "default": true,
           "usage": "Disabled border color on light backgrounds",
@@ -50,7 +50,7 @@
       },
       "Focus": {
         "default": {
-          "value": "{color.base.gray.500.value}",
+          "value": "{color.base.grey.500.value}",
           "public": true,
           "default": true,
           "usage": "Focus border color for light backgrounds",
