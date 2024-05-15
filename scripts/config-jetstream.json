@@ -1,0 +1,21 @@
+{
+  "include": ["./src/themes/jetstream/color/*.json"],
+  "source": ["./src/themes/jetstream/color/*.json"],
+  "platforms": {
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/jetstream/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    }
+  }
+}

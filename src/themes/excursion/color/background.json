@@ -4,6 +4,7 @@
       "100": {
         "default": {
           "value": "{color.excursion.blue.100.value}",
+          "comment": "color.excursion.blue.100.value",
           "public": true,
           "neutral": true,
           "usage": "",

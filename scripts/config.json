@@ -77,8 +77,7 @@
           "destination": "CSSCustomProperties.css",
           "format": "css/variables",
           "filter": {
-            "public": true,
-            "deprecated": false
+            "public": true
           }
         }
       ]
