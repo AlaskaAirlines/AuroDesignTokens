@@ -2,7 +2,7 @@
   "container": {
     "primary": {
       "default": {
-        "value": "",
+        "value": "{base.white.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -11,7 +11,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.navy.1000.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -22,7 +22,7 @@
     },
     "secondary": {
       "default": {
-        "value": "",
+        "value": "{classic.grey.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -31,7 +31,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.navy.900.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -42,7 +42,7 @@
     },
     "tertiary": {
       "default": {
-        "value": "",
+        "value": "{base.black.3.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -51,7 +51,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{base.white.6.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -62,7 +62,7 @@
     },
     "error": {
       "default": {
-        "value": "",
+        "value": "{base.error.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -71,7 +71,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{base.error.500.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -82,7 +82,7 @@
     },
     "success": {
       "default": {
-        "value": "",
+        "value": "{base.success.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -91,7 +91,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{base.success.500.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -102,7 +102,7 @@
     },
     "warning": {
       "default": {
-        "value": "",
+        "value": "{base.warning.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -111,7 +111,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{base.warning.500.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -122,7 +122,7 @@
     },
     "info": {
       "default": {
-        "value": "",
+        "value": "{classic.blue.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -131,7 +131,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.blue.900.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -142,7 +142,7 @@
     },
     "accent": {
       "default": {
-        "value": "",
+        "value": "{classic.lime.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -151,7 +151,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.lime.300.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -162,7 +162,7 @@
     },
     "emphasis": {
       "default": {
-        "value": "",
+        "value": "{classic.cyan.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -171,7 +171,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.cyan.300.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -182,7 +182,7 @@
     },
     "subtle": {
       "default": {
-        "value": "",
+        "value": "{classic.neutral.100.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -191,7 +191,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "",
+        "value": "{classic.neutral.1000.value}",
         "comment": "",
         "public": true,
         "neutral": true,
@@ -204,7 +204,7 @@
       "primary": {
         "default": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.700.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -213,7 +213,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{classic.cyan.400.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -224,7 +224,7 @@
         },
         "hover": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.900.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -233,7 +233,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{classic.cyan.200.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -244,7 +244,7 @@
         },
         "focus": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.700.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -253,7 +253,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{classic.cyan.400.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -264,7 +264,7 @@
         },
         "disabled": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.100.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -273,7 +273,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{classic.cyan.800.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -284,7 +284,7 @@
         },
         "active": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.800.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -293,7 +293,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{classic.cyan.300.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -306,7 +306,7 @@
       "secondary": {
         "default": {
           "default": {
-            "value": "",
+            "value": "{base.white.100.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -315,7 +315,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -326,7 +326,7 @@
         },
         "hover": {
           "default": {
-            "value": "",
+            "value": "{base.black.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -335,7 +335,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.12.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -346,7 +346,7 @@
         },
         "focus": {
           "default": {
-            "value": "",
+            "value": "{base.white.100.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -355,7 +355,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -366,7 +366,7 @@
         },
         "disabled": {
           "default": {
-            "value": "",
+            "value": "{classic.grey.100.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -375,7 +375,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.12.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -386,7 +386,7 @@
         },
         "active": {
           "default": {
-            "value": "",
+            "value": "{classic.blue.100.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -395,7 +395,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.6.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -408,7 +408,7 @@
       "tertiary": {
         "default": {
           "default": {
-            "value": "",
+            "value": "{base.black.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -417,7 +417,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.12.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -428,7 +428,7 @@
         },
         "hover": {
           "default": {
-            "value": "",
+            "value": "{base.black.12.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -437,7 +437,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.25.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -448,7 +448,7 @@
         },
         "focus": {
           "default": {
-            "value": "",
+            "value": "{base.black.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -457,7 +457,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.12.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -468,7 +468,7 @@
         },
         "disabled": {
           "default": {
-            "value": "",
+            "value": "{base.black.3.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -477,7 +477,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.25.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -488,7 +488,7 @@
         },
         "active": {
           "default": {
-            "value": "",
+            "value": "{base.black.6.value}",
             "comment": "",
             "public": true,
             "neutral": true,
@@ -497,7 +497,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "",
+            "value": "{base.white.6.value}",
             "comment": "",
             "public": true,
             "neutral": true,
