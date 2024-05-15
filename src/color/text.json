@@ -102,5 +102,279 @@
         }
       }
     }
+  },
+  "text": {
+    "primary": {
+      "default": {
+        "value": "{classic.grey.100.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{base.white.100.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "secondary": {
+      "default": {
+        "value": "{classic.grey.800.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.neutral.200.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "tertiary": {
+      "default": {
+        "value": "{classic.neutral.700.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.grey.400.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "error": {
+      "default": {
+        "value": "{base.error.400.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{base.error.200.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "success": {
+      "default": {
+        "value": "{base.success.400.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{base.success.200.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "warning": {
+      "default": {
+        "value": "{base.warning.400.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{base.warning.200.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "info": {
+      "default": {
+        "value": "{classic.blue.600.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.navy.300.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "accent": {
+      "default": {
+        "value": "{classic.lime.700.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.lime.300.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "emphasis": {
+      "default": {
+        "value": "{classic.navy.800.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.navy.200.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "subtle": {
+      "default": {
+        "value": "{classic.cyan.700.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      },
+      "inverse": {
+        "value": "{classic.cyan.400.value}",
+        "public": true,
+        "default": true,
+        "usage": "",
+        "wcag": "AAA",
+        "deprecated": true
+      }
+    },
+    "ui": {
+      "default": {
+        "default": {
+          "value": "{classic.blue.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{classic.cyan.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      },
+      "hover": {
+        "default": {
+          "value": "{classic.blue.900.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{classic.cyan.200.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      },
+      "focus": {
+        "default": {
+          "value": "{classic.cyan.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{classic.cyan.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{classic.grey.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{classic.grey.600.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{classic.blue.800.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{classic.cyan.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      }
+    }
   }
 }
