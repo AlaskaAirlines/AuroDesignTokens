@@ -21,7 +21,7 @@
       },
       "200": {
         "default": {
-          "value": "{color.classic.grey.100.value}",
+          "value": "{color.classic.gray.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -57,7 +57,7 @@
       },
       "400": {
         "default": {
-          "value": "{color.classic.grey.200.value}",
+          "value": "{color.classic.gray.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -95,7 +95,7 @@
       },
       "200": {
         "default": {
-          "value": "{color.classic.grey.100.value}",
+          "value": "{color.classic.gray.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -131,7 +131,7 @@
       },
       "400": {
         "default": {
-          "value": "{color.classic.grey.200.value}",
+          "value": "{color.classic.gray.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -266,7 +266,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.classic.grey.1000.value}",
+        "value": "{color.classic.gray.1000.value}",
         "public": true,
         "neutral": true,
         "usage": "",

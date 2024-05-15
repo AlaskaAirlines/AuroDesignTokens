@@ -279,7 +279,7 @@
       },
       "blue": {
         "100": {
-          "value": "ffffff",
+          "value": "f0f7fd",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -288,7 +288,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "c9e0f7",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -297,7 +297,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "a0c9f1",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -306,7 +306,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "79b2ec",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -315,7 +315,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "5398e6",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -324,7 +324,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "3b7fd2",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -333,7 +333,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "2c67b5",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -342,7 +342,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "225296",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -351,7 +351,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "193d73",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -360,7 +360,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "102a51",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -371,7 +371,7 @@
       },
       "navy": {
         "100": {
-          "value": "ffffff",
+          "value": "f2f7fb",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -380,7 +380,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "cfe0ef",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -389,7 +389,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "acc9e2",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -398,7 +398,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "89b2d4",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -407,7 +407,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "6899c6",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -416,7 +416,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "4a82b7",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -425,7 +425,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "326aa5",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -434,7 +434,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "265688",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -443,7 +443,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "194069",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -452,7 +452,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "0e2b4f",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -463,7 +463,7 @@
       },
       "turquoise": {
         "100": {
-          "value": "ffffff",
+          "value": "f7fafa",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -472,7 +472,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "dfe9ea",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -481,7 +481,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "c2d5d6",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -490,7 +490,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "9fbdbe",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -499,7 +499,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "7ba5a6",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -508,7 +508,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "fc8f91",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -517,7 +517,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "3d7a7d",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -526,7 +526,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "21686a",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -535,7 +535,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "085659",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -544,7 +544,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "004447",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -555,7 +555,7 @@
       },
       "green": {
         "100": {
-          "value": "ffffff",
+          "value": "f3faf7",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -564,7 +564,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "d4ece4",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -573,7 +573,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "addbca",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -582,7 +582,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "7ec6ac",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -591,7 +591,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "51ae8c",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -600,7 +600,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "459578",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -609,7 +609,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "3a7d64",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -618,7 +618,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "306854",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -627,7 +627,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "285545",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -636,7 +636,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "1f4436",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -647,7 +647,7 @@
       },
       "lime": {
         "100": {
-          "value": "ffffff",
+          "value": "f5fbeb",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -656,7 +656,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "d8efb4",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -665,7 +665,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "badd81",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -674,7 +674,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "a2c270",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -683,7 +683,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "8ca761",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -692,7 +692,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "778f53",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -701,7 +701,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "647845",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -710,7 +710,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "53643a",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -719,7 +719,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "44522f",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -728,7 +728,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "364126",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -739,7 +739,7 @@
       },
       "yellow": {
         "100": {
-          "value": "ffffff",
+          "value": "fff9df",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -748,7 +748,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "ffe87e",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -757,8 +757,8 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
-          "comment": "",
+          "value": "f9ce06",
+          "comment": "This or 400 is wrong",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -766,8 +766,8 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
-          "comment": "",
+          "value": "f9ce06",
+          "comment": "This or 300 is wrong",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -775,7 +775,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "b49d35",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -784,7 +784,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "96873e",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -793,7 +793,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "7c7140",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -802,7 +802,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "665e3d",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -811,7 +811,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "524e38",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -820,7 +820,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "403d30",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -831,7 +831,7 @@
       },
       "red": {
         "100": {
-          "value": "ffffff",
+          "value": "fef7f5",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -840,7 +840,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "fae2da",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -849,7 +849,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "f5c7d8",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -858,7 +858,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "f0a68d",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -867,7 +867,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "e9815e",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -876,7 +876,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "e35c2f",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -885,7 +885,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "d03a08",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -894,7 +894,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "ae3007",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -903,7 +903,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "902806",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -912,7 +912,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "732005",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -923,7 +923,7 @@
       },
       "pink": {
         "100": {
-          "value": "ffffff",
+          "value": "fff7f8",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -932,7 +932,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "fde0e6",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -941,7 +941,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "fcc2ce",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -950,7 +950,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "fa9db0",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -959,7 +959,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "f7738e",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -968,7 +968,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "e45472",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -977,7 +977,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "bf475f",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -986,7 +986,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "a03b50",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -995,7 +995,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "a03b50",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1004,7 +1004,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "692734",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1015,7 +1015,7 @@
       },
       "purple": {
         "100": {
-          "value": "ffffff",
+          "value": "fbf8fe",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1024,7 +1024,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "ffffff",
+          "value": "ede3fd",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1033,7 +1033,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "ffffff",
+          "value": "ddc9fb",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1042,7 +1042,7 @@
           "deprecated": false
         },
         "400": {
-          "value": "ffffff",
+          "value": "c9a9f8",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1051,7 +1051,7 @@
           "deprecated": false
         },
         "500": {
-          "value": "ffffff",
+          "value": "b588f5",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1060,7 +1060,7 @@
           "deprecated": false
         },
         "600": {
-          "value": "ffffff",
+          "value": "a268f3",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1069,7 +1069,7 @@
           "deprecated": false
         },
         "700": {
-          "value": "ffffff",
+          "value": "8d47f0",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1078,7 +1078,7 @@
           "deprecated": false
         },
         "800": {
-          "value": "ffffff",
+          "value": "7633d7",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1087,7 +1087,7 @@
           "deprecated": false
         },
         "900": {
-          "value": "ffffff",
+          "value": "622ab2",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -1096,7 +1096,7 @@
           "deprecated": false
         },
         "1000": {
-          "value": "ffffff",
+          "value": "4e228d",
           "comment": "",
           "public": true,
           "neutral": true,
