@@ -3,7 +3,7 @@
     "text": {
       "primary": {
         "default": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "darkmode": true,
           "default": true,

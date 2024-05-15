@@ -3,7 +3,7 @@
     "primary": {
       "100": {
         "default": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.1000.value}",
+          "value": "{classic.navy.1000.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -21,7 +21,7 @@
       },
       "200": {
         "default": {
-          "value": "{color.classic.gray.100.value}",
+          "value": "{classic.gray.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.900.value}",
+          "value": "{classic.navy.900.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -39,7 +39,7 @@
       },
       "300": {
         "default": {
-          "value": "{color.classic.neutral.200.value}",
+          "value": "{classic.neutral.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -47,7 +47,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.800.value}",
+          "value": "{classic.navy.800.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -57,7 +57,7 @@
       },
       "400": {
         "default": {
-          "value": "{color.classic.gray.200.value}",
+          "value": "{classic.gray.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -65,7 +65,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.700.value}",
+          "value": "{classic.navy.700.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -77,7 +77,7 @@
     "secondary": {
       "100": {
         "default": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -85,7 +85,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.1000.value}",
+          "value": "{classic.navy.1000.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -95,7 +95,7 @@
       },
       "200": {
         "default": {
-          "value": "{color.classic.gray.100.value}",
+          "value": "{classic.gray.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -103,7 +103,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.900.value}",
+          "value": "{classic.navy.900.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -113,7 +113,7 @@
       },
       "300": {
         "default": {
-          "value": "{color.classic.neutral.200.value}",
+          "value": "{classic.neutral.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -121,7 +121,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.800.value}",
+          "value": "{classic.navy.800.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -131,7 +131,7 @@
       },
       "400": {
         "default": {
-          "value": "{color.classic.gray.200.value}",
+          "value": "{classic.gray.200.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -139,7 +139,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.classic.navy.700.value}",
+          "value": "{classic.navy.700.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -150,7 +150,7 @@
     },
     "error": {
       "default": {
-        "value": "{color.base.error.100.value}",
+        "value": "{base.error.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -158,7 +158,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.base.error.500.value}",
+        "value": "{base.error.500.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -168,7 +168,7 @@
     },
     "success": {
       "default": {
-        "value": "{color.base.success.100.value}",
+        "value": "{base.success.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -176,7 +176,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.base.success.500.value}",
+        "value": "{base.success.500.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -186,7 +186,7 @@
     },
     "warning": {
       "default": {
-        "value": "{color.base.warning.100.value}",
+        "value": "{base.warning.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -194,7 +194,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.base.warning.500.value}",
+        "value": "{base.warning.500.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -204,7 +204,7 @@
     },
     "info": {
       "default": {
-        "value": "{color.classic.blue.100.value}",
+        "value": "{classic.blue.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -212,7 +212,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.classic.blue.900.value}",
+        "value": "{classic.blue.900.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -222,7 +222,7 @@
     },
     "accent": {
       "default": {
-        "value": "{color.classic.cyan.100.value}",
+        "value": "{classic.cyan.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -230,7 +230,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.classic.cyan.800.value}",
+        "value": "{classic.cyan.800.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -240,7 +240,7 @@
     },
     "emphasis": {
       "default": {
-        "value": "{color.classic.blue.200.value}",
+        "value": "{classic.blue.200.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -248,7 +248,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.classic.blue.800.value}",
+        "value": "{classic.blue.800.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -258,7 +258,7 @@
     },
     "subtle": {
       "default": {
-        "value": "{color.classic.neutral.100.value}",
+        "value": "{classic.neutral.100.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -266,7 +266,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.classic.gray.1000.value}",
+        "value": "{classic.gray.1000.value}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -278,7 +278,7 @@
   "color": {
     "background": {
       "lightest": {
-        "value": "{color.base.white.100.value}",
+        "value": "{color.base.white.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds",

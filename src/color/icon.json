@@ -29,7 +29,7 @@
           "deprecated": true
         },
         "inverse": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "inverse": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
