@@ -37,6 +37,9 @@ Pre-processed resources are available in the `./dist/tokens` directory of the [n
     ├── SCSSVariables.scss
     ├── SCSSVariablesMapFlat.scss
     └── SassCustomProperties.scss
+  └── excursion
+    ├── JSONVariablesFlat.json
+    └── JSONVariablesNested.json
 ```
 
 ### Resource Descriptions
