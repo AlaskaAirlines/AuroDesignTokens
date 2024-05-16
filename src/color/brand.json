@@ -757,7 +757,7 @@
       },
       "300": {
         "value": "#f9ce06",
-        "comment": "This or 400 is wrong",
+        "comment": "",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -765,8 +765,8 @@
         "deprecated": false
       },
       "400": {
-        "value": "#f9ce06",
-        "comment": "This or 300 is wrong",
+        "value": "#d6b622",
+        "comment": "",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -986,7 +986,7 @@
       },
       "800": {
         "value": "#a03b50",
-        "comment": "This or 900 is wrong",
+        "comment": "",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -994,8 +994,8 @@
         "deprecated": false
       },
       "900": {
-        "value": "#a03b50",
-        "comment": "This or 800 is wrong",
+        "value": "#833142",
+        "comment": "",
         "public": true,
         "neutral": true,
         "usage": "",
