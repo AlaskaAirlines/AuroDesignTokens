@@ -40,6 +40,6 @@ const excursionConfig = StyleDictionary.extend('./scripts/config-excursion.json'
 
 excursionConfig.buildAllPlatforms();
 
-const jetstreamConfig = StyleDictionary.extend('./scripts/config-jetstream.json');
+// const jetstreamConfig = StyleDictionary.extend('./scripts/config-jetstream.json');
 
-jetstreamConfig.buildAllPlatforms();
+// jetstreamConfig.buildAllPlatforms();
