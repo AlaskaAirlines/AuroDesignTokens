@@ -51,14 +51,14 @@
       },
       "error": {
         "default": {
-          "value": "{color.base.error.400.value}",
+          "value": "{color.state.error.400.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.error.200.value}",
+          "value": "{color.state.error.200.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -67,14 +67,14 @@
       },
       "success": {
         "default": {
-          "value": "{color.base.success.400.value}",
+          "value": "{color.state.success.400.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.success.200.value}",
+          "value": "{color.state.success.200.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -83,14 +83,14 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.warning.300.value}",
+          "value": "{color.state.warning.300.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.warning.200.value}",
+          "value": "{color.state.warning.200.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -163,14 +163,14 @@
       },
       "divider": {
         "default": {
-          "value": "{color.base.black.6.value}",
+          "value": "{color.base.black-6.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.white.6.value}",
+          "value": "{color.base.white-6.value}",
           "public": true,
           "usage": "",
           "wcag": "n/a",

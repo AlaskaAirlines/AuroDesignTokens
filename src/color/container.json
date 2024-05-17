@@ -43,7 +43,7 @@
       },
       "tertiary": {
         "default": {
-          "value": "{color.base.black.3.value}",
+          "value": "{color.base.black-3.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -63,7 +63,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.base.error.100.value}",
+          "value": "{color.state.error.100.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -72,7 +72,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.error.500.value}",
+          "value": "{color.state.error.500.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -83,7 +83,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.base.success.100.value}",
+          "value": "{color.state.success.100.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -92,7 +92,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.success.500.value}",
+          "value": "{color.state.success.500.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -103,7 +103,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.warning.100.value}",
+          "value": "{color.state.warning.100.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -112,7 +112,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.warning.500.value}",
+          "value": "{color.state.warning.500.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -327,7 +327,7 @@
           },
           "hover": {
             "default": {
-              "value": "{color.base.black.3.value}",
+              "value": "{color.base.black-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -409,7 +409,7 @@
         "tertiary": {
           "default": {
             "default": {
-              "value": "{color.base.black.3.value}",
+              "value": "{color.base.black-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -429,7 +429,7 @@
           },
           "hover": {
             "default": {
-              "value": "{color.base.black.12.value}",
+              "value": "{color.base.black-12.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -449,7 +449,7 @@
           },
           "focus": {
             "default": {
-              "value": "{color.base.black.3.value}",
+              "value": "{color.base.black-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -469,7 +469,7 @@
           },
           "disabled": {
             "default": {
-              "value": "{color.base.black.3.value}",
+              "value": "{color.base.black-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -489,7 +489,7 @@
           },
           "active": {
             "default": {
-              "value": "{color.base.black.6.value}",
+              "value": "{color.base.black-6.value}",
               "comment": "",
               "public": true,
               "neutral": true,

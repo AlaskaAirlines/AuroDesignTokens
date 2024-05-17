@@ -151,7 +151,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.base.error.100.value}",
+          "value": "{color.state.error.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -159,7 +159,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.error.500.value}",
+          "value": "{color.state.error.500.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -169,7 +169,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.base.success.100.value}",
+          "value": "{color.state.success.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -177,7 +177,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.success.500.value}",
+          "value": "{color.state.success.500.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -187,7 +187,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.warning.100.value}",
+          "value": "{color.state.warning.100.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -195,7 +195,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.warning.500.value}",
+          "value": "{color.state.warning.500.value}",
           "public": true,
           "neutral": true,
           "usage": "",
@@ -276,7 +276,7 @@
         }
       },
       "lightest": {
-        "value": "{color.base.white-value}",
+        "value": "{color.base.white.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds",
