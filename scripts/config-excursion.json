@@ -1,5 +1,4 @@
 {
-  "include": ["./src/themes/excursion/color/*.json"],
   "source": ["./src/themes/excursion/color/*.json"],
   "platforms": {
     "JSONVariables": {

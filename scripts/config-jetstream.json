@@ -1,5 +1,4 @@
 {
-  "include": ["./src/themes/jetstream/color/*.json"],
   "source": ["./src/themes/jetstream/color/*.json"],
   "platforms": {
     "CSSCustomProperties": {
