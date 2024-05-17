@@ -5,7 +5,61 @@
         "value": "#ffffff",
         "comment": "{comments.color.base.value.comment}",
         "public": true,
-        "deprecated": true
+        "deprecated": true,
+        "3": {
+          "value": "#ffffff08",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "6": {
+          "value": "#ffffff0f",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "12": {
+          "value": "#ffffff1f",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "25": {
+          "value": "#ffffff40",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "50": {
+          "value": "#ffffff80",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "100": {
+          "value": "#ffffffff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
       },
       "white-opacity-50": {
         "value": "#ffffff80",
@@ -32,7 +86,61 @@
         "value": "#000000",
         "comment": "{comments.color.base.value.comment}",
         "public": true,
-        "deprecated": true
+        "deprecated": true,
+        "3": {
+          "value": "#00000008",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "6": {
+          "value": "#0000000f",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "12": {
+          "value": "#0000001f",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "25": {
+          "value": "#00000040",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "50": {
+          "value": "#00000080",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "100": {
+          "value": "#000000ff",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
       },
       "black-opacity-15": {
         "value": "#00000026",
@@ -96,291 +204,146 @@
       }
     },
     "state": {
-      "error": {
-        "100": {
-          "value": "#ff999b",
-          "public": true,
-          "deprecated": true
-        },
-        "500": {
-          "value": "#df0b37",
-          "public": true,
-          "deprecated": true
-        }
-      },
       "success": {
         "100": {
-          "value": "#69cf96",
+          "value": "#eff9f3",
+          "comment": "",
           "public": true,
-          "deprecated": true
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#7ecd9b",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#00a04a",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#006b30",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
         "500": {
-          "value": "#00805d",
+          "value": "#003d1e",
+          "comment": "",
           "public": true,
-          "deprecated": true
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "100": {
+          "value": "#fff4f4",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#f9aca6",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#f16359",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#cc1816",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#74110e",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "warning": {
-        "500": {
-          "value": "#de750c",
+        "100": {
+          "value": "#fef8e9",
+          "comment": "",
           "public": true,
-          "deprecated": true
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#f2c153",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#c49432",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#8e6b22",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#5d4514",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
-      }
-    }
-  },
-  "base": {
-    "white": {
-      "3": {
-        "value": "#ffffff08",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "6": {
-        "value": "#ffffff0f",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "12": {
-        "value": "#ffffff1f",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "25": {
-        "value": "#ffffff40",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "50": {
-        "value": "#ffffff80",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "100": {
-        "value": "#ffffffff",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "black": {
-      "3": {
-        "value": "#00000008",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "6": {
-        "value": "#0000000f",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "12": {
-        "value": "#0000001f",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "25": {
-        "value": "#00000040",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "50": {
-        "value": "#00000080",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "100": {
-        "value": "#000000ff",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "success": {
-      "100": {
-        "value": "#eff9f3",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "200": {
-        "value": "#7ecd9b",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "300": {
-        "value": "#00a04a",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "400": {
-        "value": "#006b30",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "500": {
-        "value": "#003d1e",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "error": {
-      "100": {
-        "value": "#fff4f4",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "200": {
-        "value": "#f9aca6",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "300": {
-        "value": "#f16359",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "400": {
-        "value": "#cc1816",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "500": {
-        "value": "#74110e",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "warning": {
-      "100": {
-        "value": "#fef8e9",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "200": {
-        "value": "#f2c153",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "300": {
-        "value": "#c49432",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "400": {
-        "value": "#8e6b22",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "500": {
-        "value": "#5d4514",
-        "comment": "",
-        "public": true,
-        "neutral": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
       }
     }
   }

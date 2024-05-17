@@ -2,13 +2,261 @@
   "color": {
     "border": {
       "primary": {
-        "inverse": {
-          "value": "{color.brand.neutral.400.value}",
+        "default": {
+          "value": "{color.classic.neutral.800.value}",
           "public": true,
-          "inverse": true,
-          "usage": "Primary border color on dark background",
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.neutral.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.classic.neutral.500.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.neutral.600.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.classic.grey.200.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.grey.700.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.base.error.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.error.200.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.base.success.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.success.200.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.base.warning.300.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.warning.200.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.classic.lime.300.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.lime.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.classic.navy.900.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.100.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.classic.blue.100.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "divider": {
+        "default": {
+          "value": "{color.base.black.6.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.white.6.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.classic.blue.900.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.classic.grey.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.grey.600.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "active": {
+          "default": {
+            "value": "{color.classic.blue.800.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.300.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         }
       },
       "active": {
@@ -25,16 +273,6 @@
           "public": true,
           "inverse": true,
           "usage": "Active border color on dark backgrounds",
-          "deprecated": true
-        }
-      },
-      "error": {
-        "default": {
-          "value": "{color.state.error.500.value}",
-          "public": true,
-          "default": true,
-          "usage": "Error states border color on light backgrounds",
-          "wcag": "n/a",
           "deprecated": true
         }
       },
@@ -56,284 +294,6 @@
           "usage": "Focus border color for light backgrounds",
           "wcag": "n/a",
           "deprecated": true
-        }
-      },
-      "divider": {
-        "default": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": true,
-          "default": true,
-          "usage": "Strict use as divider between elements on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true
-        },
-        "inverse": {
-          "value": "{color.base.white.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "Strict use as divider between elements on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true
-        }
-      }
-    }
-  },
-  "border": {
-    "primary": {
-      "default": {
-        "value": "{classic.neutral.800.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.neutral.400.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "secondary": {
-      "default": {
-        "value": "{classic.neutral.500.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.neutral.600.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "tertiary": {
-      "default": {
-        "value": "{classic.grey.200.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.grey.700.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "error": {
-      "default": {
-        "value": "{base.error.400.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.error.200.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "success": {
-      "default": {
-        "value": "{base.success.400.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.success.200.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "warning": {
-      "default": {
-        "value": "{base.warning.300.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.warning.200.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "info": {
-      "default": {
-        "value": "{classic.navy.700.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.navy.400.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "accent": {
-      "default": {
-        "value": "{classic.lime.300.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.lime.400.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "emphasis": {
-      "default": {
-        "value": "{classic.navy.900.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.navy.100.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "subtle": {
-      "default": {
-        "value": "{classic.blue.100.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.navy.700.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "divider": {
-      "default": {
-        "value": "{base.black.6.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.white.6.value}",
-        "public": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "ui": {
-      "default": {
-        "default": {
-          "value": "{classic.blue.700.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.400.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "hover": {
-        "default": {
-          "value": "{classic.blue.900.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.200.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "focus": {
-        "default": {
-          "value": "{classic.blue.700.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.400.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "disabled": {
-        "default": {
-          "value": "{classic.grey.400.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.grey.600.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "active": {
-        "default": {
-          "value": "{classic.blue.800.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.300.value}",
-          "public": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
         }
       }
     }

@@ -2,261 +2,176 @@
   "color": {
     "tier": {
       "alaska": {
-        "mvp": {
+        "member": {
           "default": {
-            "value": "{color.brand.goldgray.200.value}",
+            "value": "{color.classic.grey.100.value}",
             "public": true,
-            "default": true,
-            "usage": "MVP tier color for Alaska Airlines",
+            "usage": "",
             "wcag": "n/a",
-            "deprecated": true
+            "deprecated": false
           },
           "inverse": {
-            "value": "{color.brand.goldgray.100.value}",
+            "value": "{color.classic.grey.100.value}",
             "public": true,
-            "inverse": true,
-            "usage": "MVP tier color for Alaska Airlines",
+            "usage": "",
             "wcag": "n/a",
-            "deprecated": true
+            "deprecated": false
+          }
+        },
+        "mvp": {
+          "default": {
+            "value": "#726e6c",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "c5c1bf",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
           }
         },
         "mvpgold": {
           "default": {
-            "value": "{color.brand.gold.200.value}",
+            "value": "#7f682e",
             "public": true,
-            "default": true,
-            "usage": "MVP Gold tier color for Alaska Airlines",
+            "usage": "",
             "wcag": "n/a",
-            "deprecated": true
+            "deprecated": false
           },
           "inverse": {
-            "value": "{color.brand.gold.100.value}",
+            "value": "#ccbc94",
             "public": true,
-            "inverse": true,
-            "usage": "MVP Gold tier color for Alaska Airlines",
+            "usage": "",
             "wcag": "n/a",
-            "deprecated": true
+            "deprecated": false
+          }
+        },
+        "mvp75k": {
+          "default": {
+            "value": "7f682e",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ccbc94",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "mvp100k": {
+          "default": {
+            "value": "7f682e",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ccbc94",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "fare": {
+        "saver": {
+          "default": {
+            "value": "{color.classic.cyan.500.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "economy": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.blue.300.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "business": {
+          "default": {
+            "value": "{color.classic.turquoise.800.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.turquoise.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "firstclass": {
+          "default": {
+            "value": "{color.classic.navy.1000.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
           }
         }
       },
       "oneworld": {
         "emerald": {
-          "value": "{color.brand.emerald.value}",
+          "value": "#139142",
           "public": true,
-          "onLight": true,
-          "usage": "Emerald tier color for Oneworld",
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": false
         },
         "sapphire": {
-          "value": "{color.brand.sapphire.value}",
+          "value": "#015daa",
           "public": true,
-          "onDark": true,
-          "usage": "Sapphire tier color for Oneworld",
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": false
         },
         "ruby": {
-          "value": "{color.brand.ruby.value}",
+          "value": "#a41d4a",
           "public": true,
-          "onDark": true,
-          "usage": "Ruby tier color for Oneworld",
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true
+          "deprecated": false
         }
       }
-    }
-  },
-  "alaska": {
-    "member": {
-      "default": {
-        "value": "{classic.grey.100.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "{classic.grey.100.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "mvp": {
-      "default": {
-        "value": "726e6c",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "c5c1bf",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "mvpgold": {
-      "default": {
-        "value": "7f682e",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "ccbc94",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "mvp75k": {
-      "default": {
-        "value": "7f682e",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "ccbc94",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "mvp100k": {
-      "default": {
-        "value": "7f682e",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "ccbc94",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    }
-  },
-  "fare": {
-    "saver": {
-      "default": {
-        "value": "{classic.cyan.500.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "{classic.cyan.200.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "economy": {
-      "default": {
-        "value": "{classic.blue.700.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "{classic.blue.300.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "business": {
-      "default": {
-        "value": "{classic.turquoise.800.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "{classic.turquoise.400.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    },
-    "firstclass": {
-      "default": {
-        "value": "{classic.navy.1000.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      },
-      "inverse": {
-        "value": "{classic.navy.400.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": true
-      }
-    }
-  },
-  "oneworld": {
-    "emerald": {
-      "value": "139142",
-      "public": true,
-      "default": true,
-      "usage": "",
-      "wcag": "n/a",
-      "deprecated": true
-    },
-    "sapphire": {
-      "value": "015daa",
-      "public": true,
-      "default": true,
-      "usage": "",
-      "wcag": "n/a",
-      "deprecated": true
-    },
-    "ruby": {
-      "value": "a41d4a",
-      "public": true,
-      "default": true,
-      "usage": "",
-      "wcag": "n/a",
-      "deprecated": true
     }
   }
 }

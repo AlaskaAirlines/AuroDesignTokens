@@ -1,260 +1,204 @@
 {
-  "icon": {
-    "primary": {
-      "default": {
-        "value": "{classic.grey.700.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.grey.100.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "secondary": {
-      "default": {
-        "value": "{classic.neutral.600.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.neutral.300.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "tertiary": {
-      "default": {
-        "value": "{classic.neutral.400.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.neutral.500.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "error": {
-      "default": {
-        "value": "{base.error.400.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.error.200.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "success": {
-      "default": {
-        "value": "{base.success.300.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.success.200.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "warning": {
-      "default": {
-        "value": "{base.warning.300.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{base.warning.300.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "info": {
-      "default": {
-        "value": "{classic.navy.700.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.cyan.500.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "accent": {
-      "default": {
-        "value": "{classic.lime.400.value}",
-        "public": true,
-        "default": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      },
-      "inverse": {
-        "value": "{classic.lime.300.value}",
-        "public": true,
-        "inverse": true,
-        "usage": "",
-        "wcag": "n/a",
-        "deprecated": false
-      }
-    },
-    "ui": {
-      "default": {
-        "default": {
-          "value": "{classic.blue.700.value}",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.500.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "hover": {
-        "default": {
-          "value": "{classic.blue.900.value}",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.200.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "focus": {
-        "default": {
-          "value": "{classic.blue.700.value}",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.400.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "disabled": {
-        "default": {
-          "value": "{classic.grey.400.value}",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.grey.600.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "active": {
-        "default": {
-          "value": "{classic.blue.800.value}",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{classic.cyan.300.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      }
-    }
-  },
   "color": {
     "icon": {
       "primary": {
         "default": {
-          "value": "{color.base.neutral.500.value}",
+          "value": "{color.classic.grey.700.value}",
           "public": true,
           "default": true,
-          "usage": "Primary color for icons on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.neutral.400.value}",
+          "value": "{color.classic.grey.100.value}",
           "public": true,
           "inverse": true,
-          "usage": "Primary color for icons on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.classic.neutral.600.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.neutral.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.classic.neutral.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.neutral.500.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.base.error.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.error.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.cyan.500.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.classic.lime.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.lime.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.500.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.classic.blue.900.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.classic.grey.400.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.grey.600.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "active": {
+          "default": {
+            "value": "{color.classic.blue.800.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.300.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         }
       },
       "emphasis": {
@@ -273,6 +217,42 @@
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
           "deprecated": true
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.base.success.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.success.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.base.warning.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.warning.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "accent": {
