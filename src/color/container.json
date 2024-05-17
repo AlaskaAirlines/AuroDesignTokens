@@ -3,7 +3,7 @@
     "container": {
       "primary": {
         "default": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white-100.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -52,7 +52,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.white.6.value}",
+          "value": "{color.base.white-6.value}",
           "comment": "",
           "public": true,
           "neutral": true,
@@ -307,7 +307,7 @@
         "secondary": {
           "default": {
             "default": {
-              "value": "{color.base.white.100.value}",
+              "value": "{color.base.white-100.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -316,7 +316,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.3.value}",
+              "value": "{color.base.white-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -336,7 +336,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.12.value}",
+              "value": "{color.base.white-12.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -347,7 +347,7 @@
           },
           "focus": {
             "default": {
-              "value": "{color.base.white.100.value}",
+              "value": "{color.base.white-100.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -356,7 +356,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.3.value}",
+              "value": "{color.base.white-3.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -376,7 +376,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.12.value}",
+              "value": "{color.base.white-12.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -396,7 +396,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.6.value}",
+              "value": "{color.base.white-6.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -418,7 +418,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.12.value}",
+              "value": "{color.base.white-12.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -438,7 +438,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.25.value}",
+              "value": "{color.base.white-25.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -458,7 +458,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.12.value}",
+              "value": "{color.base.white-12.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -478,7 +478,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.25.value}",
+              "value": "{color.base.white-25.value}",
               "comment": "",
               "public": true,
               "neutral": true,
@@ -498,7 +498,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white.6.value}",
+              "value": "{color.base.white-6.value}",
               "comment": "",
               "public": true,
               "neutral": true,

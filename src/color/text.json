@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.white.100.value}",
+          "value": "{color.base.white-100.value}",
           "public": true,
           "default": true,
           "usage": "",
