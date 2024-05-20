@@ -2,17 +2,6 @@
   "color": {
     "icon": {
       "primary": {
-        "onLight": {
-          "value": "{color.base.neutral.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Primary color for icons on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-primary-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.neutral.500.value}",
           "public": true,
@@ -20,17 +9,6 @@
           "usage": "Primary color for icons on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.neutral.400.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Primary color for icons on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-primary-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.base.neutral.400.value}",
@@ -42,17 +20,6 @@
         }
       },
       "emphasis": {
-        "onLight": {
-          "value": "{color.base.gray.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Emphasis or darkest icon color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-emphasis-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.gray.500.value}",
           "public": true,
@@ -60,17 +27,6 @@
           "usage": "Emphasis or darkest icon color on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Emphasis or lightest icon color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-emphasis-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.base.white.value}",
@@ -82,17 +38,6 @@
         }
       },
       "accent": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Accent color for icon color on light backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-accent-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
@@ -100,31 +45,9 @@
           "usage": "Accent color for icon color on light backgrounds",
           "wcag": "AA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Accent color for icon color on dark backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled icon color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-disabled-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.black-opacity-15.value}",
           "public": true,
@@ -132,17 +55,6 @@
           "usage": "Disabled icon color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white-opacity-40.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Disabled icon color on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         }
       }
     }
