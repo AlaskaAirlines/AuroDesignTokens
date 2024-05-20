@@ -1,114 +1,177 @@
 {
-    "color": {
-      "tier": {
-        "alaska": {
-          "mvp": {
-            "onLight": {
-              "value": "{color.brand.goldgray.200.value}",
-              "public": false,
-              "onLight": true,
-              "usage": "MVP tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": true,
-              "comment": "Deprecated token",
-              "reference": "color-tier-alaska-mvp-default",
-              "version": "3.15.0"
-            },
-            "default": {
-              "value": "{color.brand.goldgray.200.value}",
-              "public": true,
-              "default": true,
-              "usage": "MVP tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": false
-            },
-            "onDark": {
-              "value": "{color.brand.goldgray.100.value}",
-              "public": false,
-              "onDark": true,
-              "usage": "MVP tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": true,
-              "comment": "Deprecated token",
-              "reference": "color-tier-alaska-mvp-inverse",
-              "version": "3.15.0"
-            },
-            "inverse": {
-              "value": "{color.brand.goldgray.100.value}",
-              "public": true,
-              "inverse": true,
-              "usage": "MVP tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": false
-            }
+  "color": {
+    "tier": {
+      "alaska": {
+        "member": {
+          "default": {
+            "value": "{color.classic.grey.100.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
           },
-          "mvpgold": {
-            "onLight": {
-              "value": "{color.brand.gold.200.value}",
-              "public": false,
-              "onLight": true,
-              "usage": "MVP Gold tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": true,
-              "comment": "Deprecated token",
-              "reference": "color-tier-alaska-mvpgold-default",
-              "version": "3.15.0"
-            },
-            "default": {
-              "value": "{color.brand.gold.200.value}",
-              "public": true,
-              "default": true,
-              "usage": "MVP Gold tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": false
-            },
-            "onDark": {
-              "value": "{color.brand.gold.100.value}",
-              "public": false,
-              "onDark": true,
-              "usage": "MVP Gold tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": true,
-              "comment": "Deprecated token",
-              "reference": "color-tier-alaska-mvpgold-inverse",
-              "version": "3.15.0"
-            },
-            "inverse": {
-              "value": "{color.brand.gold.100.value}",
-              "public": true,
-              "inverse": true,
-              "usage": "MVP Gold tier color for Alaska Airlines",
-              "wcag": "n/a",
-              "deprecated": false
-            }
+          "inverse": {
+            "value": "{color.classic.grey.100.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
           }
         },
-        "oneworld": {
-          "emerald": {
-            "value": "{color.brand.emerald.value}",
+        "mvp": {
+          "default": {
+            "value": "#726e6c",
             "public": true,
-            "onLight": true,
-            "usage": "Emerald tier color for Oneworld",
+            "usage": "",
             "wcag": "n/a",
             "deprecated": false
           },
-          "sapphire": {
-            "value": "{color.brand.sapphire.value}",
+          "inverse": {
+            "value": "c5c1bf",
             "public": true,
-            "onDark": true,
-            "usage": "Sapphire tier color for Oneworld",
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "mvpgold": {
+          "default": {
+            "value": "#7f682e",
+            "public": true,
+            "usage": "",
             "wcag": "n/a",
             "deprecated": false
           },
-          "ruby": {
-            "value": "{color.brand.ruby.value}",
+          "inverse": {
+            "value": "#ccbc94",
             "public": true,
-            "onDark": true,
-            "usage": "Ruby tier color for Oneworld",
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "mvp75k": {
+          "default": {
+            "value": "7f682e",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ccbc94",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "mvp100k": {
+          "default": {
+            "value": "7f682e",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "ccbc94",
+            "public": true,
+            "usage": "",
             "wcag": "n/a",
             "deprecated": false
           }
         }
+      },
+      "fare": {
+        "saver": {
+          "default": {
+            "value": "{color.classic.cyan.500.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "economy": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.blue.300.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "business": {
+          "default": {
+            "value": "{color.classic.turquoise.800.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.turquoise.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "firstclass": {
+          "default": {
+            "value": "{color.classic.navy.1000.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "oneworld": {
+        "emerald": {
+          "value": "#139142",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "sapphire": {
+          "value": "#015daa",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "ruby": {
+          "value": "#a41d4a",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
       }
     }
   }
+}

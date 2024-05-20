@@ -146,14 +146,6 @@
         }
       }
     },
-    "none": {
-      "value": "0",
-      "comment": "Deprecated token, use 0 value",
-      "public": false,
-      "deprecated": true,
-      "reference": "n/a",
-      "version": "3.10.0"
-    },
     "25": {
       "value": 0.125,
       "comment": "2px",
@@ -237,78 +229,6 @@
       "comment": "80px",
       "public": true,
       "deprecated": false
-    },
-    "xxxs": {
-      "value": 0.125,
-      "comment": "{comments.reference.comment} auro-size-25",
-      "public": false,
-      "reference": "size-25",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "xxs": {
-      "value": 0.25,
-      "comment": "{comments.reference.comment} auro-size-50",
-      "public": false,
-      "reference": "size-50",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "xs": {
-      "value": 0.5,
-      "comment": "{comments.reference.comment} auro-size-100",
-      "public": false,
-      "reference": "size-100",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "sm": {
-      "value": 0.75,
-      "comment": "{comments.reference.comment} auro-size-150",
-      "public": false,
-      "reference": "size-150",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "md": {
-      "value": 1,
-      "comment": "{comments.reference.comment} auro-size-200",
-      "public": false,
-      "reference": "size-200",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "lg": {
-      "value": 1.5,
-      "comment": "{comments.reference.comment} auro-size-300",
-      "public": false,
-      "reference": "size-300",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "xl": {
-      "value": 2,
-      "comment": "{comments.reference.comment} auro-size-400",
-      "public": false,
-      "reference": "size-400",
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "xxl": {
-      "value": 3,
-      "comment": "{comments.reference.comment} auro-size-600",
-      "reference": "size-600",
-      "public": false,
-      "deprecated": true,
-      "version": "3.10.0"
-    },
-    "xxxl": {
-      "value": 4,
-      "public": false,
-      "deprecated": true,
-      "version": "3.10.0",
-      "comment": "{comments.reference.comment} auro-size-800",
-      "reference": "size-800"
     }
   }
 }

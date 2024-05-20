@@ -1,6 +1,6 @@
 {
-  "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
   "source": ["./src/color/*.json"],
+  "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",

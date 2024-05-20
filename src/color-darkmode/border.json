@@ -9,7 +9,7 @@
           "default": true,
           "usage": "Primary border color on dark background",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "divider": {
@@ -20,7 +20,7 @@
           "default": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

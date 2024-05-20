@@ -9,7 +9,7 @@
           "default": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "emphasis": {
@@ -20,7 +20,7 @@
           "default": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

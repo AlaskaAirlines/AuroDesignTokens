@@ -1,6 +1,6 @@
 {
-  "include": ["./src/color/base.json", "./src/color/brand.json", "./src/color/alert.json", "./src/comments.json"],
   "source": ["./src/color-darkmode/*.json"],
+  "include": ["./src/color/base.json", "./src/color/brand.json", "./src/color/alert.json", "./src/comments.json"],
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",

@@ -2,147 +2,267 @@
   "color": {
     "icon": {
       "primary": {
-        "onLight": {
-          "value": "{color.base.neutral.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Primary color for icons on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-primary-default",
-          "version": "3.15.0"
-        },
         "default": {
-          "value": "{color.base.neutral.500.value}",
+          "value": "{color.classic.grey.700.value}",
           "public": true,
           "default": true,
-          "usage": "Primary color for icons on light backgrounds",
-          "wcag": "AAA",
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.base.neutral.400.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Primary color for icons on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-primary-inverse",
-          "version": "3.15.0"
-        },
         "inverse": {
-          "value": "{color.base.neutral.400.value}",
+          "value": "{color.classic.grey.100.value}",
           "public": true,
           "inverse": true,
-          "usage": "Primary color for icons on dark backgrounds",
-          "wcag": "AAA",
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
-      "emphasis": {
-        "onLight": {
-          "value": "{color.base.gray.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Emphasis or darkest icon color on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-emphasis-default",
-          "version": "3.15.0"
-        },
+      "secondary": {
         "default": {
-          "value": "{color.base.gray.500.value}",
+          "value": "{color.classic.neutral.600.value}",
           "public": true,
           "default": true,
-          "usage": "Emphasis or darkest icon color on light backgrounds",
-          "wcag": "AAA",
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Emphasis or lightest icon color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-emphasis-inverse",
-          "version": "3.15.0"
-        },
         "inverse": {
-          "value": "{color.base.white.value}",
+          "value": "{color.classic.neutral.300.value}",
           "public": true,
           "inverse": true,
-          "usage": "Emphasis or lightest icon color on dark backgrounds",
-          "wcag": "AAA",
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.classic.neutral.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.neutral.500.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.error.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.cyan.500.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
       "accent": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Accent color for icon color on light backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-accent-default",
-          "version": "3.15.0"
-        },
         "default": {
-          "value": "{color.brand.atlas.400.value}",
+          "value": "{color.classic.lime.400.value}",
           "public": true,
           "default": true,
-          "usage": "Accent color for icon color on light backgrounds",
-          "wcag": "AA",
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Accent color for icon color on dark backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+        "inverse": {
+          "value": "{color.classic.lime.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.500.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.classic.blue.900.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.classic.grey.400.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.grey.600.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "active": {
+          "default": {
+            "value": "{color.classic.blue.800.value}",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.300.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.base.grey.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis or darkest icon color on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{color.base.white.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Emphasis or lightest icon color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.state.success.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.success.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.state.warning.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.warning.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled icon color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-icon-disabled-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.black-opacity-15.value}",
           "public": true,
           "default": true,
           "usage": "Disabled icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white-opacity-40.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Disabled icon color on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": true
         }
       }
     }

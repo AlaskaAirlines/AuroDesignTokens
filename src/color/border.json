@@ -2,218 +2,298 @@
   "color": {
     "border": {
       "primary": {
-        "onLight": {
-          "value": "{color.brand.neutral.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Primary border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-primary-default",
-          "version": "3.15.0"
-        },
         "default": {
-          "value": "{color.brand.neutral.500.value}",
+          "value": "{color.classic.neutral.800.value}",
           "public": true,
-          "default": true,
-          "usage": "Primary border color on light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.brand.neutral.400.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Primary border color on dark background",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-primary-inverse",
-          "version": "3.15.0"
-        },
         "inverse": {
-          "value": "{color.brand.neutral.400.value}",
+          "value": "{color.classic.neutral.400.value}",
           "public": true,
-          "inverse": true,
-          "usage": "Primary border color on dark background",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         }
       },
-      "active": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Active border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-active-default",
-          "version": "3.15.0"
-        },
+      "secondary": {
         "default": {
-          "value": "{color.brand.atlas.400.value}",
+          "value": "{color.classic.neutral.500.value}",
           "public": true,
-          "default": true,
-          "usage": "Active border color on light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Active border color on dark backgrounds",
+        "inverse": {
+          "value": "{color.classic.neutral.600.value}",
+          "public": true,
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.classic.grey.200.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
         "inverse": {
-          "value": "{color.brand.breeze.300.value}",
+          "value": "{color.classic.grey.700.value}",
           "public": true,
-          "inverse": true,
-          "usage": "Active border color on dark backgrounds",
+          "usage": "",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
       "error": {
-        "onLight": {
-          "value": "{color.state.error.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Error states border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-error-default",
-          "version": "3.15.0"
-        },
         "default": {
-          "value": "{color.state.error.500.value}",
+          "value": "{color.state.error.400.value}",
           "public": true,
-          "default": true,
-          "usage": "Error states border color on light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.state.error.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Error states border color on dark background",
+        "inverse": {
+          "value": "{color.state.error.200.value}",
+          "public": true,
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
-      "disabled": {
-        "onLight": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled border color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-disabled-default",
-          "version": "3.15.0"
-        },
+      "success": {
         "default": {
-          "value": "{color.base.gray.200.value}",
+          "value": "{color.state.success.400.value}",
           "public": true,
-          "default": true,
-          "usage": "Disabled border color on light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Disabled border color on dark background",
+        "inverse": {
+          "value": "{color.state.success.200.value}",
+          "public": true,
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
         }
       },
-      "Focus": {
-        "onLight": {
-          "value": "{color.base.gray.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Focus border color for light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-focus-default",
-          "version": "3.15.0"
-        },
+      "warning": {
         "default": {
-          "value": "{color.base.gray.500.value}",
+          "value": "{color.state.warning.300.value}",
           "public": true,
-          "default": true,
-          "usage": "Focus border color for light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Focus border color for dark backgrounds",
+        "inverse": {
+          "value": "{color.state.warning.200.value}",
+          "public": true,
+          "usage": "",
           "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.classic.lime.300.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.lime.400.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.classic.navy.900.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.100.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.classic.blue.100.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.navy.700.value}",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "divider": {
-        "onLight": {
-          "value": "{color.base.black-opacity-15.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Strict use as divider between elements on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-divider-default",
-          "version": "3.15.0"
-        },
         "default": {
-          "value": "{color.base.black-opacity-15.value}",
+          "value": "{color.base.black-6.value}",
           "public": true,
-          "default": true,
-          "usage": "Strict use as divider between elements on light backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Strict use as divider between elements on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-border-divider-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
-          "value": "{color.base.white.value}",
+          "value": "{color.base.white-6.value}",
           "public": true,
-          "inverse": true,
-          "usage": "Strict use as divider between elements on dark backgrounds",
+          "usage": "",
           "wcag": "n/a",
           "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.classic.blue.900.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.200.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.classic.blue.700.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.classic.grey.400.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.grey.600.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "active": {
+          "default": {
+            "value": "{color.classic.blue.800.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.cyan.300.value}",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Active border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Active border color on dark backgrounds",
+          "deprecated": true
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.base.grey.200.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
+        }
+      },
+      "Focus": {
+        "default": {
+          "value": "{color.base.grey.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Focus border color for light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true
         }
       }
     }

@@ -1,21 +1,295 @@
 {
   "color": {
     "background": {
+      "primary": {
+        "100": {
+          "default": {
+            "value": "{color.base.white-100.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.1000.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "200": {
+          "default": {
+            "value": "{color.classic.grey.100.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.900.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "300": {
+          "default": {
+            "value": "{color.classic.neutral.200.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.800.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "400": {
+          "default": {
+            "value": "{color.classic.grey.200.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.700.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "secondary": {
+        "100": {
+          "default": {
+            "value": "{color.base.white-100.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.1000.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "200": {
+          "default": {
+            "value": "{color.classic.grey.100.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.900.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "300": {
+          "default": {
+            "value": "{color.classic.neutral.200.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.800.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "400": {
+          "default": {
+            "value": "{color.classic.grey.200.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.classic.navy.700.value}",
+            "public": true,
+            "neutral": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.state.success.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.success.500.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.state.warning.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.warning.500.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.classic.blue.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.blue.900.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.classic.cyan.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.cyan.800.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.classic.blue.200.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.blue.800.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.classic.neutral.100.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.classic.grey.1000.value}",
+          "public": true,
+          "neutral": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
       "lightest": {
         "value": "{color.base.white.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "lighter": {
-        "value": "{color.base.gray.100.value}",
+        "value": "{color.base.grey.100.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating light backgrounds @ 90% white",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "darker": {
         "value": "{color.brand.midnight.400.value}",
@@ -23,7 +297,7 @@
         "neutral": true,
         "usage": "Used for creating dark backgrounds",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "darkest": {
         "value": "{color.brand.midnight.500.value}",
@@ -31,7 +305,7 @@
         "neutral": true,
         "usage": "Used for creating dark backgrounds @ 20% darker",
         "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true
       },
       "gradient": {
         "default": {
@@ -40,7 +314,7 @@
           "neutral": true,
           "usage": "Used for creating a gradient against all backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }
