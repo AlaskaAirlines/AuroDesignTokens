@@ -1,0 +1,28 @@
+{
+  "include": ["./src/themes/jetstream/*.json"],
+  "source": ["./src/themes/jetstream/color/*.json"],
+  "platforms": {
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/jetstream/",
+      "files": [
+        {
+          "destination": "JSONVariablesFlat.json",
+          "format": "json/flat",
+          "filter": {
+            "public": true
+          }
+        },
+        {
+          "destination": "JSONVariablesNested.json",
+          "format": "json/nested",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "text": {
+    "heading": {
+      "default": {
+        "weight": {
+          "value": "900",
+          "public": true,
+          "deprecated": false
+        },
+        "margin": {
+          "value": "0",
+          "public": true,
+          "deprecated": false
+        },
+        "spacing": {
+          "value": "0",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "display": {
+        "weight": {
+          "value": "900",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "800": {
+        "weight": {
+          "value": "800",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "700": {
+        "weight": {
+          "value": "700",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "600": {
+        "weight": {
+          "value": "600",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "500": {
+        "weight": {
+          "value": "500",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "400": {
+        "weight": {
+          "value": "400",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "300": {
+        "weight": {
+          "value": "300",
+          "public": true,
+          "deprecated": false
+        }
+      }
+    },
+    "body": {
+      "default": {
+        "weight": {
+          "value": "400",
+          "public": true,
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

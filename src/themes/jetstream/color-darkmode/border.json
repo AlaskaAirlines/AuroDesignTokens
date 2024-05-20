@@ -1,0 +1,82 @@
+{
+  "color": {
+    "border": {
+      "primary": {
+        "default": {
+          "value": "{color.brand.gray.300.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Primary border color on dark background with 10% opacity",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.gray.200.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary border color on dark backgrounds primary inverse",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "divider": {
+        "default": {
+          "value": "{color.jetstream.medium-blue.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Strict use as divider between elements on dark backgrounds with 30% opacity",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.white-gray.value}",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as divider between elements on dark backgrounds divider inverse",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as active between elements on dark backgrounds default",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as error between elements on dark backgrounds default",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.jetstream.medium-blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as disabled between elements on dark backgrounds default",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "focus": {
+        "default": {
+          "value": "6E8498",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as focus between elements on dark backgrounds default",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

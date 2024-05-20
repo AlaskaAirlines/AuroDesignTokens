@@ -1,0 +1,153 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "default": {
+          "value": "{color.brand.midnight.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary color for body and header text light mode and light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.gray.50.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary inverse color for body and header text light mode and light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.brand.gray.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Secondary color for body text on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.gray.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Secondary inverse color for body text on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.jetstream.gray.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link inverse color for body text on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.error.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error inverse color for body text on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.brand.atlas.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "0074CB",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis inverse color for body text on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    }
+  },
+  "text": {
+    "primary": {
+      "hover": {
+        "default": {
+          "value": "0d0d0d",
+          "public": true,
+          "default": true,
+          "usage": "Primary hover color for body and header text light mode and light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    },
+    "secondary": {
+      "hover": {
+        "default": {
+          "value": "3d3e40",
+          "public": true,
+          "default": true,
+          "usage": "Secondary hover color for body and header text light mode and light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    },
+    "tertiary": {
+      "default": {
+        "value": "84868b",
+        "jetstream": true,
+        "public": true,
+        "default": true,
+        "usage": "Tertiary color for body and header text light mode and light backgrounds",
+        "wcag": "",
+        "deprecated": false
+      },
+      "hover": {
+        "default": {
+          "value": "737373",
+          "public": true,
+          "default": true,
+          "usage": "Tertiary hover color for body and header text light mode and light backgrounds",
+          "wcag": "AA",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

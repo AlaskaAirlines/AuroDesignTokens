@@ -1,0 +1,64 @@
+{
+  "color": {
+    "ui": {
+      "default": {
+        "inverse": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Inverse interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "hover": {
+        "default": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Default hover color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "66BFFF",
+          "public": true,
+          "default": true,
+          "usage": "Inverse interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.brand.atlas.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Active state color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.jetstream.gray.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled state color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "bkgHover": {
+        "default": {
+          "value": "{color.jetstream.gray.50.value}",
+          "public": true,
+          "default": true,
+          "usage": "Background hover state color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

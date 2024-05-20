@@ -1,0 +1,56 @@
+{
+  "color": {
+    "alert": {
+      "bkgNotification": {
+        "inverse": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Notification color on dark backgrounds",
+          "wcag": "AA",
+          "deprecated": false
+        }
+      },
+      "notification": {
+        "default": {
+          "value": "4593fb",
+          "public": true,
+          "default": true,
+          "usage": "Notification color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "f56600",
+          "public": true,
+          "default": true,
+          "usage": "Warning color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "03ab2d",
+          "public": true,
+          "default": true,
+          "usage": "Success color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

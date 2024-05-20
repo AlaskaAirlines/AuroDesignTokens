@@ -1,0 +1,62 @@
+{
+  "color": {
+    "icon": {
+      "primary": {
+        "default": {
+          "value": "{color.brand.midnight.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary color for icons on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.gray.50.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Primary color for icons on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.brand.atlas.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis or darkest icon color on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Emphasis or lightest icon color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Accent color for icon color on light backgrounds",
+          "wcag": "AA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.jetstream.gray.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled icon color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

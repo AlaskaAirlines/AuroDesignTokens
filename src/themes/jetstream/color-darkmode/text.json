@@ -1,0 +1,106 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "default": {
+          "value": "{color.jetstream.gray.50.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Primary color for body and header text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "00274A",
+          "public": true,
+          "default": true,
+          "usage": "Primary inverse color for body and header text dark mode and dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.brand.gray.400.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Secondary color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "73889C",
+          "public": true,
+          "default": true,
+          "usage": "Secondary inverse color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.jetstream.dark-gray.100.value}",
+          "public": true,
+          "onDark": true,
+          "usage": "Disabled text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.jetstream.blue.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.active.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link inverse color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.state.error.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.state.error.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error inverse color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.jetstream.notification.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.jetstream.atlas.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis inverse color for body text on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

@@ -39,3 +39,11 @@ darkTokensConfig.buildAllPlatforms();
 const excursionConfig = StyleDictionary.extend('./scripts/config-excursion.json');
 
 excursionConfig.buildAllPlatforms();
+
+// Jetstream
+const jetstreamConfig = StyleDictionary.extend('./scripts/config-jetstream.json');
+jetstreamConfig.buildAllPlatforms();
+
+// Jetstream Darkmode
+const jetstreamDarkConfig = StyleDictionary.extend('./scripts/config-jetstream-darkmode.json');
+jetstreamDarkConfig.buildAllPlatforms();

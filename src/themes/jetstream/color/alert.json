@@ -1,0 +1,9 @@
+{
+  "alert": {
+    "bkgNotification": {
+      "inverse": {
+        "value": "blue"
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "color": {
+    "brand": {
+      "midnight": {
+        "400": {
+          "value": "01426A",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "00274A",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "atlas": {
+        "400": {
+          "value": "{color.jetstream.active.value}",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "054687",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "neutral": {
+        "500": {
+          "value": "626b79",
+          "public": true,
+          "comment": "",
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "F5F6F8",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "D6DCE2",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "{color.jetstream.gray.200.value}",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "73889C",
+          "comment": "",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "405D77",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "goldgray": {
+        "100": {
+          "value": "7B7B7B",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "C7C7C7",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "gold": {
+        "100": {
+          "value": "7E623D",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "8F7B39",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emerald": {
+        "value": "0F8C4A",
+        "public": true,
+        "neutral": true,
+        "usage": "Transactional colors to move guests through task-based interactions.",
+        "wcag": "n/a",
+        "deprecated": false
+      },
+      "sapphire": {
+        "value": "10699C",
+        "public": true,
+        "neutral": true,
+        "usage": "Transactional colors to move guests through task-based interactions.",
+        "wcag": "n/a",
+        "deprecated": false
+      },
+      "ruby": {
+        "value": "9C305A",
+        "public": true,
+        "neutral": true,
+        "usage": "Transactional colors to move guests through task-based interactions.",
+        "wcag": "n/a",
+        "deprecated": false
+      }
+    }
+  }
+}
