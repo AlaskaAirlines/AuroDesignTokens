@@ -3,13 +3,6 @@
     "hidden": {
       "value": "-1"
     },
-    "dialog": {
-      "value": "100",
-      "public": false,
-      "deprecated": true,
-      "reference": "depth-modal",
-      "version": "3.2.1"
-    },
     "overlay": {
       "value": "200",
       "public": true,

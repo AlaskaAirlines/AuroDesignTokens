@@ -2,17 +2,6 @@
   "color": {
     "text": {
       "primary": {
-        "onLight": {
-          "value": "{color.base.gray.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Primary color for body and header text on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-primary-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.gray.500.value}",
           "public": true,
@@ -20,17 +9,6 @@
           "usage": "Primary color for body and header text light mode and light backgrounds",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.white.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Primary color for body and header text on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-primary-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.base.white.value}",
@@ -42,17 +20,6 @@
         }
       },
       "secondary": {
-        "onLight": {
-          "value": "{color.base.neutral.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Secondary color for body text on light backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-secondary-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.neutral.500.value}",
           "public": true,
@@ -60,17 +27,6 @@
           "usage": "Secondary color for body text on light backgrounds",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.neutral.400.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Secondary color for body text on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-secondary-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.base.neutral.400.value}",
@@ -82,17 +38,6 @@
         }
       },
       "link": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Link text color on light backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-link-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
@@ -100,16 +45,6 @@
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Link text color on light backgrounds",
-          "wcag": "AA",
-          "deprecated":  true,
-          "reference": "color-text-link-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
@@ -121,17 +56,6 @@
         }
       },
       "error": {
-        "onLight": {
-          "value": "{color.state.error.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Error text color on light backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-error-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.state.error.500.value}",
           "public": true,
@@ -139,17 +63,6 @@
           "usage": "Error text color on light backgrounds",
           "wcag": "AA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.state.error.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Error text color on dark backgrounds",
-          "wcag": "AA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-error-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.state.error.100.value}",
@@ -161,17 +74,6 @@
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled text color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-disabled",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.base.gray.200.value}",
           "public": true,
@@ -179,31 +81,9 @@
           "usage": "Disabled text color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.base.gray.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Disabled text color on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         }
       },
       "emphasis": {
-        "onLight": {
-          "value": "{color.brand.midnight.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Emphasized text color on light backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-emphasis-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.midnight.400.value}",
           "public": true,
@@ -211,17 +91,6 @@
           "usage": "Emphasized text color on light backgrounds",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.midnight.100.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Emphasized text color on dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-text-emphasis-inverse",
-          "version": "3.15.0"
         },
         "inverse": {
           "value": "{color.brand.midnight.100.value}",

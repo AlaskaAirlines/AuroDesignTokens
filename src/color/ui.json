@@ -2,17 +2,6 @@
   "color": {
     "ui": {
       "default": {
-        "onLight": {
-          "value": "{color.brand.atlas.400.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Default interaction color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-default-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400.value}",
           "public": true,
@@ -20,17 +9,6 @@
           "usage": "Default interaction color affordance",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark interaction color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
@@ -42,17 +20,6 @@
         }
       },
       "hover": {
-        "onLight": {
-          "value": "{color.brand.atlas.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Default hover color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-hover-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
@@ -60,17 +27,6 @@
           "usage": "Default hover color affordance",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "Hover interaction color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
@@ -82,17 +38,6 @@
         }
       },
       "active": {
-        "onLight": {
-          "value": "{color.brand.atlas.500.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Active state color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-active-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.500.value}",
           "public": true,
@@ -100,17 +45,6 @@
           "usage": "Active state color affordance",
           "wcag": "AAA",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.200.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark active state color affordance",
-          "wcag": "AAA",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
@@ -121,17 +55,6 @@
         }
       },
       "disabled": {
-        "onLight": {
-          "value": "{color.brand.atlas.400-opacity-20.value}",
-          "public": false,
-          "onLight": true,
-          "usage": "Disabled state color affordance",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "color-ui-disabled-default",
-          "version": "3.15.0"
-        },
         "default": {
           "value": "{color.brand.atlas.400-opacity-20.value}",
           "public": true,
@@ -139,17 +62,6 @@
           "usage": "Disabled state color affordance",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "onDark": {
-          "value": "{color.brand.breeze.300-opacity-30.value}",
-          "public": false,
-          "onDark": true,
-          "usage": "OnDark disabled state color affordance",
-          "wcag": "n/a",
-          "deprecated": true,
-          "comment": "Deprecated token",
-          "reference": "n/a",
-          "version": "3.12.0"
         }
       },
       "bkg": {
@@ -170,26 +82,6 @@
           } 
         },
         "hover": {
-          "onDark": {
-            "value": "5de3f71a",
-            "public": false,
-            "onDark": true,
-            "usage": "Default hover affordance for background colors onDark",
-            "deprecated": true,
-            "comment": "Deprecated token",
-            "reference": "n/a",
-            "version": "3.12.0"
-          },
-          "onLight": {
-            "value": "0000000f",
-            "public": false,
-            "onLight": true,
-            "usage": "Default hover affordance for background colors",
-            "deprecated": true,
-            "comment": "Deprecated token",
-            "reference": "color-ui-bkg-hover-default",
-            "version": "3.15.0"
-          },
           "default": {
             "value": "0000000f",
             "public": true,
