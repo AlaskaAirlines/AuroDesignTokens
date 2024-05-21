@@ -1,6 +1,1010 @@
 {
   "color": {
     "brand": {
+      "neutral": {
+        "100": {
+          "value": "#f7f8fa",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#e4e8ec",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#ccd2db",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#afb9c6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#939fad",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#7e8894",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#6a717c",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#585e67",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#484d55",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#393d43",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "#f7f7f7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#dddddd",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#c5c5c5",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#adadad",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#959595",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#7e7e7e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#676767",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#525252",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#3d3d3d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#2a2a2a",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "red": {
+        "100": {
+          "value": "#fef7f5",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#fae2da",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#f5c7b8",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#f0a68d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#e9815e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#e35c2f",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#d03a08",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#ae3007",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#902806",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#732005",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "yellow": {
+        "100": {
+          "value": "#fff9df",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#ffe87e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#f9ce06",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#d6b622",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#b49d35",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#96873e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#7c7140",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#665e3d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#524e38",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#403d30",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "lime": {
+        "100": {
+          "value": "#f5fbeb",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#d8efb4",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#badd81",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#a2c270",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#8ca761",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#778f53",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#647845",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#53643a",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#44522f",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#364126",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "green": {
+        "100": {
+          "value": "#f3faf7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#d4ece4",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#addbca",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#7ec6ac",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#51ae8c",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#459578",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#3a7d64",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#306854",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#285545",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#1f4436",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "turquoise": {
+        "100": {
+          "value": "#f7fafa",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#dfe9ea",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#c2d5d6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#9fbdbe",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#7ba5a6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#5c8f91",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#3d7a7d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#21686a",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#085659",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#004447",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "cyan": {
+        "100": {
+          "value": "#ebfafd",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#a8e9f7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#6ad5ef",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#56bbde",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#4aa2c7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#3e89aa",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#32718e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#275b72",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#1d4658",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#12303d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "blue": {
+        "100": {
+          "value": "#f0f7fd",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#c9e0f7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#a0c9f1",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#79b2ec",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#5398e6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#3b7fd2",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#2c67b5",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#225296",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#193d73",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#102a51",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "navy": {
+        "100": {
+          "value": "#f2d7fb",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#cfe0ef",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#acc9e2",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#89b2d4",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#6899c6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#4a82b7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#326aa5",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#265688",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#194069",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#0e2b4f",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "purple": {
+        "100": {
+          "value": "#fbf8fe",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#ede3fd",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#ddc9fb",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#c9a9f8",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#b588f5",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#a268f3",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#8d47f0",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#7633d7",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#622ab2",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#4e228d",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "pink": {
+        "100": {
+          "value": "#fff7f8",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "#fde0e6",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#fcc2ce",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#fa9db0",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "#f7738e",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "#e45472",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "#bf475f",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "#a03b50",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "#833142",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "#692734",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
       "midnight": {
         "100": {
           "value": "c1daf0",
@@ -9,7 +1013,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "569ed7",
@@ -18,7 +1024,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "156fad",
@@ -27,7 +1035,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "01426a",
@@ -36,7 +1046,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "00274a",
@@ -45,7 +1057,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "atlas": {
@@ -56,7 +1070,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "6bb7fb",
@@ -65,7 +1081,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "2492eb",
@@ -74,7 +1092,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "0074c8",
@@ -83,12 +1103,21 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400-opacity-20": {
           "value": "0074c833",
           "comment": "color brand atlas 400 @ 20%",
-          "opacity": true
+          "opacity": true,
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "054687",
@@ -97,7 +1126,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "breeze": {
@@ -108,7 +1139,9 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "5de3f7",
@@ -117,366 +1150,338 @@
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "00cff0",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300-opacity-30": {
           "value": "00cff04d",
           "comment": "breeze 300 @ 30%",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "099dc5",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "0b5575",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "tropical": {
         "100": {
           "value": "e2ffcd",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "d0fba6",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "c0e585",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "91be62",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "5e8741",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "alpine": {
         "100": {
           "value": "bcaae6",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "9e73ea",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "8439ef",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "631db8",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "39115c",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "flamingo": {
         "100": {
           "value": "ffebee",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "ffc0ca",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "ff94a7",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "F65b7b",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "b82b47",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "canyon": {
         "100": {
           "value": "ffcab6",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "f99574",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "f26135",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "de3e09",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "b83302",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "goldcoast": {
         "100": {
           "value": "fff0cd",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "ffdb67",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "300": {
           "value": "ffd200",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "400": {
           "value": "e5ad07",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
+          "public": true,
           "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "500": {
           "value": "b88624",
-          "public": true,
           "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "Conversational colors add warmth and energy to our experience",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "neutral": {
-        "100": {
-          "value": "f9fbfc",
-          "public": true,
-          "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "TBD...",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "200": {
-          "value": "e2eaef",
-          "public": true,
-          "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "TBD...",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "300": {
-          "value": "cbd8e2",
-          "public": true,
-          "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "TBD...",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "400": {
-          "value": "9fabbb",
-          "public": true,
-          "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "TBD...",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "500": {
-          "value": "626b79",
-          "public": true,
-          "comment": "{comments.color.brand.value.comment}",
-          "neutral": true,
-          "usage": "TBD...",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "gray": {
-        "100": {
-          "value": "f8f8f8",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "Transactional colors to move guests through task-based interactions.",
           "wcag": "n/a",
-          "deprecated": false
-        },
-        "200": {
-          "value": "dbdbdb",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "300": {
-          "value": "b2b2b2",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "400": {
-          "value": "767676",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "500": {
-          "value": "222222",
-          "public": true,
-          "neutral": true,
-          "usage": "Neutral accent",
-          "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "goldgray": {
@@ -484,13 +1489,17 @@
           "value": "C5C1BF",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "726E6C",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "gold": {
@@ -498,32 +1507,42 @@
           "value": "CCBC94",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "7F682E",
           "public": true,
           "usage": "Tier branding color",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "emerald": {
         "value": "139142",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       },
       "sapphire": {
         "value": "015DAA",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       },
       "ruby": {
         "value": "A41D4A",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       }
     }
   }
