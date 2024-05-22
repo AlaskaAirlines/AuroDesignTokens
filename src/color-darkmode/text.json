@@ -9,7 +9,9 @@
           "default": true,
           "usage": "Primary color for body and header text on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "secondary": {
@@ -20,7 +22,9 @@
           "default": true,
           "usage": "Secondary color for body text on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "link": {
@@ -31,7 +35,9 @@
           "default": true,
           "usage": "Link text color on light backgrounds",
           "wcag": "AA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "error": {
@@ -42,7 +48,9 @@
           "default": true,
           "usage": "Error text color on dark backgrounds",
           "wcag": "AA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "emphasis": {
@@ -53,7 +61,9 @@
           "default": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       }
     }

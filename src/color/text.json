@@ -3,11 +3,11 @@
     "text": {
       "primary": {
         "default": {
-          "value": "{color.base.gray.500.value}",
+          "value": "{color.brand.gray.1000.value}",
           "public": true,
           "default": true,
           "usage": "Primary color for body and header text light mode and light backgrounds",
-          "wcag": "AAA",
+          "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
@@ -21,55 +21,55 @@
       },
       "secondary": {
         "default": {
-          "value": "{color.base.neutral.500.value}",
+          "value": "{color.brand.gray.800.value}",
           "public": true,
           "default": true,
           "usage": "Secondary color for body text on light backgrounds",
-          "wcag": "AAA",
+          "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.neutral.400.value}",
+          "value": "{color.brand.gray.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Secondary color for body text on dark backgrounds",
-          "wcag": "AAA",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
-      "link": {
+      "tertiary": {
         "default": {
-          "value": "{color.brand.atlas.400.value}",
+          "value": "{color.brand.neutral.700.value}",
           "public": true,
           "default": true,
-          "usage": "Link text color on light backgrounds",
-          "wcag": "AA",
+          "usage": "Tertiary color for body text on light backgrounds",
+          "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.brand.breeze.300.value}",
+          "value": "{color.brand.gray.800.value}",
           "public": true,
           "inverse": true,
-          "usage": "Link text color on light backgrounds",
-          "wcag": "AA",
+          "usage": "Tertiary color for body text on dark backgrounds",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
       "error": {
         "default": {
-          "value": "{color.state.error.500.value}",
+          "value": "{color.base.error.400.value}",
           "public": true,
           "default": true,
           "usage": "Error text color on light backgrounds",
-          "wcag": "AA",
+          "wcag": "n/a",
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.state.error.100.value}",
+          "value": "{color.base.error.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Error text color on dark backgrounds",
-          "wcag": "AA",
+          "wcag": "n/a",
           "deprecated": false
         }
       },
@@ -85,7 +85,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.brand.midnight.400.value}",
+          "value": "{color.brand.navy.800.value}",
           "public": true,
           "default": true,
           "usage": "Emphasized text color on light backgrounds",
@@ -93,12 +93,198 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.brand.midnight.100.value}",
+          "value": "{color.brand.navy.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Emphasized text color on dark backgrounds",
           "wcag": "n/a",
           "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.brand.lime.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.lime.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Accent text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.brand.navy.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "Info text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.navy.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Info text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.brand.cyan.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "Subtle text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.cyan.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Subtle text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.base.success.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Success text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.success.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Success text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "active": {
+          "default": {
+            "value": "{color.brand.blue.800.value}",
+            "public": true,
+            "default": true,
+            "usage": "Active UI text color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.300.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Active UI text color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "default": {
+          "default": {
+            "value": "{color.brand.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "Default UI text color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Default UI text color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.base.gray.400.value}",
+            "public": true,
+            "default": true,
+            "usage": "Disabled UI text color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.base.gray.600.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Disabled UI text color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.brand.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "Focus UI text color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Focus UI text color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.brand.blue.900.value}",
+            "public": true,
+            "default": true,
+            "usage": "Hover UI text color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.200.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Hover UI text color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "link": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Link text color on light backgrounds",
+          "wcag": "AA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       }
     }
