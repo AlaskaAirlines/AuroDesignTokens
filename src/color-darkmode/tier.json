@@ -10,7 +10,9 @@
             "default": true,
             "usage": "MVP tier color for Alaska Airlines",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           }
         },
         "mvpgold": {
@@ -21,7 +23,9 @@
             "default": true,
             "usage": "MVP Gold tier color for Alaska Airlines",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           }
         }
       }

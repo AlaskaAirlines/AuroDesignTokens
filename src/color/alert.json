@@ -8,7 +8,9 @@
           "default": true,
           "usage": "Notification color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "warning": {
@@ -18,7 +20,9 @@
           "default": true,
           "usage": "Warning color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "error": {
@@ -28,7 +32,9 @@
           "default": true,
           "usage": "Error color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "success": {
@@ -38,7 +44,9 @@
           "default": true,
           "usage": "Success color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "advisory": {
@@ -48,7 +56,9 @@
           "default": true,
           "usage": "Travel advisory or system maintenance color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "bkgSuccess": {
@@ -58,7 +68,9 @@
           "default": true,
           "usage": "Background success color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "bkgError": {
@@ -68,7 +80,9 @@
           "default": true,
           "usage": "Background error color on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       }
     }

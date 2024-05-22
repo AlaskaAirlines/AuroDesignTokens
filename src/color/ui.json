@@ -8,7 +8,9 @@
           "default": true,
           "usage": "Default interaction color affordance",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
@@ -16,7 +18,9 @@
           "inverse": true,
           "usage": "OnDark interaction color affordance",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "hover": {
@@ -26,7 +30,9 @@
           "default": true,
           "usage": "Default hover color affordance",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
@@ -34,7 +40,9 @@
           "inverse": true,
           "usage": "Hover interaction color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "active": {
@@ -44,14 +52,18 @@
           "default": true,
           "usage": "Active state color affordance",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Active state color affordance on dark backgrounds",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "disabled": {
@@ -61,7 +73,9 @@
           "default": true,
           "usage": "Disabled state color affordance",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "bkg": {
@@ -71,14 +85,18 @@
             "public": true,
             "default": true,
             "usage": "Default affordance for background colors",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           },
           "inverse": {
             "value": "ffffff08",
             "public": true,
             "inverse": true,
             "usage": "Default affordance for dark background colors",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           } 
         },
         "hover": {
@@ -87,14 +105,18 @@
             "public": true,
             "default": true,
             "usage": "Default hover affordance for background colors",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           },
           "inverse": {
             "value": "ffffff0f",
             "public": true,
             "inverse": true,
             "usage": "Default hover affordance for dark background colors",
-            "deprecated": false
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
           }
         }
       }
