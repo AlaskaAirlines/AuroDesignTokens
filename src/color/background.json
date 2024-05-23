@@ -1,76 +1,78 @@
 {
   "color": {
     "background": {
-      "100": {
-        "default": {
-          "value": "{color.base.white.value}",
-          "public": true,
-          "default": true,
-          "usage": "Used for creating light backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
+      "primary": {
+        "100": {
+          "default": {
+            "value": "{color.base.white.value}",
+            "public": true,
+            "default": true,
+            "usage": "Used for creating light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.navy.1000.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Used for creating dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
-        "inverse": {
-          "value": "{color.brand.navy.1000.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "Used for creating dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "200": {
-        "default": {
-          "value": "{color.brand.gray.100.value}",
-          "public": true,
-          "default": true,
-          "usage": "Used for creating light backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
+        "200": {
+          "default": {
+            "value": "{color.brand.gray.100.value}",
+            "public": true,
+            "default": true,
+            "usage": "Used for creating light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.navy.900.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Used for creating dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
-        "inverse": {
-          "value": "{color.brand.navy.900.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "Used for creating dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "300": {
-        "default": {
-          "value": "{color.brand.neutral.200.value}",
-          "public": true,
-          "default": true,
-          "usage": "Used for creating light backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
+        "300": {
+          "default": {
+            "value": "{color.brand.neutral.200.value}",
+            "public": true,
+            "default": true,
+            "usage": "Used for creating light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.navy.800.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Used for creating dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
-        "inverse": {
-          "value": "{color.brand.navy.800.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "Used for creating dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "400": {
-        "default": {
-          "value": "{color.brand.gray.200.value}",
-          "public": true,
-          "default": true,
-          "usage": "Used for creating light backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{color.brand.navy.700.value}",
-          "public": true,
-          "inverse": true,
-          "usage": "Used for creating dark backgrounds",
-          "wcag": "n/a",
-          "deprecated": false
+        "400": {
+          "default": {
+            "value": "{color.brand.gray.200.value}",
+            "public": true,
+            "default": true,
+            "usage": "Used for creating light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.navy.700.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Used for creating dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         }
       },
       "success": {
