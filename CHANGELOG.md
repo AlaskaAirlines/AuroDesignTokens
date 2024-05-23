@@ -1,5 +1,19 @@
 # Semantic Release Automated Changelog
 
+# [4.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.4.0...v4.5.0) (2024-05-23)
+
+
+### Features
+
+* add excursion theme [#151](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/151) ([1f33445](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/1f334454c520871a7130f9f4a086b777e2ad2010))
+* add new and depcrecate old tier 2 color tokens ([e3b946c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e3b946cda3a96842d23e4cd141284435f0d28960))
+* add new and deprecate old tier 1 color tokens ([4a40ba2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/4a40ba25a911ae5fcc869d81921045e76f2dcb78))
+
+
+### Performance Improvements
+
+* remove previously deprecated tokens ([1bc164b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/1bc164bc7b111f8defd6155edbd199711ca53ae5))
+
 # [4.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.3.1...v4.4.0) (2024-05-09)
 
 
