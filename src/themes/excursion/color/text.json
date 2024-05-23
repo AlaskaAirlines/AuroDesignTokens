@@ -1,136 +1,102 @@
 {
   "color": {
-    "background": {
+    "text": {
       "primary": {
-        "100": {
-          "default": {
-            "value": "{color.excursion.blue.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.blue.700.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
+        "default": {
+          "value": "{color.excursion.grey.900.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
-        "200": {
-          "default": {
-            "value": "{color.excursion.blue.200.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.blue.800.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
-        },
-        "300": {
-          "default": {
-            "value": "{color.excursion.blue.300.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.blue.900.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
-        },
-        "400": {
-          "default": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
+        "inverse": {
+          "value": "{color.base.white.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         }
       },
       "secondary": {
-        "100": {
-          "default": {
-            "value": "{color.excursion.green.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.green.800.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
-        "200": {
-          "default": {
-            "value": "{color.excursion.green.200.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.green.900.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
-        "300": {
-          "default": {
-            "value": "{color.excursion.green.300.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.excursion.green.1000.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          }
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
         },
-        "400": {
+        "hover": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "focus": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "disabled": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "active": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
           "default": {
             "value": "{color.excursion.grey.100.value}",
             "comment": "",
@@ -139,7 +105,31 @@
             "wcag": "n/a",
             "deprecated": false
           },
-          "inverse": {
+          "hover": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "focus": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "disabled": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "active": {
             "value": "{color.excursion.grey.100.value}",
             "comment": "",
             "public": true,
@@ -177,7 +167,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.green.500.value}",
+          "value": "{color.excursion.grey.100.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -241,7 +231,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.800.value}",
           "comment": "",
           "public": true,
           "usage": "",
