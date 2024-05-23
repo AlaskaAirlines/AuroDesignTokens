@@ -37,10 +37,14 @@ Pre-processed resources are available in the `./dist/tokens` directory of the [n
    |  ├── SCSSVariables.scss
    |  ├── SCSSVariablesMapFlat.scss
    |  └── SassCustomProperties.scss
-   └── excursion
+   └── excursion (BETA)
       ├── JSONVariablesFlat.json
       └── JSONVariablesNested.json
 ```
+
+### BETA Excursion release
+
+Auro Design Tokens v4.5.x includes some changes to existing token values as well as the inclusion of the new Excursion theme. This new theme is to be considered a BETA release with limited use. For all primary Auro UIs, please continue to use the primary Auro design tokens. Excursion is only intended for UIs that are being custom built to support this new UI with limited release. Expect significant changes in this space WITHOUT a MAJOR release. **You have been warned**.
 
 ### Resource Descriptions
 
