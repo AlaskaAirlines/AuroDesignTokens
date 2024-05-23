@@ -1,5 +1,6 @@
 {
   "source": ["./src/themes/excursion/color/*.json"],
+  "include": ["./src/themes/excursion/asset/*.json", "./src/themes/excursion/size/*.json", "./src/themes/excursion/*.json"],
   "platforms": {
     "JSONVariables": {
       "transformGroup": "css",
