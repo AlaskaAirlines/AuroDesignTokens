@@ -16,27 +16,30 @@ Pre-processed resources are available in the `./dist/tokens` directory of the [n
 
 ```
 └── tokens
-  ├── CSSCustomProperties.css
-  ├── CSSSizeCustomProperties.css
-  ├── JSData--color.js
-  ├── JSONVariablesFlat.json
-  ├── JSONVariablesNested.json
-  ├── JSObject--allTokens.js
-  ├── JSObject--deprecated.js
-  ├── JSVariables--color.js
-  ├── SCSSVariableMap.scss
-  ├── SCSSVariables.scss
-  ├── SCSSVariablesMapFlat.scss
-  ├── SassCustomProperties.scss
-  ├── SassSizeCustomProperties.scss
-  └── darkmode
-    ├── CSSCustomProperties.css
-    ├── JSDataColor.js
-    ├── JSObject--allDarkTokens.js
-    ├── JSVariablesColor.js
-    ├── SCSSVariables.scss
-    ├── SCSSVariablesMapFlat.scss
-    └── SassCustomProperties.scss
+   ├── CSSCustomProperties.css
+   ├── CSSSizeCustomProperties.css
+   ├── JSData--color.js
+   ├── JSONVariablesFlat.json
+   ├── JSONVariablesNested.json
+   ├── JSObject--allTokens.js
+   ├── JSObject--deprecated.js
+   ├── JSVariables--color.js
+   ├── SCSSVariableMap.scss
+   ├── SCSSVariables.scss
+   ├── SCSSVariablesMapFlat.scss
+   ├── SassCustomProperties.scss
+   ├── SassSizeCustomProperties.scss
+   ├── darkmode
+   |  ├── CSSCustomProperties.css
+   |  ├── JSDataColor.js
+   |  ├── JSObject--deprecatedDark.js
+   |  ├── JSVariablesColor.js
+   |  ├── SCSSVariables.scss
+   |  ├── SCSSVariablesMapFlat.scss
+   |  └── SassCustomProperties.scss
+   └── excursion
+      ├── JSONVariablesFlat.json
+      └── JSONVariablesNested.json
 ```
 
 ### Resource Descriptions
@@ -87,7 +90,7 @@ Moreover, if project specifications dictate the use of Sass variables, `SCSSVari
 @import "~@aurodesignsystem/design-tokens/dist/tokens/SCSSVariables.scss";
 ```
 
-**NOTE:** When developing new UI code in Sass, it's still advisable to leverage CSS custom properties over Sass variables. See **Install with CSS** below. 
+**NOTE:** When developing new UI code in Sass, it's still advisable to leverage CSS custom properties over Sass variables. See **Install with CSS** below.
 
 ### Install with CSS
 
@@ -115,4 +118,4 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN, every file in the dist directory 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/tokens/CSSCustomProperties.css">
 ```
 
-**Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs. Any additional CDN solution must be maintained by the team using this solution per this [Discussion](https://github.com/orgs/AlaskaAirlines/discussions/513). 
+**Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs. Any additional CDN solution must be maintained by the team using this solution per this [Discussion](https://github.com/orgs/AlaskaAirlines/discussions/513).
