@@ -73,6 +73,20 @@
               "wcag": "n/a",
               "deprecated": false
             }
+          },
+          "lounge": {
+            "value": "{color.brand.midnight.400.value}",
+            "public": true,
+            "usage": "lounge tier color for Alaska Airlines",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "loungeplus": {
+            "value": "{color.brand.loungeplus.value}",
+            "public": true,
+            "usage": "loungeplus tier color for Alaska Airlines",
+            "wcag": "n/a",
+            "deprecated": false
           }
         },
         "fare": {
