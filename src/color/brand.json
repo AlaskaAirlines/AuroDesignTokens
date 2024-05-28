@@ -1543,6 +1543,12 @@
         "deprecated": true,
         "version": "4.5.0",
         "reference": "n/a"
+      },
+      "loungeplus": {
+        "value": "53b390",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
       }
     }
   }
