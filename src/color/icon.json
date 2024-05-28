@@ -147,7 +147,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.base.success.100.value}",
+          "value": "{color.base.success.300.value}",
           "public": true,
           "default": true,
           "usage": "Success icon color on light backgrounds",
