@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.6.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.6.0...v4.6.1) (2024-05-28)
+
+
+### Bug Fixes
+
+* **iconSuccess:** update icon success to use correct base color #[#162](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/162) ([f4f0d4b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f4f0d4bcc59305ed77ea3b33dc19dd32982f6b6e))
+
 # [4.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.5.0...v4.6.0) (2024-05-28)
 
 
