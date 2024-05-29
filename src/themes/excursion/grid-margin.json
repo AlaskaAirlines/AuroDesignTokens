@@ -1,0 +1,29 @@
+{
+  "gridMargin": {
+    "xs": {
+      "value": "{size.200.value}",
+      "public": true,
+      "deprecated": false
+    },
+    "sm": {
+      "value": "{size.200.value}",
+      "public": true,
+      "deprecated": false
+    },
+    "md": {
+      "value": "{size.300.value}",
+      "public": true,
+      "deprecated": false
+    },
+    "lg": {
+      "value": "{size.400.value}",
+      "public": true,
+      "deprecated": false
+    },
+    "xl": {
+      "value": "{size.400.value}",
+      "public": true,
+      "deprecated": false
+    }
+  }
+}

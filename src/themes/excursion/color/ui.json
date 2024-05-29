@@ -1,0 +1,125 @@
+{
+  "color": {
+    "ui": {
+      "default": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Default interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "OnDark interaction color affordance",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "hover": {
+        "default": {
+          "value": "{color.brand.atlas.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Default hover color affordance",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Hover interaction color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.brand.atlas.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Active state color affordance",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Active state color affordance on dark backgrounds",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.brand.atlas.400-opacity-20.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled state color affordance",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "bkg": {
+        "default": {
+          "default": {
+            "value": "00000008",
+            "public": true,
+            "default": true,
+            "usage": "Default affordance for background colors",
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
+          },
+          "inverse": {
+            "value": "ffffff08",
+            "public": true,
+            "inverse": true,
+            "usage": "Default affordance for dark background colors",
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
+          } 
+        },
+        "hover": {
+          "default": {
+            "value": "0000000f",
+            "public": true,
+            "default": true,
+            "usage": "Default hover affordance for background colors",
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
+          },
+          "inverse": {
+            "value": "ffffff0f",
+            "public": true,
+            "inverse": true,
+            "usage": "Default hover affordance for dark background colors",
+            "deprecated": true,
+            "version": "4.5.0",
+            "reference": "n/a"
+          }
+        }
+      }
+    }
+  }
+}

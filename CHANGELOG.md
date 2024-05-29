@@ -1,5 +1,26 @@
 # Semantic Release Automated Changelog
 
+## [4.6.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.6.0...v4.6.1) (2024-05-28)
+
+
+### Bug Fixes
+
+* **iconSuccess:** update icon success to use correct base color #[#162](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/162) ([f4f0d4b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f4f0d4bcc59305ed77ea3b33dc19dd32982f6b6e))
+
+# [4.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.5.0...v4.6.0) (2024-05-28)
+
+
+### Features
+
+* add all tier 2 excursion tokens [#153](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/153) ([c9957da](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c9957da1a6b683807f19c6c618d137238db9bd90))
+* add full list of excursion tier 1 tokens [#153](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/153) ([7909ad3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/7909ad3155a3ddfdbca9303197a75cb8662556f1))
+* **background:** add additional name convention for theme support ([49fa189](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/49fa189cbd20ec777994f9819739e9a6862a2d3e))
+
+
+### Performance Improvements
+
+* add all non color classic tokens to excursion theme ([a6ffc04](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a6ffc0459e407500a9102a814d5b89059b1612df))
+
 # [4.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.4.0...v4.5.0) (2024-05-23)
 
 

@@ -1,0 +1,464 @@
+{
+  "color": {
+    "container": {
+      "accent": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Accent color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Accent color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Emphasis color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Error color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Info color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Info color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "primary": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Primary color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Secondary color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Secondary color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",      
+          "public": true,
+          "default": true,
+          "usage": "Subtle color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Subtle color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Success color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Success color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Tertiary color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Tertiary color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Warning color for containers on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Warning color for containers on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "primary": {
+          "active": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Primary active color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Primary active color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Primary default color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Primary default color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "disabled": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Primary disabled color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Primary disabled color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "focus": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Primary focus color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Primary focus color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "hover": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Primary hover color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Primary hover color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          }
+        },
+        "secondary": {
+          "active": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Secondary active color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Secondary active color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Secondary default color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Secondary default color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "disabled": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Secondary disabled color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Secondary disabled color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "focus": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Secondary focus color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Secondary focus color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "hover": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Secondary hover color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Secondary hover color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          }
+        },
+        "tertiary": {
+          "active": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Tertiary active color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Tertiary active color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Tertiary default color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Tertiary default color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "disabled": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Tertiary disabled color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Tertiary disabled color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "focus": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Tertiary focus color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Tertiary focus color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "hover": {
+            "default": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "default": true,
+              "usage": "Tertiary hover color for containers on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.excursion.grey.100.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Tertiary hover color for containers on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
