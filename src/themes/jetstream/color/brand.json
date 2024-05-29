@@ -7,7 +7,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -16,7 +16,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -27,7 +27,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -36,7 +36,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -57,7 +57,7 @@
           "value": "F5F6F8",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "{comments.color.brand.neutral.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -65,7 +65,7 @@
           "value": "D6DCE2",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "{comments.color.brand.neutral.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -74,7 +74,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "{comments.color.brand.neutral.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -83,7 +83,7 @@
           "comment": "",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "{comments.color.brand.neutral.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -91,7 +91,7 @@
           "value": "405D77",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "{comments.color.brand.neutral.comment}",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -101,7 +101,7 @@
           "value": "7B7B7B",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -109,7 +109,7 @@
           "value": "C7C7C7",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -119,7 +119,7 @@
           "value": "7E623D",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         },
@@ -127,7 +127,7 @@
           "value": "8F7B39",
           "public": true,
           "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
+          "usage": "{comments.color.brand.transactional.comment}",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -136,7 +136,7 @@
         "value": "0F8C4A",
         "public": true,
         "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
+        "usage": "{comments.color.brand.transactional.comment}",
         "wcag": "n/a",
         "deprecated": false
       },
@@ -144,7 +144,7 @@
         "value": "10699C",
         "public": true,
         "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
+        "usage": "{comments.color.brand.transactional.comment}",
         "wcag": "n/a",
         "deprecated": false
       },
@@ -152,7 +152,7 @@
         "value": "9C305A",
         "public": true,
         "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
+        "usage": "{comments.color.brand.transactional.comment}",
         "wcag": "n/a",
         "deprecated": false
       }

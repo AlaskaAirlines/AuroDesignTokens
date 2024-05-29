@@ -93,7 +93,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "0074CB",
+          "value": "#0074CB",
           "public": true,
           "default": true,
           "usage": "Emphasis inverse color for body text on light backgrounds",
@@ -107,7 +107,7 @@
     "primary": {
       "hover": {
         "default": {
-          "value": "0d0d0d",
+          "value": "#0d0d0d",
           "public": true,
           "default": true,
           "usage": "Primary hover color for body and header text light mode and light backgrounds",
@@ -119,7 +119,7 @@
     "secondary": {
       "hover": {
         "default": {
-          "value": "3d3e40",
+          "value": "#3d3e40",
           "public": true,
           "default": true,
           "usage": "Secondary hover color for body and header text light mode and light backgrounds",
@@ -130,7 +130,7 @@
     },
     "tertiary": {
       "default": {
-        "value": "84868b",
+        "value": "#84868b",
         "jetstream": true,
         "public": true,
         "default": true,
@@ -140,7 +140,7 @@
       },
       "hover": {
         "default": {
-          "value": "737373",
+          "value": "#737373",
           "public": true,
           "default": true,
           "usage": "Tertiary hover color for body and header text light mode and light backgrounds",

@@ -1,6 +1,6 @@
 {
-  "include": ["./src/themes/jetstream/*.json"],
   "source": ["./src/themes/jetstream/color/*.json"],
+  "include": ["./src/themes/jetstream/*.json"],
   "platforms": {
     "JSONVariables": {
       "transformGroup": "css",

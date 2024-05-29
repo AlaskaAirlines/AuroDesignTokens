@@ -2,77 +2,77 @@
   "color": {
     "jetstream": {
       "white": {
-        "value": "ffffff",
-        "comment": "",
+        "value": "#ffffff",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "deprecated": false
       },
       "black": {
-        "value": "000000",
-        "comment": "",
+        "value": "#000000",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "deprecated": false
       },
       "black-opacity-30": {
-        "value": "0000004d",
-        "comment": "black @ 30%",
+        "value": "#0000004d",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false
       },
       "gray": {
         "50": {
-          "value": "EBEEF1",
+          "value": "#EBEEF1",
           "public": true,
           "deprecated": false
         },
         "100": {
-          "value": "8C9EAE",
+          "value": "#8C9EAE",
           "public": true,
           "deprecated": false
         },
         "200": {
-          "value": "b2bec9",
+          "value": "#b2bec9",
           "public": true,
           "deprecated": false
         },
         "300": {
-          "value": "A6B3C0",
+          "value": "#A6B3C0",
           "public": true,
           "deprecated": false
         }
       },
       "dark-gray": {
-        "value": "4A657E",
-        "comment": "alias color for #4A657E",
+        "value": "#4A657E",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false
       },
       "white-gray": {
-        "value": "D9DFE4",
-        "comment": "alias color for #D9DFE4",
+        "value": "#D9DFE4",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false
       },
       "medium-blue": {
         "value": "254664",
-        "comment": "alias color for #254664",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false
       },
       "active": {
         "value": "0074c8",
-        "comment": "alias color for #0074c8",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false
       },
       "blue": {
         "value": "30A1F2",
-        "comment": "alias color for #30A1F2",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "deprecated": false

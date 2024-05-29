@@ -1,9 +1,10 @@
 {
+  "source": ["./src/themes/jetstream/color-darkmode/*.json"],
   "include": [
     "./src/themes/jetstream/color/base.json",
-    "./src/themes/jetstream/color/brand.json"
+    "./src/themes/jetstream/color/brand.json",
+    "./src/themes/jetstream/comments.json"
   ],
-  "source": ["./src/themes/jetstream/color-darkmode/*.json"],
   "platforms": {
     "JSONVariables": {
       "transformGroup": "css",
