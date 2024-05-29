@@ -129,7 +129,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.warning.100.value}",
+          "value": "{color.base.warning.300.value}",
           "public": true,
           "default": true,
           "usage": "Warning icon color on light backgrounds",
