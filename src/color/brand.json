@@ -1544,6 +1544,12 @@
         "version": "4.5.0",
         "reference": "n/a"
       },
+      "lounge": {
+        "value": "01426a",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
+      },
       "loungeplus": {
         "value": "53b390",
         "public": true,
