@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.6.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.6.1...v4.6.2) (2024-05-29)
+
+
+### Bug Fixes
+
+* **token:** correct the icon warning token value [#165](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/165) ([6731a10](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6731a1006cb516d5d49c194bc33f9b97748e16eb))
+
 ## [4.6.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.6.0...v4.6.1) (2024-05-28)
 
 
