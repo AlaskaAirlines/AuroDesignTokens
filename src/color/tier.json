@@ -75,7 +75,7 @@
             }
           },
           "lounge": {
-            "value": "{color.brand.midnight.400.value}",
+            "value": "{color.brand.lounge.value}",
             "public": true,
             "usage": "lounge tier color for Alaska Airlines",
             "wcag": "n/a",
