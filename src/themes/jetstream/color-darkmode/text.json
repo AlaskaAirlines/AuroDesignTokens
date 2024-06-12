@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "00274A",
+          "value": "{color.brand.midnight.500.value}",
           "public": true,
           "default": true,
           "usage": "Primary inverse color for body and header text dark mode and dark backgrounds",
@@ -93,7 +93,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.atlas.value}",
+          "value": "{color.brand.atlas.500.value}",
           "public": true,
           "default": true,
           "usage": "Emphasis inverse color for body text on dark backgrounds",

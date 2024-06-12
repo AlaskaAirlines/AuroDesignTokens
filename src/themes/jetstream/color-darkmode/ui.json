@@ -20,6 +20,14 @@
         }
       },
       "hover": {
+        "default": {
+          "value": "66BFFF",
+          "public": true,
+          "default": true,
+          "usage": "Default hover color affordance",
+          "wcag": "AAA",
+          "deprecated": false
+        },
         "inverse": {
           "value": "{color.jetstream.blue.value}",
           "public": true,
@@ -49,14 +57,16 @@
           "deprecated": false
         }
       },
-      "bkgHover": {
-        "default": {
-          "value": "{color.brand.midnight.400.value}",
-          "public": true,
-          "default": true,
-          "usage": "Background hover state color affordance",
-          "wcag": "AAA",
-          "deprecated": false
+      "bkg": {
+        "hover": {
+          "default": {
+            "value": "{color.jetstream.gray.100.value}",
+            "public": true,
+            "default": true,
+            "usage": "Background hover state color affordance",
+            "wcag": "AAA",
+            "deprecated": false
+          }
         }
       }
     }

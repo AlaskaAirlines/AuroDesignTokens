@@ -1,52 +1,49 @@
 {
   "color": {
     "brand": {
-      "atlas": {
-        "510": {
-          "value": "{color.jetstream.notification.value}",
-          "comment": "",
-          "public": true,
-          "neutral": true
-        }
-      },
       "gray": {
         "100": {
-          "value": "151B26",
+          "value": "151b26",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "TBD...",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
           "value": "293140",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "TBD...",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
           "value": "4A657E",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "TBD...",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
           "value": "8C9EAE",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "TBD...",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
           "value": "99A8B7",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
-          "usage": "Neutral accent",
+          "usage": "TBD...",
           "wcag": "n/a",
           "deprecated": false
         }
@@ -55,61 +52,61 @@
         "100": {
           "value": "C7C7C7",
           "public": true,
-          "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a",
-          "deprecated": false
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "7B7B7B",
           "public": true,
-          "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a",
-          "deprecated": false
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "gold": {
         "100": {
           "value": "B28A56",
           "public": true,
-          "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a",
-          "deprecated": false
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         },
         "200": {
           "value": "C2AB61",
           "public": true,
-          "neutral": true,
-          "usage": "Transactional colors to move guests through task-based interactions.",
-          "wcag": "n/a",
-          "deprecated": false
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
       },
       "emerald": {
         "value": "43D989",
         "public": true,
-        "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
-        "wcag": "n/a",
-        "deprecated": false
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       },
       "sapphire": {
         "value": "2EA5E8",
         "public": true,
-        "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
-        "wcag": "n/a",
-        "deprecated": false
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       },
       "ruby": {
         "value": "E876A3",
         "public": true,
-        "neutral": true,
-        "usage": "Transactional colors to move guests through task-based interactions.",
-        "wcag": "n/a",
-        "deprecated": false
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       }
     }
   }

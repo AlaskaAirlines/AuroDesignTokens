@@ -1,9 +1,42 @@
 {
-  "alert": {
-    "bkgNotification": {
-      "inverse": {
-        "value": "blue"
+  "color": {
+    "alert": {
+      "advisory": {
+        "default": {
+          "value": "faebdb",
+          "public": true,
+          "default": true,
+          "usage": "Travel advisory or system maintenance color on light backgrounds",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
       }
+    }
+  },
+  "bkgSuccess": {
+    "default": {
+      "value": "daeddd",
+      "public": true,
+      "default": true,
+      "usage": "Background success color on light backgrounds",
+      "wcag": "AAA",
+      "deprecated": true,
+      "version": "4.5.0",
+      "reference": "n/a"
+    }
+  },
+  "bkgError": {
+    "default": {
+      "value": "fadad9",
+      "public": true,
+      "default": true,
+      "usage": "Background error color on light backgrounds",
+      "wcag": "AAA",
+      "deprecated": true,
+      "version": "4.5.0",
+      "reference": "n/a"
     }
   }
 }

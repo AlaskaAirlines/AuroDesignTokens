@@ -49,14 +49,16 @@
           "deprecated": false
         }
       },
-      "bkgHover": {
-        "default": {
-          "value": "{color.jetstream.gray.50.value}",
-          "public": true,
-          "default": true,
-          "usage": "Background hover state color affordance",
-          "wcag": "AAA",
-          "deprecated": false
+      "bkg": {
+        "hover": {
+          "default": {
+            "value": "{color.jetstream.gray.50.value}",
+            "public": true,
+            "default": true,
+            "usage": "Background hover state color affordance",
+            "wcag": "AAA",
+            "deprecated": false
+          }
         }
       }
     }

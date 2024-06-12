@@ -7,11 +7,6 @@
           "public": true,
           "deprecated": false
         },
-        "margin": {
-          "value": "0",
-          "public": true,
-          "deprecated": false
-        },
         "spacing": {
           "value": "0",
           "public": true,
@@ -27,42 +22,42 @@
       },
       "800": {
         "weight": {
-          "value": "800",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
       },
       "700": {
         "weight": {
-          "value": "700",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
       },
       "600": {
         "weight": {
-          "value": "600",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
       },
       "500": {
         "weight": {
-          "value": "500",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
       },
       "400": {
         "weight": {
-          "value": "400",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
       },
       "300": {
         "weight": {
-          "value": "300",
+          "value": "900",
           "public": true,
           "deprecated": false
         }
@@ -71,7 +66,7 @@
     "body": {
       "default": {
         "weight": {
-          "value": "400",
+          "value": "450",
           "public": true,
           "deprecated": false
         }

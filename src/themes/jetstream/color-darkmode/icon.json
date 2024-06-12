@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.atlas.value}",
+          "value": "{color.brand.midnight.500.value}",
           "public": true,
           "inverse": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",

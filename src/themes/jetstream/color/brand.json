@@ -1,51 +1,47 @@
 {
   "color": {
     "brand": {
-      "midnight": {
-        "400": {
-          "value": "01426A",
-          "comment": "",
-          "public": true,
-          "neutral": true,
-          "usage": "{comments.color.brand.transactional.comment}",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "500": {
-          "value": "00274A",
-          "comment": "",
-          "public": true,
-          "neutral": true,
-          "usage": "{comments.color.brand.transactional.comment}",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
-      "atlas": {
-        "400": {
-          "value": "{color.jetstream.active.value}",
-          "comment": "",
-          "public": true,
-          "neutral": true,
-          "usage": "{comments.color.brand.transactional.comment}",
-          "wcag": "n/a",
-          "deprecated": false
-        },
-        "500": {
-          "value": "054687",
-          "comment": "",
-          "public": true,
-          "neutral": true,
-          "usage": "{comments.color.brand.transactional.comment}",
-          "wcag": "n/a",
-          "deprecated": false
-        }
-      },
       "neutral": {
+        "100": {
+          "value": "f9fbfc",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "e2eaef",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "#cbd8e2",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "#9fabbb",
+          "comment": "{comments.color.brand.value.comment}",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
         "500": {
           "value": "626b79",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
-          "comment": "",
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
@@ -70,7 +66,7 @@
           "deprecated": false
         },
         "300": {
-          "value": "{color.jetstream.gray.200.value}",
+          "value": "B2BEC9",
           "comment": "",
           "public": true,
           "neutral": true,
