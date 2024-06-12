@@ -4,7 +4,7 @@
       "alaska": {
         "mvp": {
           "default": {
-            "value": "#00436D",
+            "value": "00436D",
             "public": true,
             "default": true,
             "usage": "MVP tier color for Alaska Airlines",
@@ -12,7 +12,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "#71ADE3",
+            "value": "71ADE3",
             "public": true,
             "inverse": true,
             "usage": "MVP tier color for Alaska Airlines",
@@ -30,7 +30,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "#C2AB61",
+            "value": "C2AB61",
             "public": true,
             "inverse": true,
             "usage": "MVP Gold tier color for Alaska Airlines",

@@ -3,7 +3,8 @@
   "include": [
     "./src/themes/jetstream/color/base.json",
     "./src/themes/jetstream/color/brand.json",
-    "./src/themes/jetstream/comments.json"
+    "./src/themes/jetstream/*.json",
+    "./src/color/brand.json"
   ],
   "platforms": {
     "CSSCustomProperties": {

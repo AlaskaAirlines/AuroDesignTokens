@@ -2,23 +2,23 @@
   "color": {
     "background": {
       "lightest": {
-        "value": "{color.brand.midnight.500.value}",
+        "value": "0D1119",
         "public": true,
         "neutral": true,
-        "usage": "Used for creating dark backgrounds",
+        "usage": "Used for creating light backgrounds",
         "wcag": "n/a",
         "deprecated": false
       },
       "lighter": {
-        "value": "{color.brand.midnight.400.value}",
+        "value": "{color.brand.gray.100.value}",
         "public": true,
         "neutral": true,
-        "usage": "Used for creating dark backgrounds",
+        "usage": "Used for creating light backgrounds @ 90% white",
         "wcag": "n/a",
         "deprecated": false
       },
       "darker": {
-        "value": "{color.brand.gray.100.value}",
+        "value": "1F2533",
         "public": true,
         "neutral": true,
         "usage": "Used for creating dark backgrounds",
@@ -26,7 +26,7 @@
         "deprecated": false
       },
       "darkest": {
-        "value": "color.brand.atlas.400.value",
+        "value": "{color.brand.gray.200.value}",
         "public": true,
         "neutral": true,
         "usage": "Used for creating dark backgrounds @ 20% darker",

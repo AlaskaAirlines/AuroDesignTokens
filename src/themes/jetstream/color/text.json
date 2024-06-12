@@ -93,58 +93,11 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "#0074CB",
+          "value": "0074CB",
           "public": true,
           "default": true,
           "usage": "Emphasis inverse color for body text on light backgrounds",
           "wcag": "AAA",
-          "deprecated": false
-        }
-      }
-    }
-  },
-  "text": {
-    "primary": {
-      "hover": {
-        "default": {
-          "value": "#0d0d0d",
-          "public": true,
-          "default": true,
-          "usage": "Primary hover color for body and header text light mode and light backgrounds",
-          "wcag": "AAA",
-          "deprecated": false
-        }
-      }
-    },
-    "secondary": {
-      "hover": {
-        "default": {
-          "value": "#3d3e40",
-          "public": true,
-          "default": true,
-          "usage": "Secondary hover color for body and header text light mode and light backgrounds",
-          "wcag": "AAA",
-          "deprecated": false
-        }
-      }
-    },
-    "tertiary": {
-      "default": {
-        "value": "#84868b",
-        "jetstream": true,
-        "public": true,
-        "default": true,
-        "usage": "Tertiary color for body and header text light mode and light backgrounds",
-        "wcag": "",
-        "deprecated": false
-      },
-      "hover": {
-        "default": {
-          "value": "#737373",
-          "public": true,
-          "default": true,
-          "usage": "Tertiary hover color for body and header text light mode and light backgrounds",
-          "wcag": "AA",
           "deprecated": false
         }
       }

@@ -1,55 +1,41 @@
 {
   "color": {
     "alert": {
-      "bkgNotification": {
-        "inverse": {
-          "value": "{color.jetstream.blue.value}",
-          "public": true,
-          "onDark": true,
-          "usage": "Notification color on dark backgrounds",
-          "wcag": "AA",
-          "deprecated": false
-        }
-      },
-      "notification": {
+      "advisory": {
         "default": {
-          "value": "4593fb",
+          "value": "6e2e00",
           "public": true,
           "default": true,
-          "usage": "Notification color on dark backgrounds",
+          "usage": "Travel advisory or system maintenance color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
         }
-      },
-      "warning": {
-        "default": {
-          "value": "f56600",
-          "public": true,
-          "default": true,
-          "usage": "Warning color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": false
-        }
-      },
-      "error": {
-        "default": {
-          "value": "{color.state.error.500.value}",
-          "public": true,
-          "default": true,
-          "usage": "Error color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": false
-        }
-      },
-      "success": {
-        "default": {
-          "value": "03ab2d",
-          "public": true,
-          "default": true,
-          "usage": "Success color on dark backgrounds",
-          "wcag": "AAA",
-          "deprecated": false
-        }
+      }
+    },
+    "bkgSuccess": {
+      "default": {
+        "value": "014d14",
+        "public": true,
+        "default": true,
+        "usage": "Background success color on light backgrounds",
+        "wcag": "AAA",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      }
+    },
+    "bkgError": {
+      "default": {
+        "value": "6b0500",
+        "public": true,
+        "default": true,
+        "usage": "Background error color on light backgrounds",
+        "wcag": "AAA",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       }
     }
   }

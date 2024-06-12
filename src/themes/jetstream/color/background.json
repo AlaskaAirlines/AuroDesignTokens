@@ -4,18 +4,11 @@
       "darker": {
         "value": "{color.brand.atlas.500.value}",
         "public": true,
-        "neutral": true,
         "usage": "Used for creating dark backgrounds",
         "wcag": "n/a",
-        "deprecated": false
-      },
-      "darkest": {
-        "value": "{color.brand.midnight.500.value}",
-        "public": true,
-        "neutral": true,
-        "usage": "Used for creating dark backgrounds",
-        "wcag": "n/a",
-        "deprecated": false
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
       }
     }
   }

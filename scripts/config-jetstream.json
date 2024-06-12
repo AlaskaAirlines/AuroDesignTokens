@@ -1,6 +1,6 @@
 {
   "source": ["./src/themes/jetstream/color/*.json"],
-  "include": ["./src/themes/jetstream/*.json"],
+  "include": ["./src/themes/jetstream/*.json", "./src/color/brand.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",

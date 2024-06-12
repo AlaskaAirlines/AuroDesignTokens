@@ -3,7 +3,7 @@
     "border": {
       "primary": {
         "default": {
-          "value": "{color.brand.gray.300.value}",
+          "value": "{color.jetstream.dark-gray.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary border color on dark background with 10% opacity",
@@ -49,7 +49,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.state.error.500.value}",
+          "value": "{color.state.error.400.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as error between elements on dark backgrounds default",
