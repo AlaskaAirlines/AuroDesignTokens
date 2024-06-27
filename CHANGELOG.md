@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [4.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.7.0...v4.8.0) (2024-06-27)
+
+
+### Features
+
+* add lounge tier color tokens [#110](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/110) ([aefa576](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/aefa576195fe9dff1806547821f3b4513651b8d5))
+* add lounge tier color tokens [#110](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/110) ([27cd6bb](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/27cd6bb0504a0c8c3b4e954cbf867188ec60974f))
+
 # [4.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.6.2...v4.7.0) (2024-06-11)
 
 
