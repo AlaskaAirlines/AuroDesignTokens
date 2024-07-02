@@ -1,0 +1,26 @@
+{
+  "source": ["./src/themes/jetstream/color-darkmode/*.json"],
+  "include": [
+    "./src/themes/jetstream/color/base.json",
+    "./src/themes/jetstream/color/brand.json",
+    "./src/themes/jetstream/*.json",
+    "./src/color/brand.json"
+  ],
+  "platforms": {
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/jetstream/darkmode/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    }
+  }
+}

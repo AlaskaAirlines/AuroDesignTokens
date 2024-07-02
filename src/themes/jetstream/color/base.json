@@ -1,0 +1,112 @@
+{
+  "color": {
+    "jetstream": {
+      "white": {
+        "value": "ffffff",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "white-opacity-40": {
+        "value": "ffffff66",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
+      "black": {
+        "value": "000000",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "black-opacity-30": {
+        "value": "00000026",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "opacity": true,
+        "deprecated": false
+      },
+      "gray": {
+        "50": {
+          "value": "EBEEF1",
+          "public": true,
+          "deprecated": false
+        },
+        "100": {
+          "value": "8C9EAE",
+          "public": true,
+          "deprecated": false
+        },
+        "200": {
+          "value": "b2bec9",
+          "public": true,
+          "deprecated": false
+        },
+        "300": {
+          "value": "A6B3C0",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "dark-gray": {
+        "value": "4A657E",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "white-gray": {
+        "value": "D9DFE4",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "medium-blue": {
+        "value": "254664",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "active": {
+        "value": "0074c8",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      },
+      "blue": {
+        "value": "30A1F2",
+        "comment": "{comments.color.base.value.comment}",
+        "public": true,
+        "deprecated": false
+      }
+    },
+    "state": {
+      "error": {
+        "400": {
+          "value": "ED0C00",
+          "public": true,
+          "deprecated": false
+        },
+        "500": {
+          "value": "DB0B00",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "success": {
+        "500": {
+          "value": "068A1E",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "500": {
+          "value": "DE750C",
+          "public": true,
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
