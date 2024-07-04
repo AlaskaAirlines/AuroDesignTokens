@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.gray.50.value}",
+          "value": "{color.base.gray.50.value}",
           "public": true,
           "default": true,
           "usage": "Primary inverse color for body and header text light mode and light backgrounds",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.gray.100.value}",
+          "value": "{color.base.gray.100.value}",
           "public": true,
           "default": true,
           "usage": "Secondary inverse color for body text on light backgrounds",
@@ -39,7 +39,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.gray.300.value}",
+          "value": "{color.base.gray.300.value}",
           "public": true,
           "default": true,
           "usage": "Disabled text color on light backgrounds",
@@ -57,7 +57,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Link inverse color for body text on light backgrounds",

@@ -1,6 +1,6 @@
 {
   "color": {
-    "jetstream": {
+    "base": {
       "white": {
         "value": "ffffff",
         "comment": "{comments.color.base.value.comment}",

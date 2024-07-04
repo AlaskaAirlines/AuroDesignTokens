@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.gray.50.value}",
+          "value": "{color.base.gray.50.value}",
           "public": true,
           "inverse": true,
           "usage": "Primary color for icons on dark backgrounds",
@@ -49,7 +49,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.gray.300.value}",
+          "value": "{color.base.gray.300.value}",
           "public": true,
           "default": true,
           "usage": "Disabled icon color on light backgrounds",

@@ -3,7 +3,7 @@
     "icon": {
       "primary": {
         "default": {
-          "value": "{color.jetstream.gray.50.value}",
+          "value": "{color.base.gray.50.value}",
           "public": true,
           "default": true,
           "usage": "Primary color for icons on dark backgrounds",
@@ -21,7 +21,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.jetstream.active.value}",
+          "value": "{color.base.active.value}",
           "public": true,
           "default": true,
           "usage": "Emphasis or darkest icon color on dark backgrounds",
@@ -39,7 +39,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Accent color for icon color on dark backgrounds",
@@ -49,7 +49,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.dark-gray.100.value}",
+          "value": "{color.base.dark-gray.value}",
           "public": true,
           "default": true,
           "usage": "Disabled icon color on dark backgrounds",

@@ -3,7 +3,7 @@
     "ui": {
       "default": {
         "inverse": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Inverse interaction color affordance",
@@ -13,7 +13,7 @@
       },
       "hover": {
         "default": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Default hover color affordance",
@@ -41,7 +41,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.gray.300.value}",
+          "value": "{color.base.gray.300.value}",
           "public": true,
           "default": true,
           "usage": "Disabled state color affordance",
@@ -52,7 +52,7 @@
       "bkg": {
         "hover": {
           "default": {
-            "value": "{color.jetstream.gray.50.value}",
+            "value": "{color.base.gray.50.value}",
             "public": true,
             "default": true,
             "usage": "Background hover state color affordance",

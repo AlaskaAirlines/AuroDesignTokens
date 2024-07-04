@@ -3,7 +3,7 @@
     "text": {
       "primary": {
         "default": {
-          "value": "{color.jetstream.gray.50.value}",
+          "value": "{color.base.gray.50.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary color for body and header text on dark backgrounds",
@@ -39,7 +39,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.dark-gray.100.value}",
+          "value": "{color.base.dark-gray.value}",
           "public": true,
           "onDark": true,
           "usage": "Disabled text color on dark backgrounds",
@@ -49,7 +49,7 @@
       },
       "link": {
         "default": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Link text color on dark backgrounds",
@@ -57,7 +57,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.active.value}",
+          "value": "{color.base.active.value}",
           "public": true,
           "default": true,
           "usage": "Link inverse color for body text on dark backgrounds",
@@ -85,7 +85,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.jetstream.notification.value}",
+          "value": "{color.brand.atlas.500.value}",
           "public": true,
           "default": true,
           "usage": "Emphasis text color on dark backgrounds",

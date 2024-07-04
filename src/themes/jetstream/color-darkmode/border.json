@@ -3,7 +3,7 @@
     "border": {
       "primary": {
         "default": {
-          "value": "{color.jetstream.dark-gray.value}",
+          "value": "{color.base.dark-gray.value}",
           "public": true,
           "onDark": true,
           "usage": "Primary border color on dark background with 10% opacity",
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.gray.200.value}",
+          "value": "{color.base.gray.200.value}",
           "public": true,
           "default": true,
           "usage": "Primary border color on dark backgrounds primary inverse",
@@ -21,7 +21,7 @@
       },
       "divider": {
         "default": {
-          "value": "{color.jetstream.medium-blue.value}",
+          "value": "{color.base.medium-blue.value}",
           "public": true,
           "onDark": true,
           "usage": "Strict use as divider between elements on dark backgrounds with 30% opacity",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.jetstream.white-gray.value}",
+          "value": "{color.base.white-gray.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as divider between elements on dark backgrounds divider inverse",
@@ -39,7 +39,7 @@
       },
       "active": {
         "default": {
-          "value": "{color.jetstream.blue.value}",
+          "value": "{color.base.blue.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as active between elements on dark backgrounds default",
@@ -59,7 +59,7 @@
       },
       "disabled": {
         "default": {
-          "value": "{color.jetstream.medium-blue.value}",
+          "value": "{color.base.medium-blue.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as disabled between elements on dark backgrounds default",
