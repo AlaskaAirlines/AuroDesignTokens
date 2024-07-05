@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [4.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.8.0...v4.9.0) (2024-07-05)
+
+
+### Features
+
+* **greyscale:** add greyscale icon tokens [#170](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/170) ([b32653e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b32653e23900cef4024b03ee71315644def5b994))
+
 # [4.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.7.0...v4.8.0) (2024-06-27)
 
 
