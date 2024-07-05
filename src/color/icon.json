@@ -271,6 +271,98 @@
             "wcag": "n/a",
             "deprecated": false
           }
+        },
+        "secondary": {
+          "active": {
+            "default": {
+              "value": "{color.brand.gray.700.value}",
+              "public": true,
+              "default": true,
+              "usage": "Focus color for UI icons on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.gray.300.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Focus color for UI icons on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "default": {
+            "default": {
+              "value": "{color.brand.gray.600.value}",
+              "public": true,
+              "default": true,
+              "usage": "Focus color for UI icons on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.gray.400.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Focus color for UI icons on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "disabled": {
+            "default": {
+              "value": "{color.brand.gray.400.value}",
+              "public": true,
+              "default": true,
+              "usage": "Focus color for UI icons on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.gray.600.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Focus color for UI icons on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "focus": {
+            "default": {
+              "value": "{color.brand.gray.600.value}",
+              "public": true,
+              "default": true,
+              "usage": "Focus color for UI icons on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.gray.400.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Focus color for UI icons on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          },
+          "hover": {
+            "default": {
+              "value": "{color.brand.gray.800.value}",
+              "public": true,
+              "default": true,
+              "usage": "Focus color for UI icons on light backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.gray.200.value}",
+              "public": true,
+              "inverse": true,
+              "usage": "Focus color for UI icons on dark backgrounds",
+              "wcag": "n/a",
+              "deprecated": false
+            }
+          }
         }
       },
       "brand": {
