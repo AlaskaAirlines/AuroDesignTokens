@@ -23,6 +23,39 @@
           }
         }
       ]
+    },
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/excursion/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "CSSSizeCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: size, public",
+      "buildPath": "./dist/tokens/excursion/",
+      "files": [
+        {
+          "destination": "CSSSizeCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
+          }
+        }
+      ]
     }
   }
 }
