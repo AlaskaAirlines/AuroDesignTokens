@@ -3,7 +3,7 @@
     "icon": {
       "primary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.grey.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -21,7 +21,7 @@
       },
       "secondary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.neutral.600.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.neutral.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -39,7 +39,7 @@
       },
       "tertiary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.neutral.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -47,7 +47,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.neutral.500.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -58,7 +58,7 @@
       "ui": {
         "default": {
           "default": {
-            "value": "{color.brand.blue.700.value}",
+            "value": "{color.brand.blue.900.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -66,7 +66,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.green.500.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -76,7 +76,7 @@
         },
         "hover": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.blue.1000.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -84,7 +84,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.blue.400.value}",
+            "value": "{color.excursion.green.300.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -94,7 +94,7 @@
         },
         "focus": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.blue.900.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -102,7 +102,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.green.500.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -112,7 +112,7 @@
         },
         "disabled": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.base.white-100.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -120,7 +120,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.grey.900.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -130,7 +130,7 @@
         },
         "active": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.blue.1000.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -138,7 +138,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.green.300.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -149,7 +149,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.error.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -157,7 +157,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.error.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -167,7 +167,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.excursion.green.700.value}",
+          "value": "{color.base.success.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -175,7 +175,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.success.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -185,7 +185,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -193,7 +193,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -203,7 +203,7 @@
       },
       "info": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.700.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -211,7 +211,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.700.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -221,7 +221,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.500.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -229,7 +229,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -275,7 +275,7 @@
       },
       "red": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.red.700.value}",
           "comment": "",
           "public": true,
           "usage": "",

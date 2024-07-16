@@ -2,6 +2,44 @@
     "color": {
       "tier": {
         "alaska": {
+          "member": {
+            "primary": {
+              "default": {
+                "value": "{color.excursion.blue.500.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.blue.500.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{color.excursion.green.400.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.green.400.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
+            }
+          },
           "mvp": {
             "default": {
               "value": "{color.excursion.grey.100.value}",
@@ -18,32 +56,88 @@
               "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
               "wcag": "n/a",
               "deprecated": false
+            },
+            "primary": {
+              "default": {
+                "value": "{color.excursion.blue.600.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.blue.600.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{color.excursion.green.500.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.green.500.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
             }
           },
           "mvpgold": {
-            "default": {
-              "value": "{color.excursion.grey.100.value}",
-              "public": true,
-              "default": true,
-              "usage": "MVP Gold tier color for Alaska Airlines on light backgrounds",
-              "wcag": "n/a",
-              "deprecated": false
+            "primary": {
+              "default": {
+                "value": "{color.excursion.blue.700.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.yellow.400.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
             },
-            "inverse": {
-              "value": "{color.excursion.grey.100.value}",
-              "public": true,
-              "inverse": true,
-              "usage": "MVP Gold tier color for Alaska Airlines on dark backgrounds",
-              "wcag": "n/a",
-              "deprecated": false
+            "secondary": {
+              "default": {
+                "value": "{color.excursion.yellow.400.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.blue.700.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
             }
           },
-          "mvpgold75k" :{
+          "mvpgold75k":  {
             "default": {
               "value": "{color.excursion.grey.100.value}",
               "public": true,
               "default": true,
-              "usage": "MVP Gold 75k tier color for Alaska Airlines on light backgrounds",
+              "usage": "MVP tier color for Alaska Airlines on light backgrounds",
               "wcag": "n/a",
               "deprecated": false
             },
@@ -51,9 +145,45 @@
               "value": "{color.excursion.grey.100.value}",
               "public": true,
               "inverse": true,
-              "usage": "MVP Gold 75k tier color for Alaska Airlines on dark backgrounds",
+              "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
               "wcag": "n/a",
               "deprecated": false
+            },
+            "primary": {
+              "default": {
+                "value": "{color.excursion.blue.800.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.yellow.500.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{color.excursion.yellow.500.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.blue.800.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
             }
           },
           "mvpgold100k": {
@@ -61,7 +191,7 @@
               "value": "{color.excursion.grey.100.value}",
               "public": true,
               "default": true,
-              "usage": "MVP Gold 100k tier color for Alaska Airlines on light backgrounds",
+              "usage": "MVP tier color for Alaska Airlines on light backgrounds",
               "wcag": "n/a",
               "deprecated": false
             },
@@ -69,16 +199,52 @@
               "value": "{color.excursion.grey.100.value}",
               "public": true,
               "inverse": true,
-              "usage": "MVP Gold 100k tier color for Alaska Airlines on dark backgrounds",
+              "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
               "wcag": "n/a",
               "deprecated": false
+            },
+            "primary": {
+              "default": {
+                "value": "{color.excursion.blue.900.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.yellow.600.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
+            },
+            "secondary": {
+              "default": {
+                "value": "{color.excursion.yellow.600.value}",
+                "public": true,
+                "default": true,
+                "usage": "MVP tier color for Alaska Airlines on light backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              },
+              "inverse": {
+                "value": "{color.excursion.blue.900.value}",
+                "public": true,
+                "inverse": true,
+                "usage": "MVP tier color for Alaska Airlines on dark backgrounds",
+                "wcag": "n/a",
+                "deprecated": false
+              }
             }
           }
         },
         "fare": {
           "business": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.turquoise.800.value}",
               "public": true,
               "default": true,
               "usage": "Business class tier color for fares on light backgrounds",
@@ -86,7 +252,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.turquoise.400.value}",
               "public": true,
               "inverse": true,
               "usage": "Business class tier color for fares on dark backgrounds",
@@ -96,7 +262,7 @@
           },
           "economy": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.blue.700.value}",
               "public": true,
               "default": true,
               "usage": "Economy class tier color for fares on light backgrounds",
@@ -104,7 +270,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.blue.300.value}",
               "public": true,
               "inverse": true,
               "usage": "Economy class tier color for fares on dark backgrounds",
@@ -114,7 +280,7 @@
           },
           "first-class": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.navy.1000.value}",
               "public": true,
               "default": true,
               "usage": "First class tier color for fares on light backgrounds",
@@ -122,7 +288,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.navy.400.value}",
               "public": true,
               "inverse": true,
               "usage": "First class tier color for fares on dark backgrounds",
@@ -132,7 +298,7 @@
           },
           "saver": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.cyan.500.value}",
               "public": true,
               "default": true,
               "usage": "Saver class tier color for fares on light backgrounds",
@@ -140,7 +306,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.brand.cyan.200.value}",
               "public": true,
               "inverse": true,
               "usage": "Saver class tier color for fares on dark backgrounds",
@@ -151,7 +317,7 @@
         },
         "oneworld": {
           "emerald": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "#139142",
             "public": true,
             "onLight": true,
             "usage": "Emerald tier color for Oneworld",
@@ -159,7 +325,7 @@
             "deprecated": false
           },
           "sapphire": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "#a41d4a",
             "public": true,
             "onDark": true,
             "usage": "Sapphire tier color for Oneworld",
@@ -167,7 +333,7 @@
             "deprecated": false
           },
           "ruby": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "#015daa",
             "public": true,
             "onDark": true,
             "usage": "Ruby tier color for Oneworld",
