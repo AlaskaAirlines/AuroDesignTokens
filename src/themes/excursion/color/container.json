@@ -3,7 +3,7 @@
     "container": {
       "accent": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.lime.100.value}",
           "public": true,
           "default": true,
           "usage": "Accent color for containers on light backgrounds",
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.lime.300.value}",
           "public": true,
           "inverse": true,
           "usage": "Accent color for containers on dark backgrounds",
@@ -21,7 +21,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.cyan.100.value}",
           "public": true,
           "default": true,
           "usage": "Emphasis color for containers on light backgrounds",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.cyan.300.value}",
           "public": true,
           "inverse": true,
           "usage": "Emphasis color for containers on dark backgrounds",
@@ -39,7 +39,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.pink.400.value}",
           "public": true,
           "default": true,
           "usage": "Error color for containers on light backgrounds",
@@ -47,7 +47,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.pink.400.value}",
           "public": true,
           "inverse": true,
           "usage": "Error color for containers on dark backgrounds",
@@ -57,7 +57,7 @@
       },
       "info": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.400.value}",
           "public": true,
           "default": true,
           "usage": "Info color for containers on light backgrounds",
@@ -65,7 +65,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.400.value}",
           "public": true,
           "inverse": true,
           "usage": "Info color for containers on dark backgrounds",
@@ -75,7 +75,7 @@
       },
       "primary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "default": true,
           "usage": "Primary color for containers on light backgrounds",
@@ -83,7 +83,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.1000.value}",
           "public": true,
           "inverse": true,
           "usage": "Primary color for containers on dark backgrounds",
@@ -93,7 +93,7 @@
       },
       "secondary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white.value}",
           "public": true,
           "default": true,
           "usage": "Secondary color for containers on light backgrounds",
@@ -101,7 +101,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white-100.value}",
           "public": true,
           "inverse": true,
           "usage": "Secondary color for containers on dark backgrounds",
@@ -111,7 +111,7 @@
       },
       "subtle": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",      
+          "value": "{color.brand.neutral.100.value}",      
           "public": true,
           "default": true,
           "usage": "Subtle color for containers on light backgrounds",
@@ -119,7 +119,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.neutral.1000.value}",   
           "public": true,
           "inverse": true,
           "usage": "Subtle color for containers on dark backgrounds",
@@ -129,7 +129,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.400.value}",
           "public": true,
           "default": true,
           "usage": "Success color for containers on light backgrounds",
@@ -137,7 +137,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.400.value}",
           "public": true,
           "inverse": true,
           "usage": "Success color for containers on dark backgrounds",
@@ -147,7 +147,7 @@
       },
       "tertiary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.black-100.value}",   
           "public": true,
           "default": true,
           "usage": "Tertiary color for containers on light backgrounds",
@@ -155,7 +155,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white-300.value}", 
           "public": true,
           "inverse": true,
           "usage": "Tertiary color for containers on dark backgrounds",
@@ -165,7 +165,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.200.value}",
           "public": true,
           "default": true,
           "usage": "Warning color for containers on light backgrounds",
@@ -173,7 +173,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.200.value}",
           "public": true,
           "inverse": true,
           "usage": "Warning color for containers on dark backgrounds",
@@ -185,7 +185,7 @@
         "primary": {
           "active": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.blue.1000.value}",
               "public": true,
               "default": true,
               "usage": "Primary active color for containers on light backgrounds",
@@ -193,7 +193,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.300.value}",
               "public": true,
               "inverse": true,
               "usage": "Primary active color for containers on dark backgrounds",
@@ -203,7 +203,7 @@
           },
           "default": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.blue.900.value}",
               "public": true,
               "default": true,
               "usage": "Primary default color for containers on light backgrounds",
@@ -211,7 +211,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.500.value}",
               "public": true,
               "inverse": true,
               "usage": "Primary default color for containers on dark backgrounds",
@@ -221,7 +221,7 @@
           },
           "disabled": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.grey.200.value}",
               "public": true,
               "default": true,
               "usage": "Primary disabled color for containers on light backgrounds",
@@ -229,7 +229,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.900.value}",
               "public": true,
               "inverse": true,
               "usage": "Primary disabled color for containers on dark backgrounds",
@@ -239,7 +239,7 @@
           },
           "focus": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.blue.900.value}",
               "public": true,
               "default": true,
               "usage": "Primary focus color for containers on light backgrounds",
@@ -247,7 +247,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.500.value}",
               "public": true,
               "inverse": true,
               "usage": "Primary focus color for containers on dark backgrounds",
@@ -257,7 +257,7 @@
           },
           "hover": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.blue.1000.value}",
               "public": true,
               "default": true,
               "usage": "Primary hover color for containers on light backgrounds",
@@ -265,7 +265,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.300.value}",
               "public": true,
               "inverse": true,
               "usage": "Primary hover color for containers on dark backgrounds",
@@ -277,7 +277,7 @@
         "secondary": {
           "active": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Secondary active color for containers on light backgrounds",
@@ -285,7 +285,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Secondary active color for containers on dark backgrounds",
@@ -295,7 +295,7 @@
           },
           "default": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Secondary default color for containers on light backgrounds",
@@ -303,7 +303,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Secondary default color for containers on dark backgrounds",
@@ -313,7 +313,7 @@
           },
           "disabled": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.grey.200.value}",
               "public": true,
               "default": true,
               "usage": "Secondary disabled color for containers on light backgrounds",
@@ -321,7 +321,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.900.value}",
               "public": true,
               "inverse": true,
               "usage": "Secondary disabled color for containers on dark backgrounds",
@@ -331,7 +331,7 @@
           },
           "focus": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Secondary focus color for containers on light backgrounds",
@@ -339,7 +339,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Secondary focus color for containers on dark backgrounds",
@@ -349,7 +349,7 @@
           },
           "hover": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.black-100.value}",
               "public": true,
               "default": true,
               "usage": "Secondary hover color for containers on light backgrounds",
@@ -357,7 +357,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-300.value}",
               "public": true,
               "inverse": true,
               "usage": "Secondary hover color for containers on dark backgrounds",
@@ -369,7 +369,7 @@
         "tertiary": {
           "active": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Tertiary active color for containers on light backgrounds",
@@ -377,7 +377,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary active color for containers on dark backgrounds",
@@ -387,7 +387,7 @@
           },
           "default": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Tertiary default color for containers on light backgrounds",
@@ -395,7 +395,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary default color for containers on dark backgrounds",
@@ -405,7 +405,7 @@
           },
           "disabled": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.grey.200.value}",
               "public": true,
               "default": true,
               "usage": "Tertiary disabled color for containers on light backgrounds",
@@ -413,7 +413,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.excursion.green.900.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary disabled color for containers on dark backgrounds",
@@ -423,7 +423,7 @@
           },
           "focus": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Tertiary focus color for containers on light backgrounds",
@@ -431,7 +431,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary focus color for containers on dark backgrounds",
@@ -441,7 +441,7 @@
           },
           "hover": {
             "default": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "default": true,
               "usage": "Tertiary hover color for containers on light backgrounds",
@@ -449,7 +449,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.excursion.grey.100.value}",
+              "value": "{color.base.white-100.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary hover color for containers on dark backgrounds",

@@ -58,7 +58,7 @@
         },
         "400": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.base.white}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -66,7 +66,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.blue.400.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -132,7 +132,7 @@
         },
         "400": {
           "default": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.base.white}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -140,7 +140,7 @@
             "deprecated": false
           },
           "inverse": {
-            "value": "{color.excursion.grey.100.value}",
+            "value": "{color.excursion.blue.1000.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -151,7 +151,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.pink.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -159,7 +159,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.pink.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -169,7 +169,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -177,7 +177,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.green.500.value}",
+          "value": "{color.excursion.green.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -187,7 +187,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -195,7 +195,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -205,7 +205,7 @@
       },
       "info": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -213,7 +213,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.blue.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -223,7 +223,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -231,7 +231,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.green.900.value}",
           "comment": "",
           "public": true,
           "usage": "",

@@ -21,7 +21,7 @@
       },
       "secondary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.grey.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -39,7 +39,7 @@
       },
       "tertiary": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.excursion.grey.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -47,7 +47,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -57,80 +57,88 @@
       },
       "ui": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "default": {
+          "value": "{color.excursion.grey.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.base.white.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
         "hover": {
-          "value": "{color.excursion.grey.100.value}",
+          "default": {
+          "value": "{color.excursion.blue.1000.value}",
           "comment": "",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.green.300.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
         "focus": {
-          "value": "{color.excursion.grey.100.value}",
+          "default": {
+          "value": "{color.excursion.blue.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.green.500.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
         "disabled": {
-          "value": "{color.excursion.grey.100.value}",
+          "default": {
+          "value": "{color.base.white.value}",
           "comment": "",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.grey.900.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
         },
         "active": {
-          "value": "{color.excursion.grey.100.value}",
+          "default": {
+          "value": "{color.excursion.blue.1000.value}",
           "comment": "",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
-        },
-        "inverse": {
-          "default": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
           },
-          "hover": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "focus": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "disabled": {
-            "value": "{color.excursion.grey.100.value}",
-            "comment": "",
-            "public": true,
-            "usage": "",
-            "wcag": "n/a",
-            "deprecated": false
-          },
-          "active": {
-            "value": "{color.excursion.grey.100.value}",
+          "inverse": {
+            "value": "{color.excursion.green.300.value}",
             "comment": "",
             "public": true,
             "usage": "",
@@ -141,7 +149,7 @@
       },
       "error": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.pink.600.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -149,7 +157,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.pink.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -159,7 +167,7 @@
       },
       "success": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.success.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -167,7 +175,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.success.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -177,7 +185,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -185,7 +193,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.warning.200.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -195,7 +203,7 @@
       },
       "info": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.blue.600.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -203,7 +211,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.navy.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -213,7 +221,7 @@
       },
       "accent": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.lime.700.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -221,7 +229,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.lime.300.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -231,7 +239,7 @@
       },
       "emphasis": {
         "default": {
-          "value": "{color.excursion.blue.800.value}",
+          "value": "{color.excursion.grey.900.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -239,7 +247,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.base.white.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -249,7 +257,7 @@
       },
       "subtle": {
         "default": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.cyan.700.value}",
           "comment": "",
           "public": true,
           "usage": "",
@@ -257,7 +265,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.excursion.grey.100.value}",
+          "value": "{color.brand.cyan.400.value}",
           "comment": "",
           "public": true,
           "usage": "",
