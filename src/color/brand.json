@@ -761,7 +761,7 @@
       },
       "navy": {
         "100": {
-          "value": "#f2d7fb",
+          "value": "#f2f7fb",
           "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
