@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.9.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.0...v4.9.1) (2024-08-15)
+
+
+### Bug Fixes
+
+* **navy:** update hex code for navy 100 color [#175](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/175) ([05e61f2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/05e61f2da4b9ef6d25c96b93f1f504dd695380e5))
+
 # [4.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.8.0...v4.9.0) (2024-07-05)
 
 
