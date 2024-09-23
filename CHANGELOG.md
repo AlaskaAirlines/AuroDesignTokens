@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+## [4.9.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.1...v4.9.2) (2024-09-23)
+
+
+### Bug Fixes
+
+* remap incorrect color values for theming [#177](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/177) ([743603e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/743603ef1be2a87ee5ebfbe377a15b226c0eee2d))
+
+
+### Performance Improvements
+
+* update dependencies ([3976db5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3976db53fa91b24a3a2fe393fb2a454b4287aaca))
+
 ## [4.9.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.0...v4.9.1) (2024-08-15)
 
 
