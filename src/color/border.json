@@ -75,7 +75,7 @@
       },
       "divider": {
         "default": {
-          "value": "{color.base.black-200.value}",
+          "value": "{color.base.black-300.value}",
           "public": true,
           "default": true,
           "usage": "Strict use as divider between elements on light backgrounds",
@@ -83,7 +83,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.base.white-200.value}",
+          "value": "{color.base.white-400.value}",
           "public": true,
           "inverse": true,
           "usage": "Strict use as divider between elements on dark backgrounds",
@@ -165,7 +165,7 @@
       },
       "warning": {
         "default": {
-          "value": "{color.base.warning.100.value}",
+          "value": "{color.base.warning.300.value}",
           "public": true,
           "default": true,
           "usage": "Warning border color on light backgrounds",
