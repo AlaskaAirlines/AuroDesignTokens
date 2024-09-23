@@ -413,7 +413,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white-100.value}",
+              "value": "{color.base.white-400.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary disabled color for containers on dark backgrounds",
@@ -449,7 +449,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.base.white-100.value}",
+              "value": "{color.base.white-400.value}",
               "public": true,
               "inverse": true,
               "usage": "Tertiary hover color for containers on dark backgrounds",

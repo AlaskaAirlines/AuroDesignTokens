@@ -93,7 +93,7 @@
       },
       "navy": {
         "default": {
-          "value": "{color.brand.navy.700.value}",
+          "value": "{color.brand.navy.800.value}",
           "public": true,
           "default": true,
           "usage": "",
