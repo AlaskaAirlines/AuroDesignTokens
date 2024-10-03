@@ -201,6 +201,16 @@
           "deprecated": false
         }
       },
+      "scrimmed": {
+        "default": {
+          "value": "{color.base.black-500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Used for creating light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
       "lightest": {
         "value": "{color.base.white.value}",
         "public": true,
