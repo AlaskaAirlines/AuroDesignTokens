@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [4.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.2...v4.10.0) (2024-10-03)
+
+
+### Features
+
+* add scrimmed background token [#179](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/179) ([25b3a04](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/25b3a045a8d17124d1d38d22a8d2d7ef2af86e18))
+
 ## [4.9.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.1...v4.9.2) (2024-09-23)
 
 
