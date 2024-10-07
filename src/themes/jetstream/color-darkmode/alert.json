@@ -1,0 +1,42 @@
+{
+  "color": {
+    "alert": {
+      "advisory": {
+        "default": {
+          "value": "6e2e00",
+          "public": true,
+          "default": true,
+          "usage": "Travel advisory or system maintenance color on dark backgrounds",
+          "wcag": "AAA",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      }
+    },
+    "bkgSuccess": {
+      "default": {
+        "value": "014d14",
+        "public": true,
+        "default": true,
+        "usage": "Background success color on light backgrounds",
+        "wcag": "AAA",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      }
+    },
+    "bkgError": {
+      "default": {
+        "value": "6b0500",
+        "public": true,
+        "default": true,
+        "usage": "Background error color on light backgrounds",
+        "wcag": "AAA",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      }
+    }
+  }
+}
