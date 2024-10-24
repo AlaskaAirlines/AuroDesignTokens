@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.10.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.0...v4.10.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* update value of green 200 [#183](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/183) ([6d8d41a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6d8d41ac1564eaeb181e6f346bcaf002fa4054e3))
+
 # [4.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.9.2...v4.10.0) (2024-10-03)
 
 
