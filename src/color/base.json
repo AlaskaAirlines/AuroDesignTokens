@@ -361,7 +361,7 @@
           "deprecated": false
         },
         "200": {
-          "value": "#dddddd",
+          "value": "#D4ECE4",
           "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
