@@ -1,0 +1,86 @@
+{
+  "color": {
+    "jetstream": {
+      "gray": {
+        "100": {
+          "value": "EBEEF1",
+          "comment": "{comments.color.base.value.comment}",
+          "public": false,
+          "deprecated": false
+        },
+        "200": {
+          "value": "b2bec9",
+          "comment": "{comments.color.base.value.comment}",
+          "public": false,
+          "deprecated": false
+        }
+      },
+      "dark-gray": {
+        "100": {
+          "value": "47596A",
+          "comment": "{comments.color.base.value.comment}",
+          "public": false,
+          "deprecated": false
+        }
+      },
+      "white-gray": {
+        "value": "D9DFE4",
+        "comment": "{comments.color.base.value.comment}",
+        "public": false,
+        "deprecated": false
+      },
+      "medium-blue": {
+        "value": "254664",
+        "comment": "{comments.color.base.value.comment}",
+        "public": false,
+        "deprecated": false
+      },
+      "active": {
+        "value": "0074c8",
+        "comment": "{comments.color.base.value.comment}",
+        "public": false,
+        "deprecated": false
+      },
+      "blue": {
+        "value": "30A1F2",
+        "comment": "{comments.color.base.value.comment}",
+        "public": false,
+        "deprecated": false
+      },
+      "notification": {
+        "value": "0074CB",
+        "comment": "{comments.color.base.value.comment}",
+        "public": false,
+        "deprecated": false
+      }
+    },
+    "state": {
+      "error": {
+        "400": {
+          "value": "DB0B00",
+          "public": false,
+          "deprecated": false
+        },
+        "500": {
+          "value": "ED0C00",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "success": {
+        "500": {
+          "value": "03AB2D",
+          "public": true,
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "500": {
+          "value": "F56600",
+          "public": true,
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

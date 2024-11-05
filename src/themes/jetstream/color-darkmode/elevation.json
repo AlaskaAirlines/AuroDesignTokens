@@ -1,0 +1,28 @@
+{
+  "elevation": {
+    "100": {
+      "value": "0px 4px 12px 0px rgba(0, 0, 0, 0.5)",
+      "public": true,
+      "comment": "for the least amount of emphasis",
+      "deprecated": false
+    },
+    "200": {
+      "value": "0px 6px 24px 0px rgba(0, 0, 0, 0.52)",
+      "public": true,
+      "comment": "for more emphasis than low elevation",
+      "deprecated": false
+    },
+    "300": {
+      "value": "0px 8px 36px 0px rgba(0, 0, 0, 0.54)",
+      "public": true,
+      "comment": "for medium emphasis or differentiation",
+      "deprecated": false
+    },
+    "400": {
+      "value": "0px 10px 48px 0px rgba(0, 0, 0, 0.56)",
+      "public": true,
+      "comment": "for maximum emphasis or differentiation",
+      "deprecated": false
+    }
+  }
+}

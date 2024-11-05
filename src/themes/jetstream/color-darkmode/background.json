@@ -1,0 +1,38 @@
+{
+  "color": {
+    "background": {
+      "lightest": {
+        "value": "0D1119",
+        "public": true,
+        "neutral": true,
+        "usage": "Used for creating light backgrounds",
+        "wcag": "n/a",
+        "deprecated": false
+      },
+      "lighter": {
+        "value": "{color.brand.gray.100.value}",
+        "public": true,
+        "neutral": true,
+        "usage": "Used for creating light backgrounds @ 90% white",
+        "wcag": "n/a",
+        "deprecated": false
+      },
+      "darker": {
+        "value": "1F2533",
+        "public": true,
+        "neutral": true,
+        "usage": "Used for creating dark backgrounds",
+        "wcag": "n/a",
+        "deprecated": false
+      },
+      "darkest": {
+        "value": "{color.brand.gray.200.value}",
+        "public": true,
+        "neutral": true,
+        "usage": "Used for creating dark backgrounds @ 20% darker",
+        "wcag": "n/a",
+        "deprecated": false
+      }
+    }
+  }
+}

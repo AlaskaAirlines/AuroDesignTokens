@@ -1,0 +1,29 @@
+{
+  "gridBreakpoint": {
+    "xs": {
+      "value": "480px",
+      "public": true,
+      "deprecated": false
+    },
+    "sm": {
+      "value": "576px",
+      "public": true,
+      "deprecated": false
+    },
+    "md": {
+      "value": "768px",
+      "public": true,
+      "deprecated": false
+    },
+    "lg": {
+      "value": "1280px",
+      "public": true,
+      "deprecated": false
+    },
+    "xl": {
+      "value": "1440px",
+      "public": true,
+      "deprecated": false
+    }
+  }
+}
