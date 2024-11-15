@@ -1,0 +1,21 @@
+{
+  "source": ["./src/themes/transparent/color/*.json"],
+  "include": ["./src/themes/transparent/*.json"],
+  "platforms": {
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/transparent/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    }
+  }
+}

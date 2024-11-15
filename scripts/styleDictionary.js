@@ -39,3 +39,7 @@ darkTokensConfig.buildAllPlatforms();
 const excursionConfig = StyleDictionary.extend('./scripts/config-excursion.json');
 
 excursionConfig.buildAllPlatforms();
+
+const transparentConfig = StyleDictionary.extend('./scripts/config-transparent.json');
+
+transparentConfig.buildAllPlatforms();

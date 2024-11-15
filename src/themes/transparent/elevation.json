@@ -1,0 +1,22 @@
+{
+  "elevation": {
+    "100": {
+      "value": "0px 0px 5px rgba(0, 0, 0, 0)",
+      "public": true,
+      "comment": "for the least amount of emphasis",
+      "deprecated": false
+    },
+    "200": {
+      "value": "0px 0px 10px rgba(0, 0, 0, 0)",
+      "public": true,
+      "comment": "for more emphasis than low elevation",
+      "deprecated": false
+    },
+    "300": {
+      "value": "0px 0px 15px rgba(0, 0, 0, 0)",
+      "public": true,
+      "comment": "for maximum emphasis or differentiation",
+      "deprecated": false
+    }
+  }
+}

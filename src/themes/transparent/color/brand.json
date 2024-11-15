@@ -1,0 +1,1561 @@
+{
+  "color": {
+    "brand": {
+      "neutral": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "TBD...",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "gray": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "red": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "yellow": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "lime": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "green": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "turquoise": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "cyan": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "blue": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "navy": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "purple": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "pink": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "600": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "700": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "800": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "900": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "1000": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "usage": "Neutral accent",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "midnight": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "atlas": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400-opacity-20": {
+          "value": "transparent",
+          "comment": "transparent",
+          "opacity": true,
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "breeze": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300-opacity-30": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "tropical": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "alpine": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "flamingo": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "canyon": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "goldcoast": {
+        "100": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "300": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "400": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "500": {
+          "value": "transparent",
+          "comment": "transparent",
+          "public": true,
+          "neutral": true,
+          "usage": "Transactional colors to move guests through task-based interactions.",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "goldgray": {
+        "100": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "gold": {
+        "100": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "emerald": {
+        "value": "transparent",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      },
+      "sapphire": {
+        "value": "transparent",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      },
+      "ruby": {
+        "value": "transparent",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": true,
+        "version": "4.5.0",
+        "reference": "n/a"
+      },
+      "lounge": {
+        "value": "transparent",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
+      },
+      "loungeplus": {
+        "value": "transparent",
+        "public": true,
+        "usage": "Tier branding color",
+        "deprecated": false
+      }
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "color": {
+    "border": {
+      "primary": {
+        "default": {
+          "value": "{color.brand.neutral.800.value}",
+          "public": true,
+          "default": true,
+          "usage": "Primary border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.neutral.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Primary border color on dark background",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{color.brand.neutral.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Secondary border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.neutral.600.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Secondary border color on dark background",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": "{color.brand.gray.200.value}",
+          "public": true,
+          "default": true,
+          "usage": "Tertiary border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.gray.700.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Tertiary border color on dark background",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.base.error.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Error border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.error.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Error border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "divider": {
+        "default": {
+          "value": "{color.base.black-300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Strict use as divider between elements on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.white-400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Strict use as divider between elements on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.brand.blue.100.value}",
+          "public": true,
+          "default": true,
+          "usage": "Subtle border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.navy.700.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Subtle border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.brand.navy.900.value}",
+          "public": true,
+          "default": true,
+          "usage": "Emphasis border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.navy.100.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Emphasis border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.brand.lime.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Accent border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.lime.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Accent border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.base.success.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Success border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.success.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Success border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.base.warning.300.value}",
+          "public": true,
+          "default": true,
+          "usage": "Warning border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.warning.200.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Warning border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.brand.navy.700.value}",
+          "public": true,
+          "default": true,
+          "usage": "Info border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.brand.navy.400.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Info border color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "ui": {
+        "default": {
+          "default": {
+            "value": "{color.brand.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "Default UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Default UI border color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "hover": {
+          "default": {
+            "value": "{color.brand.blue.900.value}",
+            "public": true,
+            "default": true,
+            "usage": "Hover UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.200.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Hover UI border color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "active": {
+          "default": {
+            "value": "{color.brand.blue.800.value}",
+            "public": true,
+            "default": true,
+            "usage": "Active UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.300.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Active UI border color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "focus": {
+          "default": {
+            "value": "{color.brand.blue.700.value}",
+            "public": true,
+            "default": true,
+            "usage": "Focus UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.cyan.400.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Focus UI border color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.brand.gray.400.value}",
+            "public": true,
+            "default": true,
+            "usage": "Disabled UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.brand.gray.600.value}",
+            "public": true,
+            "inverse": true,
+            "usage": "Disabled UI border color on dark backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "active": {
+        "default": {
+          "value": "{color.brand.atlas.400.value}",
+          "public": true,
+          "default": true,
+          "usage": "Active border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "inverse": {
+          "value": "{color.brand.breeze.300.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Active border color on dark backgrounds",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "disabled": {
+        "default": {
+          "value": "{color.base.gray.200.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled border color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "focus": {
+        "default": {
+          "value": "{color.base.gray.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Focus border color for light backgrounds",
+          "wcag": "n/a",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      }
+    }
+  }
+}
