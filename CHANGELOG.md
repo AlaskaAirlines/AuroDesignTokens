@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.10.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.1...v4.10.2) (2024-11-18)
+
+
+### Bug Fixes
+
+* update to correct hex value ([6e97835](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6e978355af136d77693d7da0eb85400b2c3c0277)), closes [#D4ECE4](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/D4ECE4) [#d4d4d4](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/d4d4d4)
+
 ## [4.10.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.0...v4.10.1) (2024-10-24)
 
 
