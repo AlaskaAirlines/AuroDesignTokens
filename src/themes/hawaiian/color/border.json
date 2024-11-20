@@ -1,0 +1,18 @@
+{
+  "color": {
+    "border": {
+      "ui": {
+        "active": {
+          "default": {
+            "value": "#CE0C88",
+            "public": true,
+            "default": true,
+            "usage": "Active UI border color on light backgrounds",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}
