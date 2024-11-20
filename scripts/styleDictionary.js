@@ -40,6 +40,10 @@ const excursionConfig = StyleDictionary.extend('./scripts/config-excursion.json'
 
 excursionConfig.buildAllPlatforms();
 
+const hawaiianConfig = StyleDictionary.extend('./scripts/config-hawaiian.json');
+
+hawaiianConfig.buildAllPlatforms();
+
 const transparentConfig = StyleDictionary.extend('./scripts/config-transparent.json');
 
 transparentConfig.buildAllPlatforms();
