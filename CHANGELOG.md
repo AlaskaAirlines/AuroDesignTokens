@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [4.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.2...v4.11.0) (2024-11-20)
+
+
+### Features
+
+* add temp hawaiian theme [#190](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/190) ([c9c3f58](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c9c3f5842a1de02c7ae4a1675da66972748b1154))
+* add transparent theme for testing [#191](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/191) ([9eed86e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9eed86e80c4235a35e515e83dd4a17fb2c2d7a2c))
+
 ## [4.10.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.1...v4.10.2) (2024-11-18)
 
 
