@@ -163,6 +163,24 @@
           "deprecated": false
         }
       },
+      "disabled": {
+        "default": {
+          "value": "{color.base.gray.500.value}",
+          "public": true,
+          "default": true,
+          "usage": "Disabled text color on light backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.base.gray.600.value}",
+          "public": true,
+          "inverse": true,
+          "usage": "Disabled text color on dark backgrounds",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
       "ui": {
         "active": {
           "default": {
@@ -202,7 +220,7 @@
         },
         "disabled": {
           "default": {
-            "value": "{color.base.gray.400.value}",
+            "value": "{color.base.gray.500.value}",
             "public": true,
             "default": true,
             "usage": "Disabled UI text color on light backgrounds",
