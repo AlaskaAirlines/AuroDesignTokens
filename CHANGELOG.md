@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [4.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.11.0...v4.12.0) (2024-12-03)
+
+
+### Features
+
+* add new size token [#188](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/188) ([4688211](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/46882115c4fc4cc692bed99fec8867935aa736aa))
+
 # [4.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.10.2...v4.11.0) (2024-11-20)
 
 
