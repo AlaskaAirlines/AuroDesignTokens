@@ -182,6 +182,12 @@
       "public": true,
       "deprecated": false
     },
+    "250": {
+      "value": 1.25,
+      "comment": "20px",
+      "public": true,
+      "deprecated": false
+    },
     "300": {
       "value": 1.50,
       "comment": "24px",
