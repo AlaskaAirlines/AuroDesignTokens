@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [4.12.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.12.0...v4.12.1) (2024-12-10)
+
+
+### Bug Fixes
+
+* change value of depth tokens [#198](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/198) ([07de776](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/07de776bb649fc166f3a5b22fb56b166fa2b18f5))
+
 # [4.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.11.0...v4.12.0) (2024-12-03)
 
 
