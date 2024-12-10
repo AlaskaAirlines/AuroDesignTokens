@@ -9,12 +9,12 @@
       "deprecated": false
     },
     "modal": {
-      "value": "400",
+      "value": "300",
       "public": true,
       "deprecated": false
     },
     "tooltip": {
-      "value": "300",
+      "value": "400",
       "public": true,
       "deprecated": false
     }
