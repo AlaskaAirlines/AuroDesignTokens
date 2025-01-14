@@ -36,6 +36,10 @@ darkTokensConfig.buildAllPlatforms();
 
 // Themes
 
+const baseConfig = StyleDictionary.extend('./scripts/config-base.json');
+
+baseConfig.buildAllPlatforms();
+
 const excursionConfig = StyleDictionary.extend('./scripts/config-excursion.json');
 
 excursionConfig.buildAllPlatforms();
