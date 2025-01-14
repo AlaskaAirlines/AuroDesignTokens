@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 18.x ]
+        node-version: [ 22.x ]
 
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +38,7 @@ jobs:
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
       - run: npm ci
       - run: npm run build:tokens
       - uses: cycjimmy/semantic-release-action@v4
