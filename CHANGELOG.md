@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [4.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.12.1...v4.13.0) (2025-01-15)
+
+
+### Features
+
+* add new base config [#202](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/202) ([d008c7f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d008c7fc79a51cfc933d91e173058949aa9c2bde))
+
+
+### Performance Improvements
+
+* update from node 18 to node 22 [#201](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/201) ([b22658a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b22658aea4bbd7fa9a6deb7e25360a5fae48fbc4))
+
 ## [4.12.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.12.0...v4.12.1) (2024-12-10)
 
 
