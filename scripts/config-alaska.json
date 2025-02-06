@@ -1,18 +1,19 @@
 {
-  "source": ["./src/themes/transparent/color/*.json"],
-  "include": ["./src/themes/transparent/*.json"],
+  "source": ["./src/primitives/base/*.json", "./src/primitives/alaska/*.json"],
+  "include": ["./src/themes/alaska/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/transparent/",
+      "buildPath": "./dist/alaska/",
       "files": [
         {
-          "destination": "CSSCustomProperties--transparent.css",
+          "destination": "CSSCustomProperties--alaska.css",
           "format": "css/variables",
           "filter": {
-            "public": true
+            "public": true,
+            "deprecated": false
           }
         }
       ]

@@ -1,18 +1,19 @@
 {
-  "source": ["./src/themes/hawaiian/color/*.json"],
+  "source": ["./src/primitives/base/*.json", "./src/primitives/hawaiian/*.json"],
   "include": ["./src/themes/hawaiian/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/tokens/hawaiian/",
+      "buildPath": "./dist/hawaiian/",
       "files": [
         {
-          "destination": "CSSCustomProperties.css",
+          "destination": "CSSCustomProperties--hawaiian.css",
           "format": "css/variables",
           "filter": {
-            "public": true
+            "public": true,
+            "deprecated": false
           }
         }
       ]
