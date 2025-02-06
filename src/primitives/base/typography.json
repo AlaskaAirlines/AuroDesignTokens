@@ -1,0 +1,210 @@
+{
+  "font": {
+    "size": {
+      "10": {
+        "value": "0.625rem",
+        "type": "primitive",
+        "comment": "10px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "12": {
+        "value": "0.75rem",
+        "type": "primitive",
+        "comment": "12px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "14": {
+        "value": "0.875rem",
+        "type": "primitive",
+        "comment": "14px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "16": {
+        "value": "1rem",
+        "type": "primitive",
+        "comment": "16px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "18": {
+        "value": "1.125rem",
+        "type": "primitive",
+        "comment": "18px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "20": {
+        "value": "1.25rem",
+        "type": "primitive",
+        "comment": "20px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "22": {
+        "value": "1.375rem",
+        "type": "primitive",
+        "comment": "22px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "24": {
+        "value": "1.5rem",
+        "type": "primitive",
+        "comment": "24px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "26": {
+        "value": "1.625rem",
+        "type": "primitive",
+        "comment": "26px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "28": {
+        "value": "1.75rem",
+        "type": "primitive",
+        "comment": "28px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "32": {
+        "value": "2rem",
+        "type": "primitive",
+        "comment": "32px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "36": {
+        "value": "2.25rem",
+        "type": "primitive",
+        "comment": "36px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "38": {
+        "value": "2.375rem",
+        "type": "primitive",
+        "comment": "38px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "40": {
+        "value": "2.5rem",
+        "type": "primitive",
+        "comment": "40px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "44": {
+        "value": "2.75rem",
+        "type": "primitive",
+        "comment": "44px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "48": {
+        "value": "3rem",
+        "type": "primitive",
+        "comment": "48px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "56": {
+        "value": "3.5rem",
+        "type": "primitive",
+        "comment": "56px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "64": {
+        "value": "4rem",
+        "type": "primitive",
+        "comment": "64px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "72": {
+        "value": "4.5rem",
+        "type": "primitive",
+        "comment": "72px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "86": {
+        "value": "5.375rem",
+        "type": "primitive",
+        "comment": "86px",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      }
+    },
+    "weight": {
+      "bold": {
+        "value": "Bold",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "book": {
+        "value": "Book",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "light": {
+        "value": "Light",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "regular": {
+        "value": "Regular",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "semibold": {
+        "value": "Semibold",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      }
+    }
+  }
+}

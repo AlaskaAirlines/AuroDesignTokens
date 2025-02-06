@@ -1,0 +1,26 @@
+{
+  "depth": {
+    "hidden": {
+      "value": "-1",
+      "type": "semantic"
+    },
+    "overlay": {
+      "value": "200",
+      "type": "semantic",
+      "public": true,
+      "deprecated": false
+    },
+    "modal": {
+      "value": "300",
+      "type": "semantic",
+      "public": true,
+      "deprecated": false
+    },
+    "tooltip": {
+      "value": "400",
+      "type": "semantic",
+      "public": true,
+      "deprecated": false
+    }
+  }
+}

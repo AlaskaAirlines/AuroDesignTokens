@@ -1,0 +1,27 @@
+{
+  "font": {
+    "family": {
+      "body": {
+        "value": "AS Circular",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "display": {
+        "value": "AS Circular",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "heading": {
+        "value": "AS Circular",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      }
+    }
+  }
+}

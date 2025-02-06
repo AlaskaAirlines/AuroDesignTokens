@@ -1,0 +1,132 @@
+{
+  "font": {
+    "family": {
+      "body": {
+        "value": "{font.family.body.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Primary font family for body text",
+        "deprecated": false
+      },
+      "display": {
+        "value": "{font.family.display.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Font family for display text",
+        "deprecated": false
+      },
+      "heading": {
+        "value": "{font.family.heading.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Font family for headings",
+        "deprecated": false
+      }
+    },
+    "weight": {
+      "body": {
+        "default": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Default body text weight",
+          "deprecated": false
+        },
+        "large": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Large body text weight",
+          "deprecated": false
+        },
+        "small": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Small body text weight",
+          "deprecated": false
+        },
+        "xsmall": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Extra small body text weight",
+          "deprecated": false
+        },
+        "xxsmall": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Double extra small body text weight",
+          "deprecated": false
+        }
+      },
+      "display": {
+        "value": "{font.weight.light.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Display text weight",
+        "deprecated": false
+      },
+      "heading": {
+        "heading1": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 1 weight",
+          "deprecated": false
+        },
+        "heading2": {
+          "value": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 2 weight",
+          "deprecated": false
+        },
+        "heading3": {
+          "value": "{font.weight.medium.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 3 weight",
+          "deprecated": false
+        },
+        "heading4": {
+          "value": "{font.weight.medium.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 4 weight",
+          "deprecated": false
+        },
+        "heading5": {
+          "value": "{font.weight.medium.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 5 weight",
+          "deprecated": false
+        },
+        "heading6": {
+          "value": "{font.weight.medium.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Heading 6 weight",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

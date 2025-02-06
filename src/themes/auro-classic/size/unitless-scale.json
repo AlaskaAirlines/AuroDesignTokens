@@ -1,0 +1,126 @@
+{
+  "unitless": {
+    "scale": {
+      "20": {
+        "value": 0.25,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "50": {
+        "value": 0.5,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "100": {
+        "value": 1,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "120": {
+        "value": 1.25,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "140": {
+        "value": 1.4,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "150": {
+        "value": 1.5,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "160": {
+        "value": 1.625,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "170": {
+        "value": 1.75,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "180": {
+        "value": 1.875,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "200": {
+        "value": 2,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "210": {
+        "value": 2.125,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "220": {
+        "value": 2.25,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "230": {
+        "value": 2.375,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "260": {
+        "value": 2.625,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "270": {
+        "value": 2.75,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "300": {
+        "value": 3,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "330": {
+        "value": 3.375,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "350": {
+        "value": 3.5,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "370": {
+        "value": 3.75,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      },
+      "420": {
+        "value": 4.25,
+        "type": "semantic",
+        "public": true,
+        "deprecated": false
+      }
+    }
+  }
+}

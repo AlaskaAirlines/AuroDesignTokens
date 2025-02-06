@@ -2,9 +2,9 @@
   "color": {
     "base": {
       "white": {
-        "value": "transparent",
+        "value": "#ffffff",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -12,9 +12,9 @@
         "deprecated": false
       },
       "white-100": {
-        "value": "transparent",
+        "value": "#ffffff08",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -22,9 +22,9 @@
         "deprecated": false
       },
       "white-200": {
-        "value": "transparent",
+        "value": "#ffffff0f",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -32,9 +32,9 @@
         "deprecated": false
       },
       "white-300": {
-        "value": "transparent",
+        "value": "#ffffff1f",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -42,9 +42,9 @@
         "deprecated": false
       },
       "white-400": {
-        "value": "transparent",
+        "value": "#ffffff40",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -52,9 +52,9 @@
         "deprecated": false
       },
       "white-500": {
-        "value": "transparent",
+        "value": "#ffffff80",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -62,9 +62,9 @@
         "deprecated": false
       },
       "white-opacity-50": {
-        "value": "transparent",
+        "value": "ffffff80",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "white @ 50%",
         "public": true,
         "opacity": true,
         "deprecated": true,
@@ -72,9 +72,9 @@
         "reference": "color-base-white-500"
       },
       "white-opacity-40": {
-        "value": "transparent",
+        "value": "ffffff66",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "white @ 40%",
         "public": true,
         "opacity": true,
         "deprecated": true,
@@ -82,9 +82,9 @@
         "reference": "n/a"
       },
       "white-opacity-0": {
-        "value": "transparent",
+        "value": "ffffff00",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "white @ 0%",
         "public": true,
         "opacity": true,
         "deprecated": true,
@@ -92,9 +92,9 @@
         "reference": "n/a"
       },
       "black": {
-        "value": "transparent",
+        "value": "#000000",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "neutral": true,
         "usage": "",
@@ -102,9 +102,9 @@
         "deprecated": false
       },
       "black-100": {
-        "value": "transparent",
+        "value": "#00000008",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -112,9 +112,9 @@
         "deprecated": false
       },
       "black-200": {
-        "value": "transparent",
+        "value": "#0000000f",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -122,9 +122,9 @@
         "deprecated": false
       },
       "black-300": {
-        "value": "transparent",
+        "value": "#0000001f",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -132,9 +132,9 @@
         "deprecated": false
       },
       "black-400": {
-        "value": "transparent",
+        "value": "#00000040",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -142,9 +142,9 @@
         "deprecated": false
       },
       "black-500": {
-        "value": "transparent",
+        "value": "#00000080",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "{comments.color.base.value.comment}",
         "public": true,
         "opacity": true,
         "usage": "",
@@ -152,9 +152,9 @@
         "deprecated": false
       },
       "black-opacity-15": {
-        "value": "transparent",
+        "value": "00000026",
         "type": "semantic",
-        "comment": "transparent",
+        "comment": "black @ 15%",
         "public": true,
         "opacity": true,
         "deprecated": true,
@@ -163,90 +163,90 @@
       },
       "blue": {
         "100": {
-          "value": "transparent",
+          "value": "#f0f7fd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#c9e0f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#a0c9f1",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#79b2ec",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#5398e6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#3b7fd2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#2c67b5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#225296",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#193d73",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#102a51",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -255,90 +255,90 @@
       },
       "cyan": {
         "100": {
-          "value": "transparent",
+          "value": "#ebfafd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#a8e9f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#6ad5ef",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#56bbde",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#4aa2c7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#3e89aa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#32718e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#275b72",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#1d4658",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#12303d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -347,45 +347,45 @@
       },
       "error": {
         "100": {
-          "value": "transparent",
+          "value": "#fff4f4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#f9aca6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#f16359",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#cc1816",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#74110e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -394,90 +394,90 @@
       },
       "gray": {
         "100": {
-          "value": "transparent",
+          "value": "#f7f7f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#d4d4d4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#c5c5c5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#adadad",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#959595",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#7e7e7e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#676767",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#525252",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#3d3d3d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#2a2a2a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -486,90 +486,90 @@
       },
       "green": {
         "100": {
-          "value": "transparent",
+          "value": "#f3faf7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#d4cece4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#addbca",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#7ec6ac",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#51ae8c",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#459578",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#3a7d64",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#306854",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#285545",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#1f4436",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -578,90 +578,90 @@
       },
       "lime": {
         "100": {
-          "value": "transparent",
+          "value": "#f5fbeb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#d8efb4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#badd81",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#a2c270",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#8ca761",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#778f53",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#647845",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#53643a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#44522f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#364126",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -670,90 +670,90 @@
       },
       "navy": {
         "100": {
-          "value": "transparent",
+          "value": "#f2f7fb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#cfe0ef",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#acc9e2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#89b2d4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#6899c6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#4a82b7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#326aa5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#265688",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#194069",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#0e2b4f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -762,90 +762,90 @@
       },
       "neutral": {
         "100": {
-          "value": "transparent",
+          "value": "#f7f8fa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#e4e8ec",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#ccd2db",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#afb9c6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#939fad",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#7e8894",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#6a717c",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#585e67",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#484d55",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#393d43",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -854,90 +854,90 @@
       },
       "pink": {
         "100": {
-          "value": "transparent",
+          "value": "#fff7f8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#fde0e6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#fcc2ce",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#fa9db0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#f7738e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#e45472",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#bf475f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#a03b50",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#833142",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#692734",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -946,90 +946,90 @@
       },
       "purple": {
         "100": {
-          "value": "transparent",
+          "value": "#fbf8fe",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#ede3fd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#ddc9fb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#c9a9f8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#b588f5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#a268f3",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#8d47f0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#7633d7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#622ab2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#4e228d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1038,90 +1038,90 @@
       },
       "red": {
         "100": {
-          "value": "transparent",
+          "value": "#fef7f5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#fae2da",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#f5c7b8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#f0a68d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#e9815e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#e35c2f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#d03a08",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#ae3007",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#902806",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#732005",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1130,45 +1130,45 @@
       },
       "success": {
         "100": {
-          "value": "transparent",
+          "value": "#eef8f5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#8eceb9",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#40a080",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#0b6f4d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#173c30",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1177,90 +1177,90 @@
       },
       "turquoise": {
         "100": {
-          "value": "transparent",
+          "value": "#f7fafa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#dfe9ea",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#c2d5d6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#9fbdbe",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#7ba5a6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#5c8f91",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#3d7a7d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#21686a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#085659",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#004447",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1269,90 +1269,90 @@
       },
       "yellow": {
         "100": {
-          "value": "transparent",
+          "value": "#fff9df",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#ffe87e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#f9ce06",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#d6b622",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#b49d35",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "600": {
-          "value": "transparent",
+          "value": "#96873e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "700": {
-          "value": "transparent",
+          "value": "#7c7140",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "800": {
-          "value": "transparent",
+          "value": "#665e3d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "900": {
-          "value": "transparent",
+          "value": "#524e38",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "1000": {
-          "value": "transparent",
+          "value": "#403d30",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1361,45 +1361,45 @@
       },
       "warning": {
         "100": {
-          "value": "transparent",
+          "value": "#fef8e9",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "200": {
-          "value": "transparent",
+          "value": "#f2c153",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "300": {
-          "value": "transparent",
+          "value": "#c49432",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "400": {
-          "value": "transparent",
+          "value": "#8e6b22",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
           "deprecated": false
         },
         "500": {
-          "value": "transparent",
+          "value": "#5d4514",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.base.value.comment}",
           "public": true,
           "usage": "",
           "wcag": "n/a",
@@ -1410,7 +1410,7 @@
     "state": {
       "error": {
         "100": {
-          "value": "transparent",
+          "value": "ff999b",
           "type": "semantic",
           "public": true,
           "deprecated": true,
@@ -1418,7 +1418,7 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "df0b37",
           "type": "semantic",
           "public": true,
           "deprecated": true,
@@ -1428,7 +1428,7 @@
       },
       "success": {
         "100": {
-          "value": "transparent",
+          "value": "69cf96",
           "type": "semantic",
           "public": true,
           "deprecated": true,
@@ -1436,7 +1436,7 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "00805d",
           "type": "semantic",
           "public": true,
           "deprecated": true,
@@ -1446,7 +1446,7 @@
       },
       "warning": {
         "500": {
-          "value": "transparent",
+          "value": "de750c",
           "type": "semantic",
           "public": true,
           "deprecated": true,

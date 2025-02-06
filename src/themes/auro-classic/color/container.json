@@ -471,6 +471,7 @@
             "default": {
               "value": "{color.base.black-100.value}",
               "type": "semantic",
+              "type": "semantic",
               "public": true,
               "default": true,
               "usage": "Tertiary focus color for containers on light backgrounds",
