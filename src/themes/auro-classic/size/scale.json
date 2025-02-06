@@ -1,0 +1,347 @@
+{
+  "size": {
+    "font": {
+      "scale": {
+        "base": {
+          "60": {
+            "value": 0.625,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "10px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "70": {
+            "value": 0.75,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "12px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "80": {
+            "value": 0.875,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "14px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "100": {
+            "value": 1,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "16px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "110": {
+            "value": 1.125,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "18px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "120": {
+            "value": 1.25,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "20px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "130": {
+            "value": 1.375,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "22px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "150": {
+            "value": 1.5,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "24px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          }
+        },
+        "responsive": {
+          "160": {
+            "value": 1.625,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "26px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "170": {
+            "value": 1.75,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "28px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "180": {
+            "value": 1.875,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "30px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "200": {
+            "value": 2,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "32px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "210": {
+            "value": 2.125,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "34px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "220": {
+            "value": 2.25,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "36px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "230": {
+            "value": 2.375,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "38px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "250": {
+            "value": 2.5,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "40px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "260": {
+            "value": 2.625,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "42px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "270": {
+            "value": 2.75,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "44px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "300": {
+            "value": 3.0,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "48px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "330": {
+            "value": 3.375,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "54px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "350": {
+            "value": 3.5,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "56px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "370": {
+            "value": 3.75,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "60px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          },
+          "420": {
+            "value": 4.25,
+            "type": "semantic",
+            "deprecated": true,
+            "px": {
+              "value": "68px",
+              "type": "semantic",
+              "deprecated": true
+            }
+          }
+        }
+      }
+    },
+    "25": {
+      "value": 0.125,
+      "type": "semantic",
+      "comment": "2px",
+      "public": true,
+      "deprecated": true
+    },
+    "50": {
+      "value": 0.25,
+      "type": "semantic",
+      "comment": "4px",
+      "public": true,
+      "deprecated": true
+    },
+    "75": {
+      "value": 0.375,
+      "type": "semantic",
+      "comment": "6px",
+      "public": true,
+      "deprecated": true
+    },
+    "100": {
+      "value": 0.5,
+      "type": "semantic",
+      "comment": "8px",
+      "public": true,
+      "deprecated": true
+    },
+    "150": {
+      "value": 0.75,
+      "type": "semantic",
+      "comment": "12px",
+      "public": true,
+      "deprecated": true
+    },
+    "200": {
+      "value": 1.00,
+      "type": "semantic",
+      "comment": "16px",
+      "public": true,
+      "deprecated": true
+    },
+    "250": {
+      "value": 1.25,
+      "type": "semantic",
+      "comment": "20px",
+      "public": true,
+      "deprecated": true
+    },
+    "300": {
+      "value": 1.50,
+      "type": "semantic",
+      "comment": "24px",
+      "public": true,
+      "deprecated": true
+    },
+    "400": {
+      "value": 2.00,
+      "type": "semantic",
+      "comment": "32px",
+      "public": true,
+      "deprecated": true
+    },
+    "500": {
+      "value": 2.50,
+      "type": "semantic",
+      "comment": "40px",
+      "public": true,
+      "deprecated": true
+    },
+    "600": {
+      "value": 3.00,
+      "type": "semantic",
+      "comment": "48px",
+      "public": true,
+      "deprecated": true
+    },
+    "700": {
+      "value": 3.50,
+      "type": "semantic",
+      "comment": "56px",
+      "public": true,
+      "deprecated": true
+    },
+    "800": {
+      "value": 4.00,
+      "type": "semantic",
+      "comment": "64px",
+      "public": true,
+      "deprecated": true
+    },
+    "900": {
+      "value": 4.50,
+      "type": "semantic",
+      "comment": "72px",
+      "public": true,
+      "deprecated": true
+    },
+    "1000": {
+      "value": 5.00,
+      "type": "semantic",
+      "comment": "80px",
+      "public": true,
+      "deprecated": true
+    }
+  }
+}

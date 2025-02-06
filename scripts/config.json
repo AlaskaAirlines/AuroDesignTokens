@@ -1,12 +1,12 @@
 {
-  "source": ["./src/color/*.json"],
-  "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
+  "source": ["./src/themes/auro-classic/color/*.json"],
+  "include": ["./src/themes/auro-classic/font.json", "./src/themes/auro-classic/size/*.json", "./src/themes/auro-classic/*.json"],
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "SCSSVariables.scss",
@@ -29,7 +29,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: JSON; variable type: CSS; filter: public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "JSONVariablesFlat.json",
@@ -52,7 +52,7 @@
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sassmap; filter: size, public",
       "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "SCSSVariableMap.scss",
@@ -70,7 +70,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "CSSCustomProperties.css",
@@ -85,7 +85,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: size, public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "CSSSizeCustomProperties.css",
@@ -103,7 +103,7 @@
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: Sass; variable type: Sass; filter: size, public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "SassSizeCustomProperties.scss",
@@ -121,7 +121,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "SassCustomProperties.scss",
@@ -136,7 +136,7 @@
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
@@ -155,7 +155,7 @@
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "files": [
         {
           "destination": "JSVariables--color.js",
@@ -173,7 +173,7 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
@@ -199,7 +199,7 @@
     "JSObject--deprecatedTokens": {
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: deprecated",
-      "buildPath": "./dist/tokens/",
+      "buildPath": "./dist/auro-classic/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {

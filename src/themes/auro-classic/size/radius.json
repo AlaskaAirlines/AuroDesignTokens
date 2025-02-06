@@ -1,0 +1,10 @@
+{
+  "border": {
+    "radius": {
+      "value": "{size.75.value}",
+      "type": "semantic",
+      "public": true,
+      "deprecated": true
+    }
+  }
+}

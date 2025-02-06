@@ -1,12 +1,12 @@
 {
-  "source": ["./src/color-darkmode/*.json"],
-  "include": ["./src/color/base.json", "./src/color/brand.json", "./src/color/alert.json", "./src/comments.json"],
+  "source": ["./src/themes/auro-classic/color-darkmode/*.json"],
+  "include": ["./src/themes/auro-classic/color/base.json", "./src/themes/auro-classic/color/brand.json", "./src/themes/auro-classic/color/alert.json", "./src/themes/auro-classic/comments.json"],
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "files": [
         {
           "destination": "SCSSVariables.scss",
@@ -31,7 +31,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "files": [
         {
           "destination": "CSSCustomProperties.css",
@@ -47,7 +47,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: CSS; filter: public, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "files": [
         {
           "destination": "SassCustomProperties.scss",
@@ -63,7 +63,7 @@
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
@@ -83,7 +83,7 @@
       "prefix": "ds",
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: colors || public, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "files": [
         {
           "destination": "JSVariablesColor.js",
@@ -102,7 +102,7 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
@@ -129,7 +129,7 @@
     "JSObject--deprecatedDarkTokens": {
       "transformGroup": "js",
       "comment": "File type: JS; data type: JS; filter: deprecated, theme: dark mode",
-      "buildPath": "./dist/tokens/darkmode/",
+      "buildPath": "./dist/darkmode/",
       "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
       "files": [
         {
