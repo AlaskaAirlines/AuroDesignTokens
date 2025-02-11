@@ -49,7 +49,6 @@ StyleDictionary.registerFormat(scssFormat);
 /** @type {{
   base: string,
   tokens: string,
-  dark: string,
   alaska: string,
   hawaiian: string,
   transparent: string
@@ -57,7 +56,6 @@ StyleDictionary.registerFormat(scssFormat);
 const THEME_PATHS = {
   base: './scripts/config-base.json',
   tokens: './scripts/config.json',
-  dark: './scripts/config-darkmode.json',
   alaska: './scripts/config-alaska.json',
   hawaiian: './scripts/config-hawaiian.json',
   transparent: './scripts/config-transparent.json'
@@ -86,7 +84,6 @@ const buildAllThemes = () => {
 export const themes = {
   base: buildThemeConfig(THEME_PATHS.base),
   tokens: buildThemeConfig(THEME_PATHS.tokens),
-  dark: buildThemeConfig(THEME_PATHS.dark),
   alaska: buildThemeConfig(THEME_PATHS.alaska),
   hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),
   transparent: buildThemeConfig(THEME_PATHS.transparent)
