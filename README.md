@@ -29,14 +29,6 @@ Pre-processed resources are available in the `./dist/tokens` directory of the [n
    ├── SCSSVariablesMapFlat.scss
    ├── SassCustomProperties.scss
    ├── SassSizeCustomProperties.scss
-   ├── darkmode
-   |  ├── CSSCustomProperties.css
-   |  ├── JSDataColor.js
-   |  ├── JSObject--deprecatedDark.js
-   |  ├── JSVariablesColor.js
-   |  ├── SCSSVariables.scss
-   |  ├── SCSSVariablesMapFlat.scss
-   |  └── SassCustomProperties.scss
    └── excursion (BETA)
       ├── JSONVariablesFlat.json
       └── JSONVariablesNested.json
