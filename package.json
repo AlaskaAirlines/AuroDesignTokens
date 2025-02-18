@@ -30,9 +30,10 @@
   },
   "scripts": {
     "postinstall": "node packageScripts/postinstall.mjs",
-    "build": "npm run build:tokens",
+    "build": "npm run build:tokens && npm run transform:css",
     "build:ci": "npm-run-all sweep test build:tokens postinstall",
     "build:tokens": "node scripts/styleDictionary.mjs",
+    "transform:css": "node scripts/transformCSS.mjs",
     "test": "node scripts/jsonTest.js",
     "sweep": "rm -rf dist/",
     "prepare": "husky install"
