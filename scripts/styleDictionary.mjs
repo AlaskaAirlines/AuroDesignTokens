@@ -47,15 +47,13 @@ StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
 StyleDictionary.registerFormat(scssFormat);
 
 /** @type {{
-  base: string,
-  tokens: string,
+  auroClassic: string,
   alaska: string,
   hawaiian: string,
   transparent: string
 }} */
 const THEME_PATHS = {
-  base: './scripts/config-base.json',
-  tokens: './scripts/config.json',
+  auroClassic: './scripts/config-auroClassic.json',
   alaska: './scripts/config-alaska.json',
   hawaiian: './scripts/config-hawaiian.json',
   transparent: './scripts/config-transparent.json'
@@ -82,8 +80,7 @@ const buildAllThemes = () => {
 
 /** @type {Object.<string, Object>} */
 export const themes = {
-  base: buildThemeConfig(THEME_PATHS.base),
-  tokens: buildThemeConfig(THEME_PATHS.tokens),
+  tokens: buildThemeConfig(THEME_PATHS.auroClassic),
   alaska: buildThemeConfig(THEME_PATHS.alaska),
   hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),
   transparent: buildThemeConfig(THEME_PATHS.transparent)
