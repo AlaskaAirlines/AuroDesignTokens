@@ -17,6 +17,22 @@
           }
         }
       ]
+    },
+    "primitives_SCSS": {
+      "transformGroup": "scss",
+      "prefix": "as",
+      "comment": "File type: SCSS; variable type: Sass; filter: primitive",
+      "buildPath": "./dist/alaska/",
+      "files": [
+        {
+          "destination": "primitives--alaska.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "primitive",
+            "deprecated": false
+          }
+        }
+      ]
     }
   }
 }

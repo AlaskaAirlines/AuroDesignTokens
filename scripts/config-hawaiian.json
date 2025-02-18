@@ -17,6 +17,22 @@
           }
         }
       ]
+    },
+    "primitives_SCSS": {
+      "transformGroup": "scss",
+      "prefix": "hi",
+      "comment": "File type: SCSS; variable type: Sass; filter: primitive",
+      "buildPath": "./dist/hawaiian/",
+      "files": [
+        {
+          "destination": "primitives--hawaiian.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "primitive",
+            "deprecated": false
+          }
+        }
+      ]
     }
   }
 }
