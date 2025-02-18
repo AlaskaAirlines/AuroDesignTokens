@@ -16,27 +16,28 @@ Pre-processed resources are available in the `./dist/` directory of the [npm pac
 
 ```
 └── dist
-    ├── alaska
-    │   └── CSSCustomProperties--alaska.css
-    │   └── primitives--alaska.scss
-    ├── auro-classic
-    │   ├── CSSCustomProperties.css
-    │   ├── CSSSizeCustomProperties.css
-    │   ├── JSData--color.js
-    │   ├── JSObject--deprecated.js
-    │   ├── JSONVariablesFlat.json
-    │   ├── JSONVariablesNested.json
-    │   ├── JSVariables--color.js
-    │   ├── SassCustomProperties.scss
-    │   ├── SassSizeCustomProperties.scss
-    │   ├── SCSSVariableMap.scss
-    │   ├── SCSSVariables.scss
-    │   └── SCSSVariablesMapFlat.scss
-    ├── hawaiian
-    │   └── CSSCustomProperties--hawaiian.css
-    │   └── primitives--hawaiian.scss
-    └── transparent
-        └── CSSCustomProperties--transparent.css
+   ├── alaska
+   │   └── CSSCustomProperties--alaska.css
+   │   └── primitives--alaska.scss
+   ├── auro-classic
+   │   ├── CSSCustomProperties.css
+   │   ├── CSSSizeCustomProperties.css
+   │   ├── JSData--color.js
+   │   ├── JSObject--deprecated.js
+   │   ├── JSONVariablesFlat.json
+   │   ├── JSONVariablesNested.json
+   │   ├── JSVariables--color.js
+   │   ├── SassCustomProperties.scss
+   │   ├── SassSizeCustomProperties.scss
+   │   ├── SCSSVariableMap.scss
+   │   ├── SCSSVariables.scss
+   │   └── SCSSVariablesMapFlat.scss
+   ├── hawaiian
+   │   └── CSSCustomProperties--hawaiian.css
+   │   └── primitives--hawaiian.scss
+   ├── transparent
+   │   └── CSSCustomProperties--transparent.css
+   └── CSSCustomProperties--bundled.css
 ```
 
 ### Resource Descriptions
@@ -78,6 +79,16 @@ Pre-processed resources are available in the `./dist/` directory of the [npm pac
 | File                                | Syntax    | Type               | Status     | Filter Type / Description |
 |-------------------------------------|-----------|--------------------|------------|---------------------------|
 | CSSCustomProperties--transparent    | CSS       | Custom properties  | Deprecated | All v4.0x release tokens  |
+
+### `bundled` file
+
+| File         | Syntax | Type              | Status  | Filter Type / Description                            |
+|-------------|--------|-------------------|---------|------------------------------------------------------|
+| CSSCustomProperties--bundled.css | CSS    | Custom properties | Current | Combined v5.x `semantic` CSS custom properties from all supported themes.
+
+NOTE: Not intended for general use.
+
+---
 
 ### Migration from v4.x to v5.x
 
