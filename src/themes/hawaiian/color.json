@@ -282,7 +282,7 @@
         "deprecated": false
       },
       "warningSubtle": {
-        "value": "{color.status.warnweak.600.value}",
+        "value": "{color.status.warn.100.value}",
         "type": "semantic",
         "public": true,
         "default": true,
