@@ -1646,46 +1646,6 @@
           "reference": "n/a"
         }
       },
-      "goldgray": {
-        "100": {
-          "value": "C5C1BF",
-          "type": "semantic",
-          "public": true,
-          "usage": "Tier branding color",
-          "deprecated": true,
-          "version": "4.5.0",
-          "reference": "n/a"
-        },
-        "200": {
-          "value": "726E6C",
-          "type": "semantic",
-          "public": true,
-          "usage": "Tier branding color",
-          "deprecated": true,
-          "version": "4.5.0",
-          "reference": "n/a"
-        }
-      },
-      "gold": {
-        "100": {
-          "value": "CCBC94",
-          "type": "semantic",
-          "public": true,
-          "usage": "Tier branding color",
-          "deprecated": true,
-          "version": "4.5.0",
-          "reference": "n/a"
-        },
-        "200": {
-          "value": "7F682E",
-          "type": "semantic",
-          "public": true,
-          "usage": "Tier branding color",
-          "deprecated": true,
-          "version": "4.5.0",
-          "reference": "n/a"
-        }
-      },
       "emerald": {
         "value": "139142",
         "type": "semantic",

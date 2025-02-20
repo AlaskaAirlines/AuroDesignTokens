@@ -166,7 +166,7 @@
         "deprecated": false
       },
       "brandPremium": {
-        "value": "{color.emerald.900.value}",
+        "value": "{color.summit.900.value}",
         "type": "semantic",
         "public": true,
         "default": true,
