@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.0.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.0...v5.0.1) (2025-02-26)
+
+
+### Performance Improvements
+
+* downgrade Node.js version requirement to 20 in configuration files ([e0414ae](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e0414ae64f3eed6fa178fda1fa24afe338539861))
+
 # [5.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.13.0...v5.0.0) (2025-02-26)
 
 
