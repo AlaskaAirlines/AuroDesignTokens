@@ -1,5 +1,25 @@
 # Semantic Release Automated Changelog
 
+# [5.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.13.0...v5.0.0) (2025-02-26)
+
+
+### Features
+
+* add cssTransform script to rescope custom properties ([ee5a0c4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ee5a0c4a3ead51f7a3b919951c28f3a5b207a834))
+* add scss variable exports of primitives ([8e4c11e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/8e4c11e1d73a196efa03d60d270d743e3fe0cf19))
+* adding new design tokens ([dcda0d2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/dcda0d2157b7828f548205639ac4a8c677c0a546))
+* update design tokens to v1.1.0 ([b44c274](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b44c274fa143c464d4ffa21f9744a6979fb33c7e))
+
+
+### Performance Improvements
+
+* removing darkMode tokens ([54787f8](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/54787f85bdb775b091505ba6438bd5b9f76cf9c3))
+
+
+### BREAKING CHANGES
+
+* The design tokens have been completely restructured. Legacy tokens have been renamed 'auro-classic.' 'darkMode' has been removed, 'transparency' has been reorganized, and new tokens for 'hawaiian' and 'alaska' themes have been added.
+
 # [4.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v4.12.1...v4.13.0) (2025-01-15)
 
 
