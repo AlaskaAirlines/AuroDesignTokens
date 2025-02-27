@@ -4,7 +4,6 @@
       "neutral": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -14,7 +13,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -24,7 +22,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -34,7 +31,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -44,7 +40,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -54,7 +49,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -64,7 +58,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -74,7 +67,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -84,7 +76,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -94,7 +85,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -106,7 +96,6 @@
       "gray": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -116,7 +105,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -126,7 +114,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -136,7 +123,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -146,7 +132,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -156,7 +141,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -166,7 +150,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -176,7 +159,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -186,7 +168,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -196,7 +177,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -208,7 +188,6 @@
       "red": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -217,7 +196,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -226,7 +204,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -235,7 +212,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -244,7 +220,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -253,7 +228,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -262,7 +236,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -271,7 +244,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -280,7 +252,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -289,7 +260,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -300,7 +270,6 @@
       "yellow": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -309,7 +278,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -318,7 +286,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -327,7 +294,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -336,7 +302,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -345,7 +310,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -354,7 +318,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -363,7 +326,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -372,7 +334,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -381,7 +342,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -392,7 +352,6 @@
       "lime": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -401,7 +360,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -410,7 +368,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -419,7 +376,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -428,7 +384,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -437,7 +392,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -446,7 +400,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -455,7 +408,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -464,7 +416,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -473,7 +424,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -484,7 +434,6 @@
       "green": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -493,7 +442,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -502,7 +450,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -511,7 +458,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -520,7 +466,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -529,7 +474,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -538,7 +482,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -547,7 +490,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -556,7 +498,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -565,7 +506,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -576,7 +516,6 @@
       "turquoise": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -585,7 +524,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -594,7 +532,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -603,7 +540,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -612,7 +548,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -621,7 +556,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -630,7 +564,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -639,7 +572,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -648,7 +580,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -657,7 +588,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -668,7 +598,6 @@
       "cyan": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -677,7 +606,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -686,7 +614,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -695,7 +622,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -704,7 +630,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -713,7 +638,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -722,7 +646,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -731,7 +654,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -740,7 +662,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -749,7 +670,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -760,7 +680,6 @@
       "blue": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -769,7 +688,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -778,7 +696,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -787,7 +704,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -796,7 +712,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -805,7 +720,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -814,7 +728,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -823,7 +736,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -832,7 +744,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -841,7 +752,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -852,7 +762,6 @@
       "navy": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -861,7 +770,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -870,7 +778,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -879,7 +786,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -888,7 +794,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -897,7 +802,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -906,7 +810,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -915,7 +818,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -924,7 +826,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -933,7 +834,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -944,7 +844,6 @@
       "purple": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -953,7 +852,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -962,7 +860,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -971,7 +868,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -980,7 +876,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -989,7 +884,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -998,7 +892,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1007,7 +900,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1016,7 +908,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1025,7 +916,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1036,7 +926,6 @@
       "pink": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1045,7 +934,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1054,7 +942,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1063,7 +950,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1072,7 +958,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1081,7 +966,6 @@
         },
         "600": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1090,7 +974,6 @@
         },
         "700": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1099,7 +982,6 @@
         },
         "800": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1108,7 +990,6 @@
         },
         "900": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1117,7 +998,6 @@
         },
         "1000": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "usage": "Neutral accent",
@@ -1128,7 +1008,6 @@
       "midnight": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1140,7 +1019,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1152,7 +1030,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1164,7 +1041,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1176,7 +1052,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1190,7 +1065,6 @@
       "atlas": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1202,7 +1076,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1214,7 +1087,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1226,7 +1098,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1238,7 +1109,6 @@
         },
         "400-opacity-20": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "opacity": true,
           "public": true,
@@ -1251,7 +1121,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1265,7 +1134,6 @@
       "breeze": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1277,7 +1145,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1289,7 +1156,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1301,7 +1167,6 @@
         },
         "300-opacity-30": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1313,7 +1178,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1325,7 +1189,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1339,7 +1202,6 @@
       "tropical": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1351,7 +1213,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1363,7 +1224,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1375,7 +1235,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1387,7 +1246,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1401,7 +1259,6 @@
       "alpine": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1413,7 +1270,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1425,7 +1281,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1437,7 +1292,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1449,7 +1303,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1463,7 +1316,6 @@
       "flamingo": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1475,7 +1327,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1487,7 +1338,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1499,7 +1349,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1511,7 +1360,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1525,7 +1373,6 @@
       "canyon": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1537,7 +1384,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1549,7 +1395,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1561,7 +1406,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1573,7 +1417,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1587,7 +1430,6 @@
       "goldcoast": {
         "100": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1599,7 +1441,6 @@
         },
         "200": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1611,7 +1452,6 @@
         },
         "300": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1623,7 +1463,6 @@
         },
         "400": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1635,7 +1474,6 @@
         },
         "500": {
           "value": "transparent",
-          "type": "semantic",
           "comment": "transparent",
           "public": true,
           "neutral": true,
@@ -1646,9 +1484,44 @@
           "reference": "n/a"
         }
       },
+      "goldgray": {
+        "100": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
+      "gold": {
+        "100": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        },
+        "200": {
+          "value": "transparent",
+          "public": true,
+          "usage": "Tier branding color",
+          "deprecated": true,
+          "version": "4.5.0",
+          "reference": "n/a"
+        }
+      },
       "emerald": {
         "value": "transparent",
-        "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
         "deprecated": true,
@@ -1657,7 +1530,6 @@
       },
       "sapphire": {
         "value": "transparent",
-        "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
         "deprecated": true,
@@ -1666,7 +1538,6 @@
       },
       "ruby": {
         "value": "transparent",
-        "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
         "deprecated": true,
@@ -1675,14 +1546,12 @@
       },
       "lounge": {
         "value": "transparent",
-        "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
         "deprecated": false
       },
       "loungeplus": {
         "value": "transparent",
-        "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
         "deprecated": false

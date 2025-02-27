@@ -1,0 +1,215 @@
+{
+  "source": ["./src/color/*.json"],
+  "include": ["./src/asset/*.json", "./src/size/*.json", "./src/*.json"],
+  "platforms": {
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass; filter: public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSVariables.scss",
+          "format": "scss/variables",
+          "filter": {
+            "public": true
+          }
+        },
+        {
+          "destination": "SCSSVariablesMapFlat.scss",
+          "format": "custom/scss/map-flat",
+          "mapName": "auroTokens",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSONVariablesFlat.json",
+          "format": "json/flat",
+          "filter": {
+            "public": true
+          }
+        },
+        {
+          "destination": "JSONVariablesNested.json",
+          "format": "json/nested",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "SCSSVariableMap": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sassmap; filter: size, public",
+      "dependency": "WCSS: ./src/utilityMixins/_spacingUtility.scss",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SCSSVariableMap.scss",
+          "format": "scss/map-deep",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "CSSSizeCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: size, public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "CSSSizeCustomProperties.css",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "SassSizeCustomProperties": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: Sass; variable type: Sass; filter: size, public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SassSizeCustomProperties.scss",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "SassCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "SassCustomProperties.scss",
+          "format": "css/variables",
+          "filter": {
+            "public": true
+          }
+        }
+      ]
+    },
+    "JSmodule--color": {
+      "prefix": "ds",
+      "transformGroup": "js",
+      "comment": "File type: JS; data type: JS; filter: colors || public",
+      "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSData--color.js",
+          "format": "javascript/module",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "JSes6--color": {
+      "prefix": "ds",
+      "transformGroup": "js",
+      "comment": "File type: JS; data type: JS; filter: colors || public",
+      "buildPath": "./dist/tokens/",
+      "files": [
+        {
+          "destination": "JSVariables--color.js",
+          "format": "javascript/es6",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            },
+            "public": true
+          }
+        }
+      ]
+    },
+    "JSObject--allTokens": {
+      "transformGroup": "js",
+      "prefix": "ds",
+      "comment": "File type: JS; data type: JS; filter: classic colors",
+      "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSObject--allTokens.js",
+          "format": "javascript/module",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSONtest": {
+      "transformGroup": "css",
+      "buildPath": "./test/",
+      "files": [
+        {
+          "destination": "validJSON",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "JSObject--deprecatedTokens": {
+      "transformGroup": "js",
+      "comment": "File type: JS; data type: JS; filter: deprecated",
+      "buildPath": "./dist/tokens/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSObject--deprecated.js",
+          "format": "javascript/module",
+          "filter": {
+            "deprecated": true
+          }
+        }
+      ]
+    }
+  }
+}
