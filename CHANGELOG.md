@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.0.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.1...v5.0.2) (2025-02-27)
+
+
+### Performance Improvements
+
+* revert to version 4.13.0 and change node version to 20 ([f5c4f5a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f5c4f5acad9a88128c093495eca0d4e36108cd84))
+
 ## [5.0.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.0...v5.0.1) (2025-02-26)
 
 
