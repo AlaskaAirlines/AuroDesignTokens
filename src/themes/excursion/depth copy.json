@@ -1,0 +1,22 @@
+{
+  "depth": {
+    "hidden": {
+      "value": "-1"
+    },
+    "overlay": {
+      "value": "200",
+      "public": true,
+      "deprecated": false
+    },
+    "modal": {
+      "value": "400",
+      "public": true,
+      "deprecated": false
+    },
+    "tooltip": {
+      "value": "300",
+      "public": true,
+      "deprecated": false
+    }
+  }
+}

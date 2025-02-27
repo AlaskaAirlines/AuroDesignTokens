@@ -6,10 +6,10 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/transparent/",
+      "buildPath": "./dist/tokens/transparent/",
       "files": [
         {
-          "destination": "CSSCustomProperties--transparent.css",
+          "destination": "CSSCustomProperties.css",
           "format": "css/variables",
           "filter": {
             "public": true

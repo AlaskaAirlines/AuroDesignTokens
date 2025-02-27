@@ -1,0 +1,240 @@
+{
+  "size": {
+    "font": {
+      "scale": {
+        "base": {
+          "60": {
+            "value": 0.625,
+            "px": {
+              "value": "10px"
+            }
+          },
+          "70": {
+            "value": 0.75,
+            "px": {
+              "value": "12px"
+            }
+          },
+          "80": {
+            "value": 0.875,
+            "px": {
+              "value": "14px"
+            }
+          },
+          "100": {
+            "value": 1,
+            "px": {
+              "value": "16px"
+            }
+          },
+          "110": {
+            "value": 1.125,
+            "px": {
+              "value": "18px"
+            }
+          },
+          "120": {
+            "value": 1.25,
+            "px": {
+              "value": "20px"
+            }
+          },
+          "130": {
+            "value": 1.375,
+            "px": {
+              "value": "22px"
+            }
+          },
+          "150": {
+            "value": 1.5,
+            "px": {
+              "value": "24px"
+            }
+          }
+        },
+        "responsive": {
+          "160": {
+            "value": 1.625,
+            "px": {
+              "value": "26px"
+            }
+          },
+          "170": {
+            "value": 1.75,
+            "px": {
+              "value": "28px"
+            }
+          },
+          "180": {
+            "value": 1.875,
+            "px": {
+              "value": "30px"
+            }
+          },
+          "200": {
+            "value": 2,
+            "px": {
+              "value": "32px"
+            }
+          },
+          "210": {
+            "value": 2.125,
+            "px": {
+              "value": "34px"
+            }
+          },
+          "220": {
+            "value": 2.25,
+            "px": {
+              "value": "36px"
+            }
+          },
+          "230": {
+            "value": 2.375,
+            "px": {
+              "value": "38px"
+            }
+          },
+          "250": {
+            "value": 2.5,
+            "px": {
+              "value": "40px"
+            }
+          },
+          "260": {
+            "value": 2.625,
+            "px": {
+              "value": "42px"
+            }
+          },
+          "270": {
+            "value": 2.75,
+            "px": {
+              "value": "44px"
+            }
+          },
+          "300": {
+            "value": 3.0,
+            "px": {
+              "value": "48px"
+            }
+          },
+          "330": {
+            "value": 3.375,
+            "px": {
+              "value": "54px"
+            }
+          },
+          "350": {
+            "value": 3.5,
+            "px": {
+              "value": "56px"
+            }
+          },
+          "370": {
+            "value": 3.75,
+            "px": {
+              "value": "60px"
+            }
+          },
+          "420": {
+            "value": 4.25,
+            "px": {
+              "value": "68px"
+            }
+          }
+        }
+      }
+    },
+    "25": {
+      "value": 0.125,
+      "comment": "2px",
+      "public": true,
+      "deprecated": false
+    },
+    "50": {
+      "value": 0.25,
+      "comment": "4px",
+      "public": true,
+      "deprecated": false
+    },
+    "75": {
+      "value": 0.375,
+      "comment": "6px",
+      "public": true,
+      "deprecated": false
+    },
+    "100": {
+      "value": 0.5,
+      "comment": "8px",
+      "public": true,
+      "deprecated": false
+    },
+    "150": {
+      "value": 0.75,
+      "comment": "12px",
+      "public": true,
+      "deprecated": false
+    },
+    "200": {
+      "value": 1.00,
+      "comment": "16px",
+      "public": true,
+      "deprecated": false
+    },
+    "250": {
+      "value": 1.25,
+      "comment": "20px",
+      "public": true,
+      "deprecated": false
+    },
+    "300": {
+      "value": 1.50,
+      "comment": "24px",
+      "public": true,
+      "deprecated": false
+    },
+    "400": {
+      "value": 2.00,
+      "comment": "32px",
+      "public": true,
+      "deprecated": false
+    },
+    "500": {
+      "value": 2.50,
+      "comment": "40px",
+      "public": true,
+      "deprecated": false
+    },
+    "600": {
+      "value": 3.00,
+      "comment": "48px",
+      "public": true,
+      "deprecated": false
+    },
+    "700": {
+      "value": 3.50,
+      "comment": "56px",
+      "public": true,
+      "deprecated": false
+    },
+    "800": {
+      "value": 4.00,
+      "comment": "64px",
+      "public": true,
+      "deprecated": false
+    },
+    "900": {
+      "value": 4.50,
+      "comment": "72px",
+      "public": true,
+      "deprecated": false
+    },
+    "1000": {
+      "value": 5.00,
+      "comment": "80px",
+      "public": true,
+      "deprecated": false
+    }
+  }
+}

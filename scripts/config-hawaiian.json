@@ -1,60 +1,18 @@
 {
-  "source": ["./src/primitives/base/*.json", "./src/primitives/hawaiian/*.json"],
+  "source": ["./src/themes/hawaiian/color/*.json"],
   "include": ["./src/themes/hawaiian/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/hawaiian/",
+      "buildPath": "./dist/tokens/hawaiian/",
       "files": [
         {
-          "destination": "CSSCustomProperties--hawaiian.css",
+          "destination": "CSSCustomProperties.css",
           "format": "css/variables",
           "filter": {
-            "public": true,
-            "deprecated": false
-          }
-        }
-      ]
-    },
-    "SCSSVariables": {
-      "transformGroup": "scss",
-      "prefix": "ds",
-      "comment": "File type: SCSS; variable type: Sass; filter: public",
-      "buildPath": "./dist/hawaiian/",
-      "files": [
-        {
-          "destination": "SCSSVariables--hawaiian.scss",
-          "format": "scss/variables",
-          "filter": {
-            "public": true,
-            "deprecated": false
-          }
-        },
-        {
-          "destination": "SCSSVariablesMapFlat--hawaiian.scss",
-          "format": "custom/scss/map-flat",
-          "mapName": "auroTokens",
-          "filter": {
-            "public": true,
-            "deprecated": false
-          }
-        }
-      ]
-    },
-    "primitives_SCSS": {
-      "transformGroup": "scss",
-      "prefix": "hi",
-      "comment": "File type: SCSS; variable type: Sass; filter: primitive",
-      "buildPath": "./dist/hawaiian/",
-      "files": [
-        {
-          "destination": "primitives--hawaiian.scss",
-          "format": "scss/variables",
-          "filter": {
-            "type": "primitive",
-            "deprecated": false
+            "public": true
           }
         }
       ]

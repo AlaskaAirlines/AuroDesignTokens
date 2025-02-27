@@ -13,7 +13,6 @@ By default, no tokens are exposed in an output file unless specifically designat
 | opacity | boolean | Token filter for base colors with an alpha transparency |
 | public | boolean | Token filter for publicly exposed Design System tokens per the most recent spec |
 | redirect | boolean | Token filter for legacy values that have a new reference |
-| type | "primitive" / "semantic" | Distinguishes between primitive tokens (foundational properties) and semantic tokens (contextual, abstracted values) |
 
 **Classic:** Tokens that reference Alaska CLASSIC themes
 <br>**Legacy:** Tokens established prior to v2.8 release

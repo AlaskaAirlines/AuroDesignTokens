@@ -1,0 +1,35 @@
+{
+  "asset": {
+    "font": {
+      "circular": {
+        "familyName": {
+          "value": "AS Circular",
+          "public": true,
+          "deprecated": false
+        },
+        "filename": {
+          "value": "ASCircularWeb",
+          "public": true,
+          "deprecated": false
+        },
+        "weight": {
+          "light": {
+            "value": "-Light",
+            "public": true,
+            "deprecated": false
+          },
+          "medium": {
+            "value": "-Medium",
+            "public": true,
+            "deprecated": false
+          },
+          "book": {
+            "value": "-Book",
+            "public": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

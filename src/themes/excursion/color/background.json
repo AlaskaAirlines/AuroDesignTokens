@@ -1,0 +1,280 @@
+{
+  "color": {
+    "background": {
+      "primary": {
+        "100": {
+          "default": {
+            "value": "{color.excursion.blue.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.blue.700.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "200": {
+          "default": {
+            "value": "{color.excursion.blue.200.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.blue.800.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "300": {
+          "default": {
+            "value": "{color.excursion.blue.300.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.blue.900.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "400": {
+          "default": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "secondary": {
+        "100": {
+          "default": {
+            "value": "{color.excursion.green.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.green.800.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "200": {
+          "default": {
+            "value": "{color.excursion.green.200.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.green.900.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "300": {
+          "default": {
+            "value": "{color.excursion.green.300.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.green.1000.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        },
+        "400": {
+          "default": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.excursion.grey.100.value}",
+            "comment": "",
+            "public": true,
+            "usage": "",
+            "wcag": "n/a",
+            "deprecated": false
+          }
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "success": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.green.500.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "warning": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "info": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "emphasis": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      },
+      "subtle": {
+        "default": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.excursion.grey.100.value}",
+          "comment": "",
+          "public": true,
+          "usage": "",
+          "wcag": "n/a",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

@@ -4,7 +4,6 @@
       "default": {
         "default": {
           "value": "{color.brand.atlas.400.value}",
-          "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Default interaction color affordance",
@@ -15,7 +14,6 @@
         },
         "inverse": {
           "value": "{color.brand.breeze.300.value}",
-          "type": "semantic",
           "public": true,
           "inverse": true,
           "usage": "OnDark interaction color affordance",
@@ -28,7 +26,6 @@
       "hover": {
         "default": {
           "value": "{color.brand.atlas.500.value}",
-          "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Default hover color affordance",
@@ -39,7 +36,6 @@
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
-          "type": "semantic",
           "public": true,
           "inverse": true,
           "usage": "Hover interaction color on dark backgrounds",
@@ -52,7 +48,6 @@
       "active": {
         "default": {
           "value": "{color.brand.atlas.500.value}",
-          "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Active state color affordance",
@@ -63,7 +58,6 @@
         },
         "inverse": {
           "value": "{color.brand.breeze.200.value}",
-          "type": "semantic",
           "public": true,
           "inverse": true,
           "usage": "Active state color affordance on dark backgrounds",
@@ -75,7 +69,6 @@
       "disabled": {
         "default": {
           "value": "{color.brand.atlas.400-opacity-20.value}",
-          "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Disabled state color affordance",
@@ -89,7 +82,6 @@
         "default": {
           "default": {
             "value": "transparent",
-            "type": "semantic",
             "public": true,
             "default": true,
             "usage": "Default affordance for background colors",
@@ -99,19 +91,17 @@
           },
           "inverse": {
             "value": "transparent",
-            "type": "semantic",
             "public": true,
             "inverse": true,
             "usage": "Default affordance for dark background colors",
             "deprecated": true,
             "version": "4.5.0",
             "reference": "n/a"
-          }
+          } 
         },
         "hover": {
           "default": {
             "value": "transparent",
-            "type": "semantic",
             "public": true,
             "default": true,
             "usage": "Default hover affordance for background colors",
@@ -121,7 +111,6 @@
           },
           "inverse": {
             "value": "transparent",
-            "type": "semantic",
             "public": true,
             "inverse": true,
             "usage": "Default hover affordance for dark background colors",

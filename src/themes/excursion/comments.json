@@ -1,0 +1,34 @@
+ {
+  "comments": {
+    "deprecated": {
+      "comment": "\n  // Deprecated, no replacement; token to be REMOVED in next MAJOR release"
+    },
+    "reference": {
+      "comment": "\n  // New token, see"
+    },
+    "color": {
+      "deprecated": {
+        "comment": "{comments.deprecated.comment}"
+      },
+      "base": {
+        "value": {
+          "comment": "\n  // Base value for token support; should not use in code!"
+        }
+      },
+      "brand": {
+        "value": {
+          "comment": "\n  // Please consider descriptive token prior to using brand token"
+        }
+      },
+      "classic": {
+        "comment": "\n  // DO NOT USE for anything other than legacy projects or classic component themes"
+      },
+      "matrix": {
+        "comment": "\n  // DO NOT USE for anything other than legacy projects related to the matrix search"
+      },
+      "reference": {
+        "comment": "{comments.reference.comment}"
+      }
+    }
+  }
+}

@@ -12,95 +12,69 @@ $ npm i @aurodesignsystem/design-tokens
 
 ## Using Pre-processed Resources
 
-Pre-processed resources are available in the `./dist/` directory of the [npm package](https://www.npmjs.com/package/@aurodesignsystem/design-tokens).
+Pre-processed resources are available in the `./dist/tokens` directory of the [npm package](https://www.npmjs.com/package/@aurodesignsystem/design-tokens).
 
 ```
-└── dist
-   ├── alaska
-   │   └── CSSCustomProperties--alaska.css
-   │   └── primitives--alaska.scss
-   ├── auro-classic
-   │   ├── CSSCustomProperties.css
-   │   ├── CSSSizeCustomProperties.css
-   │   ├── JSData--color.js
-   │   ├── JSObject--deprecated.js
-   │   ├── JSONVariablesFlat.json
-   │   ├── JSONVariablesNested.json
-   │   ├── JSVariables--color.js
-   │   ├── SassCustomProperties.scss
-   │   ├── SassSizeCustomProperties.scss
-   │   ├── SCSSVariableMap.scss
-   │   ├── SCSSVariables.scss
-   │   └── SCSSVariablesMapFlat.scss
-   ├── hawaiian
-   │   └── CSSCustomProperties--hawaiian.css
-   │   └── primitives--hawaiian.scss
-   ├── transparent
-   │   └── CSSCustomProperties--transparent.css
-   └── CSSCustomProperties--bundled.css
+└── tokens
+   ├── CSSCustomProperties.css
+   ├── CSSSizeCustomProperties.css
+   ├── JSData--color.js
+   ├── JSONVariablesFlat.json
+   ├── JSONVariablesNested.json
+   ├── JSObject--allTokens.js
+   ├── JSObject--deprecated.js
+   ├── JSVariables--color.js
+   ├── SCSSVariableMap.scss
+   ├── SCSSVariables.scss
+   ├── SCSSVariablesMapFlat.scss
+   ├── SassCustomProperties.scss
+   ├── SassSizeCustomProperties.scss
+   ├── darkmode
+   |  ├── CSSCustomProperties.css
+   |  ├── JSDataColor.js
+   |  ├── JSObject--deprecatedDark.js
+   |  ├── JSVariablesColor.js
+   |  ├── SCSSVariables.scss
+   |  ├── SCSSVariablesMapFlat.scss
+   |  └── SassCustomProperties.scss
+   └── excursion (BETA)
+      ├── JSONVariablesFlat.json
+      └── JSONVariablesNested.json
 ```
+
+### BETA Excursion release
+
+Auro Design Tokens v4.5.x includes some changes to existing token values as well as the inclusion of the new Excursion theme. This new theme is to be considered a BETA release with limited use. For all primary Auro UIs, please continue to use the primary Auro design tokens. Excursion is only intended for UIs that are being custom built to support this new UI with limited release. Expect significant changes in this space WITHOUT a MAJOR release. **You have been warned**.
 
 ### Resource Descriptions
 
-### `alaska` theme
+| File                   | Syntax    | Type               | Status  | Filter Type / Description  |
+|------------------------|-----------|--------------------|---------|-----------------------------|
+| CSSCustomProperties    | CSS       | Custom properties  | Current | All v4.0x release tokens   |
+| CSSSizeCustomProperties| CSS       | Custom properties  | Current | Filter: size, public       |
+| JSData--color          | JS module | Color data         | Current | Filter: color, current      |
+| JSONVariablesFlat      | JSON Data | All data           | Current | All v4.0x release tokens   |
+| JSONVariablesNested    | JSON Data | All data           | Current | All v4.0x release tokens   |
+| JSObject--deprecated   | JS module | Deprecated tokens | Current | Filter: deprecated, public |
+| JSObject--allTokens.js | JS module | All data           | Current | All v4.0x release tokens   |
+| JSVariables--color     | JS ES6    | Color data         | Current | Filter: color               |
+| SCSSVariableMap        | Sass      | Sass variable map  | Current | Filter: size, public       |
+| SCSSVariables          | SCSS      | Sass variables     | Current | All v4.0x release tokens   |
+| SCSSVariablesMapFlat   | SCSS      | Sass variable map  | Current | All v4.0x release tokens   |
+| SassCustomProperties   | SCSS      | Custom properties  | Current | All v4.0x release tokens   |
+| SassSizeCustomProperties| Sass     | Custom properties  | Current | Filter: size, public       |
 
-| File                        | Syntax | Type               | Status  | Filter Type / Description                            |
-|-----------------------------|--------|--------------------|---------|------------------------------------------------------|
-| CSSCustomProperties--alaska | CSS    | Custom properties  | Current | All v5.x semantic tokens for the Alaska theme       |
-| primitives--alaska          | SCSS   | Sass variables     | Current | All v5.x semantic token values for the Alaska theme |
+### Migration from 3.x to 4.x
 
-### `hawaiian` theme
+With the release of Auro Design Tokens 4.x, a new variable namespace was introduced. The project has replaced `--auro` with `--ds` to support upcoming theming capabilities.
 
-| File                          | Syntax | Type               | Status  | Filter Type / Description                              |
-|-------------------------------|--------|--------------------|---------|--------------------------------------------------------|
-| CSSCustomProperties--hawaiian | CSS    | Custom properties  | Current | All v5.x release tokens for the Hawaiian theme         |
-| primitives--hawaiian          | SCSS   | Sass variables     | Current | All v5.x semantic token values for the Hawaiian theme |
+Since not all Auro web components are using the new tokens, simply replacing the 3.x version with the 4.x version will break your UI.
 
-### `auro-classic` theme
+To ensure a smooth transition between the two sets of design tokens, we highly recommend the following approach:
 
-| File                     | Syntax    | Type               | Status     | Filter Type / Description       |
-|--------------------------|-----------|--------------------|------------|---------------------------------|
-| CSSCustomProperties      | CSS       | Custom properties  | Deprecated | All v4.x release tokens         |
-| CSSSizeCustomProperties  | CSS       | Custom properties  | Deprecated | Filter v4.x: size, public       |
-| JSData--color            | JS module | Color data         | Deprecated | Filter v4.x: color, Deprecated  |
-| JSONVariablesFlat        | JSON Data | All data           | Deprecated | All v4.x release tokens         |
-| JSONVariablesNested      | JSON Data | All data           | Deprecated | All v4.x release tokens         |
-| JSObject--deprecated     | JS module | Deprecated tokens  | Deprecated | Filter v4.x: deprecated, public |
-| JSObject--allTokens.js   | JS module | All data           | Deprecated | All v4.x release tokens         |
-| JSVariables--color       | JS ES6    | Color data         | Deprecated | Filter v4.x: color              |
-| SCSSVariableMap          | Sass      | Sass variable map  | Deprecated | Filter v4.x: size, public       |
-| SCSSVariables            | SCSS      | Sass variables     | Deprecated | All v4.x release tokens         |
-| SCSSVariablesMapFlat     | SCSS      | Sass variable map  | Deprecated | All v4.x release tokens         |
-| SassCustomProperties     | SCSS      | Custom properties  | Deprecated | All v4.x release tokens         |
-| SassSizeCustomProperties | Sass      | Custom properties  | Deprecated | Filter v4.x: size, public       |
-
-### `transparent` theme
-
-| File                                | Syntax    | Type               | Status     | Filter Type / Description |
-|-------------------------------------|-----------|--------------------|------------|---------------------------|
-| CSSCustomProperties--transparent    | CSS       | Custom properties  | Deprecated | All v4.0x release tokens  |
-
-### `bundled` file
-
-| File         | Syntax | Type              | Status  | Filter Type / Description                            |
-|-------------|--------|-------------------|---------|------------------------------------------------------|
-| CSSCustomProperties--bundled.css | CSS    | Custom properties | Current | Combined v5.x `semantic` CSS custom properties from all supported themes.
-
-NOTE: Not intended for general use.
-
----
-
-### Migration from v4.x to v5.x
-
-With the release of Auro Design Tokens 5.x significant changes have occurred.
-
-- `./dist/` directory has been restructured. All file imports will need to have their paths updated.
-- The v4.x default theme is now called `Auro Classic`. The files for this theme may be found in `./dist/auro-classic`. This theme is now deprecated.
-- **NEW** Alaska theme found in `./dist/alaska`.
-- **NEW** Hawaiian theme found in `./dist/hawaiian`.
-- The Alaska theme and Hawaiian theme are intended to be used one at a time within a given DOM `scope`. It is not supported to load both themes into the same `scope` of the document.
-- v4.x and v5.x token names are unique to each version. As such, the `./dist/auro-classic` theme can be loaded with any of the other themes to support old Auro component versions that do not yet run on the v5.x tokens.
-- Review the [Deprecated tokens list](https://auro.alaskaair.com/getting-started/developers/design-tokens/deprecated) for a matrix of changes. Some tokens have been removed from the project and need to be updated.
+1. Install the new `@aurodesignsystem/design-tokens@4.x` in your app, but DO NOT uninstall `@alaskaairux/design-tokens@3.15.5`.
+2. Update to use the new `@aurodesignsystem/webcorestylesheets`, which fully supports the new token naming spec.
+3. Review the [Deprecated tokens list](https://auro.alaskaair.com/getting-started/developers/design-tokens/deprecated) for a matrix of changes. Some tokens have been removed from the project and need to be updated.
 
 By supporting both the legacy and new Auro design tokens in your project, you ensure a smooth transition until all Auro components have been updated and your project has also updated local SCSS/CSS files with the new references.
 
@@ -108,10 +82,16 @@ By supporting both the legacy and new Auro design tokens in your project, you en
 
 When working with Sass, the preprocessor scripting language, there are several options for incorporating design tokens into your project. First, ensure that all design tokens are included to fulfill CSS custom property requests. This can be achieved by importing the SCSS file as demonstrated below:
 
-_note: this example is based on using the Alaska theme, substitute the directory path for the theme you wish to use._
+```scss
+@import "~@aurodesignsystem/design-tokens/dist/tokens/SassCustomProperties.scss";
+```
+
+Even if Sass isn't utilized, `SassCustomProperties.scss` remains an option, though not mandatory. Alternatively, you can load all tokens using `CSSCustomProperties.css` anywhere within the project's header.
+
+Moreover, if project specifications dictate the use of Sass variables, `SCSSVariables.scss` can be imported. This is necessary for projects utilizing WCSS due to a dependency on these variables.
 
 ```scss
-@import "~@aurodesignsystem/design-tokens/dist/alaska/primitives--alaska.scss";
+@import "~@aurodesignsystem/design-tokens/dist/tokens/SCSSVariables.scss";
 ```
 
 **NOTE:** When developing new UI code in Sass, it's still advisable to leverage CSS custom properties over Sass variables. See **Install with CSS** below.
@@ -120,22 +100,18 @@ _note: this example is based on using the Alaska theme, substitute the directory
 
 For React or similar frameworks, simply import the CSS file directly from npm:
 
-_note: this example is based on using the Alaska theme, substitute the directory path for the theme you wish to use._
-
 ```js
-import "@aurodesignsystem/design-tokens/dist/alaska/CSSCustomProperties--alaska.css"
+import "@aurodesignsystem/design-tokens/dist/tokens/CSSCustomProperties.css"
 ```
 
 For other frameworks, you'll need to copy the CSS file from the npm resource into your project using a build scenario.
 
 ### Install ESModules
 
-_Note: ESModules are not yet available for the v5.x tokens._
-
 In a webpack-supported application or a `type="module"` script:
 
 ```js
-import { AuroColorAlertNotificationOnLight, AuroColorBorderErrorOnLight } from '@aurodesignsystem/design-tokens/dist/auro-classic/JSVariables--color.js';
+import { AuroColorAlertNotificationOnLight, AuroColorBorderErrorOnLight } from '@aurodesignsystem/design-tokens/dist/tokens/JSVariables--color.js';
 ```
 
 ### Install from CDN
@@ -143,7 +119,7 @@ import { AuroColorAlertNotificationOnLight, AuroColorBorderErrorOnLight } from '
 Using the `https://cdn.jsdelivr.net/npm/` CDN, every file in the dist directory can be accessed like so:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/auro-alaska/CSSCustomProperties--alaska">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/tokens/CSSCustomProperties.css">
 ```
 
 **Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs. Any additional CDN solution must be maintained by the team using this solution per this [Discussion](https://github.com/orgs/AlaskaAirlines/discussions/513).
