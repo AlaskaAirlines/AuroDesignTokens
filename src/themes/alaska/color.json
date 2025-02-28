@@ -1,0 +1,394 @@
+{
+  "color": {
+    "border": {
+      "bold": {
+        "value": "{color.neutral.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Bold border color",
+        "deprecated": false
+      },
+      "brand": {
+        "value": "{color.midnight.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Brand border color",
+        "deprecated": false
+      },
+      "default": {
+        "value": "{color.gray.500.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Default border color",
+        "deprecated": false
+      },
+      "divider": {
+        "value": "{transparency.black.15.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Divider border color",
+        "deprecated": false
+      },
+      "dividerInverse": {
+        "value": "{transparency.white.40.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Inverse divider border color",
+        "deprecated": false
+      },
+      "inverse": {
+        "value": "{color.white.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Inverse border color",
+        "deprecated": false
+      },
+      "subtle": {
+        "value": "{color.gray.200.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle border color",
+        "deprecated": false
+      }
+    },
+    "brand": {
+      "accent1": {
+        "value": "{color.tropical.600.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Brand accent color",
+        "deprecated": false
+      },
+      "primary": {
+        "value": "{color.atlas.600.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Primary brand color",
+        "deprecated": false
+      },
+      "primaryBold": {
+        "value": "{color.atlas.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Bold primary brand color",
+        "deprecated": false
+      },
+      "primarySubtle": {
+        "value": "{color.atlas.400.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle primary brand color",
+        "deprecated": false
+      },
+      "secondary": {
+        "value": "{color.midnight.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Secondary brand color",
+        "deprecated": false
+      },
+      "secondaryBold": {
+        "value": "{color.midnight.1000.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Bold secondary brand color",
+        "deprecated": false
+      },
+      "secondarySubtle": {
+        "value": "{color.midnight.600.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle secondary brand color",
+        "deprecated": false
+      },
+      "tertiary": {
+        "value": "{color.breeze.500.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Tertiary brand color",
+        "deprecated": false
+      },
+      "tertiaryBold": {
+        "value": "{color.breeze.700.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Bold tertiary brand color",
+        "deprecated": false
+      },
+      "tertiarySubtle": {
+        "value": "{color.breeze.300.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle tertiary brand color",
+        "deprecated": false
+      }
+    },
+    "fare": {
+      "brandBasic": {
+        "value": "{color.breeze.500.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Basic fare brand color",
+        "deprecated": false
+      },
+      "brandFirst": {
+        "value": "{color.midnight.1000.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "First class fare brand color",
+        "deprecated": false
+      },
+      "brandEconomy": {
+        "value": "{color.atlas.600.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Economy fare brand color",
+        "deprecated": false
+      },
+      "brandPremium": {
+        "value": "{color.summit.900.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Premium fare brand color",
+        "deprecated": false
+      },
+      "brandOneWorldEmerald": {
+        "value": "{color.oneWorld.emerald.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "OneWorld Emerald brand color",
+        "deprecated": false
+      },
+      "brandOneWorldRuby": {
+        "value": "{color.oneWorld.ruby.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "OneWorld Ruby brand color",
+        "deprecated": false
+      },
+      "brandOneWorldSapphire": {
+        "value": "{color.oneWorld.sapphire.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "OneWorld Sapphire brand color",
+        "deprecated": false
+      }
+    },
+    "page": {
+      "backgroundDefault": {
+        "value": "{color.white.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Default page background color",
+        "deprecated": false
+      },
+      "backgroundUtility": {
+        "value": "{color.neutral.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Utility page background color",
+        "deprecated": false
+      }
+    },
+    "status": {
+      "default": {
+        "value": "{color.neutral.400.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Default status color",
+        "deprecated": false
+      },
+      "error": {
+        "value": "{color.status.error.400.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Error status color",
+        "deprecated": false
+      },
+      "errorSubtle": {
+        "value": "{color.status.error.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle error status color",
+        "deprecated": false
+      },
+      "info": {
+        "value": "{color.atlas.600.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Info status color",
+        "deprecated": false
+      },
+      "infoSubtle": {
+        "value": "{color.atlas.200.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle info status color",
+        "deprecated": false
+      },
+      "success": {
+        "value": "{color.status.success.400.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Success status color",
+        "deprecated": false
+      },
+      "successSubtle": {
+        "value": "{color.status.success.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle success status color",
+        "deprecated": false
+      },
+      "warning": {
+        "value": "{color.status.warn.300.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Warning status color",
+        "deprecated": false
+      },
+      "warningSubtle": {
+        "value": "{color.status.warn.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle warning status color",
+        "deprecated": false
+      }
+    },
+    "surface": {
+      "accent1": {
+        "value": "{color.midnight.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Accent surface color",
+        "deprecated": false
+      },
+      "accent1Muted": {
+        "value": "{color.atlas.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Muted accent surface color",
+        "deprecated": false
+      },
+      "default": {
+        "value": "{color.white.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Default surface color",
+        "deprecated": false
+      },
+      "inverse": {
+        "value": "{color.midnight.900.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Inverse surface color",
+        "deprecated": false
+      },
+      "inverseSubtle": {
+        "value": "{color.midnight.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle inverse surface color",
+        "deprecated": false
+      },
+      "neutralMedium": {
+        "value": "{color.gray.300.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Medium neutral surface color",
+        "deprecated": false
+      },
+      "neutralSubtle": {
+        "value": "{color.gray.100.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Subtle neutral surface color",
+        "deprecated": false
+      }
+    },
+    "texticon": {
+      "accent1": {
+        "value": "{color.midnight.800.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Accent text/icon color",
+        "deprecated": false
+      },
+      "default": {
+        "value": "{color.gray.1000.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Default text/icon color",
+        "deprecated": false
+      },
+      "disabled": {
+        "value": "{color.gray.400.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Disabled text/icon color",
+        "deprecated": false
+      },
+      "inverse": {
+        "value": "{color.white.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Inverse text/icon color",
+        "deprecated": false
+      },
+      "muted": {
+        "value": "{color.gray.700.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Muted text/icon color",
+        "deprecated": false
+      }
+    }
+  }
+}

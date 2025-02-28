@@ -9,7 +9,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.blue.200.value}",
@@ -18,7 +18,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "cyan": {
@@ -29,7 +29,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.cyan.200.value}",
@@ -38,7 +38,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "green": {
@@ -49,7 +49,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.green.300.value}",
@@ -58,7 +58,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "gray": {
@@ -69,7 +69,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.gray.200.value}",
@@ -78,7 +78,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "lime": {
@@ -89,7 +89,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.lime.200.value}",
@@ -98,7 +98,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "navy": {
@@ -109,7 +109,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.navy.300.value}",
@@ -118,7 +118,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "neutral": {
@@ -129,7 +129,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.neutral.300.value}",
@@ -138,7 +138,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "pink": {
@@ -149,7 +149,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.pink.300.value}",
@@ -158,7 +158,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "purple": {
@@ -169,7 +169,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.purple.300.value}",
@@ -178,7 +178,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "red": {
@@ -189,7 +189,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.red.400.value}",
@@ -198,7 +198,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "turquoise": {
@@ -209,7 +209,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.turquoise.400.value}",
@@ -218,7 +218,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "yellow": {
@@ -229,7 +229,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.yellow.200.value}",
@@ -238,7 +238,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "error": {
@@ -249,7 +249,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.error.200.value}",
@@ -258,7 +258,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "warning": {
@@ -269,7 +269,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.warning.200.value}",
@@ -278,7 +278,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "success": {
@@ -289,7 +289,7 @@
           "default": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.success.200.value}",
@@ -298,7 +298,7 @@
           "inverse": true,
           "usage": "",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       }
     }

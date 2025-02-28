@@ -3,1133 +3,1133 @@
     "brand": {
       "neutral": {
         "100": {
-          "value": "transparent",
+          "value": "#f7f8fa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#e4e8ec",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#ccd2db",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#afb9c6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#939fad",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#7e8894",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#6a717c",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#585e67",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#484d55",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#393d43",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "TBD...",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "gray": {
         "100": {
-          "value": "transparent",
+          "value": "#f7f7f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#dddddd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#c5c5c5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#adadad",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#959595",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#7e7e7e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#676767",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#525252",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#3d3d3d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#2a2a2a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "red": {
         "100": {
-          "value": "transparent",
+          "value": "#fef7f5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#fae2da",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#f5c7b8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#f0a68d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#e9815e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#e35c2f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#d03a08",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#ae3007",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#902806",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#732005",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "yellow": {
         "100": {
-          "value": "transparent",
+          "value": "#fff9df",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#ffe87e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#f9ce06",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#d6b622",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#b49d35",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#96873e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#7c7140",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#665e3d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#524e38",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#403d30",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "lime": {
         "100": {
-          "value": "transparent",
+          "value": "#f5fbeb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#d8efb4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#badd81",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#a2c270",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#8ca761",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#778f53",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#647845",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#53643a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#44522f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#364126",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "green": {
         "100": {
-          "value": "transparent",
+          "value": "#f3faf7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#d4ece4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#addbca",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#7ec6ac",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#51ae8c",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#459578",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#3a7d64",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#306854",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#285545",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#1f4436",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "turquoise": {
         "100": {
-          "value": "transparent",
+          "value": "#f7fafa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#dfe9ea",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#c2d5d6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#9fbdbe",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#7ba5a6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#5c8f91",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#3d7a7d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#21686a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#085659",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#004447",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "cyan": {
         "100": {
-          "value": "transparent",
+          "value": "#ebfafd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#a8e9f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#6ad5ef",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#56bbde",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#4aa2c7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#3e89aa",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#32718e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#275b72",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#1d4658",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#12303d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "blue": {
         "100": {
-          "value": "transparent",
+          "value": "#f0f7fd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#c9e0f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#a0c9f1",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#79b2ec",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#5398e6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#3b7fd2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#2c67b5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#225296",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#193d73",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#102a51",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "navy": {
         "100": {
-          "value": "transparent",
+          "value": "#f2f7fb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#cfe0ef",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#acc9e2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#89b2d4",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#6899c6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#4a82b7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#326aa5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#265688",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#194069",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#0e2b4f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "purple": {
         "100": {
-          "value": "transparent",
+          "value": "#fbf8fe",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#ede3fd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#ddc9fb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#c9a9f8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#b588f5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#a268f3",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#8d47f0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#7633d7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#622ab2",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#4e228d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "pink": {
         "100": {
-          "value": "transparent",
+          "value": "#fff7f8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "200": {
-          "value": "transparent",
+          "value": "#fde0e6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "300": {
-          "value": "transparent",
+          "value": "#fcc2ce",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "400": {
-          "value": "transparent",
+          "value": "#fa9db0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "500": {
-          "value": "transparent",
+          "value": "#f7738e",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "600": {
-          "value": "transparent",
+          "value": "#e45472",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "700": {
-          "value": "transparent",
+          "value": "#bf475f",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "800": {
-          "value": "transparent",
+          "value": "#a03b50",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "900": {
-          "value": "transparent",
+          "value": "#833142",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "1000": {
-          "value": "transparent",
+          "value": "#692734",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "usage": "Neutral accent",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "midnight": {
         "100": {
-          "value": "transparent",
+          "value": "c1daf0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1139,9 +1139,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "569ed7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1151,9 +1151,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "156fad",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1163,9 +1163,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "01426a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1175,9 +1175,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "00274a",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1189,9 +1189,9 @@
       },
       "atlas": {
         "100": {
-          "value": "transparent",
+          "value": "cde6ff",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1201,9 +1201,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "6bb7fb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1213,9 +1213,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "2492eb",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1225,9 +1225,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "0074c8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1237,9 +1237,9 @@
           "reference": "n/a"
         },
         "400-opacity-20": {
-          "value": "transparent",
+          "value": "0074c833",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "color brand atlas 400 @ 20%",
           "opacity": true,
           "public": true,
           "neutral": true,
@@ -1250,9 +1250,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "054687",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1264,9 +1264,9 @@
       },
       "breeze": {
         "100": {
-          "value": "transparent",
+          "value": "c0f7ff",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1276,9 +1276,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "5de3f7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1288,9 +1288,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "00cff0",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1300,9 +1300,9 @@
           "reference": "n/a"
         },
         "300-opacity-30": {
-          "value": "transparent",
+          "value": "00cff04d",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "breeze 300 @ 30%",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1312,9 +1312,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "099dc5",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1324,9 +1324,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "0b5575",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1338,9 +1338,9 @@
       },
       "tropical": {
         "100": {
-          "value": "transparent",
+          "value": "e2ffcd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1350,9 +1350,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "d0fba6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1362,9 +1362,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "c0e585",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1374,9 +1374,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "91be62",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1386,9 +1386,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "5e8741",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1400,9 +1400,9 @@
       },
       "alpine": {
         "100": {
-          "value": "transparent",
+          "value": "bcaae6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1412,9 +1412,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "9e73ea",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1424,9 +1424,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "8439ef",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1436,9 +1436,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "631db8",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1448,9 +1448,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "39115c",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1462,9 +1462,9 @@
       },
       "flamingo": {
         "100": {
-          "value": "transparent",
+          "value": "ffebee",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1474,9 +1474,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "ffc0ca",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1486,9 +1486,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "ff94a7",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1498,9 +1498,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "F65b7b",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1510,9 +1510,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "b82b47",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1524,9 +1524,9 @@
       },
       "canyon": {
         "100": {
-          "value": "transparent",
+          "value": "ffcab6",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1536,9 +1536,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "f99574",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1548,9 +1548,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "f26135",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1560,9 +1560,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "de3e09",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1572,9 +1572,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "b83302",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1586,9 +1586,9 @@
       },
       "goldcoast": {
         "100": {
-          "value": "transparent",
+          "value": "fff0cd",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1598,9 +1598,9 @@
           "reference": "n/a"
         },
         "200": {
-          "value": "transparent",
+          "value": "ffdb67",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1610,9 +1610,9 @@
           "reference": "n/a"
         },
         "300": {
-          "value": "transparent",
+          "value": "ffd200",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1622,9 +1622,9 @@
           "reference": "n/a"
         },
         "400": {
-          "value": "transparent",
+          "value": "e5ad07",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1634,9 +1634,9 @@
           "reference": "n/a"
         },
         "500": {
-          "value": "transparent",
+          "value": "b88624",
           "type": "semantic",
-          "comment": "transparent",
+          "comment": "{comments.color.brand.value.comment}",
           "public": true,
           "neutral": true,
           "usage": "Transactional colors to move guests through task-based interactions.",
@@ -1647,7 +1647,7 @@
         }
       },
       "emerald": {
-        "value": "transparent",
+        "value": "139142",
         "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
@@ -1656,7 +1656,7 @@
         "reference": "n/a"
       },
       "sapphire": {
-        "value": "transparent",
+        "value": "015DAA",
         "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
@@ -1665,7 +1665,7 @@
         "reference": "n/a"
       },
       "ruby": {
-        "value": "transparent",
+        "value": "A41D4A",
         "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
@@ -1674,18 +1674,18 @@
         "reference": "n/a"
       },
       "lounge": {
-        "value": "transparent",
+        "value": "01426a",
         "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true
       },
       "loungeplus": {
-        "value": "transparent",
+        "value": "53b390",
         "type": "semantic",
         "public": true,
         "usage": "Tier branding color",
-        "deprecated": false
+        "deprecated": true
       }
     }
   }

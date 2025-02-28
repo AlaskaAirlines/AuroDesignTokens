@@ -10,7 +10,7 @@
             "default": true,
             "usage": "Used for creating light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.navy.1000.value}",
@@ -19,7 +19,7 @@
             "inverse": true,
             "usage": "Used for creating dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "200": {
@@ -30,7 +30,7 @@
             "default": true,
             "usage": "Used for creating light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.navy.900.value}",
@@ -39,7 +39,7 @@
             "inverse": true,
             "usage": "Used for creating dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "300": {
@@ -50,7 +50,7 @@
             "default": true,
             "usage": "Used for creating light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.navy.800.value}",
@@ -59,7 +59,7 @@
             "inverse": true,
             "usage": "Used for creating dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "400": {
@@ -70,7 +70,7 @@
             "default": true,
             "usage": "Used for creating light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.navy.700.value}",
@@ -79,7 +79,7 @@
             "inverse": true,
             "usage": "Used for creating dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
@@ -91,7 +91,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.success.500.value}",
@@ -100,7 +100,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "error": {
@@ -111,7 +111,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.error.500.value}",
@@ -120,7 +120,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "warning": {
@@ -131,7 +131,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.warning.500.value}",
@@ -140,7 +140,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "info": {
@@ -151,7 +151,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.blue.900.value}",
@@ -160,7 +160,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "subtle": {
@@ -171,7 +171,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.gray.1000.value}",
@@ -180,7 +180,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "accent": {
@@ -191,7 +191,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.cyan.800.value}",
@@ -200,7 +200,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "emphasis": {
@@ -211,7 +211,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.blue.800.value}",
@@ -220,7 +220,7 @@
           "inverse": true,
           "usage": "Used for creating dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "scrimmed": {
@@ -231,7 +231,7 @@
           "default": true,
           "usage": "Used for creating light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "lightest": {

@@ -9,7 +9,7 @@
           "default": true,
           "usage": "Primary color for icons on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.gray.100.value}",
@@ -18,7 +18,7 @@
           "inverse": true,
           "usage": "Primary color for icons on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "secondary": {
@@ -29,7 +29,7 @@
           "default": true,
           "usage": "Secondary color for icons on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.neutral.300.value}",
@@ -38,7 +38,7 @@
           "inverse": true,
           "usage": "Secondary color for icons on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "tertiary": {
@@ -49,7 +49,7 @@
           "default": true,
           "usage": "Tertiary color for icons on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.neutral.500.value}",
@@ -58,7 +58,7 @@
           "inverse": true,
           "usage": "Tertiary color for icons on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "emphasis": {
@@ -69,7 +69,7 @@
           "default": true,
           "usage": "Emphasis or darkest icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.white.value}",
@@ -78,7 +78,7 @@
           "inverse": true,
           "usage": "Emphasis or lightest icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "accent": {
@@ -89,7 +89,7 @@
           "default": true,
           "usage": "Accent color for icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.lime.300.value}",
@@ -98,7 +98,7 @@
           "inverse": true,
           "usage": "Accent color for icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "info": {
@@ -109,7 +109,7 @@
           "default": true,
           "usage": "Info icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.navy.400.value}",
@@ -118,7 +118,7 @@
           "inverse": true,
           "usage": "Info icon color on dark backgrounds",
           "wcag": "AAA",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "error": {
@@ -129,7 +129,7 @@
           "default": true,
           "usage": "Error icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.error.200.value}",
@@ -138,7 +138,7 @@
           "inverse": true,
           "usage": "Error icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "warning": {
@@ -149,7 +149,7 @@
           "default": true,
           "usage": "Warning icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.warning.200.value}",
@@ -158,7 +158,7 @@
           "inverse": true,
           "usage": "Warning icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "success": {
@@ -169,7 +169,7 @@
           "default": true,
           "usage": "Success icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.base.success.200.value}",
@@ -178,7 +178,7 @@
           "inverse": true,
           "usage": "Success icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "subtle": {
@@ -189,7 +189,7 @@
           "default": true,
           "usage": "Subtle icon color on light backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         },
         "inverse": {
           "value": "{color.brand.navy.700.value}",
@@ -198,7 +198,7 @@
           "inverse": true,
           "usage": "Subtle icon color on dark backgrounds",
           "wcag": "n/a",
-          "deprecated": false
+          "deprecated": true
         }
       },
       "ui": {
@@ -211,7 +211,7 @@
               "default": true,
               "usage": "Default color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.cyan.400.value}",
@@ -220,7 +220,7 @@
               "inverse": true,
               "usage": "Default color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "hover": {
@@ -231,7 +231,7 @@
               "default": true,
               "usage": "Hover color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.cyan.200.value}",
@@ -240,7 +240,7 @@
               "inverse": true,
               "usage": "Hover color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "active": {
@@ -251,7 +251,7 @@
               "default": true,
               "usage": "Active color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.cyan.300.value}",
@@ -260,7 +260,7 @@
               "inverse": true,
               "usage": "Active color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "disabled": {
@@ -271,7 +271,7 @@
               "default": true,
               "usage": "Disabled color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.600.value}",
@@ -280,7 +280,7 @@
               "inverse": true,
               "usage": "Disabled color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "focus": {
@@ -291,7 +291,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.cyan.400.value}",
@@ -300,7 +300,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           }
         },
@@ -313,7 +313,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.300.value}",
@@ -322,7 +322,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "default": {
@@ -333,7 +333,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.400.value}",
@@ -342,7 +342,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "disabled": {
@@ -353,7 +353,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.600.value}",
@@ -362,7 +362,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "focus": {
@@ -373,7 +373,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.400.value}",
@@ -382,7 +382,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           },
           "hover": {
@@ -393,7 +393,7 @@
               "default": true,
               "usage": "Focus color for UI icons on light backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             },
             "inverse": {
               "value": "{color.brand.gray.200.value}",
@@ -402,7 +402,7 @@
               "inverse": true,
               "usage": "Focus color for UI icons on dark backgrounds",
               "wcag": "n/a",
-              "deprecated": false
+              "deprecated": true
             }
           }
         }
@@ -416,7 +416,7 @@
             "default": true,
             "usage": "Brand color for red icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.red.500.value}",
@@ -425,7 +425,7 @@
             "inverse": true,
             "usage": "Brand color for red icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "yellow": {
@@ -436,7 +436,7 @@
             "default": true,
             "usage": "Brand color for yellow icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.yellow.300.value}",
@@ -445,7 +445,7 @@
             "inverse": true,
             "usage": "Brand color for yellow icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "pink": {
@@ -456,7 +456,7 @@
             "default": true,
             "usage": "Brand color for pink icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.pink.500.value}",
@@ -465,7 +465,7 @@
             "inverse": true,
             "usage": "Brand color for pink icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "purple": {
@@ -476,7 +476,7 @@
             "default": true,
             "usage": "Brand color for purple icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.purple.500.value}",
@@ -485,7 +485,7 @@
             "inverse": true,
             "usage": "Brand color for purple icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "lime": {
@@ -496,7 +496,7 @@
             "default": true,
             "usage": "Brand color for lime icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.lime.300.value}",
@@ -505,7 +505,7 @@
             "inverse": true,
             "usage": "Brand color for lime icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "green": {
@@ -516,7 +516,7 @@
             "default": true,
             "usage": "Brand color for green icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.green.500.value}",
@@ -525,7 +525,7 @@
             "inverse": true,
             "usage": "Brand color for green icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "turquoise": {
@@ -536,7 +536,7 @@
             "default": true,
             "usage": "Brand color for turquoise icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.turquoise.500.value}",
@@ -545,7 +545,7 @@
             "inverse": true,
             "usage": "Brand color for turquoise icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "navy": {
@@ -556,7 +556,7 @@
             "default": true,
             "usage": "Brand color for navy icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.navy.500.value}",
@@ -565,7 +565,7 @@
             "inverse": true,
             "usage": "Brand color for navy icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "blue": {
@@ -576,7 +576,7 @@
             "default": true,
             "usage": "Brand color for blue icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.blue.500.value}",
@@ -585,7 +585,7 @@
             "inverse": true,
             "usage": "Brand color for blue icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "cyan": {
@@ -596,7 +596,7 @@
             "default": true,
             "usage": "Brand color for cyan icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.cyan.300.value}",
@@ -605,7 +605,7 @@
             "inverse": true,
             "usage": "Brand color for cyan icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "gray": {
@@ -616,7 +616,7 @@
             "default": true,
             "usage": "Brand color for gray icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.gray.300.value}",
@@ -625,7 +625,7 @@
             "inverse": true,
             "usage": "Brand color for gray icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         },
         "neutral": {
@@ -636,7 +636,7 @@
             "default": true,
             "usage": "Brand color for neutral icons on light backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           },
           "inverse": {
             "value": "{color.brand.neutral.400.value}",
@@ -645,7 +645,7 @@
             "inverse": true,
             "usage": "Brand color for neutral icons on dark backgrounds",
             "wcag": "n/a",
-            "deprecated": false
+            "deprecated": true
           }
         }
       },
