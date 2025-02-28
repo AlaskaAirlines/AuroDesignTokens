@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.0.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.2...v5.0.3) (2025-02-28)
+
+
+### Performance Improvements
+
+* reset version rollback to continue git history ([e0fb37e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e0fb37ea9e6d0eb89329d0997a48ba955fdff72d))
+
 ## [5.0.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.1...v5.0.2) (2025-02-27)
 
 
