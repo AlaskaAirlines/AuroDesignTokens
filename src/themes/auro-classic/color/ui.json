@@ -88,7 +88,7 @@
       "bkg": {
         "default": {
           "default": {
-            "value": "transparent",
+            "value": "00000008",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -98,7 +98,7 @@
             "reference": "n/a"
           },
           "inverse": {
-            "value": "transparent",
+            "value": "ffffff08",
             "type": "semantic",
             "public": true,
             "inverse": true,
@@ -110,7 +110,7 @@
         },
         "hover": {
           "default": {
-            "value": "transparent",
+            "value": "0000000f",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -120,7 +120,7 @@
             "reference": "n/a"
           },
           "inverse": {
-            "value": "transparent",
+            "value": "ffffff0f",
             "type": "semantic",
             "public": true,
             "inverse": true,

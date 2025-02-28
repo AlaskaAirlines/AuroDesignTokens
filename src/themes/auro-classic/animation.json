@@ -1,0 +1,24 @@
+{
+  "animation": {
+    "default": {
+      "property": {
+        "value": "all",
+        "type": "semantic",
+        "public": true,
+        "deprecated": true
+      },
+      "duration": {
+        "value": "0.3s",
+        "type": "semantic",
+        "public": true,
+        "deprecated": true
+      },
+      "timing": {
+        "value": "ease-out",
+        "type": "semantic",
+        "public": true,
+        "deprecated": true
+      }
+    }
+  }
+}

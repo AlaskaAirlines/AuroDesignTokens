@@ -1,0 +1,28 @@
+{
+  "font": {
+    "family": {
+      "body": {
+        "value": "Slate Pro",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "display": {
+        "value": "Chronicle Display",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "heading": {
+        "value": "Slate Pro",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      }
+    }
+  }
+ }
+ 
