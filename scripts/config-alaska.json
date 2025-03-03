@@ -58,6 +58,23 @@
           }
         }
       ]
+    },
+    "JSObject--allTokens": {
+      "transformGroup": "js",
+      "prefix": "ds",
+      "comment": "File type: JS; data type: JS; filter: classic colors",
+      "buildPath": "./dist/alaska/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSObject--allTokens.js",
+          "format": "javascript/module",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
     }
   }
 }
