@@ -2,22 +2,6 @@
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-**Resolves:** # (issue, if applicable)
-
-## Summary:
-
-_Please summarize the scope of the changes you have submitted, what the intent of the work is and anything that describes the before/after state of the project._
-
-## Type of change:
-
-Please delete options that are not relevant.
-
-- [ ] New capability
-- [ ] Revision of an existing capability
-- [ ] Infrastructure change (automation, etc.)
-- [ ] Other (please elaborate)
-
-
 ## Checklist:
 
 - [ ] My update follows the CONTRIBUTING guidelines of this project

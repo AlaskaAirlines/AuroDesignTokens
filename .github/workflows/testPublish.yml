@@ -1,6 +1,7 @@
 name: Test and publish
 
 # Controls when the action will run. Triggers the workflow on push or pull request
+
 # events but only for the master branch
 on:
   push:
@@ -15,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 20 ]
+        node-version: [20, 22]
 
     steps:
       - uses: actions/checkout@v4

@@ -1,0 +1,26 @@
+name: Support Request
+description: Request for assistance with any issue related to the Aurora Design System
+type: "Support"
+title: '...provide a title...'
+projects: ["AlaskaAirlines/19"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Support Request Description
+      description: A clear and concise description of the support request.
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: Not obligatory, but suggest any idea(s) for resolution.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+  - type: textarea
+    id: exit-criteria
+    attributes:
+      label: Exit criteria (To be determined by the Auro team)
+      description: Define exit criteria for completing this feature request.
