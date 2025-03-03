@@ -1,0 +1,26 @@
+name: Story
+description: Define a body of work driven by Product goals.
+type: "Story"
+title: '...provide a title...'
+projects: ["AlaskaAirlines/19"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Description
+      description: A clear and concise description of the story.
+  - type: textarea
+    id: result
+    attributes:
+      label: Desired Outcome
+      description: A clear and concise explanation of the desired result.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the here.
+  - type: textarea
+    id: exit-criteria
+    attributes:
+      label: Exit criteria (To be determined by the Auro team)
+      description: Define exit criteria for completing this story.

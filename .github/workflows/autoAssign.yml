@@ -1,9 +1,0 @@
-name: Issue assignment
-
-on:
-  issues:
-    types: [opened]
-
-jobs:
-  call-auro-assign-workflow:
-    uses: AlaskaAirlines/auro-library/.github/workflows/autoAssign.yml@main
