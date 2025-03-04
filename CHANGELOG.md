@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.0.6](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.5...v5.0.6) (2025-03-04)
+
+
+### Performance Improvements
+
+* expose Auro Classic allTokens JSObject ([7667cfa](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/7667cfa047d77864b289c2d3e30e71d3e07e9d6b))
+
 ## [5.0.5](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.4...v5.0.5) (2025-03-04)
 
 
