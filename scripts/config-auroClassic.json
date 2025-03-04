@@ -181,7 +181,7 @@
           "format": "javascript/module",
           "filter": {
             "public": true,
-            "deprecated": false
+            "deprecated": true
           }
         }
       ]
