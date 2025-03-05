@@ -48,12 +48,14 @@ StyleDictionary.registerFormat(scssFormat);
 
 /** @type {{
   auroClassic: string,
+  alaskaClassic: string,
   alaska: string,
   hawaiian: string,
   transparent: string
 }} */
 const THEME_PATHS = {
   auroClassic: './scripts/config-auroClassic.json',
+  alaskaClassic: './scripts/config-alaskaClassic.json',
   alaska: './scripts/config-alaska.json',
   hawaiian: './scripts/config-hawaiian.json',
   transparent: './scripts/config-transparent.json'
@@ -81,6 +83,7 @@ const buildAllThemes = () => {
 /** @type {Object.<string, Object>} */
 export const themes = {
   tokens: buildThemeConfig(THEME_PATHS.auroClassic),
+  alaskaClassic: buildThemeConfig(THEME_PATHS.alaskaClassic),
   alaska: buildThemeConfig(THEME_PATHS.alaska),
   hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),
   transparent: buildThemeConfig(THEME_PATHS.transparent)

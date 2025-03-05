@@ -14,7 +14,7 @@
       "default": true,
       "deprecated": false
     },
-    "oneWorld": {
+    "oneworld": {
       "emerald": {
         "value": "#139142",
         "type": "primitive",
