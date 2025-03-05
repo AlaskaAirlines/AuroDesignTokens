@@ -14,7 +14,7 @@
       "default": true,
       "deprecated": false
     },
-    "oneWorld": {
+    "oneworld": {
       "emerald": {
         "value": "#139142",
         "type": "primitive",
@@ -39,14 +39,14 @@
     },
     "gray": {
       "50": {
-        "value": "#f2f2f2",
+        "value": "#f7f7f7",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
       "100": {
-        "value": "#f7f7f7",
+        "value": "#f2f2f2",
         "type": "primitive",
         "public": false,
         "default": true,
