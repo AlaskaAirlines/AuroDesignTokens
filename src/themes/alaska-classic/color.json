@@ -10,7 +10,7 @@
         "deprecated": false
       },
       "brand": {
-        "value": "{color.brand.primary.value}",
+        "value": "{color.brand.secondary.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -60,7 +60,7 @@
     },
     "brand": {
       "primary": {
-        "value": "{color.midnight.900.value}",
+        "value": "{color.atlas.500.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -68,7 +68,7 @@
         "deprecated": false
       },
       "primaryBold": {
-        "value": "{color.midnight.1000.value}",
+        "value": "{color.atlas.800.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -76,7 +76,7 @@
         "deprecated": false
       },
       "primaryMuted": {
-        "value": "{color.midnight.100.value}",
+        "value": "{color.atlas.100.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -84,7 +84,7 @@
         "deprecated": false
       },
       "primarySubtle": {
-        "value": "{color.midnight.600.value}",
+        "value": "{color.atlas.400.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -92,7 +92,7 @@
         "deprecated": false
       },
       "secondary": {
-        "value": "{color.bliss.500.value}",
+        "value": "{color.midnight.900.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -100,7 +100,7 @@
         "deprecated": false
       },
       "secondaryBold": {
-        "value": "{color.bliss.700.value}",
+        "value": "{color.midnight.1000.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -108,7 +108,7 @@
         "deprecated": false
       },
       "secondaryMuted": {
-        "value": "{color.bliss.100.value}",
+        "value": "{color.midnight.100.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -116,7 +116,7 @@
         "deprecated": false
       },
       "secondarySubtle": {
-        "value": "{color.bliss.300.value}",
+        "value": "{color.midnight.600.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -124,7 +124,7 @@
         "deprecated": false
       },
       "tertiary": {
-        "value": "{color.tropical.500.value}",
+        "value": "{color.bliss.500.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -132,7 +132,7 @@
         "deprecated": false
       },
       "tertiaryBold": {
-        "value": "{color.tropical.700.value}",
+        "value": "{color.bliss.700.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -140,7 +140,7 @@
         "deprecated": false
       },
       "tertiaryMuted": {
-        "value": "{color.tropical.100.value}",
+        "value": "{color.bliss.100.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -148,7 +148,7 @@
         "deprecated": false
       },
       "tertiarySubtle": {
-        "value": "{color.tropical.300.value}",
+        "value": "{color.bliss.300.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -174,7 +174,7 @@
         "deprecated": false
       },
       "economy": {
-        "value": "{color.atlas.500.value}",
+        "value": "{color.brand.primary.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -218,7 +218,7 @@
     },
     "pagebackground": {
       "default": {
-        "value": "{color.brand.secondaryMuted.value}",
+        "value": "{color.white.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -226,7 +226,7 @@
         "deprecated": false
       },
       "utility": {
-        "value": "{color.white.value}",
+        "value": "{color.neutral.100.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -260,7 +260,7 @@
         "deprecated": false
       },
       "info": {
-        "value": "{color.brand.primary.value}",
+        "value": "{color.status.help.600.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -310,7 +310,7 @@
     },
     "surface": {
       "accent1": {
-        "value": "{color.brand.secondary.value}",
+        "value": "{color.brand.primary.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -318,7 +318,7 @@
         "deprecated": false
       },
       "accent1Muted": {
-        "value": "{color.brand.secondaryMuted.value}",
+        "value": "{color.brand.primaryMuted.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -326,15 +326,15 @@
         "deprecated": false
       },
       "accent1Subtle": {
-        "value": "{color.brand.secondarySubtle.value}",
+        "value": "{color.brand.primarySubtle.value}",
         "type": "semantic",
         "public": true,
         "default": true,
-        "usage": "Subtle accent surface color",
+        "usage": "Muted accent surface color",
         "deprecated": false
       },
       "accent2": {
-        "value": "{color.brand.tertiary.value}",
+        "value": "{color.gray.500.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -342,7 +342,7 @@
         "deprecated": false
       },
       "accent2Muted": {
-        "value": "{color.brand.tertiaryMuted.value}",
+        "value": "{color.gray.300.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -358,7 +358,7 @@
         "deprecated": false
       },
       "inverse": {
-        "value": "{color.brand.primaryBold.value}",
+        "value": "{color.brand.secondary.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -366,7 +366,7 @@
         "deprecated": false
       },
       "inverseSubtle": {
-        "value": "{color.brand.primarySubtle.value}",
+        "value": "{color.brand.secondarySubtle.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -392,7 +392,7 @@
     },
     "texticon": {
       "accent1": {
-        "value": "{color.brand.primaryBold.value}",
+        "value": "{color.brand.secondary.value}",
         "type": "semantic",
         "public": true,
         "default": true,
