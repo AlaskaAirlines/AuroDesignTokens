@@ -84,7 +84,7 @@ import { AuroColorAlertNotificationOnLight, AuroColorBorderErrorOnLight } from '
 Using the `https://cdn.jsdelivr.net/npm/` CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/auro-alaska/CSSCustomProperties--alaska">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm//@aurodesignsystem/design-tokens@latest/dist/alaska/CSSCustomProperties--alaska.css">
 ```
 
 **Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs.
