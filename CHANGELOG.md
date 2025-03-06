@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [5.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.6...v5.1.0) (2025-03-06)
+
+
+### Features
+
+* edit existing and add new primitive color tokens [#220](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/220) ([2a2e438](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2a2e43823fd0468a542a28000082d3a2eba7d98f))
+* edit existing and add new theme color tokens [#221](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/221) ([1e3018d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/1e3018d24d389c3b85fbd3b0261472abb1420775))
+
 ## [5.0.6](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.5...v5.0.6) (2025-03-04)
 
 
