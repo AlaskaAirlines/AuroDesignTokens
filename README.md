@@ -25,6 +25,12 @@ The npm package provides pre-processed resources in the `./dist/` directory:
    ├── alaska
    │   └── CSSCustomProperties--alaska.css
    │   └── primitives--alaska.scss
+   ├── alaska-classic
+   │   ├── CSSCustomProperties--alaskaClassic.css
+   │   ├── JSObject--allTokens.js
+   │   ├── primitives--alaskaClassic.scss
+   │   ├── SCSSVariables--alaskaClassic.scss
+   │   └── SCSSVariablesMapFlat--alaskaClassic.scss
    ├── auro-classic
    │   ├── CSSCustomProperties.css
    │   ├── CSSSizeCustomProperties.css
@@ -95,15 +101,29 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN:
 
 | File                        | Syntax | Type               | Description                                           |
 |-----------------------------|--------|--------------------|-------------------------------------------------------|
-| CSSCustomProperties--alaska | CSS    | Custom properties  | All v5.x semantic tokens for the Alaska theme         |
-| primitives--alaska          | SCSS   | Sass variables     | All v5.x semantic token values for the Alaska theme   |
+| CSSCustomProperties--alaska | CSS    | Custom properties  | All v5.x semantic tokens         |
+| primitives--alaska          | SCSS   | Sass variables     | All v5.x semantic token values   |
+
+### Alaska Classic Theme
+
+The Alaska Classic theme uses the `v5.x` token names with the deprecated Auro Classic values.
+
+It serves as a gateway to the `v5.x` tokens, facilitating a smooth transition for Auro components, leading to an eventual switch to the new "Alaska" theme.
+
+| File                                   | Syntax    | Type               | Description                                          |
+|----------------------------------------|-----------|--------------------|------------------------------------------------------|
+| CSSCustomProperties--alaskaClassic     | CSS       | Custom properties  | All v5.x semantic tokens     |
+| JSObject--allTokens.js                 | JS module | All data           | All v5.x token data          |
+| primitives--alaskaClassic              | SCSS      | Sass variables     | All v5.x semantic token values |
+| SCSSVariables--alaskaClassic           | SCSS      | Sass variables     | All v5.x semantic tokens     |
+| SCSSVariablesMapFlat--alaskaClassic    | SCSS      | Sass variable map  | All v5.x semantic tokens as flat map |
 
 ### Hawaiian Theme
 
 | File                          | Syntax | Type               | Description                                           |
 |-------------------------------|--------|--------------------|-------------------------------------------------------|
-| CSSCustomProperties--hawaiian | CSS    | Custom properties  | All v5.x release tokens for the Hawaiian theme        |
-| primitives--hawaiian          | SCSS   | Sass variables     | All v5.x semantic token values for the Hawaiian theme |
+| CSSCustomProperties--hawaiian | CSS    | Custom properties  | All v5.x release tokens        |
+| primitives--hawaiian          | SCSS   | Sass variables     | All v5.x semantic token values |
 
 ### Auro Classic Theme (Deprecated)
 
