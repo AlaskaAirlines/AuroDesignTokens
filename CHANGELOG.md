@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.2.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.2.0...v5.2.1) (2025-03-06)
+
+
+### Performance Improvements
+
+* updates to theme codes & docs ([df68c04](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/df68c047af8793f4459692f8580bf4776a58fdef))
+
 # [5.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.1.0...v5.2.0) (2025-03-06)
 
 
