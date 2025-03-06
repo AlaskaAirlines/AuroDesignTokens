@@ -95,7 +95,7 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN:
 
 **Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs.
 
-## Theme Scoping with `data-aag-theme`
+## Theme Scoping with data-aag-theme
 
 The Auro Design System supports multiple themes that can be applied using the `data-aag-theme` attribute.
 
@@ -273,22 +273,6 @@ Semantic tokens can reference other semantic tokens, not just primitives:
 
 UI components should never directly use primitives (either `base` or theme-specific).
 
-Instead, always use semantic theme tokens:
-
-```css
-/* ❌ Incorrect: Using primitives directly */
-.element {
-  color: var(--ds-color-atlas-600);           /* Theme-specific primitive */
-  background-color: var(--ds-color-gray-100); /* Base primitive */
-}
-
-/* ✅ Correct: Using semantic theme tokens */
-.element {
-  color: var(--ds-color-brand-primary);
-  background-color: var(--ds-color-surface-neutralSubtle);
-}
-```
-
 ### Benefits of This Architecture
 
 This three-tiered approach provides several advantages:
@@ -299,8 +283,6 @@ This three-tiered approach provides several advantages:
 4. **Design Consistency**: Related UI elements share the same semantic tokens across different contexts
 5. **Clear Migration Path**: Supports multiple versions during transition periods
 
-
-
 ## Migration from v4.x to v5.x
 
 With the release of Auro Design Tokens 5.x significant changes have occurred:
@@ -308,6 +290,7 @@ With the release of Auro Design Tokens 5.x significant changes have occurred:
 - `./dist/` directory has been restructured. All file imports will need to have their paths updated.
 - The v4.x default theme is now called `Auro Classic`. The files for this theme may be found in `./dist/auro-classic`. This theme is now deprecated.
 - **NEW** Alaska theme found in `./dist/alaska`.
+- **NEW** Alaska Classic theme found in `./dist/alaska-classic`.
 - **NEW** Hawaiian theme found in `./dist/hawaiian`.
 - The Alaska theme and Hawaiian theme are intended to be used one at a time within a given DOM `scope`. It is not supported to load both themes into the same `scope` of the document.
 - v4.x and v5.x token names are unique to each version. As such, the `./dist/auro-classic` theme can be loaded with any of the other themes to support old Auro component versions that do not yet run on the v5.x tokens.
