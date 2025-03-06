@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [5.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.1.0...v5.2.0) (2025-03-06)
+
+
+### Features
+
+* update data selector for transformCSS ([3aad137](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3aad137f08ac398af8ea1fb3b876410c49122704))
+
 # [5.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.0.6...v5.1.0) (2025-03-06)
 
 
