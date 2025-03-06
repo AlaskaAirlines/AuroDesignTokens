@@ -18,17 +18,8 @@
  */
 import fs from 'fs/promises';
 import path from 'path';
-
-const DIST_PATH = './dist';
-const TARGET_FILE_PATTERN = 'CSSCustomProperties';
-const BUNDLED_FILE_NAME = `${TARGET_FILE_PATTERN}--bundled.css`;
-
-// Directory map
-const THEME_DIRECTORIES = [
-  { dir: 'alaska', code: 'as' },
-  { dir: 'hawaiian', code: 'ha' },
-  { dir: 'alaska-classic', code: 'ac' }
-];
+import { THEME_DIRECTORIES, getThemeAttribute } from '../src/config/themes.js';
+import { PATHS, CSS } from '../src/config/constants.js';
 
 // Find CSS files in a directory
 async function findCSSFiles(baseDir, targetDir) {
@@ -39,7 +30,7 @@ async function findCSSFiles(baseDir, targetDir) {
     const entries = await fs.readdir(fullPath, { withFileTypes: true });
     for (const entry of entries) {
       const entryPath = path.join(fullPath, entry.name);
-      if (entry.isFile() && entry.name.includes(TARGET_FILE_PATTERN)) {
+      if (entry.isFile() && entry.name.includes(CSS.TARGET_FILE_PATTERN)) {
         files.push(entryPath);
       }
     }
@@ -58,15 +49,15 @@ async function transformCSSFiles() {
     
     // Process each directory and its associated scope
     for (const { dir, code } of THEME_DIRECTORIES) {
-      const scope = `[data-aag-theme="aag-theme-${code}"]`;
+      const scope = `[${getThemeAttribute(code)}]`;
       
-      const cssFiles = await findCSSFiles(DIST_PATH, dir);
+      const cssFiles = await findCSSFiles(PATHS.DIST, dir);
       if (cssFiles.length === 0) {
-        console.log(`No CSS files found in ${DIST_PATH}/${dir} directory`);
+        console.log(`No CSS files found in ${PATHS.DIST}/${dir} directory`);
         continue;
       }
       
-      console.log(`Processing files in ${DIST_PATH}/${dir}:`, cssFiles);
+      console.log(`Processing files in ${PATHS.DIST}/${dir}:`, cssFiles);
       
       // Process each matching file
       for (const filePath of cssFiles) {
@@ -84,8 +75,8 @@ async function transformCSSFiles() {
     
     // Write bundle
     if (combinedCSS) {
-      await fs.writeFile(path.join(DIST_PATH, BUNDLED_FILE_NAME), combinedCSS.trim());
-      console.log(`Successfully created ${BUNDLED_FILE_NAME} with rescoped CSS properties`);
+      await fs.writeFile(path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME), combinedCSS.trim());
+      console.log(`Successfully created ${CSS.BUNDLED_FILE_NAME} with rescoped CSS properties`);
     } else {
       console.log('No CSS properties found in any :root {} blocks');
     }

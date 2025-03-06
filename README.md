@@ -95,7 +95,42 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN:
 
 **Note:** Exercise caution when using this CDN solution. The Auro team is NOT responsible for the maintenance of the CDN `https://cdn.jsdelivr.net/` [uptime](https://www.isitupdown.com/jsdelivr) and are unable to effectively troubleshoot response issues. It is recommended to use the installed version of Auro Design Tokens for critical UIs.
 
+## Theme Scoping with `data-aag-theme`
+
+The Auro Design System supports multiple themes that can be applied using the `data-aag-theme` attribute.
+
+### Implementation Example
+
+```html
+<!-- Alaska-themed section -->
+<div data-aag-theme="aag-theme-as">
+  <h1>Alaska Airlines Content</h1>
+  <!-- Elements here will use Alaska theme tokens -->
+</div>
+
+<!-- Hawaiian-themed section -->
+<div data-aag-theme="aag-theme-ha">
+  <h1>Hawaiian Airlines Content</h1>
+  <!-- Elements here will use Hawaiian theme tokens -->
+</div>
+```
+
+### Important Notes
+
+- The bundled CSS file (`CSSCustomProperties--bundled.css`) contains all themes rescoped with their respective `data-aag-theme` selectors
+- See the [Theme Data Attributes](#theme-data-attributes) table below for all available theme codes.
+
 ## Available Themes & Resources
+
+### Theme Data Attributes
+
+For theme scoping with CSS Custom Properties, use the following data attributes:
+
+| Theme         | Data Attribute                   | Theme Code |
+|---------------|----------------------------------|------------|
+| Alaska        | `data-aag-theme="aag-theme-as"`  | `as`       |
+| Alaska Classic| `data-aag-theme="aag-theme-asc"` | `asc`      |
+| Hawaiian      | `data-aag-theme="aag-theme-ha"`  | `ha`       |
 
 ### Alaska
 
@@ -153,7 +188,7 @@ It serves as a gateway to the `v5.x` tokens, facilitating a smooth transition fo
 
 | File                            | Syntax | Type              | Description                             |
 |---------------------------------|--------|-------------------|-----------------------------------------|
-| CSSCustomProperties--bundled.css | CSS    | Custom properties | Combined v5.x `semantic` CSS custom properties from all supported themes |
+| CSSCustomProperties--bundled.css | CSS    | Custom properties | Combined v5.x `semantic` CSS custom properties from all supported themes with their respective `data-aag-theme` selectors |
 
 **NOTE: Bundled file is not intended for general use.**
 
