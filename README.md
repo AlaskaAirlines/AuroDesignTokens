@@ -97,14 +97,14 @@ Using the `https://cdn.jsdelivr.net/npm/` CDN:
 
 ## Available Themes & Resources
 
-### Alaska Theme
+### Alaska
 
 | File                        | Syntax | Type               | Description                                           |
 |-----------------------------|--------|--------------------|-------------------------------------------------------|
 | CSSCustomProperties--alaska | CSS    | Custom properties  | All v5.x semantic tokens         |
 | primitives--alaska          | SCSS   | Sass variables     | All v5.x semantic token values   |
 
-### Alaska Classic Theme
+### Alaska Classic
 
 The Alaska Classic theme uses the `v5.x` token names with the deprecated Auro Classic values.
 
@@ -118,14 +118,14 @@ It serves as a gateway to the `v5.x` tokens, facilitating a smooth transition fo
 | SCSSVariables--alaskaClassic           | SCSS      | Sass variables     | All v5.x semantic tokens     |
 | SCSSVariablesMapFlat--alaskaClassic    | SCSS      | Sass variable map  | All v5.x semantic tokens as flat map |
 
-### Hawaiian Theme
+### Hawaiian
 
 | File                          | Syntax | Type               | Description                                           |
 |-------------------------------|--------|--------------------|-------------------------------------------------------|
 | CSSCustomProperties--hawaiian | CSS    | Custom properties  | All v5.x release tokens        |
 | primitives--hawaiian          | SCSS   | Sass variables     | All v5.x semantic token values |
 
-### Auro Classic Theme (Deprecated)
+### Auro Classic (Deprecated)
 
 | File                     | Syntax    | Type               | Filter Type / Description       |
 |--------------------------|-----------|--------------------|----------------------------------|
@@ -143,7 +143,7 @@ It serves as a gateway to the `v5.x` tokens, facilitating a smooth transition fo
 | SassCustomProperties     | SCSS      | Custom properties  | All v4.x release tokens         |
 | SassSizeCustomProperties | Sass      | Custom properties  | Filter v4.x: size, public       |
 
-### Transparent Theme (Deprecated)
+### Transparent (Deprecated)
 
 | File                                | Syntax    | Type               | Filter Type / Description |
 |-------------------------------------|-----------|--------------------|---------------------------|
