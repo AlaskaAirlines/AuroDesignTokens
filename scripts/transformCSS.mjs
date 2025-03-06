@@ -1,22 +1,21 @@
 /**
  * CSS Transformation Script
- * 
+ *
  * Processes CSS custom property files in theme directories
  * and generates a bundled CSS file with rescoped theme variations.
- * 
+ *
  * Functionality:
  * - Searches specified theme directories (e.g., 'alaska', 'hawaiian') in the 'dist' folder
  * - Finds CSS files containing a specific pattern in their filename
  * - Extracts CSS custom properties from ':root {}' blocks
  * - Rescopes the properties under theme-specific selectors
  * - Combines all themed properties into a single bundled output file
- * 
+ *
  * @example
  * // Input: dist/alaska/CSSCustomProperties--alaska.css with ':root { --color: blue; }'
- * // Output: '[aag-theme="aag-theme-as"] { --color: blue; }'
- * 
+ * // Output: '[data-aag-theme="aag-theme-as"] { --color: blue; }'
+ *
  */
-
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -25,15 +24,10 @@ const TARGET_FILE_PATTERN = 'CSSCustomProperties';
 const BUNDLED_FILE_NAME = `${TARGET_FILE_PATTERN}--bundled.css`;
 
 // Directory map
-const DIRECTORY_SCOPES = [
-  {
-    dir: 'alaska',
-    scope: '[aag-theme="aag-theme-as"]'
-  },
-  {
-    dir: 'hawaiian',
-    scope: '[aag-theme="aag-theme-ha"]'
-  }
+const THEME_DIRECTORIES = [
+  { dir: 'alaska', code: 'as' },
+  { dir: 'hawaiian', code: 'ha' },
+  { dir: 'alaska-classic', code: 'ac' }
 ];
 
 // Find CSS files in a directory
@@ -43,10 +37,8 @@ async function findCSSFiles(baseDir, targetDir) {
   
   try {
     const entries = await fs.readdir(fullPath, { withFileTypes: true });
-    
     for (const entry of entries) {
       const entryPath = path.join(fullPath, entry.name);
-      
       if (entry.isFile() && entry.name.includes(TARGET_FILE_PATTERN)) {
         files.push(entryPath);
       }
@@ -62,12 +54,13 @@ async function findCSSFiles(baseDir, targetDir) {
 async function transformCSSFiles() {
   try {
     const buildDate = new Date().toUTCString();
-    let combinedCSS = `/**\n * Do not edit directly\n * Generated on ${buildDate}\n */\n\n`;
+    let combinedCSS = `/**\n  Do not edit directly\n  Generated on ${buildDate}\n */\n\n`;
     
     // Process each directory and its associated scope
-    for (const { dir, scope } of DIRECTORY_SCOPES) {
-      const cssFiles = await findCSSFiles(DIST_PATH, dir);
+    for (const { dir, code } of THEME_DIRECTORIES) {
+      const scope = `[data-aag-theme="aag-theme-${code}"]`;
       
+      const cssFiles = await findCSSFiles(DIST_PATH, dir);
       if (cssFiles.length === 0) {
         console.log(`No CSS files found in ${DIST_PATH}/${dir} directory`);
         continue;
@@ -83,7 +76,7 @@ async function transformCSSFiles() {
         const rootMatch = content.match(/:root\s*{([^}]*)}/);
         if (rootMatch) {
           const properties = rootMatch[1].trim();
-          const rescopedCSS = `${scope} {\n  ${properties} \n}`;
+          const rescopedCSS = `${scope} {\n  ${properties}\n}`;
           combinedCSS += `/* Properties from ${path.basename(filePath)} */\n${rescopedCSS}\n\n`;
         }
       }
@@ -96,7 +89,6 @@ async function transformCSSFiles() {
     } else {
       console.log('No CSS properties found in any :root {} blocks');
     }
-    
   } catch (error) {
     console.error('Error processing CSS files:', error);
     process.exit(1);
