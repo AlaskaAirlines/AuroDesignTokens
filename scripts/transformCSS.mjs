@@ -18,6 +18,7 @@
  */
 import fs from 'fs/promises';
 import path from 'path';
+import postcss from 'postcss';
 import { THEME_DIRECTORIES, getThemeAttribute } from '../src/config/themes.js';
 import { PATHS, CSS } from '../src/config/constants.js';
 
@@ -49,7 +50,7 @@ async function transformCSSFiles() {
     
     // Process each directory and its associated scope
     for (const { dir, code } of THEME_DIRECTORIES) {
-      const scope = `[${getThemeAttribute(code)}]`;
+      const scope = getThemeAttribute(code);
       
       const cssFiles = await findCSSFiles(PATHS.DIST, dir);
       if (cssFiles.length === 0) {
@@ -63,11 +64,24 @@ async function transformCSSFiles() {
       for (const filePath of cssFiles) {
         const content = await fs.readFile(filePath, 'utf8');
         
-        // Extract content from :root {} and rescope it
-        const rootMatch = content.match(/:root\s*{([^}]*)}/);
-        if (rootMatch) {
-          const properties = rootMatch[1].trim();
-          const rescopedCSS = `${scope} {\n  ${properties}\n}`;
+        // Use postcss to parse the CSS
+        const result = await postcss().process(content, { from: filePath });
+        
+        // Extract custom properties from root
+        let customProperties = [];
+        result.root.walkRules(rule => {
+          if (rule.selector === CSS.ROOT_SELECTOR) {
+            rule.walkDecls(decl => {
+              if (decl.prop.startsWith('--')) {
+                customProperties.push(`  ${decl.prop}: ${decl.value};`);
+              }
+            });
+          }
+        });
+        
+        if (customProperties.length > 0) {
+          const propertiesStr = customProperties.join('\n');
+          const rescopedCSS = `[${scope}] {\n${propertiesStr}\n}`;
           combinedCSS += `/* Properties from ${path.basename(filePath)} */\n${rescopedCSS}\n\n`;
         }
       }
