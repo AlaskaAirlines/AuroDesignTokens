@@ -260,7 +260,13 @@ The tokens in the `themes` directory (`src/themes/alaska/`, `src/themes/hawaiian
 - Provide usage descriptions explaining their intended context
 - Are marked as `"public": true` for use in components
 
-#### 4. Multi-level Semantic References
+#### 4. Component Tokens: UI Element Styling
+
+Component tokens, prefixed with `--ds-component-` in the CSS custom properties files and found in `component.json` for each theme, define the visual characteristics of UI components.
+
+These component tokens reference semantic tokens and create a higher-level abstraction specifically for UI components.
+
+#### 5. Multi-level Semantic References
 
 Semantic tokens can reference other semantic tokens, not just primitives:
 - For example, `font.weight.heading.heading1` can reference `{font.weight.book.value}`
