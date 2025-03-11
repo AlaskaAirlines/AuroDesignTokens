@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [5.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.2.1...v5.3.0) (2025-03-11)
+
+
+### Features
+
+* add initial component tokens ([b1752ec](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b1752ec674c6cddda86a9ba2c826af7b43a20d53))
+
 ## [5.2.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.2.0...v5.2.1) (2025-03-06)
 
 
