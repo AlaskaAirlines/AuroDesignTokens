@@ -87,7 +87,7 @@ The npm package provides pre-processed resources in the `./dist/` directory orga
 
 ## Contributing
 
-Please read our [contributing guidelines](./CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Please read our [contributing guidelines](.github/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
