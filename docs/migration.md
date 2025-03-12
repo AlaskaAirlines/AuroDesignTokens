@@ -16,9 +16,22 @@ The `v5.x` release introduced several key changes:
   - **NEW** Hawaiian theme in `./dist/hawaiian`
 - **Unique Token Names**: `v4.x` and `v5.x` token names are distinct, allowing both versions to coexist
 - **Theme Scoping**: Alaska and Hawaiian themes should not be used simultaneously within the same DOM scope
+- **Deprecated Tokens**: Some tokens have been completely removed in `v5.x`.
 
-## Handling Deprecated Tokens
+## File Naming and Import Paths
 
-Some tokens have been completely removed in `v5.x`.
+The `v4.x` filename conventions remain the same, but for Auro Classic (the deprecated theme that matches `v4.x`), file path imports will need to be updated to:
 
-1. Check the [Deprecated tokens list](https://auro.alaskaair.com/getting-started/developers/design-tokens/deprecated).
+```scss
+@import "@aurodesignsystem/design-tokens/dist/auro-classic/*.*";
+```
+
+## Component Theming
+
+**Important Note**: As of March 2025, the current versions of Auro components do not support the latest `v5.x` tokens.
+
+Please use `auro-classic` for now.
+
+We plan to release the `v5.x`-compatible components in April 2025. 
+
+Full schedule here: [Component Themability Priorization](https://www.figma.com/design/IDtAQx3blORSzvfK4Vh3X6/Release-Schedules%3A-News%2C-Updates%2C-%26-Previews?node-id=29-280&p=f&m=dev).
