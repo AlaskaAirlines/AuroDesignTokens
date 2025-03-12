@@ -75,11 +75,11 @@ Apply different themes using the `data-aag-theme` attribute:
 
 For comprehensive documentation, please see our:
 
-- [Architecture Guide](./docs/architecture.md)
-- [Theme Guide](./docs/themes.md)
-- [Migration Guide](./docs/migration.md)
-- [API Reference](./docs/api-reference.md)
-- [Complete Documentation - Auro Docs](https://auro.alaskaair.com/getting-started/developers/design-tokens) ↗️
+- [Architecture Guide](https://auro.alaskaair.com/getting-started/developers/design-tokens/docs/architecture)
+- [Theme Guide](https://auro.alaskaair.com/getting-started/developers/design-tokens/docs/themes)
+- [Migration Guide](https://auro.alaskaair.com/getting-started/developers/design-tokens/docs/migration)
+- [API Reference](https://auro.alaskaair.com/getting-started/developers/design-tokens/docs/api-reference)
+- [Complete Documentation - Auro Docs](https://auro.alaskaair.com/getting-started/developers/design-tokens)
 
 ## Package Structure
 
