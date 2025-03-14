@@ -43,6 +43,22 @@
         }
       ]
     },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; filter: public",
+      "buildPath": "./dist/alaska/",
+      "files": [
+        {
+          "destination": "JSONVariablesNested--alaska.json",
+          "format": "json/nested",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
     "primitives_SCSS": {
       "transformGroup": "scss",
       "prefix": "as",
