@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.3.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.3.0...v5.3.1) (2025-03-14)
+
+
+### Performance Improvements
+
+* add JSONVariablesNested export to dist ([a293c86](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a293c86c08955081db226b432731426b8e165187))
+
 # [5.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.2.1...v5.3.0) (2025-03-11)
 
 
