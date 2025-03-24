@@ -1,0 +1,32 @@
+{
+  "component": {
+    "state": {
+      "selected": {
+        "hover": {
+          "value": "{color.brand.primaryBold.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Selected hover state color",
+          "deprecated": false
+        }
+      },
+      "focused": {
+        "value": "{color.brand.primary.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Focused component color",
+        "deprecated": false
+      },
+      "inverseFocused": {
+        "value": "{color.white.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Inverse focused component color",
+        "deprecated": false
+      }
+    }
+  }
+}
