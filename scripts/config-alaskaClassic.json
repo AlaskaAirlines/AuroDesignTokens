@@ -1,6 +1,6 @@
 {
   "source": ["./src/primitives/base/*.json", "./src/primitives/alaska-classic/*.json"],
-  "include": ["./src/themes/alaska-classic/*.json"],
+  "include": ["./src/themes/alaska-classic/*.json", "./src/themes/alaska-classic/component/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",

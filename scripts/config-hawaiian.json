@@ -1,6 +1,6 @@
 {
   "source": ["./src/primitives/base/*.json", "./src/primitives/hawaiian/*.json"],
-  "include": ["./src/themes/hawaiian/*.json"],
+  "include": ["./src/themes/hawaiian/*.json", "./src/themes/hawaiian/component/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
