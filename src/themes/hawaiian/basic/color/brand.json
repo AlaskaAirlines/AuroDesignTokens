@@ -1,0 +1,105 @@
+{
+  "basic": {
+    "color": {
+      "brand": {
+        "primary": {
+          "value": "{color.alohapink.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Primary brand color",
+          "deprecated": false
+        },
+        "primaryBold": {
+          "value": "{color.alohapink.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Bold primary brand color",
+          "deprecated": false
+        },
+        "primaryMuted": {
+          "value": "{color.alohapink.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted primary brand color",
+          "deprecated": false
+        },
+        "primarySubtle": {
+          "value": "{color.alohapink.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle primary brand color",
+          "deprecated": false
+        },
+        "secondary": {
+          "value": "{color.royalpurple.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Secondary brand color",
+          "deprecated": false
+        },
+        "secondaryBold": {
+          "value": "{color.royalpurple.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Bold secondary brand color",
+          "deprecated": false
+        },
+        "secondaryMuted": {
+          "value": "{color.royalpurple.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted secondary brand color",
+          "deprecated": false
+        },
+        "secondarySubtle": {
+          "value": "{color.royalpurple.500.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle secondary brand color",
+          "deprecated": false
+        },
+        "tertiary": {
+          "value": "{color.sunset.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Tertiary brand color",
+          "deprecated": false
+        },
+        "tertiaryBold": {
+          "value": "{color.sunset.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Bold tertiary brand color",
+          "deprecated": false
+        },
+        "tertiaryMuted": {
+          "value": "{color.sunset.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted tertiary brand color",
+          "deprecated": false
+        },
+        "tertiarySubtle": {
+          "value": "{color.sunset.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle tertiary brand color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
+  

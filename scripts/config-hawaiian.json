@@ -1,6 +1,6 @@
 {
-  "source": ["./src/primitives/base/*.json", "./src/primitives/hawaiian/*.json"],
-  "include": ["./src/themes/hawaiian/*.json", "./src/themes/hawaiian/component/*.json"],
+  "source": ["./src/primitives/{base,hawaiian}/*.json"],
+  "include": ["./src/themes/hawaiian/**/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -61,7 +61,7 @@
     },
     "primitives_SCSS": {
       "transformGroup": "scss",
-      "prefix": "hi",
+      "prefix": "ha",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
       "buildPath": "./dist/hawaiian/",
       "files": [

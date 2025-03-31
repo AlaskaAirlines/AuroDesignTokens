@@ -1,6 +1,6 @@
 {
-  "source": ["./src/primitives/base/*.json", "./src/primitives/alaska/*.json"],
-  "include": ["./src/themes/alaska/*.json", "./src/themes/alaska/component/*.json"],
+  "source": ["./src/primitives/{base,alaska}/*.json"],
+  "include": ["./src/themes/alaska/**/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",

@@ -1,0 +1,248 @@
+{
+  "basic": {
+    "text": {
+      "heading": {
+        "xl": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.40.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.36.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.32.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "lg": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.36.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.32.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.28.value}",
+              "fontWeight": "{font.weight.regular.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "md": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.28.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.28.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.26.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "sm": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.24.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.24.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.22.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "xs": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.20.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.20.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.20.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "xxs": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.18.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.18.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.slatePro.value}",
+              "fontSize": "{font.size.18.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.xs.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

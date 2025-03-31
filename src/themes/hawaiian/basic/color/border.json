@@ -1,0 +1,65 @@
+{
+  "basic": {
+    "color": {
+      "border": {
+        "bold": {
+          "value": "{color.gray.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Bold border color",
+          "deprecated": false
+        },
+        "brand": {
+          "value": "{color.gray.250.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Brand border color",
+          "deprecated": false
+        },
+        "default": {
+          "value": "{color.gray.250.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Default border color",
+          "deprecated": false
+        },
+        "divider": {
+          "value": "{transparency.black.15.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Divider border color",
+          "deprecated": false
+        },
+        "dividerInverse": {
+          "value": "{transparency.white.40.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse divider border color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse border color",
+          "deprecated": false
+        },
+        "subtle": {
+          "value": "{color.gray.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle border color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
+  

@@ -102,6 +102,13 @@
         "deprecated": false
       },
       "10": {
+        "value": "#ffffffe6",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "15": {
         "value": "#ffffff1a",
         "type": "primitive",
         "public": false,

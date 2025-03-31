@@ -1,5 +1,5 @@
 {
-  "component": {
+  "advanced": {
     "background": {
       "default": {
         "value": "{color.white.value}",
@@ -7,22 +7,6 @@
         "public": true,
         "default": true,
         "usage": "Component background color",
-        "deprecated": false
-      },
-      "hover": {
-        "value": "{color.gray.100.value}",
-        "type": "semantic",
-        "public": true,
-        "default": true,
-        "usage": "Component background hover color",
-        "deprecated": false
-      },
-      "disabled": {
-        "value": "{color.gray.200.value}",
-        "type": "semantic",
-        "public": true,
-        "default": true,
-        "usage": "Component background disabled color",
         "deprecated": false
       },
       "muted": {
@@ -40,7 +24,23 @@
         "default": true,
         "usage": "Component background strong color",
         "deprecated": false
+      },
+      "inverse": {
+        "value": "{color.transparencies.white.5.value}",
+        "type": "semantic",
+        "public": true,
+        "default": true,
+        "usage": "Component background hover color",
+        "deprecated": false
       }
+    },
+    "textAccent": {
+      "value": "{color.brand.primarySubtle.value}",
+      "type": "semantic",
+      "public": true,
+      "default": true,
+      "usage": "",
+      "deprecated": false
     }
   }
 }

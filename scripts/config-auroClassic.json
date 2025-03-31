@@ -1,6 +1,6 @@
 {
   "source": ["./src/themes/auro-classic/color/*.json"],
-  "include": ["./src/themes/auro-classic/font.json", "./src/themes/auro-classic/size/*.json", "./src/themes/auro-classic/*.json"],
+  "include": ["./src/themes/auro-classic/**/*.json"],
   "platforms": {
     "SCSSVariables": {
       "transformGroup": "scss",

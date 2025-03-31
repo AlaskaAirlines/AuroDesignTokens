@@ -1,5 +1,5 @@
 {
-  "component": {
+  "advanced": {
     "button": {
       "primary": {
         "text": {
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "border": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -19,7 +19,7 @@
           "deprecated": false
         },
         "borderHover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -27,7 +27,7 @@
           "deprecated": false
         },
         "background": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -35,7 +35,7 @@
           "deprecated": false
         },
         "backgroundHover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -43,7 +43,7 @@
           "deprecated": false
         },
         "backgroundActive": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -51,7 +51,7 @@
           "deprecated": false
         },
         "textInverse": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -75,7 +75,7 @@
           "deprecated": false
         },
         "borderInverseHover": {
-          "value": "{color.brand.primaryMuted.value}",
+          "value": "{basic.color.brand.primaryMuted.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -83,7 +83,7 @@
           "deprecated": false
         },
         "backgroundInverseHover": {
-          "value": "{color.brand.primaryMuted.value}",
+          "value": "{basic.color.brand.primaryMuted.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -93,7 +93,7 @@
       },
       "secondary": {
         "text": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -101,7 +101,7 @@
           "deprecated": false
         },
         "textHover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.secondary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -109,7 +109,7 @@
           "deprecated": false
         },
         "border": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.border.default.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -117,7 +117,7 @@
           "deprecated": false
         },
         "borderHover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.border.default.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -125,7 +125,7 @@
           "deprecated": false
         },
         "background": {
-          "value": "{transparency.white.80.value}",
+          "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -133,7 +133,7 @@
           "deprecated": false
         },
         "backgroundHover": {
-          "value": "{transparency.white.50.value}",
+          "value": "{color.gray.100.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -157,7 +157,7 @@
           "deprecated": false
         },
         "backgroundInverseHover": {
-          "value": "{transparency.white.80.value}",
+          "value": "{transparency.black.5.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -167,7 +167,7 @@
       },
       "tertiary": {
         "text": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -175,7 +175,7 @@
           "deprecated": false
         },
         "textHover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
