@@ -1,5 +1,5 @@
 {
-  "component": {
+  "advanced": {
     "button": {
       "primary": {
         "text": {
@@ -101,7 +101,7 @@
           "deprecated": false
         },
         "textHover": {
-          "value": "{color.brand.secondary.value}",
+          "value": "{color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -109,7 +109,7 @@
           "deprecated": false
         },
         "border": {
-          "value": "{color.border.default.value}",
+          "value": "{color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -117,7 +117,7 @@
           "deprecated": false
         },
         "borderHover": {
-          "value": "{color.border.default.value}",
+          "value": "{color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -125,7 +125,7 @@
           "deprecated": false
         },
         "background": {
-          "value": "{color.white.value}",
+          "value": "{transparency.white.80.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -133,7 +133,7 @@
           "deprecated": false
         },
         "backgroundHover": {
-          "value": "{color.gray.100.value}",
+          "value": "{transparency.white.50.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -157,7 +157,7 @@
           "deprecated": false
         },
         "backgroundInverseHover": {
-          "value": "{transparency.black.5.value}",
+          "value": "{transparency.white.80.value}",
           "type": "semantic",
           "public": true,
           "default": true,

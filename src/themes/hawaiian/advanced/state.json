@@ -1,9 +1,9 @@
 {
-  "component": {
+  "advanced": {
     "state": {
       "focused": {
         "default": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.brand.tertiary.value}",
+          "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -21,7 +21,7 @@
       },
       "selected": {
         "default": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -29,7 +29,7 @@
           "deprecated": false
         },
         "hover": {
-          "value": "{color.brand.primaryBold.value}",
+          "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -56,7 +56,7 @@
         },
         "inverse": {
           "hover": {
-            "value": "{color.transparencies.white.15.value}",
+            "value": "{transparency.white.15.value}",
             "type": "semantic",
             "public": true,
             "default": true,

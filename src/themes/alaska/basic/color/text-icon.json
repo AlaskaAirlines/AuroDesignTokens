@@ -1,0 +1,96 @@
+{
+  "basic": {
+    "color": {
+      "textIcon": {
+        "default": {
+          "value": "{color.gray.1000.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Default text color",
+          "deprecated": false
+        },
+        "muted": {
+          "value": "{color.gray.700.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted text color",
+          "deprecated": false
+        },
+        "disabled": {
+          "base": {
+            "value": "{color.gray.250.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Disabled text/icon color",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.gray.700.value}",
+            "type": "semantic", 
+            "public": true,
+            "default": true,
+            "usage": "Disabled inverse text/icon color",
+            "deprecated": false
+          }
+        },
+        "link": {
+          "default": {
+            "base": {
+              "value": "{color.brand.primary.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "Default link text/icon color",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.white.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "Inverse link text/icon color",
+              "deprecated": false
+            }
+          },
+          "hover": {
+            "base": {
+              "value": "{color.brand.primaryBold.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "Hover link text/icon color",
+              "deprecated": false
+            },
+            "inverse": {
+              "value": "{color.brand.primaryMuted.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "Inverse hover link text/icon color",
+              "deprecated": false
+            }
+          }
+        },
+        "accent1": {
+          "value": "{color.brand.primary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse text color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

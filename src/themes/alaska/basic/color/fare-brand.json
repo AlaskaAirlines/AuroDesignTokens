@@ -1,0 +1,74 @@
+{
+  "basic": {
+    "color": {
+      "fareBrand": {
+        "basicEconomy": {
+          "value": "{color.bliss.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Basic fare brand color",
+          "deprecated": false
+        },
+        "economy": {
+          "value": "{color.atlas.500.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Economy fare brand color",
+          "deprecated": false
+        },
+        "premiumEconomy": {
+          "value": "{color.summit.900.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Premium fare brand color",
+          "deprecated": false
+        },
+        "business": {
+          "value": "{color.midnight.1000.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "First class fare brand color",
+          "deprecated": false
+        },
+        "first": {
+          "value": "{color.midnight.1000.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "First class fare brand color",
+          "deprecated": false
+        },
+        "oneworld": {
+          "emerald": {
+            "value": "{color.oneworld.emerald.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "OneWorld Emerald brand color",
+            "deprecated": false
+          },
+          "sapphire": {
+            "value": "{color.oneworld.sapphire.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "OneWorld Sapphire brand color",
+            "deprecated": false
+          },
+          "ruby": {
+            "value": "{color.oneworld.ruby.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "OneWorld Ruby brand color",
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "advanced": {
+    "boolean": {
+      "indicator": {
+        "default": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean indicator color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{basic.color.brand.primary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean indicator inverse color",
+          "deprecated": false
+        }
+      },
+      "isFalse": {
+        "default": {
+          "value": "{basic.color.surface.default.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false state color",
+          "deprecated": false
+        },
+        "hover": {
+          "value": "{advanced.state.background.hover.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false hover state color",
+          "deprecated": false
+        },
+        "border": {
+          "value": "{basic.color.border.bold.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false border color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{advanced.background.inverse.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false inverse state color",
+          "deprecated": false
+        },
+        "inverseHover": {
+          "value": "{advanced.state.background.hover.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false inverse hover state color",
+          "deprecated": false
+        },
+        "borderInverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean false inverse border color",
+          "deprecated": false
+        }
+      },
+      "isTrue": {
+        "default": {
+          "value": "{basic.color.brand.primary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean true state color",
+          "deprecated": false
+        },
+        "hover": {
+          "value": "{basic.color.brand.primaryBold.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean true hover state color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean true inverse state color",
+          "deprecated": false
+        },
+        "inverseHover": {
+          "value": "{transparency.white.70.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean true inverse hover state color",
+          "deprecated": false
+        }
+      },
+      "error": {
+        "default": {
+          "value": "{basic.color.status.error.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean error state color",
+          "deprecated": false
+        },
+        "hover": {
+          "value": "{color.status.error.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean error hover state color",
+          "deprecated": false
+        }
+      },
+      "disabled": {
+        "inverse": {
+          "value": "{color.status.error.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Boolean disabled inverse state color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

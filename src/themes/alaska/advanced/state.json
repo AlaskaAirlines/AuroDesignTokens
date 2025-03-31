@@ -1,5 +1,5 @@
 {
-  "component": {
+  "advanced": {
     "state": {
       "focused": {
         "default": {
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "inverse": {
-          "value": "{color.brand.tertiary.value}",
+          "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
           "default": true,

@@ -1,5 +1,5 @@
 {
-  "component": {
+  "advanced": {
     "hyperlink": {
       "default": {
         "value": "{color.brand.primary.value}",

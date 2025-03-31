@@ -1,0 +1,81 @@
+{
+  "basic": {
+    "color": {
+      "status": {
+        "default": {
+          "value": "{color.neutral.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Default status color",
+          "deprecated": false
+        },
+        "error": {
+          "value": "{color.status.error.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Error status color",
+          "deprecated": false
+        },
+        "errorSubtle": {
+          "value": "{color.status.error.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle error status color",
+          "deprecated": false
+        },
+        "info": {
+          "value": "{color.status.help.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Info status color",
+          "deprecated": false
+        },
+        "infoSubtle": {
+          "value": "{color.status.help.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle info status color",
+          "deprecated": false
+        },
+        "success": {
+          "value": "{color.status.success.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Success status color",
+          "deprecated": false
+        },
+        "successSubtle": {
+          "value": "{color.status.success.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle success status color",
+          "deprecated": false
+        },
+        "warning": {
+          "value": "{color.status.warn.300.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Warning status color",
+          "deprecated": false
+        },
+        "warningSubtle": {
+          "value": "{color.status.warn.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle warning status color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
+  

@@ -1,0 +1,63 @@
+{
+  "basic": {
+    "text": {
+      "body": {
+        "lg": {
+          "fontFamily": "{font.family.asCircular.value}",
+          "fontSize": "{font.size.18.value}",
+          "lineHeight": "{font.lineHeight.26.value}",
+          "fontWeight": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "default": {
+          "fontFamily": "{font.family.asCircular.value}",
+          "fontSize": "{font.size.16.value}",
+          "lineHeight": "{font.lineHeight.24.value}",
+          "fontWeight": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "sm": {
+          "fontFamily": "{font.family.asCircular.value}",
+          "fontSize": "{font.size.14.value}",
+          "lineHeight": "{font.lineHeight.20.value}",
+          "fontWeight": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "xs": {
+          "fontFamily": "{font.family.asCircular.value}",
+          "fontSize": "{font.size.12.value}",
+          "lineHeight": "{font.lineHeight.16.value}",
+          "fontWeight": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "xxs": {
+          "fontFamily": "{font.family.asCircular.value}",
+          "fontSize": "{font.size.10.value}",
+          "lineHeight": "{font.lineHeight.14.value}",
+          "fontWeight": "{font.weight.book.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

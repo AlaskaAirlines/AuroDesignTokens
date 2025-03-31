@@ -1,6 +1,6 @@
 {
-  "source": ["./src/primitives/base/*.json", "./src/primitives/alaska-classic/*.json"],
-  "include": ["./src/themes/alaska-classic/*.json", "./src/themes/alaska-classic/component/*.json"],
+  "source": ["./src/primitives/{base,alaska-classic}/*.json"],
+  "include": ["./src/themes/alaska-classic/**/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -61,7 +61,7 @@
     },
     "primitives_SCSS": {
       "transformGroup": "scss",
-      "prefix": "as",
+      "prefix": "asc",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
       "buildPath": "./dist/alaska-classic/",
       "files": [

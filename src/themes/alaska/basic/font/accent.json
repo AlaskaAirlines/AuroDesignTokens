@@ -1,0 +1,288 @@
+{
+  "basic": {
+    "text": {
+      "accent": {
+        "xxl": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.38.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.100.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.38.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.100.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.32.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.100.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "xl": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.32.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.28.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.26.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "lg": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.28.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.26.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.24.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "md": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.24.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.22.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.22.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "sm": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.20.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.18.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.18.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.sm.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "xs": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.16.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.16.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.16.value}",
+              "fontWeight": "{font.weight.condMedium.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        },
+        "xxs": {
+          "breakpoint": {
+            "lg": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.14.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "md": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.14.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            },
+            "sm": {
+              "fontFamily": "{font.family.goodOt.value}",
+              "fontSize": "{font.size.14.value}",
+              "fontWeight": "{font.weight.condNews.value}",
+              "lineHeight": "{font.lineHeight.130.value}",
+              "letterSpacing": "{font.letterSpacing.md.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}
