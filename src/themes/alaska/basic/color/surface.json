@@ -48,7 +48,7 @@
         },
         "accent1": {
           "base": {
-            "value": "{color.brand.primary.value}",
+            "value": "{basic.color.brand.primary.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -56,7 +56,7 @@
             "deprecated": false
           },
           "subtle": {
-            "value": "{color.brand.primarySubtle.value}",
+            "value": "{basic.color.brand.primarySubtle.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -64,7 +64,7 @@
             "deprecated": false
           },
           "muted": {
-            "value": "{color.brand.primaryMuted.value}",
+            "value": "{basic.color.brand.primaryMuted.value}",
             "type": "semantic",
             "public": true,
             "default": true,

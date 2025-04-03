@@ -3,86 +3,79 @@
     "color": {
       "status": {
         "default": {
-          "value": "{color.midnight.900.value}",
+          "value": "{color.neutral.400.value}",
           "type": "semantic",
           "public": true,
           "default": true,
-          "usage": "Primary brand color",
+          "usage": "Default status color",
+          "deprecated": false
+        },
+        "error": {
+          "value": "{color.status.error.700.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Error status color",
+          "deprecated": false
+        },
+        "errorSubtle": {
+          "value": "{color.status.error.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle error status color",
           "deprecated": false
         },
         "info": {
-          "base": {
-            "value": "{color.brand.primary.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Info status color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{color.status.help.100.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle info status color",
-            "deprecated": false
-          }
+          "value": "{basic.color.brand.primary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Info status color",
+          "deprecated": false
+        },
+        "infoSubtle": {
+          "value": "{basic.color.brand.primaryMuted.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle info status color",
+          "deprecated": false
         },
         "success": {
-          "base": {
-            "value": "{color.status.success.600.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Success status color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{color.status.success.100.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle success status color",
-            "deprecated": false
-          }
+          "value": "{color.status.success.700.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Success status color",
+          "deprecated": false
+        },
+        "successSubtle": {
+          "value": "{color.status.success.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle success status color",
+          "deprecated": false
         },
         "warning": {
-          "base": {
-            "value": "{color.status.warn.300.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Warning status color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{color.status.warn.100.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle warning status color",
-            "deprecated": false
-          }
+          "value": "{color.status.warn.300.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Warning status color",
+          "deprecated": false
         },
-        "error": {
-          "base": {
-            "value": "{color.status.error.600.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Error status color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{color.status.error.100.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle error status color",
-            "deprecated": false
-          }
+        "warningSubtle": {
+          "value": "{color.status.warn.100.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle warning status color",
+          "deprecated": false
         }
       }
     }
   }
 }
+  

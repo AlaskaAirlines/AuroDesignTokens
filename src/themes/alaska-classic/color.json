@@ -156,7 +156,7 @@
         "deprecated": false
       }
     },
-    "farebrand": {
+    "fare": {
       "basiceconomy": {
         "value": "{color.bliss.400.value}",
         "type": "semantic",
@@ -165,7 +165,7 @@
         "usage": "Basic fare brand color",
         "deprecated": false
       },
-      "businessFirst": {
+      "businessfirst": {
         "value": "{color.midnight.1000.value}",
         "type": "semantic",
         "public": true,

@@ -1,7 +1,7 @@
 {
   "basic": {
     "color": {
-      "textIcon": {
+      "texticon": {
         "default": {
           "value": "{color.gray.1000.value}",
           "type": "semantic",
@@ -39,7 +39,7 @@
         "link": {
           "default": {
             "base": {
-              "value": "{color.brand.primary.value}",
+              "value": "{basic.color.brand.primary.value}",
               "type": "semantic",
               "public": true,
               "default": true,
@@ -57,7 +57,7 @@
           },
           "hover": {
             "base": {
-              "value": "{color.brand.primaryBold.value}",
+              "value": "{basic.color.brand.primaryBold.value}",
               "type": "semantic",
               "public": true,
               "default": true,
@@ -65,7 +65,7 @@
               "deprecated": false
             },
             "inverse": {
-              "value": "{color.brand.primaryMuted.value}",
+              "value": "{basic.color.brand.primaryMuted.value}",
               "type": "semantic",
               "public": true,
               "default": true,
@@ -75,7 +75,7 @@
           }
         },
         "accent1": {
-          "value": "{color.brand.primary.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,

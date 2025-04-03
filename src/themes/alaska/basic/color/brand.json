@@ -1,8 +1,8 @@
 {
-  "color": {
-    "brand": {
-      "primary": {
-        "base": {
+  "basic": {
+    "color": {
+      "brand": {
+        "primary": {
           "value": "{color.midnight.900.value}",
           "type": "semantic",
           "public": true,
@@ -10,7 +10,7 @@
           "usage": "Primary brand color",
           "deprecated": false
         },
-        "muted": {
+        "primaryMuted": {
           "value": "{color.midnight.100.value}",
           "type": "semantic",
           "public": true,
@@ -18,7 +18,7 @@
           "usage": "Muted primary brand color",
           "deprecated": false
         },
-        "subtle": {
+        "primarySubtle": {
           "value": "{color.midnight.600.value}",
           "type": "semantic",
           "public": true,
@@ -26,17 +26,15 @@
           "usage": "Subtle primary brand color",
           "deprecated": false
         },
-        "bold": {
+        "primaryBold": {
           "value": "{color.midnight.1000.value}",
           "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Bold primary brand color",
           "deprecated": false
-        }
-      },
-      "secondary": {
-        "base": {
+        },
+        "secondary": {
           "value": "{color.bliss.500.value}",
           "type": "semantic",
           "public": true,
@@ -44,7 +42,7 @@
           "usage": "Secondary brand color",
           "deprecated": false
         },
-        "muted": {
+        "secondaryMuted": {
           "value": "{color.bliss.100.value}",
           "type": "semantic",
           "public": true,
@@ -52,7 +50,7 @@
           "usage": "Muted secondary brand color",
           "deprecated": false
         },
-        "subtle": {
+        "secondarySubtle": {
           "value": "{color.bliss.300.value}",
           "type": "semantic",
           "public": true,
@@ -60,17 +58,15 @@
           "usage": "Subtle secondary brand color",
           "deprecated": false
         },
-        "bold": {
+        "secondaryBold": {
           "value": "{color.bliss.700.value}",
           "type": "semantic",
           "public": true,
           "default": true,
           "usage": "Bold secondary brand color",
           "deprecated": false
-        }
-      },
-      "tertiary": {
-        "base": {
+        },
+        "tertiary": {
           "value": "{color.tropical.500.value}",
           "type": "semantic",
           "public": true,
@@ -78,7 +74,7 @@
           "usage": "Tertiary brand color",
           "deprecated": false
         },
-        "muted": {
+        "tertiaryMuted": {
           "value": "{color.tropical.100.value}",
           "type": "semantic",
           "public": true,
@@ -86,7 +82,7 @@
           "usage": "Muted tertiary brand color",
           "deprecated": false
         },
-        "subtle": {
+        "tertiarySubtle": {
           "value": "{color.tropical.300.value}",
           "type": "semantic",
           "public": true,
@@ -94,7 +90,7 @@
           "usage": "Subtle tertiary brand color",
           "deprecated": false
         },
-        "bold": {
+        "tertiaryBold": {
           "value": "{color.tropical.700.value}",
           "type": "semantic",
           "public": true,

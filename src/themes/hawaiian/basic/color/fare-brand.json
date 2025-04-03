@@ -1,8 +1,8 @@
 {
   "basic": {
     "color": {
-      "fareBrand": {
-        "basicEconomy": {
+      "fare": {
+        "basiceconomy": {
           "value": "{color.gray.250.value}",
           "type": "semantic",
           "public": true,
@@ -10,7 +10,7 @@
           "usage": "Basic fare brand color",
           "deprecated": false
         },
-        "businessFirst": {
+        "businessfirst": {
           "value": "{color.royalpurple.600.value}",
           "type": "semantic",
           "public": true,
@@ -34,7 +34,7 @@
           "usage": "First class fare brand color",
           "deprecated": false
         },
-        "premiumEconomy": {
+        "premiumeconomy": {
           "value": "{color.ocean.800.value}",
           "type": "semantic",
           "public": true,
@@ -42,7 +42,7 @@
           "usage": "Premium fare brand color",
           "deprecated": false
         },
-        "oneWorld": {
+        "oneworld": {
           "emerald": {
             "value": "{color.oneworld.emerald.value}",
             "type": "semantic",
