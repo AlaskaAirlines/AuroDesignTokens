@@ -1,67 +1,69 @@
 {
   "advanced": {
-    "state": {
-      "focused": {
-        "default": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        }
-      },
-      "selected": {
-        "default": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        },
-        "hover": {
-          "value": "{basic.color.brand.primaryBold.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        }
-      },
-      "background": {
-        "hover": {
-          "value": "{color.gray.100.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        },
-        "disabled": {
-          "value": "{color.gray.200.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "",
-          "deprecated": false
-        },
-        "inverse": {
-          "hover": {
-            "value": "{transparency.white.15.value}",
+    "color": {
+      "state": {
+        "focused": {
+          "default": {
+            "value": "{basic.color.brand.primary.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          }
+        },
+        "selected": {
+          "default": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "hover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          }
+        },
+        "background": {
+          "hover": {
+            "value": "{color.gray.100.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "disabled": {
+            "value": "{color.gray.200.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "inverse": {
+            "hover": {
+              "value": "{transparency.white.15.value}",
+              "type": "semantic",
+              "public": true,
+              "default": true,
+              "usage": "",
+              "deprecated": false
+            }
           }
         }
       }
