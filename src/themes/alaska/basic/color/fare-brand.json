@@ -1,8 +1,8 @@
 {
   "basic": {
     "color": {
-      "fareBrand": {
-        "basicEconomy": {
+      "fare": {
+        "basiceconomy": {
           "value": "{color.bliss.400.value}",
           "type": "semantic",
           "public": true,
@@ -18,7 +18,7 @@
           "usage": "Economy fare brand color",
           "deprecated": false
         },
-        "premiumEconomy": {
+        "premiumeconomy": {
           "value": "{color.summit.900.value}",
           "type": "semantic",
           "public": true,
