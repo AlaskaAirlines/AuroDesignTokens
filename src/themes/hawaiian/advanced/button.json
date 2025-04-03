@@ -27,6 +27,14 @@
             "usage": "Primary button border hover color",
             "deprecated": false
           },
+          "borderDisabled": {
+            "value": "{color.royalpurple.300.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "background": {
             "value": "{basic.color.brand.primary.value}",
             "type": "semantic",
@@ -51,6 +59,30 @@
             "usage": "Primary button background active color",
             "deprecated": false
           },
+          "backgroundDisabled": {
+            "value": "{color.royalpurple.300.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "backgroundInactive": {
+            "value": "{color.royalpurple.200.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "backgroundInactiveHover": {
+            "value": "{color.royalpurple.400.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "textInverse": {
             "value": "{basic.color.brand.primary.value}",
             "type": "semantic",
@@ -65,6 +97,14 @@
             "public": true,
             "default": true,
             "usage": "Primary button inverse border color",
+            "deprecated": false
+          },
+          "borderInverseDisabled": {
+            "value": "{transparency.white.75.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
             "deprecated": false
           },
           "backgroundInverse": {
@@ -90,6 +130,14 @@
             "default": true,
             "usage": "Primary button inverse background hover color",
             "deprecated": false
+          },
+          "backgroundInverseDisabled": {
+            "value": "{transparency.white.75.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
           }
         },
         "secondary": {
@@ -102,7 +150,7 @@
             "deprecated": false
           },
           "textHover": {
-            "value": "{basic.color.brand.secondary.value}",
+            "value": "{basic.color.brand.primaryBold.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -125,12 +173,28 @@
             "usage": "Secondary button border hover color",
             "deprecated": false
           },
+          "borderHoverDisabled": {
+            "value": "{color.gray.50.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "background": {
             "value": "{color.white.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "Secondary button background color",
+            "deprecated": false
+          },
+          "backgroundDisabled": {
+            "value": "{color.gray.50.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
             "deprecated": false
           },
           "backgroundHover": {
@@ -155,6 +219,14 @@
             "public": true,
             "default": true,
             "usage": "Secondary button inverse border color",
+            "deprecated": false
+          },
+          "borderInverseDisabled": {
+            "value": "{basic.color.border.subtle.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
             "deprecated": false
           },
           "backgroundInverseHover": {

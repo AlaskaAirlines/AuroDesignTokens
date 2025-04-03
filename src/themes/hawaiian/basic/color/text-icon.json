@@ -1,0 +1,58 @@
+{
+  "basic": {
+    "color": {
+      "textIcon": {
+        "default": {
+          "value": "{color.black.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Default text color",
+          "deprecated": false
+        },
+        "muted": {
+          "value": "{color.gray.900.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted text color",
+          "deprecated": false
+        },
+        "disabled": {
+          "default": {
+            "value": "{color.gray.250.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Disabled text/icon color",
+            "deprecated": false
+          },
+          "inverse": {
+            "value": "{color.neutral.600.value}",
+            "type": "semantic", 
+            "public": true,
+            "default": true,
+            "usage": "Disabled inverse text/icon color",
+            "deprecated": false
+          }
+        },
+        "accent1": {
+          "value": "{basic.color.brand.primary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse text color",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}
