@@ -3,7 +3,7 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.alohapink.600.value}",
+          "value": "{color.royalpurple.600.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "primaryBold": {
-          "value": "{color.alohapink.800.value}",
+          "value": "{color.royalpurple.800.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -19,7 +19,7 @@
           "deprecated": false
         },
         "primaryMuted": {
-          "value": "{color.alohapink.100.value}",
+          "value": "{color.royalpurple.100.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -27,7 +27,7 @@
           "deprecated": false
         },
         "primarySubtle": {
-          "value": "{color.alohapink.400.value}",
+          "value": "{color.royalpurple.400.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -35,7 +35,7 @@
           "deprecated": false
         },
         "secondary": {
-          "value": "{color.royalpurple.600.value}",
+          "value": "{color.alohapink.600.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -43,7 +43,7 @@
           "deprecated": false
         },
         "secondaryBold": {
-          "value": "{color.royalpurple.800.value}",
+          "value": "{color.alohapink.800.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -51,7 +51,7 @@
           "deprecated": false
         },
         "secondaryMuted": {
-          "value": "{color.royalpurple.100.value}",
+          "value": "{color.alohapink.100.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -59,7 +59,7 @@
           "deprecated": false
         },
         "secondarySubtle": {
-          "value": "{color.royalpurple.500.value}",
+          "value": "{color.alohapink.500.value}",
           "type": "semantic",
           "public": true,
           "default": true,

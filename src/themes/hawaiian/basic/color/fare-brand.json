@@ -26,8 +26,16 @@
           "usage": "Economy fare brand color",
           "deprecated": false
         },
+        "first": {
+          "value": "{color.royalpurple.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "First class fare brand color",
+          "deprecated": false
+        },
         "premiumEconomy": {
-          "value": "{color.ocean.600.value}",
+          "value": "{color.ocean.800.value}",
           "type": "semantic",
           "public": true,
           "default": true,

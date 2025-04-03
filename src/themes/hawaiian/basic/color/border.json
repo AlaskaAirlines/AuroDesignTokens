@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "brand": {
-          "value": "{color.gray.250.value}",
+          "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
           "default": true,

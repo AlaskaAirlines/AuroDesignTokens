@@ -3,7 +3,7 @@
     "color": {
       "surface": {
         "accent1": {
-          "value": "{color.gray.200.value}",
+          "value": "{color.royalpurple.300.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "accent1Muted": {
-          "value": "{color.gray.50.value}",
+          "value": "{basic.color.brand.primaryMuted.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -19,7 +19,7 @@
           "deprecated": false
         },
         "accent1Subtle": {
-          "value": "{color.gray.100.value}",
+          "value": "{color.royalpurple.300.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -27,7 +27,7 @@
           "deprecated": false
         },
         "accent2": {
-          "value": "{color.gray.200.value}",
+          "value": "{color.gray.50.value}",
           "type": "semantic",
           "public": true,
           "default": true,
