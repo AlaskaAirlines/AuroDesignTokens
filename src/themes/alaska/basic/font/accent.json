@@ -22,7 +22,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -64,7 +64,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -106,7 +106,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -152,7 +152,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -194,7 +194,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -236,7 +236,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -282,7 +282,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -324,7 +324,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -366,7 +366,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -412,7 +412,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -454,7 +454,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -496,7 +496,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -542,7 +542,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -584,7 +584,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -626,7 +626,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -672,7 +672,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -714,7 +714,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -756,7 +756,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condMedium.value}",
+                "value": "{font.weight.525.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -802,7 +802,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -844,7 +844,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -886,7 +886,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.condNews.value}",
+                "value": "{font.weight.425.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,

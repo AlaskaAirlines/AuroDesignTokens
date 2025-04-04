@@ -217,42 +217,49 @@
       }
     },
     "weight": {
-      "light": {
+      "300": {
         "value": "Light",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "book": {
-        "value": "Book",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "regular": {
+      "400": {
         "value": "Regular",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "condNews": {
+      "425": {
         "value": "Cond News",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "condMedium": {
+      "450": {
+        "value": "Book",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "500": {
+        "value": "Medium",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "525": {
         "value": "Cond Medium",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "semibold": {
+      "600": {
         "value": "Semibold",
         "type": "primitive",
         "public": false,

@@ -28,7 +28,7 @@
             "deprecated": false
           },
           "fontWeight": {
-            "value": "{font.weight.regular.value}",
+            "value": "{font.weight.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -62,7 +62,7 @@
             "deprecated": false
           },
           "fontWeight": {
-            "value": "{font.weight.regular.value}",
+            "value": "{font.weight.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -96,7 +96,7 @@
             "deprecated": false
           },
           "fontWeight": {
-            "value": "{font.weight.regular.value}",
+            "value": "{font.weight.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -130,7 +130,7 @@
             "deprecated": false
           },
           "fontWeight": {
-            "value": "{font.weight.regular.value}",
+            "value": "{font.weight.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -164,7 +164,7 @@
             "deprecated": false
           },
           "fontWeight": {
-            "value": "{font.weight.regular.value}",
+            "value": "{font.weight.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
