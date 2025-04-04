@@ -2,7 +2,7 @@
   "basic": {
     "cornerRadius": {
       "small": { 
-        "value": "6px",
+        "value": "4px",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -10,7 +10,7 @@
         "deprecated": false
       },
       "medium": {
-        "value": "6px",
+        "value": "16px",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -18,7 +18,7 @@
         "deprecated": false
       },
       "large": {
-        "value": "100px",
+        "value": "24px",
         "type": "semantic",
         "public": true,
         "default": true,

@@ -2,7 +2,7 @@
   "advanced": {
     "color": {
       "hyperlink": {
-        "default": {
+        "text": {
           "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
@@ -10,7 +10,7 @@
           "usage": "Default hyperlink color",
           "deprecated": false
         },
-        "hover": {
+        "textHover": {
           "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
@@ -18,44 +18,20 @@
           "usage": "Hyperlink hover state color",
           "deprecated": false
         },
-        "active": {
-          "value": "{basic.color.brand.primaryBold.value}",
+        "textInverse": {
+          "value": "{basic.color.texticon.inverse.value}",
           "type": "semantic",
           "public": true,
           "default": true,
-          "usage": "Hyperlink active state color",
+          "usage": "",
           "deprecated": false
         },
-        "visited": {
-          "value": "{basic.color.brand.primaryMuted.value}",
+        "textInverseHover": {
+          "value": "{basic.color.texticon.inverse.value}",
           "type": "semantic",
           "public": true,
           "default": true,
-          "usage": "Hyperlink visited state color",
-          "deprecated": false
-        },
-        "disabled": {
-          "value": "{color.gray.400.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Hyperlink disabled state color",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Hyperlink inverse color",
-          "deprecated": false
-        },
-        "inverseHover": {
-          "value": "{basic.color.brand.primaryMuted.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Hyperlink inverse hover color",
+          "usage": "",
           "deprecated": false
         }
       }

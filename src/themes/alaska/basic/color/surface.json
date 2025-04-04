@@ -3,92 +3,84 @@
     "color": {
       "surface": {
         "default": {
-          "value": "{color.midnight.900.value}",
+          "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
           "default": true,
-          "usage": "Primary brand color",
+          "usage": "Default surface color",
           "deprecated": false
         },
-        "natural": {
-          "subtle": {
-            "value": "{color.midnight.600.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle neutral surface color",
-            "deprecated": false
-          },
-          "medium": {
-            "value": "{color.midnight.100.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Medium neutral surface color",
-            "deprecated": false
-          }
+        "neutralSubtle": {
+          "value": "{color.gray.50.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle neutral surface color",
+          "deprecated": false
+        },
+        "neutralMedium": {
+          "value": "{color.gray.300.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Medium neutral surface color",
+          "deprecated": false
         },
         "inverse": {
-          "base": {
-            "value": "{color.white.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Inverse surface color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{color.gray.200.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle inverse surface color",
-            "deprecated": false
-          }
+          "value": "{basic.color.brand.primaryBold.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse surface color",
+          "deprecated": false
+        },
+        "inverseSubtle": {
+          "value": "{basic.color.brand.primarySubtle.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle inverse surface color",
+          "deprecated": false
         },
         "accent1": {
-          "base": {
-            "value": "{basic.color.brand.primary.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Accent surface color",
-            "deprecated": false
-          },
-          "subtle": {
-            "value": "{basic.color.brand.primarySubtle.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle accent surface color",
-            "deprecated": false
-          },
-          "muted": {
-            "value": "{basic.color.brand.primaryMuted.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Muted accent surface color",
-            "deprecated": false
-          }
+          "value": "{basic.color.brand.secondary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent surface color",
+          "deprecated": false
+        },
+        "accent1Subtle": {
+          "value": "{basic.color.brand.secondarySubtle.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Subtle accent surface color",
+          "deprecated": false
+        },
+        "accent1Muted": {
+          "value": "{basic.color.brand.secondaryMuted.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted accent surface color",
+          "deprecated": false
         },
         "accent2": {
-          "base": {
-            "value": "{color.gray.500.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Accent surface color",
-            "deprecated": false
-          },
-          "muted": {
-            "value": "{color.gray.300.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Subtle accent surface color",
-            "deprecated": false
-          }
+          "value": "{basic.color.brand.tertiary.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent surface color",
+          "deprecated": false
+        },
+        "accent2Muted": {
+          "value": "{basic.color.brand.tertiaryMuted.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Muted accent surface color",
+          "deprecated": false
         }
       }
     }
