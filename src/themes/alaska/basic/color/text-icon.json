@@ -19,63 +19,55 @@
           "deprecated": false
         },
         "disabled": {
-          "base": {
-            "value": "{color.gray.250.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "Disabled text/icon color",
-            "deprecated": false
-          },
-          "inverse": {
-            "value": "{color.gray.700.value}",
-            "type": "semantic", 
-            "public": true,
-            "default": true,
-            "usage": "Disabled inverse text/icon color",
-            "deprecated": false
-          }
+          "value": "{color.gray.250.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Disabled text/icon color",
+          "deprecated": false
         },
-        "link": {
-          "default": {
-            "base": {
-              "value": "{basic.color.brand.primary.value}",
-              "type": "semantic",
-              "public": true,
-              "default": true,
-              "usage": "Default link text/icon color",
-              "deprecated": false
-            },
-            "inverse": {
-              "value": "{color.white.value}",
-              "type": "semantic",
-              "public": true,
-              "default": true,
-              "usage": "Inverse link text/icon color",
-              "deprecated": false
-            }
-          },
-          "hover": {
-            "base": {
-              "value": "{basic.color.brand.primaryBold.value}",
-              "type": "semantic",
-              "public": true,
-              "default": true,
-              "usage": "Hover link text/icon color",
-              "deprecated": false
-            },
-            "inverse": {
-              "value": "{basic.color.brand.primaryMuted.value}",
-              "type": "semantic",
-              "public": true,
-              "default": true,
-              "usage": "Inverse hover link text/icon color",
-              "deprecated": false
-            }
-          }
+        "disabledInverse": {
+          "value": "{color.neutral.600.value}",
+          "type": "semantic", 
+          "public": true,
+          "default": true,
+          "usage": "Disabled inverse text/icon color",
+          "deprecated": false
         },
         "accent1": {
-          "value": "{basic.color.brand.primary.value}",
+          "value": "{color.midnight.800.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "linkDefault": {
+          "value": "{advanced.color.hyperlink.text.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "linkDefaultInverse": {
+          "value": "{advanced.color.hyperlink.textInverse.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "linkHover": {
+          "value": "{advanced.color.hyperlink.textHover.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Accent text color",
+          "deprecated": false
+        },
+        "linkHoverInverse": {
+          "value": "{advanced.color.hyperlink.textInverseHover.value}",
           "type": "semantic",
           "public": true,
           "default": true,

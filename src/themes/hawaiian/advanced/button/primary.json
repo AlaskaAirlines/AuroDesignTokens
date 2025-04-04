@@ -1,170 +1,138 @@
 {
-  "basic": {
-    "text": {
-      "body": {
-        "lg": {
-          "fontFamily": {
-            "value": "{font.family.slatePro.value}",
+  "advanced": {
+    "color": {
+      "button": {
+        "primary": {
+          "text": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button text color",
+            "deprecated": false
+          },
+          "border": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button border color",
+            "deprecated": false
+          },
+          "borderHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button border hover color",
+            "deprecated": false
+          },
+          "borderDisabled": {
+            "value": "{color.royalpurple.300.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
           },
-          "fontSize": {
-            "value": "{font.size.18.value}",
+          "background": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background color",
+            "deprecated": false
+          },
+          "backgroundHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background hover color",
+            "deprecated": false
+          },
+          "backgroundActive": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background active color",
+            "deprecated": false
+          },
+          "backgroundDisabled": {
+            "value": "{color.royalpurple.300.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
           },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.26.value}",
+          "backgroundInactive": {
+            "value": "{color.royalpurple.200.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
           },
-          "fontWeight": {
-            "value": "{font.weight.400.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          }
-        },
-        "default": {
-          "fontFamily": {
-            "value": "{font.family.slatePro.value}",
+          "backgroundInactiveHover": {
+            "value": "{color.royalpurple.400.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
           },
-          "fontSize": {
-            "value": "{font.size.16.value}",
+          "textInverse": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse text color",
+            "deprecated": false
+          },
+          "borderInverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse border color",
+            "deprecated": false
+          },
+          "borderInverseDisabled": {
+            "value": "{transparency.white.75.value}",
             "type": "semantic",
             "public": true,
             "default": true,
             "usage": "",
             "deprecated": false
           },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.24.value}",
+          "backgroundInverse": {
+            "value": "{color.white.value}",
             "type": "semantic",
             "public": true,
             "default": true,
-            "usage": "",
+            "usage": "Primary button inverse background color",
             "deprecated": false
           },
-          "fontWeight": {
-            "value": "{font.weight.400.value}",
+          "borderInverseHover": {
+            "value": "{basic.color.brand.primaryMuted.value}",
             "type": "semantic",
             "public": true,
             "default": true,
-            "usage": "",
-            "deprecated": false
-          }
-        },
-        "sm": {
-          "fontFamily": {
-            "value": "{font.family.slatePro.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
+            "usage": "Primary button inverse border hover color",
             "deprecated": false
           },
-          "fontSize": {
-            "value": "{font.size.14.value}",
+          "backgroundInverseHover": {
+            "value": "{basic.color.brand.primaryMuted.value}",
             "type": "semantic",
             "public": true,
             "default": true,
-            "usage": "",
+            "usage": "Primary button inverse background hover color",
             "deprecated": false
           },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.20.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontWeight": {
-            "value": "{font.weight.400.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          }
-        },
-        "xs": {
-          "fontFamily": {
-            "value": "{font.family.slatePro.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontSize": {
-            "value": "{font.size.12.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.16.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontWeight": {
-            "value": "{font.weight.400.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          }
-        },
-        "xxs": {
-          "fontFamily": {
-            "value": "{font.family.slatePro.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontSize": {
-            "value": "{font.size.10.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.14.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontWeight": {
-            "value": "{font.weight.400.value}",
+          "backgroundInverseDisabled": {
+            "value": "{transparency.white.75.value}",
             "type": "semantic",
             "public": true,
             "default": true,
