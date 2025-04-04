@@ -6,7 +6,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.86.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -18,7 +18,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.72.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -30,7 +30,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.56.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -46,7 +46,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.72.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -58,7 +58,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.64.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -70,7 +70,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.48.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -86,7 +86,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.64.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -98,7 +98,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.56.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -110,7 +110,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.44.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -126,7 +126,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.56.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -138,7 +138,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.48.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -150,7 +150,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.40.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -166,7 +166,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.48.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -178,7 +178,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.44.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -190,7 +190,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.32.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -206,7 +206,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.38.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -218,7 +218,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.36.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -230,7 +230,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.light.value}",
+            "fontWeight": "{font.weight.300.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.xs.value}",
             "type": "semantic",
@@ -248,7 +248,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.40.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -260,7 +260,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.36.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -272,7 +272,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.32.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -288,7 +288,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.36.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -300,7 +300,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.32.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -312,7 +312,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -328,7 +328,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -340,7 +340,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -352,7 +352,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.26.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -368,7 +368,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.24.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -380,7 +380,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.24.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -392,7 +392,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.22.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -408,7 +408,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.20.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -420,7 +420,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.20.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -432,7 +432,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.20.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -448,7 +448,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.18.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "type": "semantic",
             "public": true,
@@ -459,7 +459,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.18.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "type": "semantic",
             "public": true,
@@ -470,7 +470,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.18.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.500.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "type": "semantic",
             "public": true,
@@ -486,7 +486,7 @@
         "fontFamily": "{font.family.asCircular.value}",
         "fontSize": "{font.size.18.value}",
         "lineHeight": "{font.lineHeight.px.26.value}",
-        "fontWeight": "{font.weight.book.value}",
+        "fontWeight": "{font.weight.450.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -497,7 +497,7 @@
         "fontFamily": "{font.family.asCircular.value}",
         "fontSize": "{font.size.16.value}",
         "lineHeight": "{font.lineHeight.px.24.value}",
-        "fontWeight": "{font.weight.book.value}",
+        "fontWeight": "{font.weight.450.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -508,7 +508,7 @@
         "fontFamily": "{font.family.asCircular.value}",
         "fontSize": "{font.size.14.value}",
         "lineHeight": "{font.lineHeight.px.20.value}",
-        "fontWeight": "{font.weight.book.value}",
+        "fontWeight": "{font.weight.450.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -519,7 +519,7 @@
         "fontFamily": "{font.family.asCircular.value}",
         "fontSize": "{font.size.12.value}",
         "lineHeight": "{font.lineHeight.px.16.value}",
-        "fontWeight": "{font.weight.book.value}",
+        "fontWeight": "{font.weight.450.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -530,7 +530,7 @@
         "fontFamily": "{font.family.asCircular.value}",
         "fontSize": "{font.size.10.value}",
         "lineHeight": "{font.lineHeight.px.14.value}",
-        "fontWeight": "{font.weight.book.value}",
+        "fontWeight": "{font.weight.450.value}",
         "type": "semantic",
         "public": true,
         "default": true,
@@ -544,7 +544,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.38.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.100.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -556,7 +556,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.38.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.100.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -568,7 +568,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.32.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.100.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -584,7 +584,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.32.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -596,7 +596,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -608,7 +608,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.26.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -624,7 +624,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.28.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -636,7 +636,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.26.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -648,7 +648,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.24.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -664,7 +664,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.24.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -676,7 +676,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.22.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -688,7 +688,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.22.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -704,7 +704,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.20.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -716,7 +716,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.18.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -728,7 +728,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.18.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.sm.value}",
             "type": "semantic",
@@ -744,7 +744,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.16.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
@@ -756,7 +756,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.16.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
@@ -768,7 +768,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.16.value}",
-            "fontWeight": "{font.weight.condMedium.value}",
+            "fontWeight": "{font.weight.525.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
@@ -784,7 +784,7 @@
           "lg": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.14.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
@@ -796,7 +796,7 @@
           "md": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.14.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
@@ -808,7 +808,7 @@
           "sm": {
             "fontFamily": "{font.family.asCircular.value}",
             "fontSize": "{font.size.14.value}",
-            "fontWeight": "{font.weight.book.value}",
+            "fontWeight": "{font.weight.450.value}",
             "lineHeight": "{font.lineHeight.percent.130.value}",
             "letterSpacing": "{font.letterSpacing.md.value}",
             "type": "semantic",
