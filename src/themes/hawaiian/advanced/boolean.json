@@ -27,7 +27,7 @@
           "deprecated": false
         },
         "isFalseHover": {
-          "value": "{advanced.color.state.background.hover.value}",
+          "value": "{advanced.color.state.backgroundHover.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -43,7 +43,7 @@
           "deprecated": false
         },
         "isFalseInverse": {
-          "value": "{advanced.color.background.inverse.value}",
+          "value": "{advanced.color.shared.backgroundInverse.value}",
           "type": "semantic",
           "public": true,
           "default": true,
@@ -51,7 +51,7 @@
           "deprecated": false
         },
         "isFalseInverseHover": {
-          "value": "{advanced.color.state.background.hover.value}",
+          "value": "{advanced.color.state.backgroundHover.value}",
           "type": "semantic",
           "public": true,
           "default": true,

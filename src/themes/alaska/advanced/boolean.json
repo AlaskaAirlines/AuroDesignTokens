@@ -43,7 +43,7 @@
           "deprecated": false
         },
         "isFalseInverse": {
-          "value": "{advanced.color.backgroundInverse.value}",
+          "value": "{advanced.color.shared.backgroundInverse.value}",
           "type": "semantic",
           "public": true,
           "default": true,
