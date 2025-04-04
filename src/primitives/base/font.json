@@ -143,54 +143,58 @@
       }
     },
     "lineHeight": {
-      "130": {
-        "value": "130%",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
+      "percent": {
+        "130": {
+          "value": "130%",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "100": {
+          "value": "100%",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }
       },
-      "100": {
-        "value": "100%",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "14": {
-        "value": "14px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "16": {
-        "value": "16px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "20": {
-        "value": "20px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "24": {
-        "value": "24px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      }, 
-      "26": {
-        "value": "26px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
+      "px": {
+        "14": {
+          "value": "14px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "16": {
+          "value": "16px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "20": {
+          "value": "20px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "24": {
+          "value": "24px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }, 
+        "26": {
+          "value": "26px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }
       }
     },
     "letterSpacing": {

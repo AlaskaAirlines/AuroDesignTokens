@@ -20,7 +20,7 @@
             "deprecated": false
           },
           "lineHeight": {
-            "value": "{font.lineHeight.26.value}",
+            "value": "{font.lineHeight.px.26.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -54,7 +54,7 @@
             "deprecated": false
           },
           "lineHeight": {
-            "value": "{font.lineHeight.24.value}",
+            "value": "{font.lineHeight.px.24.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -88,7 +88,7 @@
             "deprecated": false
           },
           "lineHeight": {
-            "value": "{font.lineHeight.20.value}",
+            "value": "{font.lineHeight.px.20.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -122,7 +122,7 @@
             "deprecated": false
           },
           "lineHeight": {
-            "value": "{font.lineHeight.16.value}",
+            "value": "{font.lineHeight.px.16.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -156,7 +156,7 @@
             "deprecated": false
           },
           "lineHeight": {
-            "value": "{font.lineHeight.14.value}",
+            "value": "{font.lineHeight.px.14.value}",
             "type": "semantic",
             "public": true,
             "default": true,
