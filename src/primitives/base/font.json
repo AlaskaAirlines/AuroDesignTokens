@@ -143,59 +143,63 @@
       }
     },
     "lineHeight": {
-      "130": {
-        "value": "130%",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
+      "percent": {
+        "130": {
+          "value": "130%",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "100": {
+          "value": "100%",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }
       },
-      "100": {
-        "value": "100%",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "14": {
-        "value": "14px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "16": {
-        "value": "16px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "20": {
-        "value": "20px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "24": {
-        "value": "24px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      }, 
-      "26": {
-        "value": "26px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
+      "px": {
+        "14": {
+          "value": "14px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "16": {
+          "value": "16px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "20": {
+          "value": "20px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        },
+        "24": {
+          "value": "24px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }, 
+        "26": {
+          "value": "26px",
+          "type": "primitive",
+          "public": false,
+          "default": true,
+          "deprecated": false
+        }
       }
     },
     "letterSpacing": {
       "xs": {
-        "value": "-.02px",
+        "value": "0",
         "type": "primitive",
         "public": false,
         "default": true,
@@ -217,42 +221,49 @@
       }
     },
     "weight": {
-      "light": {
+      "300": {
         "value": "Light",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "book": {
-        "value": "Book",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "regular": {
+      "400": {
         "value": "Regular",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "condNews": {
+      "425": {
         "value": "Cond News",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "condMedium": {
+      "450": {
+        "value": "Book",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "500": {
+        "value": "Medium",
+        "type": "primitive",
+        "public": false,
+        "default": true,
+        "deprecated": false
+      },
+      "525": {
         "value": "Cond Medium",
         "type": "primitive",
         "public": false,
         "default": true,
         "deprecated": false
       },
-      "semibold": {
+      "600": {
         "value": "Semibold",
         "type": "primitive",
         "public": false,
@@ -262,3 +273,4 @@
     }
   }
  }
+ 
