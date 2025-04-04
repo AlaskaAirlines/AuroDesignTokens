@@ -2,20 +2,12 @@
   "basic": {
     "color": {
       "border": {
-        "primary": {
+        "default": {
           "value": "{color.gray.500.value}",
           "type": "semantic",
           "public": true,
           "default": true,
-          "usage": "Primary border color",
-          "deprecated": false
-        },
-        "primaryInverse": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Primary inverse border color",
+          "usage": "Default border color",
           "deprecated": false
         },
         "subtle": {
@@ -40,6 +32,14 @@
           "public": true,
           "default": true,
           "usage": "Brand border color",
+          "deprecated": false
+        },
+        "inverse": {
+          "value": "{color.white.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "Inverse border color",
           "deprecated": false
         },
         "divider": {
