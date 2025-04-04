@@ -195,7 +195,7 @@
     },
     "letterSpacing": {
       "xs": {
-        "value": "-.02px",
+        "value": "0",
         "type": "primitive",
         "public": false,
         "default": true,
