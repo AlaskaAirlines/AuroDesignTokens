@@ -1,0 +1,82 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "secondary": {
+          "text": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button text color",
+            "deprecated": false
+          },
+          "textHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button text hover color",
+            "deprecated": false
+          },
+          "border": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button border color",
+            "deprecated": false
+          },
+          "borderHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button border hover color",
+            "deprecated": false
+          },
+          "background": {
+            "value": "{transparency.white.80.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button background color",
+            "deprecated": false
+          },
+          "backgroundHover": {
+            "value": "{transparency.white.50.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button background hover color",
+            "deprecated": false
+          },
+          "textInverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button inverse text color",
+            "deprecated": false
+          },
+          "borderInverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button inverse border color",
+            "deprecated": false
+          },
+          "backgroundInverseHover": {
+            "value": "{transparency.white.80.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Secondary button inverse background hover color",
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

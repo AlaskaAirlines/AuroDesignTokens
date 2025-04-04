@@ -1,0 +1,146 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "primary": {
+          "text": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button text color",
+            "deprecated": false
+          },
+          "border": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button border color",
+            "deprecated": false
+          },
+          "borderHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button border hover color",
+            "deprecated": false
+          },
+          "borderDisabled": {
+            "value": "{color.royalpurple.300.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "background": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background color",
+            "deprecated": false
+          },
+          "backgroundHover": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background hover color",
+            "deprecated": false
+          },
+          "backgroundActive": {
+            "value": "{basic.color.brand.primaryBold.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button background active color",
+            "deprecated": false
+          },
+          "backgroundDisabled": {
+            "value": "{color.royalpurple.300.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "backgroundInactive": {
+            "value": "{color.royalpurple.200.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "backgroundInactiveHover": {
+            "value": "{color.royalpurple.400.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "textInverse": {
+            "value": "{basic.color.brand.primary.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse text color",
+            "deprecated": false
+          },
+          "borderInverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse border color",
+            "deprecated": false
+          },
+          "borderInverseDisabled": {
+            "value": "{transparency.white.75.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "backgroundInverse": {
+            "value": "{color.white.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse background color",
+            "deprecated": false
+          },
+          "borderInverseHover": {
+            "value": "{basic.color.brand.primaryMuted.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse border hover color",
+            "deprecated": false
+          },
+          "backgroundInverseHover": {
+            "value": "{basic.color.brand.primaryMuted.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "Primary button inverse background hover color",
+            "deprecated": false
+          },
+          "backgroundInverseDisabled": {
+            "value": "{transparency.white.75.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}
