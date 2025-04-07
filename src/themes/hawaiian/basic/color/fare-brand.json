@@ -3,73 +3,72 @@
     "color": {
       "fare": {
         "basiceconomy": {
-          "value": "{color.gray.250.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Basic fare brand color",
-          "deprecated": false
+          "value": "{color.gray.250.value}"
         },
         "businessfirst": {
-          "value": "{color.royalpurple.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "First class fare brand color",
-          "deprecated": false
+          "value": "{color.royalpurple.600.value}"
         },
         "economy": {
-          "value": "{color.alohapink.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Economy fare brand color",
-          "deprecated": false
+          "value": "{color.alohapink.600.value}"
         },
         "first": {
-          "value": "{color.royalpurple.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "First class fare brand color",
-          "deprecated": false
-        },
-        "premiumeconomy": {
-          "value": "{color.ocean.800.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Premium fare brand color",
-          "deprecated": false
+          "value": "{color.royalpurple.600.value}"
         },
         "oneworld": {
           "emerald": {
-            "value": "{color.oneworld.emerald.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "OneWorld Emerald brand color",
-            "deprecated": false
-          },
-          "sapphire": {
-            "value": "{color.oneworld.sapphire.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "OneWorld Sapphire brand color",
-            "deprecated": false
+            "value": "{color.oneworld.emerald.value}"
           },
           "ruby": {
-            "value": "{color.oneworld.ruby.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "OneWorld Ruby brand color",
-            "deprecated": false
+            "value": "{color.oneworld.ruby.value}"
+          },
+          "sapphire": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Sapphire brand color",
+            "value": "{color.oneworld.sapphire.value}"
           }
+        },
+        "premiumeconomy": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Premium fare brand color",
+          "value": "{color.ocean.800.value}"
         }
       }
     }
   }
 }
-  

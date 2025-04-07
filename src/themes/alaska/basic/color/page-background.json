@@ -3,20 +3,20 @@
     "color": {
       "pageBackground": {
         "default": {
-          "value": "{basic.color.brand.secondaryMuted.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Primary brand color",
-          "deprecated": false
+          "value": "{basic.color.brand.secondaryMuted.value}"
         },
         "utility": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Muted primary brand color",
-          "deprecated": false
+          "value": "{color.white.value}"
         }
       }
     }

@@ -3,23 +3,22 @@
     "color": {
       "pageBackground": {
         "default": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Default page background color",
-          "deprecated": false
+          "value": "{color.white.value}"
         },
         "utility": {
-          "value": "{color.gray.100.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Utility page background color",
-          "deprecated": false
+          "value": "{color.gray.100.value}"
         }
       }
     }
   }
 }
-  

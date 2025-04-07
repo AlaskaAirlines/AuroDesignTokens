@@ -2,214 +2,214 @@
   "basic": {
     "text": {
       "body": {
-        "lg": {
-          "fontFamily": {
-            "value": "{font.family.asCircular.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontSize": {
-            "value": "{font.size.18.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "letterSpacing": {
-            "value": "{font.letterSpacing.xs.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.26.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "fontWeight": {
-            "value": "{font.weight.450.value}",
-            "type": "semantic",
-            "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          }
-        },
         "default": {
           "fontFamily": {
-            "value": "{font.family.asCircular.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.family.asCircular.value}"
           },
           "fontSize": {
-            "value": "{font.size.16.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "letterSpacing": {
-            "value": "{font.letterSpacing.xs.value}",
-            "type": "semantic",
+            "deprecated": false,
             "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.24.value}",
             "type": "semantic",
-            "public": true,
-            "default": true,
             "usage": "",
-            "deprecated": false
+            "value": "{font.size.16.value}"
           },
           "fontWeight": {
-            "value": "{font.weight.450.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
+          "lineHeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.lineHeight.px.24.value}"
+          }
+        },
+        "lg": {
+          "fontFamily": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.family.asCircular.value}"
+          },
+          "fontSize": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.size.18.value}"
+          },
+          "fontWeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
+          "lineHeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.lineHeight.px.26.value}"
           }
         },
         "sm": {
           "fontFamily": {
-            "value": "{font.family.asCircular.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.family.asCircular.value}"
           },
           "fontSize": {
-            "value": "{font.size.14.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "letterSpacing": {
-            "value": "{font.letterSpacing.xs.value}",
-            "type": "semantic",
+            "deprecated": false,
             "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.20.value}",
             "type": "semantic",
-            "public": true,
-            "default": true,
             "usage": "",
-            "deprecated": false
+            "value": "{font.size.14.value}"
           },
           "fontWeight": {
-            "value": "{font.weight.450.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
+          "lineHeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.lineHeight.px.20.value}"
           }
         },
         "xs": {
           "fontFamily": {
-            "value": "{font.family.asCircular.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.family.asCircular.value}"
           },
           "fontSize": {
-            "value": "{font.size.12.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "letterSpacing": {
-            "value": "{font.letterSpacing.xs.value}",
-            "type": "semantic",
+            "deprecated": false,
             "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.16.value}",
             "type": "semantic",
-            "public": true,
-            "default": true,
             "usage": "",
-            "deprecated": false
+            "value": "{font.size.12.value}"
           },
           "fontWeight": {
-            "value": "{font.weight.450.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
+          "lineHeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.lineHeight.px.16.value}"
           }
         },
         "xxs": {
           "fontFamily": {
-            "value": "{font.family.asCircular.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.family.asCircular.value}"
           },
           "fontSize": {
-            "value": "{font.size.10.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "letterSpacing": {
-            "value": "{font.letterSpacing.xs.value}",
-            "type": "semantic",
+            "deprecated": false,
             "public": true,
-            "default": true,
-            "usage": "",
-            "deprecated": false
-          },
-          "lineHeight": {
-            "value": "{font.lineHeight.px.14.value}",
             "type": "semantic",
-            "public": true,
-            "default": true,
             "usage": "",
-            "deprecated": false
+            "value": "{font.size.10.value}"
           },
           "fontWeight": {
-            "value": "{font.weight.450.value}",
-            "type": "semantic",
-            "public": true,
             "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
             "usage": "",
-            "deprecated": false
+            "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
+          "lineHeight": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.lineHeight.px.14.value}"
           }
         }
       }

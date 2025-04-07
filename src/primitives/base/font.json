@@ -1,276 +1,275 @@
 {
   "font": {
-    "size": {
-      "10": {
-        "value": "10px",
-        "type": "primitive",
-        "public": false,
+    "letterSpacing": {
+      "md": {
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": ".10em"
       },
-      "12": {
-        "value": "12px",
-        "type": "primitive",
-        "public": false,
+      "sm": {
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": ".05em"
       },
-      "14": {
-        "value": "14px",
-        "type": "primitive",
-        "public": false,
+      "xs": {
         "default": true,
-        "deprecated": false
-      },
-      "16": {
-        "value": "16px",
-        "type": "primitive",
+        "deprecated": false,
         "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "18": {
-        "value": "18px",
         "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "20": {
-        "value": "20px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "22": {
-        "value": "22px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "24": {
-        "value": "24px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "26": {
-        "value": "26px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "28": {
-        "value": "28px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "32": {
-        "value": "32px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "36": {
-        "value": "36px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "38": {
-        "value": "38px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "40": {
-        "value": "40px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "44": {
-        "value": "44px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "48": {
-        "value": "48px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "56": {
-        "value": "56px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "64": {
-        "value": "64px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "72": {
-        "value": "72px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
-      "86": {
-        "value": "86px",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
+        "value": "0"
       }
     },
     "lineHeight": {
       "percent": {
-        "130": {
-          "value": "130%",
-          "type": "primitive",
-          "public": false,
-          "default": true,
-          "deprecated": false
-        },
         "100": {
-          "value": "100%",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "100%"
+        },
+        "130": {
+          "default": true,
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "130%"
         }
       },
       "px": {
         "14": {
-          "value": "14px",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "14px"
         },
         "16": {
-          "value": "16px",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "16px"
         },
         "20": {
-          "value": "20px",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "20px"
         },
         "24": {
-          "value": "24px",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
-        }, 
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "24px"
+        },
         "26": {
-          "value": "26px",
-          "type": "primitive",
-          "public": false,
           "default": true,
-          "deprecated": false
+          "deprecated": false,
+          "public": false,
+          "type": "primitive",
+          "value": "26px"
         }
       }
     },
-    "letterSpacing": {
-      "xs": {
-        "value": "0",
-        "type": "primitive",
-        "public": false,
+    "size": {
+      "10": {
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "10px"
       },
-      "sm": {
-        "value": ".05em",
-        "type": "primitive",
-        "public": false,
+      "12": {
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "12px"
       },
-      "md": {
-        "value": ".10em",
-        "type": "primitive",
-        "public": false,
+      "14": {
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "14px"
+      },
+      "16": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "16px"
+      },
+      "18": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "18px"
+      },
+      "20": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "20px"
+      },
+      "22": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "22px"
+      },
+      "24": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "24px"
+      },
+      "26": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "26px"
+      },
+      "28": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "28px"
+      },
+      "32": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "32px"
+      },
+      "36": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "36px"
+      },
+      "38": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "38px"
+      },
+      "40": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "40px"
+      },
+      "44": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "44px"
+      },
+      "48": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "48px"
+      },
+      "56": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "56px"
+      },
+      "64": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "64px"
+      },
+      "72": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "72px"
+      },
+      "86": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "86px"
       }
     },
     "weight": {
       "300": {
-        "value": "Light",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Light"
       },
       "400": {
-        "value": "Regular",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Regular"
       },
       "425": {
-        "value": "Cond News",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Cond News"
       },
       "450": {
-        "value": "Book",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Book"
       },
       "500": {
-        "value": "Medium",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Medium"
       },
       "525": {
-        "value": "Cond Medium",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Cond Medium"
       },
       "600": {
-        "value": "Semibold",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Semibold"
       }
     }
   }
- }
- 
+}

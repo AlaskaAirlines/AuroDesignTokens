@@ -3,63 +3,62 @@
     "color": {
       "border": {
         "bold": {
-          "value": "{color.gray.400.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Bold border color",
-          "deprecated": false
+          "value": "{color.gray.400.value}"
         },
         "brand": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Brand border color",
-          "deprecated": false
+          "value": "{basic.color.brand.primary.value}"
         },
         "default": {
-          "value": "{color.gray.250.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Default border color",
-          "deprecated": false
+          "value": "{color.gray.250.value}"
         },
         "divider": {
-          "value": "{transparency.black.15.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Divider border color",
-          "deprecated": false
+          "value": "{transparency.black.15.value}"
         },
         "dividerInverse": {
-          "value": "{transparency.white.40.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Inverse divider border color",
-          "deprecated": false
+          "value": "{transparency.white.40.value}"
         },
         "inverse": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Inverse border color",
-          "deprecated": false
+          "value": "{color.white.value}"
         },
         "subtle": {
-          "value": "{color.gray.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Subtle border color",
-          "deprecated": false
+          "value": "{color.gray.200.value}"
         }
       }
     }
   }
 }
-  

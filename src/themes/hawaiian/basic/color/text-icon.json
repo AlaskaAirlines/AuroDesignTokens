@@ -2,85 +2,85 @@
   "basic": {
     "color": {
       "texticon": {
-        "default": {
-          "value": "{color.black.value}",
-          "type": "semantic",
-          "public": true,
+        "accent1": {
           "default": true,
-          "usage": "Default text color",
-          "deprecated": false
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{basic.color.brand.primary.value}"
         },
-        "muted": {
-          "value": "{color.gray.900.value}",
-          "type": "semantic",
-          "public": true,
+        "default": {
           "default": true,
-          "usage": "Muted text color",
-          "deprecated": false
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default text color",
+          "value": "{color.black.value}"
         },
         "disabled": {
-          "value": "{color.gray.250.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Disabled text/icon color",
-          "deprecated": false
+          "value": "{color.gray.250.value}"
         },
         "disabledInverse": {
-          "value": "{color.neutral.600.value}",
-          "type": "semantic", 
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Disabled inverse text/icon color",
-          "deprecated": false
-        },
-        "accent1": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkDefault": {
-          "value": "{advanced.color.hyperlink.text.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkDefaultInverse": {
-          "value": "{advanced.color.hyperlink.textInverse.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkHover": {
-          "value": "{advanced.color.hyperlink.textHover.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkHoverInverse": {
-          "value": "{advanced.color.hyperlink.textInverseHover.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
+          "value": "{color.neutral.600.value}"
         },
         "inverse": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Inverse text color",
-          "deprecated": false
+          "value": "{color.white.value}"
+        },
+        "linkDefault": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{advanced.color.hyperlink.text.value}"
+        },
+        "linkDefaultInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{advanced.color.hyperlink.textInverse.value}"
+        },
+        "linkHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{advanced.color.hyperlink.textHover.value}"
+        },
+        "linkHoverInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{advanced.color.hyperlink.textInverseHover.value}"
+        },
+        "muted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted text color",
+          "value": "{color.gray.900.value}"
         }
       }
     }

@@ -2,19 +2,19 @@
   "font": {
     "family": {
       "asCircular": {
-        "value": "AS Circular",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "AS Circular"
       },
       "goodOt": {
-        "value": "Good OT",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Good OT"
       }
     }
   }
- }
+}

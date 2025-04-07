@@ -2,85 +2,85 @@
   "basic": {
     "color": {
       "surface": {
-        "default": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Default surface color",
-          "deprecated": false
-        },
-        "neutralSubtle": {
-          "value": "{color.gray.50.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle neutral surface color",
-          "deprecated": false
-        },
-        "neutralMedium": {
-          "value": "{color.gray.300.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Medium neutral surface color",
-          "deprecated": false
-        },
-        "inverse": {
-          "value": "{basic.color.brand.primaryBold.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Inverse surface color",
-          "deprecated": false
-        },
-        "inverseSubtle": {
-          "value": "{basic.color.brand.primarySubtle.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle inverse surface color",
-          "deprecated": false
-        },
         "accent1": {
-          "value": "{basic.color.brand.secondary.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Accent surface color",
-          "deprecated": false
-        },
-        "accent1Subtle": {
-          "value": "{basic.color.brand.secondarySubtle.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle accent surface color",
-          "deprecated": false
+          "value": "{basic.color.brand.secondary.value}"
         },
         "accent1Muted": {
-          "value": "{basic.color.brand.secondaryMuted.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Muted accent surface color",
-          "deprecated": false
+          "value": "{basic.color.brand.secondaryMuted.value}"
+        },
+        "accent1Subtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle accent surface color",
+          "value": "{basic.color.brand.secondarySubtle.value}"
         },
         "accent2": {
-          "value": "{basic.color.brand.tertiary.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Accent surface color",
-          "deprecated": false
+          "value": "{basic.color.brand.tertiary.value}"
         },
         "accent2Muted": {
-          "value": "{basic.color.brand.tertiaryMuted.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Muted accent surface color",
-          "deprecated": false
+          "value": "{basic.color.brand.tertiaryMuted.value}"
+        },
+        "default": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default surface color",
+          "value": "{color.white.value}"
+        },
+        "inverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse surface color",
+          "value": "{basic.color.brand.primaryBold.value}"
+        },
+        "inverseSubtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle inverse surface color",
+          "value": "{basic.color.brand.primarySubtle.value}"
+        },
+        "neutralMedium": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Medium neutral surface color",
+          "value": "{color.gray.300.value}"
+        },
+        "neutralSubtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle neutral surface color",
+          "value": "{color.gray.50.value}"
         }
       }
     }

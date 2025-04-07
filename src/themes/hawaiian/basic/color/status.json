@@ -3,79 +3,78 @@
     "color": {
       "status": {
         "default": {
-          "value": "{color.neutral.400.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Default status color",
-          "deprecated": false
+          "value": "{color.neutral.400.value}"
         },
         "error": {
-          "value": "{color.status.error.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Error status color",
-          "deprecated": false
+          "value": "{color.status.error.600.value}"
         },
         "errorSubtle": {
-          "value": "{color.status.error.100.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Subtle error status color",
-          "deprecated": false
+          "value": "{color.status.error.100.value}"
         },
         "info": {
-          "value": "{color.status.help.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Info status color",
-          "deprecated": false
+          "value": "{color.status.help.600.value}"
         },
         "infoSubtle": {
-          "value": "{color.status.help.100.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Subtle info status color",
-          "deprecated": false
+          "value": "{color.status.help.100.value}"
         },
         "success": {
-          "value": "{color.status.success.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Success status color",
-          "deprecated": false
+          "value": "{color.status.success.600.value}"
         },
         "successSubtle": {
-          "value": "{color.status.success.100.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Subtle success status color",
-          "deprecated": false
+          "value": "{color.status.success.100.value}"
         },
         "warning": {
-          "value": "{color.status.warn.300.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Warning status color",
-          "deprecated": false
+          "value": "{color.status.warn.300.value}"
         },
         "warningSubtle": {
-          "value": "{color.status.warn.100.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Subtle warning status color",
-          "deprecated": false
+          "value": "{color.status.warn.100.value}"
         }
       }
     }
   }
 }
-  

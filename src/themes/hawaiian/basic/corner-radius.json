@@ -1,29 +1,29 @@
 {
   "basic": {
     "cornerRadius": {
-      "small": { 
-        "value": "4px",
-        "type": "semantic",
-        "public": true,
+      "large": {
         "default": true,
+        "deprecated": false,
+        "public": true,
+        "type": "semantic",
         "usage": "",
-        "deprecated": false
+        "value": "24px"
       },
       "medium": {
-        "value": "16px",
-        "type": "semantic",
-        "public": true,
         "default": true,
+        "deprecated": false,
+        "public": true,
+        "type": "semantic",
         "usage": "",
-        "deprecated": false
+        "value": "16px"
       },
-      "large": {
-        "value": "24px",
-        "type": "semantic",
-        "public": true,
+      "small": {
         "default": true,
+        "deprecated": false,
+        "public": true,
+        "type": "semantic",
         "usage": "",
-        "deprecated": false
+        "value": "4px"
       }
     }
   }

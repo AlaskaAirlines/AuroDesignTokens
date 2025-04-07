@@ -3,36 +3,36 @@
     "color": {
       "hyperlink": {
         "text": {
-          "value": "{basic.color.brand.primarySubtle.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Default hyperlink color",
-          "deprecated": false
+          "value": "{basic.color.brand.primarySubtle.value}"
         },
         "textHover": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Hyperlink hover state color",
-          "deprecated": false
+          "value": "{basic.color.brand.primary.value}"
         },
         "textInverse": {
-          "value": "{basic.color.texticon.inverse.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{basic.color.texticon.inverse.value}"
         },
         "textInverseHover": {
-          "value": "{basic.color.brand.primaryMuted.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{basic.color.brand.primaryMuted.value}"
         }
       }
     }

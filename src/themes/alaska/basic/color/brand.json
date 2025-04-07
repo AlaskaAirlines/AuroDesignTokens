@@ -3,100 +3,100 @@
     "color": {
       "brand": {
         "primary": {
-          "value": "{color.midnight.900.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Primary brand color",
-          "deprecated": false
-        },
-        "primaryMuted": {
-          "value": "{color.midnight.100.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Muted primary brand color",
-          "deprecated": false
-        },
-        "primarySubtle": {
-          "value": "{color.midnight.600.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle primary brand color",
-          "deprecated": false
+          "value": "{color.midnight.900.value}"
         },
         "primaryBold": {
-          "value": "{color.midnight.1000.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Bold primary brand color",
-          "deprecated": false
+          "value": "{color.midnight.1000.value}"
+        },
+        "primaryMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted primary brand color",
+          "value": "{color.midnight.100.value}"
+        },
+        "primarySubtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle primary brand color",
+          "value": "{color.midnight.600.value}"
         },
         "secondary": {
-          "value": "{color.bliss.500.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Secondary brand color",
-          "deprecated": false
-        },
-        "secondaryMuted": {
-          "value": "{color.bliss.100.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Muted secondary brand color",
-          "deprecated": false
-        },
-        "secondarySubtle": {
-          "value": "{color.bliss.300.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle secondary brand color",
-          "deprecated": false
+          "value": "{color.bliss.500.value}"
         },
         "secondaryBold": {
-          "value": "{color.bliss.700.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Bold secondary brand color",
-          "deprecated": false
+          "value": "{color.bliss.700.value}"
+        },
+        "secondaryMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted secondary brand color",
+          "value": "{color.bliss.100.value}"
+        },
+        "secondarySubtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle secondary brand color",
+          "value": "{color.bliss.300.value}"
         },
         "tertiary": {
-          "value": "{color.tropical.500.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Tertiary brand color",
-          "deprecated": false
-        },
-        "tertiaryMuted": {
-          "value": "{color.tropical.100.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Muted tertiary brand color",
-          "deprecated": false
-        },
-        "tertiarySubtle": {
-          "value": "{color.tropical.300.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Subtle tertiary brand color",
-          "deprecated": false
+          "value": "{color.tropical.500.value}"
         },
         "tertiaryBold": {
-          "value": "{color.tropical.700.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Bold tertiary brand color",
-          "deprecated": false
+          "value": "{color.tropical.700.value}"
+        },
+        "tertiaryMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted tertiary brand color",
+          "value": "{color.tropical.100.value}"
+        },
+        "tertiarySubtle": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle tertiary brand color",
+          "value": "{color.tropical.300.value}"
         }
       }
     }
