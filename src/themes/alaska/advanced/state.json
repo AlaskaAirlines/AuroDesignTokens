@@ -26,6 +26,14 @@
           "usage": "",
           "value": "{transparency.white.15.value}"
         },
+        "errorInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "",
+          "value": "{color.status.error.200.value}"
+        },
         "focused": {
           "default": true,
           "deprecated": false,

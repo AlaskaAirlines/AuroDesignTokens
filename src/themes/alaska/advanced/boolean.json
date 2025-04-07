@@ -26,6 +26,22 @@
           "usage": "Boolean error hover state color",
           "value": "{color.status.error.800.value}"
         },
+        "errorInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error state color",
+          "value": "{color.status.error.200.value}"
+        },
+        "errorInverseHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error state color",
+          "value": "{color.status.error.400.value}"
+        },
         "indicator": {
           "default": true,
           "deprecated": false,
