@@ -18,7 +18,7 @@
           "usage": "Boolean indicator inverse color",
           "deprecated": false
         },
-        "isFalse": {
+        "isfalse": {
           "value": "{basic.color.surface.default.value}",
           "type": "semantic",
           "public": true,
@@ -26,7 +26,7 @@
           "usage": "Boolean false state color",
           "deprecated": false
         },
-        "isFalseHover": {
+        "isfalseHover": {
           "value": "{advanced.color.state.backgroundHover.value}",
           "type": "semantic",
           "public": true,
@@ -34,7 +34,7 @@
           "usage": "Boolean false hover state color",
           "deprecated": false
         },
-        "isFalseBorder": {
+        "isfalseBorder": {
           "value": "{basic.color.border.bold.value}",
           "type": "semantic",
           "public": true,
@@ -42,7 +42,7 @@
           "usage": "Boolean false border color",
           "deprecated": false
         },
-        "isFalseInverse": {
+        "isfalseInverse": {
           "value": "{advanced.color.shared.backgroundInverse.value}",
           "type": "semantic",
           "public": true,
@@ -50,7 +50,7 @@
           "usage": "Boolean false inverse state color",
           "deprecated": false
         },
-        "isFalseInverseHover": {
+        "isfalseInverseHover": {
           "value": "{advanced.color.state.backgroundHover.value}",
           "type": "semantic",
           "public": true,
@@ -58,7 +58,7 @@
           "usage": "Boolean false inverse hover state color",
           "deprecated": false
         },
-        "isFalseBorderInverse": {
+        "isfalseBorderInverse": {
           "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
@@ -66,7 +66,7 @@
           "usage": "Boolean false inverse border color",
           "deprecated": false
         },
-        "isTrue": {
+        "istrue": {
           "value": "{basic.color.brand.primary.value}",
           "type": "semantic",
           "public": true,
@@ -74,7 +74,7 @@
           "usage": "Boolean true state color",
           "deprecated": false
         },
-        "isTrueHover": {
+        "istrueHover": {
           "value": "{basic.color.brand.primaryBold.value}",
           "type": "semantic",
           "public": true,
@@ -82,7 +82,7 @@
           "usage": "Boolean true hover state color",
           "deprecated": false
         },
-        "isTrueInverse": {
+        "istrueInverse": {
           "value": "{color.white.value}",
           "type": "semantic",
           "public": true,
@@ -90,7 +90,7 @@
           "usage": "Boolean true inverse state color",
           "deprecated": false
         },
-        "isTrueInverseHover": {
+        "istrueInverseHover": {
           "value": "{transparency.white.70.value}",
           "type": "semantic",
           "public": true,
@@ -115,7 +115,7 @@
           "deprecated": false
         },
         "disabledInverse": {
-          "value": "{color.status.error.800.value}",
+          "value": "{color.royalpurple.300.value}",
           "type": "semantic",
           "public": true,
           "default": true,

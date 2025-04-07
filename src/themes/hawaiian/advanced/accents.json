@@ -1,0 +1,104 @@
+{
+  "advanced": {
+    "color": {
+      "accents": {
+        "accent1": {
+          "value": "{color.kukui.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent1Bold": {
+          "value": "{color.kukui.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent1Muted": {
+          "value": "{color.kukui.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent2": {
+          "value": "{color.kaunaoa.400.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent2Bold": {
+          "value": "{color.kaunaoa.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent2Muted": {
+          "value": "{color.kaunaoa.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent3": {
+          "value": "{color.royalpurple.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent3Bold": {
+          "value": "{color.royalpurple.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent3Muted": {
+          "value": "{color.royalpurple.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent4": {
+          "value": "{color.ocean.300.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent4Bold": {
+          "value": "{color.ocean.600.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        },
+        "accent4Muted": {
+          "value": "{color.ocean.200.value}",
+          "type": "semantic",
+          "public": true,
+          "default": true,
+          "usage": "",
+          "deprecated": false
+        }
+      }
+    }
+  }
+}

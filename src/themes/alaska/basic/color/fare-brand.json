@@ -27,7 +27,7 @@
           "deprecated": false
         },
         "business": {
-          "value": "{color.midnight.1000.value}",
+          "value": "{color.midnight.900.value}",
           "type": "semantic",
           "public": true,
           "default": true,

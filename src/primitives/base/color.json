@@ -198,7 +198,7 @@
     "status": {
       "error": {
         "100": {
-          "value": "#fddede",
+          "value": "#FBC6C6",
           "type": "primitive",
           "public": false,
           "default": true,
@@ -342,7 +342,7 @@
       },
       "success": {
         "100": {
-          "value": "#e4f1da",
+          "value": "#D6EAC7",
           "type": "primitive",
           "public": false,
           "default": true,
@@ -414,7 +414,7 @@
       },
       "warn": {
         "100": {
-          "value": "#fff6d1",
+          "value": "#FFF0B2",
           "type": "primitive",
           "public": false,
           "default": true,
