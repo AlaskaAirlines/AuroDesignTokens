@@ -38,7 +38,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -80,7 +80,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -122,7 +122,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -168,7 +168,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -210,7 +210,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -252,7 +252,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -298,7 +298,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -340,7 +340,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -382,7 +382,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -428,7 +428,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -470,7 +470,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -512,7 +512,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -558,7 +558,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -584,7 +584,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.300.value}",
+                "value": "{font.weight.450.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -600,7 +600,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -626,7 +626,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.300.value}",
+                "value": "{font.weight.450.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -642,7 +642,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -688,7 +688,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -714,7 +714,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.300.value}",
+                "value": "{font.weight.450.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -730,7 +730,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -756,7 +756,7 @@
                 "deprecated": false
               },
               "fontWeight": {
-                "value": "{font.weight.300.value}",
+                "value": "{font.weight.450.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
@@ -772,7 +772,7 @@
                 "deprecated": false
               },
               "letterSpacing": {
-                "value": "{font.letterSpacing.sm.value}",
+                "value": "{font.letterSpacing.xs.value}",
                 "type": "semantic",
                 "public": true,
                 "default": true,
