@@ -23,7 +23,7 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "usage": "",
+          "usage": "Default hyperlink color on inverse/dark backgrounds",
           "value": "{basic.color.texticon.inverse.value}"
         },
         "textInverseHover": {
@@ -31,7 +31,7 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "usage": "",
+          "usage": "Hyperlink hover state color on inverse/dark backgrounds",
           "value": "{basic.color.brand.primaryMuted.value}"
         }
       }
