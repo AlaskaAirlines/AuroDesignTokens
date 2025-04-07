@@ -10,7 +10,7 @@
           "usage": "Basic fare brand color",
           "value": "{color.gray.250.value}"
         },
-        "businessfirst": {
+        "business": {
           "default": true,
           "deprecated": false,
           "public": true,

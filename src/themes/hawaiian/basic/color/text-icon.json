@@ -42,38 +42,6 @@
           "usage": "Inverse text color",
           "value": "{color.white.value}"
         },
-        "linkDefault": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Accent text color",
-          "value": "{advanced.color.hyperlink.text.value}"
-        },
-        "linkDefaultInverse": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Accent text color",
-          "value": "{advanced.color.hyperlink.textInverse.value}"
-        },
-        "linkHover": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Accent text color",
-          "value": "{advanced.color.hyperlink.textHover.value}"
-        },
-        "linkHoverInverse": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Accent text color",
-          "value": "{advanced.color.hyperlink.textInverseHover.value}"
-        },
         "muted": {
           "default": true,
           "deprecated": false,
