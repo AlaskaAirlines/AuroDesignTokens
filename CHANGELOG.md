@@ -1,5 +1,25 @@
 # Semantic Release Automated Changelog
 
+# [5.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.5.0...v5.6.0) (2025-04-07)
+
+
+### Bug Fixes
+
+* update hyperlink usage ([06fc8d2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/06fc8d2fdccb43dfd55af3e1220b47246e6193c7))
+
+
+### Features
+
+* update design tokens ([2a236be](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2a236be12092a7581a1ced5485ed2a0492bf600e))
+
+
+### Performance Improvements
+
+* alphabetize json ([cc38d87](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/cc38d87cf6201f48bddce5e287d6e22a38527d7c))
+* ensure key parity across themes ([3fe540c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3fe540c2e991a76529810c353756777ba07444c0))
+* font token updates ([def7e69](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/def7e69f15f76e74ec0448f6e991c9b284d1901a))
+* updates from design - hawaiian & alaska themes ([08875e7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/08875e7687046d1159a874ffa3ce5fd39fc69d61))
+
 # [5.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.4.0...v5.5.0) (2025-04-03)
 
 
