@@ -11,7 +11,7 @@
           "deprecated": false
         },
         "subtle": {
-          "value": "{color.gray.500.value}",
+          "value": "{color.gray.200.value}",
           "type": "semantic",
           "public": true,
           "default": true,

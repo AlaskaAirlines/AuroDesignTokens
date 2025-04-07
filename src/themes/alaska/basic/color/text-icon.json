@@ -42,38 +42,6 @@
           "usage": "Accent text color",
           "deprecated": false
         },
-        "linkDefault": {
-          "value": "{advanced.color.hyperlink.text.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkDefaultInverse": {
-          "value": "{advanced.color.hyperlink.textInverse.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkHover": {
-          "value": "{advanced.color.hyperlink.textHover.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
-        "linkHoverInverse": {
-          "value": "{advanced.color.hyperlink.textInverseHover.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Accent text color",
-          "deprecated": false
-        },
         "inverse": {
           "value": "{color.white.value}",
           "type": "semantic",
