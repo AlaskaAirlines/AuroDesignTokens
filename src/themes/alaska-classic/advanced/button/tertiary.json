@@ -1,0 +1,98 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "tertiary": {
+          "background": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button background color",
+            "value": "{transparency.black.5.value}"
+          },
+          "backgroundHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button background hover color",
+            "value": "{transparency.black.10.value}"
+          },
+          "backgroundInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse background color",
+            "value": "{transparency.white.5.value}"
+          },
+          "backgroundInverseHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse background hover color",
+            "value": "{transparency.white.10.value}"
+          },
+          "border": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button border color",
+            "value": "{transparency.black.5.value}"
+          },
+          "borderHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button border hover color",
+            "value": "{transparency.black.10.value}"
+          },
+          "borderInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse border color",
+            "value": "{transparency.white.5.value}"
+          },
+          "borderInverseHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse border hover color",
+            "value": "{transparency.white.10.value}"
+          },
+          "text": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button text color",
+            "value": "{basic.color.brand.primary.value}"
+          },
+          "textHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button text hover color",
+            "value": "{basic.color.brand.primaryBold.value}"
+          },
+          "textInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse text color",
+            "value": "{basic.color.brand.tertiary.value}"
+          }
+        }
+      }
+    }
+  }
+}
