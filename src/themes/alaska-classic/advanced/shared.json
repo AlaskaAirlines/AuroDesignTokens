@@ -1,0 +1,48 @@
+{
+  "advanced": {
+    "color": {
+      "shared": {
+        "background": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background color",
+          "value": "{color.white.value}"
+        },
+        "backgroundInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background hover color",
+          "value": "{transparency.white.5.value}"
+        },
+        "backgroundMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background muted color",
+          "value": "{color.gray.50.value}"
+        },
+        "backgroundStrong": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background strong color",
+          "value": "{color.gray.600.value}"
+        },
+        "textAccent": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "",
+          "value": "{basic.color.brand.primary.value}"
+        }
+      }
+    }
+  }
+}
