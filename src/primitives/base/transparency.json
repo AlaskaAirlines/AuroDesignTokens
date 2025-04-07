@@ -1,189 +1,189 @@
 {
   "transparency": {
     "black": {
-      "5": {
-        "value": "#0000000d",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
       "10": {
-        "value": "#0000001a",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#0000001a"
       },
       "15": {
-        "value": "#00000026",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#00000026"
       },
       "20": {
-        "value": "#00000033",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#00000033"
       },
       "30": {
-        "value": "#0000004d",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#0000004d"
       },
       "40": {
-        "value": "#00000066",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#00000066"
+      },
+      "5": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#0000000d"
       },
       "50": {
-        "value": "#00000080",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#00000080"
       },
       "55": {
-        "value": "#0000008c",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#0000008c"
       },
       "60": {
-        "value": "#00000099",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#00000099"
       },
       "70": {
-        "value": "#000000b2",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#000000b2"
       },
       "75": {
-        "value": "#000000bf",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#000000bf"
       },
       "80": {
-        "value": "#000000cc",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#000000cc"
       },
       "90": {
-        "value": "#000000e5",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#000000e5"
       }
     },
     "white": {
-      "5": {
-        "value": "#ffffff0d",
-        "type": "primitive",
-        "public": false,
-        "default": true,
-        "deprecated": false
-      },
       "10": {
-        "value": "#ffffffe6",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffffe6"
       },
       "15": {
-        "value": "#ffffff1a",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff1a"
       },
       "20": {
-        "value": "#ffffff33",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff33"
       },
       "30": {
-        "value": "#ffffff4d",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff4d"
       },
       "40": {
-        "value": "#ffffff66",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff66"
+      },
+      "5": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff0d"
       },
       "50": {
-        "value": "#ffffff80",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff80"
       },
       "55": {
-        "value": "#ffffff8c",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff8c"
       },
       "60": {
-        "value": "#ffffff99",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffff99"
       },
       "70": {
-        "value": "#ffffffb2",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffffb2"
       },
       "75": {
-        "value": "#ffffffbf",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffffbf"
       },
       "80": {
-        "value": "#ffffffcc",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffffcc"
       },
       "90": {
-        "value": "#ffffffe5",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ffffffe5"
       }
     }
   }

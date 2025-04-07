@@ -3,44 +3,44 @@
     "color": {
       "shared": {
         "background": {
-          "value": "{color.white.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Component background color",
-          "deprecated": false
-        },
-        "backgroundMuted": {
-          "value": "{color.gray.50.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Component background muted color",
-          "deprecated": false
-        },
-        "backgroundStrong": {
-          "value": "{color.gray.600.value}",
-          "type": "semantic",
-          "public": true,
-          "default": true,
-          "usage": "Component background strong color",
-          "deprecated": false
+          "value": "{color.white.value}"
         },
         "backgroundInverse": {
-          "value": "{transparency.white.5.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "Component background hover color",
-          "deprecated": false
+          "value": "{transparency.white.5.value}"
+        },
+        "backgroundMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background muted color",
+          "value": "{color.gray.50.value}"
+        },
+        "backgroundStrong": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background strong color",
+          "value": "{color.gray.600.value}"
         },
         "textAccent": {
-          "value": "{basic.color.brand.primary.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{basic.color.brand.primary.value}"
         }
       }
     }

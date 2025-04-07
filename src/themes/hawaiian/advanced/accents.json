@@ -3,100 +3,100 @@
     "color": {
       "accents": {
         "accent1": {
-          "value": "{color.kukui.400.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kukui.400.value}"
         },
         "accent1Bold": {
-          "value": "{color.kukui.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kukui.600.value}"
         },
         "accent1Muted": {
-          "value": "{color.kukui.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kukui.200.value}"
         },
         "accent2": {
-          "value": "{color.kaunaoa.400.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kaunaoa.400.value}"
         },
         "accent2Bold": {
-          "value": "{color.kaunaoa.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kaunaoa.600.value}"
         },
         "accent2Muted": {
-          "value": "{color.kaunaoa.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.kaunaoa.200.value}"
         },
         "accent3": {
-          "value": "{color.royalpurple.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.royalpurple.200.value}"
         },
         "accent3Bold": {
-          "value": "{color.royalpurple.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.royalpurple.600.value}"
         },
         "accent3Muted": {
-          "value": "{color.royalpurple.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.royalpurple.200.value}"
         },
         "accent4": {
-          "value": "{color.ocean.300.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.ocean.300.value}"
         },
         "accent4Bold": {
-          "value": "{color.ocean.600.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.ocean.600.value}"
         },
         "accent4Muted": {
-          "value": "{color.ocean.200.value}",
-          "type": "semantic",
-          "public": true,
           "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
           "usage": "",
-          "deprecated": false
+          "value": "{color.ocean.200.value}"
         }
       }
     }

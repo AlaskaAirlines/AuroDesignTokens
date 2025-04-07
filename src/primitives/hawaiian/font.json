@@ -2,19 +2,19 @@
   "font": {
     "family": {
       "chronicleDisplay": {
-        "value": "Chronicle Display",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Chronicle Display"
       },
       "slatePro": {
-        "value": "Slate Pro",
-        "type": "primitive",
-        "public": false,
         "default": true,
-        "deprecated": false
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Slate Pro"
       }
     }
   }
- }
+}
