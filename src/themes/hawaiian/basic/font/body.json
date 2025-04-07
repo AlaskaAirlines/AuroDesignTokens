@@ -19,6 +19,14 @@
             "usage": "",
             "deprecated": false
           },
+          "letterSpacing": {
+            "value": "{font.letterSpacing.xs.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "lineHeight": {
             "value": "{font.lineHeight.px.26.value}",
             "type": "semantic",
@@ -47,6 +55,14 @@
           },
           "fontSize": {
             "value": "{font.size.16.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "letterSpacing": {
+            "value": "{font.letterSpacing.xs.value}",
             "type": "semantic",
             "public": true,
             "default": true,
@@ -87,6 +103,14 @@
             "usage": "",
             "deprecated": false
           },
+          "letterSpacing": {
+            "value": "{font.letterSpacing.xs.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "lineHeight": {
             "value": "{font.lineHeight.px.20.value}",
             "type": "semantic",
@@ -121,6 +145,14 @@
             "usage": "",
             "deprecated": false
           },
+          "letterSpacing": {
+            "value": "{font.letterSpacing.xs.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
           "lineHeight": {
             "value": "{font.lineHeight.px.16.value}",
             "type": "semantic",
@@ -149,6 +181,14 @@
           },
           "fontSize": {
             "value": "{font.size.10.value}",
+            "type": "semantic",
+            "public": true,
+            "default": true,
+            "usage": "",
+            "deprecated": false
+          },
+          "letterSpacing": {
+            "value": "{font.letterSpacing.xs.value}",
             "type": "semantic",
             "public": true,
             "default": true,
