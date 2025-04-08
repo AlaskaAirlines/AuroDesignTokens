@@ -27,6 +27,14 @@
             "usage": "",
             "value": "{font.weight.450.value}"
           },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
           "lineHeight": {
             "default": true,
             "deprecated": false,
@@ -60,6 +68,14 @@
             "type": "semantic",
             "usage": "",
             "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
           },
           "lineHeight": {
             "default": true,
@@ -95,6 +111,14 @@
             "usage": "",
             "value": "{font.weight.450.value}"
           },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
           "lineHeight": {
             "default": true,
             "deprecated": false,
@@ -129,6 +153,14 @@
             "usage": "",
             "value": "{font.weight.450.value}"
           },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
+          },
           "lineHeight": {
             "default": true,
             "deprecated": false,
@@ -162,6 +194,14 @@
             "type": "semantic",
             "usage": "",
             "value": "{font.weight.450.value}"
+          },
+          "letterSpacing": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "",
+            "value": "{font.letterSpacing.xs.value}"
           },
           "lineHeight": {
             "default": true,
