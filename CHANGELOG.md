@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [5.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.6.1...v5.7.0) (2025-04-08)
+
+
+### Features
+
+* update alaska classic tokens ([aec6ef7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/aec6ef729f640f16d0cb612c72ee9775d3925754))
+
+
+### Performance Improvements
+
+* add letterSpacing to alaskaClassic fonts ([c773028](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c7730281bd45144ceaa2d908be7354847de7dd83))
+
 ## [5.6.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.6.0...v5.6.1) (2025-04-07)
 
 
