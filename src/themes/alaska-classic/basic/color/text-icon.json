@@ -42,6 +42,22 @@
           "usage": "Inverse text color",
           "value": "{color.white.value}"
         },
+        "inverseDisabled": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse text color",
+          "value": "{color.neutral.600.value}"
+        },
+        "inverseMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse text color",
+          "value": "{color.neutral.300.value}"
+        },
         "muted": {
           "default": true,
           "deprecated": false,
