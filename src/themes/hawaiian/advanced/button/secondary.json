@@ -51,13 +51,13 @@
             "usage": "Secondary button border hover color",
             "value": "{basic.color.border.default.value}"
           },
-          "borderHoverDisabled": {
+          "borderDisabled": {
             "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
-            "usage": "",
-            "value": "{color.gray.50.value}"
+            "usage": "Secondary button border disabled color",
+            "value": "{basic.color.border.default.value}"
           },
           "borderInverse": {
             "default": true,
@@ -72,7 +72,7 @@
             "deprecated": false,
             "public": true,
             "type": "semantic",
-            "usage": "",
+            "usage": "Secondary button border inverse disabled color",
             "value": "{basic.color.border.subtle.value}"
           },
           "text": {
