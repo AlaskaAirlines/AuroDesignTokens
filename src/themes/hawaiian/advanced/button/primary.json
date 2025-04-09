@@ -11,14 +11,6 @@
             "usage": "Primary button background color",
             "value": "{basic.color.brand.primary.value}"
           },
-          "backgroundActive": {
-            "default": true,
-            "deprecated": false,
-            "public": true,
-            "type": "semantic",
-            "usage": "Primary button background active color",
-            "value": "{basic.color.brand.primaryBold.value}"
-          },
           "backgroundDisabled": {
             "default": true,
             "deprecated": false,
