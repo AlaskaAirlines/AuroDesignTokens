@@ -1,5 +1,21 @@
 # Semantic Release Automated Changelog
 
+# [5.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.7.0...v5.8.0) (2025-04-09)
+
+
+### Features
+
+* add flat button tokens ([589225a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/589225aa471dd43218e073231ef742c3dab901db))
+
+
+### Performance Improvements
+
+* add textIcon token values ([b4f6fed](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b4f6fedd8adad36c59e337427b2ee455de4a73a9))
+* remove backgroundActive token ([9ef0a2e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9ef0a2e5b8bc612566df21a61390aaf5d9cc5dff))
+* remove tertiary border color tokens ([d00dd6e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d00dd6e5b5d00ee6bc5e2237c149095f326abceb))
+* update secondary button tokens ([5a7631d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5a7631ddd7cf17d11672f989ad507924d85edc89))
+* update transparency values to rgba ([754a833](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/754a8330151ff575b1cdf804bef1f5be63861abe))
+
 # [5.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.6.1...v5.7.0) (2025-04-08)
 
 
