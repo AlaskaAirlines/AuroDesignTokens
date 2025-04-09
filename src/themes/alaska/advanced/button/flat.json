@@ -1,0 +1,58 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "flat": {
+          "text": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button text color",
+            "value": "{basic.color.texticon.muted.value}"
+          },
+          "textDisabled": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button disabled text color",
+            "value": "{basic.color.texticon.disabled.value}"
+          },
+          "textHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button text hover color",
+            "value": "{color.gray.800.value}"
+          },
+          "textInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button inverse text color",
+            "value": "{basic.color.texticon.inverse.value}"
+          },
+          "textInverseDisabled": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button inverse disabled text color",
+            "value": "{basic.color.texticon.inverseDisabled.value}"
+          },
+          "textInverseHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Flat button inverse text hover color",
+            "value": "{color.gray.400.value}"
+          }
+        }
+      }
+    }
+  }
+}
