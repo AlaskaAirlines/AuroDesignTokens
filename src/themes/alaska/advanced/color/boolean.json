@@ -56,7 +56,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Boolean indicator inverse color",
-          "value": "{basic.color.brand.primary.value}"
+          "value": "{basic.color.surface.inverse.value}"
         },
         "isfalse": {
           "default": true,
