@@ -18,6 +18,14 @@
           "usage": "",
           "value": "{color.gray.100.value}"
         },
+        "backgroundInverseDisabled": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "",
+          "value": "{color.neutral.600.value}"
+        },
         "backgroundInverseHover": {
           "default": true,
           "deprecated": false,
