@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [5.8.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.0...v5.8.1) (2025-04-11)
+
+
+### Performance Improvements
+
+* add backgroundInverseDisabled token ([0acf6f2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0acf6f287398c71dc26119177b5346e99869a56b))
+* update boolean token ([35fe96f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/35fe96fddd9c350bc80b22ed4556c19ba1244d47))
+
 # [5.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.7.0...v5.8.0) (2025-04-09)
 
 
