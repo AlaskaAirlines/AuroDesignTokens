@@ -3,7 +3,6 @@
     "color": {
       "hyperlink": {
         "text": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "textHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{basic.color.brand.secondary.value}"
         },
         "textInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.bliss.400.value}"
         },
         "textInverseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

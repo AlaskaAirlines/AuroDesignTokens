@@ -5,14 +5,12 @@
         "value": "AS Circular",
         "type": "primitive",
         "public": false,
-        "default": true,
         "deprecated": false
       },
       "goodOt": {
         "value": "Good OT",
         "type": "primitive",
         "public": false,
-        "default": true,
         "deprecated": false
       }
     }

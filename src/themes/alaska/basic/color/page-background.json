@@ -3,7 +3,6 @@
     "color": {
       "pageBackground": {
         "default": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{basic.color.brand.secondaryMuted.value}"
         },
         "utility": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

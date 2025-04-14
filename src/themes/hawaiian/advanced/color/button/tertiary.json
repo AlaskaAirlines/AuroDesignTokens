@@ -4,7 +4,6 @@
       "button": {
         "tertiary": {
           "background": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -12,7 +11,6 @@
             "value": "{transparency.black.5.value}"
           },
           "backgroundHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -20,7 +18,6 @@
             "value": "{transparency.black.10.value}"
           },
           "backgroundInverse": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -28,7 +25,6 @@
             "value": "{transparency.white.5.value}"
           },
           "backgroundInverseHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -36,7 +32,6 @@
             "value": "{transparency.white.10.value}"
           },
           "text": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -44,7 +39,6 @@
             "value": "{basic.color.brand.primary.value}"
           },
           "textHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -52,7 +46,6 @@
             "value": "{basic.color.brand.primaryBold.value}"
           },
           "textInverse": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",

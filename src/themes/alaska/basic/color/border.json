@@ -3,7 +3,6 @@
     "color": {
       "border": {
         "bold": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.neutral.800.value}"
         },
         "brand": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{basic.color.brand.primaryBold.value}"
         },
         "default": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.gray.500.value}"
         },
         "divider": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{transparency.black.15.value}"
         },
         "dividerInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{transparency.white.40.value}"
         },
         "inverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.white.value}"
         },
         "subtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

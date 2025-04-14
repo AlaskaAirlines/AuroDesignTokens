@@ -3,7 +3,6 @@
     "color": {
       "boolean": {
         "disabledInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.neutral.600.value}"
         },
         "error": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{basic.color.status.error.value}"
         },
         "errorHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.status.error.800.value}"
         },
         "errorInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.status.error.200.value}"
         },
         "errorInverseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{color.status.error.400.value}"
         },
         "indicator": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.white.value}"
         },
         "indicatorInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -59,7 +52,6 @@
           "value": "{basic.color.surface.inverse.value}"
         },
         "isfalse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -67,7 +59,6 @@
           "value": "{basic.color.surface.default.value}"
         },
         "isfalseBorder": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -75,7 +66,6 @@
           "value": "{basic.color.border.bold.value}"
         },
         "isfalseBorderInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -83,7 +73,6 @@
           "value": "{color.white.value}"
         },
         "isfalseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -91,7 +80,6 @@
           "value": "{advanced.color.state.backgroundHover.value}"
         },
         "isfalseInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -99,7 +87,6 @@
           "value": "{advanced.color.shared.backgroundInverse.value}"
         },
         "isfalseInverseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -107,7 +94,6 @@
           "value": "{advanced.color.shared.backgroundInverseHover.value}"
         },
         "istrue": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -115,7 +101,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "istrueHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -123,7 +108,6 @@
           "value": "{basic.color.brand.primaryBold.value}"
         },
         "istrueInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -131,7 +115,6 @@
           "value": "{color.white.value}"
         },
         "istrueInverseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

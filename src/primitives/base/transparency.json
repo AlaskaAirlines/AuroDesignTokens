@@ -2,91 +2,78 @@
   "transparency": {
     "black": {
       "5": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.05)"
       },
       "10": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.1)"
       },
       "15": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.15)"
       },
       "20": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.2)"
       },
       "30": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.3)"
       },
       "40": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.4)"
       },
       "50": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.5)"
       },
       "55": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.55)"
       },
       "60": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.6)"
       },
       "70": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.7)"
       },
       "75": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.75)"
       },
       "80": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.8)"
       },
       "90": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
@@ -95,91 +82,78 @@
     },
     "white": {
       "5": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.05)"
       },
       "10": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.1)"
       },
       "15": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.15)"
       },
       "20": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.2)"
       },
       "30": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.3)"
       },
       "40": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.4)"
       },
       "50": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.5)"
       },
       "55": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.55)"
       },
       "60": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.6)"
       },
       "70": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.7)"
       },
       "75": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.75)"
       },
       "80": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.8)"
       },
       "90": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
