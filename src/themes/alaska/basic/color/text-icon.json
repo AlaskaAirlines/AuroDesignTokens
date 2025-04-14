@@ -15,7 +15,7 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "usage": "Default text color",
+          "usage": "Default text color", 
           "value": "{color.gray.1000.value}"
         },
         "disabled": {
@@ -25,14 +25,6 @@
           "type": "semantic",
           "usage": "Disabled text/icon color",
           "value": "{color.gray.250.value}"
-        },
-        "disabledInverse": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Disabled inverse text/icon color",
-          "value": "{color.neutral.600.value}"
         },
         "inverse": {
           "default": true,

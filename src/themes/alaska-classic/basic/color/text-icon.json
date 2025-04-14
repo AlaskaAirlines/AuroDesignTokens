@@ -26,14 +26,6 @@
           "usage": "Disabled text/icon color",
           "value": "{color.gray.250.value}"
         },
-        "disabledInverse": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "Disabled inverse text/icon color",
-          "value": "{color.neutral.600.value}"
-        },
         "inverse": {
           "default": true,
           "deprecated": false,
