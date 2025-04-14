@@ -1,0 +1,24 @@
+{
+  "basic": {
+    "color": {
+      "pageBackground": {
+        "default": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default page background color",
+          "value": "{color.white.value}"
+        },
+        "utility": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Utility page background color",
+          "value": "{color.gray.100.value}"
+        }
+      }
+    }
+  }
+}

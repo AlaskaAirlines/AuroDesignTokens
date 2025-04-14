@@ -1,6 +1,6 @@
 {
-  "source": ["./src/primitives/base/*.json", "./src/primitives/alaska/*.json"],
-  "include": ["./src/themes/alaska/*.json"],
+  "source": ["./src/primitives/{base,alaska}/*.json"],
+  "include": ["./src/themes/alaska/**/*.json"],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -36,6 +36,22 @@
           "destination": "SCSSVariablesMapFlat--alaska.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; filter: public",
+      "buildPath": "./dist/alaska/",
+      "files": [
+        {
+          "destination": "JSONVariablesNested--alaska.json",
+          "format": "json/nested",
           "filter": {
             "public": true,
             "deprecated": false

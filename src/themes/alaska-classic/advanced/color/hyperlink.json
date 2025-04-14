@@ -1,0 +1,40 @@
+{
+  "advanced": {
+    "color": {
+      "hyperlink": {
+        "text": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default hyperlink color",
+          "value": "{basic.color.brand.primary.value}"
+        },
+        "textHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Hyperlink hover state color",
+          "value": "{basic.color.brand.secondary.value}"
+        },
+        "textInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default hyperlink color on inverse/dark backgrounds",
+          "value": "{color.bliss.400.value}"
+        },
+        "textInverseHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Hyperlink hover state color on inverse/dark backgrounds",
+          "value": "{color.bliss.300.value}"
+        }
+      }
+    }
+  }
+}

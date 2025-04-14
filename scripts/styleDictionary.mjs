@@ -82,7 +82,7 @@ const buildAllThemes = () => {
 
 /** @type {Object.<string, Object>} */
 export const themes = {
-  tokens: buildThemeConfig(THEME_PATHS.auroClassic),
+  auroClassic: buildThemeConfig(THEME_PATHS.auroClassic),
   alaskaClassic: buildThemeConfig(THEME_PATHS.alaskaClassic),
   alaska: buildThemeConfig(THEME_PATHS.alaska),
   hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),

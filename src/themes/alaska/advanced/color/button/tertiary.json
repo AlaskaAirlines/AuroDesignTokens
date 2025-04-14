@@ -1,0 +1,66 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "tertiary": {
+          "background": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button background color",
+            "value": "{transparency.black.5.value}"
+          },
+          "backgroundHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button background hover color",
+            "value": "{transparency.black.10.value}"
+          },
+          "backgroundInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse background color",
+            "value": "{transparency.white.5.value}"
+          },
+          "backgroundInverseHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse background hover color",
+            "value": "{transparency.white.10.value}"
+          },
+          "text": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button text color",
+            "value": "{basic.color.brand.primary.value}"
+          },
+          "textHover": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button text hover color",
+            "value": "{basic.color.brand.primaryBold.value}"
+          },
+          "textInverse": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Tertiary button inverse text color",
+            "value": "{color.white.value}"
+          }
+        }
+      }
+    }
+  }
+}

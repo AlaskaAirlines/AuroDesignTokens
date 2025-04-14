@@ -1,5 +1,101 @@
 # Semantic Release Automated Changelog
 
+## [5.8.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.1...v5.8.2) (2025-04-14)
+
+
+### Performance Improvements
+
+* update design tokens based on feedback ([c811b4a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c811b4a17e986eca0bc48641ad1749a1de0d48ae))
+
+## [5.8.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.0...v5.8.1) (2025-04-11)
+
+
+### Performance Improvements
+
+* add backgroundInverseDisabled token ([0acf6f2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0acf6f287398c71dc26119177b5346e99869a56b))
+* update boolean token ([35fe96f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/35fe96fddd9c350bc80b22ed4556c19ba1244d47))
+
+# [5.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.7.0...v5.8.0) (2025-04-09)
+
+
+### Features
+
+* add flat button tokens ([589225a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/589225aa471dd43218e073231ef742c3dab901db))
+
+
+### Performance Improvements
+
+* add textIcon token values ([b4f6fed](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b4f6fedd8adad36c59e337427b2ee455de4a73a9))
+* remove backgroundActive token ([9ef0a2e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9ef0a2e5b8bc612566df21a61390aaf5d9cc5dff))
+* remove tertiary border color tokens ([d00dd6e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d00dd6e5b5d00ee6bc5e2237c149095f326abceb))
+* update secondary button tokens ([5a7631d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5a7631ddd7cf17d11672f989ad507924d85edc89))
+* update transparency values to rgba ([754a833](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/754a8330151ff575b1cdf804bef1f5be63861abe))
+
+# [5.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.6.1...v5.7.0) (2025-04-08)
+
+
+### Features
+
+* update alaska classic tokens ([aec6ef7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/aec6ef729f640f16d0cb612c72ee9775d3925754))
+
+
+### Performance Improvements
+
+* add letterSpacing to alaskaClassic fonts ([c773028](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c7730281bd45144ceaa2d908be7354847de7dd83))
+
+## [5.6.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.6.0...v5.6.1) (2025-04-07)
+
+
+### Performance Improvements
+
+* token value updates ([d13fa6f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d13fa6f5fb4cf4d41b024d1aa48b974a0fb6eb1a))
+* update package dependencies ([0b7444b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0b7444b82779fc26fd47e73d02934eed45dc44b6))
+
+# [5.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.5.0...v5.6.0) (2025-04-07)
+
+
+### Bug Fixes
+
+* update hyperlink usage ([06fc8d2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/06fc8d2fdccb43dfd55af3e1220b47246e6193c7))
+
+
+### Features
+
+* update design tokens ([2a236be](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2a236be12092a7581a1ced5485ed2a0492bf600e))
+
+
+### Performance Improvements
+
+* alphabetize json ([cc38d87](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/cc38d87cf6201f48bddce5e287d6e22a38527d7c))
+* ensure key parity across themes ([3fe540c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3fe540c2e991a76529810c353756777ba07444c0))
+* font token updates ([def7e69](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/def7e69f15f76e74ec0448f6e991c9b284d1901a))
+* updates from design - hawaiian & alaska themes ([08875e7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/08875e7687046d1159a874ffa3ce5fd39fc69d61))
+
+# [5.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.4.0...v5.5.0) (2025-04-03)
+
+
+### Features
+
+* update alaska theme tokens ([a6d7da0](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a6d7da017bf2fba44f194085432d100e1dfd4f8e))
+
+# [5.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.3.1...v5.4.0) (2025-04-03)
+
+
+### Features
+
+* add updated typography primitives & themes ([84fc25d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/84fc25d6ec26bd079eb08edd973336a7f9434919))
+* design token updates ([c3cb008](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c3cb008bd5911979e756c76e9df6a39013cd93bc))
+* update color tokens ([fc81bf9](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/fc81bf9cbcd4790790a2800ad494e6b2c0da28c6))
+* update themes with new component tokens ([913c1fa](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/913c1fa452a3a2c25c4e41e8bd62dfa3fd6eae5e))
+* update token values ([a9697d1](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a9697d12ce58997a26cc4244367865faac761b63))
+
+## [5.3.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.3.0...v5.3.1) (2025-03-14)
+
+
+### Performance Improvements
+
+* add JSONVariablesNested export to dist ([a293c86](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a293c86c08955081db226b432731426b8e165187))
+
 # [5.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.2.1...v5.3.0) (2025-03-11)
 
 

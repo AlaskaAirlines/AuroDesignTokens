@@ -1,0 +1,20 @@
+{
+  "font": {
+    "family": {
+      "chronicleDisplay": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Chronicle Display"
+      },
+      "slatePro": {
+        "default": true,
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Slate Pro"
+      }
+    }
+  }
+}

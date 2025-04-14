@@ -10,10 +10,15 @@ The npm package provides pre-processed resources in the `./dist/` directory:
 └── dist
    ├── alaska
    │   └── CSSCustomProperties--alaska.css
+   │   └── JSObject--allTokens.js
+   │   └── JSONVariablesNested--alaska.json
    │   └── primitives--alaska.scss
+   │   └── SCSSVariables--alaska.scss
+   │   └── SCSSVariablesMapFlat--alaska.scss
    ├── alaska-classic
    │   ├── CSSCustomProperties--alaskaClassic.css
    │   ├── JSObject--allTokens.js
+   │   ├── JSONVariablesNested--alaskaClassic.json
    │   ├── primitives--alaskaClassic.scss
    │   ├── SCSSVariables--alaskaClassic.scss
    │   └── SCSSVariablesMapFlat--alaskaClassic.scss
@@ -32,8 +37,12 @@ The npm package provides pre-processed resources in the `./dist/` directory:
    │   ├── SCSSVariables.scss
    │   └── SCSSVariablesMapFlat.scss
    ├── hawaiian
-   │   └── CSSCustomProperties--hawaiian.css
-   │   └── primitives--hawaiian.scss
+   │   ├── CSSCustomProperties--hawaiian.css
+   │   ├── JSObject--allTokens.js
+   │   ├── JSONVariablesNested--hawaiian.json
+   │   ├── primitives--hawaiian.scss
+   │   ├── SCSSVariables--hawaiian.scss
+   │   └── SCSSVariablesMapFlat--hawaiian.scss
    ├── transparent
    │   └── CSSCustomProperties--transparent.css
    └── CSSCustomProperties--bundled.css

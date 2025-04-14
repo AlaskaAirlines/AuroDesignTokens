@@ -1,0 +1,64 @@
+{
+  "advanced": {
+    "color": {
+      "shared": {
+        "background": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background color",
+          "value": "{color.white.value}"
+        },
+        "backgroundInverse": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background inverse color",
+          "value": "{transparency.white.20.value}"
+        },
+        "backgroundInverseDisabled": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background inverse disabled color",
+          "value": "{transparency.white.10.value}"
+        },
+        "backgroundInverseHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background inverse hover color",
+          "value": "{transparency.white.15.value}"
+        },
+        "backgroundMuted": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background muted color",
+          "value": "{color.gray.50.value}"
+        },
+        "backgroundStrong": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background strong color",
+          "value": "{color.gray.600.value}"
+        },
+        "textAccent": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "",
+          "value": "{basic.color.brand.primarySubtle.value}"
+        }
+      }
+    }
+  }
+}

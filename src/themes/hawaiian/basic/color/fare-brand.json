@@ -1,0 +1,74 @@
+{
+  "basic": {
+    "color": {
+      "fare": {
+        "basiceconomy": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Basic fare brand color",
+          "value": "{color.gray.250.value}"
+        },
+        "business": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "First class fare brand color",
+          "value": "{color.royalpurple.600.value}"
+        },
+        "economy": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Economy fare brand color",
+          "value": "{color.alohapink.600.value}"
+        },
+        "first": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "First class fare brand color",
+          "value": "{color.royalpurple.600.value}"
+        },
+        "oneworld": {
+          "emerald": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Emerald brand color",
+            "value": "{color.oneworld.emerald.value}"
+          },
+          "ruby": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Ruby brand color",
+            "value": "{color.oneworld.ruby.value}"
+          },
+          "sapphire": {
+            "default": true,
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Sapphire brand color",
+            "value": "{color.oneworld.sapphire.value}"
+          }
+        },
+        "premiumeconomy": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Premium fare brand color",
+          "value": "{color.ocean.800.value}"
+        }
+      }
+    }
+  }
+}
