@@ -3,7 +3,6 @@
     "color": {
       "state": {
         "backgroundDisabled": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.gray.200.value}"
         },
         "backgroundHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.gray.100.value}"
         },
         "backgroundInverseDisabled": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.neutral.600.value}"
         },
         "errorInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.status.error.200.value}"
         },
         "focused": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "focusedInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.white.value}"
         },
         "selected": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -59,7 +52,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "selectedHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

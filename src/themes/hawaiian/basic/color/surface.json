@@ -3,7 +3,6 @@
     "color": {
       "surface": {
         "accent1": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.royalpurple.300.value}"
         },
         "accent1Muted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{basic.color.brand.primaryMuted.value}"
         },
         "accent1Subtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.royalpurple.300.value}"
         },
         "accent2": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.gray.50.value}"
         },
         "accent2Muted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{color.gray.50.value}"
         },
         "default": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.white.value}"
         },
         "inverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -59,7 +52,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "inverseSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -67,7 +59,6 @@
           "value": "{basic.color.brand.primarySubtle.value}"
         },
         "neutralMedium": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -75,7 +66,6 @@
           "value": "{color.gray.200.value}"
         },
         "neutralSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

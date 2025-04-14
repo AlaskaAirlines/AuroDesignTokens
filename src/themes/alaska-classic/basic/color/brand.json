@@ -3,7 +3,6 @@
     "color": {
       "brand": {
         "primary": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.atlas.500.value}"
         },
         "primaryBold": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.atlas.800.value}"
         },
         "primaryMuted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.atlas.100.value}"
         },
         "primarySubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.atlas.400.value}"
         },
         "secondary": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{color.midnight.900.value}"
         },
         "secondaryBold": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.midnight.1000.value}"
         },
         "secondaryMuted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -59,7 +52,6 @@
           "value": "{color.midnight.100.value}"
         },
         "secondarySubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -67,7 +59,6 @@
           "value": "{color.midnight.600.value}"
         },
         "tertiary": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -75,7 +66,6 @@
           "value": "{color.bliss.500.value}"
         },
         "tertiaryBold": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -83,7 +73,6 @@
           "value": "{color.bliss.700.value}"
         },
         "tertiaryMuted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -91,7 +80,6 @@
           "value": "{color.bliss.100.value}"
         },
         "tertiarySubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

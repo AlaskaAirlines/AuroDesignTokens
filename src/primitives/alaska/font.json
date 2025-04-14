@@ -2,14 +2,12 @@
   "font": {
     "family": {
       "asCircular": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",
         "value": "AS Circular"
       },
       "goodOt": {
-        "default": true,
         "deprecated": false,
         "public": false,
         "type": "primitive",

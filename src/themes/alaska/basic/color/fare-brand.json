@@ -3,7 +3,6 @@
     "color": {
       "fare": {
         "basiceconomy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.bliss.400.value}"
         },
         "business": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.midnight.900.value}"
         },
         "economy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.atlas.500.value}"
         },
         "first": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -36,7 +32,6 @@
         },
         "oneworld": {
           "emerald": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -44,7 +39,6 @@
             "value": "{color.oneworld.emerald.value}"
           },
           "ruby": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -52,7 +46,6 @@
             "value": "{color.oneworld.ruby.value}"
           },
           "sapphire": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -61,7 +54,6 @@
           }
         },
         "premiumeconomy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
