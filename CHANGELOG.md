@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.8.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.1...v5.8.2) (2025-04-14)
+
+
+### Performance Improvements
+
+* update design tokens based on feedback ([c811b4a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c811b4a17e986eca0bc48641ad1749a1de0d48ae))
+
 ## [5.8.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.0...v5.8.1) (2025-04-11)
 
 
