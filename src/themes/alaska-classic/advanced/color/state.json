@@ -26,14 +26,6 @@
           "usage": "",
           "value": "{color.neutral.600.value}"
         },
-        "backgroundInverseHover": {
-          "default": true,
-          "deprecated": false,
-          "public": true,
-          "type": "semantic",
-          "usage": "",
-          "value": "{transparency.white.15.value}"
-        },
         "errorInverse": {
           "default": true,
           "deprecated": false,

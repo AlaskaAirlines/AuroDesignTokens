@@ -104,7 +104,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Boolean false inverse hover state color",
-          "value": "{advanced.color.state.backgroundInverseHover.value}"
+          "value": "{advanced.color.shared.backgroundInverseHover.value}"
         },
         "istrue": {
           "default": true,

@@ -15,8 +15,24 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "usage": "Component background hover color",
-          "value": "{transparency.white.5.value}"
+          "usage": "Component background inverse color",
+          "value": "{transparency.white.20.value}"
+        },
+        "backgroundInverseDisabled": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background inverse disabled color",
+          "value": "{transparency.white.10.value}"
+        },
+        "backgroundInverseHover": {
+          "default": true,
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component background inverse hover color",
+          "value": "{transparency.white.15.value}"
         },
         "backgroundMuted": {
           "default": true,
