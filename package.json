@@ -35,7 +35,9 @@
     "build:ci": "npm-run-all sweep test build:tokens postinstall",
     "build:tokens": "node scripts/styleDictionary.mjs",
     "transform:css": "node scripts/transformCSS.mjs",
-    "test": "node scripts/jsonTest.js",
+    "test": "npm-run-all test:json test:tokens",
+    "test:json": "node scripts/jsonTest.js",
+    "test:tokens": "node test/tokenConsistency.js",
     "sweep": "rm -rf dist/",
     "prepare": "husky install"
   },
