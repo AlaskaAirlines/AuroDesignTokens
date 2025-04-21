@@ -44,6 +44,13 @@
           "usage": "Component background strong color",
           "value": "{color.gray.600.value}"
         },
+        "scrim": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component scrim color",
+          "value": "{transparency.black.50.value}"
+        },
         "textAccent": {
           "deprecated": false,
           "public": true,
