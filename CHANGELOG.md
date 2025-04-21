@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [5.8.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.2...v5.8.3) (2025-04-21)
+
+
+### Performance Improvements
+
+* add 'scrim' design token to themes ([34a81a1](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/34a81a114fea44aedc0f5282baf23d533ba9b7ee))
+
 ## [5.8.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.1...v5.8.2) (2025-04-14)
 
 
