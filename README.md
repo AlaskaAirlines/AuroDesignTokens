@@ -59,8 +59,7 @@ Auro Design Tokens support multiple themes:
 
 ### Alaska Air Group Exclusive
 
-> [!IMPORTANT]  
-> The following link is only intended for Alaska Air Group employees and is protected by SSO.
+> ⚠️ The following link is only intended for Alaska Air Group employees and is protected by SSO.
 
 - [Prepare your pages for multi-brand theming](https://wiki.devtools.teamaag.com/guides/multibrand)
 
