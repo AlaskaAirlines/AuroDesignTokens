@@ -4,49 +4,9 @@ This document provides a detailed reference for all the available tokens, format
 
 ## Package Structure
 
-The npm package provides pre-processed resources in the `./dist/` directory:
+The npm package provides pre-processed resources in the `./dist/` directory, organized by themes (alaska, hawaiian, auro-classic, etc.).
 
-```
-└── dist
-   ├── alaska
-   │   └── CSSCustomProperties--alaska.css
-   │   └── JSObject--allTokens.js
-   │   └── JSONVariablesNested--alaska.json
-   │   └── primitives--alaska.scss
-   │   └── SCSSVariables--alaska.scss
-   │   └── SCSSVariablesMapFlat--alaska.scss
-   ├── alaska-classic
-   │   ├── CSSCustomProperties--alaskaClassic.css
-   │   ├── JSObject--allTokens.js
-   │   ├── JSONVariablesNested--alaskaClassic.json
-   │   ├── primitives--alaskaClassic.scss
-   │   ├── SCSSVariables--alaskaClassic.scss
-   │   └── SCSSVariablesMapFlat--alaskaClassic.scss
-   ├── auro-classic
-   │   ├── CSSCustomProperties.css
-   │   ├── CSSSizeCustomProperties.css
-   │   ├── JSData--color.js
-   │   ├── JSObject--allTokens.js
-   │   ├── JSObject--deprecated.js
-   │   ├── JSONVariablesFlat.json
-   │   ├── JSONVariablesNested.json
-   │   ├── JSVariables--color.js
-   │   ├── SassCustomProperties.scss
-   │   ├── SassSizeCustomProperties.scss
-   │   ├── SCSSVariableMap.scss
-   │   ├── SCSSVariables.scss
-   │   └── SCSSVariablesMapFlat.scss
-   ├── hawaiian
-   │   ├── CSSCustomProperties--hawaiian.css
-   │   ├── JSObject--allTokens.js
-   │   ├── JSONVariablesNested--hawaiian.json
-   │   ├── primitives--hawaiian.scss
-   │   ├── SCSSVariables--hawaiian.scss
-   │   └── SCSSVariablesMapFlat--hawaiian.scss
-   ├── transparent
-   │   └── CSSCustomProperties--transparent.css
-   └── CSSCustomProperties--bundled.css
-```
+Each theme directory contains multiple file formats including CSS Custom Properties, JavaScript objects, JSON files, and SCSS/Sass variables in different structures (flat, nested, maps).
 
 ## JavaScript API
 
@@ -54,10 +14,8 @@ The npm package provides pre-processed resources in the `./dist/` directory:
 
 ```js
 // Import specific tokens
-import { 
-  DsColorBrandPrimary, 
-  DsColorTextPrimary 
-} from '@aurodesignsystem/design-tokens/dist/alaska/JSObject--allTokens.js';
+import tokens from '@aurodesignsystem/design-tokens/dist/alaska/JSObject--allTokens.js';
+const { basic, advanced } = tokens;
 
 // Or import all tokens
 import * as AlaskaTokens from '@aurodesignsystem/design-tokens/dist/alaska/JSObject--allTokens.js';
@@ -71,8 +29,8 @@ The CSS custom properties files use the following format:
 
 ```css
 :root {
-  --ds-color-brand-primary: #01426a;
-  --ds-color-brand-primary-hover: #012a43;
+  --ds-advanced-color-button-flat-text: #676767;
+  --ds-advanced-color-button-flat-text-hover: #525252;
   /* ... other tokens ... */
 }
 ```
@@ -82,8 +40,8 @@ The CSS custom properties files use the following format:
 The Sass variables files use the following format:
 
 ```scss
-$ds-color-brand-primary: #01426a;
-$ds-color-brand-primary-hover: #012a43;
+$as-color-gray-700: #676767;
+$as-color-gray-800: #525252;
 // ... other tokens ...
 ```
 
