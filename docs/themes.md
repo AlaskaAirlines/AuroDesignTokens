@@ -2,15 +2,14 @@
 
 Detailed information about token formats, file types, and implementation patterns to support your development workflow.
 
-## Theme Data Attributes
+## Theme Scoping
 
-For theme scoping with CSS Custom Properties, use the following data attributes:
+### Alaska Air Group Exclusive
 
-| Theme | Data Attribute | Theme Code |
-|-------|---------------|------------|
-| Alaska | `data-aag-theme="aag-theme-as"` | `as` |
-| Alaska Classic | `data-aag-theme="aag-theme-asc"` | `asc` |
-| Hawaiian | `data-aag-theme="aag-theme-ha"` | `ha` |
+> [!IMPORTANT]  
+> The following link is only intended for Alaska Air Group employees and is protected by SSO.
+
+- [Prepare your pages for multi-brand theming](https://wiki.devtools.teamaag.com/guides/multibrand)
 
 ## Theme Resources
 

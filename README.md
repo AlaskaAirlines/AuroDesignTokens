@@ -57,19 +57,12 @@ Auro Design Tokens support multiple themes:
 
 ## Theme Scoping
 
-Apply different themes using the `data-aag-theme` attribute:
+### Alaska Air Group Exclusive
 
-```html
-<!-- Alaska-themed -->
-<div data-aag-theme="aag-theme-as">
-  <h1>Alaska Airlines Content</h1>
-</div>
+> [!IMPORTANT]  
+> The following link is only intended for Alaska Air Group employees and is protected by SSO.
 
-<!-- Hawaiian-themed -->
-<div data-aag-theme="aag-theme-ha">
-  <h1>Hawaiian Airlines Content</h1>
-</div>
-```
+- [Prepare your pages for multi-brand theming](https://wiki.devtools.teamaag.com/guides/multibrand)
 
 ## Documentation
 
