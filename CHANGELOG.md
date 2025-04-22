@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [5.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.3...v5.9.0) (2025-04-22)
+
+
+### Features
+
+* add new skeleton and avatar tokens [#290](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/290) ([3e3a3e6](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3e3a3e608325f18c300df1309970787d7d3b4fbd))
+
 ## [5.8.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.2...v5.8.3) (2025-04-21)
 
 
