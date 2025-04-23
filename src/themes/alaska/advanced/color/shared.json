@@ -14,7 +14,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Component background inverse color",
-          "value": "{transparency.white.20.value}"
+          "value": "{transparency.white.15.value}"
         },
         "backgroundInverseDisabled": {
           "deprecated": false,
@@ -28,7 +28,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Component background inverse hover color",
-          "value": "{transparency.white.15.value}"
+          "value": "{transparency.white.20.value}"
         },
         "backgroundMuted": {
           "deprecated": false,
