@@ -142,6 +142,20 @@
         "value": "#484d55"
       }
     },
+    "loungetier" : {
+      "lounge": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#01426A"
+      },
+      "loungeplus": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#53B390"
+      }
+    },
     "oneworld": {
       "emerald": {
         "deprecated": false,
