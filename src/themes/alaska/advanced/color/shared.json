@@ -3,7 +3,6 @@
     "color": {
       "shared": {
         "background": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,15 +10,13 @@
           "value": "{color.white.value}"
         },
         "backgroundInverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Component background inverse color",
-          "value": "{transparency.white.20.value}"
+          "value": "{transparency.white.15.value}"
         },
         "backgroundInverseDisabled": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,15 +24,13 @@
           "value": "{transparency.white.10.value}"
         },
         "backgroundInverseHover": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Component background inverse hover color",
-          "value": "{transparency.white.15.value}"
+          "value": "{transparency.white.20.value}"
         },
         "backgroundMuted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,15 +38,20 @@
           "value": "{color.gray.50.value}"
         },
         "backgroundStrong": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Component background strong color",
           "value": "{color.gray.600.value}"
         },
+        "scrim": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Component scrim color",
+          "value": "{transparency.black.50.value}"
+        },
         "textAccent": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

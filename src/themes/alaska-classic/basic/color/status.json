@@ -3,7 +3,6 @@
     "color": {
       "status": {
         "default": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.neutral.400.value}"
         },
         "error": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.status.error.700.value}"
         },
         "errorSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.status.error.100.value}"
         },
         "info": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.status.help.600.value}"
         },
         "infoSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{color.status.help.100.value}"
         },
         "success": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.status.success.700.value}"
         },
         "successSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -59,7 +52,6 @@
           "value": "{color.status.success.100.value}"
         },
         "warning": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -67,7 +59,6 @@
           "value": "{color.status.warn.300.value}"
         },
         "warningSubtle": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

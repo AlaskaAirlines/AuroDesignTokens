@@ -1,6 +1,6 @@
 {
   "name": "@aurodesignsystem/design-tokens",
-  "version": "5.8.2",
+  "version": "5.10.0",
   "description": "Alaska Air Auro Design System token repository",
   "homepage": "https://github.com/AlaskaAirlines/DesignTokens",
   "author": "Alaska Airlines Product design and engineering",
@@ -12,7 +12,7 @@
   "main": "src/",
   "license": "Apache-2.0",
   "engines": {
-    "node": ">=20"
+    "node": "^20.x || ^22.x"
   },
   "dependencies": {
     "chalk": "^5.4.1",
@@ -35,7 +35,9 @@
     "build:ci": "npm-run-all sweep test build:tokens postinstall",
     "build:tokens": "node scripts/styleDictionary.mjs",
     "transform:css": "node scripts/transformCSS.mjs",
-    "test": "node scripts/jsonTest.js",
+    "test": "npm-run-all test:json test:tokens",
+    "test:json": "node scripts/jsonTest.js",
+    "test:tokens": "node test/tokenConsistency.js",
     "sweep": "rm -rf dist/",
     "prepare": "husky install"
   },

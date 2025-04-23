@@ -3,7 +3,6 @@
     "color": {
       "fare": {
         "basiceconomy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{color.gray.250.value}"
         },
         "business": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.royalpurple.600.value}"
         },
         "economy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,16 +24,30 @@
           "value": "{color.alohapink.600.value}"
         },
         "first": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "First class fare brand color",
           "value": "{color.royalpurple.600.value}"
         },
+        "loungetier": {
+          "lounge": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loungetier.lounge.value}"
+          },
+          "loungeplus": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge Plus brand color",
+            "value": "{color.loungetier.loungeplus.value}"
+          }
+        },
         "oneworld": {
           "emerald": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -44,7 +55,6 @@
             "value": "{color.oneworld.emerald.value}"
           },
           "ruby": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -52,7 +62,6 @@
             "value": "{color.oneworld.ruby.value}"
           },
           "sapphire": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -61,7 +70,6 @@
           }
         },
         "premiumeconomy": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

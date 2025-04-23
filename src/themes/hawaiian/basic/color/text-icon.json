@@ -3,7 +3,6 @@
     "color": {
       "texticon": {
         "accent1": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -11,7 +10,6 @@
           "value": "{basic.color.brand.primary.value}"
         },
         "default": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -19,7 +17,6 @@
           "value": "{color.black.value}"
         },
         "disabled": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -27,7 +24,6 @@
           "value": "{color.gray.250.value}"
         },
         "inverse": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -35,7 +31,6 @@
           "value": "{color.white.value}"
         },
         "inverseDisabled": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -43,7 +38,6 @@
           "value": "{color.neutral.600.value}"
         },
         "inverseMuted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",
@@ -51,7 +45,6 @@
           "value": "{color.neutral.300.value}"
         },
         "muted": {
-          "default": true,
           "deprecated": false,
           "public": true,
           "type": "semantic",

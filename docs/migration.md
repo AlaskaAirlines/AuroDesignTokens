@@ -32,6 +32,10 @@ The `v4.x` filename conventions remain the same, but for Auro Classic (the depre
 
 Please use `auro-classic` for now.
 
-We plan to release the `v5.x`-compatible components in April 2025. 
+`v5.x`-compatible components will begin to be released throughout April 2025.
 
-Full schedule here: [Component Themability Priorization](https://www.figma.com/design/IDtAQx3blORSzvfK4Vh3X6/Release-Schedules%3A-News%2C-Updates%2C-%26-Previews?node-id=29-280&p=f&m=dev).
+### Compatible Components
+
+For a list of deployed `v5.x`-compatible components, refer to the [Alaska Air Group Frontend Guild Wiki](https://wiki.devtools.teamaag.com/guides/multibrand/components/update-auro).
+
+Auro Component Themability Priorization schedule here: [Component Themability Priorization](https://www.figma.com/design/IDtAQx3blORSzvfK4Vh3X6/Release-Schedules%3A-News%2C-Updates%2C-%26-Previews?node-id=29-280&p=f&m=dev).

@@ -2,7 +2,7 @@
 node_modules
 build
 dist
-test
+test/validJSON
 css
 example/temp
 example/prodBuild/

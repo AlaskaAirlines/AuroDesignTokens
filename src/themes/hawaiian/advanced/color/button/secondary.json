@@ -4,7 +4,6 @@
       "button": {
         "secondary": {
           "background": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -12,7 +11,6 @@
             "value": "{color.white.value}"
           },
           "backgroundDisabled": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -20,7 +18,6 @@
             "value": "{color.gray.50.value}"
           },
           "backgroundHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -28,7 +25,6 @@
             "value": "{color.gray.100.value}"
           },
           "backgroundInverseHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -36,7 +32,6 @@
             "value": "{transparency.black.5.value}"
           },
           "border": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -44,7 +39,6 @@
             "value": "{basic.color.border.default.value}"
           },
           "borderHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -52,7 +46,6 @@
             "value": "{basic.color.border.default.value}"
           },
           "borderDisabled": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -60,7 +53,6 @@
             "value": "{basic.color.border.default.value}"
           },
           "borderInverse": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -68,7 +60,6 @@
             "value": "{color.white.value}"
           },
           "borderInverseDisabled": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -76,7 +67,6 @@
             "value": "{basic.color.border.subtle.value}"
           },
           "text": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -84,7 +74,6 @@
             "value": "{basic.color.brand.primary.value}"
           },
           "textHover": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
@@ -92,7 +81,6 @@
             "value": "{basic.color.brand.primaryBold.value}"
           },
           "textInverse": {
-            "default": true,
             "deprecated": false,
             "public": true,
             "type": "semantic",
