@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [5.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.9.0...v5.10.0) (2025-04-23)
+
+
+### Features
+
+* add new loungetier tokens [#292](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/292) ([efab599](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/efab5994eefb9a9dc0db2278240499cb458dac06))
+
+
+### Performance Improvements
+
+* swap shared background inverse values ([e1e4100](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e1e41005450d62fd754ea68792e21b8bdf87e0a2))
+
 # [5.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.8.3...v5.9.0) (2025-04-22)
 
 
