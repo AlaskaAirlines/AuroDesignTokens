@@ -106,19 +106,36 @@ const composeKotlinFormat = {
     return template({
       file,
       options,
-      properties: dictionary.allProperties,
+      properties: dictionary.allProperties.filter(p => !!p.value),
     });
   }
 }
 
+// Custom SwiftUI format configuration
+const swiftUIFormat = {
+  name: 'custom/formats/swiftui',
+  formatter: function({ dictionary, file, options }) {
+    const templateContent = readFileSync(join(__dirname, '../templates/swiftui-colors.template'), 'utf8')
+    const template = Handlebars.compile(templateContent);
+
+    return template({
+      file,
+      options,
+      properties: dictionary.allProperties.filter(p => !!p.value),
+    });
+  }
+};
+
 // Register custom transformations and formats
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
 StyleDictionary.registerTransformGroup({
-  name: 'custom/compose-colors',
+  name: 'custom/native-colors',
   transforms: ['attribute/cti', 'name/cti/camel', 'color/kotlin']
 });
 StyleDictionary.registerFormat(scssFormat);
 StyleDictionary.registerFormat(composeKotlinFormat);
+StyleDictionary.registerFormat(swiftUIFormat);
+
 
 /** @type {{
   auroClassic: string,

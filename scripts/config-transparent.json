@@ -18,7 +18,7 @@
       ]
     },
     "compose": {
-      "transformGroup": "custom/compose-colors",
+      "transformGroup": "custom/native-colors",
       "buildPath": "src/android/auroDesignTokens-sdk-android/src/main/kotlin/com/alaskaair/aurodesigntokens_sdk_android/",
       "files": [
         {
@@ -33,6 +33,24 @@
             "className": "TransparentColors",
             "packageName": "com.alaskaair.aurodesigntokens_sdk_android",
             "objectType": "class"
+          }
+        }
+      ]
+    },
+    "swift": {
+      "transformGroup": "custom/native-colors",
+      "buildPath": "Sources/auroDesignTokens-sdk-ios/",
+      "files": [
+        {
+          "destination": "TransparentColors.swift",
+          "format": "custom/formats/swiftui",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "options": {
+            "className": "TransparentColors"
           }
         }
       ]
