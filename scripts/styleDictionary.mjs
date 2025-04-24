@@ -40,29 +40,46 @@ StyleDictionary.registerTransform({
   type: 'value',
   matcher: (prop) => prop.attributes.category === 'color',
   transformer: (prop) => {
-    const value = prop.value;
+    let value = prop.value.trim().toLowerCase();
 
-    if (typeof value === 'string') {
-      // Hex case: "#rrggbb"
-      if (/^#([A-Fa-f0-9]{6})$/.test(value)) {
-        return `0xff${value.slice(1)}`;
-      }
-
-      // rgba case
-      const rgbaMatch = value.match(/^rgba\((\d+), ?(\d+), ?(\d+), ?([\d.]+)\)$/);
-      if (rgbaMatch) {
-        const [_, r, g, b, a] = rgbaMatch;
-        const alpha = Math.round(parseFloat(a) * 255)
-          .toString(16)
-          .padStart(2, '0');
-        const hex = [parseInt(r), parseInt(g), parseInt(b)]
-          .map((n) => n.toString(16).padStart(2, '0'))
-          .join('');
-        return `0x${alpha}${hex}`;
-      }
+    // Skip gradients
+    if (value.startsWith('linear-gradient') || value.startsWith('radial-gradient')) {
+      return null; // or throw new Error if you want to block the build
     }
 
-    return value;
+    // rgba format
+    const rgbaMatch = value.match(/^rgba\((\d+), ?(\d+), ?(\d+), ?([\d.]+)\)$/);
+    if (rgbaMatch) {
+      const [_, r, g, b, a] = rgbaMatch;
+      const alpha = Math.round(parseFloat(a) * 255)
+        .toString(16)
+        .padStart(2, '0');
+      const hex = [r, g, b]
+        .map((n) => parseInt(n).toString(16).padStart(2, '0'))
+        .join('');
+      return `0x${alpha}${hex}`;
+    }
+
+    // hex or shorthand hex, no hash (e.g., '0074c8')
+    const hexMatch = value.match(/^([a-f0-9]{6})$/i);
+    if (hexMatch) {
+      return `0xff${value}`;
+    }
+
+    // hex with hash
+    const hexWithHash = value.match(/^#([a-f0-9]{6})$/i);
+    if (hexWithHash) {
+      return `0xff${hexWithHash[1]}`;
+    }
+
+    // Already valid Kotlin 0x format (like 0xffeeddcc)
+    if (/^0x[a-f0-9]{8}$/.test(value)) {
+      return value;
+    }
+
+    // If it's something else, log a warning or skip
+    console.warn(`⚠️ Unrecognized color format for token "${prop.name}": ${value}`);
+    return null; // or fallback
   }
 });
 

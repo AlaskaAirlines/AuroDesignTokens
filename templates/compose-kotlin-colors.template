@@ -10,7 +10,9 @@ object {{options.className}} {
 {{/ifEquals}}
 
 {{#each properties}}
+  {{#if value}}
   val {{name}} = Color({{value}})
+  {{/if}}
 {{/each}}
 
 }

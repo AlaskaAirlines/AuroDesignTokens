@@ -210,6 +210,26 @@
           }
         }
       ]
+    },
+    "compose": {
+      "transformGroup": "custom/compose-colors",
+      "buildPath": "src/android/auroDesignTokens-sdk-android/src/main/kotlin/com/alaskaair/aurodesigntokens_sdk_android/",
+      "files": [
+        {
+          "destination": "AuroClassicColors.kt",
+          "format": "custom/formats/compose",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "options": {
+            "className": "AuroClassicColors",
+            "packageName": "com.alaskaair.aurodesigntokens_sdk_android",
+            "objectType": "class"
+          }
+        }
+      ]
     }
   }
 }
