@@ -83,7 +83,7 @@ const scssFormat = {
 const composeKotlinFormat = {
   name: 'custom/formats/compose',
   formatter: function({ dictionary, file, options }) {
-    const templateContent = readFileSync(join(__dirname, '../templates/compose-kotlin.template'), 'utf8')
+    const templateContent = readFileSync(join(__dirname, '../templates/compose-kotlin-colors.template'), 'utf8')
     const template = Handlebars.compile(templateContent);
 
     return template({

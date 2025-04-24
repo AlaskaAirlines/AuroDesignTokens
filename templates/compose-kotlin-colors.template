@@ -1,0 +1,18 @@
+{{fileHeader}}
+
+package {{options.packageName}}
+
+import androidx.compose.ui.graphics.Color
+
+{{#ifEquals options.objectType "class"}}
+class {{options.className}} {
+{{/ifEquals}}
+{{#ifEquals options.objectType "object"}}
+object {{options.className}} {
+{{/ifEquals}}
+
+{{#each properties}}
+  val {{name}} = Color({{value}})
+{{/each}}
+
+}
