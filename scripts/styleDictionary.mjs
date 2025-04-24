@@ -5,6 +5,7 @@ import { join } from 'path';
 import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import Handlebars from 'handlebars';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -34,6 +35,42 @@ const colorTransform = {
   }
 };
 
+StyleDictionary.registerTransform({
+  name: 'color/kotlin',
+  type: 'value',
+  matcher: (prop) => prop.attributes.category === 'color',
+  transformer: (prop) => {
+    const value = prop.value;
+
+    if (typeof value === 'string') {
+      // Hex case: "#rrggbb"
+      if (/^#([A-Fa-f0-9]{6})$/.test(value)) {
+        return `0xff${value.slice(1)}`;
+      }
+
+      // rgba case
+      const rgbaMatch = value.match(/^rgba\((\d+), ?(\d+), ?(\d+), ?([\d.]+)\)$/);
+      if (rgbaMatch) {
+        const [_, r, g, b, a] = rgbaMatch;
+        const alpha = Math.round(parseFloat(a) * 255)
+          .toString(16)
+          .padStart(2, '0');
+        const hex = [parseInt(r), parseInt(g), parseInt(b)]
+          .map((n) => n.toString(16).padStart(2, '0'))
+          .join('');
+        return `0x${alpha}${hex}`;
+      }
+    }
+
+    return value;
+  }
+});
+
+// Register custom Handlebars helper
+Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
+  return (arg1 === arg2) ? options.fn(this) : options.inverse(this);
+});
+
 // Custom SCSS format configuration
 const scssFormat = {
   name: 'custom/scss/map-flat',
@@ -42,9 +79,29 @@ const scssFormat = {
   )
 };
 
+// Custom Compose-Kotlin format configuration
+const composeKotlinFormat = {
+  name: 'custom/formats/compose',
+  formatter: function({ dictionary, file, options }) {
+    const templateContent = readFileSync(join(__dirname, '../templates/compose-kotlin.template'), 'utf8')
+    const template = Handlebars.compile(templateContent);
+
+    return template({
+      file,
+      options,
+      properties: dictionary.allProperties,
+    });
+  }
+}
+
 // Register custom transformations and formats
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
+StyleDictionary.registerTransformGroup({
+  name: 'custom/compose-colors',
+  transforms: ['attribute/cti', 'name/cti/camel', 'color/kotlin']
+});
 StyleDictionary.registerFormat(scssFormat);
+StyleDictionary.registerFormat(composeKotlinFormat);
 
 /** @type {{
   auroClassic: string,
