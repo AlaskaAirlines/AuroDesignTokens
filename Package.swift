@@ -23,7 +23,7 @@ let package = Package(
             ],
             linkerSettings: [
                 // Frameworks
-                .linkedFramework("UIKit")
+                .linkedFramework("SwiftUI")
             ]),
         .testTarget(
             name: "auroDesignTokens-sdk-ios-tests",
