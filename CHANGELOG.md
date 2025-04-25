@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [5.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.10.0...v5.11.0) (2025-04-25)
+
+
+### Features
+
+* add new flightline tokens [#295](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/295) ([4258c37](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/4258c3738a71bfe68cf4b89264de1bb80afe4ade))
+
+
+### Performance Improvements
+
+* move tier program tokens to separate file ([26295c5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/26295c53328d91b24930286fbefe4090c3367f36))
+
 # [5.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.9.0...v5.10.0) (2025-04-23)
 
 
