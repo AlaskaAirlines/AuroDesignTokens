@@ -1,0 +1,47 @@
+{
+  "basic": {
+    "color": {
+      "tierProgram": {
+        "loungetier": {
+          "lounge": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loungetier.lounge.value}"
+          },
+          "loungeplus": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge Plus brand color",
+            "value": "{color.loungetier.loungeplus.value}"
+          }
+        },
+        "oneworld": {
+          "emerald": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Emerald brand color",
+            "value": "{color.oneworld.emerald.value}"
+          },
+          "ruby": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Ruby brand color",
+            "value": "{color.oneworld.ruby.value}"
+          },
+          "sapphire": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Sapphire brand color",
+            "value": "{color.oneworld.sapphire.value}"
+          }
+        }
+      }
+    }
+  }
+}
