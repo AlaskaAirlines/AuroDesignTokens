@@ -1,0 +1,9 @@
+import SwiftUI
+
+public struct {{options.className}} {
+{{#each properties}}
+  {{#if value}}
+  public static let {{name}} = Color(hex: {{value}})
+  {{/if}}
+{{/each}}
+}
