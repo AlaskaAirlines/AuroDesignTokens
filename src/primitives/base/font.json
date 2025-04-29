@@ -201,13 +201,13 @@
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "525"
+        "value": "500"
       },
       "condNews": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "425"
+        "value": "450"
       },
       "light": {
         "deprecated": false,
