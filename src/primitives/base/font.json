@@ -191,47 +191,47 @@
       }
     },
     "weight": {
-      "300": {
+      "book": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Light"
+        "value": "450"
       },
-      "400": {
+      "condMedium": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Regular"
+        "value": "525"
       },
-      "425": {
+      "condNews": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Cond News"
+        "value": "425"
       },
-      "450": {
+      "light": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Book"
+        "value": "300"
       },
-      "500": {
+      "medium": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Medium"
+        "value": "500"
       },
-      "525": {
+      "regular": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Cond Medium"
+        "value": "400"
       },
-      "600": {
+      "semiBold": {
         "deprecated": false,
         "public": false,
         "type": "primitive",
-        "value": "Semibold"
+        "value": "600"
       }
     }
   }
