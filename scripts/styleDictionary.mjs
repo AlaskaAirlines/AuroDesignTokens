@@ -34,6 +34,31 @@ const colorTransform = {
   }
 };
 
+// Font family transform configuration
+const fontFamilyTransform = {
+  name: 'custom/fontFamily/quote',
+  type: 'value',
+  transitive: true,
+  /** @param {Object} prop
+   * @returns {boolean}
+   */
+  matcher: (prop) => 
+    prop.attributes && 
+    prop.attributes.category === 'font' && 
+    prop.attributes.type === 'family',
+  /** @param {Object} prop
+   * @param {string} prop.value
+   * @returns {string}
+   */
+  transformer: (prop) => {
+    // Add quotes around font family name if it doesn't already have them
+    if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
+      return `'${prop.value}'`;
+    }
+    return prop.value;
+  }
+};
+
 // Custom SCSS format configuration
 const scssFormat = {
   name: 'custom/scss/map-flat',
@@ -44,7 +69,19 @@ const scssFormat = {
 
 // Register custom transformations and formats
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
+StyleDictionary.registerTransform(/** @type {any} */ (fontFamilyTransform));
 StyleDictionary.registerFormat(scssFormat);
+
+// Extend existing transform groups to include font family transform
+StyleDictionary.registerTransformGroup({
+  name: 'scss-with-fonts',
+  transforms: StyleDictionary.transformGroup.scss.concat(['custom/fontFamily/quote'])
+});
+
+StyleDictionary.registerTransformGroup({
+  name: 'css-with-fonts',
+  transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
+});
 
 /** @type {{
   auroClassic: string,
@@ -67,7 +104,26 @@ const THEME_PATHS = {
  * @returns {Object} The built Style Dictionary configuration
  */
 const buildThemeConfig = (configPath) => {
-  const config = StyleDictionary.extend(configPath);
+  // Read the config file
+  let rawConfig;
+  
+  try {
+    rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
+  } catch (error) {
+    console.error('Error parsing JSON config file:', error);
+    process.exit(1);
+  }
+  
+  // Update transform groups to use the ones with font handling
+  Object.keys(rawConfig.platforms).forEach(platform => {
+    if (rawConfig.platforms[platform].transformGroup === 'scss') {
+      rawConfig.platforms[platform].transformGroup = 'scss-with-fonts';
+    } else if (rawConfig.platforms[platform].transformGroup === 'css') {
+      rawConfig.platforms[platform].transformGroup = 'css-with-fonts';
+    }
+  });
+  
+  const config = StyleDictionary.extend(rawConfig);
   config.buildAllPlatforms();
   return config;
 };
