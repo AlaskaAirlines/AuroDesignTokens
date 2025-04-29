@@ -227,7 +227,7 @@
         "type": "primitive",
         "value": "400"
       },
-      "semiBold": {
+      "semibold": {
         "deprecated": false,
         "public": false,
         "type": "primitive",

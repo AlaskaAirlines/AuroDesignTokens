@@ -22,7 +22,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{font.weight.450.value}"
+            "value": "{font.weight.book.value}"
           },
           "letterSpacing": {
             "deprecated": false,
@@ -59,7 +59,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{font.weight.450.value}"
+            "value": "{font.weight.book.value}"
           },
           "letterSpacing": {
             "deprecated": false,
@@ -96,7 +96,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{font.weight.450.value}"
+            "value": "{font.weight.book.value}"
           },
           "letterSpacing": {
             "deprecated": false,
@@ -133,7 +133,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{font.weight.450.value}"
+            "value": "{font.weight.book.value}"
           },
           "letterSpacing": {
             "deprecated": false,
@@ -170,7 +170,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{font.weight.450.value}"
+            "value": "{font.weight.book.value}"
           },
           "letterSpacing": {
             "deprecated": false,
