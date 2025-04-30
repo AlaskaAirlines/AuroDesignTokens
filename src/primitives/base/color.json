@@ -156,6 +156,104 @@
         "value": "#53B390"
       }
     },
+    "loyaltytier": {
+      "bronze": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#D99F6D"
+      },
+      "bronzeMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#EED4BE"
+      },
+      "cobalt": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#030772"
+      },
+      "cobaltMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#A9B6D6"
+      },
+      "copper": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#CB7457"
+      },
+      "copperMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#E7BFB1"
+      },
+      "gold": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#FBDC7A"
+      },
+      "goldMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#FDEFC4"
+      },
+      "nickel": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#ABAAB1"
+      },
+      "nickelMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#E5E4E7"
+      },
+      "platinum": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#BCB8A4"
+      },
+      "platinumMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#DAD8CD"
+      },
+      "silver": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#E4E9EC"
+      },
+      "silverMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#F9FAFB"
+      },
+      "titanium": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#282828"
+      },
+      "titaniumMuted": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "#545454"
+      }
+    },
     "oneworld": {
       "emerald": {
         "deprecated": false,
