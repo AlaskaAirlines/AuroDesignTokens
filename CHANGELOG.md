@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [5.14.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.13.0...v5.14.0) (2025-04-30)
+
+
+### Features
+
+* add new transparency accent tokens [#303](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/303) ([6db780d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6db780dfc5576ea536cdfb2b9e42295f11884a80))
+
 # [5.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.12.0...v5.13.0) (2025-04-30)
 
 
