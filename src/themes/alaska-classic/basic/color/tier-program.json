@@ -18,6 +18,120 @@
             "value": "{color.loungetier.loungeplus.value}"
           }
         },
+        "loyaltytier": {
+          "bronze": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.bronze.value}"
+          },
+          "bronzeMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.bronzeMuted.value}"
+          },
+          "cobalt": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.cobalt.value}"
+          },
+          "cobaltMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.cobaltMuted.value}"
+          },
+          "copper": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.copper.value}"
+          },
+          "copperMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.copperMuted.value}"
+          },
+          "gold": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.gold.value}"
+          },
+          "goldMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.goldMuted.value}"
+          },
+          "nickel": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.nickel.value}"
+          },
+          "nickelMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.nickelMuted.value}"
+          },
+          "platinum": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.platinum.value}"
+          },
+          "platinumMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.platinumMuted.value}"
+          },
+          "silver": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.silver.value}"
+          },
+          "silverMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.silverMuted.value}"
+          },
+          "titanium": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.titanium.value}"
+          },
+          "titaniumMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.titaniumMuted.value}"
+          }
+        },
         "oneworld": {
           "emerald": {
             "deprecated": false,
