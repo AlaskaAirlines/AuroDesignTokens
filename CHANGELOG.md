@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [5.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.12.0...v5.13.0) (2025-04-30)
+
+
+### Features
+
+* add new loyaltytier tokens [#301](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/301) ([0419ab3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0419ab355702de32e52d59e9764893167cb7f600))
+
 # [5.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.11.0...v5.12.0) (2025-04-30)
 
 
