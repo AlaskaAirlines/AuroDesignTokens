@@ -1,5 +1,19 @@
 # Semantic Release Automated Changelog
 
+# [5.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.11.0...v5.12.0) (2025-04-30)
+
+
+### Features
+
+* reverse fontWeigth values for valid compilation ([a914dad](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a914dad0642f1d11fd66e3a93a6d1a9caec086b1))
+
+
+### Performance Improvements
+
+* enclose font families in quotes on compile ([d097f12](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d097f124ae2b3452c68e34df2cffc35c7aae6848))
+* update fontWeight values in semantic tokens ([0b9b943](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0b9b943cd35a6242855f00b858ad7e8742a05fc3))
+* update weight values ([94a92f6](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/94a92f6cc5467b8415d2a0417a5495f2bdffc57c))
+
 # [5.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.10.0...v5.11.0) (2025-04-25)
 
 
