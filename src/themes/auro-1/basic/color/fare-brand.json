@@ -1,0 +1,43 @@
+{
+  "basic": {
+    "color": {
+      "fare": {
+        "basiceconomy": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Basic fare brand color",
+          "value": "{color.dune.300.value}"
+        },
+        "business": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "First class fare brand color",
+          "value": "{color.atlas.900.value}"
+        },
+        "economy": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Economy fare brand color",
+          "value": "{color.maris.700.value}"
+        },
+        "first": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "First class fare brand color",
+          "value": "{color.atlas.1000.value}"
+        },
+        "premiumeconomy": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Premium fare brand color",
+          "value": "{color.summit.900.value}"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "advanced": {
+    "color": {
+      "hyperlink": {
+        "text": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default hyperlink color",
+          "value": "{basic.color.brand.primary.value}"
+        },
+        "textHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Hyperlink hover state color",
+          "value": "{color.atlas.600.value}"
+        },
+        "textInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default hyperlink color on inverse/dark backgrounds",
+          "value": "{basic.color.brand.tertiary.value}"
+        },
+        "textInverseHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Hyperlink hover state color on inverse/dark backgrounds",
+          "value": "{color.dune.600.value}"
+        }
+      }
+    }
+  }
+}

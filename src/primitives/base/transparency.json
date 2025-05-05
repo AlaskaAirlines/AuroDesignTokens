@@ -159,6 +159,12 @@
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.9)"
       }
+    },
+    "transparent": {
+      "deprecated": false,
+      "public": false,
+      "type": "primitive",
+      "value": "rgba(0, 0, 0, 0)"
     }
   }
 }
