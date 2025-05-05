@@ -5,9 +5,25 @@ import { join } from 'path';
 import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import { THEME_DIRECTORIES } from '../src/config/themes.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+// Map between theme directory names and config file names
+const dirToConfigName = {
+  'alaska': 'alaska',
+  'alaska-classic': 'alaskaClassic',
+  'auro-1': 'auro1',
+  'auro-2': 'auro2',
+  'hawaiian': 'hawaiian',
+};
+
+// Legacy themes
+const additionalThemes = [
+  { configName: 'auroClassic', configPath: './scripts/config-auroClassic.json' },
+  { configName: 'transparent', configPath: './scripts/config-transparent.json' },
+];
 
 // Color transform configuration
 const colorTransform = {
@@ -83,20 +99,20 @@ StyleDictionary.registerTransformGroup({
   transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
 });
 
-/** @type {{
-  auroClassic: string,
-  alaskaClassic: string,
-  alaska: string,
-  hawaiian: string,
-  transparent: string
-}} */
-const THEME_PATHS = {
-  auroClassic: './scripts/config-auroClassic.json',
-  alaskaClassic: './scripts/config-alaskaClassic.json',
-  alaska: './scripts/config-alaska.json',
-  hawaiian: './scripts/config-hawaiian.json',
-  transparent: './scripts/config-transparent.json'
-};
+// Generate THEME_PATHS dynamically from THEME_DIRECTORIES
+/** @type {Object.<string, string>} */
+const THEME_PATHS = {};
+
+// Add paths from THEME_DIRECTORIES
+THEME_DIRECTORIES.forEach(({ dir }) => {
+  const configName = dirToConfigName[dir] || dir.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+  THEME_PATHS[configName] = `./scripts/config-${configName}.json`;
+});
+
+// Add legacy themes not in THEME_DIRECTORIES
+additionalThemes.forEach(({ configName, configPath }) => {
+  THEME_PATHS[configName] = configPath;
+});
 
 /**
  * Builds a Style Dictionary configuration for a specific theme
@@ -137,12 +153,11 @@ const buildAllThemes = () => {
 };
 
 /** @type {Object.<string, Object>} */
-export const themes = {
-  auroClassic: buildThemeConfig(THEME_PATHS.auroClassic),
-  alaskaClassic: buildThemeConfig(THEME_PATHS.alaskaClassic),
-  alaska: buildThemeConfig(THEME_PATHS.alaska),
-  hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),
-  transparent: buildThemeConfig(THEME_PATHS.transparent)
-};
+export const themes = {};
+
+// Build all themes and add to themes object
+Object.entries(THEME_PATHS).forEach(([themeName, configPath]) => {
+  themes[themeName] = buildThemeConfig(configPath);
+});
 
 export { buildAllThemes as default };

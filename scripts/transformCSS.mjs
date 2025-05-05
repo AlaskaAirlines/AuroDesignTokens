@@ -10,6 +10,7 @@
  * - Extracts CSS custom properties from ':root {}' blocks
  * - Rescopes the properties under theme-specific selectors
  * - Combines all themed properties into a single bundled output file
+ * - Compresses all CSS files in the dist directory
  *
  * @example
  * // Input: dist/alaska/CSSCustomProperties--alaska.css with ':root { --color: blue; }'
@@ -19,6 +20,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import postcss from 'postcss';
+import cssnano from 'cssnano';
 import { THEME_DIRECTORIES, getThemeAttribute } from '../src/config/themes.js';
 import { PATHS, CSS } from '../src/config/constants.js';
 
@@ -31,7 +33,9 @@ async function findCSSFiles(baseDir, targetDir) {
     const entries = await fs.readdir(fullPath, { withFileTypes: true });
     for (const entry of entries) {
       const entryPath = path.join(fullPath, entry.name);
-      if (entry.isFile() && entry.name.includes(CSS.TARGET_FILE_PATTERN)) {
+      if (entry.isFile() && 
+          entry.name.includes(CSS.TARGET_FILE_PATTERN) && 
+          !entry.name.includes('.min.css')) {
         files.push(entryPath);
       }
     }
@@ -84,19 +88,65 @@ async function transformCSSFiles() {
           const rescopedCSS = `[${scope}] {\n${propertiesStr}\n}`;
           combinedCSS += `/* Properties from ${path.basename(filePath)} */\n${rescopedCSS}\n\n`;
         }
+        
+        // Compress the individual CSS file
+        await compressCSSFile(filePath);
       }
     }
     
     // Write bundle
     if (combinedCSS) {
-      await fs.writeFile(path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME), combinedCSS.trim());
+      const bundlePath = path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME);
+      await fs.writeFile(bundlePath, combinedCSS.trim());
       console.log(`Successfully created ${CSS.BUNDLED_FILE_NAME} with rescoped CSS properties`);
+      
+      // Compress the bundled file
+      await compressCSSFile(bundlePath);
     } else {
       console.log('No CSS properties found in any :root {} blocks');
     }
   } catch (error) {
     console.error('Error processing CSS files:', error);
     process.exit(1);
+  }
+}
+
+/**
+ * Compress CSS file using cssnano
+ * @param {string} filePath - Path to the original CSS file
+ */
+async function compressCSSFile(filePath) {
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    const filename = path.basename(filePath);
+    const dirPath = path.dirname(filePath);
+    
+    // Generate minified filename (e.g., file.css -> file.min.css)
+    const extname = path.extname(filename);
+    const basename = filename.substring(0, filename.length - extname.length);
+    const minFilename = `${basename}.min${extname}`;
+    const minFilePath = path.join(dirPath, minFilename);
+    
+    // Process with cssnano to minify
+    const result = await postcss([cssnano({
+      preset: [
+        'default',
+        {
+          discardComments: {
+            removeAll: false,
+            removeAllButFirst: true
+          },
+          normalizeWhitespace: true,
+          minifyParams: true,
+        }
+      ]
+    })]).process(content, { from: filePath, to: minFilePath });
+    
+    // Write minified CSS to file
+    await fs.writeFile(minFilePath, result.css);
+    console.log(`Minified CSS created: ${minFilePath}`);
+  } catch (error) {
+    console.error(`Error compressing CSS file ${filePath}:`, error);
   }
 }
 
