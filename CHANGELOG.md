@@ -1,5 +1,25 @@
 # Semantic Release Automated Changelog
 
+# [5.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.14.0...v5.15.0) (2025-05-13)
+
+
+### Bug Fixes
+
+* avoid skipping unintended files by matching only filenames ending with '.min.css' ([a4e9a46](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a4e9a46bd765605f5f464566150fdf9040a21496))
+* fail build on CSS minification error instead of just logging ([028f61b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/028f61bd402302226a1cf45280fc93015e2e1b54))
+
+
+### Features
+
+* add auro-1 and auro-2 themes ([3d01d80](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3d01d8031768074a96c6210c00e1cc9d80501c3c))
+
+
+### Performance Improvements
+
+* batch process css minification ([982347b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/982347be02c0957dd1068730effd6f54e9e6156a))
+* centralize cssnano config ([8010238](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/80102380b90c76c92da0e7f0a3276ae305076f77))
+* remove need for mapping ([783c79c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/783c79cc1a442683edc6117fc62e58d3f50570ad))
+
 # [5.14.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.13.0...v5.14.0) (2025-04-30)
 
 
