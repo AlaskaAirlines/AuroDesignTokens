@@ -36,7 +36,7 @@ async function findCSSFiles(baseDir, targetDir) {
       const entryPath = path.join(fullPath, entry.name);
       if (entry.isFile() && 
           entry.name.includes(CSS.TARGET_FILE_PATTERN) && 
-          !entry.name.includes('.min.css')) {
+          !entry.name.endsWith('.min.css')) {
         files.push(entryPath);
       }
     }
