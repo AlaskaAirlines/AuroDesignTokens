@@ -61,7 +61,7 @@
     },
     "primitives_SCSS": {
       "transformGroup": "scss",
-      "prefix": "as",
+      "prefix": "a2",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
       "buildPath": "./dist/auro-2/",
       "files": [
