@@ -146,6 +146,8 @@ async function compressCSSFile(filePath) {
     console.log(`Minified CSS created: ${minFilePath}`);
   } catch (error) {
     console.error(`Error compressing CSS file ${filePath}:`, error);
+    // Exit with error code to fail the build
+    process.exit(1);
   }
 }
 
