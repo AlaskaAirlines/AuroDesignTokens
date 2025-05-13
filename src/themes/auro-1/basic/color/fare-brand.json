@@ -7,7 +7,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Basic fare brand color",
-          "value": "{color.dune.300.value}"
+          "value": "{color.bliss.400.value}"
         },
         "business": {
           "deprecated": false,
@@ -21,7 +21,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Economy fare brand color",
-          "value": "{color.maris.700.value}"
+          "value": "{color.atlas.500.value}"
         },
         "first": {
           "deprecated": false,

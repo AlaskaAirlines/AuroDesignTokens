@@ -21,7 +21,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Economy fare brand color",
-          "value": "{basic.color.brand.primary.value}"
+          "value": "{color.atlas.500.value}"
         },
         "first": {
           "deprecated": false,
