@@ -23,6 +23,7 @@ import postcss from 'postcss';
 import cssnano from 'cssnano';
 import { THEME_DIRECTORIES, getThemeAttribute } from '../src/config/themes.js';
 import { PATHS, CSS } from '../src/config/constants.js';
+import cssnanoConfig from '../src/config/cssnano.js';
 
 // Find CSS files in a directory
 async function findCSSFiles(baseDir, targetDir) {
@@ -138,19 +139,7 @@ async function compressCSSFile(filePath) {
     const minFilePath = path.join(dirPath, minFilename);
     
     // Process with cssnano to minify
-    const result = await postcss([cssnano({
-      preset: [
-        'default',
-        {
-          discardComments: {
-            removeAll: false,
-            removeAllButFirst: true
-          },
-          normalizeWhitespace: true,
-          minifyParams: true,
-        }
-      ]
-    })]).process(content, { from: filePath, to: minFilePath });
+    const result = await postcss([cssnano(cssnanoConfig)]).process(content, { from: filePath, to: minFilePath });
     
     // Write minified CSS to file
     await fs.writeFile(minFilePath, result.css);

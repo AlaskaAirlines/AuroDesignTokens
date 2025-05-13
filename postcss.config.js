@@ -1,18 +1,7 @@
-module.exports = {
+import cssnanoConfig from './src/config/cssnano.js';
+
+export default {
   plugins: [
-    require('cssnano')({
-      preset: [
-        'default',
-        {
-          discardComments: {
-            removeAll: false, // Preserve license/copyright comments
-            removeAllButFirst: true
-          },
-          normalizeWhitespace: true,
-          minifyParams: true,
-          colormin: true,
-        }
-      ]
-    })
+    require('cssnano')(cssnanoConfig)
   ]
 };
