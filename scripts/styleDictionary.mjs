@@ -10,13 +10,14 @@ import { THEME_DIRECTORIES } from '../src/config/themes.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Map between theme directory names and config file names
-const dirToConfigName = {
-  'alaska': 'alaska',
-  'alaska-classic': 'alaskaClassic',
-  'auro-1': 'auro1',
-  'auro-2': 'auro2',
-  'hawaiian': 'hawaiian',
+/**
+ * Converts a directory name to the corresponding config name
+ * @param {string} dirName - The directory name from THEME_DIRECTORIES
+ * @returns {string} The config name for the config file
+ */
+const dirToConfigName = (dirName) => {
+  // Convert dash-separated words to camelCase
+  return dirName.replace(/-([a-z0-9])/g, (match, char) => char.toUpperCase());
 };
 
 // Legacy themes
@@ -105,7 +106,7 @@ const THEME_PATHS = {};
 
 // Add paths from THEME_DIRECTORIES
 THEME_DIRECTORIES.forEach(({ dir }) => {
-  const configName = dirToConfigName[dir] || dir.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+  const configName = dirToConfigName(dir);
   THEME_PATHS[configName] = `./scripts/config-${configName}.json`;
 });
 
