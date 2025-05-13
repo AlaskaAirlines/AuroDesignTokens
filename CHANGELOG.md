@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+## [5.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.15.0...v5.15.1) (2025-05-13)
+
+
+### Bug Fixes
+
+* update sass prefix ([254ce18](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/254ce1819b74bda1042df79002b0fe8f82341b0b))
+
+
+### Performance Improvements
+
+* design token updates ([17fe14c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/17fe14c1a2d18247ab7189ca3bffc554d04d6c4b))
+
 # [5.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.14.0...v5.15.0) (2025-05-13)
 
 
