@@ -51,6 +51,8 @@ async function transformCSSFiles() {
   try {
     const buildDate = new Date().toUTCString();
     let combinedCSS = `/**\n  Do not edit directly\n  Generated on ${buildDate}\n */\n\n`;
+    // Track files that need minification
+    const filesToMinify = [];
     
     // Process each directory and its associated scope
     for (const { dir, code } of THEME_DIRECTORIES) {
@@ -89,21 +91,29 @@ async function transformCSSFiles() {
           combinedCSS += `/* Properties from ${path.basename(filePath)} */\n${rescopedCSS}\n\n`;
         }
         
-        // Compress the individual CSS file
-        await compressCSSFile(filePath);
+        // Add to minification queue
+        filesToMinify.push(filePath);
       }
     }
     
     // Write bundle
+    let bundlePath;
     if (combinedCSS) {
-      const bundlePath = path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME);
+      bundlePath = path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME);
       await fs.writeFile(bundlePath, combinedCSS.trim());
       console.log(`Successfully created ${CSS.BUNDLED_FILE_NAME} with rescoped CSS properties`);
       
-      // Compress the bundled file
-      await compressCSSFile(bundlePath);
+      // Add bundle file to minification queue
+      filesToMinify.push(bundlePath);
     } else {
       console.log('No CSS properties found in any :root {} blocks');
+    }
+    
+    // Batch process all CSS files for minification
+    if (filesToMinify.length > 0) {
+      console.log(`Minifying ${filesToMinify.length} CSS files...`);
+      await Promise.all(filesToMinify.map(compressCSSFile));
+      console.log('All CSS files have been minified');
     }
   } catch (error) {
     console.error('Error processing CSS files:', error);
