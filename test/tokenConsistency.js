@@ -163,6 +163,7 @@ async function runTest() {
   
   for (const [baseToken, data] of allBaseTokens.entries()) {
     if (data.themes.size < themes.length) {
+
       // This token doesn't appear in all themes
       const missingInThemes = themes.filter(theme => !data.themes.has(theme));
       const presentInThemes = Array.from(data.themes);
