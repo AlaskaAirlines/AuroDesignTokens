@@ -1,6 +1,11 @@
 {
-  "source": ["./src/primitives/{base,auro-1}/*.json"],
-  "include": ["./src/themes/auro-1/**/*.json"],
+  "source": [
+    "./src/primitives/{base,auro-1}/*.json"
+  ],
+  "include": [
+    "./src/shared/**/*.json",
+    "./src/themes/auro-1/**/*.json"
+  ],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -80,7 +85,11 @@
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/auro-1/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
       "files": [
         {
           "destination": "JSObject--allTokens.js",

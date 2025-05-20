@@ -1,6 +1,11 @@
 {
-  "source": ["./src/primitives/{base,alaska}/*.json"],
-  "include": ["./src/themes/alaska/**/*.json"],
+  "source": [
+    "./src/primitives/{base,alaska}/*.json"
+  ],
+  "include": [
+    "./src/shared/**/*.json",
+    "./src/themes/alaska/**/*.json"
+  ],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -80,7 +85,11 @@
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/alaska/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
       "files": [
         {
           "destination": "JSObject--allTokens.js",

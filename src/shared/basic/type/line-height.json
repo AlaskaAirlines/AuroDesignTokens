@@ -1,0 +1,50 @@
+{
+  "basic": {
+    "type": {
+      "lineHeight": {
+        "100": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1"
+        },
+        "130": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.3"
+        },
+        "117": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.17"
+        },
+        "114": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.14"
+        },
+        "125": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.25"
+        },
+        "133": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.33"
+        },
+        "120": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "1.2"
+        }
+      }
+    }
+  }
+}

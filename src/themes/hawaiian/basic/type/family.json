@@ -1,0 +1,20 @@
+{
+  "basic": {
+    "type": {
+      "family": {
+        "primary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "Chronicle Display"
+        },
+        "secondary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "Slate Pro"
+        }
+      }
+    }
+  }
+}

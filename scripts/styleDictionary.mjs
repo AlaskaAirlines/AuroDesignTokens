@@ -7,6 +7,9 @@ import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { THEME_DIRECTORIES } from '../src/config/themes.js';
 
+// Shared file path
+const SHARED_FILES_GLOB = "./src/shared/**/*.json";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -59,18 +62,23 @@ const fontFamilyTransform = {
   /** @param {Object} prop
    * @returns {boolean}
    */
-  matcher: (prop) => 
-    prop.attributes && 
-    prop.attributes.category === 'font' && 
-    prop.attributes.type === 'family',
+  matcher: (prop) => {
+    // Check if the path or name includes 'family' to catch all font family tokens
+    // This is more inclusive than checking only attributes
+    return (prop.path && prop.path.includes('family')) || 
+           (prop.name && prop.name.includes('family'));
+  },
   /** @param {Object} prop
    * @param {string} prop.value
    * @returns {string}
    */
   transformer: (prop) => {
-    // Add quotes around font family name if it doesn't already have them
+    // Add double quotes around font family name if it doesn't already have quotes
     if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
-      return `'${prop.value}'`;
+      return `"${prop.value}"`;
+    } else if (prop.value.startsWith("'")) {
+      // Convert single quotes to double quotes
+      return `"${prop.value.substring(1, prop.value.length - 1)}"`;
     }
     return prop.value;
   }
@@ -129,6 +137,38 @@ const buildThemeConfig = (configPath) => {
   } catch (error) {
     console.error('Error parsing JSON config file:', error);
     process.exit(1);
+  }
+  
+  // Include shared files - add shared directory to sources
+  if (!rawConfig.include) {
+    rawConfig.include = [];
+  }
+  
+  // Extract the theme directory name from the config path
+  let themeDir = '';
+  if (configPath) {
+    const configFileName = configPath.split('/').pop() || '';
+    const themeDirMatch = configFileName.match(/config-([a-zA-Z0-9]+)\.json/);
+    
+    if (themeDirMatch && themeDirMatch[1]) {
+      // Convert from camelCase to kebab-case for directory names
+      themeDir = themeDirMatch[1].replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
+      
+      // Always include shared files first, then theme-specific files
+      // Theme files naturally override shared files with the same name
+      
+      // Add all shared files 
+      if (!rawConfig.include.includes(SHARED_FILES_GLOB)) {
+        rawConfig.include.unshift(SHARED_FILES_GLOB);
+      }
+      
+      // Theme-specific files will naturally override shared files with the same name
+    }
+  } else {
+    // Fallback for paths without a theme directory - just include all shared files
+    if (!rawConfig.include.includes(SHARED_FILES_GLOB)) {
+      rawConfig.include.unshift(SHARED_FILES_GLOB);
+    }
   }
   
   // Update transform groups to use the ones with font handling

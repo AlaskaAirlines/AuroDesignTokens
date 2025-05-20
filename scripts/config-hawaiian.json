@@ -1,6 +1,11 @@
 {
-  "source": ["./src/primitives/{base,hawaiian}/*.json"],
-  "include": ["./src/themes/hawaiian/**/*.json"],
+  "source": [
+    "./src/primitives/{base,hawaiian}/*.json"
+  ],
+  "include": [
+    "./src/shared/**/*.json",
+    "./src/themes/hawaiian/**/*.json"
+  ],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
@@ -80,7 +85,11 @@
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
       "buildPath": "./dist/hawaiian/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
       "files": [
         {
           "destination": "JSObject--allTokens.js",
