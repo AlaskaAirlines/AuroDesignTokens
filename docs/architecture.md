@@ -30,8 +30,7 @@ Each supported theme (Alaska, Hawaiian, etc.) has its own primitives folder (`sr
 
 These theme-specific primitives work alongside the shared `base` primitives to create a complete primitive value set for each brand.
 
-
-### 3. Basic Tokens
+### 2. Basic Tokens
 
 #### Usage-Based References
 
@@ -41,7 +40,7 @@ Basic tokens are found in `src/themes/[themeName]/basic/` and are semantic token
 - Provide usage descriptions explaining their intended context
 - Are marked as `"public": true` for use in components
 
-### 4. Advanced Tokens
+### 3. Advanced Tokens
 
 #### UI Element Styling
 
@@ -49,9 +48,17 @@ Advanced tokens, prefixed with `--ds-advanced-` in the CSS custom properties fil
 
 Advanced tokens reference semantic tokens and create a higher-level abstraction specifically for UI components.
 
-### 5. Multi-level Semantic References
+### 4. Multi-level Semantic References
 
 Basic tokens may often reference other Basic tokens, not just primitives.
+
+### 5. Shared Semantic Tokens
+
+In addition to shared primitives, the system also includes shared semantic token definitions for values that are common across multiple themes:
+
+- **Shared Basic Tokens** (`src/shared/basic/`): Common semantic tokens that are identical across themes
+
+This centralized approach reduces duplication and simplifies maintenance while preserving theme-specific customization options. See [Shared Semantic Tokens](./shared-semantic-tokens.md) for more details.
 
 ## Best Practices
 

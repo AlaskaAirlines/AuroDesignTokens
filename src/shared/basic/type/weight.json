@@ -1,0 +1,50 @@
+{
+  "basic": {
+    "type": {
+      "weight": {
+        "book": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "450"
+        },
+        "condMedium": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "500"
+        },
+        "condNews": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "450"
+        },
+        "light": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "300"
+        },
+        "medium": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "500"
+        },
+        "regular": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "400"
+        },
+        "semibold": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "600"
+        }
+      }
+    }
+  }
+}

@@ -13,6 +13,9 @@ const cssnanoConfig = {
       normalizeWhitespace: true,
       minifyParams: true,
       colormin: true,
+      minifyFontValues: {
+        removeQuotes: false // Prevent font family quotes from being removed
+      }
     }
   ]
 };

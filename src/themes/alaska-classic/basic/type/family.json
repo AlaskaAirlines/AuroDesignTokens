@@ -1,0 +1,20 @@
+{
+  "basic": {
+    "type": {
+      "family": {
+        "accent": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "AS Circular"
+        },
+        "default": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "AS Circular"
+        }
+      }
+    }
+  }
+}
