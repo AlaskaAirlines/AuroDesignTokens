@@ -12,37 +12,19 @@ Detailed information about token formats, file types, and implementation pattern
 
 ## Theme Resources
 
-### Alaska
+### [Alaska](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska)
 
-Latest Alaska Airlines brand theme with `v5.x` tokens:
+Latest Alaska Airlines brand theme with `v5.x` tokens.
 
-| File | Syntax | Type | Description |
-|------|--------|------|-------------|
-| CSSCustomProperties--alaska | CSS | Custom properties | All v5.x semantic tokens |
-| primitives--alaska | SCSS | Sass variables | All v5.x semantic token values |
-
-### Alaska Classic
+### [Alaska Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska-classic)
 
 The Alaska Classic theme uses the `v5.x` token names with the deprecated Auro Classic values. It serves as a transition theme, facilitating a smooth migration for Auro components to the new "Alaska" theme.
 
-| File | Syntax | Type | Description |
-|------|--------|------|-------------|
-| CSSCustomProperties--alaskaClassic | CSS | Custom properties | All v5.x semantic tokens |
-| JSObject--allTokens.js | JS module | All data | All v5.x token data |
-| primitives--alaskaClassic | SCSS | Sass variables | All v5.x semantic token values |
-| SCSSVariables--alaskaClassic | SCSS | Sass variables | All v5.x semantic tokens |
-| SCSSVariablesMapFlat--alaskaClassic | SCSS | Sass variable map | All v5.x semantic tokens as flat map |
-
-### Hawaiian
+### [Hawaiian](https://auro.alaskaair.com/getting-started/developers/design-tokens/hawaiian)
 
 Hawaiian Airlines brand theme with v5.x tokens:
 
-| File | Syntax | Type | Description |
-|------|--------|------|-------------|
-| CSSCustomProperties--hawaiian | CSS | Custom properties | All v5.x release tokens |
-| primitives--hawaiian | SCSS | Sass variables | All v5.x semantic token values |
-
-### Auro Classic (Deprecated)
+### [Auro Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/auro-classic) (Deprecated)
 
 Legacy v4.x tokens, maintained for backward compatibility:
 

@@ -1,0 +1,127 @@
+{
+  "advanced": {
+    "color": {
+      "boolean": {
+        "disabledInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean disabled inverse state color",
+          "value": "{color.neutral.600.value}"
+        },
+        "error": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error state color",
+          "value": "{basic.color.status.error.value}"
+        },
+        "errorHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error hover state color",
+          "value": "{color.status.error.800.value}"
+        },
+        "errorInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error state color",
+          "value": "{color.status.error.200.value}"
+        },
+        "errorInverseHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean error state color",
+          "value": "{color.status.error.400.value}"
+        },
+        "indicator": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean indicator color",
+          "value": "{color.white.value}"
+        },
+        "indicatorInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean indicator inverse color",
+          "value": "{basic.color.surface.inverse.value}"
+        },
+        "isfalse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false state color",
+          "value": "{basic.color.surface.default.value}"
+        },
+        "isfalseBorder": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false border color",
+          "value": "{basic.color.border.bold.value}"
+        },
+        "isfalseBorderInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false inverse border color",
+          "value": "{color.white.value}"
+        },
+        "isfalseHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false hover state color",
+          "value": "{advanced.color.state.backgroundHover.value}"
+        },
+        "isfalseInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false inverse state color",
+          "value": "{advanced.color.shared.backgroundInverse.value}"
+        },
+        "isfalseInverseHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean false inverse hover state color",
+          "value": "{advanced.color.shared.backgroundInverseHover.value}"
+        },
+        "istrue": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean true state color",
+          "value": "{basic.color.brand.primary.value}"
+        },
+        "istrueHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean true hover state color",
+          "value": "{basic.color.brand.primaryBold.value}"
+        },
+        "istrueInverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean true inverse state color",
+          "value": "{color.white.value}"
+        },
+        "istrueInverseHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Boolean true inverse hover state color",
+          "value": "{transparency.white.70.value}"
+        }
+      }
+    }
+  }
+}

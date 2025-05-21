@@ -1,5 +1,77 @@
 # Semantic Release Automated Changelog
 
+## [5.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.15.0...v5.15.1) (2025-05-13)
+
+
+### Bug Fixes
+
+* update sass prefix ([254ce18](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/254ce1819b74bda1042df79002b0fe8f82341b0b))
+
+
+### Performance Improvements
+
+* design token updates ([17fe14c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/17fe14c1a2d18247ab7189ca3bffc554d04d6c4b))
+
+# [5.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.14.0...v5.15.0) (2025-05-13)
+
+
+### Bug Fixes
+
+* avoid skipping unintended files by matching only filenames ending with '.min.css' ([a4e9a46](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a4e9a46bd765605f5f464566150fdf9040a21496))
+* fail build on CSS minification error instead of just logging ([028f61b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/028f61bd402302226a1cf45280fc93015e2e1b54))
+
+
+### Features
+
+* add auro-1 and auro-2 themes ([3d01d80](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3d01d8031768074a96c6210c00e1cc9d80501c3c))
+
+
+### Performance Improvements
+
+* batch process css minification ([982347b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/982347be02c0957dd1068730effd6f54e9e6156a))
+* centralize cssnano config ([8010238](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/80102380b90c76c92da0e7f0a3276ae305076f77))
+* remove need for mapping ([783c79c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/783c79cc1a442683edc6117fc62e58d3f50570ad))
+
+# [5.14.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.13.0...v5.14.0) (2025-04-30)
+
+
+### Features
+
+* add new transparency accent tokens [#303](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/303) ([6db780d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6db780dfc5576ea536cdfb2b9e42295f11884a80))
+
+# [5.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.12.0...v5.13.0) (2025-04-30)
+
+
+### Features
+
+* add new loyaltytier tokens [#301](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/301) ([0419ab3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0419ab355702de32e52d59e9764893167cb7f600))
+
+# [5.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.11.0...v5.12.0) (2025-04-30)
+
+
+### Features
+
+* reverse fontWeigth values for valid compilation ([a914dad](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a914dad0642f1d11fd66e3a93a6d1a9caec086b1))
+
+
+### Performance Improvements
+
+* enclose font families in quotes on compile ([d097f12](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d097f124ae2b3452c68e34df2cffc35c7aae6848))
+* update fontWeight values in semantic tokens ([0b9b943](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0b9b943cd35a6242855f00b858ad7e8742a05fc3))
+* update weight values ([94a92f6](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/94a92f6cc5467b8415d2a0417a5495f2bdffc57c))
+
+# [5.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.10.0...v5.11.0) (2025-04-25)
+
+
+### Features
+
+* add new flightline tokens [#295](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/295) ([4258c37](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/4258c3738a71bfe68cf4b89264de1bb80afe4ade))
+
+
+### Performance Improvements
+
+* move tier program tokens to separate file ([26295c5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/26295c53328d91b24930286fbefe4090c3367f36))
+
 # [5.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.9.0...v5.10.0) (2025-04-23)
 
 

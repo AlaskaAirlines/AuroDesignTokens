@@ -1,0 +1,96 @@
+{
+  "source": ["./src/primitives/{base,auro-1}/*.json"],
+  "include": ["./src/themes/auro-1/**/*.json"],
+  "platforms": {
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "buildPath": "./dist/auro-1/",
+      "files": [
+        {
+          "destination": "CSSCustomProperties--auro1.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass; filter: public",
+      "buildPath": "./dist/auro-1/",
+      "files": [
+        {
+          "destination": "SCSSVariables--auro1.scss",
+          "format": "scss/variables",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        },
+        {
+          "destination": "SCSSVariablesMapFlat--auro1.scss",
+          "format": "custom/scss/map-flat",
+          "mapName": "auroTokens",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; filter: public",
+      "buildPath": "./dist/auro-1/",
+      "files": [
+        {
+          "destination": "JSONVariablesNested--auro1.json",
+          "format": "json/nested",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "primitives_SCSS": {
+      "transformGroup": "scss",
+      "prefix": "a1",
+      "comment": "File type: SCSS; variable type: Sass; filter: primitive",
+      "buildPath": "./dist/auro-1/",
+      "files": [
+        {
+          "destination": "primitives--auro1.scss",
+          "format": "scss/variables",
+          "filter": {
+            "type": "primitive",
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSObject--allTokens": {
+      "transformGroup": "js",
+      "prefix": "ds",
+      "comment": "File type: JS; data type: JS; filter: classic colors",
+      "buildPath": "./dist/auro-1/",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "files": [
+        {
+          "destination": "JSObject--allTokens.js",
+          "format": "javascript/module",
+          "filter": {
+            "public": true,
+            "deprecated": false
+          }
+        }
+      ]
+    }
+  }
+}

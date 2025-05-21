@@ -1,0 +1,18 @@
+{
+  "font": {
+    "family": {
+      "asCircular": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "AS Circular"
+      },
+      "teodor": {
+        "deprecated": false,
+        "public": false,
+        "type": "primitive",
+        "value": "Teodor"
+      }
+    }
+  }
+}

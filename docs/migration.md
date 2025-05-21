@@ -26,14 +26,6 @@ The `v4.x` filename conventions remain the same, but for Auro Classic (the depre
 @import "@aurodesignsystem/design-tokens/dist/auro-classic/*.*";
 ```
 
-## Component Theming
-
-**Important Note**: As of March 2025, the current versions of Auro components do not support the latest `v5.x` tokens.
-
-Please use `auro-classic` for now.
-
-`v5.x`-compatible components will begin to be released throughout April 2025.
-
 ### Compatible Components
 
 For a list of deployed `v5.x`-compatible components, refer to the [Alaska Air Group Frontend Guild Wiki](https://wiki.devtools.teamaag.com/guides/multibrand/components/update-auro).

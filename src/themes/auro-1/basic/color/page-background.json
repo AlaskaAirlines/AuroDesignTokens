@@ -1,0 +1,22 @@
+{
+  "basic": {
+    "color": {
+      "pageBackground": {
+        "default": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Primary brand color",
+          "value": "{color.white.value}"
+        },
+        "utility": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted primary brand color",
+          "value": "{basic.color.brand.tertiary.value}"
+        }
+      }
+    }
+  }
+}

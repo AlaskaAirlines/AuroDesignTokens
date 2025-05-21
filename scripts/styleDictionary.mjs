@@ -6,9 +6,26 @@ import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import Handlebars from 'handlebars';
+import { THEME_DIRECTORIES } from '../src/config/themes.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+/**
+ * Converts a directory name to the corresponding config name
+ * @param {string} dirName - The directory name from THEME_DIRECTORIES
+ * @returns {string} The config name for the config file
+ */
+const dirToConfigName = (dirName) => {
+  // Convert dash-separated words to camelCase
+  return dirName.replace(/-([a-z0-9])/g, (match, char) => char.toUpperCase());
+};
+
+// Legacy themes
+const additionalThemes = [
+  { configName: 'auroClassic', configPath: './scripts/config-auroClassic.json' },
+  { configName: 'transparent', configPath: './scripts/config-transparent.json' },
+];
 
 // Color transform configuration
 const colorTransform = {
@@ -88,6 +105,31 @@ Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
   return (arg1 === arg2) ? options.fn(this) : options.inverse(this);
 });
 
+// Font family transform configuration
+const fontFamilyTransform = {
+  name: 'custom/fontFamily/quote',
+  type: 'value',
+  transitive: true,
+  /** @param {Object} prop
+   * @returns {boolean}
+   */
+  matcher: (prop) => 
+    prop.attributes && 
+    prop.attributes.category === 'font' && 
+    prop.attributes.type === 'family',
+  /** @param {Object} prop
+   * @param {string} prop.value
+   * @returns {string}
+   */
+  transformer: (prop) => {
+    // Add quotes around font family name if it doesn't already have them
+    if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
+      return `'${prop.value}'`;
+    }
+    return prop.value;
+  }
+};
+
 // Custom SCSS format configuration
 const scssFormat = {
   name: 'custom/scss/map-flat',
@@ -132,25 +174,36 @@ StyleDictionary.registerTransformGroup({
   name: 'custom/native-colors',
   transforms: ['attribute/cti', 'name/cti/camel', 'color/kotlin']
 });
+StyleDictionary.registerTransform(/** @type {any} */ (fontFamilyTransform));
 StyleDictionary.registerFormat(scssFormat);
 StyleDictionary.registerFormat(composeKotlinFormat);
 StyleDictionary.registerFormat(swiftUIFormat);
 
+// Extend existing transform groups to include font family transform
+StyleDictionary.registerTransformGroup({
+  name: 'scss-with-fonts',
+  transforms: StyleDictionary.transformGroup.scss.concat(['custom/fontFamily/quote'])
+});
 
-/** @type {{
-  auroClassic: string,
-  alaskaClassic: string,
-  alaska: string,
-  hawaiian: string,
-  transparent: string
-}} */
-const THEME_PATHS = {
-  auroClassic: './scripts/config-auroClassic.json',
-  alaskaClassic: './scripts/config-alaskaClassic.json',
-  alaska: './scripts/config-alaska.json',
-  hawaiian: './scripts/config-hawaiian.json',
-  transparent: './scripts/config-transparent.json'
-};
+StyleDictionary.registerTransformGroup({
+  name: 'css-with-fonts',
+  transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
+});
+
+// Generate THEME_PATHS dynamically from THEME_DIRECTORIES
+/** @type {Object.<string, string>} */
+const THEME_PATHS = {};
+
+// Add paths from THEME_DIRECTORIES
+THEME_DIRECTORIES.forEach(({ dir }) => {
+  const configName = dirToConfigName(dir);
+  THEME_PATHS[configName] = `./scripts/config-${configName}.json`;
+});
+
+// Add legacy themes not in THEME_DIRECTORIES
+additionalThemes.forEach(({ configName, configPath }) => {
+  THEME_PATHS[configName] = configPath;
+});
 
 /**
  * Builds a Style Dictionary configuration for a specific theme
@@ -158,7 +211,26 @@ const THEME_PATHS = {
  * @returns {Object} The built Style Dictionary configuration
  */
 const buildThemeConfig = (configPath) => {
-  const config = StyleDictionary.extend(configPath);
+  // Read the config file
+  let rawConfig;
+  
+  try {
+    rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
+  } catch (error) {
+    console.error('Error parsing JSON config file:', error);
+    process.exit(1);
+  }
+  
+  // Update transform groups to use the ones with font handling
+  Object.keys(rawConfig.platforms).forEach(platform => {
+    if (rawConfig.platforms[platform].transformGroup === 'scss') {
+      rawConfig.platforms[platform].transformGroup = 'scss-with-fonts';
+    } else if (rawConfig.platforms[platform].transformGroup === 'css') {
+      rawConfig.platforms[platform].transformGroup = 'css-with-fonts';
+    }
+  });
+  
+  const config = StyleDictionary.extend(rawConfig);
   config.buildAllPlatforms();
   return config;
 };
@@ -172,12 +244,11 @@ const buildAllThemes = () => {
 };
 
 /** @type {Object.<string, Object>} */
-export const themes = {
-  auroClassic: buildThemeConfig(THEME_PATHS.auroClassic),
-  alaskaClassic: buildThemeConfig(THEME_PATHS.alaskaClassic),
-  alaska: buildThemeConfig(THEME_PATHS.alaska),
-  hawaiian: buildThemeConfig(THEME_PATHS.hawaiian),
-  transparent: buildThemeConfig(THEME_PATHS.transparent)
-};
+export const themes = {};
+
+// Build all themes and add to themes object
+Object.entries(THEME_PATHS).forEach(([themeName, configPath]) => {
+  themes[themeName] = buildThemeConfig(configPath);
+});
 
 export { buildAllThemes as default };
