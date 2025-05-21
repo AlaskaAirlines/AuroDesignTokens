@@ -9,7 +9,7 @@
 
 import fs from 'fs';
 import path from 'path';
-import { THEME_DIRECTORIES } from '../src/config/themes.js';
+import { THEME_DEFINITIONS } from '../src/config/themes.js';
 
 // Common property suffixes in design tokens
 const propertyNames = ['value', 'type', 'public', 'deprecated', 'usage'];
@@ -92,8 +92,8 @@ function groupKeysByBaseToken(keys) {
 async function runTest() {
   console.log('\nRunning Token Consistency Test...\n');
   
-  if (!THEME_DIRECTORIES || THEME_DIRECTORIES.length === 0) {
-    console.error('No themes found in THEME_DIRECTORIES');
+  if (!THEME_DEFINITIONS || THEME_DEFINITIONS.length === 0) {
+    console.error('No themes found in THEME_DEFINITIONS');
     process.exit(1);
   }
   
@@ -101,7 +101,7 @@ async function runTest() {
   const themeKeys = {};
   
   // Process each theme
-  for (const theme of THEME_DIRECTORIES) {
+  for (const theme of THEME_DEFINITIONS) {
     const themeDir = path.join(process.cwd(), 'src/themes', theme.dir);
     
     if (!fs.existsSync(themeDir)) {

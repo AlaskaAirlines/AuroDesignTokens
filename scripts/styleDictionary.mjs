@@ -5,28 +5,24 @@ import { join } from 'path';
 import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { THEME_DIRECTORIES } from '../src/config/themes.js';
-
-// Shared file path
-const SHARED_FILES_GLOB = "./src/shared/**/*.json";
+import { THEME_DEFINITIONS } from '../src/config/themes.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 /**
- * Converts a directory name to the corresponding config name
- * @param {string} dirName - The directory name from THEME_DIRECTORIES
- * @returns {string} The config name for the config file
+ * Converts a directory name to a format without hyphens
+ * @param {string} dirName - The directory name
+ * @returns {string} The directory name without hyphens
  */
-const dirToConfigName = (dirName) => {
-  // Convert dash-separated words to camelCase
-  return dirName.replace(/-([a-z0-9])/g, (match, char) => char.toUpperCase());
+const removeHyphens = (dirName) => {
+  return dirName.replace(/-/g, '');
 };
 
-// Legacy themes
-const additionalThemes = [
-  { configName: 'auroClassic', configPath: './scripts/config-auroClassic.json' },
-  { configName: 'transparent', configPath: './scripts/config-transparent.json' },
+// Legacy themes - uses individual config files
+const legacyThemes = [
+  { configName: 'auroClassic', configPath: './scripts/legacy/config-auroClassic.json' },
+  { configName: 'transparent', configPath: './scripts/legacy/config-transparent.json' },
 ];
 
 // Color transform configuration
@@ -99,90 +95,75 @@ StyleDictionary.registerFormat(scssFormat);
 
 // Extend existing transform groups to include font family transform
 StyleDictionary.registerTransformGroup({
-  name: 'scss-with-fonts',
+  name: 'scss',
   transforms: StyleDictionary.transformGroup.scss.concat(['custom/fontFamily/quote'])
 });
 
 StyleDictionary.registerTransformGroup({
-  name: 'css-with-fonts',
+  name: 'css',
   transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
 });
 
-// Generate THEME_PATHS dynamically from THEME_DIRECTORIES
-/** @type {Object.<string, string>} */
-const THEME_PATHS = {};
+/**
+ * Generates a theme config for the given theme
+ * @param {Object} theme - Theme object from THEME_DEFINITIONS
+ * @returns {Object} The config object
+ */
+const generateThemeConfig = (theme) => {
+  const { dir, code } = theme;
+  const templatePath = join(__dirname, 'config-template.json');
+  const templateContent = readFileSync(templatePath, 'utf8');
+  
+  // Replace template placeholders with theme-specific values
+  let configContent = templateContent
+    .replace(/{{themeDir}}/g, dir)
+    .replace(/{{themeSourceDir}}/g, dir)
+    .replace(/{{themeDirNoHyphens}}/g, removeHyphens(dir))
+    .replace(/{{themeCode}}/g, code);
+  
+  return JSON.parse(configContent);
+};
 
-// Add paths from THEME_DIRECTORIES
-THEME_DIRECTORIES.forEach(({ dir }) => {
-  const configName = dirToConfigName(dir);
-  THEME_PATHS[configName] = `./scripts/config-${configName}.json`;
+/**
+ * Reads a legacy config file
+ * @param {string} configPath - Path to the legacy config file
+ * @returns {Object} The config object
+ */
+const readLegacyConfig = (configPath) => {
+  try {
+    return JSON.parse(readFileSync(configPath, 'utf8'));
+  } catch (error) {
+    console.error(`Error reading legacy config ${configPath}:`, error);
+    process.exit(1);
+  }
+};
+
+// Theme configs object to store all configs
+/** @type {Object.<string, Object>} */
+const THEME_CONFIGS = {};
+
+// Generate configs
+THEME_DEFINITIONS.forEach((theme) => {
+  const themeName = removeHyphens(theme.dir);
+  THEME_CONFIGS[themeName] = generateThemeConfig(theme);
 });
 
-// Add legacy themes not in THEME_DIRECTORIES
-additionalThemes.forEach(({ configName, configPath }) => {
-  THEME_PATHS[configName] = configPath;
+// Add legacy themes
+legacyThemes.forEach(({ configName, configPath }) => {
+  THEME_CONFIGS[configName] = readLegacyConfig(configPath);
 });
 
 /**
- * Builds a Style Dictionary configuration for a specific theme
- * @param {string} configPath - Path to the theme configuration file
+ * Builds a Style Dictionary using the provided configuration
+ * @param {string} themeName - The name of the theme
+ * @param {Object} config - The configuration object
  * @returns {Object} The built Style Dictionary configuration
  */
-const buildThemeConfig = (configPath) => {
-  // Read the config file
-  let rawConfig;
-  
-  try {
-    rawConfig = JSON.parse(readFileSync(configPath, 'utf8'));
-  } catch (error) {
-    console.error('Error parsing JSON config file:', error);
-    process.exit(1);
-  }
-  
-  // Include shared files - add shared directory to sources
-  if (!rawConfig.include) {
-    rawConfig.include = [];
-  }
-  
-  // Extract the theme directory name from the config path
-  let themeDir = '';
-  if (configPath) {
-    const configFileName = configPath.split('/').pop() || '';
-    const themeDirMatch = configFileName.match(/config-([a-zA-Z0-9]+)\.json/);
-    
-    if (themeDirMatch && themeDirMatch[1]) {
-      // Convert from camelCase to kebab-case for directory names
-      themeDir = themeDirMatch[1].replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase();
-      
-      // Always include shared files first, then theme-specific files
-      // Theme files naturally override shared files with the same name
-      
-      // Add all shared files 
-      if (!rawConfig.include.includes(SHARED_FILES_GLOB)) {
-        rawConfig.include.unshift(SHARED_FILES_GLOB);
-      }
-      
-      // Theme-specific files will naturally override shared files with the same name
-    }
-  } else {
-    // Fallback for paths without a theme directory - just include all shared files
-    if (!rawConfig.include.includes(SHARED_FILES_GLOB)) {
-      rawConfig.include.unshift(SHARED_FILES_GLOB);
-    }
-  }
-  
-  // Update transform groups to use the ones with font handling
-  Object.keys(rawConfig.platforms).forEach(platform => {
-    if (rawConfig.platforms[platform].transformGroup === 'scss') {
-      rawConfig.platforms[platform].transformGroup = 'scss-with-fonts';
-    } else if (rawConfig.platforms[platform].transformGroup === 'css') {
-      rawConfig.platforms[platform].transformGroup = 'css-with-fonts';
-    }
-  });
-  
-  const config = StyleDictionary.extend(rawConfig);
-  config.buildAllPlatforms();
-  return config;
+const buildThemeConfig = (themeName, config) => {
+  console.log(`Building theme: ${themeName}`);
+  const dictConfig = StyleDictionary.extend(config);
+  dictConfig.buildAllPlatforms();
+  return dictConfig;
 };
 
 /**
@@ -190,15 +171,17 @@ const buildThemeConfig = (configPath) => {
  * @returns {void}
  */
 const buildAllThemes = () => {
-  Object.values(THEME_PATHS).forEach(buildThemeConfig);
+  Object.entries(THEME_CONFIGS).forEach(([themeName, config]) => {
+    buildThemeConfig(themeName, config);
+  });
 };
 
 /** @type {Object.<string, Object>} */
 export const themes = {};
 
 // Build all themes and add to themes object
-Object.entries(THEME_PATHS).forEach(([themeName, configPath]) => {
-  themes[themeName] = buildThemeConfig(configPath);
+Object.entries(THEME_CONFIGS).forEach(([themeName, config]) => {
+  themes[themeName] = buildThemeConfig(themeName, config);
 });
 
 export { buildAllThemes as default };
