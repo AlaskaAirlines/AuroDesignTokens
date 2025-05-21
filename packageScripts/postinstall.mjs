@@ -1,9 +1,14 @@
 'use strict';
 
 import chalk from 'chalk';
-import { createRequire } from 'node:module';
-const require = createRequire(import.meta.url);
-const pjson = require('../package.json');
+import { readFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const pjson = JSON.parse(
+  await readFile(resolve(__dirname, '../package.json'), 'utf8')
+);
 
 console.log(chalk.hex('#f26135')(`
  _______                   __           __ __
@@ -22,12 +27,6 @@ chalk.hex('#f26135')(`
 
         Thanks for installing the latest version
                 of `) + chalk.hex('#ffd200').bold(`Design Tokens v${pjson.version}.`) + chalk.hex('#f26135')(`
-
-              All Orion and Classic tokens
-                  have been DELETED!
-
-                Be sure to update WCSS
-       npm i @aurodesignsystem/webcorestylesheets@latest
 
 ╰─────────────────────────────── ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─╯
 `)

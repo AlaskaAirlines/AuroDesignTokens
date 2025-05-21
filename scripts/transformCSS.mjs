@@ -21,7 +21,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import postcss from 'postcss';
 import cssnano from 'cssnano';
-import { THEME_DIRECTORIES, getThemeAttribute } from '../src/config/themes.js';
+import { THEME_DEFINITIONS, getThemeAttribute } from '../src/config/themes.js';
 import { PATHS, CSS } from '../src/config/constants.js';
 import cssnanoConfig from '../src/config/cssnano.js';
 
@@ -56,7 +56,7 @@ async function transformCSSFiles() {
     const filesToMinify = [];
     
     // Process each directory and its associated scope
-    for (const { dir, code } of THEME_DIRECTORIES) {
+    for (const { dir, code } of THEME_DEFINITIONS) {
       const scope = getThemeAttribute(code);
       
       const cssFiles = await findCSSFiles(PATHS.DIST, dir);

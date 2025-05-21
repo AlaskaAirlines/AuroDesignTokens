@@ -1,7 +1,7 @@
 /**
  * Themes Config
  */
-export const THEME_DIRECTORIES = [
+export const THEME_DEFINITIONS = [
   { dir: 'alaska', name: 'Alaska', code: 'as' },
   { dir: 'alaska-classic', name: 'Alaska Classic', code: 'asc' },
   { dir: 'auro-1', name: 'Auro 1', code: 'a1' },
@@ -13,10 +13,10 @@ export const THEME_DIRECTORIES = [
  * Helper functions
  */
 export const getThemeByCode = (code) => 
-  THEME_DIRECTORIES.find(theme => theme.code === code);
+  THEME_DEFINITIONS.find(theme => theme.code === code);
 
 export const getThemeByDir = (dir) => 
-  THEME_DIRECTORIES.find(theme => theme.dir === dir);
+  THEME_DEFINITIONS.find(theme => theme.dir === dir);
 
 export const getThemeAttribute = (code) => 
   `data-aag-theme="aag-theme-${code}"`;
