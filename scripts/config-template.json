@@ -1,20 +1,20 @@
 {
   "source": [
-    "./src/primitives/{base,alaska}/*.json"
+    "./src/primitives/{base,{{themeSourceDir}}}/*.json"
   ],
   "include": [
     "./src/shared/**/*.json",
-    "./src/themes/alaska/**/*.json"
+    "./src/themes/{{themeDir}}/**/*.json"
   ],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/alaska/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "CSSCustomProperties--alaska.css",
+          "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
           "format": "css/variables",
           "filter": {
             "public": true,
@@ -27,10 +27,10 @@
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public",
-      "buildPath": "./dist/alaska/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "SCSSVariables--alaska.scss",
+          "destination": "SCSSVariables--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
           "filter": {
             "public": true,
@@ -38,7 +38,7 @@
           }
         },
         {
-          "destination": "SCSSVariablesMapFlat--alaska.scss",
+          "destination": "SCSSVariablesMapFlat--{{themeDirNoHyphens}}.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
           "filter": {
@@ -52,10 +52,10 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: JSON; variable type: CSS; filter: public",
-      "buildPath": "./dist/alaska/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "JSONVariablesNested--alaska.json",
+          "destination": "JSONVariablesNested--{{themeDirNoHyphens}}.json",
           "format": "json/nested",
           "filter": {
             "public": true,
@@ -66,12 +66,12 @@
     },
     "primitives_SCSS": {
       "transformGroup": "scss",
-      "prefix": "as",
+      "prefix": "{{themeCode}}",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
-      "buildPath": "./dist/alaska/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "primitives--alaska.scss",
+          "destination": "primitives--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
           "filter": {
             "type": "primitive",
@@ -84,7 +84,7 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
-      "buildPath": "./dist/alaska/",
+      "buildPath": "./dist/{{themeDir}}/",
       "transforms": [
         "attribute/cti",
         "name/cti/kebab",
