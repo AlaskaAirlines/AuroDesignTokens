@@ -108,6 +108,13 @@
             "usage": "Primary button text color",
             "value": "{color.white.value}"
           },
+          "textDisabled": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button text disabled color",
+            "value": "{color.white.value}"
+          },
           "textInverse": {
             "deprecated": false,
             "public": true,

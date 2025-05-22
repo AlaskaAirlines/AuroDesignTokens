@@ -28,7 +28,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Hyperlink hover state color on inverse/dark backgrounds",
-          "value": "{color.dune.600.value}"
+          "value": "{color.midnight.200.value}"
         }
       }
     }
