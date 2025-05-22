@@ -15,7 +15,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.midnight.300.value}"
+            "value": "{color.midnight.100.value}"
           },
           "backgroundHover": {
             "deprecated": false,
@@ -71,7 +71,7 @@
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.midnight.300.value}"
+            "value": "{color.midnight.100.value}"
           },
           "borderHover": {
             "deprecated": false,
@@ -107,6 +107,13 @@
             "type": "semantic",
             "usage": "Primary button text color",
             "value": "{basic.color.brand.primary.value}"
+          },
+          "textDisabled": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button text disabled color",
+            "value": "{basic.color.texticon.disabled.value}"
           },
           "textInverse": {
             "deprecated": false,
