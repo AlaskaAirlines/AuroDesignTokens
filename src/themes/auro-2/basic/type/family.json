@@ -1,0 +1,20 @@
+{
+  "basic": {
+    "type": {
+      "family": {
+        "primary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "AS Circular"
+        },
+        "secondary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "Teodor"
+        }
+      }
+    }
+  }
+}

@@ -14,15 +14,15 @@ Detailed information about token formats, file types, and implementation pattern
 
 ### [Alaska](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska)
 
-Latest Alaska Airlines brand theme with `v5.x` tokens.
+Latest Alaska Airlines brand theme with `v6.x` tokens.
 
 ### [Alaska Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska-classic)
 
-The Alaska Classic theme uses the `v5.x` token names with the deprecated Auro Classic values. It serves as a transition theme, facilitating a smooth migration for Auro components to the new "Alaska" theme.
+The Alaska Classic theme uses the `v6.x` token names with the deprecated Auro Classic values. It serves as a transition theme, facilitating a smooth migration for Auro components to the new "Alaska" theme.
 
 ### [Hawaiian](https://auro.alaskaair.com/getting-started/developers/design-tokens/hawaiian)
 
-Hawaiian Airlines brand theme with v5.x tokens:
+Hawaiian Airlines brand theme with v6.x tokens:
 
 ### [Auro Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/auro-classic) (Deprecated)
 
@@ -56,6 +56,6 @@ Special-purpose transparent theme (v4.x):
 
 | File | Syntax | Type | Description |
 |------|--------|------|-------------|
-| CSSCustomProperties--bundled.css | CSS | Custom properties | Combined v5.x `semantic` CSS custom properties from all supported themes, scoped to a `data-aag-theme` attribute |
+| CSSCustomProperties--bundled.css | CSS | Custom properties | Combined v6.x `semantic` CSS custom properties from all supported themes, scoped to a `data-aag-theme` attribute |
 
 **NOTE: The bundled file is not intended for general use.**

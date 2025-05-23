@@ -1,15 +1,20 @@
 {
-  "source": ["./src/primitives/{base,hawaiian}/*.json"],
-  "include": ["./src/themes/hawaiian/**/*.json"],
+  "source": [
+    "./src/primitives/{base,{{themeSourceDir}}}/*.json"
+  ],
+  "include": [
+    "./src/shared/**/*.json",
+    "./src/themes/{{themeDir}}/**/*.json"
+  ],
   "platforms": {
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/hawaiian/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "CSSCustomProperties--hawaiian.css",
+          "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
           "format": "css/variables",
           "filter": {
             "public": true,
@@ -22,10 +27,10 @@
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public",
-      "buildPath": "./dist/hawaiian/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "SCSSVariables--hawaiian.scss",
+          "destination": "SCSSVariables--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
           "filter": {
             "public": true,
@@ -33,7 +38,7 @@
           }
         },
         {
-          "destination": "SCSSVariablesMapFlat--hawaiian.scss",
+          "destination": "SCSSVariablesMapFlat--{{themeDirNoHyphens}}.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
           "filter": {
@@ -47,10 +52,10 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: JSON; variable type: CSS; filter: public",
-      "buildPath": "./dist/hawaiian/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "JSONVariablesNested--hawaiian.json",
+          "destination": "JSONVariablesNested--{{themeDirNoHyphens}}.json",
           "format": "json/nested",
           "filter": {
             "public": true,
@@ -61,12 +66,12 @@
     },
     "primitives_SCSS": {
       "transformGroup": "scss",
-      "prefix": "ha",
+      "prefix": "{{themeCode}}",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
-      "buildPath": "./dist/hawaiian/",
+      "buildPath": "./dist/{{themeDir}}/",
       "files": [
         {
-          "destination": "primitives--hawaiian.scss",
+          "destination": "primitives--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
           "filter": {
             "type": "primitive",
@@ -79,8 +84,12 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
-      "buildPath": "./dist/hawaiian/",
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/css"],
+      "buildPath": "./dist/{{themeDir}}/",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
       "files": [
         {
           "destination": "JSObject--allTokens.js",

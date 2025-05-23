@@ -14,7 +14,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Utility page background color",
-          "value": "{color.gray.100.value}"
+          "value": "{color.white.value}"
         }
       }
     }
