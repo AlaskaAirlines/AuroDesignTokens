@@ -55,21 +55,50 @@ const fontFamilyTransform = {
   name: 'custom/fontFamily/quote',
   type: 'value',
   transitive: true,
-  /** @param {Object} prop
-   * @returns {boolean}
+  /** 
+   * Matches design tokens that are related to font families.
+   * 
+   * 1. Checks if the token is explicitly categorized as 'font' or 'type'
+   * 2. Checks the token path for 'family' combined with 'font'/'type'
+   * 
+   * @param {Object} prop - The design token property to evaluate
+   * @returns {boolean} - Returns true if the property should be processed by the font family transformer
    */
   matcher: (prop) => {
-    // Check if the path or name includes 'family' to catch all font family tokens
-    // This is more inclusive than checking only attributes
-    return (prop.path && prop.path.includes('family')) || 
-           (prop.name && prop.name.includes('family'));
+    // Primary check: explicit font/type category attribute
+    // Auro Classic uses 'font' while v5 & greater uses 'type'
+    const hasTypeCategoryAttr = prop.attributes && 
+      (prop.attributes.category === 'font' || prop.attributes.category === 'type');
+    
+    // Secondary check: font family in path with font/type context
+    // Catches tokens that might not have explicit categories but follow naming conventions
+    // Only matches 'family' when it appears alongside 'type' or 'font' in the path
+    const isFontFamilyPath = prop.path && 
+      prop.path.includes('family') && 
+      prop.path.some(segment => segment === 'type' || segment === 'font');
+    
+    // Return true if either condition is met
+    return hasTypeCategoryAttr || isFontFamilyPath;
   },
   /** @param {Object} prop
    * @param {string} prop.value
    * @returns {string}
    */
   transformer: (prop) => {
-    // Add double quotes around font family name if it doesn't already have quotes
+    /**
+     * Font family handling - ensures consistent double quote formatting for CSS output
+     * 
+     * This is critical for CSS/SCSS compatibility because:
+     * 1. Font family names in CSS should be quoted when they contain spaces
+     *    (e.g., "AS Circular" not AS Circular)
+     * 2. CSS specifications prefer double quotes for consistency
+     * 
+     * Example transformations:
+     * - "AS Circular" → "AS Circular" (already properly formatted)
+     * - 'Good OT' → "Good OT" (single quotes converted to double)
+     * - Helvetica → "Helvetica" (unquoted value gets quoted)
+     * - 'Open Sans → "Open Sans" (handles malformed input with missing end quote)
+     */
     if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
       return `"${prop.value}"`;
     } else if (prop.value.startsWith("'")) {
