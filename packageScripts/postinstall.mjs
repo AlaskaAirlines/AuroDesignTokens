@@ -28,6 +28,9 @@ chalk.hex('#f26135')(`
         Thanks for installing the latest version
                 of `) + chalk.hex('#ffd200').bold(`Design Tokens v${pjson.version}.`) + chalk.hex('#f26135')(`
 
+                Be sure to update WCSS
+    npm i @aurodesignsystem/webcorestylesheets@latest
+
 ╰─────────────────────────────── ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─╯
 `)
 );
