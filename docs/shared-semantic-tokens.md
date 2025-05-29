@@ -18,14 +18,14 @@ Shared semantic tokens are the same values across all themes.
 
 `src/shared/basic/type/size.json`
 
-### Theme-Specific Tokens
+# Theme-Specific Tokens
 
 Theme-specific tokens are defined in each respective theme's directory and can override shared files with the same name.
 
 - Shared `type` tokens defined in `src/shared/basic/type/size.json`
 - Theme-specific `type` font families defined in `src/themes/alaska/basic/type/family.json`
 
-## Adding New Tokens
+# Adding New Tokens
 
 When adding new tokens:
 

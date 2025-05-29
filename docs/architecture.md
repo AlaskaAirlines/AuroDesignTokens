@@ -12,7 +12,7 @@ The Auro Design System is built on a structured hierarchy of design tokens organ
 
 ## Multi-Level Token Architecture
 
-### 1. Primitives
+### Primitives
 
 #### Base Primitives: Shared Foundation
 
@@ -30,7 +30,7 @@ Each supported theme (Alaska, Hawaiian, etc.) has its own primitives folder (`sr
 
 These theme-specific primitives work alongside the shared `base` primitives to create a complete primitive value set for each brand.
 
-### 2. Basic Tokens
+### Basic Tokens
 
 #### Usage-Based References
 
@@ -40,7 +40,7 @@ Basic tokens are found in `src/themes/[themeName]/basic/` and are semantic token
 - Provide usage descriptions explaining their intended context
 - Are marked as `"public": true` for use in components
 
-### 3. Advanced Tokens
+### Advanced Tokens
 
 #### UI Element Styling
 
@@ -48,11 +48,11 @@ Advanced tokens, prefixed with `--ds-advanced-` in the CSS custom properties fil
 
 Advanced tokens reference semantic tokens and create a higher-level abstraction specifically for UI components.
 
-### 4. Multi-level Semantic References
+### Multi-level Semantic References
 
 Basic tokens may often reference other Basic tokens, not just primitives.
 
-### 5. Shared Semantic Tokens
+### Shared Semantic Tokens
 
 In addition to shared primitives, the system also includes shared semantic token definitions for values that are common across multiple themes:
 
@@ -66,16 +66,16 @@ This centralized approach reduces duplication and simplifies maintenance while p
 
 UI components should never directly use primitives (either `base` or theme-specific). Instead, always use semantic tokens that reference these primitives. This ensures:
 
-1. Consistent application of design values
-2. Easy theme switching
-3. Future-proofing against primitive value changes
+- Consistent application of design values
+- Easy theme switching
+- Future-proofing against primitive value changes
 
 ## Benefits of This Architecture
 
 This multi-tiered approach provides several advantages:
 
-1. **Theme Flexibility**: Components can seamlessly switch between themes without code changes
-2. **Abstraction of Intent**: Semantic naming communicates the purpose of each token
-3. **Centralized Updates**: Changes to primitive values automatically propagate to all semantic tokens
-4. **Design Consistency**: Related UI elements share the same semantic tokens across different contexts
-5. **Clear Migration Path**: Supports multiple versions during transition periods
+- **Theme Flexibility**: Components can seamlessly switch between themes without code changes
+- **Abstraction of Intent**: Semantic naming communicates the purpose of each token
+- **Centralized Updates**: Changes to primitive values automatically propagate to all semantic tokens
+- **Design Consistency**: Related UI elements share the same semantic tokens across different contexts
+- **Clear Migration Path**: Supports multiple versions during transition periods
