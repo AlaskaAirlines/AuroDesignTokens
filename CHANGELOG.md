@@ -1,5 +1,35 @@
 # Semantic Release Automated Changelog
 
+# [6.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.15.1...v6.0.0) (2025-05-29)
+
+
+* feat!: refactor typography tokens ([d0c8b8f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d0c8b8fb3ab59bdef3b9d8f75adc4b938282ebb2))
+
+
+### Bug Fixes
+
+* cache template to reduce I/O operations ([2c76993](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2c769937cad750da1b4ece3a7ff6efc4111ffe6b))
+* check if string ends with quote before removing it ([f99ed53](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f99ed53dc04d8012f4674e4e7ab53abbab77db39))
+* **corner-radius:** remove corner-radius tokens ([#314](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/314)) ([55ecfe8](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/55ecfe8c620bd635886a6dfe985abdff1fed708a))
+* documentation updates ([8b6f950](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/8b6f950c9c940c628c05c834acc795e03d734452))
+* improve font-family matcher to be more precise ([a75f56a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a75f56a3b0da244ba7ea85bcc1862c56e134b137))
+* return postinstall wcss message ([b7e0867](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b7e08673a81d624fd4988d6814009aa76e1447aa))
+
+
+### Features
+
+* **tokens:** update design token values ([#312](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/312)) ([ad787e8](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ad787e8d857e48b7e87e131d8366ba68286cc8a7))
+
+
+### BREAKING CHANGES
+
+* Typography tokens have been restructured to reduce the number of tokens and improve the developer experience.
+
+- Added new 'type' semantic tokens
+- Removed old 'font' primitive & semantic tokens
+- Updated folder structure with new 'shared' semantic tokens
+- Updated respective type values to em, rem & unitless values for accessibility
+
 ## [5.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.15.0...v5.15.1) (2025-05-13)
 
 
