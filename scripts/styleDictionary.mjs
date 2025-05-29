@@ -110,6 +110,10 @@ StyleDictionary.registerTransformGroup({
   transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
 });
 
+// Cache the template content to avoid repeated file reads
+const templatePath = join(__dirname, 'config-template.json');
+const templateContent = readFileSync(templatePath, 'utf8');
+
 /**
  * Generates a theme config for the given theme
  * @param {Object} theme - Theme object from THEME_DEFINITIONS
@@ -117,8 +121,6 @@ StyleDictionary.registerTransformGroup({
  */
 const generateThemeConfig = (theme) => {
   const { dir, code } = theme;
-  const templatePath = join(__dirname, 'config-template.json');
-  const templateContent = readFileSync(templatePath, 'utf8');
   
   // Replace template placeholders with theme-specific values
   let configContent = templateContent
