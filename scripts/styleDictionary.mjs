@@ -74,7 +74,13 @@ const fontFamilyTransform = {
       return `"${prop.value}"`;
     } else if (prop.value.startsWith("'")) {
       // Convert single quotes to double quotes
-      return `"${prop.value.substring(1, prop.value.length - 1)}"`;
+      // Check if the string ends with a quote before removing it
+      if (prop.value.endsWith("'")) {
+        return `"${prop.value.substring(1, prop.value.length - 1)}"`;
+      } else {
+        // Only remove the leading quote if the ending quote is missing
+        return `"${prop.value.substring(1)}"`;
+      }
     }
     return prop.value;
   }
