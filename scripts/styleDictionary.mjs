@@ -56,21 +56,20 @@ const fontFamilyTransform = {
   type: 'value',
   transitive: true,
   /** 
-   * Matches design tokens that are related to font families.
+   * Matches type tokens that are related to font families.
    * 
-   * 1. Checks if the token is explicitly categorized as 'font' or 'type'
-   * 2. Checks the token path for 'family' combined with 'font'/'type'
+   * 1. Checks if token is categorized as 'font' or 'type'
+   * 2. Checks token path for 'family' combined with 'font'/'type'
    * 
-   * @param {Object} prop - The design token property to evaluate
-   * @returns {boolean} - Returns true if the property should be processed by the font family transformer
+   * @param {Object} prop - The token property
+   * @returns {boolean} - Returns true if the property matches the font-family criteria, otherwise false
    */
   matcher: (prop) => {
     // Primary check: explicit font/type category attribute
-    // Auro Classic uses 'font' while v5 & greater uses 'type'
+    // Auro Classic uses 'font' while v6 & greater themes uses 'type'
     const hasTypeCategoryAttr = prop.attributes && 
       (prop.attributes.category === 'font' || prop.attributes.category === 'type');
     
-    // Secondary check: font family in path with font/type context
     // Catches tokens that might not have explicit categories but follow naming conventions
     // Only matches 'family' when it appears alongside 'type' or 'font' in the path
     const isFontFamilyPath = prop.path && 
@@ -80,7 +79,8 @@ const fontFamilyTransform = {
     // Return true if either condition is met
     return hasTypeCategoryAttr || isFontFamilyPath;
   },
-  /** @param {Object} prop
+  /** 
+   * @param {Object} prop
    * @param {string} prop.value
    * @returns {string}
    */
@@ -88,30 +88,53 @@ const fontFamilyTransform = {
     /**
      * Font family handling - ensures consistent double quote formatting for CSS output
      * 
-     * This is critical for CSS/SCSS compatibility because:
+     * Critical for CSS/SCSS compatibility because:
      * 1. Font family names in CSS should be quoted when they contain spaces
      *    (e.g., "AS Circular" not AS Circular)
      * 2. CSS specifications prefer double quotes for consistency
+     * 3. For font stacks, each font name with spaces should be individually quoted
      * 
      * Example transformations:
      * - "AS Circular" → "AS Circular" (already properly formatted)
      * - 'Good OT' → "Good OT" (single quotes converted to double)
-     * - Helvetica → "Helvetica" (unquoted value gets quoted)
+     * - Helvetica Neue → "Helvetica Neue" (unquoted value gets quoted)
      * - 'Open Sans → "Open Sans" (handles malformed input with missing end quote)
+     * - 'Circular', Helvetica Neue, Arial → "Circular", "Helvetica Neue", Arial
      */
-    if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
-      return `"${prop.value}"`;
-    } else if (prop.value.startsWith("'")) {
-      // Convert single quotes to double quotes
-      // Check if the string ends with a quote before removing it
-      if (prop.value.endsWith("'")) {
-        return `"${prop.value.substring(1, prop.value.length - 1)}"`;
-      } else {
-        // Only remove the leading quote if the ending quote is missing
-        return `"${prop.value.substring(1)}"`;
+    
+    // Handle simple single font case
+    if (!prop.value.includes(',')) {
+      if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
+        return `"${prop.value}"`;
       }
+      return prop.value;
     }
-    return prop.value;
+    
+    // Handle font stacks with multiple fonts
+    return prop.value.split(',')
+      .map(font => {
+        // Trim whitespace
+        const fontName = font.trim();
+        
+        // Skip if already properly quoted with double quotes
+        if (fontName.startsWith('"') && fontName.endsWith('"')) {
+          return fontName;
+        }
+        
+        // Convert single quotes to double quotes
+        if (fontName.startsWith("'") && fontName.endsWith("'")) {
+          return `"${fontName.slice(1, -1)}"`;
+        }
+        
+        // Quote unquoted font names that contain spaces
+        if (fontName.includes(' ')) {
+          return `"${fontName}"`;
+        }
+        
+        // Return generic font names as is
+        return fontName;
+      })
+      .join(', ');
   }
 };
 

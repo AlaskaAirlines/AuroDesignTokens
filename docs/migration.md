@@ -1,4 +1,4 @@
-# Migrating from `v4`
+# Migrating from v4
 
 This guide provides instructions for migrating from Auro Design Tokens `v4`.
 
