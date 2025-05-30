@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [6.0.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.0...v6.0.1) (2025-05-30)
+
+
+### Bug Fixes
+
+* quote multi-word font families in font stacks ([e1d5c85](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e1d5c85dfbc130806249e4168240dc74cea3678f))
+
 # [6.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v5.15.1...v6.0.0) (2025-05-29)
 
 
