@@ -2,13 +2,13 @@
   "font": {
     "family": {
       "default": {
-        "value": "'{asset.font.circular.familyName.value}', Helvetica Neue, Arial, sans-serif",
+        "value": "{asset.font.circular.familyName.value}, Helvetica Neue, Arial, sans-serif",
         "type": "semantic",
         "public": true,
         "deprecated": true
       },
       "mono": {
-        "value": "Menlo, Monaco, Consolas, 'Courier New', monospace",
+        "value": "Menlo, Monaco, Consolas, Courier New, monospace",
         "type": "semantic",
         "public": true,
         "deprecated": true
