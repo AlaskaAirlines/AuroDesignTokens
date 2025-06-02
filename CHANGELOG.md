@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [6.0.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.1...v6.0.2) (2025-06-02)
+
+
+### Bug Fixes
+
+* **dist:** ensure output filenames use camelCase ([19a6b26](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/19a6b26247e17e52902e3102f5610cd6a6146a11))
+
 ## [6.0.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.0...v6.0.1) (2025-05-30)
 
 
