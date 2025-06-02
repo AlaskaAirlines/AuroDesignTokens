@@ -12,11 +12,15 @@ const __dirname = dirname(__filename);
 
 /**
  * Converts a directory name to a format without hyphens
+ * For names with letters after hyphens (e.g., 'alaska-classic'), converts to camelCase ('alaskaClassic')
+ * For names with numbers after hyphens (e.g., 'auro-1'), removes the hyphen ('auro1')
  * @param {string} dirName - The directory name
- * @returns {string} The directory name without hyphens
+ * @returns {string} The processed directory name
  */
 const removeHyphens = (dirName) => {
-  return dirName.replace(/-/g, '');
+  return dirName.replace(/-([a-z])/g, (match, letter) => letter.toUpperCase())
+                // Remove hyphen before numbers
+               .replace(/-([0-9])/g, '$1');
 };
 
 // Legacy themes - uses individual config files

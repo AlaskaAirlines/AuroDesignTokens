@@ -59,6 +59,7 @@ async function transformCSSFiles() {
     for (const { dir, code } of THEME_DEFINITIONS) {
       const scope = getThemeAttribute(code);
       
+      // Get all CSS files in the directory, not relying on specific naming patterns
       const cssFiles = await findCSSFiles(PATHS.DIST, dir);
       if (cssFiles.length === 0) {
         console.log(`No CSS files found in ${PATHS.DIST}/${dir} directory`);
