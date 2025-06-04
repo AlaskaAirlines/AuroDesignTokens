@@ -1,5 +1,23 @@
 # Semantic Release Automated Changelog
 
+# [7.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.2...v7.0.0) (2025-06-04)
+
+
+* refactor(type)!: move type tokens to primitives ([023e8c7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/023e8c7b6a9220b3320173a4d49ac96e6d4c8d43))
+
+
+### BREAKING CHANGES
+
+* type tokens format has changed to better support design's needs.
+
+- Type tokens have been moved from shared/basic/type to primitives/base/type.
+- The following tokens have been moved:
+  - letter-spacing
+  - line-height
+  - size
+  - weight
+- Introduced brand tokens for each theme
+
 ## [6.0.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.1...v6.0.2) (2025-06-02)
 
 
