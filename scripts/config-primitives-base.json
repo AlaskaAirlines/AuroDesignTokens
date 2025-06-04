@@ -1,0 +1,65 @@
+{
+  "source": [
+    "./src/primitives/base/**/*.json"
+  ],
+  "platforms": {
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass; base primitives",
+      "buildPath": "./dist/primitives/base/",
+      "files": [
+        {
+          "destination": "SCSSVariables--primitivesBase.scss",
+          "format": "scss/variables",
+          "filter": {
+            "deprecated": false
+          }
+        },
+        {
+          "destination": "SCSSVariablesMapFlat--primitivesBase.scss",
+          "format": "custom/scss/map-flat",
+          "mapName": "auroPrimitiveBaseTokens",
+          "filter": {
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS; base primitives",
+      "buildPath": "./dist/primitives/base/",
+      "files": [
+        {
+          "destination": "JSONVariablesNested--primitivesBase.json",
+          "format": "json/nested",
+          "filter": {
+            "deprecated": false
+          }
+        }
+      ]
+    },
+    "JSObject--allTokens": {
+      "transformGroup": "js",
+      "prefix": "ds",
+      "comment": "File type: JS; data type: JS; base primitives",
+      "buildPath": "./dist/primitives/base/",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
+      "files": [
+        {
+          "destination": "JSObject--allTokens.js",
+          "format": "javascript/module",
+          "filter": {
+            "deprecated": false
+          }
+        }
+      ]
+    }
+  }
+}

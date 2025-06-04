@@ -56,6 +56,6 @@ Special-purpose transparent theme (v4.x):
 
 | File | Syntax | Type | Description |
 |------|--------|------|-------------|
-| CSSCustomProperties--bundled.css | CSS | Custom properties | Combined v6.x `semantic` CSS custom properties from all supported themes, scoped to a `data-aag-theme` attribute |
+| themes/CSSCustomProperties--bundled.css | CSS | Custom properties | Combined v6.x `semantic` CSS custom properties from all supported themes, scoped to a `data-aag-theme` attribute |
 
 **NOTE: The bundled file is not intended for general use.**

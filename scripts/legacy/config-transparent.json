@@ -6,7 +6,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/transparent/",
+      "buildPath": "./dist/legacy/transparent/",
       "files": [
         {
           "destination": "CSSCustomProperties--transparent.css",

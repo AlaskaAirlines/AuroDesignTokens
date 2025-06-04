@@ -172,7 +172,7 @@ StyleDictionary.registerTransformGroup({
 });
 
 // Cache the template content to avoid repeated file reads
-const templatePath = join(__dirname, 'config-template.json');
+const templatePath = join(__dirname, 'config-themes.json');
 const templateContent = readFileSync(templatePath, 'utf8');
 
 /**
@@ -236,10 +236,50 @@ const buildThemeConfig = (themeName, config) => {
 };
 
 /**
+ * Builds the base primitives
+ * @returns {Object} The built Style Dictionary configuration for base primitives
+ * @throws {Error} If there is an issue building the base primitives
+ */
+const buildBasePrimitives = () => {
+  console.log('Building base primitives');
+  try {
+    const basePath = join(__dirname, 'config-primitives-base.json');
+    const baseContent = readFileSync(basePath, 'utf8');
+    const baseConfig = JSON.parse(baseContent);
+    const dictConfig = StyleDictionary.extend(baseConfig);
+    dictConfig.buildAllPlatforms();
+    return dictConfig;
+  } catch (error) {
+    console.error('Error building base primitives:', error);
+    // Rethrow the error to ensure it's not masked and fails fast
+    throw new Error(`Failed to build base primitives: ${error.message}`);
+  }
+};
+
+// Cache for base primitives to avoid redundant builds
+let _baseCache = null;
+
+/**
+ * Builds base primitives or returns cached result
+ * @returns {Object} The built Style Dictionary configuration for base primitives
+ * @throws {Error} If there is an issue building the base primitives
+ */
+const getBasePrimitives = () => {
+  if (!_baseCache) {
+    _baseCache = buildBasePrimitives();
+  }
+  return _baseCache;
+};
+
+/**
  * Builds all theme configurations
  * @returns {void}
  */
 const buildAllThemes = () => {
+  // Use cached base primitives
+  getBasePrimitives();
+  
+  // Then build all themes
   Object.entries(THEME_CONFIGS).forEach(([themeName, config]) => {
     buildThemeConfig(themeName, config);
   });
@@ -252,5 +292,8 @@ export const themes = {};
 Object.entries(THEME_CONFIGS).forEach(([themeName, config]) => {
   themes[themeName] = buildThemeConfig(themeName, config);
 });
+
+// Add base primitives using the cached version
+export const basePrimitives = getBasePrimitives();
 
 export { buildAllThemes as default };

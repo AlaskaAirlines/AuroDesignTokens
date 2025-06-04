@@ -11,7 +11,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public",
-      "buildPath": "./dist/{{themeDir}}/",
+      "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
           "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
@@ -27,7 +27,7 @@
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass; filter: public",
-      "buildPath": "./dist/{{themeDir}}/",
+      "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
           "destination": "SCSSVariables--{{themeDirNoHyphens}}.scss",
@@ -52,7 +52,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: JSON; variable type: CSS; filter: public",
-      "buildPath": "./dist/{{themeDir}}/",
+      "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
           "destination": "JSONVariablesNested--{{themeDirNoHyphens}}.json",
@@ -68,7 +68,7 @@
       "transformGroup": "scss",
       "prefix": "{{themeCode}}",
       "comment": "File type: SCSS; variable type: Sass; filter: primitive",
-      "buildPath": "./dist/{{themeDir}}/",
+      "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
           "destination": "primitives--{{themeDirNoHyphens}}.scss",
@@ -84,7 +84,7 @@
       "transformGroup": "js",
       "prefix": "ds",
       "comment": "File type: JS; data type: JS; filter: classic colors",
-      "buildPath": "./dist/{{themeDir}}/",
+      "buildPath": "./dist/themes/{{themeDir}}/",
       "transforms": [
         "attribute/cti",
         "name/cti/kebab",
