@@ -1,30 +1,36 @@
 {
   "basic": {
     "type": {
-      "family": {
+      "letterSpacing": {
         "accent": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familySecondary.value}"
+          "value": "{basic.type.brand.letterSpacingSecondary.value}"
+        },
+        "accent2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.letterSpacingTertiary.value}"
         },
         "body": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.letterSpacingPrimary.value}"
         },
         "display": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.letterSpacingPrimary.value}"
         },
         "heading": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.letterSpacingPrimary.value}"
         }
       }
     }

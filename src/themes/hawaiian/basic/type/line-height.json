@@ -1,0 +1,62 @@
+{
+  "basic": {
+    "type": {
+      "lineHeight": {
+        "accent": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.lineHeightPrimary.value}"
+        },
+        "accent2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.lineHeightSecondary.value}"
+        },
+        "body": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.lineHeight.163.value}"
+        },
+        "body2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.lineHeight.150.value}"
+        },
+        "body3": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.lineHeight.125.value}"
+        },
+        "body4": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.lineHeightSecondary.value}"
+        },
+        "body5": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.lineHeight.088.value}"
+        },
+        "display": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.lineHeightPrimary.value}"
+        },
+        "heading": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.lineHeightPrimary.value}"
+        }
+      }
+    }
+  }
+}

@@ -6,13 +6,25 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "AS Circular"
+          "value": "{basic.type.brand.familyPrimary.value}"
         },
-        "default": {
+        "body": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "AS Circular"
+          "value": "{basic.type.brand.familyPrimary.value}"
+        },
+        "display": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.familyPrimary.value}"
+        },
+        "heading": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{basic.type.brand.familyPrimary.value}"
         }
       }
     }

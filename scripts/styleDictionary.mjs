@@ -79,9 +79,14 @@ const fontFamilyTransform = {
     const isFontFamilyPath = prop.path && 
       prop.path.includes('family') && 
       prop.path.some(segment => segment === 'type' || segment === 'font');
+      
+    // Search for 'brand' in the path to catch brand-specific font families
+    const isBrandFontFamily = prop.path && 
+      prop.path.includes('brand') && 
+      prop.path.some(segment => segment.toLowerCase().includes('family'));
     
-    // Return true if either condition is met
-    return hasTypeCategoryAttr || isFontFamilyPath;
+    // Return true if any condition is met
+    return hasTypeCategoryAttr || isFontFamilyPath || isBrandFontFamily;
   },
   /** 
    * @param {Object} prop

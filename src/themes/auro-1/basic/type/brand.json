@@ -1,48 +1,48 @@
 {
   "basic": {
     "type": {
-      "weight": {
-        "book": {
+      "brand": {
+        "familyPrimary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "450"
+          "value": "AS Circular"
         },
-        "condMedium": {
+        "familySecondary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "500"
+          "value": "Teodor"
         },
-        "condNews": {
+        "lineHeightPrimary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "450"
+          "value": "{type.lineHeight.130.value}"
         },
-        "light": {
+        "lineHeightSecondary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "300"
+          "value": "{type.lineHeight.100.value}"
         },
-        "medium": {
+        "letterSpacingPrimary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "500"
+          "value": "{type.letterSpacing.0.value}"
         },
-        "regular": {
+        "letterSpacingSecondary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "400"
+          "value": "{type.letterSpacing.005.value}"
         },
-        "semibold": {
+        "letterSpacingTertiary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "600"
+          "value": "{type.letterSpacing.010.value}"
         }
       }
     }

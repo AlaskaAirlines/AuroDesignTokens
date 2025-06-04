@@ -1,6 +1,6 @@
 {
   "source": [
-    "./src/primitives/{base,{{themeSourceDir}}}/*.json"
+    "./src/primitives/{base,{{themeSourceDir}}}/**/*.json"
   ],
   "include": [
     "./src/shared/**/*.json",
