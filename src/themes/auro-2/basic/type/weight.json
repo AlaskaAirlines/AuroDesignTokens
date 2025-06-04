@@ -1,0 +1,44 @@
+{
+  "basic": {
+    "type": {
+      "weight": {
+        "accent": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.medium.value}"
+        },
+        "accent2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.medium.value}"
+        },
+        "body": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.regular.value}"
+        },
+        "display": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.light.value}"
+        },
+        "heading": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.light.value}"
+        },
+         "heading2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.light.value}"
+        }
+      }
+    }
+  }
+}

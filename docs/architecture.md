@@ -52,14 +52,6 @@ Advanced tokens reference semantic tokens and create a higher-level abstraction 
 
 Basic tokens may often reference other Basic tokens, not just primitives.
 
-### Shared Semantic Tokens
-
-In addition to shared primitives, the system also includes shared semantic token definitions for values that are common across multiple themes:
-
-- **Shared Basic Tokens** (`src/shared/basic/`): Common semantic tokens that are identical across themes
-
-This centralized approach reduces duplication and simplifies maintenance while preserving theme-specific customization options. See [Shared Semantic Tokens](./shared-semantic-tokens.md) for more details.
-
 ## Best Practices
 
 **Never Use Primitives Directly in UI**
