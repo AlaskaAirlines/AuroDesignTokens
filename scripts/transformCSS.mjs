@@ -59,14 +59,17 @@ async function transformCSSFiles() {
     for (const { dir, code } of THEME_DEFINITIONS) {
       const scope = getThemeAttribute(code);
       
-      // Get all CSS files in the directory, not relying on specific naming patterns
-      const cssFiles = await findCSSFiles(PATHS.DIST, dir);
+      // Look first in the themes directory, then fall back to direct dist directory
+      let cssFiles = await findCSSFiles(path.join(PATHS.DIST, 'themes'), dir);
       if (cssFiles.length === 0) {
-        console.log(`No CSS files found in ${PATHS.DIST}/${dir} directory`);
-        continue;
+        cssFiles = await findCSSFiles(PATHS.DIST, dir);
+        if (cssFiles.length === 0) {
+          console.log(`No CSS files found in ${PATHS.DIST}/themes/${dir} or ${PATHS.DIST}/${dir} directories`);
+          continue;
+        }
       }
       
-      console.log(`Processing files in ${PATHS.DIST}/${dir}:`, cssFiles);
+      console.log(`Processing files in ${dir} theme:`, cssFiles);
       
       // Process each matching file
       for (const filePath of cssFiles) {
@@ -101,9 +104,19 @@ async function transformCSSFiles() {
     // Write bundle
     let bundlePath;
     if (combinedCSS) {
-      bundlePath = path.join(PATHS.DIST, CSS.BUNDLED_FILE_NAME);
+      // Create themes directory if it doesn't exist
+      const themesDir = path.join(PATHS.DIST, 'themes');
+      try {
+        await fs.mkdir(themesDir, { recursive: true });
+      } catch (err) {
+        if (err.code !== 'EEXIST') {
+          throw err;
+        }
+      }
+      
+      bundlePath = path.join(themesDir, CSS.BUNDLED_FILE_NAME);
       await fs.writeFile(bundlePath, combinedCSS.trim());
-      console.log(`Successfully created ${CSS.BUNDLED_FILE_NAME} with rescoped CSS properties`);
+      console.log(`Successfully created themes/${CSS.BUNDLED_FILE_NAME} with rescoped CSS properties`);
       
       // Add bundle file to minification queue
       filesToMinify.push(bundlePath);
