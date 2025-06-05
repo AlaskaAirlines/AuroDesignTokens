@@ -6,25 +6,25 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
         },
         "body": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
         },
         "display": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
         },
         "heading": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}"
+          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
         }
       }
     }
