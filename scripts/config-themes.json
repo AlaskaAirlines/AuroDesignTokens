@@ -1,8 +1,9 @@
 {
   "source": [
-    "./src/primitives/{base,{{themeSourceDir}}}/**/*.json"
+    "./src/primitives/{{themeSourceDir}}/**/*.json"
   ],
   "include": [
+    "./src/primitives/base/**/*.json",
     "./src/shared/**/*.json",
     "./src/themes/{{themeDir}}/**/*.json"
   ],
@@ -10,7 +11,7 @@
     "CSSCustomProperties": {
       "transformGroup": "css",
       "prefix": "ds",
-      "comment": "File type: CSS; variable type: CSS; filter: public",
+      "comment": "File type: CSS; variable type: CSS; filter: public, semantic",
       "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
@@ -18,7 +19,8 @@
           "format": "css/variables",
           "filter": {
             "public": true,
-            "deprecated": false
+            "deprecated": false,
+            "type": "semantic"
           }
         }
       ]
