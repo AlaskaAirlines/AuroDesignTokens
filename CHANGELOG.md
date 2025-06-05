@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [8.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.1.0...v8.2.0) (2025-06-05)
+
+
+### Bug Fixes
+
+* do not publish primitives in themes ([a7749ae](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a7749ae9631d6d863004f01c594053351f51edbd))
+
+
+### Features
+
+* add font family fallback ([3365b04](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3365b04020ab02dbd85da79cc701ac6709c38c34))
+
 # [8.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.0.0...v8.1.0) (2025-06-05)
 
 
