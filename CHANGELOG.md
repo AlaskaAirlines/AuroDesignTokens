@@ -1,5 +1,16 @@
 # Semantic Release Automated Changelog
 
+# [8.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v7.0.0...v8.0.0) (2025-06-05)
+
+
+* refactor(dist)!: export primitive base tokens in dist ([9cd481b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9cd481b3a7c857bcb95bcfa49174fc4c7cb0139f))
+
+
+### BREAKING CHANGES
+
+* - The dist directory now exports primitive base tokens
+- Updates dist folder structure for better organization
+
 # [7.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v6.0.2...v7.0.0) (2025-06-04)
 
 
