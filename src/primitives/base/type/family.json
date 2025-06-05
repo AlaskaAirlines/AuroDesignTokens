@@ -1,0 +1,12 @@
+{
+  "type": {
+    "family": {
+      "fallback": {
+        "deprecated": false,
+        "public": true,
+        "type": "semantic",
+        "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+      }
+    }
+  }
+}
