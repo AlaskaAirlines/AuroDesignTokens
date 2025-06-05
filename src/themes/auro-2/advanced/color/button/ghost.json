@@ -1,0 +1,52 @@
+{
+  "advanced": {
+    "color": {
+      "button": {
+        "ghost": {
+          "backgroundHover": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button background hover color",
+            "value": "{transparency.black.5.value}"
+          },
+          "backgroundInverseHover": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button inverse background hover color",
+            "value": "{transparency.white.5.value}"
+          },
+          "text": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button text color",
+            "value": "{basic.color.brand.primary.value}"
+          },
+          "textDisabled": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button text disabled color",
+            "value": "{basic.color.texticon.disabled.value}"
+          },
+          "textInverse": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button inverse text color",
+            "value": "{basic.color.texticon.inverse.value}"
+          },
+          "textInverseDisabled": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Primary button inverse text color",
+            "value": "{basic.color.texticon.inverseDisabled.value}"
+          }
+        }
+      }
+    }
+  }
+}
