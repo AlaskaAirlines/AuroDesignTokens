@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [8.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.0.0...v8.1.0) (2025-06-05)
+
+
+### Bug Fixes
+
+* update ghost button usage ([de981a5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/de981a5c44b5bd2effa456bc6dff508e4dcd8014))
+
+
+### Features
+
+* add ghost button tokens ([0427b19](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0427b19b442fdabdca8b5b034f5a5faa9b0bf101))
+
 # [8.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v7.0.0...v8.0.0) (2025-06-05)
 
 
