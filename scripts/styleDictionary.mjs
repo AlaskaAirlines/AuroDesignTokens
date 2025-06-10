@@ -62,17 +62,22 @@ const fontFamilyTransform = {
   /** 
    * Matches type tokens that are related to font families.
    * 
-   * 1. Checks if token is categorized as 'font' or 'type'
-   * 2. Checks token path for 'family' combined with 'font'/'type'
+   * 1. Checks if token is categorized as 'font'
+   * 2. Checks if token is categorized as 'type' AND has 'family' in the path
+   * 3. Checks token path for 'family' combined with 'font'/'type'
    * 
    * @param {Object} prop - The token property
    * @returns {boolean} - Returns true if the property matches the font-family criteria, otherwise false
    */
   matcher: (prop) => {
-    // Primary check: explicit font/type category attribute
-    // Auro Classic uses 'font' while v6 & greater themes uses 'type'
-    const hasTypeCategoryAttr = prop.attributes && 
-      (prop.attributes.category === 'font' || prop.attributes.category === 'type');
+    // Check for font category (used in Auro Classic)
+    const hasFontCategory = prop.attributes && prop.attributes.category === 'font';
+    
+    // Check for type category WITH family in path - avoids matching numerical values
+    const hasTypeAndFamilyPath = prop.attributes && 
+      prop.attributes.category === 'type' && 
+      prop.path && 
+      prop.path.includes('family');
     
     // Catches tokens that might not have explicit categories but follow naming conventions
     // Only matches 'family' when it appears alongside 'type' or 'font' in the path
@@ -86,7 +91,7 @@ const fontFamilyTransform = {
       prop.path.some(segment => segment.toLowerCase().includes('family'));
     
     // Return true if any condition is met
-    return hasTypeCategoryAttr || isFontFamilyPath || isBrandFontFamily;
+    return hasFontCategory || hasTypeAndFamilyPath || isFontFamilyPath || isBrandFontFamily;
   },
   /** 
    * @param {Object} prop
