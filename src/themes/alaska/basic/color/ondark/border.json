@@ -7,49 +7,56 @@
           "public": true,
           "type": "semantic",
           "usage": "Bold border color",
-          "value": "{color.neutral.800.value}"
+          "value": "{color.neutral.800.value}",
+          "background": "dark"
         },
         "brand": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Brand border color",
-          "value": "{basic.color.brand.primaryBold.value}"
+          "value": "{basic.color.brand.primaryBold.value}",
+          "background": "dark"
         },
         "default": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Default border color",
-          "value": "{color.gray.500.value}"
+          "value": "{color.gray.500.value}",
+          "background": "dark"
         },
         "divider": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Divider border color",
-          "value": "{transparency.black.15.value}"
+          "value": "{transparency.black.15.value}",
+          "background": "dark"
         },
         "dividerInverse": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Inverse divider border color",
-          "value": "{transparency.white.40.value}"
+          "value": "{transparency.white.40.value}",
+          "background": "dark"
         },
         "inverse": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Inverse border color",
-          "value": "{color.white.value}"
+          "value": "{color.white.value}",
+          "background": "dark"
         },
         "subtle": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Subtle border color",
-          "value": "{color.gray.200.value}"
+          "value": "{color.gray.200.value}",
+          "background": "dark"
         }
       }
     }

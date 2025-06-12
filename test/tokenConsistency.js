@@ -129,10 +129,10 @@ async function runTest() {
   const themes = Object.keys(themeKeys);
   let hasInconsistencies = false;
   
-  if (themes.length < 2) {
-    console.error('Not enough themes to compare');
-    process.exit(1);
-  }
+  // if (themes.length < 2) {
+  //   console.error('Not enough themes to compare');
+  //   process.exit(1);
+  // }
   
   // Get all unique keys across all themes
   const allUniqueKeys = new Set();

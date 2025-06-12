@@ -7,14 +7,16 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{basic.color.brand.secondaryMuted.value}"
+          "value": "{basic.color.brand.secondaryMuted.value}",
+          "background": "dark"
         },
         "utility": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Muted primary brand color",
-          "value": "{color.white.value}"
+          "value": "{color.white.value}",
+          "background": "dark"
         }
       }
     }

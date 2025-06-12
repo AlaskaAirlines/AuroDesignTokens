@@ -8,19 +8,38 @@
     "./src/themes/{{themeDir}}/**/*.json"
   ],
   "platforms": {
-    "CSSCustomProperties": {
+    "CSSCustomPropertiesLight": {
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public, semantic",
       "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
-          "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
+          "destination": "CSSCustomPropertiesLight--{{themeDirNoHyphens}}.css",
           "format": "css/variables",
           "filter": {
             "public": true,
             "deprecated": false,
-            "type": "semantic"
+            "type": "semantic",
+            "background": "light"
+          }
+        }
+      ]
+    },
+    "CSSCustomPropertiesDark": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS; filter: public, semantic",
+      "buildPath": "./dist/themes/{{themeDir}}/",
+      "files": [
+        {
+          "destination": "CSSCustomPropertiesDark--{{themeDirNoHyphens}}.css",
+          "format": "css/variables",
+          "filter": {
+            "public": true,
+            "deprecated": false,
+            "type": "semantic",
+            "background": "dark"
           }
         }
       ]

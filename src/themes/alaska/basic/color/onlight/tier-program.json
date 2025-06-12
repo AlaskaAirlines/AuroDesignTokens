@@ -8,14 +8,16 @@
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loungetier.lounge.value}"
+            "value": "{color.loungetier.lounge.value}",
+            "background": "light"
           },
           "loungeplus": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge Plus brand color",
-            "value": "{color.loungetier.loungeplus.value}"
+            "value": "{color.loungetier.loungeplus.value}",
+            "background": "light"
           }
         },
         "loyaltytier": {
@@ -24,112 +26,128 @@
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.bronze.value}"
+            "value": "{color.loyaltytier.bronze.value}",
+            "background": "light"
           },
           "bronzeMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.bronzeMuted.value}"
+            "value": "{color.loyaltytier.bronzeMuted.value}",
+            "background": "light"
           },
           "cobalt": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.cobalt.value}"
+            "value": "{color.loyaltytier.cobalt.value}",
+            "background": "light"
           },
           "cobaltMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.cobaltMuted.value}"
+            "value": "{color.loyaltytier.cobaltMuted.value}",
+            "background": "light"
           },
           "copper": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.copper.value}"
+            "value": "{color.loyaltytier.copper.value}",
+            "background": "light"
           },
           "copperMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.copperMuted.value}"
+            "value": "{color.loyaltytier.copperMuted.value}",
+            "background": "light"
           },
           "gold": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.gold.value}"
+            "value": "{color.loyaltytier.gold.value}",
+            "background": "light"
           },
           "goldMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.goldMuted.value}"
+            "value": "{color.loyaltytier.goldMuted.value}",
+            "background": "light"
           },
           "nickel": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.nickel.value}"
+            "value": "{color.loyaltytier.nickel.value}",
+            "background": "light"
           },
           "nickelMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.nickelMuted.value}"
+            "value": "{color.loyaltytier.nickelMuted.value}",
+            "background": "light"
           },
           "platinum": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.platinum.value}"
+            "value": "{color.loyaltytier.platinum.value}",
+            "background": "light"
           },
           "platinumMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.platinumMuted.value}"
+            "value": "{color.loyaltytier.platinumMuted.value}",
+            "background": "light"
           },
           "silver": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.silver.value}"
+            "value": "{color.loyaltytier.silver.value}",
+            "background": "light"
           },
           "silverMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.silverMuted.value}"
+            "value": "{color.loyaltytier.silverMuted.value}",
+            "background": "light"
           },
           "titanium": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.titanium.value}"
+            "value": "{color.loyaltytier.titanium.value}",
+            "background": "light"
           },
           "titaniumMuted": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Lounge brand color",
-            "value": "{color.loyaltytier.titaniumMuted.value}"
+            "value": "{color.loyaltytier.titaniumMuted.value}",
+            "background": "light"
           }
         },
         "oneworld": {
@@ -138,21 +156,24 @@
             "public": true,
             "type": "semantic",
             "usage": "OneWorld Emerald brand color",
-            "value": "{color.oneworld.emerald.value}"
+            "value": "{color.oneworld.emerald.value}",
+            "background": "light"
           },
           "ruby": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "OneWorld Ruby brand color",
-            "value": "{color.oneworld.ruby.value}"
+            "value": "{color.oneworld.ruby.value}",
+            "background": "light"
           },
           "sapphire": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "OneWorld Sapphire brand color",
-            "value": "{color.oneworld.sapphire.value}"
+            "value": "{color.oneworld.sapphire.value}",
+            "background": "light"
           }
         }
       }

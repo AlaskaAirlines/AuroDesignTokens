@@ -7,84 +7,96 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{color.midnight.900.value}"
+          "value": "{color.midnight.900.value}",
+          "background": "dark"
         },
         "primaryBold": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Bold primary brand color",
-          "value": "{color.midnight.1000.value}"
+          "value": "{color.midnight.1000.value}",
+          "background": "dark"
         },
         "primaryMuted": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Muted primary brand color",
-          "value": "{color.midnight.100.value}"
+          "value": "{color.midnight.100.value}",
+          "background": "dark"
         },
         "primarySubtle": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Subtle primary brand color",
-          "value": "{color.midnight.600.value}"
+          "value": "{color.midnight.600.value}",
+          "background": "dark"
         },
         "secondary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Secondary brand color",
-          "value": "{color.bliss.500.value}"
+          "value": "{color.bliss.500.value}",
+          "background": "dark"
         },
         "secondaryBold": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Bold secondary brand color",
-          "value": "{color.bliss.700.value}"
+          "value": "{color.bliss.700.value}",
+          "background": "dark"
         },
         "secondaryMuted": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Muted secondary brand color",
-          "value": "{color.bliss.100.value}"
+          "value": "{color.bliss.100.value}",
+          "background": "dark"
         },
         "secondarySubtle": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Subtle secondary brand color",
-          "value": "{color.bliss.300.value}"
+          "value": "{color.bliss.300.value}",
+          "background": "dark"
         },
         "tertiary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Tertiary brand color",
-          "value": "{color.tropical.500.value}"
+          "value": "{color.tropical.500.value}",
+          "background": "dark"
         },
         "tertiaryBold": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Bold tertiary brand color",
-          "value": "{color.tropical.700.value}"
+          "value": "{color.tropical.700.value}",
+          "background": "dark"
         },
         "tertiaryMuted": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Muted tertiary brand color",
-          "value": "{color.tropical.100.value}"
+          "value": "{color.tropical.100.value}",
+          "background": "dark"
         },
         "tertiarySubtle": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Subtle tertiary brand color",
-          "value": "{color.tropical.300.value}"
+          "value": "{color.tropical.300.value}",
+          "background": "dark"
         }
       }
     }

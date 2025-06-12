@@ -1,0 +1,104 @@
+{
+  "basic": {
+    "color": {
+      "brand": {
+        "primary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Primary brand color",
+          "value": "{color.midnight.900.value}",
+          "background": "light"
+        },
+        "primaryBold": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Bold primary brand color",
+          "value": "{color.midnight.1000.value}",
+          "background": "light"
+        },
+        "primaryMuted": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted primary brand color",
+          "value": "{color.midnight.100.value}",
+          "background": "light"
+        },
+        "primarySubtle": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle primary brand color",
+          "value": "{color.midnight.600.value}",
+          "background": "light"
+        },
+        "secondary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Secondary brand color",
+          "value": "{color.bliss.500.value}",
+          "background": "light"
+        },
+        "secondaryBold": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Bold secondary brand color",
+          "value": "{color.bliss.700.value}",
+          "background": "light"
+        },
+        "secondaryMuted": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted secondary brand color",
+          "value": "{color.bliss.100.value}",
+          "background": "light"
+        },
+        "secondarySubtle": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle secondary brand color",
+          "value": "{color.bliss.300.value}",
+          "background": "light"
+        },
+        "tertiary": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Tertiary brand color",
+          "value": "{color.tropical.500.value}",
+          "background": "light"
+        },
+        "tertiaryBold": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Bold tertiary brand color",
+          "value": "{color.tropical.700.value}",
+          "background": "light"
+        },
+        "tertiaryMuted": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted tertiary brand color",
+          "value": "{color.tropical.100.value}",
+          "background": "light"
+        },
+        "tertiarySubtle": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Subtle tertiary brand color",
+          "value": "{color.tropical.300.value}",
+          "background": "light"
+        }
+      }
+    }
+  }
+}

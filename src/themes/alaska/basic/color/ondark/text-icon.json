@@ -1,0 +1,64 @@
+{
+  "basic": {
+    "color": {
+      "texticon": {
+        "accent1": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Accent text color",
+          "value": "{color.midnight.800.value}",
+          "background": "dark"
+        },
+        "default": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Default text color", 
+          "value": "{color.gray.1000.value}",
+          "background": "dark"
+        },
+        "disabled": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Disabled text/icon color",
+          "value": "{color.gray.250.value}",
+          "background": "dark"
+        },
+        "inverse": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse text color",
+          "value": "{color.white.value}",
+          "background": "dark"
+        },
+        "inverseDisabled": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse text color",
+          "value": "{color.neutral.600.value}",
+          "background": "dark"
+        },
+        "inverseMuted": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Inverse text color",
+          "value": "{color.neutral.300.value}",
+          "background": "dark"
+        },
+        "muted": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Muted text color",
+          "value": "{color.gray.700.value}",
+          "background": "dark"
+        }
+      }
+    }
+  }
+}

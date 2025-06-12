@@ -1,0 +1,182 @@
+{
+  "basic": {
+    "color": {
+      "tierProgram": {
+        "loungetier": {
+          "lounge": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loungetier.lounge.value}",
+            "background": "dark"
+          },
+          "loungeplus": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge Plus brand color",
+            "value": "{color.loungetier.loungeplus.value}",
+            "background": "dark"
+          }
+        },
+        "loyaltytier": {
+          "bronze": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.bronze.value}",
+            "background": "dark"
+          },
+          "bronzeMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.bronzeMuted.value}",
+            "background": "dark"
+          },
+          "cobalt": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.cobalt.value}",
+            "background": "dark"
+          },
+          "cobaltMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.cobaltMuted.value}",
+            "background": "dark"
+          },
+          "copper": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.copper.value}",
+            "background": "dark"
+          },
+          "copperMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.copperMuted.value}",
+            "background": "dark"
+          },
+          "gold": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.gold.value}",
+            "background": "dark"
+          },
+          "goldMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.goldMuted.value}",
+            "background": "dark"
+          },
+          "nickel": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.nickel.value}",
+            "background": "dark"
+          },
+          "nickelMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.nickelMuted.value}",
+            "background": "dark"
+          },
+          "platinum": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.platinum.value}",
+            "background": "dark"
+          },
+          "platinumMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.platinumMuted.value}",
+            "background": "dark"
+          },
+          "silver": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.silver.value}",
+            "background": "dark"
+          },
+          "silverMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.silverMuted.value}",
+            "background": "dark"
+          },
+          "titanium": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.titanium.value}",
+            "background": "dark"
+          },
+          "titaniumMuted": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "Lounge brand color",
+            "value": "{color.loyaltytier.titaniumMuted.value}",
+            "background": "dark"
+          }
+        },
+        "oneworld": {
+          "emerald": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Emerald brand color",
+            "value": "{color.oneworld.emerald.value}",
+            "background": "dark"
+          },
+          "ruby": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Ruby brand color",
+            "value": "{color.oneworld.ruby.value}",
+            "background": "dark"
+          },
+          "sapphire": {
+            "deprecated": false,
+            "public": true,
+            "type": "semantic",
+            "usage": "OneWorld Sapphire brand color",
+            "value": "{color.oneworld.sapphire.value}",
+            "background": "dark"
+          }
+        }
+      }
+    }
+  }
+}

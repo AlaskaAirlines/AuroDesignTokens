@@ -7,35 +7,40 @@
           "public": true,
           "type": "semantic",
           "usage": "Basic fare brand color",
-          "value": "{color.bliss.400.value}"
+          "value": "{color.bliss.400.value}",
+          "background": "dark"
         },
         "business": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "First class fare brand color",
-          "value": "{color.midnight.900.value}"
+          "value": "{color.midnight.900.value}",
+          "background": "dark"
         },
         "economy": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Economy fare brand color",
-          "value": "{color.atlas.500.value}"
+          "value": "{color.atlas.500.value}",
+          "background": "dark"
         },
         "first": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "First class fare brand color",
-          "value": "{color.midnight.1000.value}"
+          "value": "{color.midnight.1000.value}",
+          "background": "dark"
         },
         "premiumeconomy": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Premium fare brand color",
-          "value": "{color.summit.900.value}"
+          "value": "{color.summit.900.value}",
+          "background": "dark"
         }
       }
     }
