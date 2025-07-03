@@ -17,10 +17,11 @@
         {
           "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
           "format": "css/variables-with-theme-variants",
+          "options": {
+            "outputReferences": false
+          },
           "filter": {
-            "public": true,
-            "deprecated": false,
-            "type": "semantic"
+            "deprecated": false
           }
         }
       ]

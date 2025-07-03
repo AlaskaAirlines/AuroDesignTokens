@@ -26,10 +26,15 @@ export const cssWithThemeVariantsFormat = {
     output += ` * Generated on ${new Date().toUTCString()}\n`;
     output += ' */\n\n';
     
+    // Filter out primitive tokens for output - we only want semantic tokens
+    const semanticTokens = allProperties.filter(token => 
+      token.type === 'semantic'
+    );
+    
     // Regular CSS custom properties in :root
     output += `${CSS.ROOT_SELECTOR} {\n`;
     
-    allProperties.forEach(token => {
+    semanticTokens.forEach(token => {
       const prefix = platform.prefix || '';
       const cssVarName = `--${prefix ? prefix + '-' : ''}${token.name}`;
       
@@ -44,7 +49,7 @@ export const cssWithThemeVariantsFormat = {
     output += '}\n';
     
     // Filter tokens that have onDark variant properties (e.g., valueOnDark)
-    const onDarkTokens = allProperties.filter(token => 
+    const onDarkTokens = semanticTokens.filter(token => 
       token.original && token.original.valueOnDark
     );
     
@@ -66,20 +71,19 @@ export const cssWithThemeVariantsFormat = {
         // Transform the dark value if it's a reference
         let transformedValue = darkValue;
         if (typeof darkValue === 'string' && darkValue.includes('{') && darkValue.includes('}')) {
-          try {
-            // Use StyleDictionary's built-in reference resolution
-            transformedValue = dictionary.usesReference(darkValue) 
-              ? dictionary.getReferences(darkValue)[0].value
-              : darkValue;
-          } catch (e) {
-            // If that fails, try manual resolution by looking up in allTokens
-            const refMatch = darkValue.match(/\{([^}]+)\}/);
-            if (refMatch) {
-              const refPath = refMatch[1];
-              const referencedToken = dictionary.allTokens.find(t => t.path.join('.') === refPath);
-              if (referencedToken) {
-                transformedValue = referencedToken.value;
-              }
+          // Manual resolution using StyleDictionary's reference methods
+          const refMatch = darkValue.match(/\{([^}]+)\.value\}/);
+          if (refMatch) {
+            const refPath = refMatch[1];
+            
+            // Now that primitives are included in allTokens, we can find them there
+            let referencedToken = dictionary.allTokens.find(t => t.path.join('.') === refPath);
+            
+            if (referencedToken) {
+              transformedValue = referencedToken.value;
+            } else {
+              // Keep the original reference if not found
+              transformedValue = darkValue;
             }
           }
         }
