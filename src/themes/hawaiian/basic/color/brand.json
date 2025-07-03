@@ -7,7 +7,8 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{color.royalpurple.600.value}"
+          "value": "{color.royalpurple.600.value}",
+          "valueOnDark": "{color.royalpurple.800.value}"
         },
         "primaryBold": {
           "deprecated": false,

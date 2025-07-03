@@ -7,7 +7,8 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{color.midnight.900.value}"
+          "value": "{color.midnight.900.value}",
+          "valueOnDark": "{color.midnight.300.value}"
         },
         "primaryBold": {
           "deprecated": false,

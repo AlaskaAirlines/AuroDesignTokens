@@ -9,14 +9,14 @@
   ],
   "platforms": {
     "CSSCustomProperties": {
-      "transformGroup": "css",
+      "transformGroup": "css-with-theme-variants",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS; filter: public, semantic",
       "buildPath": "./dist/themes/{{themeDir}}/",
       "files": [
         {
           "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
-          "format": "css/variables",
+          "format": "css/variables-with-theme-variants",
           "filter": {
             "public": true,
             "deprecated": false,

@@ -7,7 +7,8 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{color.atlas.1000.value}"
+          "value": "{color.atlas.1000.value}",
+          "valueOnDark": "{color.midnight.300.value}"
         },
         "primaryBold": {
           "deprecated": false,

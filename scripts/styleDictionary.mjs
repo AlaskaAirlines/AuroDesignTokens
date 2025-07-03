@@ -6,6 +6,7 @@ import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { THEME_DEFINITIONS } from '../src/config/themes.js';
+import { cssWithThemeVariantsFormat } from './formats/css-with-theme-variants.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -164,6 +165,7 @@ const scssFormat = {
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
 StyleDictionary.registerTransform(/** @type {any} */ (fontFamilyTransform));
 StyleDictionary.registerFormat(scssFormat);
+StyleDictionary.registerFormat(cssWithThemeVariantsFormat);
 
 // Extend existing transform groups to include font family transform
 StyleDictionary.registerTransformGroup({
@@ -174,6 +176,14 @@ StyleDictionary.registerTransformGroup({
 StyleDictionary.registerTransformGroup({
   name: 'css',
   transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
+});
+
+// Theme variant processing (onLight, onDark, etc.)
+StyleDictionary.registerTransformGroup({
+  name: 'css-with-theme-variants',
+  transforms: StyleDictionary.transformGroup.css.concat([
+    'custom/fontFamily/quote'
+  ])
 });
 
 // Cache the template content to avoid repeated file reads
