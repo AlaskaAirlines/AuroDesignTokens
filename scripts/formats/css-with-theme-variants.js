@@ -35,8 +35,9 @@ export const cssWithThemeVariantsFormat = {
     output += `${CSS.ROOT_SELECTOR} {\n`;
     
     semanticTokens.forEach(token => {
-      const prefix = platform.prefix || '';
-      const cssVarName = `--${prefix ? prefix + '-' : ''}${token.name}`;
+      // Note: token.name already includes the prefix from Style Dictionary's built-in transforms
+      // So we don't need to add the prefix again here
+      const cssVarName = `--${token.name}`;
       
       // Add comment if available
       if (token.comment) {
