@@ -18,13 +18,13 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.130.value}"
+          "value": "{type.lineHeight.percent.130.value}"
         },
         "lineHeightSecondary": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.100.value}"
+          "value": "{type.lineHeight.percent.100.value}"
         },
         "letterSpacingPrimary": {
           "deprecated": false,
