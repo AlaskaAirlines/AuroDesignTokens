@@ -18,19 +18,19 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.163.value}"
+          "value": "{type.lineHeight.px.26.value}"
         },
         "body2": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.150.value}"
+          "value": "{type.lineHeight.px.24.value}"
         },
         "body3": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.125.value}"
+          "value": "{type.lineHeight.px.20.value}"
         },
         "body4": {
           "deprecated": false,
@@ -42,7 +42,7 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.088.value}"
+          "value": "{type.lineHeight.px.24.value}"
         },
         "display": {
           "deprecated": false,
