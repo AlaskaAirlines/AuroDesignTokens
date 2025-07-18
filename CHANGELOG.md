@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [8.2.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.2.1...v8.2.2) (2025-07-18)
+
+
+### Bug Fixes
+
+* body line-height values ([9c5bbc4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9c5bbc488c12056f56cef0862ae369529ddb4911))
+* update line-height values ([638d20f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/638d20f1d10a07bac2dafd60a97752a2709e9835))
+
 ## [8.2.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.2.0...v8.2.1) (2025-06-10)
 
 
