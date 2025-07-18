@@ -36,13 +36,13 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.lineHeightSecondary.value}"
+          "value": "{type.lineHeight.px.16.value}"
         },
         "body5": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{type.lineHeight.px.24.value}"
+          "value": "{type.lineHeight.px.14.value}"
         },
         "display": {
           "deprecated": false,
