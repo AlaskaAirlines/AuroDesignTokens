@@ -44,6 +44,20 @@
           "usage": "Component background strong color",
           "value": "{color.gray.600.value}"
         },
+        "emphasizedBackground": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Emphasized background color",
+          "value": "{basic.color.surface.default.value}"
+        },
+        "emphasizedBackgroundHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Emphasized background hover color",
+          "value": "{basic.color.surface.default.value}"
+        },
         "scrim": {
           "deprecated": false,
           "public": true,
