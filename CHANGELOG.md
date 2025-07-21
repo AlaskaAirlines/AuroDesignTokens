@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.2.2...v8.3.0) (2025-07-21)
+
+
+### Features
+
+* add emphasized background tokens ([252e603](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/252e603c21b097967067c4e718a3b6e360d389a7))
+
 ## [8.2.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.2.1...v8.2.2) (2025-07-18)
 
 
