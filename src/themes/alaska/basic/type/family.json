@@ -6,25 +6,49 @@
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familySecondary.value}, {type.family.fallback.value}"
+          "value": "{basic.type.brand.familySecondary.value}"
+        },
+        "accentFallback": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.family.fallback.value}"
         },
         "body": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
+          "value": "{basic.type.brand.familyPrimary.value}"
+        },
+        "bodyFallback": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.family.fallback.value}"
         },
         "display": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
+          "value": "{basic.type.brand.familyPrimary.value}"
+        },
+        "displayFallback": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.family.fallback.value}"
         },
         "heading": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
-          "value": "{basic.type.brand.familyPrimary.value}, {type.family.fallback.value}"
+          "value": "{basic.type.brand.familyPrimary.value}"
+        },
+        "headingFallback": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.family.fallback.value}"
         }
       }
     }
