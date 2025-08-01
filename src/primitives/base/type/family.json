@@ -6,6 +6,12 @@
         "public": true,
         "type": "primitive",
         "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif"
+      },
+      "fallbackSerif": {
+        "deprecated": false,
+        "public": true,
+        "type": "primitive",
+        "value": "Georgia, serif"
       }
     }
   }
