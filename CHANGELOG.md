@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [8.3.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.3.0...v8.3.1) (2025-08-04)
+
+
+### Bug Fixes
+
+* add fallback tokens for each family, introduce serif family ([ce76c19](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ce76c19fc9d3b7bd3ee19a00d4f7ad286e6ccb21))
+* don't quote single word property values ([8edfea0](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/8edfea00fd43c9bc4cf80c00ef94f4c1385187df))
+
 # [8.3.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.2.2...v8.3.0) (2025-07-21)
 
 
