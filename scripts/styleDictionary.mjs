@@ -119,7 +119,12 @@ const fontFamilyTransform = {
     // Handle simple single font case
     if (!prop.value.includes(',')) {
       if (!prop.value.startsWith("'") && !prop.value.startsWith('"')) {
-        return `"${prop.value}"`;
+        // Only add quotes if the value contains spaces
+        // Example: "AS Circular" but not Teodor
+        if (prop.value.includes(' ')) {
+          return `"${prop.value}"`;
+        }
+        return prop.value;
       }
       return prop.value;
     }
