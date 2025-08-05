@@ -1,0 +1,22 @@
+{
+  "advanced": {
+    "color": {
+      "combobox": {
+        "background": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Background color for the auro-combobox component",
+          "value": "#0000001a"
+        },
+        "backgroundHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Background color for the auro-combobox component",
+          "value": "#0000001a"
+        }
+      }
+    }
+  }
+}
