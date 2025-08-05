@@ -7,7 +7,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Primary brand color",
-          "value": "{basic.color.brand.secondaryMuted.value}"
+          "value": "{color.white.value}"
         },
         "utility": {
           "deprecated": false,
