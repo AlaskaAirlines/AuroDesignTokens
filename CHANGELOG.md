@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.3.2...v8.4.0) (2025-08-05)
+
+
+### Features
+
+* add advanced dropdown tokens for emphasized layout ([531e626](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/531e6269828c6e5e9259182340ae26d18b4bbb6e))
+
 ## [8.3.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.3.1...v8.3.2) (2025-08-05)
 
 
