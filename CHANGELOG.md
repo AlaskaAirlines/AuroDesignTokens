@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.4.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.0...v8.4.1) (2025-08-15)
+
+
+### Bug Fixes
+
+* update auro-1 & auro-2 font-weight values to book ([a5227ab](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a5227abb9cdb11edb7eec33bc9ab8423a4f2e5d4))
+
 # [8.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.3.2...v8.4.0) (2025-08-05)
 
 
