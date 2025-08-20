@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.4.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.1...v8.4.2) (2025-08-20)
+
+
+### Performance Improvements
+
+* update background-strong color for accessibility [#345](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/345) ([0249992](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/02499922539e1da2395d6f9b5904c53ad1e64657))
+
 ## [8.4.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.0...v8.4.1) (2025-08-15)
 
 
