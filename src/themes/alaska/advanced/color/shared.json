@@ -42,7 +42,7 @@
           "public": true,
           "type": "semantic",
           "usage": "Component background strong color",
-          "value": "{color.gray.600.value}"
+          "value": "{color.gray.700.value}"
         },
         "emphasizedBackground": {
           "deprecated": false,
