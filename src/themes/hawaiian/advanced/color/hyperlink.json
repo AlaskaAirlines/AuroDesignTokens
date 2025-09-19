@@ -7,14 +7,14 @@
           "public": true,
           "type": "semantic",
           "usage": "Default hyperlink color",
-          "value": "{basic.color.brand.primary.value}"
+          "value": "{basic.color.brand.secondary.value}"
         },
         "textHover": {
           "deprecated": false,
           "public": true,
           "type": "semantic",
           "usage": "Hyperlink hover state color",
-          "value": "{basic.color.brand.primaryBold.value}"
+          "value": "{basic.color.brand.secondaryBold.value}"
         },
         "textInverse": {
           "deprecated": false,

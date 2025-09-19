@@ -8,35 +8,35 @@
             "public": true,
             "type": "semantic",
             "usage": "Primary button background color",
-            "value": "{basic.color.brand.primary.value}"
+            "value": "{basic.color.brand.secondary.value}"
           },
           "backgroundDisabled": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.royalpurple.300.value}"
+            "value": "{color.alohapink.300.value}"
           },
           "backgroundHover": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Primary button background hover color",
-            "value": "{basic.color.brand.primaryBold.value}"
+            "value": "{basic.color.brand.secondaryBold.value}"
           },
           "backgroundInactive": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.royalpurple.200.value}"
+            "value": "{color.alohapink.200.value}"
           },
           "backgroundInactiveHover": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.royalpurple.400.value}"
+            "value": "{color.alohapink.400.value}"
           },
           "backgroundInverse": {
             "deprecated": false,
@@ -57,28 +57,28 @@
             "public": true,
             "type": "semantic",
             "usage": "Primary button inverse background hover color",
-            "value": "{basic.color.brand.primaryMuted.value}"
+            "value": "{basic.color.brand.secondaryMuted.value}"
           },
           "border": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Primary button border color",
-            "value": "{basic.color.brand.primary.value}"
+            "value": "{basic.color.brand.secondary.value}"
           },
           "borderDisabled": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "",
-            "value": "{color.royalpurple.300.value}"
+            "value": "{color.alohapink.300.value}"
           },
           "borderHover": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Primary button border hover color",
-            "value": "{basic.color.brand.primaryBold.value}"
+            "value": "{basic.color.brand.secondaryBold.value}"
           },
           "borderInverse": {
             "deprecated": false,
@@ -99,7 +99,7 @@
             "public": true,
             "type": "semantic",
             "usage": "Primary button inverse border hover color",
-            "value": "{basic.color.brand.primaryMuted.value}"
+            "value": "{basic.color.brand.secondaryMuted.value}"
           },
           "text": {
             "deprecated": false,
@@ -120,7 +120,7 @@
             "public": true,
             "type": "semantic",
             "usage": "Primary button inverse text color",
-            "value": "{basic.color.brand.primary.value}"
+            "value": "{basic.color.brand.secondary.value}"
           }
         }
       }
