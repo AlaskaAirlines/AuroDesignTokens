@@ -36,21 +36,21 @@
             "public": true,
             "type": "semantic",
             "usage": "Secondary button border color",
-            "value": "{basic.color.border.default.value}"
+            "value": "{basic.color.brand.secondary.value}"
           },
           "borderHover": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Secondary button border hover color",
-            "value": "{basic.color.border.default.value}"
+            "value": "{basic.color.brand.secondaryBold.value}"
           },
           "borderDisabled": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Secondary button border disabled color",
-            "value": "{basic.color.border.default.value}"
+            "value": "{color.gray.50.value}"
           },
           "borderInverse": {
             "deprecated": false,
@@ -71,14 +71,14 @@
             "public": true,
             "type": "semantic",
             "usage": "Secondary button text color",
-            "value": "{basic.color.brand.primary.value}"
+            "value": "{basic.color.brand.secondary.value}"
           },
           "textHover": {
             "deprecated": false,
             "public": true,
             "type": "semantic",
             "usage": "Secondary button text hover color",
-            "value": "{basic.color.brand.primaryBold.value}"
+            "value": "{basic.color.brand.secondaryBold.value}"
           },
           "textInverse": {
             "deprecated": false,
