@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.4.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.2...v8.4.3) (2025-09-19)
+
+
+### Bug Fixes
+
+* update ha cta & hyperlink colors ([15fe4eb](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/15fe4eb0220167eb43135bebf6feecbcccda94e2))
+
 ## [8.4.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.1...v8.4.2) (2025-08-20)
 
 
