@@ -102,6 +102,46 @@
           }
         }
       ]
+    },
+
+    "Android": {
+      "transformGroup": "custom/native-colors",
+      "buildPath": "mobile/android/auroDesignTokens-sdk-android/src/main/kotlin/com/alaskaair/aurodesigntokens_sdk_android/",
+      "files": [
+        {
+          "destination": "AlaskaColors.kt",
+          "format": "custom/formats/Android",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "options": {
+            "className": "AlaskaColors",
+            "packageName": "com.alaskaair.aurodesigntokens_sdk_android",
+            "objectType": "class"
+          }
+        }
+      ]
+    },
+
+    "swiftui": {
+      "transformGroup": "custom/native-colors",
+      "buildPath": "mobile/ios/Sources/auroDesignTokens-sdk-ios/",
+      "files": [
+        {
+          "destination": "AlaskaColors.swift",
+          "format": "custom/formats/swiftui",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "options": {
+            "className": "AlaskaColors"
+          }
+        }
+      ]
     }
   }
 }
