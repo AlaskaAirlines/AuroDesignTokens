@@ -45,11 +45,13 @@
             "direction": "180deg",
             "stops": [
               {
-                "color": "rgba(38, 32, 67, 0.65)",
+                "color": "#262043",
+                "alpha": 0.65,
                 "position": "0%"
               },
               {
-                "color": "rgba(38, 32, 67, 0.00)",
+                "color": "#262043",
+                "alpha": 0.00,
                 "position": "65%"
               }
             ]

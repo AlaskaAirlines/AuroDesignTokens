@@ -133,7 +133,21 @@ const compositeGradientTransform = {
         
         // Build color stops
         const colorStops = /** @type {GradientStop[]} */ (stops).map((stop) => {
-          const color = stop.color;
+          let color = stop.color;
+          
+          // Handle alpha property
+          if (stop.alpha !== undefined) {
+            // If color is a token reference, we'll need to handle this differently
+            if (typeof color === 'string' && color.startsWith('{')) {
+              // For token references with alpha, create rgba notation
+              color = `rgba(${color}, ${stop.alpha})`;
+            } else {
+              // For direct color values, apply alpha
+              const colorObj = Color(color);
+              color = colorObj.setAlpha(stop.alpha).toRgbString();
+            }
+          }
+          
           return `${color} ${stop.position}`;
         }).join(', ');
         
