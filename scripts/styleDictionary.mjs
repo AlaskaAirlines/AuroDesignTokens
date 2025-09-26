@@ -11,6 +11,48 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 /**
+ * =============================
+ * JSDoc Type Definitions
+ * =============================
+ */
+
+/**
+ * @typedef {Object} TokenProp
+ * @property {{ category?: string }} [attributes]
+ * @property {string[]} [path]
+ * @property {string} [type]
+ * @property {any} value
+ */
+
+/**
+ * @typedef {Object} GradientStop
+ * @property {string} color - Color value or token reference
+ * @property {string} position - Position (e.g., '0%', '50%')
+ * @property {number} [alpha] - Optional alpha channel 0-1
+ */
+
+/**
+ * @typedef {Object} GradientLayerInline
+ * @property {string} [kind] - linear (default) or radial, etc.
+ * @property {string} [angle]
+ * @property {string} [direction]
+ * @property {GradientStop[]} stops
+ */
+
+/**
+ * @typedef {Object} CompositeGradientValue
+ * @property {'composite'} gradientType
+ * @property {(string|GradientLayerInline)[]} layers
+ */
+
+/**
+ * @typedef {Object} ThemeDefinition
+ * @property {string} dir
+ * @property {string} name
+ * @property {string} code
+ */
+
+/**
  * Converts a directory name to a format without hyphens
  * For names with letters after hyphens (e.g., 'alaska-classic'), converts to camelCase ('alaskaClassic')
  * For names with numbers after hyphens (e.g., 'auro-1'), removes the hyphen ('auro1')
@@ -54,6 +96,53 @@ const colorTransform = {
   }
 };
 
+// Composite gradient transform
+// Creates CSS gradient strings from composite gradient definitions
+const compositeGradientTransform = {
+  name: 'custom/gradient/composite',
+  type: 'value',
+  transitive: true,
+  /**
+   * @param {TokenProp} prop
+   * @returns {boolean}
+   */
+  matcher: (prop) => {
+    const value = /** @type {CompositeGradientValue | any} */ (prop.value);
+    return prop.type === 'semantic' && value && typeof value === 'object' && value.gradientType === 'composite' && Array.isArray(value.layers);
+  },
+  /**
+   * @param {TokenProp} prop
+   * @returns {string}
+   */
+  transformer: (prop) => {
+    const value = /** @type {CompositeGradientValue | any} */ (prop.value);
+    // Handle composite gradients with referenced layers
+    if ((/** @type {any[]} */ (value.layers)).every(layer => typeof layer === 'string' && layer.startsWith('{'))) {
+      // This case handles references like "{advanced.color.expandedWidget.top}"
+      // Style Dictionary will resolve these references automatically
+      return `composite(${value.layers.join(', ')})`; // Explicit return
+    }
+    
+    // Handle composite gradients with inline layer definitions
+    return (/** @type {any[]} */ (value.layers))
+      .map(layer => {
+        if (typeof layer === 'string') return layer;
+        
+        const { kind = 'linear', angle, direction, stops } = layer;
+        const gradientDirection = angle || direction || '0deg';
+        
+        // Build color stops
+        const colorStops = /** @type {GradientStop[]} */ (stops).map((stop) => {
+          const color = stop.color;
+          return `${color} ${stop.position}`;
+        }).join(', ');
+        
+        return `${kind}-gradient(${gradientDirection}, ${colorStops})`;
+      })
+      .join(', ');
+  }
+};
+
 // Font family transform configuration
 const fontFamilyTransform = {
   name: 'custom/fontFamily/quote',
@@ -68,6 +157,10 @@ const fontFamilyTransform = {
    * 
    * @param {Object} prop - The token property
    * @returns {boolean} - Returns true if the property matches the font-family criteria, otherwise false
+   */
+  /**
+   * @param {TokenProp} prop
+   * @returns {boolean}
    */
   matcher: (prop) => {
     // Check for font category (used in Auro Classic)
@@ -91,11 +184,15 @@ const fontFamilyTransform = {
       prop.path.some(segment => segment.toLowerCase().includes('family'));
     
     // Return true if any condition is met
-    return hasFontCategory || hasTypeAndFamilyPath || isFontFamilyPath || isBrandFontFamily;
+    return !!(hasFontCategory || hasTypeAndFamilyPath || isFontFamilyPath || isBrandFontFamily);
   },
   /** 
    * @param {Object} prop
    * @param {string} prop.value
+   * @returns {string}
+   */
+  /**
+   * @param {TokenProp} prop
    * @returns {string}
    */
   transformer: (prop) => {
@@ -130,7 +227,7 @@ const fontFamilyTransform = {
     }
     
     // Handle font stacks with multiple fonts
-    return prop.value.split(',')
+    return (/** @type {string[]} */ (prop.value.split(',')))
       .map(font => {
         // Trim whitespace
         const fontName = font.trim();
@@ -167,18 +264,19 @@ const scssFormat = {
 
 // Register custom transformations and formats
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
+StyleDictionary.registerTransform(/** @type {any} */ (compositeGradientTransform));
 StyleDictionary.registerTransform(/** @type {any} */ (fontFamilyTransform));
 StyleDictionary.registerFormat(scssFormat);
 
-// Extend existing transform groups to include font family transform
+// Extend existing transform groups to include font family and gradient transforms
 StyleDictionary.registerTransformGroup({
   name: 'scss',
-  transforms: StyleDictionary.transformGroup.scss.concat(['custom/fontFamily/quote'])
+  transforms: StyleDictionary.transformGroup.scss.concat(['custom/fontFamily/quote', 'custom/gradient/composite'])
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'css',
-  transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote'])
+  transforms: StyleDictionary.transformGroup.css.concat(['custom/fontFamily/quote', 'custom/gradient/composite'])
 });
 
 // Cache the template content to avoid repeated file reads
@@ -189,6 +287,10 @@ const templateContent = readFileSync(templatePath, 'utf8');
  * Generates a theme config for the given theme
  * @param {Object} theme - Theme object from THEME_DEFINITIONS
  * @returns {Object} The config object
+ */
+/**
+ * @param {ThemeDefinition} theme
+ * @returns {Object}
  */
 const generateThemeConfig = (theme) => {
   const { dir, code } = theme;
@@ -238,9 +340,13 @@ legacyThemes.forEach(({ configName, configPath }) => {
  * @param {Object} config - The configuration object
  * @returns {Object} The built Style Dictionary configuration
  */
+/**
+ * @param {string} themeName
+ * @param {any} config
+ */
 const buildThemeConfig = (themeName, config) => {
   console.log(`Building theme: ${themeName}`);
-  const dictConfig = StyleDictionary.extend(config);
+  const dictConfig = StyleDictionary.extend(/** @type {any} */ (config));
   dictConfig.buildAllPlatforms();
   return dictConfig;
 };
@@ -262,11 +368,15 @@ const buildBasePrimitives = () => {
   } catch (error) {
     console.error('Error building base primitives:', error);
     // Rethrow the error to ensure it's not masked and fails fast
-    throw new Error(`Failed to build base primitives: ${error.message}`);
+    if (error instanceof Error) {
+      throw new Error(`Failed to build base primitives: ${error.message}`);
+    }
+    throw new Error('Failed to build base primitives: Unknown error');
   }
 };
 
 // Cache for base primitives to avoid redundant builds
+/** @type {any | null} */
 let _baseCache = null;
 
 /**

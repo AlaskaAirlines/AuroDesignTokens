@@ -1,0 +1,15 @@
+{
+  "advanced": {
+    "color": {
+      "expandedWidget": {
+        "background": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Background color for the expanded widget",
+          "value": "{basic.color.surface.inverse.value}"
+        }
+      }
+    }
+  }
+}

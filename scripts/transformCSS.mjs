@@ -26,6 +26,11 @@ import { PATHS, CSS } from '../src/config/constants.js';
 import cssnanoConfig from '../src/config/cssnano.js';
 
 // Find CSS files in a directory
+/**
+ * @param {string} baseDir
+ * @param {string} targetDir
+ * @returns {Promise<string[]>}
+ */
 async function findCSSFiles(baseDir, targetDir) {
   const files = [];
   const fullPath = path.join(baseDir, targetDir);
@@ -79,7 +84,8 @@ async function transformCSSFiles() {
         const result = await postcss().process(content, { from: filePath });
         
         // Extract custom properties from root
-        let customProperties = [];
+  /** @type {string[]} */
+  let customProperties = [];
         result.root.walkRules(rule => {
           if (rule.selector === CSS.ROOT_SELECTOR) {
             rule.walkDecls(decl => {
@@ -109,7 +115,13 @@ async function transformCSSFiles() {
       try {
         await fs.mkdir(themesDir, { recursive: true });
       } catch (err) {
-        if (err.code !== 'EEXIST') {
+        if (err instanceof Error) {
+          // Only ignore EEXIST like behavior when code property present
+          if (/** @type {{code?: string}} */(err).code !== 'EEXIST') {
+            throw err;
+          }
+        } else {
+          // Non-standard error objects -> rethrow
           throw err;
         }
       }
