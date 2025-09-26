@@ -5,6 +5,8 @@ import { join } from 'path';
 import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import Handlebars from 'handlebars'; // Ensure handlebars is included for templates
+
 import { THEME_DEFINITIONS } from '../src/config/themes.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -165,10 +167,109 @@ const scssFormat = {
   )
 };
 
+// MOBILE TRANSFORMERS
+
+StyleDictionary.registerTransform({
+  name: 'color/kotlin',
+  type: 'value',
+  matcher: (prop) => prop.attributes.category === 'color',
+  transformer: (prop) => {
+    let value = prop.value.trim().toLowerCase();
+
+    // Skip gradients
+    if (value.startsWith('linear-gradient') || value.startsWith('radial-gradient')) {
+      return null; // or throw new Error if you want to block the build
+    }
+
+    // rgba format
+    const rgbaMatch = value.match(/^rgba\((\d+), ?(\d+), ?(\d+), ?([\d.]+)\)$/);
+    if (rgbaMatch) {
+      const [_, r, g, b, a] = rgbaMatch;
+      const alpha = Math.round(parseFloat(a) * 255)
+        .toString(16)
+        .padStart(2, '0');
+      const hex = [r, g, b]
+        .map((n) => parseInt(n).toString(16).padStart(2, '0'))
+        .join('');
+      return `0x${alpha}${hex}`;
+    }
+
+    // hex or shorthand hex, no hash (e.g., '0074c8')
+    const hexMatch = value.match(/^([a-f0-9]{6})$/i);
+    if (hexMatch) {
+      return `0xff${value}`;
+    }
+
+    // hex with hash
+    const hexWithHash = value.match(/^#([a-f0-9]{6})$/i);
+    if (hexWithHash) {
+      return `0xff${hexWithHash[1]}`;
+    }
+
+    // Already valid Kotlin 0x format (like 0xffeeddcc)
+    if (/^0x[a-f0-9]{8}$/.test(value)) {
+      return value;
+    }
+
+    // If it's something else, log a warning or skip
+    console.warn(`⚠️ Unrecognized color format for token "${prop.name}": ${value}`);
+    return null; // or fallback
+  }
+});
+
+// Custom Compose-Kotlin format configuration
+const composeKotlinFormat = {
+  name: 'custom/formats/Android',
+  formatter: function({ dictionary, file, options }) {
+    const templateContent = readFileSync(join(__dirname, '../templates/compose-kotlin-colors.template'), 'utf8')
+    const template = Handlebars.compile(templateContent);
+
+    return template({
+      file,
+      options,
+      properties: dictionary.allProperties.filter(p => !!p.value),
+    });
+  }
+}
+
+// Custom SwiftUI format configuration
+const swiftUIFormat = {
+  name: 'custom/formats/swiftui',
+  formatter: function({ dictionary, file, options }) {
+    const templateContent = readFileSync(join(__dirname, '../templates/swiftui-colors.template'), 'utf8')
+    const template = Handlebars.compile(templateContent);
+
+    return template({
+      file,
+      options,
+      properties: dictionary.allProperties.filter(p => !!p.value),
+    });
+  }
+};
+
+// END MOBILE TRANSFORMERS
+
+// HANDLEBARS HELPERS
+
+Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
+  return (arg1 === arg2) ? options.fn(this) : options.inverse(this);
+});
+
+// END HANDLEBARS HELPERS
+
 // Register custom transformations and formats
 StyleDictionary.registerTransform(/** @type {any} */ (colorTransform));
 StyleDictionary.registerTransform(/** @type {any} */ (fontFamilyTransform));
 StyleDictionary.registerFormat(scssFormat);
+
+// Register mobile-specific formats
+StyleDictionary.registerTransformGroup({
+  name: 'custom/native-colors',
+  transforms: ['attribute/cti', 'name/cti/camel', 'color/kotlin']
+});
+
+StyleDictionary.registerFormat(composeKotlinFormat);
+StyleDictionary.registerFormat(swiftUIFormat);
 
 // Extend existing transform groups to include font family transform
 StyleDictionary.registerTransformGroup({
