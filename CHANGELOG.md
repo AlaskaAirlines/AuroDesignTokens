@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.4.4](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.3...v8.4.4) (2025-09-26)
+
+
+### Bug Fixes
+
+* update atmos button tokens ([cc6641e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/cc6641eaa69fb352f9580d7aa7d6bb6e39ed5ae0))
+
 ## [8.4.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.2...v8.4.3) (2025-09-19)
 
 
