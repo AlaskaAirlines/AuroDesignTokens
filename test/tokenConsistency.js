@@ -15,6 +15,11 @@ import { THEME_DEFINITIONS } from '../src/config/themes.js';
 const propertyNames = ['value', 'type', 'public', 'deprecated', 'usage'];
 
 // Recursively get all JSON files in a directory
+/**
+ * @param {string} dir
+ * @param {string[]} fileList
+ * @returns {string[]}
+ */
 function getJsonFiles(dir, fileList = []) {
   const files = fs.readdirSync(dir);
   
@@ -33,23 +38,48 @@ function getJsonFiles(dir, fileList = []) {
 }
 
 // Extract all keys from JSON file
+/**
+ * @param {string} filePath
+ * @returns {string[]}
+ */
 function extractKeysFromJsonFile(filePath) {
   try {
     const content = fs.readFileSync(filePath, 'utf8');
     const data = JSON.parse(content);
     return extractKeys(data);
   } catch (error) {
-    console.error(`Error processing ${filePath}: ${error.message}`);
+    console.error(`Error processing ${filePath}: ${error instanceof Error ? error.message : String(error)}`);
     return [];
   }
 }
 
 // Recursively extract all keys from object
+/**
+ * @param {any} obj
+ * @param {string} prefix
+ * @param {string[]} result
+ * @returns {string[]}
+ */
 function extractKeys(obj, prefix = '', result = []) {
   for (const key in obj) {
     const fullKey = prefix ? `${prefix}.${key}` : key;
     
     if (typeof obj[key] === 'object' && obj[key] !== null) {
+      // Check if this token is marked as private (public: false)
+      if (obj[key].hasOwnProperty('public') && obj[key].public === false) {
+        // Skip private tokens - don't include them in consistency checking
+        continue;
+      }
+      
+      // Check if this is a token's value object - don't recurse into nested properties
+      // within a token's value as these can be theme-specific implementation details
+      if (key === 'value' && prefix && 
+          obj.hasOwnProperty('type') && obj.hasOwnProperty('public')) {
+        // This is a token's value object - don't extract nested properties
+        result.push(fullKey);
+        continue;
+      }
+      
       extractKeys(obj[key], fullKey, result);
     } else {
       result.push(fullKey);
@@ -60,6 +90,10 @@ function extractKeys(obj, prefix = '', result = []) {
 }
 
 // Identify base token name (without properties)
+/**
+ * @param {string} fullKey
+ * @returns {string}
+ */
 function getBaseTokenName(fullKey) {
   // Extract base token name by removing property suffixes like .value, .deprecated, etc.
   const parts = fullKey.split('.');
@@ -74,7 +108,12 @@ function getBaseTokenName(fullKey) {
 }
 
 // Group keys by their base token name
+/**
+ * @param {string[]} keys
+ * @returns {Record<string, string[]>}
+ */
 function groupKeysByBaseToken(keys) {
+  /** @type {Record<string, string[]>} */
   const grouped = {};
   
   for (const key of keys) {
@@ -98,6 +137,7 @@ async function runTest() {
   }
   
   // Map to store all keys for each theme
+  /** @type {Record<string, string[]>} */
   const themeKeys = {};
   
   // Process each theme
@@ -137,7 +177,7 @@ async function runTest() {
   // Get all unique keys across all themes
   const allUniqueKeys = new Set();
   for (const theme of themes) {
-    themeKeys[theme].forEach(key => allUniqueKeys.add(key));
+    themeKeys[theme].forEach((key) => allUniqueKeys.add(key));
   }
   
   // Detect renamed tokens and inconsistencies
