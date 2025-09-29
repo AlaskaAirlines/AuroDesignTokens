@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [8.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.4...v8.5.0) (2025-09-29)
+
+
+### Bug Fixes
+
+* switch to hex + alpha to support swift & kotlin ([2a24983](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2a2498368e1c1267bafe40c69ab377ed4997b553))
+
+
+### Features
+
+* add expanded widget advanced tokens ([37e5f46](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/37e5f4675756660390b43d42a4e88a43f8345c5b))
+
 ## [8.4.4](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.3...v8.4.4) (2025-09-26)
 
 
