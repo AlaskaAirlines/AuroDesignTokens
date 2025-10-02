@@ -1,3 +1,3 @@
-import { AuroSkeleton } from "./auro-skeleton";
+// import { AuroSkeleton } from "./auro-skeleton";
 
-AuroSkeleton.register();
+// AuroSkeleton.register();
