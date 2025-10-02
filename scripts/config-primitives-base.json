@@ -1,6 +1,6 @@
 {
   "source": [
-    "./src/primitives/base/**/*.json"
+    "./not_modules/auro-primitives/src/primitives/base/**/*.json"
   ],
   "platforms": {
     "SCSSVariables": {

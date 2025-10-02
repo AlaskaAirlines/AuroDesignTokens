@@ -1,9 +1,9 @@
 {
   "source": [
-    "./src/primitives/{{themeSourceDir}}/**/*.json"
+    "./not_modules/auro-primitives/src/primitives/{{themeSourceDir}}/**/*.json"
   ],
   "include": [
-    "./src/primitives/base/**/*.json",
+    "./not_modules/auro-primitives/src/primitives/base/**/*.json",
     "./src/shared/**/*.json",
     "./src/themes/{{themeDir}}/**/*.json"
   ],
