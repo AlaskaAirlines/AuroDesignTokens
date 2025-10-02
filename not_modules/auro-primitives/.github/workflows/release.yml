@@ -1,0 +1,13 @@
+name: Release Workflow
+
+on:
+  push:
+    branches:
+      - 'rc/**'
+      - 'main'
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/release.yml@main
+    secrets:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,0 +1,4 @@
+# .husky/pre-commit
+
+npx auro test
+npx lint-staged
