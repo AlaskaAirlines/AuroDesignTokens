@@ -1,0 +1,11 @@
+name: Group
+description: Group related issues together to manage them as a unit.
+type: "Group"
+title: '...provide a title...'
+projects: ["AlaskaAirlines/19"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: Description (Optional)
+      description: Describe the group of work that needs to be done.

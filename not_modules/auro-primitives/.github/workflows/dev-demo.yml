@@ -1,0 +1,11 @@
+name: Dev Demo
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/dev-demo.yml@main

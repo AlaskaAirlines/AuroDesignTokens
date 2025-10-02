@@ -1,0 +1,17 @@
+name: PR Workflow
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches-ignore:
+      - 'rc/**'
+      - 'main'
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/pull-request.yml@main
+    with:
+      component: 'skeleton'
+    secrets:
+      AURO_SURGE_TOKEN: ${{ secrets.AURO_SURGE_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

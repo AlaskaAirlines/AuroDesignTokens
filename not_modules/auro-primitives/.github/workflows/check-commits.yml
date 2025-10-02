@@ -1,0 +1,9 @@
+name: Check Commits
+
+on:
+  pull_request:
+    types: [opened, reopened, unlabeled, synchronize]
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/check-commits.yml@main

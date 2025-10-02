@@ -1,0 +1,12 @@
+// Copyright (c) 2021 Alaska Airlines. All right reserved. Licensed under the Apache-2.0 license
+// See LICENSE in the project root for license information.
+
+// ---------------------------------------------------------------------
+
+// Import Auro tokens
+@use "@aurodesignsystem/design-tokens/dist/themes/alaska/SCSSVariables--alaska" as v;
+
+:host {
+  background-color: var(--ds-auro-skeleton-container-color);
+  background-image: linear-gradient(to right, var(--ds-auro-skeleton-container-gradient-color-one) 10%, var(--ds-auro-skeleton-container-gradient-color-two) 40%,var(--ds-auro-skeleton-container-gradient-color-one) 60%);
+}
