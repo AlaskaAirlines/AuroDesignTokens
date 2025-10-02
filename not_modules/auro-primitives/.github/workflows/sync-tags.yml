@@ -1,0 +1,9 @@
+name: Sync Tags
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/sync-tags.yml@main

@@ -1,0 +1,11 @@
+name: Review Policy
+
+on:
+  pull_request_review:
+    types: [submitted, edited, dismissed]
+  pull_request:
+    types: [labeled, unlabeled, opened, synchronize, reopened]
+
+jobs:
+  action:
+    uses: AlaskaAirlines/auro-actions/.github/workflows/check-pr.yml@main
