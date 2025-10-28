@@ -20,6 +20,12 @@
           "type": "semantic",
           "value": "{type.weight.book.value}"
         },
+        "body2": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "value": "{type.weight.bold.value}"
+        },
         "display": {
           "deprecated": false,
           "public": true,
