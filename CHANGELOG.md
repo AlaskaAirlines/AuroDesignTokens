@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [8.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.5.0...v8.6.0) (2025-10-28)
+
+
+### Features
+
+* add new primitive weight token [#359](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/359) [#358](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/358) ([c04cc87](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c04cc87cdd6a915d53ca6e457c63b5b1613ebe3b))
+* add new semantic tokens for body font-weight [#360](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/360) [#358](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/358) ([5df1bb4](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5df1bb4a9c260a335adcffc7f358e4b3c19c098f))
+
 # [8.5.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.4.4...v8.5.0) (2025-09-29)
 
 
