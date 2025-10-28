@@ -1,6 +1,12 @@
 {
   "type": {
     "weight": {
+      "bold": {
+        "deprecated": false,
+        "public": true,
+        "type": "primitive",
+        "value": "700"
+      },
       "book": {
         "deprecated": false,
         "public": true,
