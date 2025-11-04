@@ -69,7 +69,6 @@ const removeHyphens = (dirName) => {
 // Legacy themes - uses individual config files
 const legacyThemes = [
   { configName: 'auroClassic', configPath: './scripts/legacy/config-auroClassic.json' },
-  { configName: 'transparent', configPath: './scripts/legacy/config-transparent.json' },
 ];
 
 // Color transform configuration
