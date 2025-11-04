@@ -1,5 +1,28 @@
 # Semantic Release Automated Changelog
 
+# [8.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.6.0...v8.7.0) (2025-11-04)
+
+
+### Bug Fixes
+
+* create symlink to simulate prod ([0de1049](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0de104916cf4d432e6e1b436395e1b24c844b8b5))
+* move primitives to new repo source ([75a9a7d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/75a9a7df774975e76aea19c288ea75cb915c7f90))
+* remove legacy transparent theme ([9c8ade0](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/9c8ade099c3f6659a5cc96dfe3a7a0a6f1d60f13))
+* update primitive config paths ([0fb0673](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0fb0673debdd0843234271f6f1c14df15a87f1b2))
+
+
+### Features
+
+* add temp primitives repo ([f606a5c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f606a5cc88a4185993443a1dbf950bfa36e6e830))
+* update configurations to use new auro-tokendefinitions repo [#363](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/363) ([4741466](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/4741466acb42c35f38ae16f16ccce152eee2bcbd))
+
+
+### Performance Improvements
+
+* create token def node path const ([f7ce93f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f7ce93f2d889350b197d325cd19502f5b3f9aa2d))
+* remove all old theme token definitions [#363](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/363) ([19cd39e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/19cd39ee22dde6e46e164b0071c3eacd537ba8ec))
+* remove temp files ([0a4dd2a](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0a4dd2a9d801b28ae637417a86a1611149278c8f))
+
 # [8.6.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.5.0...v8.6.0) (2025-10-28)
 
 
