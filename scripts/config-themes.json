@@ -1,11 +1,11 @@
 {
   "source": [
-    "./node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/**/*.json"
+    "{{PATHS.TOKENS_DEFS}}/primitives/base/**/*.json"
   ],
   "include": [
-    "./node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/{{themeSourceDir}}/**/*.json",
+    "{{PATHS.TOKENS_DEFS}}/primitives/{{themeSourceDir}}/**/*.json",
     "./src/shared/**/*.json",
-    "./node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/{{themeSourceDir}}/**/*.json"
+    "{{PATHS.TOKENS_DEFS}}/semantics/web/{{themeSourceDir}}/**/*.json"
   ],
   "platforms": {
     "CSSCustomProperties": {

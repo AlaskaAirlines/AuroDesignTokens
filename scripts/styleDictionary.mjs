@@ -6,6 +6,7 @@ import Color from 'tinycolor2';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
 import { THEME_DEFINITIONS } from '../src/config/themes.js';
+import { PATHS } from '../src/config/constants.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -314,7 +315,9 @@ const generateThemeConfig = (theme) => {
     .replace(/{{themeDir}}/g, dir)
     .replace(/{{themeSourceDir}}/g, dir)
     .replace(/{{themeDirNoHyphens}}/g, removeHyphens(dir))
-    .replace(/{{themeCode}}/g, code);
+    .replace(/{{themeCode}}/g, code)
+    // Replace placeholder with the constant value
+    .replace(/\{\{PATHS\.TOKENS_DEFS\}\}/g, PATHS.TOKENS_DEFS);
   
   return JSON.parse(configContent);
 };
@@ -374,7 +377,9 @@ const buildBasePrimitives = () => {
   console.log('Building base primitives');
   try {
     const basePath = join(__dirname, 'config-primitives-base.json');
-    const baseContent = readFileSync(basePath, 'utf8');
+    let baseContent = readFileSync(basePath, 'utf8');
+    // Replace placeholder with the constant value
+    baseContent = baseContent.replace(/\{\{PATHS\.TOKENS_DEFS\}\}/g, PATHS.TOKENS_DEFS);
     const baseConfig = JSON.parse(baseContent);
     const dictConfig = StyleDictionary.extend(baseConfig);
     dictConfig.buildAllPlatforms();
