@@ -15,7 +15,7 @@
     "node": "^20.x || ^22.x"
   },
   "dependencies": {
-    "@aurodesignsystem/auro-primitives": "file:./not_modules/auro-primitives",
+    "@aurodesignsystem/auro-tokendefinitions": "^1.0.0",
     "chalk": "^5.4.1",
     "postcss": "^8.5.6"
   },

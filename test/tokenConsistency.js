@@ -142,7 +142,7 @@ async function runTest() {
   
   // Process each theme
   for (const theme of THEME_DEFINITIONS) {
-    const themeDir = path.join(process.cwd(), 'src/themes', theme.dir);
+    const themeDir = path.join(process.cwd(), './node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/', theme.dir);
     
     if (!fs.existsSync(themeDir)) {
       console.error(`Theme directory not found: ${themeDir}`);

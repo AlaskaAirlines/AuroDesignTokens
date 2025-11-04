@@ -1,6 +1,6 @@
 {
   "source": [
-    "./node_modules/@aurodesignsystem/auro-primitives/src/primitives/base/**/*.json"
+    "./node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/**/*.json"
   ],
   "platforms": {
     "SCSSVariables": {
