@@ -3,6 +3,7 @@
  */
 
 export const PATHS = {
+  TOKENS_DEFS: './node_modules/@aurodesignsystem/auro-tokendefinitions/tokens',
   DIST: './dist',
   SRC: './src'
 };

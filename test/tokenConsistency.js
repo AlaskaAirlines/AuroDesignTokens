@@ -10,6 +10,7 @@
 import fs from 'fs';
 import path from 'path';
 import { THEME_DEFINITIONS } from '../src/config/themes.js';
+import { PATHS } from '../src/config/constants.js';
 
 // Common property suffixes in design tokens
 const propertyNames = ['value', 'type', 'public', 'deprecated', 'usage'];
@@ -142,7 +143,7 @@ async function runTest() {
   
   // Process each theme
   for (const theme of THEME_DEFINITIONS) {
-    const themeDir = path.join(process.cwd(), './node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/', theme.dir);
+    const themeDir = path.join(process.cwd(), PATHS.TOKENS_DEFS, '/semantics/web/', theme.dir);
     
     if (!fs.existsSync(themeDir)) {
       console.error(`Theme directory not found: ${themeDir}`);
