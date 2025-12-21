@@ -6,7 +6,7 @@
           "value": "#adadadff"
         },
         "brand": {
-          "value": "#01426aff"
+          "value": "#463c8fff"
         },
         "default": {
           "value": "#d0d0d0ff"
@@ -62,6 +62,23 @@
           "value": "#ff9080ff"
         }
       },
+      "fare": {
+        "basiceconomy": {
+          "value": "#d0d0d0ff"
+        },
+        "business": {
+          "value": "#463c8fff"
+        },
+        "economy": {
+          "value": "#ce0c88ff"
+        },
+        "first": {
+          "value": "#463c8fff"
+        },
+        "premiumeconomy": {
+          "value": "#1b6976ff"
+        }
+      },
       "pageBackground": {
         "default": {
           "value": "#ffffffff"
@@ -104,7 +121,7 @@
           "value": "#aca1ccff"
         },
         "accent1Muted": {
-          "value": "#ebf3f9ff"
+          "value": "#edeaf4ff"
         },
         "accent1Subtle": {
           "value": "#aca1ccff"
@@ -119,10 +136,10 @@
           "value": "#ffffffff"
         },
         "inverse": {
-          "value": "#01426aff"
+          "value": "#463c8fff"
         },
         "inverseSubtle": {
-          "value": "#2875b5ff"
+          "value": "#8c7eb8ff"
         },
         "neutral": {
           "value": "#f2f2f2ff"
@@ -136,7 +153,7 @@
       },
       "texticon": {
         "accent1": {
-          "value": "#01426aff"
+          "value": "#463c8fff"
         },
         "default": {
           "value": "#000000ff"
@@ -154,10 +171,10 @@
           "value": "#ccd2dbff"
         },
         "linkDefault": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         },
         "linkHover": {
-          "value": "#18c3ddff"
+          "value": "#831a57ff"
         },
         "linkInverseDefault": {
           "value": "#ffffffff"
@@ -170,15 +187,15 @@
         }
       },
       "tierProgram": {
-        "loungeTier": {
+        "loungetier": {
           "lounge": {
             "value": "#01426aff"
           },
-          "loungePlus": {
+          "loungeplus": {
             "value": "#53b390ff"
           }
         },
-        "loyaltyProgram": {
+        "loyaltytier": {
           "gold": {
             "value": "#fbdc7aff"
           },
@@ -238,10 +255,10 @@
       },
       "primary": {
         "background": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         },
         "backgroundPressed": {
-          "value": "#18c3ddff"
+          "value": "#831a57ff"
         },
         "text": {
           "value": "#ffffffff"
@@ -255,20 +272,20 @@
           "value": "#ffffffcc"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#463c8fff"
         }
       },
       "quaternary": {
         "backgroundPressed": {
-          "value": "#18c3ddff"
+          "value": "#831a57ff"
         },
         "text": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         }
       },
       "quaternaryInverse": {
         "backgroundPressed": {
-          "value": "#18c3ddff"
+          "value": "#831a57ff"
         },
         "text": {
           "value": "#ffffffff"
@@ -276,24 +293,24 @@
       },
       "secondary": {
         "background": {
-          "value": "#ebfafdff"
+          "value": "#fdf1f8ff"
         },
         "backgroundPressed": {
           "value": "#ccc5e0ff"
         },
         "text": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         }
       },
       "secondaryInverse": {
         "background": {
-          "value": "#ebfafdff"
+          "value": "#fdf1f8ff"
         },
         "backgroundPressed": {
           "value": "#fad8ebff"
         },
         "text": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         }
       },
       "tertiary": {
@@ -307,7 +324,7 @@
           "value": "#ddddddff"
         },
         "text": {
-          "value": "#5de3f7ff"
+          "value": "#ce0c88ff"
         }
       },
       "tertiaryInverse": {
@@ -333,10 +350,10 @@
         "value": "#0000001c"
       },
       "selected": {
-        "value": "#01426aff"
+        "value": "#463c8fff"
       },
       "selectedMuted": {
-        "value": "#ebf3f9ff"
+        "value": "#edeaf4ff"
       }
     },
     "componentInverse": {
@@ -358,10 +375,10 @@
     },
     "hyperlinkApp": {
       "text": {
-        "value": "#5de3f7ff"
+        "value": "#ce0c88ff"
       },
       "textHover": {
-        "value": "#18c3ddff"
+        "value": "#831a57ff"
       },
       "textInverse": {
         "value": "#ffffffff"

@@ -6,7 +6,7 @@
           "value": "#585e67ff"
         },
         "brand": {
-          "value": "#00274aff"
+          "value": "#101d2cff"
         },
         "default": {
           "value": "#dfd7c3ff"
@@ -62,12 +62,29 @@
           "value": "#e9e6d9ff"
         }
       },
+      "fare": {
+        "basiceconomy": {
+          "value": "#97eaf8ff"
+        },
+        "business": {
+          "value": "#002c4eff"
+        },
+        "economy": {
+          "value": "#0074caff"
+        },
+        "first": {
+          "value": "#101d2cff"
+        },
+        "premiumeconomy": {
+          "value": "#005154ff"
+        }
+      },
       "pageBackground": {
         "default": {
           "value": "#ffffffff"
         },
         "utility": {
-          "value": "#a3cd6aff"
+          "value": "#faf9f5ff"
         }
       },
       "status": {
@@ -81,10 +98,10 @@
           "value": "#fbc6c6ff"
         },
         "info": {
-          "value": "#5de3f7ff"
+          "value": "#c7d6e5ff"
         },
         "infoSubtle": {
-          "value": "#ebf3f9ff"
+          "value": "#ebf7ffff"
         },
         "success": {
           "value": "#447a1fff"
@@ -101,51 +118,51 @@
       },
       "surface": {
         "accent1": {
-          "value": "#5de3f7ff"
+          "value": "#c7d6e5ff"
         },
         "accent1Muted": {
-          "value": "#b4eff9ff"
+          "value": "#e2e8eeff"
         },
         "accent1Subtle": {
-          "value": "#5de3f7ff"
+          "value": "#c7d6e5ff"
         },
         "accent2": {
-          "value": "#5de3f7ff"
+          "value": "#c7d6e5ff"
         },
         "accent2Muted": {
-          "value": "#b4eff9ff"
+          "value": "#e2e8eeff"
         },
         "default": {
           "value": "#ffffffff"
         },
         "inverse": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         },
         "inverseSubtle": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         },
         "neutral": {
-          "value": "#eaf3ddff"
+          "value": "#faf9f5ff"
         },
         "neutralMedium": {
-          "value": "#c9e1a7ff"
+          "value": "#e9e6d9ff"
         },
         "neutralSubtle": {
-          "value": "#eaf3ddff"
+          "value": "#faf9f5ff"
         }
       },
       "texticon": {
         "accent1": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         },
         "default": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         },
         "disabled": {
           "value": "#ddddddff"
         },
         "inverse": {
-          "value": "#a3cd6aff"
+          "value": "#faf9f5ff"
         },
         "inverseDisabled": {
           "value": "#7e8894ff"
@@ -154,13 +171,13 @@
           "value": "#c5c5c5ff"
         },
         "linkDefault": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         },
         "linkHover": {
           "value": "#005fa7ff"
         },
         "linkInverseDefault": {
-          "value": "#a3cd6aff"
+          "value": "#faf9f5ff"
         },
         "linkInverseHover": {
           "value": "#cfe0efff"
@@ -170,15 +187,15 @@
         }
       },
       "tierProgram": {
-        "loungeTier": {
+        "loungetier": {
           "lounge": {
             "value": "#01426aff"
           },
-          "loungePlus": {
+          "loungeplus": {
             "value": "#53b390ff"
           }
         },
-        "loyaltyProgram": {
+        "loyaltytier": {
           "gold": {
             "value": "#fbdc7aff"
           },
@@ -255,7 +272,7 @@
           "value": "#ffffffcc"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         }
       },
       "quaternary": {
@@ -263,7 +280,7 @@
           "value": "#63beffff"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         }
       },
       "quaternaryInverse": {
@@ -282,7 +299,7 @@
           "value": "#aedeffff"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         }
       },
       "secondaryInverse": {
@@ -293,7 +310,7 @@
           "value": "#aedeffff"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         }
       },
       "tertiary": {
@@ -307,7 +324,7 @@
           "value": "#e9e6d9ff"
         },
         "text": {
-          "value": "#01426aff"
+          "value": "#101d2cff"
         }
       },
       "tertiaryInverse": {
@@ -333,10 +350,10 @@
         "value": "#0000001c"
       },
       "selected": {
-        "value": "#01426aff"
+        "value": "#101d2cff"
       },
       "selectedMuted": {
-        "value": "#ebf3f9ff"
+        "value": "#ebf7ffff"
       }
     },
     "componentInverse": {
@@ -358,13 +375,13 @@
     },
     "hyperlinkApp": {
       "text": {
-        "value": "#01426aff"
+        "value": "#101d2cff"
       },
       "textHover": {
         "value": "#005fa7ff"
       },
       "textInverse": {
-        "value": "#a3cd6aff"
+        "value": "#faf9f5ff"
       },
       "textInverseHover": {
         "value": "#cfe0efff"
@@ -372,13 +389,13 @@
     },
     "searchWidget": {
       "fieldIcon": {
-        "value": "#5de3f7ff"
+        "value": "#c7d6e5ff"
       },
       "routeDestination": {
-        "value": "#c5c5c5ff"
+        "value": "#e9e6d9ff"
       },
       "routeOrgin": {
-        "value": "#5de3f7ff"
+        "value": "#c7d6e5ff"
       }
     }
   }
