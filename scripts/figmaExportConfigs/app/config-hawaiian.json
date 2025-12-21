@@ -1,0 +1,18 @@
+{
+  "source": ["./processed/app/Hawaiian.tokens.json"],
+  "include": [],
+  "platforms": {
+
+    "JSONVariables": {
+      "transformGroup": "css",
+      "comment": "File type: JSON",
+      "buildPath": "./dist/figmaExport/app/",
+      "files": [
+        {
+          "destination": "hawaiian.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}

@@ -68,7 +68,13 @@ const removeHyphens = (dirName) => {
 
 // Legacy themes - uses individual config files
 const legacyThemes = [
-  { configName: 'auroClassic', configPath: './scripts/legacy/config-auroClassic.json' },
+  // { configName: 'auroClassic', configPath: './scripts/legacy/config-auroClassic.json' },
+  { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/app/config-alaska.json' },
+  // { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/web/config-alaska.json' },
+  // { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/app/config-hawaiian.json' },
+  // { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/web/config-hawaiian.json' },
+  // { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/app/config-atmos.json' },
+  // { configName: 'figmaExport', configPath: './scripts/figmaExportConfigs/web/config-atmos.json' },
 ];
 
 // Color transform configuration

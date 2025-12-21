@@ -1,0 +1,701 @@
+{
+  "advanced": {
+    "color": {
+      "accents": {
+        "accent1": {
+          "value": "#b2d583ff"
+        },
+        "accent1-bold": {
+          "value": "#92c450ff"
+        },
+        "accent1-muted": {
+          "value": "#deedcaff"
+        },
+        "accent2": {
+          "value": "#fad362ff"
+        },
+        "accent2-bold": {
+          "value": "#f2ba14ff"
+        },
+        "accent2-muted": {
+          "value": "#fde398ff"
+        },
+        "accent3": {
+          "value": "#63beffff"
+        },
+        "accent3-bold": {
+          "value": "#0074caff"
+        },
+        "accent3-muted": {
+          "value": "#aedeffff"
+        },
+        "accent4": {
+          "value": "#feb17aff"
+        },
+        "accent4-bold": {
+          "value": "#fb7f24ff"
+        },
+        "accent4-muted": {
+          "value": "#ffe2cfff"
+        },
+        "transparency": {
+          "value": "#0000001a"
+        },
+        "transparency-inverse": {
+          "value": "#ffffff33"
+        }
+      },
+      "avatar": {
+        "gradient-bottom": {
+          "value": "#cfe0efff"
+        },
+        "gradient-top": {
+          "value": "#6899c6ff"
+        }
+      },
+      "boolean": {
+        "disabled-inverse": {
+          "value": "#7e8894ff"
+        },
+        "error": {
+          "value": "#e31f26ff"
+        },
+        "error-hover": {
+          "value": "#b1161cff"
+        },
+        "error-inverse": {
+          "value": "#f9a4a8ff"
+        },
+        "error-inverse-hover": {
+          "value": "#f15f65ff"
+        },
+        "indicator": {
+          "value": "#ffffffff"
+        },
+        "indicator-inverse": {
+          "value": "#00274aff"
+        },
+        "isfalse": {
+          "value": "#ffffffff"
+        },
+        "isfalse-border": {
+          "value": "#585e67ff"
+        },
+        "isfalse-border-inverse": {
+          "value": "#ffffffff"
+        },
+        "isfalse-hover": {
+          "value": "#f2f2f2ff"
+        },
+        "isfalse-inverse": {
+          "value": "#ffffff26"
+        },
+        "isfalse-inverse-hover": {
+          "value": "#ffffff33"
+        },
+        "istrue": {
+          "value": "#01426aff"
+        },
+        "istrue-hover": {
+          "value": "#00274aff"
+        },
+        "istrue-inverse": {
+          "value": "#ffffffff"
+        },
+        "istrue-inverse-hover": {
+          "value": "#ffffffb0"
+        }
+      },
+      "button": {
+        "flat": {
+          "text": {
+            "value": "#676767ff"
+          },
+          "text-disabled": {
+            "value": "#d0d0d0ff"
+          },
+          "text-hover": {
+            "value": "#525252ff"
+          },
+          "text-inverse": {
+            "value": "#ffffffff"
+          },
+          "text-inverse-disabled": {
+            "value": "#7e8894ff"
+          },
+          "text-inverse-hover": {
+            "value": "#adadadff"
+          }
+        },
+        "ghost": {
+          "background-hover": {
+            "value": "#0000000d"
+          },
+          "background-inverse-hover": {
+            "value": "#ffffff0d"
+          },
+          "text": {
+            "value": "#01426aff"
+          },
+          "text-disabled": {
+            "value": "#d0d0d0ff"
+          },
+          "text-inverse": {
+            "value": "#ffffffff"
+          },
+          "text-inverse-disabled": {
+            "value": "#7e8894ff"
+          }
+        },
+        "primary": {
+          "background": {
+            "value": "#01426aff"
+          },
+          "background-disabled": {
+            "value": "#acc9e2ff"
+          },
+          "background-hover": {
+            "value": "#00274aff"
+          },
+          "background-inactive": {
+            "value": "#cfe0efff"
+          },
+          "background-inactive-hover": {
+            "value": "#89b2d4ff"
+          },
+          "background-inverse": {
+            "value": "#ffffffff"
+          },
+          "background-inverse-disabled": {
+            "value": "#ffffffbf"
+          },
+          "background-inverse-hover": {
+            "value": "#ebf3f9ff"
+          },
+          "border": {
+            "value": "#01426aff"
+          },
+          "border-disabled": {
+            "value": "#acc9e2ff"
+          },
+          "border-hover": {
+            "value": "#00274aff"
+          },
+          "border-inverse": {
+            "value": "#ffffffff"
+          },
+          "border-inverse-disabled": {
+            "value": "#ffffffbf"
+          },
+          "border-inverse-hover": {
+            "value": "#ebf3f9ff"
+          },
+          "text": {
+            "value": "#ffffffff"
+          },
+          "text-disabled": {
+            "value": "#ffffffff"
+          },
+          "text-inverse": {
+            "value": "#01426aff"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "#ffffffff"
+          },
+          "background-disabled": {
+            "value": "#f7f7f7ff"
+          },
+          "background-hover": {
+            "value": "#f2f2f2ff"
+          },
+          "background-inverse-hover": {
+            "value": "#ffffff1a"
+          },
+          "border": {
+            "value": "#01426aff"
+          },
+          "border-disabled": {
+            "value": "#cfe0efff"
+          },
+          "border-hover": {
+            "value": "#00274aff"
+          },
+          "border-inverse": {
+            "value": "#ffffffff"
+          },
+          "border-inverse-disabled": {
+            "value": "#ddddddff"
+          },
+          "text": {
+            "value": "#01426aff"
+          },
+          "text-hover": {
+            "value": "#00274aff"
+          },
+          "text-inverse": {
+            "value": "#ffffffff"
+          }
+        },
+        "tertiary": {
+          "background": {
+            "value": "#0000000d"
+          },
+          "background-hover": {
+            "value": "#0000001a"
+          },
+          "background-inverse": {
+            "value": "#ffffff0d"
+          },
+          "background-inverse-hover": {
+            "value": "#ffffff1a"
+          },
+          "text": {
+            "value": "#01426aff"
+          },
+          "text-hover": {
+            "value": "#00274aff"
+          },
+          "text-inverse": {
+            "value": "#ffffffff"
+          }
+        }
+      },
+      "dropdown-emphasized": {
+        "background": {
+          "value": "#00274a1a"
+        },
+        "background-hover": {
+          "value": "#00274a33"
+        }
+      },
+      "expanded": {
+        "widget": {
+          "background": {
+            "value": "#00274aff"
+          }
+        }
+      },
+      "flightline": {
+        "indicator": {
+          "value": "#00274aff"
+        },
+        "line": {
+          "value": "#00274aff"
+        }
+      },
+      "footer": {
+        "background": {
+          "value": "#01426aff"
+        },
+        "foreground": {
+          "value": "#00274aff"
+        },
+        "pattern": {
+          "value": "#ffffffff"
+        }
+      },
+      "header": {
+        "background-exterior": {
+          "value": "#ffffff00"
+        },
+        "background-interior": {
+          "value": "#ffffffff"
+        },
+        "button": {
+          "button-background": {
+            "value": "#ffffff00"
+          },
+          "button-background-hover": {
+            "value": "#0000000d"
+          },
+          "button-border": {
+            "value": "#00274aff"
+          },
+          "signedin-button-background": {
+            "value": "#101d2cff"
+          },
+          "signedin-button-background-hover": {
+            "value": "#002c4eff"
+          },
+          "text & icon": {
+            "value": "#2a2a2aff"
+          },
+          "text & icon-inverse": {
+            "value": "#ffffffff"
+          }
+        },
+        "text & icon": {
+          "value": "#2a2a2aff"
+        }
+      },
+      "hyperlink": {
+        "text": {
+          "value": "#2875b5ff"
+        },
+        "text-hover": {
+          "value": "#01426aff"
+        },
+        "text-inverse": {
+          "value": "#ffffffff"
+        },
+        "text-inverse-hover": {
+          "value": "#ebf3f9ff"
+        }
+      },
+      "shared": {
+        "background": {
+          "value": "#ffffffff"
+        },
+        "background-inverse": {
+          "value": "#ffffff26"
+        },
+        "background-inverse-disabled": {
+          "value": "#ffffff1a"
+        },
+        "background-inverse-hover": {
+          "value": "#ffffff33"
+        },
+        "background-muted": {
+          "value": "#f7f7f7ff"
+        },
+        "background-strong": {
+          "value": "#7e7e7eff"
+        },
+        "emphasized-background": {
+          "value": "#01426a1a"
+        },
+        "emphasized-background-hover": {
+          "value": "#01426a33"
+        },
+        "scrim": {
+          "value": "#00000080"
+        },
+        "text-accent": {
+          "value": "#2875b5ff"
+        }
+      },
+      "skeleton": {
+        "background": {
+          "value": "#f7f8faff"
+        },
+        "wave": {
+          "value": "#e4e8ecff"
+        }
+      },
+      "state": {
+        "background-disabled": {
+          "value": "#ddddddff"
+        },
+        "background-hover": {
+          "value": "#f2f2f2ff"
+        },
+        "background-inverse-disabled": {
+          "value": "#7e8894ff"
+        },
+        "error-inverse": {
+          "value": "#f9a4a8ff"
+        },
+        "focused": {
+          "value": "#01426aff"
+        },
+        "focused-inverse": {
+          "value": "#ffffffff"
+        },
+        "no-background-hover": {
+          "value": "#0000000d"
+        },
+        "no-background-inverse-hover": {
+          "value": "#ffffff0d"
+        },
+        "selected": {
+          "value": "#01426aff"
+        },
+        "selected-hover": {
+          "value": "#00274aff"
+        }
+      }
+    }
+  },
+  "basic": {
+    "color": {
+      "border": {
+        "bold": {
+          "value": "#585e67ff"
+        },
+        "brand": {
+          "value": "#00274aff"
+        },
+        "default": {
+          "value": "#959595ff"
+        },
+        "divider": {
+          "value": "#00000026"
+        },
+        "divider-inverse": {
+          "value": "#ffffff66"
+        },
+        "inverse": {
+          "value": "#ffffffff"
+        },
+        "subtle": {
+          "value": "#ddddddff"
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#01426aff"
+        },
+        "primary-bold": {
+          "value": "#00274aff"
+        },
+        "primary-muted": {
+          "value": "#ebf3f9ff"
+        },
+        "primary-subtle": {
+          "value": "#2875b5ff"
+        },
+        "secondary": {
+          "value": "#5de3f7ff"
+        },
+        "secondary-bold": {
+          "value": "#18c3ddff"
+        },
+        "secondary-muted": {
+          "value": "#ebfafdff"
+        },
+        "secondary-subtle": {
+          "value": "#b4eff9ff"
+        },
+        "tertiary": {
+          "value": "#a3cd6aff"
+        },
+        "tertiary-bold": {
+          "value": "#7daf3bff"
+        },
+        "tertiary-muted": {
+          "value": "#eaf3ddff"
+        },
+        "tertiary-subtle": {
+          "value": "#c9e1a7ff"
+        }
+      },
+      "page-background": {
+        "default": {
+          "value": "#ffffffff"
+        },
+        "utility": {
+          "value": "#ffffffff"
+        }
+      },
+      "status": {
+        "default": {
+          "value": "#afb9c6ff"
+        },
+        "error": {
+          "value": "#e31f26ff"
+        },
+        "error-subtle": {
+          "value": "#fbc6c6ff"
+        },
+        "info": {
+          "value": "#01426aff"
+        },
+        "info-subtle": {
+          "value": "#ebf3f9ff"
+        },
+        "success": {
+          "value": "#447a1fff"
+        },
+        "success-subtle": {
+          "value": "#d6eac7ff"
+        },
+        "warning": {
+          "value": "#fac200ff"
+        },
+        "warning-subtle": {
+          "value": "#fff0b2ff"
+        }
+      },
+      "surface": {
+        "accent-1": {
+          "value": "#5de3f7ff"
+        },
+        "accent-1-muted": {
+          "value": "#ebfafdff"
+        },
+        "accent-1-subtle": {
+          "value": "#b4eff9ff"
+        },
+        "accent-2": {
+          "value": "#a3cd6aff"
+        },
+        "accent-2-muted": {
+          "value": "#eaf3ddff"
+        },
+        "default": {
+          "value": "#ffffffff"
+        },
+        "inverse": {
+          "value": "#00274aff"
+        },
+        "inverse-subtle": {
+          "value": "#2875b5ff"
+        },
+        "neutral": {
+          "value": "#f2f2f2ff"
+        },
+        "neutral-medium": {
+          "value": "#c5c5c5ff"
+        },
+        "neutral-subtle": {
+          "value": "#f7f7f7ff"
+        }
+      },
+      "texticon": {
+        "accent-1": {
+          "value": "#265688ff"
+        },
+        "default": {
+          "value": "#2a2a2aff"
+        },
+        "disabled": {
+          "value": "#d0d0d0ff"
+        },
+        "inverse": {
+          "value": "#ffffffff"
+        },
+        "inverse-disabled": {
+          "value": "#7e8894ff"
+        },
+        "inverse-muted": {
+          "value": "#ccd2dbff"
+        },
+        "link-default": {
+          "value": "#2875b5ff"
+        },
+        "link-hover": {
+          "value": "#01426aff"
+        },
+        "link-inverse-default": {
+          "value": "#ffffffff"
+        },
+        "link-inverse-hover": {
+          "value": "#ebf3f9ff"
+        },
+        "muted": {
+          "value": "#676767ff"
+        }
+      }
+    }
+  },
+  "basic-type-brand-family-primary": {
+    "value": "\"as circular\""
+  },
+  "basic-type-brand-family-secondary": {
+    "value": "\"good ot\""
+  },
+  "basic-type-brand-letter-spacing-primary": {
+    "value": 0
+  },
+  "basic-type-brand-letter-spacing-secondary": {
+    "value": "0.05em"
+  },
+  "basic-type-brand-letter-spacing-tertiary": {
+    "value": "0.10em"
+  },
+  "basic-type-brand-line-height-primary": {
+    "value": 1.3
+  },
+  "basic-type-brand-line-height-secondary": {
+    "value": 1
+  },
+  "basic-type-family-accent": {
+    "value": "\"good ot\""
+  },
+  "basic-type-family-accent-fallback": {
+    "value": "system-ui, -apple-system, blinkmacsystemfont, \"segoe ui\", roboto, \"helvetica neue\", arial, sans-serif"
+  },
+  "basic-type-family-body": {
+    "value": "\"as circular\""
+  },
+  "basic-type-family-body-fallback": {
+    "value": "system-ui, -apple-system, blinkmacsystemfont, \"segoe ui\", roboto, \"helvetica neue\", arial, sans-serif"
+  },
+  "basic-type-family-display": {
+    "value": "\"as circular\""
+  },
+  "basic-type-family-display-fallback": {
+    "value": "system-ui, -apple-system, blinkmacsystemfont, \"segoe ui\", roboto, \"helvetica neue\", arial, sans-serif"
+  },
+  "basic-type-family-heading": {
+    "value": "\"as circular\""
+  },
+  "basic-type-family-heading-fallback": {
+    "value": "system-ui, -apple-system, blinkmacsystemfont, \"segoe ui\", roboto, \"helvetica neue\", arial, sans-serif"
+  },
+  "basic-type-letter-spacing-accent": {
+    "value": "0.05em"
+  },
+  "basic-type-letter-spacing-accent2": {
+    "value": "0.10em"
+  },
+  "basic-type-letter-spacing-body": {
+    "value": 0
+  },
+  "basic-type-letter-spacing-display": {
+    "value": 0
+  },
+  "basic-type-letter-spacing-heading": {
+    "value": 0
+  },
+  "basic-type-line-height-accent": {
+    "value": 1.3
+  },
+  "basic-type-line-height-accent2": {
+    "value": 1
+  },
+  "basic-type-line-height-body": {
+    "value": "1.625rem"
+  },
+  "basic-type-line-height-body2": {
+    "value": "1.5rem"
+  },
+  "basic-type-line-height-body3": {
+    "value": "1.25rem"
+  },
+  "basic-type-line-height-body4": {
+    "value": "1rem"
+  },
+  "basic-type-line-height-body5": {
+    "value": "0.875rem"
+  },
+  "basic-type-line-height-display": {
+    "value": 1.3
+  },
+  "basic-type-line-height-heading": {
+    "value": 1.3
+  },
+  "basic-type-weight-accent": {
+    "value": 450
+  },
+  "basic-type-weight-accent2": {
+    "value": 500
+  },
+  "basic-type-weight-body": {
+    "value": 450
+  },
+  "basic-type-weight-body2": {
+    "value": 700
+  },
+  "basic-type-weight-display": {
+    "value": 300
+  },
+  "basic-type-weight-heading": {
+    "value": 300
+  },
+  "basic-type-weight-heading2": {
+    "value": 450
+  }
+}

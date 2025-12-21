@@ -1,0 +1,30 @@
+{
+  "source": ["./processed/web/Hawaiian.tokens.json"],
+  "include": [],
+  "platforms": {
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass",
+      "buildPath": "./dist/figmaExport/web/",
+      "files": [
+        {
+          "destination": "Hawaiian.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS",
+      "buildPath": "./dist/figmaExport/web/",
+      "files": [
+        {
+          "destination": "Hawaiian.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}
