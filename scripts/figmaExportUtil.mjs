@@ -3,9 +3,6 @@ import _ from "lodash";
 import path from "path";
 
 export default class ExportUtil {
-  static processedJson = {};
-  static baseJson = undefined;
-
   static resetState() {
     this.processedJson = {};
   }
@@ -32,7 +29,7 @@ export default class ExportUtil {
           ['border']: exportJson['Border'],
           ['status']: exportJson['Status'],
           ['tier-program']: exportJson['Tier-Program'],
-          ['fare-brand']: exportJson['Fare-Brand'],
+          ['fare']: exportJson['Fare'],
         }
       }
     }
@@ -253,7 +250,7 @@ export default class ExportUtil {
   for (const i in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, i)) {
       if (i === keyToFind) {
-        obj[i] = ExportUtil.processValueKey(obj[i]);
+        obj[i] = this.processValueKey(obj[i]);
       }
       // If the property is an object or an array, recurse
       if (typeof obj[i] === 'object' && obj[i] !== null) {
@@ -284,11 +281,11 @@ export default class ExportUtil {
    * @param {Object} obj - Object to process
    * @returns 
    */
-  static convertKebabToCamel(obj) {
+  static convertAllKebabToCamel(obj) {
     if (obj !== null && typeof obj === 'object') {
       return Object.entries(obj).reduce((acc, [key, value]) => {
         const camelKey = this.kebabToCamel(key);
-        acc[camelKey] = this.convertKebabToCamel(value);
+        acc[camelKey] = this.convertAllKebabToCamel(value);
         return acc;
       }, {});
     }
@@ -348,64 +345,58 @@ export default class ExportUtil {
       return;
     }
 
-    if (!this.baseJson) {
-      this.baseJson = data;
-    }
-
     if (typeof data === 'string') {
       data = JSON.parse(data);
     }
 
     const currJson = data;
 
-      const keyToFind = 'value';
-      keys = keys || {};
+    keys = keys || {};
 
-      // Iterate over properties of the current object
-      for (const i in currJson) {
-        if (currJson.hasOwnProperty(i)) {
-          if (i === keyToFind) {
-            let newValue = currJson[i];
+    // Iterate over properties of the current object
+    for (const i in currJson) {
+      if (currJson.hasOwnProperty(i)) {
+        if (i === 'value') {
+          let newValue = currJson[i];
 
-            const valueIsKey = typeof newValue === 'string' && newValue.startsWith('{') && newValue.endsWith('}');
+          const valueIsKey = typeof newValue === 'string' && newValue.startsWith('{') && newValue.endsWith('}');
 
-            if (valueIsKey) {
-              const keyName = currJson[i];
-              let keyValue;
-              // split string into parts by dot notation
-              let keyPath = newValue.slice(1, -1).split('.');
+          if (valueIsKey) {
+            const keyName = currJson[i];
+            let keyValue;
+            // split string into parts by dot notation
+            let keyPath = newValue.slice(1, -1).split('.');
+            let currentLevel;
 
-              let currentLevel;
-
-              if (keyPath[0] === 'advanced') {
-                currentLevel = this.baseJson.advanced.color;
+            if (keyPath[0] === 'advanced') {
+              currentLevel = this.referenceJson.advanced.color;
+            } else {
+              currentLevel = this.referenceJson.basic.color;
+            }
+            
+            for (let i = 0; i < keyPath.length; i++) {
+              if (keyPath[i] === 'advanced') {
+                currentLevel = this.referenceJson.advanced.color;
               } else {
-                currentLevel = this.baseJson.basic.color;
-              }
-              
-              for (let i = 0; i < keyPath.length; i++) {
-                if (keyPath[i] === 'advanced') {
-                  currentLevel = this.baseJson.advanced.color;
-                } else {
-                  currentLevel = currentLevel[keyPath[i]];
+                currentLevel = currentLevel[keyPath[i]];
 
-                  if (currentLevel.hasOwnProperty('value')) {
-                    keyValue = currentLevel.value;
-                  }
+                if (currentLevel && currentLevel.hasOwnProperty('value')) {
+                  keyValue = currentLevel.value;
                 }
               }
-
-              keys[keyName] = keyValue;
             }
-          }
-          // If the property is an object or an array, recurse
-          if (typeof currJson[i] === 'object' && currJson[i] !== null) {
-            this.processTokenRefs(JSON.stringify(currJson[i]), keys);
+
+            keys[keyName] = keyValue;
           }
         }
+        // If the property is an object or an array, recurse
+        if (typeof currJson[i] === 'object' && currJson[i] !== null) {
+          this.processTokenRefs(JSON.stringify(currJson[i]), keys);
+        }
       }
+    }
 
-      return keys;
+    return keys;
   }
 
   /**
@@ -443,10 +434,10 @@ export default class ExportUtil {
    */
   static processAllTokenRefs() {
     const allValueKeys = this.getAllValueKeysWithObject(this.processedJson).length;
-    const tokensToReplace = this.processTokenRefs();
 
     // as long as there are value keys that are objects, keep processing
     if (allValueKeys > 0) {
+      const tokensToReplace = this.processTokenRefs();
       this.processedJson = JSON.parse(this.replaceTokenRefs(JSON.stringify(this.processedJson), tokensToReplace));
 
       this.processAllTokenRefs();
@@ -484,18 +475,16 @@ export default class ExportUtil {
     this.recursivelyRemoveKey(data, 'components');
     this.processAllValueKeys(data);
 
-    let result = JSON.parse(JSON.stringify(data).replaceAll('$value', 'value').toLowerCase());
-
-    if (platform === 'app') {
-      result = this.convertKebabToCamel(result);
-    } 
-
-    this.processedJson = result;
+    this.processedJson = JSON.parse(JSON.stringify(data).replaceAll('$value', 'value').toLowerCase());
+    this.referenceJson = this.processedJson;
 
     this.processAllTokenRefs(this.processedJson);
     this.sortKeysRecursive(this.processedJson);
 
-    return result;
+
+    if (platform === 'app') {
+      this.processedJson = this.convertAllKebabToCamel(this.processedJson);;
+    }
   }
 
   /**
@@ -507,7 +496,7 @@ export default class ExportUtil {
     const importTokens = this.fetchImportTokens(fileName, platform);
 
     // ensure we start from a clean slate for every call
-    ExportUtil.resetState();
+    this.resetState();
 
     this.cleanData(importTokens, platform);
     this.writeToFile(fileName, platform, this.processedJson);

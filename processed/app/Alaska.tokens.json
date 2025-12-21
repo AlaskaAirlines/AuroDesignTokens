@@ -62,6 +62,23 @@
           "value": "#c9e1a7ff"
         }
       },
+      "fare": {
+        "basiceconomy": {
+          "value": "#97eaf8ff"
+        },
+        "business": {
+          "value": "#01426aff"
+        },
+        "economy": {
+          "value": "#0074caff"
+        },
+        "first": {
+          "value": "#00274aff"
+        },
+        "premiumeconomy": {
+          "value": "#005154ff"
+        }
+      },
       "pageBackground": {
         "default": {
           "value": "#ffffffff"
@@ -170,15 +187,15 @@
         }
       },
       "tierProgram": {
-        "loungeTier": {
+        "loungetier": {
           "lounge": {
             "value": "#01426aff"
           },
-          "loungePlus": {
+          "loungeplus": {
             "value": "#53b390ff"
           }
         },
-        "loyaltyProgram": {
+        "loyaltytier": {
           "gold": {
             "value": "#fbdc7aff"
           },

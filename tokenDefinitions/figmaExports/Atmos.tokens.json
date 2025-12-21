@@ -1387,7 +1387,7 @@
         }
       }
     },
-    "Lounge-Tier": {
+    "LoungeTier": {
       "Lounge": {
         "$type": "color",
         "$value": {
@@ -1418,7 +1418,7 @@
           }
         }
       },
-      "Lounge-Plus": {
+      "LoungePlus": {
         "$type": "color",
         "$value": {
           "colorSpace": "srgb",
@@ -1449,7 +1449,7 @@
         }
       }
     },
-    "Loyalty-Program": {
+    "LoyaltyTier": {
       "Silver": {
         "$type": "color",
         "$value": {
@@ -1697,7 +1697,7 @@
     }
   },
   "Fare": {
-    "Basic-Economy": {
+    "BasicEconomy": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
@@ -1759,7 +1759,7 @@
         }
       }
     },
-    "Premium-Economy": {
+    "PremiumEconomy": {
       "$type": "color",
       "$value": {
         "colorSpace": "srgb",
