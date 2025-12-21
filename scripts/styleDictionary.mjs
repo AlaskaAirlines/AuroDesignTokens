@@ -69,6 +69,12 @@ const removeHyphens = (dirName) => {
 // Legacy themes - uses individual config files
 const legacyThemes = [
   { configName: 'auroClassic', configPath: './scripts/legacy/config-auroClassic.json' },
+  { configName: 'AlaskaApp', configPath: './outputConfigs/app/alaska.json' },
+  { configName: 'AlaskaWeb', configPath: './outputConfigs/web/alaska.json' },
+  { configName: 'HawaiianApp', configPath: './outputConfigs/app/hawaiian.json' },
+  { configName: 'HawaiianWeb', configPath: './outputConfigs/web/hawaiian.json' },
+  { configName: 'AtmosApp', configPath: './outputConfigs/app/atmos.json' },
+  { configName: 'AtmosWeb', configPath: './outputConfigs/web/atmos.json' },
 ];
 
 // Color transform configuration
@@ -338,6 +344,7 @@ const readLegacyConfig = (configPath) => {
 // Theme configs object to store all configs
 /** @type {Object.<string, Object>} */
 const THEME_CONFIGS = {};
+const LEGACY_THEME_CONFIGS = {};
 
 // Generate configs
 THEME_DEFINITIONS.forEach((theme) => {
