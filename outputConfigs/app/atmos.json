@@ -1,0 +1,18 @@
+{
+  "source": ["./processed/app/Atmos.tokens.json"],
+  "include": [],
+  "platforms": {
+
+    "JSONVariables": {
+      "transformGroup": "css",
+      "comment": "File type: JSON",
+      "buildPath": "./dist/figmaExport/app/",
+      "files": [
+        {
+          "destination": "atmos.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source": ["./processed/web/Alaska.tokens.json"],
+  "include": [],
+  "platforms": {
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass",
+      "buildPath": "./dist/figmaExport/web/",
+      "files": [
+        {
+          "destination": "Alaska.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS",
+      "buildPath": "./dist/figmaExport/web/",
+      "files": [
+        {
+          "destination": "Alaska.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

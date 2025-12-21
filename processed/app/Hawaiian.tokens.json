@@ -1,0 +1,385 @@
+{
+  "basic": {
+    "color": {
+      "border": {
+        "bold": {
+          "value": "#adadadff"
+        },
+        "brand": {
+          "value": "#01426aff"
+        },
+        "default": {
+          "value": "#d0d0d0ff"
+        },
+        "divider": {
+          "value": "#00000026"
+        },
+        "dividerInverse": {
+          "value": "#ffffff66"
+        },
+        "inverse": {
+          "value": "#ffffffff"
+        },
+        "subtle": {
+          "value": "#ddddddff"
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#463c8fff"
+        },
+        "primaryBold": {
+          "value": "#31295cff"
+        },
+        "primaryMuted": {
+          "value": "#edeaf4ff"
+        },
+        "primarySubtle": {
+          "value": "#8c7eb8ff"
+        },
+        "secondary": {
+          "value": "#ce0c88ff"
+        },
+        "secondaryBold": {
+          "value": "#831a57ff"
+        },
+        "secondaryMuted": {
+          "value": "#fdf1f8ff"
+        },
+        "secondarySubtle": {
+          "value": "#e26db8ff"
+        },
+        "tertiary": {
+          "value": "#ee453dff"
+        },
+        "tertiaryBold": {
+          "value": "#97322aff"
+        },
+        "tertiaryMuted": {
+          "value": "#ffeeeaff"
+        },
+        "tertiarySubtle": {
+          "value": "#ff9080ff"
+        }
+      },
+      "pageBackground": {
+        "default": {
+          "value": "#ffffffff"
+        },
+        "utility": {
+          "value": "#ffffffff"
+        }
+      },
+      "status": {
+        "default": {
+          "value": "#afb9c6ff"
+        },
+        "error": {
+          "value": "#e31f26ff"
+        },
+        "errorSubtle": {
+          "value": "#fbc6c6ff"
+        },
+        "info": {
+          "value": "#007db1ff"
+        },
+        "infoSubtle": {
+          "value": "#e8f2f8ff"
+        },
+        "success": {
+          "value": "#447a1fff"
+        },
+        "successSubtle": {
+          "value": "#d6eac7ff"
+        },
+        "warning": {
+          "value": "#fac200ff"
+        },
+        "warningSubtle": {
+          "value": "#fff0b2ff"
+        }
+      },
+      "surface": {
+        "accent1": {
+          "value": "#aca1ccff"
+        },
+        "accent1Muted": {
+          "value": "#ebf3f9ff"
+        },
+        "accent1Subtle": {
+          "value": "#aca1ccff"
+        },
+        "accent2": {
+          "value": "#f7f7f7ff"
+        },
+        "accent2Muted": {
+          "value": "#f7f7f7ff"
+        },
+        "default": {
+          "value": "#ffffffff"
+        },
+        "inverse": {
+          "value": "#01426aff"
+        },
+        "inverseSubtle": {
+          "value": "#2875b5ff"
+        },
+        "neutral": {
+          "value": "#f2f2f2ff"
+        },
+        "neutralMedium": {
+          "value": "#ddddddff"
+        },
+        "neutralSubtle": {
+          "value": "#f7f7f7ff"
+        }
+      },
+      "texticon": {
+        "accent1": {
+          "value": "#01426aff"
+        },
+        "default": {
+          "value": "#000000ff"
+        },
+        "disabled": {
+          "value": "#d0d0d0ff"
+        },
+        "inverse": {
+          "value": "#ffffffff"
+        },
+        "inverseDisabled": {
+          "value": "#7e8894ff"
+        },
+        "inverseMuted": {
+          "value": "#ccd2dbff"
+        },
+        "linkDefault": {
+          "value": "#5de3f7ff"
+        },
+        "linkHover": {
+          "value": "#18c3ddff"
+        },
+        "linkInverseDefault": {
+          "value": "#ffffffff"
+        },
+        "linkInverseHover": {
+          "value": "#ffffffff"
+        },
+        "muted": {
+          "value": "#3d3d3dff"
+        }
+      },
+      "tierProgram": {
+        "loungeTier": {
+          "lounge": {
+            "value": "#01426aff"
+          },
+          "loungePlus": {
+            "value": "#53b390ff"
+          }
+        },
+        "loyaltyProgram": {
+          "gold": {
+            "value": "#fbdc7aff"
+          },
+          "goldMuted": {
+            "value": "#fdefc4ff"
+          },
+          "platinum": {
+            "value": "#bcb8a4ff"
+          },
+          "platinumMuted": {
+            "value": "#dad8cdff"
+          },
+          "silver": {
+            "value": "#e4e9ecff"
+          },
+          "silverMuted": {
+            "value": "#f9fafbff"
+          },
+          "titanium": {
+            "value": "#282828ff"
+          },
+          "titaniumMuted": {
+            "value": "#545454ff"
+          }
+        },
+        "oneworld": {
+          "emerald": {
+            "value": "#139142ff"
+          },
+          "ruby": {
+            "value": "#a41d4aff"
+          },
+          "sapphire": {
+            "value": "#015daaff"
+          }
+        }
+      }
+    }
+  },
+  "uitokens": {
+    "button": {
+      "disabled": {
+        "background": {
+          "value": "#0000000d"
+        },
+        "text": {
+          "value": "#d0d0d0ff"
+        }
+      },
+      "disabledInverse": {
+        "background": {
+          "value": "#ffffff0d"
+        },
+        "text": {
+          "value": "#7e8894ff"
+        }
+      },
+      "primary": {
+        "background": {
+          "value": "#5de3f7ff"
+        },
+        "backgroundPressed": {
+          "value": "#18c3ddff"
+        },
+        "text": {
+          "value": "#ffffffff"
+        }
+      },
+      "primaryInverse": {
+        "background": {
+          "value": "#ffffffff"
+        },
+        "backgroundPressed": {
+          "value": "#ffffffcc"
+        },
+        "text": {
+          "value": "#01426aff"
+        }
+      },
+      "quaternary": {
+        "backgroundPressed": {
+          "value": "#18c3ddff"
+        },
+        "text": {
+          "value": "#5de3f7ff"
+        }
+      },
+      "quaternaryInverse": {
+        "backgroundPressed": {
+          "value": "#18c3ddff"
+        },
+        "text": {
+          "value": "#ffffffff"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "#ebfafdff"
+        },
+        "backgroundPressed": {
+          "value": "#ccc5e0ff"
+        },
+        "text": {
+          "value": "#5de3f7ff"
+        }
+      },
+      "secondaryInverse": {
+        "background": {
+          "value": "#ebfafdff"
+        },
+        "backgroundPressed": {
+          "value": "#fad8ebff"
+        },
+        "text": {
+          "value": "#5de3f7ff"
+        }
+      },
+      "tertiary": {
+        "background": {
+          "value": "#00000012"
+        },
+        "backgroundPressed": {
+          "value": "#0000001c"
+        },
+        "border": {
+          "value": "#ddddddff"
+        },
+        "text": {
+          "value": "#5de3f7ff"
+        }
+      },
+      "tertiaryInverse": {
+        "background": {
+          "value": "#ffffff12"
+        },
+        "backgroundPressed": {
+          "value": "#ffffff1c"
+        },
+        "border": {
+          "value": "#ffffffff"
+        },
+        "text": {
+          "value": "#ffffffff"
+        }
+      }
+    },
+    "component": {
+      "elevated": {
+        "value": "#00000012"
+      },
+      "pressed": {
+        "value": "#0000001c"
+      },
+      "selected": {
+        "value": "#01426aff"
+      },
+      "selectedMuted": {
+        "value": "#ebf3f9ff"
+      }
+    },
+    "componentInverse": {
+      "elevated": {
+        "value": "#ffffff12"
+      },
+      "error": {
+        "value": "#f9a4a8ff"
+      },
+      "pressed": {
+        "value": "#ffffff1c"
+      },
+      "selected": {
+        "value": "#ffffffff"
+      },
+      "selectedMuted": {
+        "value": "#ffffffcc"
+      }
+    },
+    "hyperlinkApp": {
+      "text": {
+        "value": "#5de3f7ff"
+      },
+      "textHover": {
+        "value": "#18c3ddff"
+      },
+      "textInverse": {
+        "value": "#ffffffff"
+      },
+      "textInverseHover": {
+        "value": "#ffffffff"
+      }
+    },
+    "searchWidget": {
+      "fieldIcon": {
+        "value": "#d4abeaff"
+      },
+      "routeDestination": {
+        "value": "#8ec891ff"
+      },
+      "routeOrgin": {
+        "value": "#d4abeaff"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": ["./processed/app/Alaska.tokens.json"],
+  "include": [],
+  "platforms": {
+
+    "JSONVariables": {
+      "transformGroup": "css",
+      "comment": "File type: JSON",
+      "buildPath": "./dist/figmaExport/app/",
+      "files": [
+        {
+          "destination": "alaska.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}
