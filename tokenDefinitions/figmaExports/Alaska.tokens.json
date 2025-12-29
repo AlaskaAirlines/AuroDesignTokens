@@ -1337,12 +1337,12 @@
       "$value": {
         "colorSpace": "srgb",
         "components": [
-          0.9843137264251709,
-          0.7764706015586853,
-          0.7764706015586853
+          0.9764705896377563,
+          0.6431372761726379,
+          0.658823549747467
         ],
         "alpha": 1,
-        "hex": "#FBC6C6"
+        "hex": "#F9A4A8"
       },
       "$extensions": {
         "com.figma.variableId": "VariableID:744:38349",
@@ -1358,8 +1358,8 @@
           "iOS": "basicTokens.color.status.errorSubtle"
         },
         "com.figma.aliasData": {
-          "targetVariableId": "VariableID:ce1d5cf7410c4e11908e7cda78d14ab5d234df4b/6358:136",
-          "targetVariableName": "status/error-100",
+          "targetVariableId": "VariableID:cad3e244e6ed880d7707d076faa6322d87339d50/6358:134",
+          "targetVariableName": "status/error-200",
           "targetVariableSetId": "VariableCollectionId:582a0bb0f882705f2b30a673d0af1164f8e726e6/4314:235",
           "targetVariableSetName": "Primitives - Base"
         }
