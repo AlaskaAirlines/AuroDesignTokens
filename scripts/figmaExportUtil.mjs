@@ -115,7 +115,7 @@ export default class ExportUtil {
    */
   static processValueKey(data) {
     const hexAlphas = {
-      100: "FF",
+      100: "",
       99: "FC",
       98: "FA",
       97: "F7",
@@ -365,7 +365,7 @@ export default class ExportUtil {
             const keyName = currJson[i];
             let keyValue;
             // split string into parts by dot notation
-            let keyPath = newValue.slice(1, -1).split('.');
+            let keyPath = newValue.toLowerCase().slice(1, -1).split('.');
             let currentLevel;
 
             if (keyPath[0] === 'advanced') {
@@ -464,6 +464,34 @@ export default class ExportUtil {
   }
 
   /**
+   * Recursively converts all keys of an object to lowercase.
+   * @param {object | array} obj - The input object or array.
+   * @returns {object | array} - A new object/array with lowercase keys.
+   */
+  static keysToLowerCase(obj) {
+    if (obj === null || typeof obj !== 'object') {
+      return obj; // Return non-object types (e.g., null, strings, numbers) as is.
+    }
+
+    // Handle arrays by mapping over their elements and recursively calling the function
+    if (Array.isArray(obj)) {
+      return obj.map(item => this.keysToLowerCase(item));
+    }
+
+    // Handle objects by creating a new object with lowercase keys
+    const newObj = {};
+    for (const key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        const lowerCaseKey = key.toLowerCase();
+        // Recursively process the value if it's an object or an array
+        newObj[lowerCaseKey] = this.keysToLowerCase(obj[key]);
+      }
+    }
+
+    return newObj;
+  }
+
+  /**
    * Cleans up the token data by removing unnecessary keys and processing values.
    * @param {Object} data - Token data to clean
    * @returns 
@@ -475,12 +503,12 @@ export default class ExportUtil {
     this.recursivelyRemoveKey(data, 'components');
     this.processAllValueKeys(data);
 
-    this.processedJson = JSON.parse(JSON.stringify(data).replaceAll('$value', 'value').toLowerCase());
+    this.processedJson = JSON.parse(JSON.stringify(data).replaceAll('$value', 'value'));
+    this.processedJson = this.keysToLowerCase(this.processedJson);
     this.referenceJson = this.processedJson;
 
     this.processAllTokenRefs(this.processedJson);
     this.sortKeysRecursive(this.processedJson);
-
 
     if (platform === 'app') {
       this.processedJson = this.convertAllKebabToCamel(this.processedJson);;
