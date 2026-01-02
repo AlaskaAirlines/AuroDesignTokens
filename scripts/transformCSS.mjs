@@ -151,7 +151,12 @@ async function transformCSSFiles() {
         }
       }
     } catch (error) {
-      console.log(`No CSS files found in ${PATHS.DIST}/web directory`);
+      if (error instanceof Error && error.code === 'ENOENT') {
+        console.log(`No CSS files found in ${PATHS.DIST}/web directory`);
+      } else {
+        console.error(`Error reading CSS files from ${PATHS.DIST}/web directory: ${error instanceof Error ? error.message : String(error)}`);
+        throw error;
+      }
     }
 
     // Batch process all CSS files for minification
