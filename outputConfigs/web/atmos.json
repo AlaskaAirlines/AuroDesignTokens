@@ -6,7 +6,7 @@
       "transformGroup": "scss",
       "prefix": "ds",
       "comment": "File type: SCSS; variable type: Sass",
-      "buildPath": "./dist/figmaExport/web/",
+      "buildPath": "./dist/web/",
       "files": [
         {
           "destination": "Atmos.scss",
@@ -18,7 +18,7 @@
       "transformGroup": "css",
       "prefix": "ds",
       "comment": "File type: CSS; variable type: CSS",
-      "buildPath": "./dist/figmaExport/web/",
+      "buildPath": "./dist/web/",
       "files": [
         {
           "destination": "Atmos.css",

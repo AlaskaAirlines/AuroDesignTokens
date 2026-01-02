@@ -6,7 +6,7 @@
     "JSONVariables": {
       "transformGroup": "css",
       "comment": "File type: JSON",
-      "buildPath": "./dist/figmaExport/app/",
+      "buildPath": "./dist/app/",
       "files": [
         {
           "destination": "hawaiian.json",
