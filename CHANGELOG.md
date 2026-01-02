@@ -1,5 +1,23 @@
 # Semantic Release Automated Changelog
 
+# [8.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.7.0...v8.8.0) (2026-01-02)
+
+
+### Bug Fixes
+
+* improve scripting output ([739ba1f](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/739ba1fa968ba8a8e2ed9b0aaaf5b12c3e287afc))
+
+
+### Features
+
+* build tokens from Figma Export [#372](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/372) ([75b4131](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/75b4131daf9bea8cde9f4ec79b463ac3dcda1856))
+* build tokens from Figma Export [#372](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/372) ([c9ed6ff](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c9ed6ff34f292f40a842e46c72f8cead1af48045))
+
+
+### Performance Improvements
+
+* update to latest dev dependencies ([d90fc1e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/d90fc1e1185b414e7cdd248758092250477ea5df))
+
 # [8.7.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.6.0...v8.7.0) (2025-11-04)
 
 
