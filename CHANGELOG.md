@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.8.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.1...v8.8.2) (2026-01-02)
+
+
+### Bug Fixes
+
+* restore casing for build script ([c6eba14](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c6eba14d4697b645e859be0d783af66752d8dd94))
+
 ## [8.8.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.0...v8.8.1) (2026-01-02)
 
 
