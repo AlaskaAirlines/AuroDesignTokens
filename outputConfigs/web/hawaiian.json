@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/hawaiian.tokens.json"],
+  "source": ["./processed/web/Hawaiian.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
