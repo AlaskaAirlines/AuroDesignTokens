@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/alaska.tokens.json"],
+  "source": ["./processed/web/Alaska.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
