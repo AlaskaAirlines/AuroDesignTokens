@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Hawaiian.tokens.json"],
+  "source": ["./processed/web/hawaiian.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
@@ -9,7 +9,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Hawaiian.scss",
+          "destination": "hawaiian.scss",
           "format": "scss/variables"
         }
       ]
@@ -21,7 +21,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Hawaiian.css",
+          "destination": "hawaiian.css",
           "format": "css/variables"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Alaska.tokens.json"],
+  "source": ["./processed/web/alaska.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
@@ -9,7 +9,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Alaska.scss",
+          "destination": "alaska.scss",
           "format": "scss/variables"
         }
       ]
@@ -21,7 +21,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Alaska.css",
+          "destination": "alaska.css",
           "format": "css/variables"
         }
       ]

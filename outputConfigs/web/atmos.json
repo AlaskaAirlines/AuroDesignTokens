@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Atmos.tokens.json"],
+  "source": ["./processed/web/atmos.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
@@ -9,7 +9,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Atmos.scss",
+          "destination": "atmos.scss",
           "format": "scss/variables"
         }
       ]
@@ -21,7 +21,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "Atmos.css",
+          "destination": "atmos.css",
           "format": "css/variables"
         }
       ]
