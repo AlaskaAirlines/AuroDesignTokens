@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.8.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.0...v8.8.1) (2026-01-02)
+
+
+### Performance Improvements
+
+* lowercase token file names and sources in JSON config files ([c49c5fc](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c49c5fc68b8307224fc3f7d467e533375787e7f8))
+
 # [8.8.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.7.0...v8.8.0) (2026-01-02)
 
 
