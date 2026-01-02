@@ -136,6 +136,24 @@ async function transformCSSFiles() {
       console.log('No CSS properties found in any :root {} blocks');
     }
     
+    // Add CSS files from dist/web directory
+    const webDir = path.join(PATHS.DIST, 'web');
+    
+    try {
+      const entries = await fs.readdir(webDir, { withFileTypes: true });
+      for (const entry of entries) {
+        if (entry.isFile() &&
+            entry.name.endsWith('.css') &&
+            !entry.name.endsWith('.min.css')) {
+          const filePath = path.join(webDir, entry.name);
+          filesToMinify.push(filePath);
+          console.log(`Added web/${entry.name} to minification queue`);
+        }
+      }
+    } catch (error) {
+      console.log(`No CSS files found in ${PATHS.DIST}/web directory`);
+    }
+
     // Batch process all CSS files for minification
     if (filesToMinify.length > 0) {
       console.log(`Minifying ${filesToMinify.length} CSS files...`);
@@ -157,16 +175,16 @@ async function compressCSSFile(filePath) {
     const content = await fs.readFile(filePath, 'utf8');
     const filename = path.basename(filePath);
     const dirPath = path.dirname(filePath);
-    
+
     // Generate minified filename (e.g., file.css -> file.min.css)
     const extname = path.extname(filename);
     const basename = filename.substring(0, filename.length - extname.length);
     const minFilename = `${basename}.min${extname}`;
     const minFilePath = path.join(dirPath, minFilename);
-    
+
     // Process with cssnano to minify
     const result = await postcss([cssnano(cssnanoConfig)]).process(content, { from: filePath, to: minFilePath });
-    
+
     // Write minified CSS to file
     await fs.writeFile(minFilePath, result.css);
     console.log(`Minified CSS created: ${minFilePath}`);
