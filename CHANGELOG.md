@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [8.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.2...v8.9.0) (2026-01-02)
+
+
+### Bug Fixes
+
+* improve error handling when no CSS files are found in the web directory ([f9c0e4b](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f9c0e4b38acc22ddb495b38e964051b266bd0a37))
+
+
+### Features
+
+* add support for minifying CSS files from the web directory ([8702f9d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/8702f9dbc70b107cff9466419379d0ba303135f8))
+
 ## [8.8.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.1...v8.8.2) (2026-01-02)
 
 
