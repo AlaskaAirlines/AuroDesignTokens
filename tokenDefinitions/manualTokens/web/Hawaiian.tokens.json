@@ -4,7 +4,7 @@
       "expanded": {
         "widget": {
           "background": {
-            "value": "linear-gradient(180deg, rgba(38, 32, 67, .65), rgba(38, 32, 67, 0) 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)"
+            "value": "linear-gradient(180deg, #262043A6, #26204300 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)"
           }
         }
       }
