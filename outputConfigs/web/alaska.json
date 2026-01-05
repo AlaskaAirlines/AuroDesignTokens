@@ -25,6 +25,35 @@
           "format": "css/variables"
         }
       ]
+    },
+    "JSONVariables": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: JSON; variable type: CSS",
+      "buildPath": "./dist/web/",
+      "files": [
+        {
+          "destination": "JSONVariablesNested--alaska.json",
+          "format": "json/nested"
+        }
+      ]
+    },
+    "JSObject--allTokens": {
+      "transformGroup": "js",
+      "prefix": "ds",
+      "comment": "File type: JS; data type: JS",
+      "buildPath": "./dist/web/",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css"
+      ],
+      "files": [
+        {
+          "destination": "JSObject--allTokens--alaska.js",
+          "format": "javascript/module"
+        }
+      ]
     }
   }
 }

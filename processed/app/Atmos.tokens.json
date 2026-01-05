@@ -1,5 +1,5 @@
 {
-  "basic": {
+  "basicTokens": {
     "color": {
       "border": {
         "bold": {
@@ -7,9 +7,6 @@
         },
         "brand": {
           "value": "#101D2C"
-        },
-        "default": {
-          "value": "#DFD7C3"
         },
         "divider": {
           "value": "#E9E6D9"
@@ -19,6 +16,9 @@
         },
         "inverse": {
           "value": "#FFFFFF"
+        },
+        "standard": {
+          "value": "#DFD7C3"
         },
         "subtle": {
           "value": "#E9E6D9"
@@ -80,7 +80,7 @@
         }
       },
       "pageBackground": {
-        "default": {
+        "standard": {
           "value": "#FFFFFF"
         },
         "utility": {
@@ -88,9 +88,6 @@
         }
       },
       "status": {
-        "default": {
-          "value": "#AFB9C6"
-        },
         "error": {
           "value": "#E31F26"
         },
@@ -102,6 +99,9 @@
         },
         "infoSubtle": {
           "value": "#EBF7FF"
+        },
+        "standard": {
+          "value": "#AFB9C6"
         },
         "success": {
           "value": "#447A1F"
@@ -132,9 +132,6 @@
         "accent2Muted": {
           "value": "#E2E8EE"
         },
-        "default": {
-          "value": "#FFFFFF"
-        },
         "inverse": {
           "value": "#101D2C"
         },
@@ -149,13 +146,13 @@
         },
         "neutralSubtle": {
           "value": "#FAF9F5"
+        },
+        "standard": {
+          "value": "#FFFFFF"
         }
       },
-      "texticon": {
+      "textIcon": {
         "accent1": {
-          "value": "#101D2C"
-        },
-        "default": {
           "value": "#101D2C"
         },
         "disabled": {
@@ -184,6 +181,9 @@
         },
         "muted": {
           "value": "#6A717C"
+        },
+        "standard": {
+          "value": "#101D2C"
         }
       },
       "tierProgram": {
@@ -233,9 +233,186 @@
           }
         }
       }
+    },
+    "typography": {
+      "accent2xl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.6,
+        "lineHeight": "100%"
+      },
+      "accent2xs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.4,
+        "lineHeight": "130%"
+      },
+      "accentlg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 24,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.2,
+        "lineHeight": "130%"
+      },
+      "accentmd": {
+        "fontFamily": "AS Circular",
+        "fontSize": 22,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.1,
+        "lineHeight": "130%"
+      },
+      "accentsm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "letterSpacing": 0.9,
+        "lineHeight": "130%"
+      },
+      "accentxl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 26,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.3,
+        "lineHeight": "130%"
+      },
+      "accentxs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.6,
+        "lineHeight": "130%"
+      },
+      "body2xs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 10,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 14
+      },
+      "bodydefault": {
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 24
+      },
+      "bodylg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 26
+      },
+      "bodysm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 20
+      },
+      "bodyxs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 12,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 16
+      },
+      "display2xl": {
+        "fontFamily": "Teodor",
+        "fontSize": 56,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaylg": {
+        "fontFamily": "Teodor",
+        "fontSize": 44,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaymd": {
+        "fontFamily": "Teodor",
+        "fontSize": 40,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaysm": {
+        "fontFamily": "Teodor",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxl": {
+        "fontFamily": "Teodor",
+        "fontSize": 48,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxs": {
+        "fontFamily": "Teodor",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "heading2xs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headinglg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingmd": {
+        "fontFamily": "AS Circular",
+        "fontSize": 26,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingsm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 22,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 20,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      }
     }
   },
-  "uitokens": {
+  "themeMetadata": {
+    "code": "atmosLight",
+    "displayName": "Atmos Rewards",
+    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
+    "name": "Atmos Rewards",
+    "webviewCode": "auro.theme.atmos"
+  },
+  "uiTokens": {
     "button": {
       "disabled": {
         "background": {

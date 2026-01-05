@@ -236,181 +236,181 @@
     },
     "typography": {
       "accent2xl": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 32,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.6,
         "lineHeight": "100%"
       },
       "accent2xs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 14,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.4,
         "lineHeight": "130%"
       },
       "accentlg": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 24,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.2,
         "lineHeight": "130%"
       },
       "accentmd": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 22,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.1,
         "lineHeight": "130%"
       },
       "accentsm": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0.9,
         "lineHeight": "130%"
       },
       "accentxl": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 26,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.3,
         "lineHeight": "130%"
       },
       "accentxs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 1.6,
         "lineHeight": "130%"
       },
       "body2xs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 10,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 14
       },
       "bodydefault": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 24
       },
       "bodylg": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 26
       },
       "bodysm": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 14,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 20
       },
       "bodyxs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 12,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 16
       },
       "display2xl": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 56,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaylg": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 44,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaymd": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 40,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaysm": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 32,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displayxl": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 48,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displayxs": {
-        "fontFamily": "Chronicle Display",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 28,
-        "fontWeight": "Semibold",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "heading2xs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headinglg": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 28,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingmd": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 26,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingsm": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 22,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingxl": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 32,
-        "fontWeight": "Regular",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingxs": {
-        "fontFamily": "Slate Pro",
+        "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 20,
-        "fontWeight": "Medium",
+        "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       }
     }
   },
   "themeMetadata": {
-    "code": "haLight",
-    "displayName": "Hawaiian Airlines",
-    "iconUrl": "https://resource.alaskaair.net/v3/assets/blt2cefe12c88e9dd91/blt9c8b19b678650fc0/68dadf0eb0736f7fefe5fdb3/ha_favicon.ico",
-    "name": "Hawaiian Airlines",
-    "webviewCode": "auro.theme.hawaiian"
+    "code": "TEST",
+    "displayName": "Test",
+    "iconUrl": "https://generalaviationnews.s3.amazonaws.com/uploads/2016/02/Alaska-Airlines-logo-old.jpeg",
+    "name": "Test theme",
+    "webviewCode": "auro.theme.test"
   },
   "uiTokens": {
     "button": {

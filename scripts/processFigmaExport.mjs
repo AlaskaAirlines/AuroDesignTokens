@@ -8,3 +8,6 @@ FigmaExportUtil.processTokenConfiguration('Hawaiian.tokens.json', 'app');
 
 FigmaExportUtil.processTokenConfiguration('Atmos.tokens.json', 'web');
 FigmaExportUtil.processTokenConfiguration('Atmos.tokens.json', 'app');
+
+FigmaExportUtil.processTokenConfiguration('Test.tokens.json', 'web');
+FigmaExportUtil.processTokenConfiguration('Test.tokens.json', 'app'); 
