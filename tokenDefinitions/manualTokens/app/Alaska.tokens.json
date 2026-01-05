@@ -1,0 +1,181 @@
+{
+  "basicTokens": {
+    "typography": {
+      "display2xl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 56,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "displayXl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 48,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "displayLg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 44,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "displayMd": {
+        "fontFamily": "AS Circular",
+        "fontSize": 40,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "displaySm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "displayXs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "headingXl": {
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "headingLg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "headingMd": {
+        "fontFamily": "AS Circular",
+        "fontSize": 26,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "headingSm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 22,
+        "fontWeight": "Light",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "headingXs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 20,
+        "fontWeight": "Book",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "heading2xs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Book",
+        "lineHeight": "130%",
+        "letterSpacing": 0
+    },
+    "bodyLg": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Book",
+        "lineHeight": 26,
+        "letterSpacing": 0
+    },
+    "bodyDefault": {
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Book",
+        "lineHeight": 24,
+        "letterSpacing": 0
+    },
+    "bodySm": {
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Book",
+        "lineHeight": 20,
+        "letterSpacing": 0
+    },
+    "bodyXs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 12,
+        "fontWeight": "Book",
+        "lineHeight": 16,
+        "letterSpacing": 0
+    },
+    "body2xs": {
+        "fontFamily": "AS Circular",
+        "fontSize": 10,
+        "fontWeight": "Book",
+        "lineHeight": 14,
+        "letterSpacing": 0
+    },
+    "accent2xl": {
+        "fontFamily": "Good OT",
+        "fontSize": 32,
+        "fontWeight": "Cond News",
+        "lineHeight": "100%",
+        "letterSpacing": 1.6
+    },
+    "accentXl": {
+        "fontFamily": "Good OT",
+        "fontSize": 26,
+        "fontWeight": "Cond News",
+        "lineHeight": "130%",
+        "letterSpacing": 1.3
+    },
+    "accentLg": {
+        "fontFamily": "Good OT",
+        "fontSize": 24,
+        "fontWeight": "Cond News",
+        "lineHeight": "130%",
+        "letterSpacing": 1.2
+    },
+    "accentMd": {
+        "fontFamily": "Good OT",
+        "fontSize": 22,
+        "fontWeight": "Cond Medium",
+        "lineHeight": "130%",
+        "letterSpacing": 1.1
+    },
+    "accentSm": {
+        "fontFamily": "Good OT",
+        "fontSize": 18,
+        "fontWeight": "Cond Medium",
+        "lineHeight": "130%",
+        "letterSpacing": 0.9
+    },
+    "accentXs": {
+        "fontFamily": "Good OT",
+        "fontSize": 16,
+        "fontWeight": "Cond Medium",
+        "lineHeight": "130%",
+        "letterSpacing": 1.6
+    },
+    "accent2xs": {
+        "fontFamily": "Good OT",
+        "fontSize": 14,
+        "fontWeight": "Cond News",
+        "lineHeight": "130%",
+        "letterSpacing": 1.4
+      }
+    }
+  },
+  "themeMetadata": {
+    "code": "asLight",
+    "displayName": "Alaska Airlines",
+    "name": "Alaska Airlines",
+    "webviewCode": "auro.theme.alaska",
+    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt52aa7bbcad1a728f/favicon.ico"
+  }
+}

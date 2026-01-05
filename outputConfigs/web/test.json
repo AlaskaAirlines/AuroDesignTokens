@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Hawaiian.tokens.json"],
+  "source": ["./processed/web/Test.tokens.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
@@ -9,7 +9,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "hawaiian.scss",
+          "destination": "test.scss",
           "format": "scss/variables"
         }
       ]
@@ -21,7 +21,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "hawaiian.css",
+          "destination": "test.css",
           "format": "css/variables"
         }
       ]
@@ -33,7 +33,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "JSONVariablesNested--hawaiian.json",
+          "destination": "JSONVariablesNested--test.json",
           "format": "json/nested"
         }
       ]
@@ -50,7 +50,7 @@
       ],
       "files": [
         {
-          "destination": "JSObject--allTokens--hawaiian.js",
+          "destination": "JSObject--allTokens--test.js",
           "format": "javascript/module"
         }
       ]
