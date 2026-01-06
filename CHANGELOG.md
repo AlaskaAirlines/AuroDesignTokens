@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.9.0...v8.10.0) (2026-01-06)
+
+
+### Features
+
+* integrate figma workflow [#389](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/389) ([5612513](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5612513cedeb61a933f3197c1518ee6da7de0510))
+
 # [8.9.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.8.2...v8.9.0) (2026-01-02)
 
 
