@@ -188,13 +188,17 @@ export default class ExportUtil {
     // Iterate over properties of the current object
     for (const i in obj) {
       if (Object.prototype.hasOwnProperty.call(obj, i)) {
+        let keyToRecurse = i;
+
         if (i === oldKeyName) {
           obj[newKeyName] = obj[i];
           delete obj[i];
+          keyToRecurse = newKeyName;
         }
+
         // If the property is an object or an array, recurse
-        if (typeof obj[i] === 'object' && obj[i] !== null) {
-          this.findAndReplaceAllKeyNames(obj[i], oldKeyName, newKeyName);
+        if (typeof obj[keyToRecurse] === 'object' && obj[keyToRecurse] !== null) {
+          this.findAndReplaceAllKeyNames(obj[keyToRecurse], oldKeyName, newKeyName);
         }
       }
     }
