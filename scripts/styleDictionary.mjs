@@ -75,6 +75,8 @@ const legacyThemes = [
   { configName: 'HawaiianWeb', configPath: './outputConfigs/web/hawaiian.json' },
   { configName: 'AtmosApp', configPath: './outputConfigs/app/atmos.json' },
   { configName: 'AtmosWeb', configPath: './outputConfigs/web/atmos.json' },
+  { configName: 'TestApp', configPath: './outputConfigs/app/test.json' },
+  { configName: 'TestWeb', configPath: './outputConfigs/web/test.json' },
 ];
 
 // Color transform configuration

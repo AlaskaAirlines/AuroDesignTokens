@@ -1,5 +1,5 @@
 {
-  "basic": {
+  "basicTokens": {
     "color": {
       "border": {
         "bold": {
@@ -7,9 +7,6 @@
         },
         "brand": {
           "value": "#463C8F"
-        },
-        "default": {
-          "value": "#D0D0D0"
         },
         "divider": {
           "value": "#00000026"
@@ -19,6 +16,9 @@
         },
         "inverse": {
           "value": "#FFFFFF"
+        },
+        "standard": {
+          "value": "#D0D0D0"
         },
         "subtle": {
           "value": "#DDDDDD"
@@ -80,7 +80,7 @@
         }
       },
       "pageBackground": {
-        "default": {
+        "standard": {
           "value": "#FFFFFF"
         },
         "utility": {
@@ -88,9 +88,6 @@
         }
       },
       "status": {
-        "default": {
-          "value": "#AFB9C6"
-        },
         "error": {
           "value": "#E31F26"
         },
@@ -102,6 +99,9 @@
         },
         "infoSubtle": {
           "value": "#E8F2F8"
+        },
+        "standard": {
+          "value": "#AFB9C6"
         },
         "success": {
           "value": "#447A1F"
@@ -132,9 +132,6 @@
         "accent2Muted": {
           "value": "#F7F7F7"
         },
-        "default": {
-          "value": "#FFFFFF"
-        },
         "inverse": {
           "value": "#463C8F"
         },
@@ -149,14 +146,14 @@
         },
         "neutralSubtle": {
           "value": "#F7F7F7"
+        },
+        "standard": {
+          "value": "#FFFFFF"
         }
       },
       "texticon": {
         "accent1": {
           "value": "#463C8F"
-        },
-        "default": {
-          "value": "#000000"
         },
         "disabled": {
           "value": "#D0D0D0"
@@ -184,6 +181,9 @@
         },
         "muted": {
           "value": "#3D3D3D"
+        },
+        "standard": {
+          "value": "#000000"
         }
       },
       "tierProgram": {
@@ -233,9 +233,186 @@
           }
         }
       }
+    },
+    "typography": {
+      "accent2xl": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 32,
+        "fontweight": "Regular",
+        "letterspacing": 1.6,
+        "lineheight": "100%"
+      },
+      "accent2xs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 14,
+        "fontweight": "Regular",
+        "letterspacing": 1.4,
+        "lineheight": "130%"
+      },
+      "accentlg": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 24,
+        "fontweight": "Regular",
+        "letterspacing": 1.2,
+        "lineheight": "130%"
+      },
+      "accentmd": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 22,
+        "fontweight": "Medium",
+        "letterspacing": 1.1,
+        "lineheight": "130%"
+      },
+      "accentsm": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 18,
+        "fontweight": "Medium",
+        "letterspacing": 0.9,
+        "lineheight": "130%"
+      },
+      "accentxl": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 26,
+        "fontweight": "Regular",
+        "letterspacing": 1.3,
+        "lineheight": "130%"
+      },
+      "accentxs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 16,
+        "fontweight": "Medium",
+        "letterspacing": 1.6,
+        "lineheight": "130%"
+      },
+      "body2xs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 10,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": 14
+      },
+      "bodydefault": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 16,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": 24
+      },
+      "bodylg": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 18,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": 26
+      },
+      "bodysm": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 14,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": 20
+      },
+      "bodyxs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 12,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": 16
+      },
+      "display2xl": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 56,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "displaylg": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 44,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "displaymd": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 40,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "displaysm": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 32,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "displayxl": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 48,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "displayxs": {
+        "fontfamily": "Chronicle Display",
+        "fontsize": 28,
+        "fontweight": "Semibold",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "heading2xs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 18,
+        "fontweight": "Medium",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "headinglg": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 28,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "headingmd": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 26,
+        "fontweight": "Medium",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "headingsm": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 22,
+        "fontweight": "Medium",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "headingxl": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 32,
+        "fontweight": "Regular",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      },
+      "headingxs": {
+        "fontfamily": "Slate Pro",
+        "fontsize": 20,
+        "fontweight": "Medium",
+        "letterspacing": 0,
+        "lineheight": "130%"
+      }
     }
   },
-  "uitokens": {
+  "themeMetadata": {
+    "code": "haLight",
+    "displayname": "Hawaiian Airlines",
+    "iconurl": "https://resource.alaskaair.net/v3/assets/blt2cefe12c88e9dd91/blt9c8b19b678650fc0/68dadf0eb0736f7fefe5fdb3/ha_favicon.ico",
+    "name": "Hawaiian Airlines",
+    "webviewcode": "auro.theme.hawaiian"
+  },
+  "uiTokens": {
     "button": {
       "disabled": {
         "background": {

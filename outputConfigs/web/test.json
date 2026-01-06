@@ -1,0 +1,30 @@
+{
+  "source": ["./processed/web/Test.tokens.json"],
+  "include": [],
+  "platforms": {
+    "SCSSVariables": {
+      "transformGroup": "scss",
+      "prefix": "ds",
+      "comment": "File type: SCSS; variable type: Sass",
+      "buildPath": "./dist/web/",
+      "files": [
+        {
+          "destination": "test.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "CSSCustomProperties": {
+      "transformGroup": "css",
+      "prefix": "ds",
+      "comment": "File type: CSS; variable type: CSS",
+      "buildPath": "./dist/web/",
+      "files": [
+        {
+          "destination": "test.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

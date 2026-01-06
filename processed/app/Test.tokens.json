@@ -3,13 +3,13 @@
     "color": {
       "border": {
         "bold": {
-          "value": "#585E67"
+          "value": "#ADADAD"
         },
         "brand": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         },
         "divider": {
-          "value": "#E9E6D9"
+          "value": "#00000026"
         },
         "dividerInverse": {
           "value": "#FFFFFF66"
@@ -18,65 +18,65 @@
           "value": "#FFFFFF"
         },
         "standard": {
-          "value": "#DFD7C3"
+          "value": "#D0D0D0"
         },
         "subtle": {
-          "value": "#E9E6D9"
+          "value": "#DDDDDD"
         }
       },
       "brand": {
         "primary": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         },
         "primaryBold": {
-          "value": "#101D2C"
+          "value": "#31295C"
         },
         "primaryMuted": {
-          "value": "#EBF7FF"
+          "value": "#EDEAF4"
         },
         "primarySubtle": {
-          "value": "#003761"
+          "value": "#8C7EB8"
         },
         "secondary": {
-          "value": "#C7D6E5"
+          "value": "#CE0C88"
         },
         "secondaryBold": {
-          "value": "#8CA7C9"
+          "value": "#831A57"
         },
         "secondaryMuted": {
-          "value": "#ECF0F3"
+          "value": "#FDF1F8"
         },
         "secondarySubtle": {
-          "value": "#E2E8EE"
+          "value": "#E26DB8"
         },
         "tertiary": {
-          "value": "#FAF9F5"
+          "value": "#EE453D"
         },
         "tertiaryBold": {
-          "value": "#DFD7C3"
+          "value": "#97322A"
         },
         "tertiaryMuted": {
-          "value": "#FAF9F5"
+          "value": "#FFEEEA"
         },
         "tertiarySubtle": {
-          "value": "#E9E6D9"
+          "value": "#FF9080"
         }
       },
       "fare": {
         "basiceconomy": {
-          "value": "#97EAF8"
+          "value": "#D0D0D0"
         },
         "business": {
-          "value": "#002C4E"
+          "value": "#463C8F"
         },
         "economy": {
-          "value": "#0074CA"
+          "value": "#CE0C88"
         },
         "first": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         },
         "premiumeconomy": {
-          "value": "#005154"
+          "value": "#1B6976"
         }
       },
       "pageBackground": {
@@ -84,7 +84,7 @@
           "value": "#FFFFFF"
         },
         "utility": {
-          "value": "#FAF9F5"
+          "value": "#FFFFFF"
         }
       },
       "status": {
@@ -95,10 +95,10 @@
           "value": "#FBC6C6"
         },
         "info": {
-          "value": "#C7D6E5"
+          "value": "#007DB1"
         },
         "infoSubtle": {
-          "value": "#EBF7FF"
+          "value": "#E8F2F8"
         },
         "standard": {
           "value": "#AFB9C6"
@@ -118,34 +118,34 @@
       },
       "surface": {
         "accent1": {
-          "value": "#C7D6E5"
+          "value": "#ACA1CC"
         },
         "accent1Muted": {
-          "value": "#E2E8EE"
+          "value": "#EDEAF4"
         },
         "accent1Subtle": {
-          "value": "#C7D6E5"
+          "value": "#ACA1CC"
         },
         "accent2": {
-          "value": "#C7D6E5"
+          "value": "#F7F7F7"
         },
         "accent2Muted": {
-          "value": "#E2E8EE"
+          "value": "#F7F7F7"
         },
         "inverse": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         },
         "inverseSubtle": {
-          "value": "#101D2C"
+          "value": "#8C7EB8"
         },
         "neutral": {
-          "value": "#FAF9F5"
+          "value": "#F2F2F2"
         },
         "neutralMedium": {
-          "value": "#E9E6D9"
+          "value": "#DDDDDD"
         },
         "neutralSubtle": {
-          "value": "#FAF9F5"
+          "value": "#F7F7F7"
         },
         "standard": {
           "value": "#FFFFFF"
@@ -153,37 +153,37 @@
       },
       "texticon": {
         "accent1": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         },
         "disabled": {
-          "value": "#DDDDDD"
+          "value": "#D0D0D0"
         },
         "inverse": {
-          "value": "#FAF9F5"
+          "value": "#FFFFFF"
         },
         "inverseDisabled": {
           "value": "#7E8894"
         },
         "inverseMuted": {
-          "value": "#C5C5C5"
+          "value": "#CCD2DB"
         },
         "linkDefault": {
-          "value": "#101D2C"
+          "value": "#CE0C88"
         },
         "linkHover": {
-          "value": "#005FA7"
+          "value": "#831A57"
         },
         "linkInverseDefault": {
-          "value": "#FAF9F5"
+          "value": "#FFFFFF"
         },
         "linkInverseHover": {
-          "value": "#CFE0EF"
+          "value": "#FFFFFF"
         },
         "muted": {
-          "value": "#6A717C"
+          "value": "#3D3D3D"
         },
         "standard": {
-          "value": "#101D2C"
+          "value": "#000000"
         }
       },
       "tierProgram": {
@@ -236,181 +236,181 @@
     },
     "typography": {
       "accent2xl": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 32,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.6,
         "lineheight": "100%"
       },
       "accent2xs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 14,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.4,
         "lineheight": "130%"
       },
       "accentlg": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 24,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.2,
         "lineheight": "130%"
       },
       "accentmd": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 22,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.1,
         "lineheight": "130%"
       },
       "accentsm": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 18,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 0.9,
         "lineheight": "130%"
       },
       "accentxl": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 26,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.3,
         "lineheight": "130%"
       },
       "accentxs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 16,
-        "fontweight": "Medium",
+        "fontweight": "MediumItalic",
         "letterspacing": 1.6,
         "lineheight": "130%"
       },
       "body2xs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 10,
-        "fontweight": "Book",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": 14
       },
       "bodydefault": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 16,
-        "fontweight": "Book",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": 24
       },
       "bodylg": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 18,
-        "fontweight": "Book",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": 26
       },
       "bodysm": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 14,
-        "fontweight": "Book",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": 20
       },
       "bodyxs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 12,
-        "fontweight": "Book",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": 16
       },
       "display2xl": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 56,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "displaylg": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 44,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "displaymd": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 40,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "displaysm": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 32,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "displayxl": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 48,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "displayxs": {
-        "fontfamily": "Teodor",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 28,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "heading2xs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 18,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "headinglg": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 28,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "headingmd": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 26,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "headingsm": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 22,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "headingxl": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 32,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       },
       "headingxs": {
-        "fontfamily": "AS Circular",
+        "fontfamily": "OpenSans-MediumItalic",
         "fontsize": 20,
-        "fontweight": "Light",
+        "fontweight": "MediumItalic",
         "letterspacing": 0,
         "lineheight": "130%"
       }
     }
   },
   "themeMetadata": {
-    "code": "atmosLight",
-    "displayname": "Atmos Rewards",
-    "iconurl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
-    "name": "Atmos Rewards",
-    "webviewcode": "auro.theme.atmos"
+    "code": "TEST",
+    "displayname": "Test",
+    "iconurl": "https://generalaviationnews.s3.amazonaws.com/uploads/2016/02/Alaska-Airlines-logo-old.jpeg",
+    "name": "Test theme",
+    "webviewcode": "auro.theme.test"
   },
   "uiTokens": {
     "button": {
@@ -419,7 +419,7 @@
           "value": "#0000000D"
         },
         "text": {
-          "value": "#DDDDDD"
+          "value": "#D0D0D0"
         }
       },
       "disabledInverse": {
@@ -432,13 +432,13 @@
       },
       "primary": {
         "background": {
-          "value": "#AEDEFF"
+          "value": "#CE0C88"
         },
         "backgroundPressed": {
-          "value": "#63BEFF"
+          "value": "#831A57"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#FFFFFF"
         }
       },
       "primaryInverse": {
@@ -449,20 +449,20 @@
           "value": "#FFFFFFCC"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#463C8F"
         }
       },
       "quaternary": {
         "backgroundPressed": {
-          "value": "#63BEFF"
+          "value": "#831A57"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#CE0C88"
         }
       },
       "quaternaryInverse": {
         "backgroundPressed": {
-          "value": "#63BEFF"
+          "value": "#831A57"
         },
         "text": {
           "value": "#FFFFFF"
@@ -470,24 +470,24 @@
       },
       "secondary": {
         "background": {
-          "value": "#EBF7FF"
+          "value": "#FDF1F8"
         },
         "backgroundPressed": {
-          "value": "#AEDEFF"
+          "value": "#CCC5E0"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#CE0C88"
         }
       },
       "secondaryInverse": {
         "background": {
-          "value": "#EBF7FF"
+          "value": "#FDF1F8"
         },
         "backgroundPressed": {
-          "value": "#AEDEFF"
+          "value": "#FAD8EB"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#CE0C88"
         }
       },
       "tertiary": {
@@ -498,10 +498,10 @@
           "value": "#0000001C"
         },
         "border": {
-          "value": "#E9E6D9"
+          "value": "#DDDDDD"
         },
         "text": {
-          "value": "#101D2C"
+          "value": "#CE0C88"
         }
       },
       "tertiaryInverse": {
@@ -527,10 +527,10 @@
         "value": "#0000001C"
       },
       "selected": {
-        "value": "#101D2C"
+        "value": "#463C8F"
       },
       "selectedMuted": {
-        "value": "#EBF7FF"
+        "value": "#EDEAF4"
       }
     },
     "componentInverse": {
@@ -552,27 +552,27 @@
     },
     "hyperlinkApp": {
       "text": {
-        "value": "#101D2C"
+        "value": "#CE0C88"
       },
       "textHover": {
-        "value": "#005FA7"
+        "value": "#831A57"
       },
       "textInverse": {
-        "value": "#FAF9F5"
+        "value": "#FFFFFF"
       },
       "textInverseHover": {
-        "value": "#CFE0EF"
+        "value": "#FFFFFF"
       }
     },
     "searchWidget": {
       "fieldIcon": {
-        "value": "#C7D6E5"
+        "value": "#D4ABEA"
       },
       "routeDestination": {
-        "value": "#E9E6D9"
+        "value": "#8EC891"
       },
       "routeOrgin": {
-        "value": "#C7D6E5"
+        "value": "#D4ABEA"
       }
     }
   }

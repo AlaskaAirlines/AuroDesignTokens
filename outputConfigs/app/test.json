@@ -1,0 +1,18 @@
+{
+  "source": ["./processed/app/Test.tokens.json"],
+  "include": [],
+  "platforms": {
+
+    "JSONVariables": {
+      "transformGroup": "css",
+      "comment": "File type: JSON",
+      "buildPath": "./dist/app/",
+      "files": [
+        {
+          "destination": "test.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}

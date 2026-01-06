@@ -19,18 +19,17 @@ export default class ExportUtil {
     let exportStr = this.fetchFile(figmaImportDir, fileName);
     exportStr = exportStr.replace(/[\u200B-\u200D\uFEFF]/g, ''); // remove zero-width characters that Figma sometimes adds
     let exportJson = JSON.parse(exportStr);
-    const basicTokens = {
-      "basic": {
-        "color": {
-          ['brand']: exportJson['Brand'],
-          ['texticon']: exportJson['Text & Icon'],
-          ['page-background']: exportJson['Page-Background'],
-          ['surface']: exportJson['Surface'],
-          ['border']: exportJson['Border'],
-          ['status']: exportJson['Status'],
-          ['tier-program']: exportJson['Tier-Program'],
-          ['fare']: exportJson['Fare'],
-        }
+
+    const basicColorTokens = {
+      "color": {
+        ['brand']: exportJson['Brand'],
+        ['texticon']: exportJson['Text & Icon'],
+        ['page-background']: exportJson['Page-Background'],
+        ['surface']: exportJson['Surface'],
+        ['border']: exportJson['Border'],
+        ['status']: exportJson['Status'],
+        ['tier-program']: exportJson['Tier-Program'],
+        ['fare']: exportJson['Fare'],
       }
     }
     let importTokens = {};
@@ -41,10 +40,14 @@ export default class ExportUtil {
         "uiTokens": exportJson.uiTokens
       }
 
+      const basicAppTokens = {
+        "basicTokens": basicColorTokens
+      }
+
       // combine all basic and advanced tokens
       importTokens = {
         ...appAdvancedTokens,
-        ...basicTokens
+        ...basicAppTokens
       }
     } else if (platform === 'web') {
       const webAdvancedTokens = {
@@ -53,16 +56,20 @@ export default class ExportUtil {
         }
       }
 
-      const manualJson = JSON.parse(this.fetchFile(manualImportDir, fileName));
+      const basicWebTokens = {
+        "basic": basicColorTokens
+      }
 
       // combine basic and advanced web tokens
       importTokens = {
         ...webAdvancedTokens,
-        ...basicTokens
+        ...basicWebTokens
       }
-
-      importTokens = _.merge(importTokens, manualJson);
     }
+
+    const manualJson = JSON.parse(this.fetchFile(manualImportDir, fileName));
+
+    importTokens = _.merge(importTokens, manualJson);
     
     return importTokens;
   }
@@ -244,21 +251,42 @@ export default class ExportUtil {
    * @param {Object} obj - Source object to find value keys in
    */
   static processAllValueKeys(obj) {
-  const keyToFind = '$value';
+    const keyToFind = '$value';
 
-  // Iterate over properties of the current object
-  for (const i in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, i)) {
-      if (i === keyToFind) {
-        obj[i] = this.processValueKey(obj[i]);
-      }
-      // If the property is an object or an array, recurse
-      if (typeof obj[i] === 'object' && obj[i] !== null) {
-        this.processAllValueKeys(obj[i]);
+    // Iterate over properties of the current object
+    for (const i in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, i)) {
+        if (i === keyToFind) {
+          obj[i] = this.processValueKey(obj[i]);
+        }
+        // If the property is an object or an array, recurse
+        if (typeof obj[i] === 'object' && obj[i] !== null) {
+          this.processAllValueKeys(obj[i]);
+        }
       }
     }
   }
-}
+
+  /**
+   * Finds all `value` keys in an object, and requesting each to be processed.
+   * @param {Object} obj - Source object to find value keys in
+   */
+  static findAndReplaceAllKeyNames(obj, oldKeyName, newKeyName) {
+    // Iterate over properties of the current object
+    for (const i in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, i)) {
+        if (i === oldKeyName) {
+          obj[newKeyName] = obj[i];
+          delete obj[i];
+        }
+        // If the property is an object or an array, recurse
+        if (typeof obj[i] === 'object' && obj[i] !== null) {
+          this.findAndReplaceAllKeyNames(obj[i], oldKeyName, newKeyName);
+        }
+      }
+    }
+    return obj;
+  }
 
   /**
    * Converts a kebab-case string to camelCase.
@@ -371,7 +399,11 @@ export default class ExportUtil {
             if (keyPath[0] === 'advanced') {
               currentLevel = this.referenceJson.advanced.color;
             } else {
-              currentLevel = this.referenceJson.basic.color;
+              if( this.platform === 'app') {
+                currentLevel = this.referenceJson.basictokens.color;
+              } else { 
+                currentLevel = this.referenceJson.basic.color;
+              }
             }
             
             for (let i = 0; i < keyPath.length; i++) {
@@ -508,11 +540,22 @@ export default class ExportUtil {
     this.referenceJson = this.processedJson;
 
     this.processAllTokenRefs(this.processedJson);
-    this.sortKeysRecursive(this.processedJson);
 
-    if (platform === 'app') {
-      this.processedJson = this.convertAllKebabToCamel(this.processedJson);;
+    if(platform === 'app') {
+      this.processedJson = this.findAndReplaceAllKeyNames(this.processedJson, 'default', 'standard');
+      this.processedJson = this.convertAllKebabToCamel(this.processedJson);
+
+      this.processedJson["themeMetadata"] = this.processedJson.thememetadata;
+      delete this.processedJson.thememetadata;
+
+      this.processedJson["basicTokens"] = this.processedJson.basictokens;
+      delete this.processedJson.basictokens;
+
+      this.processedJson["uiTokens"] = this.processedJson.uitokens;
+      delete this.processedJson.uitokens;
     }
+
+    this.sortKeysRecursive(this.processedJson);
   }
 
   /**
@@ -521,6 +564,8 @@ export default class ExportUtil {
    * @param {String} platform - Target platform ('app' or 'web').
    */
   static processTokenConfiguration(fileName, platform) {
+    this.platform = platform;
+
     const importTokens = this.fetchImportTokens(fileName, platform);
 
     // ensure we start from a clean slate for every call
