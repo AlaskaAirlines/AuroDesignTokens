@@ -487,6 +487,7 @@ export default class ExportUtil {
 
       // Rename keys from lowercase to camelCase throughout the entire object
       const camelCaseKeyMappings = {
+        'texticon': 'textIcon',
         'thememetadata': 'themeMetadata',
         'basictokens': 'basicTokens',
         'uitokens': 'uiTokens',
