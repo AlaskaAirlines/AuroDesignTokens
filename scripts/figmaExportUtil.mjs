@@ -524,9 +524,36 @@ export default class ExportUtil {
   }
 
   /**
+   * Recursively renames keys in an object from lowercase to camelCase using a provided mapping.
+   * @param {Object} obj - Object to process
+   * @param {Object} keyMappings - Object mapping lowercase keys to camelCase keys
+   * @returns {Object} - Object with renamed keys
+   */
+  static renameToCamelCase(obj, keyMappings) {
+    if (obj === null || typeof obj !== 'object') {
+      return obj;
+    }
+
+    if (Array.isArray(obj)) {
+      return obj.map(item => this.renameToCamelCase(item, keyMappings));
+    }
+
+    const newObj = {};
+    for (const key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        // Check if this key needs to be renamed
+        const newKey = keyMappings[key] || key;
+        // Recursively process the value
+        newObj[newKey] = this.renameToCamelCase(obj[key], keyMappings);
+      }
+    }
+    return newObj;
+  }
+
+  /**
    * Cleans up the token data by removing unnecessary keys and processing values.
    * @param {Object} data - Token data to clean
-   * @returns 
+   * @returns
    */
   static cleanData(data, platform) {
     this.recursivelyRemoveKey(data, '$type');
@@ -545,14 +572,22 @@ export default class ExportUtil {
       this.processedJson = this.findAndReplaceAllKeyNames(this.processedJson, 'default', 'standard');
       this.processedJson = this.convertAllKebabToCamel(this.processedJson);
 
-      this.processedJson["themeMetadata"] = this.processedJson.thememetadata;
-      delete this.processedJson.thememetadata;
+      // Rename keys from lowercase to camelCase throughout the entire object
+      const camelCaseKeyMappings = {
+        'thememetadata': 'themeMetadata',
+        'basictokens': 'basicTokens',
+        'uitokens': 'uiTokens',
+        'fontfamily': 'fontFamily',
+        'fontsize': 'fontSize',
+        'fontweight': 'fontWeight',
+        'letterspacing': 'letterSpacing',
+        'lineheight': 'lineHeight',
+        'displayname': 'displayName',
+        'iconurl': 'iconUrl',
+        'webviewcode': 'webviewCode'
+      };
 
-      this.processedJson["basicTokens"] = this.processedJson.basictokens;
-      delete this.processedJson.basictokens;
-
-      this.processedJson["uiTokens"] = this.processedJson.uitokens;
-      delete this.processedJson.uitokens;
+      this.processedJson = this.renameToCamelCase(this.processedJson, camelCaseKeyMappings);
     }
 
     this.sortKeysRecursive(this.processedJson);
