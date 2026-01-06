@@ -236,181 +236,181 @@
     },
     "typography": {
       "accent2xl": {
-        "fontfamily": "AS Circular",
-        "fontsize": 32,
-        "fontweight": "Medium",
-        "letterspacing": 1.6,
-        "lineheight": "100%"
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.6,
+        "lineHeight": "100%"
       },
       "accent2xs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 14,
-        "fontweight": "Medium",
-        "letterspacing": 1.4,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.4,
+        "lineHeight": "130%"
       },
       "accentlg": {
-        "fontfamily": "AS Circular",
-        "fontsize": 24,
-        "fontweight": "Medium",
-        "letterspacing": 1.2,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 24,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.2,
+        "lineHeight": "130%"
       },
       "accentmd": {
-        "fontfamily": "AS Circular",
-        "fontsize": 22,
-        "fontweight": "Medium",
-        "letterspacing": 1.1,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 22,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.1,
+        "lineHeight": "130%"
       },
       "accentsm": {
-        "fontfamily": "AS Circular",
-        "fontsize": 18,
-        "fontweight": "Medium",
-        "letterspacing": 0.9,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "letterSpacing": 0.9,
+        "lineHeight": "130%"
       },
       "accentxl": {
-        "fontfamily": "AS Circular",
-        "fontsize": 26,
-        "fontweight": "Medium",
-        "letterspacing": 1.3,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 26,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.3,
+        "lineHeight": "130%"
       },
       "accentxs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 16,
-        "fontweight": "Medium",
-        "letterspacing": 1.6,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.6,
+        "lineHeight": "130%"
       },
       "body2xs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 10,
-        "fontweight": "Book",
-        "letterspacing": 0,
-        "lineheight": 14
+        "fontFamily": "AS Circular",
+        "fontSize": 10,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 14
       },
       "bodydefault": {
-        "fontfamily": "AS Circular",
-        "fontsize": 16,
-        "fontweight": "Book",
-        "letterspacing": 0,
-        "lineheight": 24
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 24
       },
       "bodylg": {
-        "fontfamily": "AS Circular",
-        "fontsize": 18,
-        "fontweight": "Book",
-        "letterspacing": 0,
-        "lineheight": 26
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 26
       },
       "bodysm": {
-        "fontfamily": "AS Circular",
-        "fontsize": 14,
-        "fontweight": "Book",
-        "letterspacing": 0,
-        "lineheight": 20
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 20
       },
       "bodyxs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 12,
-        "fontweight": "Book",
-        "letterspacing": 0,
-        "lineheight": 16
+        "fontFamily": "AS Circular",
+        "fontSize": 12,
+        "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 16
       },
       "display2xl": {
-        "fontfamily": "Teodor",
-        "fontsize": 56,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 56,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "displaylg": {
-        "fontfamily": "Teodor",
-        "fontsize": 44,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 44,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "displaymd": {
-        "fontfamily": "Teodor",
-        "fontsize": 40,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 40,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "displaysm": {
-        "fontfamily": "Teodor",
-        "fontsize": 32,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "displayxl": {
-        "fontfamily": "Teodor",
-        "fontsize": 48,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 48,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "displayxs": {
-        "fontfamily": "Teodor",
-        "fontsize": 28,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "Teodor",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "heading2xs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 18,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "headinglg": {
-        "fontfamily": "AS Circular",
-        "fontsize": 28,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 28,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "headingmd": {
-        "fontfamily": "AS Circular",
-        "fontsize": 26,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 26,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "headingsm": {
-        "fontfamily": "AS Circular",
-        "fontsize": 22,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 22,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "headingxl": {
-        "fontfamily": "AS Circular",
-        "fontsize": 32,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 32,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       },
       "headingxs": {
-        "fontfamily": "AS Circular",
-        "fontsize": 20,
-        "fontweight": "Light",
-        "letterspacing": 0,
-        "lineheight": "130%"
+        "fontFamily": "AS Circular",
+        "fontSize": 20,
+        "fontWeight": "Light",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
       }
     }
   },
   "themeMetadata": {
     "code": "atmosLight",
-    "displayname": "Atmos Rewards",
-    "iconurl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
+    "displayName": "Atmos Rewards",
+    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
     "name": "Atmos Rewards",
-    "webviewcode": "auro.theme.atmos"
+    "webviewCode": "auro.theme.atmos"
   },
   "uiTokens": {
     "button": {
