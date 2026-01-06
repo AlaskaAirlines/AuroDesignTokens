@@ -236,181 +236,181 @@
     },
     "typography": {
       "accent2xl": {
-        "fontFamily": "Good OT",
-        "fontSize": 32,
-        "fontWeight": "Cond News",
-        "letterSpacing": 1.6,
-        "lineHeight": "100%"
+        "fontfamily": "Good OT",
+        "fontsize": 32,
+        "fontweight": "Cond News",
+        "letterspacing": 1.6,
+        "lineheight": "100%"
       },
       "accent2xs": {
-        "fontFamily": "Good OT",
-        "fontSize": 14,
-        "fontWeight": "Cond News",
-        "letterSpacing": 1.4,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 14,
+        "fontweight": "Cond News",
+        "letterspacing": 1.4,
+        "lineheight": "130%"
       },
       "accentlg": {
-        "fontFamily": "Good OT",
-        "fontSize": 24,
-        "fontWeight": "Cond News",
-        "letterSpacing": 1.2,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 24,
+        "fontweight": "Cond News",
+        "letterspacing": 1.2,
+        "lineheight": "130%"
       },
       "accentmd": {
-        "fontFamily": "Good OT",
-        "fontSize": 22,
-        "fontWeight": "Cond Medium",
-        "letterSpacing": 1.1,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 22,
+        "fontweight": "Cond Medium",
+        "letterspacing": 1.1,
+        "lineheight": "130%"
       },
       "accentsm": {
-        "fontFamily": "Good OT",
-        "fontSize": 18,
-        "fontWeight": "Cond Medium",
-        "letterSpacing": 0.9,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 18,
+        "fontweight": "Cond Medium",
+        "letterspacing": 0.9,
+        "lineheight": "130%"
       },
       "accentxl": {
-        "fontFamily": "Good OT",
-        "fontSize": 26,
-        "fontWeight": "Cond News",
-        "letterSpacing": 1.3,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 26,
+        "fontweight": "Cond News",
+        "letterspacing": 1.3,
+        "lineheight": "130%"
       },
       "accentxs": {
-        "fontFamily": "Good OT",
-        "fontSize": 16,
-        "fontWeight": "Cond Medium",
-        "letterSpacing": 1.6,
-        "lineHeight": "130%"
+        "fontfamily": "Good OT",
+        "fontsize": 16,
+        "fontweight": "Cond Medium",
+        "letterspacing": 1.6,
+        "lineheight": "130%"
       },
       "body2xs": {
-        "fontFamily": "AS Circular",
-        "fontSize": 10,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": 14
+        "fontfamily": "AS Circular",
+        "fontsize": 10,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": 14
       },
       "bodydefault": {
-        "fontFamily": "AS Circular",
-        "fontSize": 16,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": 24
+        "fontfamily": "AS Circular",
+        "fontsize": 16,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": 24
       },
       "bodylg": {
-        "fontFamily": "AS Circular",
-        "fontSize": 18,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": 26
+        "fontfamily": "AS Circular",
+        "fontsize": 18,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": 26
       },
       "bodysm": {
-        "fontFamily": "AS Circular",
-        "fontSize": 14,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": 20
+        "fontfamily": "AS Circular",
+        "fontsize": 14,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": 20
       },
       "bodyxs": {
-        "fontFamily": "AS Circular",
-        "fontSize": 12,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": 16
+        "fontfamily": "AS Circular",
+        "fontsize": 12,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": 16
       },
       "display2xl": {
-        "fontFamily": "AS Circular",
-        "fontSize": 56,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 56,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "displaylg": {
-        "fontFamily": "AS Circular",
-        "fontSize": 44,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 44,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "displaymd": {
-        "fontFamily": "AS Circular",
-        "fontSize": 40,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 40,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "displaysm": {
-        "fontFamily": "AS Circular",
-        "fontSize": 32,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 32,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "displayxl": {
-        "fontFamily": "AS Circular",
-        "fontSize": 48,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 48,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "displayxs": {
-        "fontFamily": "AS Circular",
-        "fontSize": 28,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 28,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "heading2xs": {
-        "fontFamily": "AS Circular",
-        "fontSize": 18,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 18,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "headinglg": {
-        "fontFamily": "AS Circular",
-        "fontSize": 28,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 28,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "headingmd": {
-        "fontFamily": "AS Circular",
-        "fontSize": 26,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 26,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "headingsm": {
-        "fontFamily": "AS Circular",
-        "fontSize": 22,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 22,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "headingxl": {
-        "fontFamily": "AS Circular",
-        "fontSize": 32,
-        "fontWeight": "Light",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 32,
+        "fontweight": "Light",
+        "letterspacing": 0,
+        "lineheight": "130%"
       },
       "headingxs": {
-        "fontFamily": "AS Circular",
-        "fontSize": 20,
-        "fontWeight": "Book",
-        "letterSpacing": 0,
-        "lineHeight": "130%"
+        "fontfamily": "AS Circular",
+        "fontsize": 20,
+        "fontweight": "Book",
+        "letterspacing": 0,
+        "lineheight": "130%"
       }
     }
   },
   "themeMetadata": {
     "code": "asLight",
-    "displayName": "Alaska Airlines",
-    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt52aa7bbcad1a728f/favicon.ico",
+    "displayname": "Alaska Airlines",
+    "iconurl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt52aa7bbcad1a728f/favicon.ico",
     "name": "Alaska Airlines",
-    "webviewCode": "auro.theme.alaska"
+    "webviewcode": "auro.theme.alaska"
   },
   "uiTokens": {
     "button": {
