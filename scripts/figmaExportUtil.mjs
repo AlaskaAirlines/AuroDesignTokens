@@ -181,31 +181,6 @@ export default class ExportUtil {
   }
 
   /**
-   * Finds all `value` keys in an object, and requesting each to be processed.
-   * @param {Object} obj - Source object to find value keys in
-   */
-  static findAndReplaceAllKeyNames(obj, oldKeyName, newKeyName) {
-    // Iterate over properties of the current object
-    for (const i in obj) {
-      if (Object.prototype.hasOwnProperty.call(obj, i)) {
-        let keyToRecurse = i;
-
-        if (i === oldKeyName) {
-          obj[newKeyName] = obj[i];
-          delete obj[i];
-          keyToRecurse = newKeyName;
-        }
-
-        // If the property is an object or an array, recurse
-        if (typeof obj[keyToRecurse] === 'object' && obj[keyToRecurse] !== null) {
-          this.findAndReplaceAllKeyNames(obj[keyToRecurse], oldKeyName, newKeyName);
-        }
-      }
-    }
-    return obj;
-  }
-
-  /**
    * Converts a kebab-case string to camelCase.
    * @param {String} str - Kebab-case string
    * @returns {String} - CamelCase string
@@ -441,12 +416,12 @@ export default class ExportUtil {
   }
 
   /**
-   * Recursively renames keys in an object from lowercase to camelCase using a provided mapping.
+   * Recursively renames keys in an object using a provided mapping.
    * @param {Object} obj - Object to process
-   * @param {Object} keyMappings - Object mapping lowercase keys to camelCase keys
+   * @param {Object} keyMappings - Object mapping old key names to new key names
    * @returns {Object} - Object with renamed keys
    */
-  static renameToCamelCase(obj, keyMappings) {
+  static renameKeys(obj, keyMappings) {
     if (obj === null || typeof obj !== 'object') {
       return obj;
     }
@@ -461,7 +436,7 @@ export default class ExportUtil {
         // Check if this key needs to be renamed
         const newKey = keyMappings[key] || key;
         // Recursively process the value
-        newObj[newKey] = this.renameToCamelCase(obj[key], keyMappings);
+        newObj[newKey] = this.renameKeys(obj[key], keyMappings);
       }
     }
     return newObj;
@@ -486,11 +461,11 @@ export default class ExportUtil {
     this.processAllTokenRefs(this.processedJson);
 
     if(platform === 'app') {
-      this.processedJson = this.findAndReplaceAllKeyNames(this.processedJson, 'default', 'standard');
       this.processedJson = this.convertAllKebabToCamel(this.processedJson);
 
-      // Rename keys from lowercase to camelCase throughout the entire object
-      const camelCaseKeyMappings = {
+      // Rename keys to their correct casing/naming
+      const keyMappings = {
+        'default': 'standard',
         'texticon': 'textIcon',
         'thememetadata': 'themeMetadata',
         'basictokens': 'basicTokens',
@@ -505,7 +480,7 @@ export default class ExportUtil {
         'webviewcode': 'webviewCode'
       };
 
-      this.processedJson = this.renameToCamelCase(this.processedJson, camelCaseKeyMappings);
+      this.processedJson = this.renameKeys(this.processedJson, keyMappings);
     }
 
     this.sortKeysRecursive(this.processedJson);
