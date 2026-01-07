@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/app/Alaska.tokens.json"],
+  "source": ["./processed/app/Alaska_theme.Light.json"],
   "include": [],
   "platforms": {
 

@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/app/Test.tokens.json"],
+  "source": ["./processed/app/Blueprint_theme.Light.json"],
   "include": [],
   "platforms": {
 
@@ -9,7 +9,7 @@
       "buildPath": "./dist/app/",
       "files": [
         {
-          "destination": "test.json",
+          "destination": "blueprint.json",
           "format": "json/nested"
         }
       ]

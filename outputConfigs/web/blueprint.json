@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Test.tokens.json"],
+  "source": ["./processed/web/Blueprint_theme.Light.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {
@@ -9,7 +9,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "test.scss",
+          "destination": "blueprint.scss",
           "format": "scss/variables"
         }
       ]
@@ -21,7 +21,7 @@
       "buildPath": "./dist/web/",
       "files": [
         {
-          "destination": "test.css",
+          "destination": "blueprint.css",
           "format": "css/variables"
         }
       ]
