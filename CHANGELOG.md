@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.10.0...v8.11.0) (2026-01-07)
+
+
+### Features
+
+* support new app token schema and build system [#387](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/387) [#389](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/389) ([a6c3712](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/a6c3712267d8b34382e993b3b8879d3c7888f947))
+
 # [8.10.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.9.0...v8.10.0) (2026-01-06)
 
 
