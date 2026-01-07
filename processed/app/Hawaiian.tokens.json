@@ -3,10 +3,10 @@
     "color": {
       "border": {
         "bold": {
-          "value": "#ADADAD"
+          "value": "#585E67"
         },
         "brand": {
-          "value": "#463C8F"
+          "value": "#01426A"
         },
         "divider": {
           "value": "#00000026"
@@ -18,7 +18,7 @@
           "value": "#FFFFFF"
         },
         "standard": {
-          "value": "#D0D0D0"
+          "value": "#959595"
         },
         "subtle": {
           "value": "#DDDDDD"
@@ -26,57 +26,57 @@
       },
       "brand": {
         "primary": {
-          "value": "#463C8F"
+          "value": "#01426A"
         },
         "primaryBold": {
-          "value": "#31295C"
+          "value": "#00274A"
         },
         "primaryMuted": {
-          "value": "#EDEAF4"
+          "value": "#EBF3F9"
         },
         "primarySubtle": {
-          "value": "#8C7EB8"
+          "value": "#2875B5"
         },
         "secondary": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         },
         "secondaryBold": {
-          "value": "#831A57"
+          "value": "#18C3DD"
         },
         "secondaryMuted": {
-          "value": "#FDF1F8"
+          "value": "#EBFAFD"
         },
         "secondarySubtle": {
-          "value": "#E26DB8"
+          "value": "#B4EFF9"
         },
         "tertiary": {
-          "value": "#EE453D"
+          "value": "#A3CD6A"
         },
         "tertiaryBold": {
-          "value": "#97322A"
+          "value": "#7DAF3B"
         },
         "tertiaryMuted": {
-          "value": "#FFEEEA"
+          "value": "#EAF3DD"
         },
         "tertiarySubtle": {
-          "value": "#FF9080"
+          "value": "#C9E1A7"
         }
       },
       "fare": {
         "basiceconomy": {
-          "value": "#D0D0D0"
+          "value": "#97EAF8"
         },
         "business": {
-          "value": "#463C8F"
+          "value": "#01426A"
         },
         "economy": {
-          "value": "#CE0C88"
+          "value": "#0074CA"
         },
         "first": {
-          "value": "#463C8F"
+          "value": "#00274A"
         },
         "premiumeconomy": {
-          "value": "#1B6976"
+          "value": "#005154"
         }
       },
       "pageBackground": {
@@ -95,10 +95,10 @@
           "value": "#FBC6C6"
         },
         "info": {
-          "value": "#007DB1"
+          "value": "#01426A"
         },
         "infoSubtle": {
-          "value": "#E8F2F8"
+          "value": "#EBF3F9"
         },
         "standard": {
           "value": "#AFB9C6"
@@ -118,31 +118,31 @@
       },
       "surface": {
         "accent1": {
-          "value": "#ACA1CC"
+          "value": "#5DE3F7"
         },
         "accent1Muted": {
-          "value": "#EDEAF4"
+          "value": "#EBF3F9"
         },
         "accent1Subtle": {
-          "value": "#ACA1CC"
+          "value": "#B4EFF9"
         },
         "accent2": {
-          "value": "#F7F7F7"
+          "value": "#A3CD6A"
         },
         "accent2Muted": {
-          "value": "#F7F7F7"
+          "value": "#EAF3DD"
         },
         "inverse": {
-          "value": "#463C8F"
+          "value": "#01426A"
         },
         "inverseSubtle": {
-          "value": "#8C7EB8"
+          "value": "#2875B5"
         },
         "neutral": {
           "value": "#F2F2F2"
         },
         "neutralMedium": {
-          "value": "#DDDDDD"
+          "value": "#C5C5C5"
         },
         "neutralSubtle": {
           "value": "#F7F7F7"
@@ -153,7 +153,7 @@
       },
       "textIcon": {
         "accent1": {
-          "value": "#463C8F"
+          "value": "#01426A"
         },
         "disabled": {
           "value": "#D0D0D0"
@@ -168,10 +168,10 @@
           "value": "#CCD2DB"
         },
         "linkDefault": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         },
         "linkHover": {
-          "value": "#831A57"
+          "value": "#18C3DD"
         },
         "linkInverseDefault": {
           "value": "#FFFFFF"
@@ -180,10 +180,10 @@
           "value": "#FFFFFF"
         },
         "muted": {
-          "value": "#3D3D3D"
+          "value": "#676767"
         },
         "standard": {
-          "value": "#000000"
+          "value": "#2A2A2A"
         }
       },
       "tierProgram": {
@@ -432,10 +432,10 @@
       },
       "primary": {
         "background": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         },
         "backgroundPressed": {
-          "value": "#831A57"
+          "value": "#18C3DD"
         },
         "text": {
           "value": "#FFFFFF"
@@ -449,20 +449,20 @@
           "value": "#FFFFFFCC"
         },
         "text": {
-          "value": "#463C8F"
+          "value": "#01426A"
         }
       },
       "quaternary": {
         "backgroundPressed": {
-          "value": "#831A57"
+          "value": "#18C3DD"
         },
         "text": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         }
       },
       "quaternaryInverse": {
         "backgroundPressed": {
-          "value": "#831A57"
+          "value": "#18C3DD"
         },
         "text": {
           "value": "#FFFFFF"
@@ -470,24 +470,24 @@
       },
       "secondary": {
         "background": {
-          "value": "#FDF1F8"
+          "value": "#EBFAFD"
         },
         "backgroundPressed": {
-          "value": "#CCC5E0"
+          "value": "#AEDEFF"
         },
         "text": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         }
       },
       "secondaryInverse": {
         "background": {
-          "value": "#FDF1F8"
+          "value": "#EBFAFD"
         },
         "backgroundPressed": {
-          "value": "#FAD8EB"
+          "value": "#CFE0EF"
         },
         "text": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         }
       },
       "tertiary": {
@@ -501,7 +501,7 @@
           "value": "#DDDDDD"
         },
         "text": {
-          "value": "#CE0C88"
+          "value": "#5DE3F7"
         }
       },
       "tertiaryInverse": {
@@ -527,10 +527,10 @@
         "value": "#0000001C"
       },
       "selected": {
-        "value": "#463C8F"
+        "value": "#01426A"
       },
       "selectedMuted": {
-        "value": "#EDEAF4"
+        "value": "#EBF3F9"
       }
     },
     "componentInverse": {
@@ -550,29 +550,15 @@
         "value": "#FFFFFFCC"
       }
     },
-    "hyperlinkApp": {
-      "text": {
-        "value": "#CE0C88"
-      },
-      "textHover": {
-        "value": "#831A57"
-      },
-      "textInverse": {
-        "value": "#FFFFFF"
-      },
-      "textInverseHover": {
-        "value": "#FFFFFF"
-      }
-    },
     "searchWidget": {
       "fieldIcon": {
-        "value": "#D4ABEA"
+        "value": "#5DE3F7"
       },
       "routeDestination": {
-        "value": "#8EC891"
+        "value": "#A3CD6A"
       },
       "routeOrgin": {
-        "value": "#D4ABEA"
+        "value": "#5DE3F7"
       }
     }
   }
