@@ -58,10 +58,11 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
   const localVariables = localVariablesResponse.meta.variables
 
   Object.values(localVariables).forEach((variable) => {
-    // Skip remote variables because we only want to generate tokens for local variables
-    if (variable.remote) {
+    // Skip when these variables are present
+    if (variable.remote || variable.deletedButReferenced) {
       return
-    }    
+    }
+    
     const collection = localVariableCollections[variable.variableCollectionId]
 
     collection.modes.forEach((mode) => {

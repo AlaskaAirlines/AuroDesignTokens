@@ -44,9 +44,6 @@ async function main() {
     const filePath = path.join(process.cwd(), outputDir, fileName);
     fs.writeFileSync(filePath, JSON.stringify(fileContent, null, 2))
   })
-
-  // Process extension collections
-  const extensionCount = createExtensionFiles(localVariables, outputDir)
   
   console.log(green(`✅ All token files have been written to the ${outputDir} directory`))
 }
