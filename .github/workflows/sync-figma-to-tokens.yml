@@ -45,7 +45,8 @@ jobs:
         env:
           FILE_KEY: ${{ secrets.FIGMA_FILE_KEY }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.FIGMA_TOKEN }}
-
+      - name: Build tokens
+        run: npm run build
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
