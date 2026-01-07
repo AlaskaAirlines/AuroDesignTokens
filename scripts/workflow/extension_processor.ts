@@ -108,6 +108,11 @@ export function createExtensionFiles(
           // Process all variables from parent collection
           Object.values(localVariables).forEach((variable) => {
             if (variable.variableCollectionId === parentCollection.id) {
+              // Skip when these variables are present
+              if (variable.remote || variable.deletedButReferenced) {
+                return
+              }
+              
               // Build nested object structure from variable name path
               let obj: any = tokensFile
               variable.name.split('/').forEach((groupName) => {
