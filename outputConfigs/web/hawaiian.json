@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Hawaiian.tokens.json"],
+  "source": ["./processed/web/Hawaiian_theme.Light.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {

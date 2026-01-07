@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/app/Atmos.tokens.json"],
+  "source": ["./processed/app/Atmos_theme.Light.json"],
   "include": [],
   "platforms": {
 

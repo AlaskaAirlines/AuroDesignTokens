@@ -19,17 +19,34 @@ function tokenValueFromVariable(
   variable: LocalVariable,
   modeId: string,
   localVariables: { [id: string]: LocalVariable },
-) {
+): any {
   const value = variable.valuesByMode[modeId]
+  if (value === undefined) {
+    // If the exact mode doesn't exist, try the first available mode
+    const availableModeId = Object.keys(variable.valuesByMode)[0]
+    if (availableModeId) {
+      return tokenValueFromVariable(variable, availableModeId, localVariables)
+    }
+    return undefined
+  }
+
   if (typeof value === 'object') {
     if ('type' in value && value.type === 'VARIABLE_ALIAS') {
       const aliasedVariable = localVariables[value.id]
-      return `{${aliasedVariable.name.replace(/\//g, '.')}}`
+      if (aliasedVariable) {
+        // Try to find a matching mode ID, or fall back to the first available mode
+        const aliasedModeId = aliasedVariable.valuesByMode[modeId] ? 
+          modeId : Object.keys(aliasedVariable.valuesByMode)[0]
+        if (aliasedModeId) {
+          return tokenValueFromVariable(aliasedVariable, aliasedModeId, localVariables)
+        }
+      }
+      return `{UNKNOWN_VARIABLE_${value.id}}`
     } else if ('r' in value) {
       return rgbToHex(value)
     }
 
-    throw new Error(`Format of variable value is invalid: ${value}`)
+    throw new Error(`Format of variable value is invalid: ${JSON.stringify(value)}`)
   } else {
     return value
   }
@@ -44,12 +61,13 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
     // Skip remote variables because we only want to generate tokens for local variables
     if (variable.remote) {
       return
-    }
-
+    }    
     const collection = localVariableCollections[variable.variableCollectionId]
 
     collection.modes.forEach((mode) => {
-      const fileName = `${collection.name}.${mode.name}.json`
+      const safeName = collection.name.replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_]/g, '')
+      const safeModeName = mode.name.replace(/\s+/g, '_').replace(/[^a-zA-Z0-9_]/g, '')
+      const fileName = `${safeName}.${safeModeName}.json`
 
       if (!tokenFiles[fileName]) {
         tokenFiles[fileName] = {}

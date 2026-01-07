@@ -7,6 +7,7 @@ import FigmaApi from './figma_api.js'
 
 import { green } from './utils.js'
 import { tokenFilesFromLocalVariables } from './token_export.js'
+import { createExtensionFiles } from './extension_processor.js'
 
 /**
  * Usage:
@@ -42,11 +43,12 @@ async function main() {
   Object.entries(tokensFiles).forEach(([fileName, fileContent]) => {
     const filePath = path.join(process.cwd(), outputDir, fileName);
     fs.writeFileSync(filePath, JSON.stringify(fileContent, null, 2))
-
-    console.log(`Wrote ${fileName}`)
   })
 
-  console.log(green(`✅ Tokens files have been written to the ${outputDir} directory`))
+  // Process extension collections
+  const extensionCount = createExtensionFiles(localVariables, outputDir)
+  
+  console.log(green(`✅ All token files have been written to the ${outputDir} directory`))
 }
 
 main()
