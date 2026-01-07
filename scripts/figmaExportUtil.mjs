@@ -452,6 +452,7 @@ export default class ExportUtil {
     this.recursivelyRemoveKey(data, '$extensions');
     this.recursivelyRemoveKey(data, 'colorSpace');
     this.recursivelyRemoveKey(data, 'components');
+    this.recursivelyRemoveKey(data, '$description');
     this.processAllValueKeys(data);
 
     this.processedJson = JSON.parse(JSON.stringify(data).replaceAll('$value', 'value'));

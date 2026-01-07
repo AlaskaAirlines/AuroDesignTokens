@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/web/Atmos.tokens.json"],
+  "source": ["./processed/web/Atmos_theme.Light.json"],
   "include": [],
   "platforms": {
     "SCSSVariables": {

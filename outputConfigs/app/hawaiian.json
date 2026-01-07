@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/app/Hawaiian.tokens.json"],
+  "source": ["./processed/app/Hawaiian_theme.Light.json"],
   "include": [],
   "platforms": {
 

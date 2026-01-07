@@ -3,77 +3,77 @@
     "color": {
       "border": {
         "bold": {
-          "value": "#585E67"
+          "value": "#585e67"
         },
         "brand": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "divider": {
           "value": "#00000026"
         },
         "dividerInverse": {
-          "value": "#FFFFFF66"
+          "value": "#ffffff66"
         },
         "inverse": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         },
         "standard": {
           "value": "#959595"
         },
         "subtle": {
-          "value": "#DDDDDD"
+          "value": "#dddddd"
         }
       },
       "brand": {
         "primary": {
-          "value": "#01426A"
+          "value": "#01426a"
         },
         "primaryBold": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "primaryMuted": {
-          "value": "#EBF3F9"
+          "value": "#ebf3f9"
         },
         "primarySubtle": {
-          "value": "#2875B5"
+          "value": "#2875b5"
         },
         "secondary": {
-          "value": "#5DE3F7"
+          "value": "#5de3f7"
         },
         "secondaryBold": {
-          "value": "#18C3DD"
+          "value": "#18c3dd"
         },
         "secondaryMuted": {
-          "value": "#EBFAFD"
+          "value": "#ebfafd"
         },
         "secondarySubtle": {
-          "value": "#B4EFF9"
+          "value": "#b4eff9"
         },
         "tertiary": {
-          "value": "#A3CD6A"
+          "value": "#a3cd6a"
         },
         "tertiaryBold": {
-          "value": "#7DAF3B"
+          "value": "#7daf3b"
         },
         "tertiaryMuted": {
-          "value": "#EAF3DD"
+          "value": "#eaf3dd"
         },
         "tertiarySubtle": {
-          "value": "#C9E1A7"
+          "value": "#c9e1a7"
         }
       },
       "fare": {
         "basiceconomy": {
-          "value": "#97EAF8"
+          "value": "#97eaf8"
         },
         "business": {
-          "value": "#01426A"
+          "value": "#01426a"
         },
         "economy": {
-          "value": "#0074CA"
+          "value": "#0074ca"
         },
         "first": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "premiumeconomy": {
           "value": "#005154"
@@ -81,138 +81,141 @@
       },
       "pageBackground": {
         "standard": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         },
         "utility": {
-          "value": "#A3CD6A"
+          "value": "#ffffff"
         }
       },
       "status": {
         "error": {
-          "value": "#E31F26"
+          "value": "#e31f26"
         },
         "errorSubtle": {
-          "value": "#FBC6C6"
+          "value": "#fbc6c6"
         },
         "info": {
-          "value": "#5DE3F7"
+          "value": "#01426a"
         },
         "infoSubtle": {
-          "value": "#EBF3F9"
+          "value": "#ebf3f9"
         },
         "standard": {
-          "value": "#AFB9C6"
+          "value": "#afb9c6"
         },
         "success": {
-          "value": "#447A1F"
+          "value": "#447a1f"
         },
         "successSubtle": {
-          "value": "#D6EAC7"
+          "value": "#d6eac7"
         },
         "warning": {
-          "value": "#FAC200"
+          "value": "#fac200"
         },
         "warningSubtle": {
-          "value": "#FFF0B2"
+          "value": "#fff0b2"
         }
       },
       "surface": {
         "accent1": {
-          "value": "#5DE3F7"
+          "value": "#5de3f7"
         },
         "accent1Muted": {
-          "value": "#B4EFF9"
+          "value": "#ebfafd"
         },
         "accent1Subtle": {
-          "value": "#5DE3F7"
+          "value": "#b4eff9"
         },
         "accent2": {
-          "value": "#5DE3F7"
+          "value": "#a3cd6a"
         },
         "accent2Muted": {
-          "value": "#B4EFF9"
+          "value": "#eaf3dd"
         },
         "inverse": {
-          "value": "#01426A"
+          "value": "#00274a"
+        },
+        "inverseMuted": {
+          "value": "#ebf3f9"
         },
         "inverseSubtle": {
-          "value": "#01426A"
+          "value": "#2875b5"
         },
         "neutral": {
-          "value": "#EAF3DD"
+          "value": "#f2f2f2"
         },
         "neutralMedium": {
-          "value": "#C9E1A7"
+          "value": "#c5c5c5"
         },
         "neutralSubtle": {
-          "value": "#EAF3DD"
+          "value": "#f7f7f7"
         },
         "standard": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         }
       },
       "textIcon": {
         "accent1": {
-          "value": "#01426A"
+          "value": "#265688"
         },
         "disabled": {
-          "value": "#D0D0D0"
+          "value": "#d0d0d0"
         },
         "inverse": {
-          "value": "#A3CD6A"
+          "value": "#ffffff"
         },
         "inverseDisabled": {
-          "value": "#7E8894"
+          "value": "#7e8894"
         },
         "inverseMuted": {
-          "value": "#CCD2DB"
+          "value": "#ccd2db"
         },
         "linkDefault": {
-          "value": "#01426A"
+          "value": "#2875b5"
         },
         "linkHover": {
-          "value": "#01426A"
+          "value": "#01426a"
         },
         "linkInverseDefault": {
-          "value": "#A3CD6A"
+          "value": "#ffffff"
         },
         "linkInverseHover": {
-          "value": "#EBF3F9"
+          "value": "#ebf3f9"
         },
         "muted": {
           "value": "#676767"
         },
         "standard": {
-          "value": "#01426A"
+          "value": "#2a2a2a"
         }
       },
       "tierProgram": {
         "loungetier": {
           "lounge": {
-            "value": "#01426A"
+            "value": "#01426a"
           },
           "loungeplus": {
-            "value": "#53B390"
+            "value": "#53b390"
           }
         },
         "loyaltytier": {
           "gold": {
-            "value": "#FBDC7A"
+            "value": "#fbdc7a"
           },
           "goldMuted": {
-            "value": "#FDEFC4"
+            "value": "#fdefc4"
           },
           "platinum": {
-            "value": "#BCB8A4"
+            "value": "#bcb8a4"
           },
           "platinumMuted": {
-            "value": "#DAD8CD"
+            "value": "#dad8cd"
           },
           "silver": {
-            "value": "#E4E9EC"
+            "value": "#e4e9ec"
           },
           "silverMuted": {
-            "value": "#F9FAFB"
+            "value": "#f9fafb"
           },
           "titanium": {
             "value": "#282828"
@@ -226,339 +229,339 @@
             "value": "#139142"
           },
           "ruby": {
-            "value": "#A41D4A"
+            "value": "#a41d4a"
           },
           "sapphire": {
-            "value": "#015DAA"
+            "value": "#015daa"
           }
         }
       }
     },
     "typography": {
       "accent2xl": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 32,
-        "fontWeight": "Medium",
+        "fontWeight": "Regular",
         "letterSpacing": 1.6,
         "lineHeight": "100%"
       },
       "accent2xs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 14,
-        "fontWeight": "Medium",
+        "fontWeight": "Regular",
         "letterSpacing": 1.4,
         "lineHeight": "130%"
       },
       "accentlg": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 24,
-        "fontWeight": "Medium",
+        "fontWeight": "Regular",
         "letterSpacing": 1.2,
         "lineHeight": "130%"
       },
       "accentmd": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 22,
         "fontWeight": "Medium",
         "letterSpacing": 1.1,
         "lineHeight": "130%"
       },
       "accentsm": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 18,
         "fontWeight": "Medium",
         "letterSpacing": 0.9,
         "lineHeight": "130%"
       },
       "accentxl": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 26,
-        "fontWeight": "Medium",
+        "fontWeight": "Regular",
         "letterSpacing": 1.3,
         "lineHeight": "130%"
       },
       "accentxs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 16,
         "fontWeight": "Medium",
         "letterSpacing": 1.6,
         "lineHeight": "130%"
       },
       "body2xs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 10,
-        "fontWeight": "Book",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": 14
       },
       "bodydefault": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 16,
-        "fontWeight": "Book",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": 24
       },
       "bodylg": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 18,
-        "fontWeight": "Book",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": 26
       },
       "bodysm": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 14,
-        "fontWeight": "Book",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": 20
       },
       "bodyxs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 12,
-        "fontWeight": "Book",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": 16
       },
       "display2xl": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 56,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaylg": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 44,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaymd": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 40,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displaysm": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 32,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displayxl": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 48,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "displayxs": {
-        "fontFamily": "Teodor",
+        "fontFamily": "Chronicle Display",
         "fontSize": 28,
-        "fontWeight": "Light",
+        "fontWeight": "Semibold",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "heading2xs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 18,
-        "fontWeight": "Light",
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headinglg": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 28,
-        "fontWeight": "Light",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingmd": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 26,
-        "fontWeight": "Light",
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingsm": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 22,
-        "fontWeight": "Light",
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingxl": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 32,
-        "fontWeight": "Light",
+        "fontWeight": "Regular",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
       "headingxs": {
-        "fontFamily": "AS Circular",
+        "fontFamily": "Slate Pro",
         "fontSize": 20,
-        "fontWeight": "Light",
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": "130%"
       }
     }
   },
   "themeMetadata": {
-    "code": "atmosLight",
-    "displayName": "Atmos Rewards",
-    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
-    "name": "Atmos Rewards",
-    "webviewCode": "auro.theme.atmos"
+    "code": "haLight",
+    "displayName": "Hawaiian Airlines",
+    "iconUrl": "https://resource.alaskaair.net/v3/assets/blt2cefe12c88e9dd91/blt9c8b19b678650fc0/68dadf0eb0736f7fefe5fdb3/ha_favicon.ico",
+    "name": "Hawaiian Airlines",
+    "webviewCode": "auro.theme.hawaiian"
   },
   "uiTokens": {
     "button": {
       "disabled": {
         "background": {
-          "value": "#0000000D"
+          "value": "#0000000d"
         },
         "text": {
-          "value": "#D0D0D0"
+          "value": "#d0d0d0"
         }
       },
       "disabledInverse": {
         "background": {
-          "value": "#FFFFFF0D"
+          "value": "#ffffff0d"
         },
         "text": {
-          "value": "#7E8894"
+          "value": "#7e8894"
         }
       },
       "primary": {
         "background": {
-          "value": "#01426A"
+          "value": "#01426a"
         },
         "backgroundPressed": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#ffffff"
         }
       },
       "primaryInverse": {
         "background": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         },
         "backgroundPressed": {
-          "value": "#FFFFFFCC"
+          "value": "#ffffffcc"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#01426a"
         }
       },
       "quaternary": {
         "backgroundPressed": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#01426a"
         }
       },
       "quaternaryInverse": {
         "backgroundPressed": {
-          "value": "#00274A"
+          "value": "#00274a"
         },
         "text": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         }
       },
       "secondary": {
         "background": {
-          "value": "#EBF3F9"
+          "value": "#ebf3f9"
         },
         "backgroundPressed": {
-          "value": "#AEDEFF"
+          "value": "#aedeff"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#01426a"
         }
       },
       "secondaryInverse": {
         "background": {
-          "value": "#EBF3F9"
+          "value": "#ebf3f9"
         },
         "backgroundPressed": {
-          "value": "#CFE0EF"
+          "value": "#cfe0ef"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#01426a"
         }
       },
       "tertiary": {
         "background": {
-          "value": "#00000012"
+          "value": "#00000014"
         },
         "backgroundPressed": {
-          "value": "#0000001C"
+          "value": "#0000001f"
         },
         "border": {
-          "value": "#DDDDDD"
+          "value": "#dddddd"
         },
         "text": {
-          "value": "#01426A"
+          "value": "#01426a"
         }
       },
       "tertiaryInverse": {
         "background": {
-          "value": "#FFFFFF12"
+          "value": "#ffffff14"
         },
         "backgroundPressed": {
-          "value": "#FFFFFF1C"
+          "value": "#ffffff1f"
         },
         "border": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         },
         "text": {
-          "value": "#FFFFFF"
+          "value": "#ffffff"
         }
       }
     },
     "component": {
       "elevated": {
-        "value": "#00000012"
+        "value": "#00000014"
       },
       "pressed": {
-        "value": "#0000001C"
+        "value": "#0000001f"
       },
       "selected": {
-        "value": "#01426A"
+        "value": "#01426a"
       },
       "selectedMuted": {
-        "value": "#EBF3F9"
+        "value": "#ebf3f9"
       }
     },
     "componentInverse": {
       "elevated": {
-        "value": "#FFFFFF12"
+        "value": "#ffffff14"
       },
       "error": {
-        "value": "#F9A4A8"
+        "value": "#f9a4a8"
       },
       "pressed": {
-        "value": "#FFFFFF1C"
+        "value": "#ffffff1f"
       },
       "selected": {
-        "value": "#FFFFFF"
+        "value": "#ffffff"
       },
       "selectedMuted": {
-        "value": "#FFFFFFCC"
+        "value": "#ffffffcc"
       }
     },
     "searchWidget": {
       "fieldIcon": {
-        "value": "#5DE3F7"
+        "value": "#5de3f7"
       },
       "routeDestination": {
-        "value": "#C9E1A7"
+        "value": "#a3cd6a"
       },
       "routeOrgin": {
-        "value": "#5DE3F7"
+        "value": "#5de3f7"
       }
     }
   }
