@@ -1,5 +1,20 @@
 # Semantic Release Automated Changelog
 
+# [8.12.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.11.0...v8.12.0) (2026-01-07)
+
+
+### Bug Fixes
+
+* correctly camelCase keys ([5ce98a1](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/5ce98a13df3447a37457cbc43a23ee2eb6345092))
+* removed extra invalid app tokens [#387](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/387) ([ebdfea1](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ebdfea12969ad43ac31a6699687016eb5dedb523))
+* update textIcon key from lowercase to camelCase ([516586e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/516586e9d0764cd53d4ee0c35e8eb323ddf62a82))
+
+
+### Features
+
+* add JSON and JS object configs for dist output [#387](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/387) ([b435ce1](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/b435ce1c70b794ff76e707c7d2e601520475a060))
+* refactor app token output architecture [#387](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/387) ([691c52c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/691c52c3e21e2846cd00a8256f2c09b1e12fbd3d))
+
 # [8.11.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.10.0...v8.11.0) (2026-01-07)
 
 
