@@ -550,20 +550,6 @@
         "value": "#FFFFFFCC"
       }
     },
-    "hyperlinkApp": {
-      "text": {
-        "value": "#2875B5"
-      },
-      "textHover": {
-        "value": "#01426A"
-      },
-      "textInverse": {
-        "value": "#FFFFFF"
-      },
-      "textInverseHover": {
-        "value": "#EBF3F9"
-      }
-    },
     "searchWidget": {
       "fieldIcon": {
         "value": "#5DE3F7"
