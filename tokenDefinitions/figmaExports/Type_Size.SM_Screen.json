@@ -54,20 +54,6 @@
             "codeSyntax": {}
           }
         }
-      },
-      "Line Height": {
-        "$type": "number",
-        "$value": 68,
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [
-              "LINE_HEIGHT"
-            ],
-            "codeSyntax": {}
-          }
-        }
       }
     },
     "X-Large": {
