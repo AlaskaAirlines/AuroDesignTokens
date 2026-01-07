@@ -620,23 +620,6 @@
           }
         }
       }
-    },
-    "Inverse-Muted": {
-      "$type": "color",
-      "$value": "#ebf3f9",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "FRAME_FILL",
-            "SHAPE_FILL"
-          ],
-          "codeSyntax": {
-            "WEB": "--ds-color-surface-inversesubtle"
-          }
-        }
-      }
     }
   },
   "Border": {
@@ -4091,62 +4074,6 @@
       }
     }
   },
-  "Corner Radius": {
-    "Small": {
-      "$type": "number",
-      "$value": 6,
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": true,
-          "scopes": [
-            "CORNER_RADIUS"
-          ],
-          "codeSyntax": {
-            "WEB": "--ds-corner-small"
-          }
-        }
-      }
-    }
-  },
-  "Advanced": {
-    "button": {
-      "tertiary": {
-        "border": {
-          "$type": "color",
-          "$value": "#0000000d",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-advanced-color-button-tertiary-border"
-              }
-            }
-          }
-        },
-        "border-hover": {
-          "$type": "color",
-          "$value": "#0000001a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-advanced-color-button-tertiary-border-hover"
-              }
-            }
-          }
-        }
-      }
-    }
-  },
   "type": {
     "Font Family": {
       "Display Font Family": {
@@ -4696,112 +4623,6 @@
               "scopes": [],
               "codeSyntax": {}
             }
-          }
-        }
-      }
-    }
-  },
-  "Demo": {
-    "Hero": {
-      "Section title": {
-        "$type": "string",
-        "$value": "Welcome, Let's go somewhere.",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "Top Cap": {
-        "$type": "string",
-        "$value": "LIMITED-TIME ONLINE OFFER",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "Show Top Cap": {
-        "$type": "boolean",
-        "$value": true,
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "Title": {
-        "$type": "string",
-        "$value": "Take off with this 70,000 bonus mile offer.",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "Body": {
-        "$type": "string",
-        "$value": "Get 70,000 bonus miles plus our $99 Companion Fare (plus taxes and fees from $23) after qualifying purchases made with the Alaska Airlines Visa® card.",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "Legal": {
-        "$type": "string",
-        "$value": "Must apply here for this offer. Offers vary elsewhere.",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      }
-    },
-    "Footer": {
-      "Company": {
-        "$type": "string",
-        "$value": "About Alaska",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
-          }
-        }
-      }
-    },
-    "Merch Banner": {
-      "Button": {
-        "$type": "string",
-        "$value": "Book now",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": true,
-            "scopes": [],
-            "codeSyntax": {}
           }
         }
       }
