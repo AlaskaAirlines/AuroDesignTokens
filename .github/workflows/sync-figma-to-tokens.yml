@@ -1,6 +1,22 @@
 name: Sync Figma variables to tokens
 on:
   workflow_dispatch:
+    inputs:
+      ticket-number:
+        description: 'The GitHub ticket number to associate this change with'
+        required: true
+        type: number
+      change-type:
+        description: |
+          The type of change being made:
+          
+          • feat: new tokens
+          • fix: corrections to existing tokens
+        required: true
+        type: choice
+        options:
+          - feat
+          - fix
 
 jobs:
   sync-figma-to-tokens:
@@ -33,7 +49,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: Update tokens from Figma
+          commit-message: '{{ inputs.change-type }}: update tokens from figma #{{ inputs.ticket-number }}'
           title: Update tokens from Figma
           body: 'Update tokens from Figma from file: https://www.figma.com/file/${{ secrets.FIGMA_FILE_KEY }}'
           branch: update-tokens
