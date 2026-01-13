@@ -1,5 +1,14 @@
 # Semantic Release Automated Changelog
 
+## [8.12.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.12.1...v8.12.2) (2026-01-13)
+
+
+### Bug Fixes
+
+* add back extension collections processing in Figma token sync ([c3527e9](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/c3527e9e2e370e4efb8d262250b088ac181aeafb))
+* enhance token value handling to properly handle extension vs parent collection id ([80b4fdc](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/80b4fdc9ba71b826b536d2510122d400c82feab0))
+* processed themes with new token translation ([cc7f1e5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/cc7f1e5b0c588c36bf2eb61d21e907e74bb75299))
+
 ## [8.12.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.12.0...v8.12.1) (2026-01-08)
 
 
