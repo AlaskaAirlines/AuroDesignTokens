@@ -164,6 +164,4 @@ export function createExtensionFiles(
 
     })
   })
-
-  return extensionCollections.length
 }
