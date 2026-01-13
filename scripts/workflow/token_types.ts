@@ -26,6 +26,9 @@ export interface Token {
       hiddenFromPublishing?: boolean
       scopes?: VariableScope[]
       codeSyntax?: VariableCodeSyntax
+      isOverride?: boolean
+      parentCollectionId?: string
+      extensionCollectionId?: string
     }
   }
 }
