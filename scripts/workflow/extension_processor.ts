@@ -21,20 +21,41 @@ function tokenValueFromVariable(
   variable: LocalVariable,
   modeId: string,
   localVariables: { [id: string]: LocalVariable },
-  variableOverrides?: { [variableId: string]: any }
+  variableOverrides?: { [variableId: string]: any },
+  collections?: { [id: string]: any },
+  extensionModeId?: string
 ): any {
-  // Check if there's an override for this variable in this mode
+  // Check if there's an override for this variable in the extension collection mode
+  if (variableOverrides && variableOverrides[variable.id] && extensionModeId && variableOverrides[variable.id][extensionModeId]) {
+    const overrideValue = variableOverrides[variable.id][extensionModeId]
+    if (typeof overrideValue === 'object') {
+      if ('type' in overrideValue && overrideValue.type === 'VARIABLE_ALIAS') {
+        const aliasedVariable = localVariables[overrideValue.id]
+        if (aliasedVariable) {
+          const resolvedModeId = findCorrectModeForVariable(aliasedVariable, modeId, collections)
+          if (resolvedModeId) {
+            return tokenValueFromVariable(aliasedVariable, resolvedModeId, localVariables, variableOverrides, collections, extensionModeId)
+          }
+        }
+        return `{UNKNOWN_VARIABLE_${overrideValue.id}}`
+      } else if ('r' in overrideValue) {
+        return rgbToHex(overrideValue)
+      }
+    } else {
+      return overrideValue
+    }
+  }
+
+  // Check if there's an override for this variable in the parent mode (fallback)
   if (variableOverrides && variableOverrides[variable.id] && variableOverrides[variable.id][modeId]) {
     const overrideValue = variableOverrides[variable.id][modeId]
     if (typeof overrideValue === 'object') {
       if ('type' in overrideValue && overrideValue.type === 'VARIABLE_ALIAS') {
         const aliasedVariable = localVariables[overrideValue.id]
         if (aliasedVariable) {
-          // Try to find a matching mode ID, or fall back to the first available mode
-          const aliasedModeId = aliasedVariable.valuesByMode[modeId] ? 
-            modeId : Object.keys(aliasedVariable.valuesByMode)[0]
-          if (aliasedModeId) {
-            return tokenValueFromVariable(aliasedVariable, aliasedModeId, localVariables, variableOverrides)
+          const resolvedModeId = findCorrectModeForVariable(aliasedVariable, modeId, collections)
+          if (resolvedModeId) {
+            return tokenValueFromVariable(aliasedVariable, resolvedModeId, localVariables, variableOverrides, collections, extensionModeId)
           }
         }
         return `{UNKNOWN_VARIABLE_${overrideValue.id}}`
@@ -49,10 +70,10 @@ function tokenValueFromVariable(
   // Fall back to the original variable value
   const value = variable.valuesByMode[modeId]
   if (value === undefined) {
-    // If the exact mode doesn't exist, try the first available mode
-    const availableModeId = Object.keys(variable.valuesByMode)[0]
-    if (availableModeId) {
-      return tokenValueFromVariable(variable, availableModeId, localVariables, variableOverrides)
+    // If the exact mode doesn't exist, try to find the correct mode for this variable
+    const correctModeId = findCorrectModeForVariable(variable, modeId, collections)
+    if (correctModeId && correctModeId !== modeId) {
+      return tokenValueFromVariable(variable, correctModeId, localVariables, variableOverrides, collections, extensionModeId)
     }
     return undefined
   }
@@ -61,11 +82,9 @@ function tokenValueFromVariable(
     if ('type' in value && value.type === 'VARIABLE_ALIAS') {
       const aliasedVariable = localVariables[value.id]
       if (aliasedVariable) {
-        // Try to find a matching mode ID, or fall back to the first available mode
-        const aliasedModeId = aliasedVariable.valuesByMode[modeId] ? 
-          modeId : Object.keys(aliasedVariable.valuesByMode)[0]
-        if (aliasedModeId) {
-          return tokenValueFromVariable(aliasedVariable, aliasedModeId, localVariables, variableOverrides)
+        const resolvedModeId = findCorrectModeForVariable(aliasedVariable, modeId, collections)
+        if (resolvedModeId) {
+          return tokenValueFromVariable(aliasedVariable, resolvedModeId, localVariables, variableOverrides, collections, extensionModeId)
         }
       }
       return `{UNKNOWN_VARIABLE_${value.id}}`
@@ -77,6 +96,61 @@ function tokenValueFromVariable(
   } else {
     return value
   }
+}
+
+function findCorrectModeForVariable(
+  variable: LocalVariable,
+  currentModeId: string,
+  collections?: { [id: string]: any }
+): string | undefined {
+  // First, check if the variable has the current mode
+  if (variable.valuesByMode[currentModeId]) {
+    return currentModeId
+  }
+
+  // If collections info is available, try to find corresponding mode
+  if (collections && variable.variableCollectionId) {
+    const variableCollection = collections[variable.variableCollectionId]
+    if (variableCollection) {
+      // For extension collections, we need to map the current mode to the correct parent mode
+      if (variableCollection.isExtension && variableCollection.parentVariableCollectionId) {
+        const parentCollection = collections[variableCollection.parentVariableCollectionId]
+        if (parentCollection) {
+          // Try to find a mode mapping or use the first available mode in parent collection
+          const parentModes = parentCollection.modes || []
+          if (parentModes.length > 0) {
+            // Look for a mode that matches by name or use the first one
+            const matchingMode = parentModes.find((mode: any) => 
+              variable.valuesByMode[mode.modeId] !== undefined
+            )
+            if (matchingMode) {
+              return matchingMode.modeId
+            }
+          }
+        }
+      }
+      
+      // For regular collections, try to find any available mode
+      const availableModes = Object.keys(variable.valuesByMode)
+      if (availableModes.length > 0) {
+        // Prefer modes from the same collection if available
+        const collectionModes = (variableCollection.modes || []).map((mode: any) => mode.modeId)
+        const matchingCollectionMode = availableModes.find(modeId => 
+          collectionModes.includes(modeId)
+        )
+        if (matchingCollectionMode) {
+          return matchingCollectionMode
+        }
+        
+        // Fall back to the first available mode
+        return availableModes[0]
+      }
+    }
+  }
+
+  // Final fallback: use the first available mode
+  const availableModes = Object.keys(variable.valuesByMode)
+  return availableModes.length > 0 ? availableModes[0] : undefined
 }
 
 export function createExtensionFiles(
@@ -127,7 +201,9 @@ export function createExtensionFiles(
                   variable, 
                   parentModeId, 
                   localVariables, 
-                  collection.variableOverrides
+                  collection.variableOverrides,
+                  localVariableCollections,
+                  mode.modeId // Pass the extension mode ID
                 ),
                 $description: variable.description,
                 $extensions: {
@@ -135,7 +211,7 @@ export function createExtensionFiles(
                     hiddenFromPublishing: variable.hiddenFromPublishing,
                     scopes: variable.scopes,
                     codeSyntax: variable.codeSyntax,
-                    isOverride: collection.variableOverrides && collection.variableOverrides[variable.id] ? true : false,
+                    isOverride: !!(collection.variableOverrides && collection.variableOverrides[variable.id]),
                     parentCollectionId: parentCollection.id,
                     extensionCollectionId: collection.id
                   },
