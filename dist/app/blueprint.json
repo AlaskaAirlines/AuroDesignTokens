@@ -1,0 +1,365 @@
+{
+  "basicTokens": {
+    "color": {
+      "border": {
+        "bold": "#adadad",
+        "brand": "#d0d0d0",
+        "divider": "#00000026",
+        "dividerInverse": "#ffffff66",
+        "inverse": "#ffffff",
+        "standard": "#d0d0d0",
+        "subtle": "#dddddd"
+      },
+      "brand": {
+        "primary": "#7e7e7e",
+        "primaryBold": "#525252",
+        "primaryMuted": "#dddddd",
+        "primarySubtle": "#adadad",
+        "secondary": "#7e7e7e",
+        "secondaryBold": "#525252",
+        "secondaryMuted": "#dddddd",
+        "secondarySubtle": "#959595",
+        "tertiary": "#7e7e7e",
+        "tertiaryBold": "#525252",
+        "tertiaryMuted": "#dddddd",
+        "tertiarySubtle": "#adadad"
+      },
+      "fare": {
+        "basiceconomy": "#d0d0d0",
+        "business": "#3d3d3d",
+        "economy": "#676767",
+        "first": "#2a2a2a",
+        "premiumeconomy": "#525252"
+      },
+      "pageBackground": {
+        "standard": "#ffffff",
+        "utility": "#ffffff"
+      },
+      "status": {
+        "error": "#959595",
+        "errorSubtle": "#f2f2f2",
+        "info": "#959595",
+        "infoSubtle": "#f2f2f2",
+        "standard": "#959595",
+        "success": "#959595",
+        "successSubtle": "#f2f2f2",
+        "warning": "#959595",
+        "warningSubtle": "#f2f2f2"
+      },
+      "surface": {
+        "accent1": "#7e7e7e",
+        "accent1Muted": "#dddddd",
+        "accent1Subtle": "#adadad",
+        "accent2": "#7e7e7e",
+        "accent2Muted": "#dddddd",
+        "inverse": "#7e7e7e",
+        "inverseSubtle": "#adadad",
+        "neutral": "#f2f2f2",
+        "neutralMedium": "#dddddd",
+        "neutralSubtle": "#f2f2f2",
+        "standard": "#ffffff"
+      },
+      "textIcon": {
+        "accent1": "#525252",
+        "disabled": "#d0d0d0",
+        "inverse": "#ffffff",
+        "inverseDisabled": "#7e7e7e",
+        "inverseMuted": "#c5c5c5",
+        "linkDefault": "#3d3d3d",
+        "linkHover": "#676767",
+        "linkInverseDefault": "#ffffff",
+        "linkInverseHover": "#dddddd",
+        "muted": "#3d3d3d",
+        "standard": "#000000"
+      },
+      "tierProgram": {
+        "loungetier": {
+          "lounge": "#3d3d3d",
+          "loungeplus": "#7e7e7e"
+        },
+        "loyaltytier": {
+          "gold": "#c5c5c5",
+          "goldMuted": "#dddddd",
+          "platinum": "#adadad",
+          "platinumMuted": "#c5c5c5",
+          "silver": "#f2f2f2",
+          "silverMuted": "#f2f2f2",
+          "titanium": "#2a2a2a",
+          "titaniumMuted": "#525252"
+        },
+        "oneworld": {
+          "emerald": "#525252",
+          "ruby": "#2a2a2a",
+          "sapphire": "#3d3d3d"
+        }
+      }
+    },
+    "typography": {
+      "accent2xl": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 32,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.6,
+        "lineHeight": "100%"
+      },
+      "accent2xs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 14,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.4,
+        "lineHeight": "130%"
+      },
+      "accentlg": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 24,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.2,
+        "lineHeight": "130%"
+      },
+      "accentmd": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 22,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.1,
+        "lineHeight": "130%"
+      },
+      "accentsm": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 18,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0.9,
+        "lineHeight": "130%"
+      },
+      "accentxl": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 26,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.3,
+        "lineHeight": "130%"
+      },
+      "accentxs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 16,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 1.6,
+        "lineHeight": "130%"
+      },
+      "body2xs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 10,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": 14
+      },
+      "bodydefault": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 16,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": 24
+      },
+      "bodylg": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 18,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": 26
+      },
+      "bodysm": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 14,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": 20
+      },
+      "bodyxs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 12,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": 16
+      },
+      "display2xl": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 56,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaylg": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 44,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaymd": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 40,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaysm": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 32,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxl": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 48,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 28,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "heading2xs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 18,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headinglg": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 28,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingmd": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 26,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingsm": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 22,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxl": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 32,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxs": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 20,
+        "fontWeight": "MediumItalic",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      }
+    }
+  },
+  "themeMetadata": {
+    "code": "TEST",
+    "displayName": "Test",
+    "iconUrl": "https://generalaviationnews.s3.amazonaws.com/uploads/2016/02/Alaska-Airlines-logo-old.jpeg",
+    "name": "Test theme",
+    "webviewCode": "auro.theme.test"
+  },
+  "uiTokens": {
+    "button": {
+      "disabled": {
+        "color": {
+          "background": "#0000000d",
+          "text": "#d0d0d0"
+        }
+      },
+      "disabledInverse": {
+        "color": {
+          "background": "#ffffff0d",
+          "text": "#7e7e7e"
+        }
+      },
+      "primary": {
+        "color": {
+          "background": "#7e7e7e",
+          "backgroundPressed": "#525252",
+          "text": "#ffffff"
+        }
+      },
+      "primaryInverse": {
+        "color": {
+          "background": "#ffffff",
+          "backgroundPressed": "#ffffffcc",
+          "text": "#7e7e7e"
+        }
+      },
+      "quaternary": {
+        "color": {
+          "backgroundPressed": "#525252",
+          "text": "#7e7e7e"
+        }
+      },
+      "quaternaryInverse": {
+        "color": {
+          "backgroundPressed": "#525252",
+          "text": "#ffffff"
+        }
+      },
+      "secondary": {
+        "color": {
+          "background": "#dddddd",
+          "backgroundPressed": "#f2f2f2",
+          "text": "#7e7e7e"
+        }
+      },
+      "secondaryInverse": {
+        "color": {
+          "background": "#dddddd",
+          "backgroundPressed": "#c5c5c5",
+          "text": "#7e7e7e"
+        }
+      },
+      "tertiary": {
+        "color": {
+          "background": "#00000014",
+          "backgroundPressed": "#0000001f",
+          "border": "#dddddd",
+          "text": "#7e7e7e"
+        }
+      },
+      "tertiaryInverse": {
+        "color": {
+          "background": "#ffffff14",
+          "backgroundPressed": "#ffffff1f",
+          "border": "#ffffff",
+          "text": "#ffffff"
+        }
+      }
+    },
+    "component": {
+      "elevated": "#00000014",
+      "pressed": "#0000001f",
+      "selected": "#7e7e7e",
+      "selectedMuted": "#dddddd"
+    },
+    "componentInverse": {
+      "elevated": "#ffffff14",
+      "error": "#dddddd",
+      "pressed": "#ffffff1f",
+      "selected": "#ffffff",
+      "selectedMuted": "#ffffffcc"
+    },
+    "searchWidget": {
+      "fieldIcon": "#dddddd",
+      "routeDestination": "#adadad",
+      "routeOrgin": "#dddddd"
+    }
+  }
+}

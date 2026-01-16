@@ -9,5 +9,12 @@ scripts/
 templates/
 docs/
 test/
+processed/
+.vscode/
+packageScripts/
+.env.example
+outputConfigs/
+tokenDefinitions/
+postcss.config.js
 
 # overrides

@@ -1,0 +1,365 @@
+{
+  "basicTokens": {
+    "color": {
+      "border": {
+        "bold": "#adadad",
+        "brand": "#463c8f",
+        "divider": "#00000026",
+        "dividerInverse": "#ffffff66",
+        "inverse": "#ffffff",
+        "standard": "#d0d0d0",
+        "subtle": "#dddddd"
+      },
+      "brand": {
+        "primary": "#463c8f",
+        "primaryBold": "#31295c",
+        "primaryMuted": "#edeaf4",
+        "primarySubtle": "#8c7eb8",
+        "secondary": "#ce0c88",
+        "secondaryBold": "#831a57",
+        "secondaryMuted": "#fdf1f8",
+        "secondarySubtle": "#e26db8",
+        "tertiary": "#ee453d",
+        "tertiaryBold": "#97322a",
+        "tertiaryMuted": "#ffeeea",
+        "tertiarySubtle": "#ff9080"
+      },
+      "fare": {
+        "basiceconomy": "#d0d0d0",
+        "business": "#463c8f",
+        "economy": "#ce0c88",
+        "first": "#463c8f",
+        "premiumeconomy": "#1b6976"
+      },
+      "pageBackground": {
+        "standard": "#ffffff",
+        "utility": "#ffffff"
+      },
+      "status": {
+        "error": "#e31f26",
+        "errorSubtle": "#fbc6c6",
+        "info": "#007db1",
+        "infoSubtle": "#e8f2f8",
+        "standard": "#afb9c6",
+        "success": "#447a1f",
+        "successSubtle": "#d6eac7",
+        "warning": "#fac200",
+        "warningSubtle": "#fff0b2"
+      },
+      "surface": {
+        "accent1": "#aca1cc",
+        "accent1Muted": "#edeaf4",
+        "accent1Subtle": "#aca1cc",
+        "accent2": "#f7f7f7",
+        "accent2Muted": "#f7f7f7",
+        "inverse": "#463c8f",
+        "inverseSubtle": "#8c7eb8",
+        "neutral": "#f2f2f2",
+        "neutralMedium": "#dddddd",
+        "neutralSubtle": "#f7f7f7",
+        "standard": "#ffffff"
+      },
+      "textIcon": {
+        "accent1": "#463c8f",
+        "disabled": "#d0d0d0",
+        "inverse": "#ffffff",
+        "inverseDisabled": "#7e8894",
+        "inverseMuted": "#ccd2db",
+        "linkDefault": "#ce0c88",
+        "linkHover": "#831a57",
+        "linkInverseDefault": "#ffffff",
+        "linkInverseHover": "#ffffff",
+        "muted": "#3d3d3d",
+        "standard": "#000000"
+      },
+      "tierProgram": {
+        "loungetier": {
+          "lounge": "#01426a",
+          "loungeplus": "#53b390"
+        },
+        "loyaltytier": {
+          "gold": "#fbdc7a",
+          "goldMuted": "#fdefc4",
+          "platinum": "#bcb8a4",
+          "platinumMuted": "#dad8cd",
+          "silver": "#e4e9ec",
+          "silverMuted": "#f9fafb",
+          "titanium": "#282828",
+          "titaniumMuted": "#545454"
+        },
+        "oneworld": {
+          "emerald": "#139142",
+          "ruby": "#a41d4a",
+          "sapphire": "#015daa"
+        }
+      }
+    },
+    "typography": {
+      "accent2xl": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 32,
+        "fontWeight": "Regular",
+        "letterSpacing": 1.6,
+        "lineHeight": "100%"
+      },
+      "accent2xs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 14,
+        "fontWeight": "Regular",
+        "letterSpacing": 1.4,
+        "lineHeight": "130%"
+      },
+      "accentlg": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 24,
+        "fontWeight": "Regular",
+        "letterSpacing": 1.2,
+        "lineHeight": "130%"
+      },
+      "accentmd": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 22,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.1,
+        "lineHeight": "130%"
+      },
+      "accentsm": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "letterSpacing": 0.9,
+        "lineHeight": "130%"
+      },
+      "accentxl": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 26,
+        "fontWeight": "Regular",
+        "letterSpacing": 1.3,
+        "lineHeight": "130%"
+      },
+      "accentxs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 16,
+        "fontWeight": "Medium",
+        "letterSpacing": 1.6,
+        "lineHeight": "130%"
+      },
+      "body2xs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 10,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": 14
+      },
+      "bodydefault": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 16,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": 24
+      },
+      "bodylg": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 18,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": 26
+      },
+      "bodysm": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 14,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": 20
+      },
+      "bodyxs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 12,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": 16
+      },
+      "display2xl": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 56,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaylg": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 44,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaymd": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 40,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displaysm": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 32,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxl": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 48,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "displayxs": {
+        "fontFamily": "Chronicle Display",
+        "fontSize": 28,
+        "fontWeight": "Semibold",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "heading2xs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headinglg": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 28,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingmd": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 26,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingsm": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 22,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxl": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 32,
+        "fontWeight": "Regular",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      },
+      "headingxs": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 20,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": "130%"
+      }
+    }
+  },
+  "themeMetadata": {
+    "code": "haLight",
+    "displayName": "Hawaiian Airlines",
+    "iconUrl": "https://resource.alaskaair.net/v3/assets/blt2cefe12c88e9dd91/blt9c8b19b678650fc0/68dadf0eb0736f7fefe5fdb3/ha_favicon.ico",
+    "name": "Hawaiian Airlines",
+    "webviewCode": "auro.theme.hawaiian"
+  },
+  "uiTokens": {
+    "button": {
+      "disabled": {
+        "color": {
+          "background": "#0000000d",
+          "text": "#d0d0d0"
+        }
+      },
+      "disabledInverse": {
+        "color": {
+          "background": "#ffffff0d",
+          "text": "#7e8894"
+        }
+      },
+      "primary": {
+        "color": {
+          "background": "#ce0c88",
+          "backgroundPressed": "#831a57",
+          "text": "#ffffff"
+        }
+      },
+      "primaryInverse": {
+        "color": {
+          "background": "#ffffff",
+          "backgroundPressed": "#ffffffcc",
+          "text": "#463c8f"
+        }
+      },
+      "quaternary": {
+        "color": {
+          "backgroundPressed": "#831a57",
+          "text": "#ce0c88"
+        }
+      },
+      "quaternaryInverse": {
+        "color": {
+          "backgroundPressed": "#831a57",
+          "text": "#ffffff"
+        }
+      },
+      "secondary": {
+        "color": {
+          "background": "#fdf1f8",
+          "backgroundPressed": "#ccc5e0",
+          "text": "#ce0c88"
+        }
+      },
+      "secondaryInverse": {
+        "color": {
+          "background": "#fdf1f8",
+          "backgroundPressed": "#fad8eb",
+          "text": "#ce0c88"
+        }
+      },
+      "tertiary": {
+        "color": {
+          "background": "#00000014",
+          "backgroundPressed": "#0000001f",
+          "border": "#dddddd",
+          "text": "#ce0c88"
+        }
+      },
+      "tertiaryInverse": {
+        "color": {
+          "background": "#ffffff14",
+          "backgroundPressed": "#ffffff1f",
+          "border": "#ffffff",
+          "text": "#ffffff"
+        }
+      }
+    },
+    "component": {
+      "elevated": "#00000014",
+      "pressed": "#0000001f",
+      "selected": "#463c8f",
+      "selectedMuted": "#edeaf4"
+    },
+    "componentInverse": {
+      "elevated": "#ffffff14",
+      "error": "#f9a4a8",
+      "pressed": "#ffffff1f",
+      "selected": "#ffffff",
+      "selectedMuted": "#ffffffcc"
+    },
+    "searchWidget": {
+      "fieldIcon": "#d4abea",
+      "routeDestination": "#8ec891",
+      "routeOrgin": "#d4abea"
+    }
+  }
+}

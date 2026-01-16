@@ -1,0 +1,22 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 16 Jan 2026 20:28:28 GMT
+ */
+
+:root {
+  --ds-size-25: 0.125rem; /* 2px */
+  --ds-size-50: 0.25rem; /* 4px */
+  --ds-size-75: 0.375rem; /* 6px */
+  --ds-size-100: 0.5rem; /* 8px */
+  --ds-size-150: 0.75rem; /* 12px */
+  --ds-size-200: 1rem; /* 16px */
+  --ds-size-250: 1.25rem; /* 20px */
+  --ds-size-300: 1.5rem; /* 24px */
+  --ds-size-400: 2rem; /* 32px */
+  --ds-size-500: 2.5rem; /* 40px */
+  --ds-size-600: 3rem; /* 48px */
+  --ds-size-700: 3.5rem; /* 56px */
+  --ds-size-800: 4rem; /* 64px */
+  --ds-size-900: 4.5rem; /* 72px */
+  --ds-size-1000: 5rem; /* 80px */
+}
