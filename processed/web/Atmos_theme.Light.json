@@ -297,19 +297,19 @@
           "value": "#101d2c"
         },
         "button": {
-          "button-background": {
+          "background": {
             "value": "#ffffff00"
           },
-          "button-background-hover": {
+          "background-hover": {
             "value": "#ffffff1a"
           },
-          "button-border": {
+          "border": {
             "value": "#ffffff"
           },
-          "signedin-button-background": {
+          "signedin-background": {
             "value": "#aedeff"
           },
-          "signedin-button-background-hover": {
+          "signedin-background-hover": {
             "value": "#63beff"
           },
           "text & icon": {

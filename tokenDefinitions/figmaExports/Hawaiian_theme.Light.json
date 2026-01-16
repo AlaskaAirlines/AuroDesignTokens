@@ -3598,7 +3598,7 @@
             }
           }
         },
-        "button-border": {
+        "border": {
           "$type": "color",
           "$value": "#000000",
           "$description": "",
@@ -3617,7 +3617,7 @@
             }
           }
         },
-        "button-background": {
+        "background": {
           "$type": "color",
           "$value": "#ffffff00",
           "$description": "",
@@ -3636,7 +3636,7 @@
             }
           }
         },
-        "button-background-hover": {
+        "background-hover": {
           "$type": "color",
           "$value": "#0000000d",
           "$description": "",
@@ -3655,7 +3655,7 @@
             }
           }
         },
-        "signedin-button-background": {
+        "signedin-background": {
           "$type": "color",
           "$value": "#101d2c",
           "$description": "",
@@ -3674,7 +3674,7 @@
             }
           }
         },
-        "signedin-button-background-hover": {
+        "signedin-background-hover": {
           "$type": "color",
           "$value": "#002c4e",
           "$description": "",
