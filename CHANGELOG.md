@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.13.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.13.0...v8.13.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* add quation marks to font family values [#404](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/404) ([86b4ef8](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/86b4ef8c9c8799596b12db8ba30acd0dd16204ba))
+
 # [8.13.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.12.2...v8.13.0) (2026-01-16)
 
 
