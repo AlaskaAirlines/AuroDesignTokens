@@ -14,11 +14,11 @@ Each theme directory contains multiple file formats including CSS Custom Propert
 
 ```js
 // Import specific tokens
-import tokens from '@aurodesignsystem/design-tokens/dist/alaska/JSObject--allTokens.js';
+import tokens from '@aurodesignsystem/design-tokens/dist/themes/alaska/JSObject--allTokens.js';
 const { basic, advanced } = tokens;
 
 // Or import all tokens
-import * as AlaskaTokens from '@aurodesignsystem/design-tokens/dist/alaska/JSObject--allTokens.js';
+import * as AlaskaTokens from '@aurodesignsystem/design-tokens/dist/themes/alaska/JSObject--allTokens.js';
 ```
 
 ## File Format Reference
