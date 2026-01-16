@@ -22,12 +22,12 @@ For most web applications, using CSS Custom Properties is recommended:
 
 ```js
 // In a React or similar application
-import "@aurodesignsystem/design-tokens/dist/alaska/CSSCustomProperties--alaska.css"
+import "@aurodesignsystem/design-tokens/dist/themes/alaska/CSSCustomProperties--alaska.css"
 ```
 
 ```html
 <!-- In an HTML file -->
-<link rel="stylesheet" href="node_modules/@aurodesignsystem/design-tokens/dist/alaska/CSSCustomProperties--alaska.css">
+<link rel="stylesheet" href="node_modules/@aurodesignsystem/design-tokens/dist/themes/alaska/CSSCustomProperties--alaska.css">
 ```
 
 ### With Sass
@@ -35,13 +35,13 @@ import "@aurodesignsystem/design-tokens/dist/alaska/CSSCustomProperties--alaska.
 When working with Sass:
 
 ```scss
-@import "~@aurodesignsystem/design-tokens/dist/alaska/primitives--alaska.scss";
+@import "~@aurodesignsystem/design-tokens/dist/themes/alaska/primitives--alaska.scss";
 ```
 
 ### JavaScript Usage
 
 ```js
-import { AuroColorAlertNotificationOnLight } from '@aurodesignsystem/design-tokens/dist/auro-classic/JSVariables--color.js';
+import { AuroColorAlertNotificationOnLight } from '@aurodesignsystem/design-tokens/dist/legacy/auro-classic/JSVariables--color.js';
 ```
 
 ## Available Themes
