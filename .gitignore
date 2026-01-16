@@ -2,7 +2,7 @@
 .env
 node_modules
 build
-dist
+processed
 test/validJSON
 css
 example/temp

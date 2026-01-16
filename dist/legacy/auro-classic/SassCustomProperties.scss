@@ -1,0 +1,1997 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 16 Jan 2026 20:28:28 GMT
+ */
+
+:root {
+  --ds-color-alert-notification-default: #0074c8;
+  --ds-color-alert-warning-default: #de750c;
+  --ds-color-alert-error-default: #df0b37;
+  --ds-color-alert-success-default: #00805d;
+  --ds-color-alert-advisory-default: #fff0cd;
+  --ds-color-alert-bkg-success-default: #ddf6e8;
+  --ds-color-alert-bkg-error-default: #ffedf1;
+  --ds-color-background-primary-100-default: #ffffff;
+  --ds-color-background-primary-100-inverse: #0e2b4f;
+  --ds-color-background-primary-200-default: #f7f7f7;
+  --ds-color-background-primary-200-inverse: #194069;
+  --ds-color-background-primary-300-default: #e4e8ec;
+  --ds-color-background-primary-300-inverse: #265688;
+  --ds-color-background-primary-400-default: #dddddd;
+  --ds-color-background-primary-400-inverse: #326aa5;
+  --ds-color-background-success-default: #eef8f5;
+  --ds-color-background-success-inverse: #173c30;
+  --ds-color-background-error-default: #fff4f4;
+  --ds-color-background-error-inverse: #74110e;
+  --ds-color-background-warning-default: #fef8e9;
+  --ds-color-background-warning-inverse: #5d4514;
+  --ds-color-background-info-default: #f0f7fd;
+  --ds-color-background-info-inverse: #193d73;
+  --ds-color-background-subtle-default: #f7f8fa;
+  --ds-color-background-subtle-inverse: #2a2a2a;
+  --ds-color-background-accent-default: #ebfafd;
+  --ds-color-background-accent-inverse: #275b72;
+  --ds-color-background-emphasis-default: #c9e0f7;
+  --ds-color-background-emphasis-inverse: #225296;
+  --ds-color-background-scrimmed-default: rgba(0, 0, 0, 0.5);
+  --ds-color-background-lightest: #ffffff;
+  --ds-color-background-lighter: #f7f7f7;
+  --ds-color-background-darker: #01426a;
+  --ds-color-background-darkest: #00274a;
+  --ds-color-background-gradient-default: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white: #ffffff;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white-100: rgba(255, 255, 255, 0.03);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white-200: rgba(255, 255, 255, 0.06);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white-300: rgba(255, 255, 255, 0.12);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white-400: rgba(255, 255, 255, 0.25);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-white-500: rgba(255, 255, 255, 0.5);
+  --ds-color-base-white-opacity-50: rgba(255, 255, 255, 0.5); /* white @ 50% */
+  --ds-color-base-white-opacity-40: rgba(255, 255, 255, 0.4); /* white @ 40% */
+  --ds-color-base-white-opacity-0: rgba(255, 255, 255, 0); /* white @ 0% */
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black: #000000;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black-100: rgba(0, 0, 0, 0.03);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black-200: rgba(0, 0, 0, 0.06);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black-300: rgba(0, 0, 0, 0.12);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black-400: rgba(0, 0, 0, 0.25);
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-black-500: rgba(0, 0, 0, 0.5);
+  --ds-color-base-black-opacity-15: rgba(0, 0, 0, 0.15); /* black @ 15% */
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-100: #f0f7fd;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-200: #c9e0f7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-300: #a0c9f1;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-400: #79b2ec;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-500: #5398e6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-600: #3b7fd2;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-700: #2c67b5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-800: #225296;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-900: #193d73;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-blue-1000: #102a51;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-100: #ebfafd;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-200: #a8e9f7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-300: #6ad5ef;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-400: #56bbde;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-500: #4aa2c7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-600: #3e89aa;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-700: #32718e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-800: #275b72;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-900: #1d4658;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-cyan-1000: #12303d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-error-100: #fff4f4;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-error-200: #f9aca6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-error-300: #f16359;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-error-400: #cc1816;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-error-500: #74110e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-100: #f7f7f7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-200: #d4d4d4;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-300: #c5c5c5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-400: #adadad;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-500: #959595;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-600: #7e7e7e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-700: #676767;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-800: #525252;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-900: #3d3d3d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-gray-1000: #2a2a2a;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-100: #f3faf7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-200: #000000;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-300: #addbca;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-400: #7ec6ac;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-500: #51ae8c;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-600: #459578;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-700: #3a7d64;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-800: #306854;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-900: #285545;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-green-1000: #1f4436;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-100: #f5fbeb;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-200: #d8efb4;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-300: #badd81;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-400: #a2c270;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-500: #8ca761;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-600: #778f53;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-700: #647845;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-800: #53643a;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-900: #44522f;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-lime-1000: #364126;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-100: #f2f7fb;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-200: #cfe0ef;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-300: #acc9e2;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-400: #89b2d4;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-500: #6899c6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-600: #4a82b7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-700: #326aa5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-800: #265688;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-900: #194069;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-navy-1000: #0e2b4f;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-100: #f7f8fa;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-200: #e4e8ec;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-300: #ccd2db;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-400: #afb9c6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-500: #939fad;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-600: #7e8894;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-700: #6a717c;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-800: #585e67;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-900: #484d55;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-neutral-1000: #393d43;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-100: #fff7f8;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-200: #fde0e6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-300: #fcc2ce;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-400: #fa9db0;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-500: #f7738e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-600: #e45472;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-700: #bf475f;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-800: #a03b50;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-900: #833142;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-pink-1000: #692734;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-100: #fbf8fe;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-200: #ede3fd;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-300: #ddc9fb;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-400: #c9a9f8;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-500: #b588f5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-600: #a268f3;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-700: #8d47f0;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-800: #7633d7;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-900: #622ab2;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-purple-1000: #4e228d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-100: #fef7f5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-200: #fae2da;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-300: #f5c7b8;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-400: #f0a68d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-500: #e9815e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-600: #e35c2f;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-700: #d03a08;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-800: #ae3007;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-900: #902806;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-red-1000: #732005;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-success-100: #eef8f5;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-success-200: #8eceb9;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-success-300: #40a080;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-success-400: #0b6f4d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-success-500: #173c30;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-100: #f7fafa;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-200: #dfe9ea;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-300: #c2d5d6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-400: #9fbdbe;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-500: #7ba5a6;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-600: #5c8f91;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-700: #3d7a7d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-800: #21686a;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-900: #085659;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-turquoise-1000: #004447;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-100: #fff9df;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-200: #ffe87e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-300: #f9ce06;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-400: #d6b622;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-500: #b49d35;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-600: #96873e;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-700: #7c7140;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-800: #665e3d;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-900: #524e38;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-yellow-1000: #403d30;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-warning-100: #fef8e9;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-warning-200: #f2c153;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-warning-300: #c49432;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-warning-400: #8e6b22;
+  /**
+   * 
+   *  // Base value for token support; should not use in code!
+   */
+  --ds-color-base-warning-500: #5d4514;
+  --ds-color-state-error-100: #ff999b;
+  --ds-color-state-error-500: #df0b37;
+  --ds-color-state-success-100: #69cf96;
+  --ds-color-state-success-500: #00805d;
+  --ds-color-state-warning-500: #de750c;
+  --ds-color-border-primary-default: #585e67;
+  --ds-color-border-primary-inverse: #afb9c6;
+  --ds-color-border-secondary-default: #939fad;
+  --ds-color-border-secondary-inverse: #7e8894;
+  --ds-color-border-tertiary-default: #dddddd;
+  --ds-color-border-tertiary-inverse: #676767;
+  --ds-color-border-error-default: #cc1816;
+  --ds-color-border-error-inverse: #f9aca6;
+  --ds-color-border-divider-default: rgba(0, 0, 0, 0.12);
+  --ds-color-border-divider-inverse: rgba(255, 255, 255, 0.25);
+  --ds-color-border-subtle-default: #f0f7fd;
+  --ds-color-border-subtle-inverse: #326aa5;
+  --ds-color-border-emphasis-default: #194069;
+  --ds-color-border-emphasis-inverse: #f2f7fb;
+  --ds-color-border-accent-default: #badd81;
+  --ds-color-border-accent-inverse: #a2c270;
+  --ds-color-border-success-default: #0b6f4d;
+  --ds-color-border-success-inverse: #8eceb9;
+  --ds-color-border-warning-default: #c49432;
+  --ds-color-border-warning-inverse: #f2c153;
+  --ds-color-border-info-default: #326aa5;
+  --ds-color-border-info-inverse: #89b2d4;
+  --ds-color-border-ui-default-default: #2c67b5;
+  --ds-color-border-ui-default-inverse: #56bbde;
+  --ds-color-border-ui-hover-default: #193d73;
+  --ds-color-border-ui-hover-inverse: #a8e9f7;
+  --ds-color-border-ui-active-default: #225296;
+  --ds-color-border-ui-active-inverse: #6ad5ef;
+  --ds-color-border-ui-focus-default: #2c67b5;
+  --ds-color-border-ui-focus-inverse: #56bbde;
+  --ds-color-border-ui-disabled-default: #adadad;
+  --ds-color-border-ui-disabled-inverse: #7e7e7e;
+  --ds-color-border-active-default: #0074c8;
+  --ds-color-border-active-inverse: #00cff0;
+  --ds-color-border-disabled-default: #d4d4d4;
+  --ds-color-border-focus-default: #959595;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-100: #f7f8fa;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-200: #e4e8ec;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-300: #ccd2db;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-400: #afb9c6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-500: #939fad;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-600: #7e8894;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-700: #6a717c;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-800: #585e67;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-900: #484d55;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-neutral-1000: #393d43;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-100: #f7f7f7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-200: #dddddd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-300: #c5c5c5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-400: #adadad;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-500: #959595;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-600: #7e7e7e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-700: #676767;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-800: #525252;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-900: #3d3d3d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-gray-1000: #2a2a2a;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-100: #fef7f5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-200: #fae2da;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-300: #f5c7b8;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-400: #f0a68d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-500: #e9815e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-600: #e35c2f;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-700: #d03a08;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-800: #ae3007;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-900: #902806;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-red-1000: #732005;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-100: #fff9df;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-200: #ffe87e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-300: #f9ce06;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-400: #d6b622;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-500: #b49d35;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-600: #96873e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-700: #7c7140;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-800: #665e3d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-900: #524e38;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-yellow-1000: #403d30;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-100: #f5fbeb;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-200: #d8efb4;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-300: #badd81;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-400: #a2c270;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-500: #8ca761;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-600: #778f53;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-700: #647845;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-800: #53643a;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-900: #44522f;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-lime-1000: #364126;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-100: #f3faf7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-200: #d4ece4;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-300: #addbca;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-400: #7ec6ac;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-500: #51ae8c;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-600: #459578;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-700: #3a7d64;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-800: #306854;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-900: #285545;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-green-1000: #1f4436;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-100: #f7fafa;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-200: #dfe9ea;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-300: #c2d5d6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-400: #9fbdbe;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-500: #7ba5a6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-600: #5c8f91;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-700: #3d7a7d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-800: #21686a;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-900: #085659;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-turquoise-1000: #004447;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-100: #ebfafd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-200: #a8e9f7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-300: #6ad5ef;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-400: #56bbde;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-500: #4aa2c7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-600: #3e89aa;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-700: #32718e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-800: #275b72;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-900: #1d4658;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-cyan-1000: #12303d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-100: #f0f7fd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-200: #c9e0f7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-300: #a0c9f1;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-400: #79b2ec;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-500: #5398e6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-600: #3b7fd2;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-700: #2c67b5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-800: #225296;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-900: #193d73;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-blue-1000: #102a51;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-100: #f2f7fb;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-200: #cfe0ef;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-300: #acc9e2;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-400: #89b2d4;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-500: #6899c6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-600: #4a82b7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-700: #326aa5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-800: #265688;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-900: #194069;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-navy-1000: #0e2b4f;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-100: #fbf8fe;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-200: #ede3fd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-300: #ddc9fb;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-400: #c9a9f8;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-500: #b588f5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-600: #a268f3;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-700: #8d47f0;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-800: #7633d7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-900: #622ab2;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-purple-1000: #4e228d;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-100: #fff7f8;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-200: #fde0e6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-300: #fcc2ce;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-400: #fa9db0;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-500: #f7738e;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-600: #e45472;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-700: #bf475f;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-800: #a03b50;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-900: #833142;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-pink-1000: #692734;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-midnight-100: #c1daf0;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-midnight-200: #569ed7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-midnight-300: #156fad;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-midnight-400: #01426a;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-midnight-500: #00274a;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-atlas-100: #cde6ff;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-atlas-200: #6bb7fb;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-atlas-300: #2492eb;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-atlas-400: #0074c8;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-atlas-500: #054687;
+  --ds-color-brand-atlas-400-opacity-20: rgba(0, 116, 200, 0.2); /* color brand atlas 400 @ 20% */
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-breeze-100: #c0f7ff;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-breeze-200: #5de3f7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-breeze-300: #00cff0;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-breeze-400: #099dc5;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-breeze-500: #0b5575;
+  --ds-color-brand-breeze-300-opacity-30: rgba(0, 207, 240, 0.3); /* breeze 300 @ 30% */
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-tropical-100: #e2ffcd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-tropical-200: #d0fba6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-tropical-300: #c0e585;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-tropical-400: #91be62;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-tropical-500: #5e8741;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-alpine-100: #bcaae6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-alpine-200: #9e73ea;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-alpine-300: #8439ef;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-alpine-400: #631db8;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-alpine-500: #39115c;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-flamingo-100: #ffebee;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-flamingo-200: #ffc0ca;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-flamingo-300: #ff94a7;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-flamingo-400: #f65b7b;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-flamingo-500: #b82b47;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-canyon-100: #ffcab6;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-canyon-200: #f99574;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-canyon-300: #f26135;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-canyon-400: #de3e09;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-canyon-500: #b83302;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-goldcoast-100: #fff0cd;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-goldcoast-200: #ffdb67;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-goldcoast-300: #ffd200;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-goldcoast-400: #e5ad07;
+  /**
+   * 
+   *  // Please consider descriptive token prior to using brand token
+   */
+  --ds-color-brand-goldcoast-500: #b88624;
+  --ds-color-brand-emerald: #139142;
+  --ds-color-brand-sapphire: #015daa;
+  --ds-color-brand-ruby: #a41d4a;
+  --ds-color-brand-lounge: #01426a;
+  --ds-color-brand-loungeplus: #53b390;
+  --ds-color-container-accent-default: #f5fbeb;
+  --ds-color-container-accent-inverse: #badd81;
+  --ds-color-container-emphasis-default: #ebfafd;
+  --ds-color-container-emphasis-inverse: #6ad5ef;
+  --ds-color-container-error-default: #fff4f4;
+  --ds-color-container-error-inverse: #74110e;
+  --ds-color-container-info-default: #f0f7fd;
+  --ds-color-container-info-inverse: #193d73;
+  --ds-color-container-primary-default: #ffffff;
+  --ds-color-container-primary-inverse: #0e2b4f;
+  --ds-color-container-secondary-default: #f7f7f7;
+  --ds-color-container-secondary-inverse: #194069;
+  --ds-color-container-subtle-default: #f7f8fa;
+  --ds-color-container-subtle-inverse: #393d43;
+  --ds-color-container-success-default: #eef8f5;
+  --ds-color-container-success-inverse: #173c30;
+  --ds-color-container-tertiary-default: rgba(0, 0, 0, 0.03);
+  --ds-color-container-tertiary-inverse: rgba(255, 255, 255, 0.06);
+  --ds-color-container-warning-default: #fef8e9;
+  --ds-color-container-warning-inverse: #5d4514;
+  --ds-color-container-ui-primary-active-default: #225296;
+  --ds-color-container-ui-primary-active-inverse: #6ad5ef;
+  --ds-color-container-ui-primary-default-default: #2c67b5;
+  --ds-color-container-ui-primary-default-inverse: #56bbde;
+  --ds-color-container-ui-primary-disabled-default: #a0c9f1;
+  --ds-color-container-ui-primary-disabled-inverse: #275b72;
+  --ds-color-container-ui-primary-focus-default: #2c67b5;
+  --ds-color-container-ui-primary-focus-inverse: #56bbde;
+  --ds-color-container-ui-primary-hover-default: #193d73;
+  --ds-color-container-ui-primary-hover-inverse: #a8e9f7;
+  --ds-color-container-ui-secondary-active-default: #f0f7fd;
+  --ds-color-container-ui-secondary-active-inverse: rgba(255, 255, 255, 0.06);
+  --ds-color-container-ui-secondary-default-default: #ffffff;
+  --ds-color-container-ui-secondary-default-inverse: rgba(255, 255, 255, 0.03);
+  --ds-color-container-ui-secondary-disabled-default: #f7f7f7;
+  --ds-color-container-ui-secondary-disabled-inverse: rgba(255, 255, 255, 0.12);
+  --ds-color-container-ui-secondary-focus-default: #ffffff;
+  --ds-color-container-ui-secondary-focus-inverse: rgba(255, 255, 255, 0.03);
+  --ds-color-container-ui-secondary-hover-default: rgba(0, 0, 0, 0.03);
+  --ds-color-container-ui-secondary-hover-inverse: rgba(255, 255, 255, 0.12);
+  --ds-color-container-ui-tertiary-active-default: rgba(0, 0, 0, 0.06);
+  --ds-color-container-ui-tertiary-active-inverse: rgba(255, 255, 255, 0.06);
+  --ds-color-container-ui-tertiary-default-default: rgba(0, 0, 0, 0.03);
+  --ds-color-container-ui-tertiary-default-inverse: rgba(255, 255, 255, 0.12);
+  --ds-color-container-ui-tertiary-disabled-default: rgba(0, 0, 0, 0.03);
+  --ds-color-container-ui-tertiary-disabled-inverse: rgba(255, 255, 255, 0.25);
+  --ds-color-container-ui-tertiary-focus-default: rgba(0, 0, 0, 0.03);
+  --ds-color-container-ui-tertiary-focus-inverse: rgba(255, 255, 255, 0.12);
+  --ds-color-container-ui-tertiary-hover-default: rgba(0, 0, 0, 0.12);
+  --ds-color-container-ui-tertiary-hover-inverse: rgba(255, 255, 255, 0.25);
+  --ds-color-icon-primary-default: #676767;
+  --ds-color-icon-primary-inverse: #f7f7f7;
+  --ds-color-icon-secondary-default: #7e8894;
+  --ds-color-icon-secondary-inverse: #ccd2db;
+  --ds-color-icon-tertiary-default: #afb9c6;
+  --ds-color-icon-tertiary-inverse: #939fad;
+  --ds-color-icon-emphasis-default: #2a2a2a;
+  --ds-color-icon-emphasis-inverse: #ffffff;
+  --ds-color-icon-accent-default: #a2c270;
+  --ds-color-icon-accent-inverse: #badd81;
+  --ds-color-icon-info-default: #326aa5;
+  --ds-color-icon-info-inverse: #89b2d4;
+  --ds-color-icon-error-default: #cc1816;
+  --ds-color-icon-error-inverse: #f9aca6;
+  --ds-color-icon-warning-default: #c49432;
+  --ds-color-icon-warning-inverse: #f2c153;
+  --ds-color-icon-success-default: #40a080;
+  --ds-color-icon-success-inverse: #8eceb9;
+  --ds-color-icon-subtle-default: #a0c9f1;
+  --ds-color-icon-subtle-inverse: #326aa5;
+  --ds-color-icon-ui-primary-default-default: #2c67b5;
+  --ds-color-icon-ui-primary-default-inverse: #56bbde;
+  --ds-color-icon-ui-primary-hover-default: #193d73;
+  --ds-color-icon-ui-primary-hover-inverse: #a8e9f7;
+  --ds-color-icon-ui-primary-active-default: #225296;
+  --ds-color-icon-ui-primary-active-inverse: #6ad5ef;
+  --ds-color-icon-ui-primary-disabled-default: #adadad;
+  --ds-color-icon-ui-primary-disabled-inverse: #7e7e7e;
+  --ds-color-icon-ui-primary-focus-default: #2c67b5;
+  --ds-color-icon-ui-primary-focus-inverse: #56bbde;
+  --ds-color-icon-ui-secondary-active-default: #676767;
+  --ds-color-icon-ui-secondary-active-inverse: #c5c5c5;
+  --ds-color-icon-ui-secondary-default-default: #7e7e7e;
+  --ds-color-icon-ui-secondary-default-inverse: #adadad;
+  --ds-color-icon-ui-secondary-disabled-default: #adadad;
+  --ds-color-icon-ui-secondary-disabled-inverse: #7e7e7e;
+  --ds-color-icon-ui-secondary-focus-default: #7e7e7e;
+  --ds-color-icon-ui-secondary-focus-inverse: #adadad;
+  --ds-color-icon-ui-secondary-hover-default: #525252;
+  --ds-color-icon-ui-secondary-hover-inverse: #dddddd;
+  --ds-color-icon-brand-red-default: #d03a08;
+  --ds-color-icon-brand-red-inverse: #e9815e;
+  --ds-color-icon-brand-yellow-default: #7c7140;
+  --ds-color-icon-brand-yellow-inverse: #f9ce06;
+  --ds-color-icon-brand-pink-default: #bf475f;
+  --ds-color-icon-brand-pink-inverse: #f7738e;
+  --ds-color-icon-brand-purple-default: #8d47f0;
+  --ds-color-icon-brand-purple-inverse: #b588f5;
+  --ds-color-icon-brand-lime-default: #647845;
+  --ds-color-icon-brand-lime-inverse: #badd81;
+  --ds-color-icon-brand-green-default: #3a7d64;
+  --ds-color-icon-brand-green-inverse: #51ae8c;
+  --ds-color-icon-brand-turquoise-default: #3d7a7d;
+  --ds-color-icon-brand-turquoise-inverse: #7ba5a6;
+  --ds-color-icon-brand-navy-default: #265688;
+  --ds-color-icon-brand-navy-inverse: #6899c6;
+  --ds-color-icon-brand-blue-default: #2c67b5;
+  --ds-color-icon-brand-blue-inverse: #5398e6;
+  --ds-color-icon-brand-cyan-default: #32718e;
+  --ds-color-icon-brand-cyan-inverse: #6ad5ef;
+  --ds-color-icon-brand-gray-default: #676767;
+  --ds-color-icon-brand-gray-inverse: #c5c5c5;
+  --ds-color-icon-brand-neutral-default: #6a717c;
+  --ds-color-icon-brand-neutral-inverse: #afb9c6;
+  --ds-color-icon-disabled-default: rgba(0, 0, 0, 0.15);
+  --ds-color-text-primary-default: #2a2a2a;
+  --ds-color-text-primary-inverse: #ffffff;
+  --ds-color-text-secondary-default: #525252;
+  --ds-color-text-secondary-inverse: #dddddd;
+  --ds-color-text-tertiary-default: #6a717c;
+  --ds-color-text-tertiary-inverse: #adadad;
+  --ds-color-text-error-default: #cc1816;
+  --ds-color-text-error-inverse: #f9aca6;
+  --ds-color-text-emphasis-default: #265688;
+  --ds-color-text-emphasis-inverse: #cfe0ef;
+  --ds-color-text-accent-default: #647845;
+  --ds-color-text-accent-inverse: #badd81;
+  --ds-color-text-info-default: #326aa5;
+  --ds-color-text-info-inverse: #acc9e2;
+  --ds-color-text-subtle-default: #32718e;
+  --ds-color-text-subtle-inverse: #56bbde;
+  --ds-color-text-success-default: #0b6f4d;
+  --ds-color-text-success-inverse: #8eceb9;
+  --ds-color-text-ui-active-default: #225296;
+  --ds-color-text-ui-active-inverse: #6ad5ef;
+  --ds-color-text-ui-default-default: #2c67b5;
+  --ds-color-text-ui-default-inverse: #56bbde;
+  --ds-color-text-ui-disabled-default: #adadad;
+  --ds-color-text-ui-disabled-inverse: #7e7e7e;
+  --ds-color-text-ui-focus-default: #2c67b5;
+  --ds-color-text-ui-focus-inverse: #56bbde;
+  --ds-color-text-ui-hover-default: #193d73;
+  --ds-color-text-ui-hover-inverse: #a8e9f7;
+  --ds-color-text-link-default: #0074c8;
+  --ds-color-text-link-inverse: #00cff0;
+  --ds-color-tier-alaska-mvp-default: #726e6c;
+  --ds-color-tier-alaska-mvp-inverse: #c5c1bf;
+  --ds-color-tier-alaska-mvpgold-default: #7f682e;
+  --ds-color-tier-alaska-mvpgold-inverse: #c5c1bf;
+  --ds-color-tier-alaska-mvpgold75k-default: #7f682e;
+  --ds-color-tier-alaska-mvpgold75k-inverse: #c5c1bf;
+  --ds-color-tier-alaska-mvpgold100k-default: #7f682e;
+  --ds-color-tier-alaska-mvpgold100k-inverse: #c5c1bf;
+  --ds-color-tier-alaska-lounge: #01426a;
+  --ds-color-tier-alaska-loungeplus: #53b390;
+  --ds-color-tier-fare-business-default: #005154;
+  --ds-color-tier-fare-business-inverse: #9fbdbe;
+  --ds-color-tier-fare-economy-default: #2c67b5;
+  --ds-color-tier-fare-economy-inverse: #a0c9f1;
+  --ds-color-tier-fare-first-class-default: #002c4e;
+  --ds-color-tier-fare-first-class-inverse: #89b2d4;
+  --ds-color-tier-fare-saver-default: #4aa2c7;
+  --ds-color-tier-fare-saver-inverse: #a8e9f7;
+  --ds-color-tier-oneworld-emerald: #139142;
+  --ds-color-tier-oneworld-sapphire: #015daa;
+  --ds-color-tier-oneworld-ruby: #a41d4a;
+  --ds-color-ui-default-default: #0074c8;
+  --ds-color-ui-default-inverse: #00cff0;
+  --ds-color-ui-hover-default: #054687;
+  --ds-color-ui-hover-inverse: #5de3f7;
+  --ds-color-ui-active-default: #054687;
+  --ds-color-ui-active-inverse: #5de3f7;
+  --ds-color-ui-disabled-default: rgba(0, 116, 200, 0.2);
+  --ds-color-ui-bkg-default-default: rgba(0, 0, 0, 0.03);
+  --ds-color-ui-bkg-default-inverse: rgba(255, 255, 255, 0.03);
+  --ds-color-ui-bkg-hover-default: rgba(0, 0, 0, 0.06);
+  --ds-color-ui-bkg-hover-inverse: rgba(255, 255, 255, 0.06);
+  --ds-color-utility-blue-default: #79b2ec;
+  --ds-color-utility-blue-inverse: #c9e0f7;
+  --ds-color-utility-cyan-default: #6ad5ef;
+  --ds-color-utility-cyan-inverse: #a8e9f7;
+  --ds-color-utility-green-default: #7ec6ac;
+  --ds-color-utility-green-inverse: #addbca;
+  --ds-color-utility-gray-default: #adadad;
+  --ds-color-utility-gray-inverse: #dddddd;
+  --ds-color-utility-lime-default: #badd81;
+  --ds-color-utility-lime-inverse: #d8efb4;
+  --ds-color-utility-navy-default: #265688;
+  --ds-color-utility-navy-inverse: #acc9e2;
+  --ds-color-utility-neutral-default: #7e8894;
+  --ds-color-utility-neutral-inverse: #ccd2db;
+  --ds-color-utility-pink-default: #f7738e;
+  --ds-color-utility-pink-inverse: #fcc2ce;
+  --ds-color-utility-purple-default: #8d47f0;
+  --ds-color-utility-purple-inverse: #ddc9fb;
+  --ds-color-utility-red-default: #e35c2f;
+  --ds-color-utility-red-inverse: #f0a68d;
+  --ds-color-utility-turquoise-default: #5c8f91;
+  --ds-color-utility-turquoise-inverse: #9fbdbe;
+  --ds-color-utility-yellow-default: #f9ce06;
+  --ds-color-utility-yellow-inverse: #ffe87e;
+  --ds-color-utility-error-default: #cc1816;
+  --ds-color-utility-error-inverse: #f9aca6;
+  --ds-color-utility-warning-default: #f2c153;
+  --ds-color-utility-warning-inverse: #f2c153;
+  --ds-color-utility-success-default: #0b6f4d;
+  --ds-color-utility-success-inverse: #8eceb9;
+  --ds-border-radius: 0.375rem;
+  --ds-size-25: 0.125rem; /* 2px */
+  --ds-size-50: 0.25rem; /* 4px */
+  --ds-size-75: 0.375rem; /* 6px */
+  --ds-size-100: 0.5rem; /* 8px */
+  --ds-size-150: 0.75rem; /* 12px */
+  --ds-size-200: 1rem; /* 16px */
+  --ds-size-250: 1.25rem; /* 20px */
+  --ds-size-300: 1.5rem; /* 24px */
+  --ds-size-400: 2rem; /* 32px */
+  --ds-size-500: 2.5rem; /* 40px */
+  --ds-size-600: 3rem; /* 48px */
+  --ds-size-700: 3.5rem; /* 56px */
+  --ds-size-800: 4rem; /* 64px */
+  --ds-size-900: 4.5rem; /* 72px */
+  --ds-size-1000: 5rem; /* 80px */
+  --ds-unitless-scale-20: 0.25;
+  --ds-unitless-scale-50: 0.5;
+  --ds-unitless-scale-100: 1;
+  --ds-unitless-scale-120: 1.25;
+  --ds-unitless-scale-140: 1.4;
+  --ds-unitless-scale-150: 1.5;
+  --ds-unitless-scale-160: 1.625;
+  --ds-unitless-scale-170: 1.75;
+  --ds-unitless-scale-180: 1.875;
+  --ds-unitless-scale-200: 2;
+  --ds-unitless-scale-210: 2.125;
+  --ds-unitless-scale-220: 2.25;
+  --ds-unitless-scale-230: 2.375;
+  --ds-unitless-scale-260: 2.625;
+  --ds-unitless-scale-270: 2.75;
+  --ds-unitless-scale-300: 3;
+  --ds-unitless-scale-330: 3.375;
+  --ds-unitless-scale-350: 3.5;
+  --ds-unitless-scale-370: 3.75;
+  --ds-unitless-scale-420: 4.25;
+  --ds-animation-default-property: all;
+  --ds-animation-default-duration: 0.3s;
+  --ds-animation-default-timing: ease-out;
+  --ds-depth-overlay: 200;
+  --ds-depth-modal: 300;
+  --ds-depth-tooltip: 400;
+  --ds-elevation-100: 0px 0px 5px rgba(0, 0, 0, 0.15); /* for the least amount of emphasis */
+  --ds-elevation-200: 0px 0px 10px rgba(0, 0, 0, 0.15); /* for more emphasis than low elevation */
+  --ds-elevation-300: 0px 0px 15px rgba(0, 0, 0, 0.2); /* for maximum emphasis or differentiation */
+  --ds-asset-font-circular-family-name: "AS Circular";
+  --ds-asset-font-circular-filename: "ASCircularWeb";
+  --ds-asset-font-circular-weight-light: "-Light";
+  --ds-asset-font-circular-weight-medium: "-Medium";
+  --ds-asset-font-circular-weight-book: "-Book";
+  --ds-grid-breakpoint-xs: 320px;
+  --ds-grid-breakpoint-sm: 576px;
+  --ds-grid-breakpoint-md: 768px;
+  --ds-grid-breakpoint-lg: 1024px;
+  --ds-grid-breakpoint-xl: 1232px;
+  --ds-grid-column-xs: 6;
+  --ds-grid-column-sm: 12;
+  --ds-grid-column-md: 12;
+  --ds-grid-column-lg: 12;
+  --ds-grid-column-xl: 12;
+  --ds-grid-gutter-xs: 0.5rem;
+  --ds-grid-gutter-sm: 1rem;
+  --ds-grid-gutter-md: 1.5rem;
+  --ds-grid-gutter-lg: 1.5rem;
+  --ds-grid-gutter-xl: 2rem;
+  --ds-grid-margin-xs: 1rem;
+  --ds-grid-margin-sm: 1rem;
+  --ds-grid-margin-md: 1.5rem;
+  --ds-grid-margin-lg: 2rem;
+  --ds-grid-margin-xl: 2rem;
+  --ds-font-family-default: "AS Circular", "Helvetica Neue", Arial, sans-serif;
+  --ds-font-family-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --ds-text-heading-300-weight: 300;
+  --ds-text-heading-300-px: 18px;
+  --ds-text-heading-300-size: 1.125rem;
+  --ds-text-heading-300-height: 1.625rem;
+  --ds-text-heading-300-height-px: 26px;
+  --ds-text-heading-400-weight: 300;
+  --ds-text-heading-400-px: 20px;
+  --ds-text-heading-400-size: 1.25rem;
+  --ds-text-heading-400-height: 1.625rem;
+  --ds-text-heading-400-height-px: 26px;
+  --ds-text-heading-500-weight: 300;
+  --ds-text-heading-500-px-breakpoint-sm: 22px;
+  --ds-text-heading-500-px-breakpoint-md: 24px;
+  --ds-text-heading-500-px-breakpoint-lg: 24px;
+  --ds-text-heading-500-size-breakpoint-sm: 1.375rem;
+  --ds-text-heading-500-size-breakpoint-md: 1.5rem;
+  --ds-text-heading-500-size-breakpoint-lg: 1.5rem;
+  --ds-text-heading-500-height-breakpoint-sm: 1.625rem;
+  --ds-text-heading-500-height-breakpoint-px-sm: 26px;
+  --ds-text-heading-500-height-breakpoint-md: 1.875rem;
+  --ds-text-heading-500-height-breakpoint-px-md: 30px;
+  --ds-text-heading-500-height-breakpoint-lg: 2rem;
+  --ds-text-heading-500-height-breakpoint-px-lg: 32px;
+  --ds-text-heading-600-weight: 300;
+  --ds-text-heading-600-px-breakpoint-sm: 26px;
+  --ds-text-heading-600-px-breakpoint-md: 28px;
+  --ds-text-heading-600-px-breakpoint-lg: 28px;
+  --ds-text-heading-600-size-breakpoint-sm: 1.625rem;
+  --ds-text-heading-600-size-breakpoint-md: 1.75rem;
+  --ds-text-heading-600-size-breakpoint-lg: 1.75rem;
+  --ds-text-heading-600-height-breakpoint-sm: 1.875rem;
+  --ds-text-heading-600-height-breakpoint-px-sm: 30px;
+  --ds-text-heading-600-height-breakpoint-md: 2.125rem;
+  --ds-text-heading-600-height-breakpoint-px-md: 34px;
+  --ds-text-heading-600-height-breakpoint-lg: 2.25rem;
+  --ds-text-heading-600-height-breakpoint-px-lg: 36px;
+  --ds-text-heading-700-weight: 500;
+  --ds-text-heading-700-px-breakpoint-sm: 28px;
+  --ds-text-heading-700-px-breakpoint-md: 32px;
+  --ds-text-heading-700-px-breakpoint-lg: 36px;
+  --ds-text-heading-700-size-breakpoint-sm: 1.75rem;
+  --ds-text-heading-700-size-breakpoint-md: 2rem;
+  --ds-text-heading-700-size-breakpoint-lg: 2.25rem;
+  --ds-text-heading-700-height-breakpoint-sm: 2.125rem;
+  --ds-text-heading-700-height-breakpoint-px-sm: 34px;
+  --ds-text-heading-700-height-breakpoint-md: 2.375rem;
+  --ds-text-heading-700-height-breakpoint-px-md: 38px;
+  --ds-text-heading-700-height-breakpoint-lg: 2.75rem;
+  --ds-text-heading-700-height-breakpoint-px-lg: 44px;
+  --ds-text-heading-800-weight: 500;
+  --ds-text-heading-800-px-breakpoint-sm: 32px;
+  --ds-text-heading-800-px-breakpoint-md: 36px;
+  --ds-text-heading-800-px-breakpoint-lg: 40px;
+  --ds-text-heading-800-size-breakpoint-sm: 2rem;
+  --ds-text-heading-800-size-breakpoint-md: 2.25rem;
+  --ds-text-heading-800-size-breakpoint-lg: 2.5rem;
+  --ds-text-heading-800-height-breakpoint-sm: 2.375rem;
+  --ds-text-heading-800-height-breakpoint-px-sm: 38px;
+  --ds-text-heading-800-height-breakpoint-md: 2.625rem;
+  --ds-text-heading-800-height-breakpoint-px-md: 42px;
+  --ds-text-heading-800-height-breakpoint-lg: 3rem;
+  --ds-text-heading-800-height-breakpoint-px-lg: 48px;
+  --ds-text-heading-default-weight: 500;
+  --ds-text-heading-default-margin: 0;
+  --ds-text-heading-default-spacing: -0.2px;
+  --ds-text-heading-medium-weight: 300;
+  --ds-text-heading-display-weight: 100;
+  --ds-text-heading-display-px-breakpoint-sm: 44px;
+  --ds-text-heading-display-px-breakpoint-md: 48px;
+  --ds-text-heading-display-px-breakpoint-lg: 56px;
+  --ds-text-heading-display-size-breakpoint-sm: 2.75rem;
+  --ds-text-heading-display-size-breakpoint-md: 3rem;
+  --ds-text-heading-display-size-breakpoint-lg: 3.5rem;
+  --ds-text-heading-display-height-breakpoint-sm: 3.375rem;
+  --ds-text-heading-display-height-breakpoint-px-sm: 54px;
+  --ds-text-heading-display-height-breakpoint-md: 3.75rem;
+  --ds-text-heading-display-height-breakpoint-px-md: 60px;
+  --ds-text-heading-display-height-breakpoint-lg: 4.25rem;
+  --ds-text-heading-display-height-breakpoint-px-lg: 68px;
+  --ds-text-body-default-weight: 500;
+  --ds-text-body-size-xxs: 0.625rem;
+  --ds-text-body-size-xs: 0.75rem;
+  --ds-text-body-size-sm: 0.875rem;
+  --ds-text-body-size-default: 1rem;
+  --ds-text-body-size-lg: 1.125rem;
+  --ds-text-body-height-xs: 1rem;
+  --ds-text-body-height-sm: 1.25rem;
+  --ds-text-body-height-default: 1.5rem;
+  --ds-text-body-height-lg: 1.625rem;
+}
