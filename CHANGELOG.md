@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.13.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.13.1...v8.13.2) (2026-01-16)
+
+
+### Bug Fixes
+
+* documentation dist paths [#408](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/408) ([2b30227](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/2b3022758441cf9095a5fa59e0860e1b542d8f6e))
+
 ## [8.13.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.13.0...v8.13.1) (2026-01-16)
 
 
