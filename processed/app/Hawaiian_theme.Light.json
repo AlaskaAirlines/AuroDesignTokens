@@ -415,107 +415,127 @@
   "uiTokens": {
     "button": {
       "disabled": {
-        "background": {
-          "value": "#0000000d"
-        },
-        "text": {
-          "value": "#d0d0d0"
+        "color": {
+          "background": {
+            "value": "#0000000d"
+          },
+          "text": {
+            "value": "#d0d0d0"
+          }
         }
       },
       "disabledInverse": {
-        "background": {
-          "value": "#ffffff0d"
-        },
-        "text": {
-          "value": "#7e8894"
+        "color": {
+          "background": {
+            "value": "#ffffff0d"
+          },
+          "text": {
+            "value": "#7e8894"
+          }
         }
       },
       "primary": {
-        "background": {
-          "value": "#ce0c88"
-        },
-        "backgroundPressed": {
-          "value": "#831a57"
-        },
-        "text": {
-          "value": "#ffffff"
+        "color": {
+          "background": {
+            "value": "#ce0c88"
+          },
+          "backgroundPressed": {
+            "value": "#831a57"
+          },
+          "text": {
+            "value": "#ffffff"
+          }
         }
       },
       "primaryInverse": {
-        "background": {
-          "value": "#ffffff"
-        },
-        "backgroundPressed": {
-          "value": "#ffffffcc"
-        },
-        "text": {
-          "value": "#463c8f"
+        "color": {
+          "background": {
+            "value": "#ffffff"
+          },
+          "backgroundPressed": {
+            "value": "#ffffffcc"
+          },
+          "text": {
+            "value": "#463c8f"
+          }
         }
       },
       "quaternary": {
-        "backgroundPressed": {
-          "value": "#831a57"
-        },
-        "text": {
-          "value": "#ce0c88"
+        "color": {
+          "backgroundPressed": {
+            "value": "#831a57"
+          },
+          "text": {
+            "value": "#ce0c88"
+          }
         }
       },
       "quaternaryInverse": {
-        "backgroundPressed": {
-          "value": "#831a57"
-        },
-        "text": {
-          "value": "#ffffff"
+        "color": {
+          "backgroundPressed": {
+            "value": "#831a57"
+          },
+          "text": {
+            "value": "#ffffff"
+          }
         }
       },
       "secondary": {
-        "background": {
-          "value": "#fdf1f8"
-        },
-        "backgroundPressed": {
-          "value": "#ccc5e0"
-        },
-        "text": {
-          "value": "#ce0c88"
+        "color": {
+          "background": {
+            "value": "#fdf1f8"
+          },
+          "backgroundPressed": {
+            "value": "#ccc5e0"
+          },
+          "text": {
+            "value": "#ce0c88"
+          }
         }
       },
       "secondaryInverse": {
-        "background": {
-          "value": "#fdf1f8"
-        },
-        "backgroundPressed": {
-          "value": "#fad8eb"
-        },
-        "text": {
-          "value": "#ce0c88"
+        "color": {
+          "background": {
+            "value": "#fdf1f8"
+          },
+          "backgroundPressed": {
+            "value": "#fad8eb"
+          },
+          "text": {
+            "value": "#ce0c88"
+          }
         }
       },
       "tertiary": {
-        "background": {
-          "value": "#00000014"
-        },
-        "backgroundPressed": {
-          "value": "#0000001f"
-        },
-        "border": {
-          "value": "#dddddd"
-        },
-        "text": {
-          "value": "#ce0c88"
+        "color": {
+          "background": {
+            "value": "#00000014"
+          },
+          "backgroundPressed": {
+            "value": "#0000001f"
+          },
+          "border": {
+            "value": "#dddddd"
+          },
+          "text": {
+            "value": "#ce0c88"
+          }
         }
       },
       "tertiaryInverse": {
-        "background": {
-          "value": "#ffffff14"
-        },
-        "backgroundPressed": {
-          "value": "#ffffff1f"
-        },
-        "border": {
-          "value": "#ffffff"
-        },
-        "text": {
-          "value": "#ffffff"
+        "color": {
+          "background": {
+            "value": "#ffffff14"
+          },
+          "backgroundPressed": {
+            "value": "#ffffff1f"
+          },
+          "border": {
+            "value": "#ffffff"
+          },
+          "text": {
+            "value": "#ffffff"
+          }
         }
       }
     },

@@ -456,7 +456,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": false,
+          "hiddenFromPublishing": true,
           "scopes": [
             "FRAME_FILL",
             "SHAPE_FILL"
@@ -3321,524 +3321,544 @@
   "uiTokens": {
     "button": {
       "primary": {
-        "text": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primary.text",
-                "iOS": "uiTokens.color.button.primary.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primary.text",
+                  "iOS": "uiTokens.color.button.primary.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primary.background",
-                "iOS": "uiTokens.color.button.primary.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primary.background",
+                  "iOS": "uiTokens.color.button.primary.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primary.backgroundPressed",
-                "iOS": "uiTokens.color.button.primary.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#00274a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primary.backgroundPressed",
+                  "iOS": "uiTokens.color.button.primary.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "primary-inverse": {
-        "text": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primaryInverse.text",
-                "iOS": "uiTokens.color.button.primaryInverse.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primaryInverse.text",
+                  "iOS": "uiTokens.color.button.primaryInverse.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primaryInverse.background",
-                "iOS": "uiTokens.color.button.primaryInverse.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primaryInverse.background",
+                  "iOS": "uiTokens.color.button.primaryInverse.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#ffffffcc",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.primaryInverse.backgroundPressed",
-                "iOS": "uiTokens.color.button.primaryInverse.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#ffffffcc",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.primaryInverse.backgroundPressed",
+                  "iOS": "uiTokens.color.button.primaryInverse.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "secondary": {
-        "text": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondary.text",
-                "iOS": "uiTokens.color.button.secondary.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondary.text",
+                  "iOS": "uiTokens.color.button.secondary.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#ebf3f9",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondary.background",
-                "iOS": "uiTokens.color.button.secondary.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#ebf3f9",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondary.background",
+                  "iOS": "uiTokens.color.button.secondary.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#aedeff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondary.backgroundPressed",
-                "iOS": "uiTokens.color.button.secondary.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#aedeff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondary.backgroundPressed",
+                  "iOS": "uiTokens.color.button.secondary.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "secondary-inverse": {
-        "text": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondaryInverse.text",
-                "iOS": "uiTokens.color.button.secondaryInverse.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondaryInverse.text",
+                  "iOS": "uiTokens.color.button.secondaryInverse.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#ebf3f9",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondaryInverse.background",
-                "iOS": "uiTokens.color.button.secondaryInverse.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#ebf3f9",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondaryInverse.background",
+                  "iOS": "uiTokens.color.button.secondaryInverse.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#cfe0ef",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.secondaryInverse.backgroundPressed",
-                "iOS": "uiTokens.color.button.secondaryInverse.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#cfe0ef",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.secondaryInverse.backgroundPressed",
+                  "iOS": "uiTokens.color.button.secondaryInverse.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "tertiary": {
-        "text": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiary.text",
-                "iOS": "uiTokens.color.button.tertiary.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiary.text",
+                  "iOS": "uiTokens.color.button.tertiary.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#00000014",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiary.background",
-                "iOS": "uiTokens.color.button.tertiary.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#00000014",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiary.background",
+                  "iOS": "uiTokens.color.button.tertiary.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#0000001f",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiary.backgroundPressed",
-                "iOS": "uiTokens.color.button.tertiary.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#0000001f",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiary.backgroundPressed",
+                  "iOS": "uiTokens.color.button.tertiary.backgroundPressed"
+                }
               }
             }
-          }
-        },
-        "border": {
-          "$type": "color",
-          "$value": "#dddddd",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiary.border",
-                "iOS": "uiTokens.color.button.tertiary.border"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#dddddd",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiary.border",
+                  "iOS": "uiTokens.color.button.tertiary.border"
+                }
               }
             }
           }
         }
       },
       "tertiary-inverse": {
-        "text": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiaryInverse.text",
-                "iOS": "uiTokens.color.button.tertiaryInverse.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiaryInverse.text",
+                  "iOS": "uiTokens.color.button.tertiaryInverse.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#ffffff14",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiaryInverse.background",
-                "iOS": "uiTokens.color.button.tertiaryInverse.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#ffffff14",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiaryInverse.background",
+                  "iOS": "uiTokens.color.button.tertiaryInverse.background"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#ffffff1f",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiaryInverse.backgroundPressed",
-                "iOS": "uiTokens.color.button.tertiaryInverse.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#ffffff1f",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiaryInverse.backgroundPressed",
+                  "iOS": "uiTokens.color.button.tertiaryInverse.backgroundPressed"
+                }
               }
             }
-          }
-        },
-        "border": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.tertiaryInverse.border",
-                "iOS": "uiTokens.color.button.tertiaryInverse.border"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.tertiaryInverse.border",
+                  "iOS": "uiTokens.color.button.tertiaryInverse.border"
+                }
               }
             }
           }
         }
       },
       "quaternary": {
-        "text": {
-          "$type": "color",
-          "$value": "#01426a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.quaternary.text",
-                "iOS": "uiTokens.color.button.quaternary.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#01426a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.quaternary.text",
+                  "iOS": "uiTokens.color.button.quaternary.text"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.quaternary.backgroundPressed",
-                "iOS": "uiTokens.color.button.quaternary.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#00274a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.quaternary.backgroundPressed",
+                  "iOS": "uiTokens.color.button.quaternary.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "quaternary-inverse": {
-        "text": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.quaternaryInverse.text",
-                "iOS": "uiTokens.color.button.quaternaryInverse.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.quaternaryInverse.text",
+                  "iOS": "uiTokens.color.button.quaternaryInverse.text"
+                }
               }
             }
-          }
-        },
-        "background-pressed": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.quaternaryInverse.backgroundPressed",
-                "iOS": "uiTokens.color.button.quaternaryInverse.backgroundPressed"
+          },
+          "background-pressed": {
+            "$type": "color",
+            "$value": "#00274a",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.quaternaryInverse.backgroundPressed",
+                  "iOS": "uiTokens.color.button.quaternaryInverse.backgroundPressed"
+                }
               }
             }
           }
         }
       },
       "disabled": {
-        "text": {
-          "$type": "color",
-          "$value": "#d0d0d0",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.disabled.text",
-                "iOS": "uiTokens.color.button.disabled.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#d0d0d0",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.disabled.text",
+                  "iOS": "uiTokens.color.button.disabled.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#0000000d",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.disabled.background",
-                "iOS": "uiTokens.color.button.disabled.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#0000000d",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.disabled.background",
+                  "iOS": "uiTokens.color.button.disabled.background"
+                }
               }
             }
           }
         }
       },
       "disabled-inverse": {
-        "text": {
-          "$type": "color",
-          "$value": "#7e8894",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.disabledInverse.text",
-                "iOS": "uiTokens.color.button.disabledInverse.text"
+        "color": {
+          "text": {
+            "$type": "color",
+            "$value": "#7e8894",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.disabledInverse.text",
+                  "iOS": "uiTokens.color.button.disabledInverse.text"
+                }
               }
             }
-          }
-        },
-        "background": {
-          "$type": "color",
-          "$value": "#ffffff0d",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_SCOPES"
-              ],
-              "codeSyntax": {
-                "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.disabledInverse.background",
-                "iOS": "uiTokens.color.button.disabledInverse.background"
+          },
+          "background": {
+            "$type": "color",
+            "$value": "#ffffff0d",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": false,
+                "scopes": [
+                  "ALL_SCOPES"
+                ],
+                "codeSyntax": {
+                  "WEB": "* App only token *",
+                  "ANDROID": "uiTokens.color.button.disabledInverse.background",
+                  "iOS": "uiTokens.color.button.disabledInverse.background"
+                }
               }
             }
           }
