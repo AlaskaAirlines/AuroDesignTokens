@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Jan 2026 20:28:28 GMT
+ * Generated on Tue, 20 Jan 2026 22:20:51 GMT
  */
 
 module.exports = {
@@ -257,6 +257,48 @@ module.exports = {
             "color",
             "accents",
             "accent4-muted"
+          ]
+        },
+        "default": {
+          "value": "#463c8f",
+          "filePath": "processed/web/Hawaiian_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#463c8f"
+          },
+          "name": "ds-advanced-color-accents-default",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "accents",
+            "subitem": "default"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "accents",
+            "default"
+          ]
+        },
+        "default-inverse": {
+          "value": "#edeaf4",
+          "filePath": "processed/web/Hawaiian_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#edeaf4"
+          },
+          "name": "ds-advanced-color-accents-default-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "accents",
+            "subitem": "default-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "accents",
+            "default-inverse"
           ]
         },
         "transparency": {
@@ -2018,119 +2060,119 @@ module.exports = {
           ]
         },
         "button": {
-          "button-background": {
+          "background": {
             "value": "#ffffff00",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
               "value": "#ffffff00"
             },
-            "name": "ds-advanced-color-header-button-button-background",
+            "name": "ds-advanced-color-header-button-background",
             "attributes": {
               "category": "advanced",
               "type": "color",
               "item": "header",
               "subitem": "button",
-              "state": "button-background"
+              "state": "background"
             },
             "path": [
               "advanced",
               "color",
               "header",
               "button",
-              "button-background"
+              "background"
             ]
           },
-          "button-background-hover": {
+          "background-hover": {
             "value": "#0000000d",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
               "value": "#0000000d"
             },
-            "name": "ds-advanced-color-header-button-button-background-hover",
+            "name": "ds-advanced-color-header-button-background-hover",
             "attributes": {
               "category": "advanced",
               "type": "color",
               "item": "header",
               "subitem": "button",
-              "state": "button-background-hover"
+              "state": "background-hover"
             },
             "path": [
               "advanced",
               "color",
               "header",
               "button",
-              "button-background-hover"
+              "background-hover"
             ]
           },
-          "button-border": {
+          "border": {
             "value": "#000000",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
               "value": "#000000"
             },
-            "name": "ds-advanced-color-header-button-button-border",
+            "name": "ds-advanced-color-header-button-border",
             "attributes": {
               "category": "advanced",
               "type": "color",
               "item": "header",
               "subitem": "button",
-              "state": "button-border"
+              "state": "border"
             },
             "path": [
               "advanced",
               "color",
               "header",
               "button",
-              "button-border"
+              "border"
             ]
           },
-          "signedin-button-background": {
+          "signedin-background": {
             "value": "#101d2c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
               "value": "#101d2c"
             },
-            "name": "ds-advanced-color-header-button-signedin-button-background",
+            "name": "ds-advanced-color-header-button-signedin-background",
             "attributes": {
               "category": "advanced",
               "type": "color",
               "item": "header",
               "subitem": "button",
-              "state": "signedin-button-background"
+              "state": "signedin-background"
             },
             "path": [
               "advanced",
               "color",
               "header",
               "button",
-              "signedin-button-background"
+              "signedin-background"
             ]
           },
-          "signedin-button-background-hover": {
+          "signedin-background-hover": {
             "value": "#002c4e",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
               "value": "#002c4e"
             },
-            "name": "ds-advanced-color-header-button-signedin-button-background-hover",
+            "name": "ds-advanced-color-header-button-signedin-background-hover",
             "attributes": {
               "category": "advanced",
               "type": "color",
               "item": "header",
               "subitem": "button",
-              "state": "signedin-button-background-hover"
+              "state": "signedin-background-hover"
             },
             "path": [
               "advanced",
               "color",
               "header",
               "button",
-              "signedin-button-background-hover"
+              "signedin-background-hover"
             ]
           },
           "text & icon": {

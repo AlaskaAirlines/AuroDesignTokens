@@ -14,6 +14,8 @@
         "accent4": "#feb17a",
         "accent4-bold": "#fb7f24",
         "accent4-muted": "#ffe2cf",
+        "default": "#01426a",
+        "default-inverse": "#ebf3f9",
         "transparency": "#0000001a",
         "transparency-inverse": "#ffffff33"
       },
@@ -122,11 +124,11 @@
         "background-exterior": "#ffffff00",
         "background-interior": "#ffffff",
         "button": {
-          "button-background": "#ffffff00",
-          "button-background-hover": "#0000000d",
-          "button-border": "#00274a",
-          "signedin-button-background": "#101d2c",
-          "signedin-button-background-hover": "#002c4e",
+          "background": "#ffffff00",
+          "background-hover": "#0000000d",
+          "border": "#00274a",
+          "signedin-background": "#101d2c",
+          "signedin-background-hover": "#002c4e",
           "text & icon": "#2a2a2a",
           "text & icon-inverse": "#ffffff"
         },
