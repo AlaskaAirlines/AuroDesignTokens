@@ -1238,7 +1238,7 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": true,
+            "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
             ],
@@ -1280,7 +1280,7 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": true,
+            "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
             ],
@@ -1322,7 +1322,7 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": true,
+            "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
             ],
@@ -1364,7 +1364,7 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": true,
+            "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
             ],
@@ -2177,6 +2177,44 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-advanced-color-accent-transparency-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
+          }
+        }
+      },
+      "default": {
+        "$type": "color",
+        "$value": "#463c8f",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-accent-default"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
+          }
+        }
+      },
+      "default-inverse": {
+        "$type": "color",
+        "$value": "#edeaf4",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-accent-default-inverse"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3598,7 +3636,7 @@
             }
           }
         },
-        "button-border": {
+        "border": {
           "$type": "color",
           "$value": "#000000",
           "$description": "",
@@ -3617,7 +3655,7 @@
             }
           }
         },
-        "button-background": {
+        "background": {
           "$type": "color",
           "$value": "#ffffff00",
           "$description": "",
@@ -3636,7 +3674,7 @@
             }
           }
         },
-        "button-background-hover": {
+        "background-hover": {
           "$type": "color",
           "$value": "#0000000d",
           "$description": "",
@@ -3655,7 +3693,7 @@
             }
           }
         },
-        "signedin-button-background": {
+        "signedin-background": {
           "$type": "color",
           "$value": "#101d2c",
           "$description": "",
@@ -3674,7 +3712,7 @@
             }
           }
         },
-        "signedin-button-background-hover": {
+        "signedin-background-hover": {
           "$type": "color",
           "$value": "#002c4e",
           "$description": "",
@@ -3903,629 +3941,609 @@
   "uiTokens": {
     "button": {
       "primary": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ffffff",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primary.text",
-                  "iOS": "uiTokens.color.button.primary.text"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primary.text",
+                "iOS": "uiTokens.button.primary.text"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#ce0c88",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primary.background",
-                  "iOS": "uiTokens.color.button.primary.background"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primary.background",
+                "iOS": "uiTokens.button.primary.background"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#831a57",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primary.backgroundPressed",
-                  "iOS": "uiTokens.color.button.primary.backgroundPressed"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#831a57",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primary.backgroundPressed",
+                "iOS": "uiTokens.button.primary.backgroundPressed"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "primary-inverse": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#463c8f",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primaryInverse.text",
-                  "iOS": "uiTokens.color.button.primaryInverse.text"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primaryInverse.text",
+                "iOS": "uiTokens.button.primaryInverse.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#ffffff",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primaryInverse.background",
-                  "iOS": "uiTokens.color.button.primaryInverse.background"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primaryInverse.background",
+                "iOS": "uiTokens.button.primaryInverse.background"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#ffffffcc",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.primaryInverse.backgroundPressed",
-                  "iOS": "uiTokens.color.button.primaryInverse.backgroundPressed"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#ffffffcc",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.primaryInverse.backgroundPressed",
+                "iOS": "uiTokens.button.primaryInverse.backgroundPressed"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "secondary": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ce0c88",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondary.text",
-                  "iOS": "uiTokens.color.button.secondary.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondary.text",
+                "iOS": "uiTokens.button.secondary.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#fdf1f8",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondary.background",
-                  "iOS": "uiTokens.color.button.secondary.background"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#fdf1f8",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondary.background",
+                "iOS": "uiTokens.button.secondary.background"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#ccc5e0",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondary.backgroundPressed",
-                  "iOS": "uiTokens.color.button.secondary.backgroundPressed"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#fad8eb",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondary.backgroundPressed",
+                "iOS": "uiTokens.button.secondary.backgroundPressed"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "secondary-inverse": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ce0c88",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondaryInverse.text",
-                  "iOS": "uiTokens.color.button.secondaryInverse.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondaryInverse.text",
+                "iOS": "uiTokens.button.secondaryInverse.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#fdf1f8",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondaryInverse.background",
-                  "iOS": "uiTokens.color.button.secondaryInverse.background"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#fdf1f8",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondaryInverse.background",
+                "iOS": "uiTokens.button.secondaryInverse.background"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#fad8eb",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.secondaryInverse.backgroundPressed",
-                  "iOS": "uiTokens.color.button.secondaryInverse.backgroundPressed"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#fad8eb",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.secondaryInverse.backgroundPressed",
+                "iOS": "uiTokens.button.secondaryInverse.backgroundPressed"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "tertiary": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ce0c88",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiary.text",
-                  "iOS": "uiTokens.color.button.tertiary.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiary.text",
+                "iOS": "uiTokens.button.tertiary.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#00000014",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiary.background",
-                  "iOS": "uiTokens.color.button.tertiary.background"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#00000014",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiary.background",
+                "iOS": "uiTokens.button.tertiary.background"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#0000001f",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiary.backgroundPressed",
-                  "iOS": "uiTokens.color.button.tertiary.backgroundPressed"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#0000001f",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiary.backgroundPressed",
+                "iOS": "uiTokens.button.tertiary.backgroundPressed"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "border": {
-            "$type": "color",
-            "$value": "#dddddd",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiary.border",
-                  "iOS": "uiTokens.color.button.tertiary.border"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#dddddd",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiary.border",
+                "iOS": "uiTokens.button.tertiary.border"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "tertiary-inverse": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ffffff",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiaryInverse.text",
-                  "iOS": "uiTokens.color.button.tertiaryInverse.text"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiaryInverse.text",
+                "iOS": "uiTokens.button.tertiaryInverse.text"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#ffffff14",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiaryInverse.background",
-                  "iOS": "uiTokens.color.button.tertiaryInverse.background"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#ffffff14",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiaryInverse.background",
+                "iOS": "uiTokens.button.tertiaryInverse.background"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#ffffff1f",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiaryInverse.backgroundPressed",
-                  "iOS": "uiTokens.color.button.tertiaryInverse.backgroundPressed"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#ffffff1f",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiaryInverse.backgroundPressed",
+                "iOS": "uiTokens.button.tertiaryInverse.backgroundPressed"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "border": {
-            "$type": "color",
-            "$value": "#ffffff",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.tertiaryInverse.border",
-                  "iOS": "uiTokens.color.button.tertiaryInverse.border"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.tertiaryInverse.border",
+                "iOS": "uiTokens.button.tertiaryInverse.border"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "quaternary": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ce0c88",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.quaternary.text",
-                  "iOS": "uiTokens.color.button.quaternary.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ce0c88",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.quaternary.text",
+                "iOS": "uiTokens.button.quaternary.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#831a57",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.quaternary.backgroundPressed",
-                  "iOS": "uiTokens.color.button.quaternary.backgroundPressed"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#831a57",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.quaternary.backgroundPressed",
+                "iOS": "uiTokens.button.quaternary.backgroundPressed"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "quaternary-inverse": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#ffffff",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.quaternaryInverse.text",
-                  "iOS": "uiTokens.color.button.quaternaryInverse.text"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.quaternaryInverse.text",
+                "iOS": "uiTokens.button.quaternaryInverse.text"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background-pressed": {
-            "$type": "color",
-            "$value": "#831a57",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.quaternaryInverse.backgroundPressed",
-                  "iOS": "uiTokens.color.button.quaternaryInverse.backgroundPressed"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background-pressed": {
+          "$type": "color",
+          "$value": "#831a57",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.quaternaryInverse.backgroundPressed",
+                "iOS": "uiTokens.button.quaternaryInverse.backgroundPressed"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "disabled": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#d0d0d0",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.disabled.text",
-                  "iOS": "uiTokens.color.button.disabled.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#d0d0d0",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.disabled.text",
+                "iOS": "uiTokens.button.disabled.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#0000000d",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.disabled.background",
-                  "iOS": "uiTokens.color.button.disabled.background"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#0000000d",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.disabled.background",
+                "iOS": "uiTokens.button.disabled.background"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
       },
       "disabled-inverse": {
-        "color": {
-          "text": {
-            "$type": "color",
-            "$value": "#7e8894",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.disabledInverse.text",
-                  "iOS": "uiTokens.color.button.disabledInverse.text"
-                },
-                "isOverride": true,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+        "text": {
+          "$type": "color",
+          "$value": "#7e8894",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.button.disabledInverse.text",
+                "iOS": "uiTokens.button.disabledInverse.text"
+              },
+              "isOverride": true,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
-          },
-          "background": {
-            "$type": "color",
-            "$value": "#ffffff0d",
-            "$description": "",
-            "$extensions": {
-              "com.figma": {
-                "hiddenFromPublishing": false,
-                "scopes": [
-                  "ALL_SCOPES"
-                ],
-                "codeSyntax": {
-                  "WEB": "* App only token *",
-                  "ANDROID": "uiTokens.color.button.disabledInverse.background",
-                  "iOS": "uiTokens.color.button.disabledInverse.background"
-                },
-                "isOverride": false,
-                "parentCollectionId": "VariableCollectionId:744:38331",
-                "extensionCollectionId": "VariableCollectionId:13305:15585"
-              }
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "#ffffff0d",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.color.button.disabledInverse.background",
+                "iOS": "uiTokens.color.button.disabledInverse.background"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
           }
         }
@@ -4725,7 +4743,7 @@
       }
     },
     "search-widget": {
-      "route-orgin": {
+      "route-origin": {
         "$type": "color",
         "$value": "#d4abea",
         "$description": "",
@@ -4733,14 +4751,12 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "STROKE_COLOR"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
               "WEB": "* App only token *",
-              "ANDROID": "uiTokens.color.searchWidget.routeOrgin",
-              "iOS": "uiTokens.color.searchWidget.routeOrgin"
+              "ANDROID": "uiTokens.color.searchWidget.routeOrigin",
+              "iOS": "uiTokens.color.searchWidget.routeOrigin"
             },
             "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4756,9 +4772,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "STROKE_COLOR"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
               "WEB": "* App only token *",
@@ -4779,9 +4793,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "STROKE_COLOR"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
               "WEB": "* App only token *",
@@ -5456,6 +5468,78 @@
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15585"
             }
+          }
+        }
+      }
+    }
+  },
+  "Utility": {
+    "Brand-Bar": {
+      "Alaska logo": {
+        "$type": "string",
+        "$value": "Default",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {},
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
+          }
+        }
+      },
+      "Hawaiian logo": {
+        "$type": "string",
+        "$value": "Inactive",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {},
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
+          }
+        }
+      },
+      "Atmos logo": {
+        "$type": "string",
+        "$value": "Default",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {},
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
+          }
+        }
+      },
+      "Background": {
+        "$type": "color",
+        "$value": "#101d2c",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {},
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15585"
           }
         }
       }

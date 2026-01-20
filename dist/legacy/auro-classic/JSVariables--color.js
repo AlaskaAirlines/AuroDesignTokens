@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Jan 2026 20:28:28 GMT
+ * Generated on Tue, 20 Jan 2026 22:20:51 GMT
  */
 
 export const DsColorAlertNotificationDefault = "#0074c8";

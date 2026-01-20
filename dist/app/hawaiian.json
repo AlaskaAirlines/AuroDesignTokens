@@ -275,72 +275,52 @@
   "uiTokens": {
     "button": {
       "disabled": {
-        "color": {
-          "background": "#0000000d",
-          "text": "#d0d0d0"
-        }
+        "background": "#0000000d",
+        "text": "#d0d0d0"
       },
       "disabledInverse": {
-        "color": {
-          "background": "#ffffff0d",
-          "text": "#7e8894"
-        }
+        "background": "#ffffff0d",
+        "text": "#7e8894"
       },
       "primary": {
-        "color": {
-          "background": "#ce0c88",
-          "backgroundPressed": "#831a57",
-          "text": "#ffffff"
-        }
+        "background": "#ce0c88",
+        "backgroundPressed": "#831a57",
+        "text": "#ffffff"
       },
       "primaryInverse": {
-        "color": {
-          "background": "#ffffff",
-          "backgroundPressed": "#ffffffcc",
-          "text": "#463c8f"
-        }
+        "background": "#ffffff",
+        "backgroundPressed": "#ffffffcc",
+        "text": "#ce0c88"
       },
       "quaternary": {
-        "color": {
-          "backgroundPressed": "#831a57",
-          "text": "#ce0c88"
-        }
+        "backgroundPressed": "#831a57",
+        "text": "#ce0c88"
       },
       "quaternaryInverse": {
-        "color": {
-          "backgroundPressed": "#831a57",
-          "text": "#ffffff"
-        }
+        "backgroundPressed": "#831a57",
+        "text": "#ffffff"
       },
       "secondary": {
-        "color": {
-          "background": "#fdf1f8",
-          "backgroundPressed": "#ccc5e0",
-          "text": "#ce0c88"
-        }
+        "background": "#fdf1f8",
+        "backgroundPressed": "#fad8eb",
+        "text": "#ce0c88"
       },
       "secondaryInverse": {
-        "color": {
-          "background": "#fdf1f8",
-          "backgroundPressed": "#fad8eb",
-          "text": "#ce0c88"
-        }
+        "background": "#fdf1f8",
+        "backgroundPressed": "#fad8eb",
+        "text": "#ce0c88"
       },
       "tertiary": {
-        "color": {
-          "background": "#00000014",
-          "backgroundPressed": "#0000001f",
-          "border": "#dddddd",
-          "text": "#ce0c88"
-        }
+        "background": "#00000014",
+        "backgroundPressed": "#0000001f",
+        "border": "#dddddd",
+        "text": "#ce0c88"
       },
       "tertiaryInverse": {
-        "color": {
-          "background": "#ffffff14",
-          "backgroundPressed": "#ffffff1f",
-          "border": "#ffffff",
-          "text": "#ffffff"
-        }
+        "background": "#ffffff14",
+        "backgroundPressed": "#ffffff1f",
+        "border": "#ffffff",
+        "text": "#ffffff"
       }
     },
     "component": {
@@ -359,7 +339,7 @@
     "searchWidget": {
       "fieldIcon": "#d4abea",
       "routeDestination": "#8ec891",
-      "routeOrgin": "#d4abea"
+      "routeOrigin": "#d4abea"
     }
   }
 }
