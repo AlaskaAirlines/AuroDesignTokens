@@ -55,8 +55,7 @@ async function findCSSFiles(baseDir, targetDir) {
 // Process CSS files
 async function transformCSSFiles() {
   try {
-    const buildDate = new Date().toUTCString();
-    let combinedCSS = `/**\n  Do not edit directly\n  Generated on ${buildDate}\n */\n\n`;
+    let combinedCSS = '';
     // Track files that need minification
     const filesToMinify = [];
     

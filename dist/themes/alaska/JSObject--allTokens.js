@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 21 Jan 2026 00:47:14 GMT
- */
-
 module.exports = {
   "advanced": {
     "color": {

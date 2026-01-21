@@ -10,7 +10,10 @@
       "files": [
         {
           "destination": "alaska.json",
-          "format": "json/nested"
+          "format": "json/nested",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     }

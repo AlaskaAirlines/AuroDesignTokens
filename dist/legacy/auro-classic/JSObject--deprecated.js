@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 21 Jan 2026 00:47:15 GMT
- */
-
 module.exports = {
   "color": {
     "alert": {

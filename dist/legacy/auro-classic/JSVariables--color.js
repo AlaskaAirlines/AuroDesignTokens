@@ -1,8 +1,3 @@
-/**
- * Do not edit directly
- * Generated on Wed, 21 Jan 2026 00:47:15 GMT
- */
-
 export const DsColorAlertNotificationDefault = "#0074c8";
 export const DsColorAlertWarningDefault = "#de750c";
 export const DsColorAlertErrorDefault = "#df0b37";

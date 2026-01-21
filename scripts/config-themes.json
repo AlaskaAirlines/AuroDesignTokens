@@ -17,6 +17,9 @@
         {
           "destination": "CSSCustomProperties--{{themeDirNoHyphens}}.css",
           "format": "css/variables",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "public": true,
             "deprecated": false,
@@ -34,6 +37,9 @@
         {
           "destination": "SCSSVariables--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "public": true,
             "deprecated": false
@@ -43,6 +49,9 @@
           "destination": "SCSSVariablesMapFlat--{{themeDirNoHyphens}}.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroTokens",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "public": true,
             "deprecated": false
@@ -59,6 +68,9 @@
         {
           "destination": "JSONVariablesNested--{{themeDirNoHyphens}}.json",
           "format": "json/nested",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "public": true,
             "deprecated": false
@@ -75,6 +87,9 @@
         {
           "destination": "primitives--{{themeDirNoHyphens}}.scss",
           "format": "scss/variables",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "type": "primitive",
             "deprecated": false
@@ -96,6 +111,9 @@
         {
           "destination": "JSObject--allTokens.js",
           "format": "javascript/module",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "public": true,
             "deprecated": false
