@@ -12,6 +12,9 @@
         {
           "destination": "SCSSVariables--primitivesBase.scss",
           "format": "scss/variables",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "deprecated": false
           }
@@ -20,6 +23,9 @@
           "destination": "SCSSVariablesMapFlat--primitivesBase.scss",
           "format": "custom/scss/map-flat",
           "mapName": "auroPrimitiveBaseTokens",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "deprecated": false
           }
@@ -35,6 +41,9 @@
         {
           "destination": "JSONVariablesNested--primitivesBase.json",
           "format": "json/nested",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "deprecated": false
           }
@@ -55,6 +64,9 @@
         {
           "destination": "JSObject--allTokens.js",
           "format": "javascript/module",
+          "options": {
+            "showFileHeader": false
+          },
           "filter": {
             "deprecated": false
           }

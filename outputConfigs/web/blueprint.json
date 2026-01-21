@@ -10,7 +10,10 @@
       "files": [
         {
           "destination": "blueprint.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     },
@@ -22,7 +25,10 @@
       "files": [
         {
           "destination": "blueprint.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     },
@@ -34,7 +40,10 @@
       "files": [
         {
           "destination": "JSONVariablesNested--test.json",
-          "format": "json/nested"
+          "format": "json/nested",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     },
@@ -51,7 +60,10 @@
       "files": [
         {
           "destination": "JSObject--allTokens--test.js",
-          "format": "javascript/module"
+          "format": "javascript/module",
+          "options": {
+            "showFileHeader": false
+          }
         }
       ]
     }
