@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.14.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.14.0...v8.14.1) (2026-01-23)
+
+
+### Bug Fixes
+
+* disable style dictionary timestamps in config files ([747f3a5](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/747f3a5d843f25629ecb69c481b6e624cbe00ac2))
+
 # [8.14.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.13.2...v8.14.0) (2026-01-21)
 
 
