@@ -273,7 +273,7 @@
     "webviewCode": "auro.theme.alaska"
   },
   "uiTokens": {
-    "button": {
+    "buttons": {
       "disabled": {
         "background": "#0000000d",
         "text": "#d0d0d0"
