@@ -14,10 +14,8 @@
   "engines": {
     "node": "^22.14.0 || >= 24.10.0"
   },
-  "dependencies": {
-    "@aurodesignsystem/auro-tokendefinitions": "npm:@aurodesignsystem-dev/auro-tokendefinitions@^0.0.0-pr16.16"
-  },
   "devDependencies": {
+    "@aurodesignsystem/auro-tokendefinitions": "^1.1.0",
     "@commitlint/cli": "^20.2.0",
     "@commitlint/config-conventional": "^20.2.0",
     "@figma/rest-api-spec": "^0.35.0",
@@ -37,9 +35,8 @@
     "tsx": "^4.21.0"
   },
   "scripts": {
-    "postinstall": "node packageScripts/postinstall.mjs",
     "build": "npm run build:processFigmaExport && npm run test:tokens && npm run build:tokens && npm run transform:css",
-    "build:ci": "npm-run-all sweep test build:tokens postinstall",
+    "build:ci": "npm-run-all sweep test build:tokens",
     "build:processFigmaExport": "node scripts/processFigmaExport.mjs",
     "build:tokens": "node scripts/styleDictionary.mjs",
     "transform:css": "node scripts/transformCSS.mjs",

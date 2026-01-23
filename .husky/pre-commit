@@ -1,2 +1,2 @@
-./node_modules/.bin/npm-run-all build test postinstall
+./node_modules/.bin/npm-run-all build test
 git add .
