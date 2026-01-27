@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+## [8.14.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.14.1...v8.14.2) (2026-01-27)
+
+
+### Bug Fixes
+
+* change file names for app tokens [#419](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/419) ([3fb531e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3fb531e38db58f3f1fd0550ed19c8c339db47aae))
+* update app token webviewCode key values [#419](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/419) ([6e5f9ec](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/6e5f9ecdc1b6756c317bd11d8d70f7c52604560b))
+
 ## [8.14.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.14.0...v8.14.1) (2026-01-23)
 
 
