@@ -9,7 +9,7 @@
       "buildPath": "./dist/app/",
       "files": [
         {
-          "destination": "alaska.json",
+          "destination": "alaskaLight.json",
           "format": "json/nested",
           "options": {
             "showFileHeader": false

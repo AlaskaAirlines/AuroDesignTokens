@@ -9,7 +9,7 @@
       "buildPath": "./dist/app/",
       "files": [
         {
-          "destination": "hawaiian.json",
+          "destination": "hawaiianLight.json",
           "format": "json/nested",
           "options": {
             "showFileHeader": false

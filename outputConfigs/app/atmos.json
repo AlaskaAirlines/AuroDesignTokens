@@ -9,7 +9,7 @@
       "buildPath": "./dist/app/",
       "files": [
         {
-          "destination": "atmos.json",
+          "destination": "atmosLight.json",
           "format": "json/nested",
           "options": {
             "showFileHeader": false
