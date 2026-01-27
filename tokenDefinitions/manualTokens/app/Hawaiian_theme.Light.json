@@ -175,7 +175,7 @@
     "code": "haLight",
     "displayName": "Hawaiian Airlines",
     "name": "Hawaiian Airlines",
-    "webviewCode": "auro.theme.hawaiian",
+    "webviewCode": "renderingContext.rootTheme.hawaiian",
     "iconUrl": "https://resource.alaskaair.net/v3/assets/blt2cefe12c88e9dd91/blt9c8b19b678650fc0/68dadf0eb0736f7fefe5fdb3/ha_favicon.ico"
   }
 }
