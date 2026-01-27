@@ -175,7 +175,7 @@
     "code": "atmosLight",
     "displayName": "Atmos Rewards",
     "name": "Atmos Rewards",
-    "webviewCode": "auro.theme.atmos",
+    "webviewCode": "renderingContext.rootTheme.atmos",
     "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico"
   }
 }

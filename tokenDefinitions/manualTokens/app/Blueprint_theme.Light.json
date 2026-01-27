@@ -175,7 +175,7 @@
     "code": "TEST",
     "displayName": "Test",
     "name": "Test theme",
-    "webviewCode": "auro.theme.test",
+    "webviewCode": "renderingContext.rootTheme.test",
     "iconUrl": "https://generalaviationnews.s3.amazonaws.com/uploads/2016/02/Alaska-Airlines-logo-old.jpeg"
   }
 }

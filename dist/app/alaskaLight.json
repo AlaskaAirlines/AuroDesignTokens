@@ -270,7 +270,7 @@
     "displayName": "Alaska Airlines",
     "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt52aa7bbcad1a728f/favicon.ico",
     "name": "Alaska Airlines",
-    "webviewCode": "auro.theme.alaska"
+    "webviewCode": "renderingContext.rootTheme.alaska"
   },
   "uiTokens": {
     "button": {
