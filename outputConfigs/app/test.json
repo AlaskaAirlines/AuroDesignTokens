@@ -9,7 +9,7 @@
       "buildPath": "./dist/app/",
       "files": [
         {
-          "destination": "blueprint.json",
+          "destination": "test.json",
           "format": "json/nested",
           "options": {
             "showFileHeader": false
