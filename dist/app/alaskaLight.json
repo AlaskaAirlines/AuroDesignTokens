@@ -38,8 +38,8 @@
       "status": {
         "error": "#e31f26",
         "errorSubtle": "#fbc6c6",
-        "info": "#01426a",
-        "infoSubtle": "#ebf3f9",
+        "info": "#007db1",
+        "infoSubtle": "#e8f2f8",
         "standard": "#afb9c6",
         "success": "#447a1f",
         "successSubtle": "#d6eac7",
@@ -273,7 +273,7 @@
     "webviewCode": "renderingContext.rootTheme.alaska"
   },
   "uiTokens": {
-    "button": {
+    "buttons": {
       "disabled": {
         "background": "#0000000d",
         "text": "#d0d0d0"

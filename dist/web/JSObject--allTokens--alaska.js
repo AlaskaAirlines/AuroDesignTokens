@@ -3443,11 +3443,11 @@ module.exports = {
           ]
         },
         "info": {
-          "value": "#01426a",
+          "value": "#007db1",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#01426a"
+            "value": "#007db1"
           },
           "name": "ds-basic-color-status-info",
           "attributes": {
@@ -3464,11 +3464,11 @@ module.exports = {
           ]
         },
         "info-subtle": {
-          "value": "#ebf3f9",
+          "value": "#e8f2f8",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ebf3f9"
+            "value": "#e8f2f8"
           },
           "name": "ds-basic-color-status-info-subtle",
           "attributes": {
