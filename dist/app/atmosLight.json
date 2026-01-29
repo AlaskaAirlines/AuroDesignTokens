@@ -39,7 +39,7 @@
         "error": "#e31f26",
         "errorSubtle": "#fbc6c6",
         "info": "#c7d6e5",
-        "infoSubtle": "#ebf7ff",
+        "infoSubtle": "#e8f2f8",
         "standard": "#afb9c6",
         "success": "#447a1f",
         "successSubtle": "#d6eac7",
@@ -273,7 +273,7 @@
     "webviewCode": "renderingContext.rootTheme.atmos"
   },
   "uiTokens": {
-    "button": {
+    "buttons": {
       "disabled": {
         "background": "#0000000d",
         "text": "#dddddd"

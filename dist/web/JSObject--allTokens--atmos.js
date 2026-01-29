@@ -3466,11 +3466,11 @@ module.exports = {
           ]
         },
         "info-subtle": {
-          "value": "#ebf7ff",
+          "value": "#e8f2f8",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ebf7ff"
+            "value": "#e8f2f8"
           },
           "name": "ds-basic-color-status-info-subtle",
           "attributes": {

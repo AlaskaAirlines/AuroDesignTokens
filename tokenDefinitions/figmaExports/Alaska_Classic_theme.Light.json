@@ -537,7 +537,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "FRAME_FILL",
             "SHAPE_FILL"
@@ -922,7 +922,7 @@
             "ANDROID": "basicTokens.color.status.info",
             "iOS": "basicTokens.color.status.info"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15584"
         }
@@ -1018,7 +1018,7 @@
             "ANDROID": "basicTokens.color.status.infoSubtle",
             "iOS": "basicTokens.color.status.infoSubtle"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15584"
         }
@@ -3939,7 +3939,7 @@
     }
   },
   "uiTokens": {
-    "button": {
+    "buttons": {
       "primary": {
         "text": {
           "$type": "color",
@@ -3953,8 +3953,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primary.text",
-                "iOS": "uiTokens.button.primary.text"
+                "ANDROID": "uiTokens.buttons.primary.text",
+                "iOS": "uiTokens.buttons.primary.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3974,8 +3974,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primary.background",
-                "iOS": "uiTokens.button.primary.background"
+                "ANDROID": "uiTokens.buttons.primary.background",
+                "iOS": "uiTokens.buttons.primary.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3995,8 +3995,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primary.backgroundPressed",
-                "iOS": "uiTokens.button.primary.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.primary.backgroundPressed",
+                "iOS": "uiTokens.buttons.primary.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4018,8 +4018,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primaryInverse.text",
-                "iOS": "uiTokens.button.primaryInverse.text"
+                "ANDROID": "uiTokens.buttons.primaryInverse.text",
+                "iOS": "uiTokens.buttons.primaryInverse.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4039,8 +4039,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primaryInverse.background",
-                "iOS": "uiTokens.button.primaryInverse.background"
+                "ANDROID": "uiTokens.buttons.primaryInverse.background",
+                "iOS": "uiTokens.buttons.primaryInverse.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4060,8 +4060,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.primaryInverse.backgroundPressed",
-                "iOS": "uiTokens.button.primaryInverse.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.primaryInverse.backgroundPressed",
+                "iOS": "uiTokens.buttons.primaryInverse.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4083,8 +4083,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondary.text",
-                "iOS": "uiTokens.button.secondary.text"
+                "ANDROID": "uiTokens.buttons.secondary.text",
+                "iOS": "uiTokens.buttons.secondary.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4104,8 +4104,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondary.background",
-                "iOS": "uiTokens.button.secondary.background"
+                "ANDROID": "uiTokens.buttons.secondary.background",
+                "iOS": "uiTokens.buttons.secondary.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4125,8 +4125,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondary.backgroundPressed",
-                "iOS": "uiTokens.button.secondary.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.secondary.backgroundPressed",
+                "iOS": "uiTokens.buttons.secondary.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4148,8 +4148,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondaryInverse.text",
-                "iOS": "uiTokens.button.secondaryInverse.text"
+                "ANDROID": "uiTokens.buttons.secondaryInverse.text",
+                "iOS": "uiTokens.buttons.secondaryInverse.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4169,8 +4169,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondaryInverse.background",
-                "iOS": "uiTokens.button.secondaryInverse.background"
+                "ANDROID": "uiTokens.buttons.secondaryInverse.background",
+                "iOS": "uiTokens.buttons.secondaryInverse.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4190,8 +4190,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.secondaryInverse.backgroundPressed",
-                "iOS": "uiTokens.button.secondaryInverse.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.secondaryInverse.backgroundPressed",
+                "iOS": "uiTokens.buttons.secondaryInverse.backgroundPressed"
               },
               "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4213,8 +4213,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiary.text",
-                "iOS": "uiTokens.button.tertiary.text"
+                "ANDROID": "uiTokens.buttons.tertiary.text",
+                "iOS": "uiTokens.buttons.tertiary.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4234,8 +4234,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiary.background",
-                "iOS": "uiTokens.button.tertiary.background"
+                "ANDROID": "uiTokens.buttons.tertiary.background",
+                "iOS": "uiTokens.buttons.tertiary.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4255,8 +4255,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiary.backgroundPressed",
-                "iOS": "uiTokens.button.tertiary.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.tertiary.backgroundPressed",
+                "iOS": "uiTokens.buttons.tertiary.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4276,8 +4276,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiary.border",
-                "iOS": "uiTokens.button.tertiary.border"
+                "ANDROID": "uiTokens.buttons.tertiary.border",
+                "iOS": "uiTokens.buttons.tertiary.border"
               },
               "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4299,8 +4299,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiaryInverse.text",
-                "iOS": "uiTokens.button.tertiaryInverse.text"
+                "ANDROID": "uiTokens.buttons.tertiaryInverse.text",
+                "iOS": "uiTokens.buttons.tertiaryInverse.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4320,8 +4320,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiaryInverse.background",
-                "iOS": "uiTokens.button.tertiaryInverse.background"
+                "ANDROID": "uiTokens.buttons.tertiaryInverse.background",
+                "iOS": "uiTokens.buttons.tertiaryInverse.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4341,8 +4341,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiaryInverse.backgroundPressed",
-                "iOS": "uiTokens.button.tertiaryInverse.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.tertiaryInverse.backgroundPressed",
+                "iOS": "uiTokens.buttons.tertiaryInverse.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4362,8 +4362,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.tertiaryInverse.border",
-                "iOS": "uiTokens.button.tertiaryInverse.border"
+                "ANDROID": "uiTokens.buttons.tertiaryInverse.border",
+                "iOS": "uiTokens.buttons.tertiaryInverse.border"
               },
               "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4385,8 +4385,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.quaternary.text",
-                "iOS": "uiTokens.button.quaternary.text"
+                "ANDROID": "uiTokens.buttons.quaternary.text",
+                "iOS": "uiTokens.buttons.quaternary.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4406,8 +4406,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.quaternary.backgroundPressed",
-                "iOS": "uiTokens.button.quaternary.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.quaternary.backgroundPressed",
+                "iOS": "uiTokens.buttons.quaternary.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4429,8 +4429,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.quaternaryInverse.text",
-                "iOS": "uiTokens.button.quaternaryInverse.text"
+                "ANDROID": "uiTokens.buttons.quaternaryInverse.text",
+                "iOS": "uiTokens.buttons.quaternaryInverse.text"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4450,8 +4450,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.quaternaryInverse.backgroundPressed",
-                "iOS": "uiTokens.button.quaternaryInverse.backgroundPressed"
+                "ANDROID": "uiTokens.buttons.quaternaryInverse.backgroundPressed",
+                "iOS": "uiTokens.buttons.quaternaryInverse.backgroundPressed"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4473,8 +4473,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.disabled.text",
-                "iOS": "uiTokens.button.disabled.text"
+                "ANDROID": "uiTokens.buttons.disabled.text",
+                "iOS": "uiTokens.buttons.disabled.text"
               },
               "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4494,8 +4494,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.disabled.background",
-                "iOS": "uiTokens.button.disabled.background"
+                "ANDROID": "uiTokens.buttons.disabled.background",
+                "iOS": "uiTokens.buttons.disabled.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4517,8 +4517,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.button.disabledInverse.text",
-                "iOS": "uiTokens.button.disabledInverse.text"
+                "ANDROID": "uiTokens.buttons.disabledInverse.text",
+                "iOS": "uiTokens.buttons.disabledInverse.text"
               },
               "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
@@ -4538,8 +4538,8 @@
               ],
               "codeSyntax": {
                 "WEB": "* App only token *",
-                "ANDROID": "uiTokens.color.button.disabledInverse.background",
-                "iOS": "uiTokens.color.button.disabledInverse.background"
+                "ANDROID": "uiTokens.buttons.disabledInverse.background",
+                "iOS": "uiTokens.buttons.disabledInverse.background"
               },
               "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
