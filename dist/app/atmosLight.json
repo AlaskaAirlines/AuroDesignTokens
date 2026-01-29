@@ -273,7 +273,7 @@
     "webviewCode": "renderingContext.rootTheme.atmos"
   },
   "uiTokens": {
-    "button": {
+    "buttons": {
       "disabled": {
         "background": "#0000000d",
         "text": "#dddddd"
