@@ -25,11 +25,11 @@
         "tertiarySubtle": "#adadad"
       },
       "fare": {
-        "basiceconomy": "#d0d0d0",
+        "basicEconomy": "#d0d0d0",
         "business": "#3d3d3d",
         "economy": "#676767",
         "first": "#2a2a2a",
-        "premiumeconomy": "#525252"
+        "premiumEconomy": "#525252"
       },
       "pageBackground": {
         "standard": "#ffffff",
@@ -73,11 +73,11 @@
         "standard": "#000000"
       },
       "tierProgram": {
-        "loungetier": {
+        "loungeTier": {
           "lounge": "#3d3d3d",
-          "loungeplus": "#7e7e7e"
+          "loungePlus": "#7e7e7e"
         },
-        "loyaltytier": {
+        "loyaltyTier": {
           "gold": "#c5c5c5",
           "goldMuted": "#dddddd",
           "platinum": "#adadad",
@@ -109,35 +109,35 @@
         "letterSpacing": 1.4,
         "lineHeight": "130%"
       },
-      "accentlg": {
+      "accentLg": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 24,
         "fontWeight": "MediumItalic",
         "letterSpacing": 1.2,
         "lineHeight": "130%"
       },
-      "accentmd": {
+      "accentMd": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 22,
         "fontWeight": "MediumItalic",
         "letterSpacing": 1.1,
         "lineHeight": "130%"
       },
-      "accentsm": {
+      "accentSm": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0.9,
         "lineHeight": "130%"
       },
-      "accentxl": {
+      "accentXl": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 26,
         "fontWeight": "MediumItalic",
         "letterSpacing": 1.3,
         "lineHeight": "130%"
       },
-      "accentxs": {
+      "accentXs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
         "fontWeight": "MediumItalic",
@@ -151,28 +151,28 @@
         "letterSpacing": 0,
         "lineHeight": 14
       },
-      "bodydefault": {
+      "bodyDefault": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 24
       },
-      "bodylg": {
+      "bodyLg": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 26
       },
-      "bodysm": {
+      "bodySm": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 14,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": 20
       },
-      "bodyxs": {
+      "bodyXs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 12,
         "fontWeight": "MediumItalic",
@@ -186,35 +186,35 @@
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaylg": {
+      "displayLg": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 44,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaymd": {
+      "displayMd": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 40,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaysm": {
+      "displaySm": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 32,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displayxl": {
+      "displayXl": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 48,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displayxs": {
+      "displayXs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 28,
         "fontWeight": "MediumItalic",
@@ -228,35 +228,35 @@
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headinglg": {
+      "headingLg": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 28,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingmd": {
+      "headingMd": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 26,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingsm": {
+      "headingSm": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 22,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingxl": {
+      "headingXl": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 32,
         "fontWeight": "MediumItalic",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingxs": {
+      "headingXs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 20,
         "fontWeight": "MediumItalic",

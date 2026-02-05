@@ -478,7 +478,31 @@ export default class ExportUtil {
         'lineheight': 'lineHeight',
         'displayname': 'displayName',
         'iconurl': 'iconUrl',
-        'webviewcode': 'webviewCode'
+        'webviewcode': 'webviewCode',
+        'basiceconomy': 'basicEconomy',
+        'premiumeconomy': 'premiumEconomy',
+        'loungetier': 'loungeTier',
+        'loungeplus': 'loungePlus',
+        'loyaltytier': 'loyaltyTier',
+        'accentlg': 'accentLg',
+        'accentmd': 'accentMd',
+        'accentsm': 'accentSm',
+        'accentxl': 'accentXl',
+        'accentxs': 'accentXs',
+        'bodydefault': 'bodyDefault',
+        'bodylg': 'bodyLg',
+        'bodysm': 'bodySm',
+        'bodyxs': 'bodyXs',
+        'displaylg': 'displayLg',
+        'displaymd': 'displayMd',
+        'displaysm': 'displaySm',
+        'displayxs': 'displayXs',
+        'displayxl': 'displayXl',
+        'headinglg': 'headingLg',
+        'headingmd': 'headingMd',
+        'headingsm': 'headingSm',
+        'headingxl': 'headingXl',
+        'headingxs': 'headingXs'
       };
 
       this.processedJson = this.renameKeys(this.processedJson, keyMappings);

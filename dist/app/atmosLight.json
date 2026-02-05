@@ -25,11 +25,11 @@
         "tertiarySubtle": "#e9e6d9"
       },
       "fare": {
-        "basiceconomy": "#97eaf8",
+        "basicEconomy": "#97eaf8",
         "business": "#002c4e",
         "economy": "#0074ca",
         "first": "#101d2c",
-        "premiumeconomy": "#005154"
+        "premiumEconomy": "#005154"
       },
       "pageBackground": {
         "standard": "#ffffff",
@@ -73,11 +73,11 @@
         "standard": "#101d2c"
       },
       "tierProgram": {
-        "loungetier": {
+        "loungeTier": {
           "lounge": "#01426a",
-          "loungeplus": "#53b390"
+          "loungePlus": "#53b390"
         },
-        "loyaltytier": {
+        "loyaltyTier": {
           "gold": "#fbdc7a",
           "goldMuted": "#fdefc4",
           "platinum": "#bcb8a4",
@@ -109,35 +109,35 @@
         "letterSpacing": 1.4,
         "lineHeight": "130%"
       },
-      "accentlg": {
+      "accentLg": {
         "fontFamily": "AS Circular",
         "fontSize": 24,
         "fontWeight": "Medium",
         "letterSpacing": 1.2,
         "lineHeight": "130%"
       },
-      "accentmd": {
+      "accentMd": {
         "fontFamily": "AS Circular",
         "fontSize": 22,
         "fontWeight": "Medium",
         "letterSpacing": 1.1,
         "lineHeight": "130%"
       },
-      "accentsm": {
+      "accentSm": {
         "fontFamily": "AS Circular",
         "fontSize": 18,
         "fontWeight": "Medium",
         "letterSpacing": 0.9,
         "lineHeight": "130%"
       },
-      "accentxl": {
+      "accentXl": {
         "fontFamily": "AS Circular",
         "fontSize": 26,
         "fontWeight": "Medium",
         "letterSpacing": 1.3,
         "lineHeight": "130%"
       },
-      "accentxs": {
+      "accentXs": {
         "fontFamily": "AS Circular",
         "fontSize": 16,
         "fontWeight": "Medium",
@@ -151,28 +151,28 @@
         "letterSpacing": 0,
         "lineHeight": 14
       },
-      "bodydefault": {
+      "bodyDefault": {
         "fontFamily": "AS Circular",
         "fontSize": 16,
         "fontWeight": "Book",
         "letterSpacing": 0,
         "lineHeight": 24
       },
-      "bodylg": {
+      "bodyLg": {
         "fontFamily": "AS Circular",
         "fontSize": 18,
         "fontWeight": "Book",
         "letterSpacing": 0,
         "lineHeight": 26
       },
-      "bodysm": {
+      "bodySm": {
         "fontFamily": "AS Circular",
         "fontSize": 14,
         "fontWeight": "Book",
         "letterSpacing": 0,
         "lineHeight": 20
       },
-      "bodyxs": {
+      "bodyXs": {
         "fontFamily": "AS Circular",
         "fontSize": 12,
         "fontWeight": "Book",
@@ -186,35 +186,35 @@
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaylg": {
+      "displayLg": {
         "fontFamily": "Teodor",
         "fontSize": 44,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaymd": {
+      "displayMd": {
         "fontFamily": "Teodor",
         "fontSize": 40,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displaysm": {
+      "displaySm": {
         "fontFamily": "Teodor",
         "fontSize": 32,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displayxl": {
+      "displayXl": {
         "fontFamily": "Teodor",
         "fontSize": 48,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "displayxs": {
+      "displayXs": {
         "fontFamily": "Teodor",
         "fontSize": 28,
         "fontWeight": "Light",
@@ -228,35 +228,35 @@
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headinglg": {
+      "headingLg": {
         "fontFamily": "AS Circular",
         "fontSize": 28,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingmd": {
+      "headingMd": {
         "fontFamily": "AS Circular",
         "fontSize": 26,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingsm": {
+      "headingSm": {
         "fontFamily": "AS Circular",
         "fontSize": 22,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingxl": {
+      "headingXl": {
         "fontFamily": "AS Circular",
         "fontSize": 32,
         "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
-      "headingxs": {
+      "headingXs": {
         "fontFamily": "AS Circular",
         "fontSize": 20,
         "fontWeight": "Light",
