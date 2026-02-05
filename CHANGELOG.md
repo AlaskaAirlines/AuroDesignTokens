@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [8.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.15.0...v8.15.1) (2026-02-05)
+
+
+### Bug Fixes
+
+* app token name casing AB[#1475780](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/1475780) ([176b593](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/176b5933a63e789979ce860e71376a4f1f17d327))
+
 # [8.15.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.14.2...v8.15.0) (2026-01-29)
 
 
