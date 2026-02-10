@@ -9,5 +9,4 @@ FigmaExportUtil.processTokenConfiguration('Hawaiian_theme.Light.json', 'app');
 FigmaExportUtil.processTokenConfiguration('Atmos_theme.Light.json', 'web');
 FigmaExportUtil.processTokenConfiguration('Atmos_theme.Light.json', 'app');
 
-FigmaExportUtil.processTokenConfiguration('Blueprint_theme.Light.json', 'web');
-FigmaExportUtil.processTokenConfiguration('Blueprint_theme.Light.json', 'app');
+FigmaExportUtil.processTokenConfiguration('App_test_theme.Light.json', 'app');
