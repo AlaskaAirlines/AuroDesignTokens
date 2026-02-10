@@ -497,7 +497,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "FRAME_FILL",
-            "SHAPE_FILL"
+            "SHAPE_FILL",
+            "EFFECT_COLOR"
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-surface-inverse",

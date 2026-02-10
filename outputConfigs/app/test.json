@@ -1,5 +1,5 @@
 {
-  "source": ["./processed/app/Blueprint_theme.Light.json"],
+  "source": ["./processed/app/App_test_theme.Light.json"],
   "include": [],
   "platforms": {
 
