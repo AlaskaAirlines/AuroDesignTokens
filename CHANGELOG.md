@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.16.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.15.1...v8.16.0) (2026-03-06)
+
+
+### Features
+
+* add multi-theme selector rewriting for web CSS files [#430](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/430) ([e86896c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e86896c03837128aa80010aac6c91a31ac132424)), closes [AB#1504036](https://github.com/AB/issues/1504036)
+
 ## [8.15.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.15.0...v8.15.1) (2026-02-05)
 
 
