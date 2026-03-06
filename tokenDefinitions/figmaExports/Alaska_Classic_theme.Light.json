@@ -584,7 +584,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "FRAME_FILL",
-            "SHAPE_FILL"
+            "SHAPE_FILL",
+            "EFFECT_COLOR"
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-surface-inverse",
@@ -1050,7 +1051,7 @@
     },
     "Warning-Subtle": {
       "$type": "color",
-      "$value": "#fff0b2",
+      "$value": "#fff6d2",
       "$description": "For use on Inverse backgrounds",
       "$extensions": {
         "com.figma": {

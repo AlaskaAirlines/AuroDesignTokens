@@ -38,13 +38,13 @@
       "status": {
         "error": "#e31f26",
         "errorSubtle": "#fbc6c6",
-        "info": "#c7d6e5",
-        "infoSubtle": "#ebf7ff",
+        "info": "#007db1",
+        "infoSubtle": "#e8f2f8",
         "standard": "#afb9c6",
         "success": "#447a1f",
         "successSubtle": "#d6eac7",
         "warning": "#fac200",
-        "warningSubtle": "#fff0b2"
+        "warningSubtle": "#fff6d2"
       },
       "surface": {
         "accent1": "#c7d6e5",

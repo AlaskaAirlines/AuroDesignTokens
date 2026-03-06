@@ -116,8 +116,8 @@
         "line": "#00274a"
       },
       "footer": {
-        "background": "#01426a",
-        "foreground": "#00274a",
+        "background": "#00274a",
+        "foreground": "#00213e",
         "pattern": "#ffffff"
       },
       "header": {
@@ -215,7 +215,7 @@
         "success": "#447a1f",
         "success-subtle": "#d6eac7",
         "warning": "#fac200",
-        "warning-subtle": "#fff0b2"
+        "warning-subtle": "#fff6d2"
       },
       "surface": {
         "accent1": "#5de3f7",
@@ -231,7 +231,7 @@
         "neutral-subtle": "#f7f7f7"
       },
       "texticon": {
-        "accent1": "#265688",
+        "accent1": "#01426a",
         "default": "#2a2a2a",
         "disabled": "#d0d0d0",
         "inverse": "#ffffff",

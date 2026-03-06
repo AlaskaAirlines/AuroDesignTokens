@@ -229,7 +229,7 @@
     },
     "Accent1": {
       "$type": "color",
-      "$value": "#265688",
+      "$value": "#01426a",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -497,7 +497,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "FRAME_FILL",
-            "SHAPE_FILL"
+            "SHAPE_FILL",
+            "EFFECT_COLOR"
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-surface-inverse",
@@ -900,7 +901,7 @@
     },
     "Warning-Subtle": {
       "$type": "color",
-      "$value": "#fff0b2",
+      "$value": "#fff6d2",
       "$description": "For use on Inverse backgrounds",
       "$extensions": {
         "com.figma": {
@@ -3194,7 +3195,7 @@
     "footer": {
       "background": {
         "$type": "color",
-        "$value": "#01426a",
+        "$value": "#00274a",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3210,7 +3211,7 @@
       },
       "foreground": {
         "$type": "color",
-        "$value": "#00274a",
+        "$value": "#00213e",
         "$description": "",
         "$extensions": {
           "com.figma": {

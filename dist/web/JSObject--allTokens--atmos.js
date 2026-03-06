@@ -1969,11 +1969,11 @@ module.exports = {
           ]
         },
         "foreground": {
-          "value": "#00000080",
+          "value": "#010308",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#00000080"
+            "value": "#010308"
           },
           "name": "ds-advanced-color-footer-foreground",
           "attributes": {
@@ -3445,11 +3445,11 @@ module.exports = {
           ]
         },
         "info": {
-          "value": "#c7d6e5",
+          "value": "#007db1",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#c7d6e5"
+            "value": "#007db1"
           },
           "name": "ds-basic-color-status-info",
           "attributes": {
@@ -3466,11 +3466,11 @@ module.exports = {
           ]
         },
         "info-subtle": {
-          "value": "#ebf7ff",
+          "value": "#e8f2f8",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ebf7ff"
+            "value": "#e8f2f8"
           },
           "name": "ds-basic-color-status-info-subtle",
           "attributes": {
@@ -3550,11 +3550,11 @@ module.exports = {
           ]
         },
         "warning-subtle": {
-          "value": "#fff0b2",
+          "value": "#fff6d2",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#fff0b2"
+            "value": "#fff6d2"
           },
           "name": "ds-basic-color-status-warning-subtle",
           "attributes": {
