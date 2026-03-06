@@ -88,8 +88,8 @@
   --ds-advanced-color-expanded-widget-background: #00274a;
   --ds-advanced-color-flightline-indicator: #00274a;
   --ds-advanced-color-flightline-line: #00274a;
-  --ds-advanced-color-footer-background: #01426a;
-  --ds-advanced-color-footer-foreground: #00274a;
+  --ds-advanced-color-footer-background: #00274a;
+  --ds-advanced-color-footer-foreground: #00213e;
   --ds-advanced-color-footer-pattern: #ffffff;
   --ds-advanced-color-header-background-exterior: #ffffff00;
   --ds-advanced-color-header-background-interior: #ffffff;
@@ -161,7 +161,7 @@
   --ds-basic-color-status-success: #447a1f;
   --ds-basic-color-status-success-subtle: #d6eac7;
   --ds-basic-color-status-warning: #fac200;
-  --ds-basic-color-status-warning-subtle: #fff0b2;
+  --ds-basic-color-status-warning-subtle: #fff6d2;
   --ds-basic-color-surface-accent1: #5de3f7;
   --ds-basic-color-surface-accent1-muted: #ebfafd;
   --ds-basic-color-surface-accent1-subtle: #b4eff9;
@@ -173,7 +173,7 @@
   --ds-basic-color-surface-neutral: #f2f2f2;
   --ds-basic-color-surface-neutral-medium: #c5c5c5;
   --ds-basic-color-surface-neutral-subtle: #f7f7f7;
-  --ds-basic-color-texticon-accent1: #265688;
+  --ds-basic-color-texticon-accent1: #01426a;
   --ds-basic-color-texticon-default: #2a2a2a;
   --ds-basic-color-texticon-disabled: #d0d0d0;
   --ds-basic-color-texticon-inverse: #ffffff;
@@ -324,7 +324,7 @@
   --ds-advanced-color-flightline-indicator: #101d2c;
   --ds-advanced-color-flightline-line: #101d2c;
   --ds-advanced-color-footer-background: #101d2c;
-  --ds-advanced-color-footer-foreground: #00000080;
+  --ds-advanced-color-footer-foreground: #010308;
   --ds-advanced-color-footer-pattern: #ffffff;
   --ds-advanced-color-header-background-exterior: #101d2c;
   --ds-advanced-color-header-background-interior: #101d2c;
@@ -392,12 +392,12 @@
   --ds-basic-color-status-default: #afb9c6;
   --ds-basic-color-status-error: #e31f26;
   --ds-basic-color-status-error-subtle: #fbc6c6;
-  --ds-basic-color-status-info: #c7d6e5;
-  --ds-basic-color-status-info-subtle: #ebf7ff;
+  --ds-basic-color-status-info: #007db1;
+  --ds-basic-color-status-info-subtle: #e8f2f8;
   --ds-basic-color-status-success: #447a1f;
   --ds-basic-color-status-success-subtle: #d6eac7;
   --ds-basic-color-status-warning: #fac200;
-  --ds-basic-color-status-warning-subtle: #fff0b2;
+  --ds-basic-color-status-warning-subtle: #fff6d2;
   --ds-basic-color-surface-accent1: #c7d6e5;
   --ds-basic-color-surface-accent1-muted: #e2e8ee;
   --ds-basic-color-surface-accent1-subtle: #c7d6e5;
@@ -560,7 +560,7 @@
   --ds-advanced-color-flightline-indicator: #463c8f;
   --ds-advanced-color-flightline-line: #d0d0d0;
   --ds-advanced-color-footer-background: #463c8f;
-  --ds-advanced-color-footer-foreground: #3c3376;
+  --ds-advanced-color-footer-foreground: #2f2672;
   --ds-advanced-color-footer-pattern: #0000000d;
   --ds-advanced-color-header-background-exterior: #ffffff00;
   --ds-advanced-color-header-background-interior: #ffffff;
@@ -633,7 +633,7 @@
   --ds-basic-color-status-success: #447a1f;
   --ds-basic-color-status-success-subtle: #d6eac7;
   --ds-basic-color-status-warning: #fac200;
-  --ds-basic-color-status-warning-subtle: #fff0b2;
+  --ds-basic-color-status-warning-subtle: #fff6d2;
   --ds-basic-color-surface-accent1: #aca1cc;
   --ds-basic-color-surface-accent1-muted: #edeaf4;
   --ds-basic-color-surface-accent1-subtle: #aca1cc;
@@ -645,7 +645,7 @@
   --ds-basic-color-surface-neutral: #f2f2f2;
   --ds-basic-color-surface-neutral-medium: #dddddd;
   --ds-basic-color-surface-neutral-subtle: #f7f7f7;
-  --ds-basic-color-texticon-accent1: #463c8f;
+  --ds-basic-color-texticon-accent1: #000000;
   --ds-basic-color-texticon-default: #000000;
   --ds-basic-color-texticon-disabled: #d0d0d0;
   --ds-basic-color-texticon-inverse: #ffffff;

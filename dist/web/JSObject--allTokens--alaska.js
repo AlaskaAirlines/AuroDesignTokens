@@ -1975,11 +1975,11 @@ module.exports = {
       },
       "footer": {
         "background": {
-          "value": "#01426a",
+          "value": "#00274a",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#01426a"
+            "value": "#00274a"
           },
           "name": "ds-advanced-color-footer-background",
           "attributes": {
@@ -1996,11 +1996,11 @@ module.exports = {
           ]
         },
         "foreground": {
-          "value": "#00274a",
+          "value": "#00213e",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#00274a"
+            "value": "#00213e"
           },
           "name": "ds-advanced-color-footer-foreground",
           "attributes": {
@@ -3548,11 +3548,11 @@ module.exports = {
           ]
         },
         "warning-subtle": {
-          "value": "#fff0b2",
+          "value": "#fff6d2",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#fff0b2"
+            "value": "#fff6d2"
           },
           "name": "ds-basic-color-status-warning-subtle",
           "attributes": {
@@ -3804,11 +3804,11 @@ module.exports = {
       },
       "texticon": {
         "accent1": {
-          "value": "#265688",
+          "value": "#01426a",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#265688"
+            "value": "#01426a"
           },
           "name": "ds-basic-color-texticon-accent1",
           "attributes": {

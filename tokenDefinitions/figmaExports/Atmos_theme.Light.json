@@ -584,7 +584,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "FRAME_FILL",
-            "SHAPE_FILL"
+            "SHAPE_FILL",
+            "EFFECT_COLOR"
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-surface-inverse",
@@ -906,7 +907,7 @@
     },
     "Info": {
       "$type": "color",
-      "$value": "#c7d6e5",
+      "$value": "#007db1",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -922,7 +923,7 @@
             "ANDROID": "basicTokens.color.status.info",
             "iOS": "basicTokens.color.status.info"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15586"
         }
@@ -1002,7 +1003,7 @@
     },
     "Info-Subtle": {
       "$type": "color",
-      "$value": "#ebf7ff",
+      "$value": "#e8f2f8",
       "$description": "For use on Inverse backgrounds",
       "$extensions": {
         "com.figma": {
@@ -1018,7 +1019,7 @@
             "ANDROID": "basicTokens.color.status.infoSubtle",
             "iOS": "basicTokens.color.status.infoSubtle"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15586"
         }
@@ -1050,7 +1051,7 @@
     },
     "Warning-Subtle": {
       "$type": "color",
-      "$value": "#fff0b2",
+      "$value": "#fff6d2",
       "$description": "For use on Inverse backgrounds",
       "$extensions": {
         "com.figma": {
@@ -3774,7 +3775,7 @@
       },
       "foreground": {
         "$type": "color",
-        "$value": "#00000080",
+        "$value": "#010308",
         "$description": "",
         "$extensions": {
           "com.figma": {

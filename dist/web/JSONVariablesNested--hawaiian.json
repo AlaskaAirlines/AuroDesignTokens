@@ -112,7 +112,7 @@
       },
       "footer": {
         "background": "#463c8f",
-        "foreground": "#3c3376",
+        "foreground": "#2f2672",
         "pattern": "#0000000d"
       },
       "header": {
@@ -217,7 +217,7 @@
         "success": "#447a1f",
         "success-subtle": "#d6eac7",
         "warning": "#fac200",
-        "warning-subtle": "#fff0b2"
+        "warning-subtle": "#fff6d2"
       },
       "surface": {
         "accent1": "#aca1cc",
@@ -233,7 +233,7 @@
         "neutral-subtle": "#f7f7f7"
       },
       "texticon": {
-        "accent1": "#463c8f",
+        "accent1": "#000000",
         "default": "#000000",
         "disabled": "#d0d0d0",
         "inverse": "#ffffff",

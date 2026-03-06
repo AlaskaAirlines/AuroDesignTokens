@@ -1969,11 +1969,11 @@ module.exports = {
           ]
         },
         "foreground": {
-          "value": "#3c3376",
+          "value": "#2f2672",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3c3376"
+            "value": "#2f2672"
           },
           "name": "ds-advanced-color-footer-foreground",
           "attributes": {
@@ -3550,11 +3550,11 @@ module.exports = {
           ]
         },
         "warning-subtle": {
-          "value": "#fff0b2",
+          "value": "#fff6d2",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#fff0b2"
+            "value": "#fff6d2"
           },
           "name": "ds-basic-color-status-warning-subtle",
           "attributes": {
@@ -3806,11 +3806,11 @@ module.exports = {
       },
       "texticon": {
         "accent1": {
-          "value": "#463c8f",
+          "value": "#000000",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#463c8f"
+            "value": "#000000"
           },
           "name": "ds-basic-color-texticon-accent1",
           "attributes": {

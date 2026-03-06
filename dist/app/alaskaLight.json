@@ -44,7 +44,7 @@
         "success": "#447a1f",
         "successSubtle": "#d6eac7",
         "warning": "#fac200",
-        "warningSubtle": "#fff0b2"
+        "warningSubtle": "#fff6d2"
       },
       "surface": {
         "accent1": "#5de3f7",
@@ -60,7 +60,7 @@
         "standard": "#ffffff"
       },
       "textIcon": {
-        "accent1": "#265688",
+        "accent1": "#01426a",
         "disabled": "#d0d0d0",
         "inverse": "#ffffff",
         "inverseDisabled": "#7e8894",
