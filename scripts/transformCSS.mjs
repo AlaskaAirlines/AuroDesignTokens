@@ -22,17 +22,8 @@ import path from 'path';
 import postcss from 'postcss';
 import cssnano from 'cssnano';
 import { THEME_DEFINITIONS, getThemeAttribute } from '../src/config/themes.js';
-import { PATHS, CSS } from '../src/config/constants.js';
+import { PATHS, CSS, WEB_THEME_DEFINITIONS } from '../src/config/constants.js';
 import cssnanoConfig from '../src/config/cssnano.js';
-
-// Web theme definitions used for multi-theme selector rewriting in dist/web
-// Each entry maps a generated CSS filename to its desired data-aag-theme attribute code.
-// These codes are intentionally separate from THEME_DEFINITIONS codes used in dist/themes.
-const WEB_THEME_DEFINITIONS = [
-  { file: 'alaska.css', code: 'aag-theme-as' },
-  { file: 'atmos.css', code: 'aag-theme-at' },
-  { file: 'hawaiian.css', code: 'aag-theme-ha' },
-];
 
 // Find CSS files in a directory
 /**
