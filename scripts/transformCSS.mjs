@@ -25,6 +25,15 @@ import { THEME_DEFINITIONS, getThemeAttribute } from '../src/config/themes.js';
 import { PATHS, CSS } from '../src/config/constants.js';
 import cssnanoConfig from '../src/config/cssnano.js';
 
+// Web theme definitions used for multi-theme selector rewriting in dist/web
+// Each entry maps a generated CSS filename to its desired data-aag-theme attribute code.
+// These codes are intentionally separate from THEME_DEFINITIONS codes used in dist/themes.
+const WEB_THEME_DEFINITIONS = [
+  { file: 'alaska.css', code: 'aag-theme-as' },
+  { file: 'atmos.css', code: 'aag-theme-at' },
+  { file: 'hawaiian.css', code: 'aag-theme-ha' },
+];
+
 // Find CSS files in a directory
 /**
  * @param {string} baseDir
@@ -135,6 +144,9 @@ async function transformCSSFiles() {
       console.log('No CSS properties found in any :root {} blocks');
     }
     
+    // Rewrite dist/web CSS files with multi-theme selector blocks
+    await transformWebCSSFiles();
+
     // Add CSS files from dist/web directory
     const webDir = path.join(PATHS.DIST, 'web');
     
@@ -167,6 +179,77 @@ async function transformCSSFiles() {
   } catch (error) {
     console.error('Error processing CSS files:', error);
     process.exit(1);
+  }
+}
+
+/**
+ * Rewrites each dist/web CSS theme file to contain a full 3-block multi-theme selector set.
+ *
+ * For the file\'s own theme:
+ *   :root,
+ *   [data-aag-theme="<code>"] { ...vars... }
+ *
+ * For every other web theme (in definition order):
+ *   [data-aag-theme="<other-code>"] { ...vars... }
+ *
+ * CSS custom properties are extracted from the :root block written by Style Dictionary.
+ */
+async function transformWebCSSFiles() {
+  const webDir = path.join(PATHS.DIST, 'web');
+
+  // Step 1: Read custom properties from each theme file
+  /** @type {Record<string, string[]>} */
+  const themeVars = {};
+  for (const theme of WEB_THEME_DEFINITIONS) {
+    const filePath = path.join(webDir, theme.file);
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      const result = await postcss().process(content, { from: filePath });
+      /** @type {string[]} */
+      const props = [];
+      result.root.walkRules(rule => {
+        if (rule.selector === CSS.ROOT_SELECTOR) {
+          rule.walkDecls(decl => {
+            if (decl.prop.startsWith('--')) {
+              props.push(`  ${decl.prop}: ${decl.value};`);
+            }
+          });
+        }
+      });
+      themeVars[theme.code] = props;
+      console.log(`Read ${props.length} custom properties from web/${theme.file}`);
+    } catch (error) {
+      console.warn(`Warning: Could not read web/${theme.file}: ${error instanceof Error ? error.message : String(error)}`);
+      themeVars[theme.code] = [];
+    }
+  }
+
+  // Step 2: Rewrite each theme file with ordered multi-theme selector blocks
+  for (const theme of WEB_THEME_DEFINITIONS) {
+    const filePath = path.join(webDir, theme.file);
+    const ownVars = themeVars[theme.code];
+    if (!ownVars || ownVars.length === 0) {
+      console.warn(`Skipping web/${theme.file}: no custom properties found`);
+      continue;
+    }
+
+    const blocks = [];
+
+    // Own theme: :root combined with its attribute selector
+    blocks.push(`:root,\n[data-aag-theme="${theme.code}"] {\n${ownVars.join('\n')}\n}`);
+
+    // Remaining themes in definition order
+    for (const other of WEB_THEME_DEFINITIONS) {
+      if (other.code === theme.code) continue;
+      const otherVars = themeVars[other.code];
+      if (otherVars && otherVars.length > 0) {
+        blocks.push(`[data-aag-theme="${other.code}"] {\n${otherVars.join('\n')}\n}`);
+      }
+    }
+
+    const composed = blocks.join('\n\n');
+    await fs.writeFile(filePath, composed);
+    console.log(`Rewrote web/${theme.file} with ${blocks.length}-block multi-theme selectors`);
   }
 }
 
