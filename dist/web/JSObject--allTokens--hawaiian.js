@@ -1902,6 +1902,33 @@ module.exports = {
           ]
         }
       },
+      "expanded": {
+        "widget": {
+          "background": {
+            "value": "linear-gradient(180deg, rgba(38, 32, 67, .65), rgba(38, 32, 67, 0) 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "linear-gradient(180deg, rgba(38, 32, 67, .65), rgba(38, 32, 67, 0) 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)"
+            },
+            "name": "ds-advanced-color-expanded-widget-background",
+            "attributes": {
+              "category": "advanced",
+              "type": "color",
+              "item": "expanded",
+              "subitem": "widget",
+              "state": "background"
+            },
+            "path": [
+              "advanced",
+              "color",
+              "expanded",
+              "widget",
+              "background"
+            ]
+          }
+        }
+      },
       "flightline": {
         "indicator": {
           "value": "#463c8f",
@@ -2791,35 +2818,6 @@ module.exports = {
             "state",
             "selected-hover"
           ]
-        }
-      }
-    },
-    "web": {
-      "expanded": {
-        "widget": {
-          "background": {
-            "value": "linear-gradient(180deg, rgba(38, 32, 67, .65), rgba(38, 32, 67, 0) 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)",
-            "filePath": "processed/web/Hawaiian_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "linear-gradient(180deg, rgba(38, 32, 67, .65), rgba(38, 32, 67, 0) 65%), linear-gradient(90deg, #463c8f 25.8%, #ce0c88)"
-            },
-            "name": "ds-advanced-web-expanded-widget-background",
-            "attributes": {
-              "category": "advanced",
-              "type": "web",
-              "item": "expanded",
-              "subitem": "widget",
-              "state": "background"
-            },
-            "path": [
-              "advanced",
-              "web",
-              "expanded",
-              "widget",
-              "background"
-            ]
-          }
         }
       }
     }

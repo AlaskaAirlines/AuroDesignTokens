@@ -1902,6 +1902,33 @@ module.exports = {
           ]
         }
       },
+      "expanded": {
+        "widget": {
+          "background": {
+            "value": "#101d2c",
+            "filePath": "processed/web/Atmos_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#101d2c"
+            },
+            "name": "ds-advanced-color-expanded-widget-background",
+            "attributes": {
+              "category": "advanced",
+              "type": "color",
+              "item": "expanded",
+              "subitem": "widget",
+              "state": "background"
+            },
+            "path": [
+              "advanced",
+              "color",
+              "expanded",
+              "widget",
+              "background"
+            ]
+          }
+        }
+      },
       "flightline": {
         "indicator": {
           "value": "#101d2c",
@@ -2791,35 +2818,6 @@ module.exports = {
             "state",
             "selected-hover"
           ]
-        }
-      }
-    },
-    "web": {
-      "expanded": {
-        "widget": {
-          "background": {
-            "value": "#101d2c",
-            "filePath": "processed/web/Atmos_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "#101d2c"
-            },
-            "name": "ds-advanced-web-expanded-widget-background",
-            "attributes": {
-              "category": "advanced",
-              "type": "web",
-              "item": "expanded",
-              "subitem": "widget",
-              "state": "background"
-            },
-            "path": [
-              "advanced",
-              "web",
-              "expanded",
-              "widget",
-              "background"
-            ]
-          }
         }
       }
     }
