@@ -3250,25 +3250,29 @@ module.exports = {
           ]
         },
         "business": {
-          "value": "#002c4e",
-          "filePath": "processed/web/Atmos_theme.Light.json",
-          "isSource": true,
-          "original": {
-            "value": "#002c4e"
-          },
-          "name": "ds-basic-color-fare-business",
-          "attributes": {
-            "category": "basic",
-            "type": "color",
-            "item": "fare",
-            "subitem": "business"
-          },
-          "path": [
-            "basic",
-            "color",
-            "fare",
-            "business"
-          ]
+          "first": {
+            "value": "#101d2c",
+            "filePath": "processed/web/Atmos_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#101d2c"
+            },
+            "name": "ds-basic-color-fare-business-first",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "business",
+              "state": "first"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "business",
+              "first"
+            ]
+          }
         },
         "economy": {
           "value": "#0074ca",

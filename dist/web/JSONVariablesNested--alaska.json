@@ -197,7 +197,9 @@
       },
       "fare": {
         "basiceconomy": "#97eaf8",
-        "business": "#01426a",
+        "business": {
+          "first": "linear-gradient(180deg, #005154 40%, #00274A 100%)"
+        },
         "economy": "#0074ca",
         "first": "#00274a",
         "premiumeconomy": "#005154"

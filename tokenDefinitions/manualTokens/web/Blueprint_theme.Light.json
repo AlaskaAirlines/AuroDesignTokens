@@ -120,6 +120,15 @@
       "weight-heading2": {
         "value": 450
       }
+    },
+    "color": {
+      "fare": {
+        "business": {
+          "first": {
+            "value": "{surface.inverse}"
+          }
+        }
+      }
     }
   }
 }

@@ -197,7 +197,9 @@
       },
       "fare": {
         "basiceconomy": "#97eaf8",
-        "business": "#002c4e",
+        "business": {
+          "first": "#101d2c"
+        },
         "economy": "#0074ca",
         "first": "#101d2c",
         "premiumeconomy": "#005154"

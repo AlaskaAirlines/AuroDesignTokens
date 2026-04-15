@@ -3250,25 +3250,29 @@ module.exports = {
           ]
         },
         "business": {
-          "value": "#463c8f",
-          "filePath": "processed/web/Hawaiian_theme.Light.json",
-          "isSource": true,
-          "original": {
-            "value": "#463c8f"
-          },
-          "name": "ds-basic-color-fare-business",
-          "attributes": {
-            "category": "basic",
-            "type": "color",
-            "item": "fare",
-            "subitem": "business"
-          },
-          "path": [
-            "basic",
-            "color",
-            "fare",
-            "business"
-          ]
+          "first": {
+            "value": "linear-gradient(180deg, #463C8F 40%, #CE0C88 100%)",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "linear-gradient(180deg, #463C8F 40%, #CE0C88 100%)"
+            },
+            "name": "ds-basic-color-fare-business-first",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "business",
+              "state": "first"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "business",
+              "first"
+            ]
+          }
         },
         "economy": {
           "value": "#ce0c88",
