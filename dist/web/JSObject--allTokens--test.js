@@ -3250,29 +3250,46 @@ module.exports = {
           ]
         },
         "business": {
-          "first": {
-            "value": "#7e7e7e",
-            "filePath": "processed/web/Blueprint_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "#7e7e7e"
-            },
-            "name": "ds-basic-color-fare-business-first",
-            "attributes": {
-              "category": "basic",
-              "type": "color",
-              "item": "fare",
-              "subitem": "business",
-              "state": "first"
-            },
-            "path": [
-              "basic",
-              "color",
-              "fare",
-              "business",
-              "first"
-            ]
-          }
+          "value": "#3d3d3d",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#3d3d3d"
+          },
+          "name": "ds-basic-color-fare-business",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "business"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "business"
+          ]
+        },
+        "business-first": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-basic-color-fare-business-first",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "business-first"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "business-first"
+          ]
         },
         "economy": {
           "value": "#676767",

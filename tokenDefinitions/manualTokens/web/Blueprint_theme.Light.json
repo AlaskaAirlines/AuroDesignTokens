@@ -123,10 +123,8 @@
     },
     "color": {
       "fare": {
-        "business": {
-          "first": {
-            "value": "{surface.inverse}"
-          }
+        "business-first": {
+          "value": "{surface.inverse}"
         }
       }
     }

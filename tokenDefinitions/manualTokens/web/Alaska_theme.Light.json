@@ -123,10 +123,8 @@
     },
     "color": {
       "fare": {
-        "business": {
-          "first": {
-            "value": "linear-gradient(180deg, #005154 40%, #00274A 100%)"
-          }
+        "business-first": {
+          "value": "linear-gradient(180deg, #005154 40%, #00274A 100%)"
         }
       }
     }

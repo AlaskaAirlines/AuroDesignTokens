@@ -147,6 +147,7 @@
   --ds-basic-color-brand-tertiary-muted: #faf9f5;
   --ds-basic-color-brand-tertiary-subtle: #e9e6d9;
   --ds-basic-color-fare-basiceconomy: #97eaf8;
+  --ds-basic-color-fare-business: #002c4e;
   --ds-basic-color-fare-business-first: #101d2c;
   --ds-basic-color-fare-economy: #0074ca;
   --ds-basic-color-fare-first: #101d2c;
@@ -383,6 +384,7 @@
   --ds-basic-color-brand-tertiary-muted: #eaf3dd;
   --ds-basic-color-brand-tertiary-subtle: #c9e1a7;
   --ds-basic-color-fare-basiceconomy: #97eaf8;
+  --ds-basic-color-fare-business: #01426a;
   --ds-basic-color-fare-business-first: linear-gradient(180deg, #005154 40%, #00274A 100%);
   --ds-basic-color-fare-economy: #0074ca;
   --ds-basic-color-fare-first: #00274a;
@@ -619,6 +621,7 @@
   --ds-basic-color-brand-tertiary-muted: #ffeeea;
   --ds-basic-color-brand-tertiary-subtle: #ff9080;
   --ds-basic-color-fare-basiceconomy: #d0d0d0;
+  --ds-basic-color-fare-business: #463c8f;
   --ds-basic-color-fare-business-first: linear-gradient(180deg, #463C8F 40%, #CE0C88 100%);
   --ds-basic-color-fare-economy: #ce0c88;
   --ds-basic-color-fare-first: #463c8f;
