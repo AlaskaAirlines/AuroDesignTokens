@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [8.17.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.16.0...v8.17.0) (2026-04-28)
+
+
+### Features
+
+* rename gradient token from web to color on Atmos and Hawaiian themes [#441](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/441) ([60fa743](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/60fa743e71ef4e2a9039f0f2644b7a46dbc3a3d4))
+
 # [8.16.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.15.1...v8.16.0) (2026-03-06)
 
 
