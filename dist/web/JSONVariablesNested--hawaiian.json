@@ -34,7 +34,7 @@
         "isfalse": "#ffffff",
         "isfalse-border": "#adadad",
         "isfalse-border-inverse": "#ffffff",
-        "isfalse-hover": "#f2f2f2",
+        "isfalse-hover": "#00000014",
         "isfalse-inverse": "#ffffff26",
         "isfalse-inverse-hover": "#ffffff33",
         "istrue": "#463c8f",
@@ -81,7 +81,7 @@
         "secondary": {
           "background": "#ffffff",
           "background-disabled": "#f7f7f7",
-          "background-hover": "#f2f2f2",
+          "background-hover": "#0000000d",
           "background-inverse-hover": "#0000000d",
           "border": "#ce0c88",
           "border-disabled": "#f7f7f7",
@@ -158,7 +158,7 @@
       },
       "state": {
         "background-disabled": "#dddddd",
-        "background-hover": "#f2f2f2",
+        "background-hover": "#00000014",
         "background-inverse-disabled": "#7e8894",
         "error-inverse": "#f9a4a8",
         "focused": "#463c8f",
@@ -200,7 +200,9 @@
         "business": "#463c8f",
         "economy": "#ce0c88",
         "first": "#463c8f",
-        "premiumeconomy": "#1b6976"
+        "premiumeconomy": "#1b6976",
+        "suites-back": "#ce0c88",
+        "suites-front": "#463c8f"
       },
       "page-background": {
         "default": "#ffffff",

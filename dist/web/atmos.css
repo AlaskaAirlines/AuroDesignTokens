@@ -28,7 +28,7 @@
   --ds-advanced-color-boolean-isfalse: #ffffff;
   --ds-advanced-color-boolean-isfalse-border: #585e67;
   --ds-advanced-color-boolean-isfalse-border-inverse: #ffffff;
-  --ds-advanced-color-boolean-isfalse-hover: #f2f2f2;
+  --ds-advanced-color-boolean-isfalse-hover: #00000014;
   --ds-advanced-color-boolean-isfalse-inverse: #ffffff26;
   --ds-advanced-color-boolean-isfalse-inverse-hover: #ffffff33;
   --ds-advanced-color-boolean-istrue: #101d2c;
@@ -66,7 +66,7 @@
   --ds-advanced-color-button-primary-text-inverse: #101d2c;
   --ds-advanced-color-button-secondary-background: #ffffff00;
   --ds-advanced-color-button-secondary-background-disabled: #f7f7f7;
-  --ds-advanced-color-button-secondary-background-hover: #f2f2f2;
+  --ds-advanced-color-button-secondary-background-hover: #0000000d;
   --ds-advanced-color-button-secondary-background-inverse-hover: #ffffff1a;
   --ds-advanced-color-button-secondary-border: #101d2c;
   --ds-advanced-color-button-secondary-border-disabled: #f7f7f7;
@@ -118,7 +118,7 @@
   --ds-advanced-color-skeleton-background: #f7f8fa;
   --ds-advanced-color-skeleton-wave: #e4e8ec;
   --ds-advanced-color-state-background-disabled: #dddddd;
-  --ds-advanced-color-state-background-hover: #f2f2f2;
+  --ds-advanced-color-state-background-hover: #00000014;
   --ds-advanced-color-state-background-inverse-disabled: #7e8894;
   --ds-advanced-color-state-error-inverse: #f9a4a8;
   --ds-advanced-color-state-focused: #101d2c;
@@ -151,6 +151,8 @@
   --ds-basic-color-fare-economy: #0074ca;
   --ds-basic-color-fare-first: #101d2c;
   --ds-basic-color-fare-premiumeconomy: #005154;
+  --ds-basic-color-fare-suites-back: #101d2c;
+  --ds-basic-color-fare-suites-front: #101d2c;
   --ds-basic-color-page-background-default: #ffffff;
   --ds-basic-color-page-background-utility: #faf9f5;
   --ds-basic-color-status-default: #afb9c6;
@@ -264,7 +266,7 @@
   --ds-advanced-color-boolean-isfalse: #ffffff;
   --ds-advanced-color-boolean-isfalse-border: #585e67;
   --ds-advanced-color-boolean-isfalse-border-inverse: #ffffff;
-  --ds-advanced-color-boolean-isfalse-hover: #f2f2f2;
+  --ds-advanced-color-boolean-isfalse-hover: #00000014;
   --ds-advanced-color-boolean-isfalse-inverse: #ffffff26;
   --ds-advanced-color-boolean-isfalse-inverse-hover: #ffffff33;
   --ds-advanced-color-boolean-istrue: #01426a;
@@ -354,7 +356,7 @@
   --ds-advanced-color-skeleton-background: #f7f8fa;
   --ds-advanced-color-skeleton-wave: #e4e8ec;
   --ds-advanced-color-state-background-disabled: #dddddd;
-  --ds-advanced-color-state-background-hover: #f2f2f2;
+  --ds-advanced-color-state-background-hover: #00000014;
   --ds-advanced-color-state-background-inverse-disabled: #7e8894;
   --ds-advanced-color-state-error-inverse: #f9a4a8;
   --ds-advanced-color-state-focused: #01426a;
@@ -387,6 +389,8 @@
   --ds-basic-color-fare-economy: #0074ca;
   --ds-basic-color-fare-first: #00274a;
   --ds-basic-color-fare-premiumeconomy: #005154;
+  --ds-basic-color-fare-suites-back: #00274a;
+  --ds-basic-color-fare-suites-front: #005154;
   --ds-basic-color-page-background-default: #ffffff;
   --ds-basic-color-page-background-utility: #ffffff;
   --ds-basic-color-status-default: #afb9c6;
@@ -500,7 +504,7 @@
   --ds-advanced-color-boolean-isfalse: #ffffff;
   --ds-advanced-color-boolean-isfalse-border: #adadad;
   --ds-advanced-color-boolean-isfalse-border-inverse: #ffffff;
-  --ds-advanced-color-boolean-isfalse-hover: #f2f2f2;
+  --ds-advanced-color-boolean-isfalse-hover: #00000014;
   --ds-advanced-color-boolean-isfalse-inverse: #ffffff26;
   --ds-advanced-color-boolean-isfalse-inverse-hover: #ffffff33;
   --ds-advanced-color-boolean-istrue: #463c8f;
@@ -538,7 +542,7 @@
   --ds-advanced-color-button-primary-text-inverse: #ce0c88;
   --ds-advanced-color-button-secondary-background: #ffffff;
   --ds-advanced-color-button-secondary-background-disabled: #f7f7f7;
-  --ds-advanced-color-button-secondary-background-hover: #f2f2f2;
+  --ds-advanced-color-button-secondary-background-hover: #0000000d;
   --ds-advanced-color-button-secondary-background-inverse-hover: #0000000d;
   --ds-advanced-color-button-secondary-border: #ce0c88;
   --ds-advanced-color-button-secondary-border-disabled: #f7f7f7;
@@ -590,7 +594,7 @@
   --ds-advanced-color-skeleton-background: #f7f8fa;
   --ds-advanced-color-skeleton-wave: #e4e8ec;
   --ds-advanced-color-state-background-disabled: #dddddd;
-  --ds-advanced-color-state-background-hover: #f2f2f2;
+  --ds-advanced-color-state-background-hover: #00000014;
   --ds-advanced-color-state-background-inverse-disabled: #7e8894;
   --ds-advanced-color-state-error-inverse: #f9a4a8;
   --ds-advanced-color-state-focused: #463c8f;
@@ -623,6 +627,8 @@
   --ds-basic-color-fare-economy: #ce0c88;
   --ds-basic-color-fare-first: #463c8f;
   --ds-basic-color-fare-premiumeconomy: #1b6976;
+  --ds-basic-color-fare-suites-back: #ce0c88;
+  --ds-basic-color-fare-suites-front: #463c8f;
   --ds-basic-color-page-background-default: #ffffff;
   --ds-basic-color-page-background-utility: #ffffff;
   --ds-basic-color-status-default: #afb9c6;

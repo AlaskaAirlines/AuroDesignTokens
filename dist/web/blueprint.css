@@ -27,7 +27,7 @@
   --ds-advanced-color-boolean-isfalse: #ffffff;
   --ds-advanced-color-boolean-isfalse-border: #adadad;
   --ds-advanced-color-boolean-isfalse-border-inverse: #ffffff;
-  --ds-advanced-color-boolean-isfalse-hover: #f2f2f2;
+  --ds-advanced-color-boolean-isfalse-hover: #00000014;
   --ds-advanced-color-boolean-isfalse-inverse: #ffffff33;
   --ds-advanced-color-boolean-isfalse-inverse-hover: #ffffff26;
   --ds-advanced-color-boolean-istrue: #7e7e7e;
@@ -65,7 +65,7 @@
   --ds-advanced-color-button-primary-text-inverse: #ffffff;
   --ds-advanced-color-button-secondary-background: #ffffff;
   --ds-advanced-color-button-secondary-background-disabled: #f7f7f7;
-  --ds-advanced-color-button-secondary-background-hover: #f2f2f2;
+  --ds-advanced-color-button-secondary-background-hover: #0000000d;
   --ds-advanced-color-button-secondary-background-inverse-hover: #f7f7f7;
   --ds-advanced-color-button-secondary-border: #d0d0d0;
   --ds-advanced-color-button-secondary-border-disabled: #f7f7f7;
@@ -93,7 +93,7 @@
   --ds-advanced-color-header-background-exterior: #ffffff;
   --ds-advanced-color-header-background-interior: #ffffff;
   --ds-advanced-color-header-button-background: #ffffff00;
-  --ds-advanced-color-header-button-background-hover: #f2f2f2;
+  --ds-advanced-color-header-button-background-hover: #0000000d;
   --ds-advanced-color-header-button-border: #d0d0d0;
   --ds-advanced-color-header-button-signedin-background: #7e7e7e;
   --ds-advanced-color-header-button-signedin-background-hover: #525252;
@@ -117,7 +117,7 @@
   --ds-advanced-color-skeleton-background: #f2f2f2;
   --ds-advanced-color-skeleton-wave: #dddddd;
   --ds-advanced-color-state-background-disabled: #dddddd;
-  --ds-advanced-color-state-background-hover: #f2f2f2;
+  --ds-advanced-color-state-background-hover: #00000014;
   --ds-advanced-color-state-background-inverse-disabled: #7e7e7e;
   --ds-advanced-color-state-error-inverse: #ffffff;
   --ds-advanced-color-state-focused: #7e7e7e;
@@ -150,6 +150,8 @@
   --ds-basic-color-fare-economy: #676767;
   --ds-basic-color-fare-first: #2a2a2a;
   --ds-basic-color-fare-premiumeconomy: #525252;
+  --ds-basic-color-fare-suites-back: #525252;
+  --ds-basic-color-fare-suites-front: #7e7e7e;
   --ds-basic-color-page-background-default: #ffffff;
   --ds-basic-color-page-background-utility: #ffffff;
   --ds-basic-color-status-default: #959595;

@@ -34,7 +34,7 @@
         "isfalse": "#ffffff",
         "isfalse-border": "#585e67",
         "isfalse-border-inverse": "#ffffff",
-        "isfalse-hover": "#f2f2f2",
+        "isfalse-hover": "#00000014",
         "isfalse-inverse": "#ffffff26",
         "isfalse-inverse-hover": "#ffffff33",
         "istrue": "#01426a",
@@ -158,7 +158,7 @@
       },
       "state": {
         "background-disabled": "#dddddd",
-        "background-hover": "#f2f2f2",
+        "background-hover": "#00000014",
         "background-inverse-disabled": "#7e8894",
         "error-inverse": "#f9a4a8",
         "focused": "#01426a",
@@ -200,7 +200,9 @@
         "business": "#01426a",
         "economy": "#0074ca",
         "first": "#00274a",
-        "premiumeconomy": "#005154"
+        "premiumeconomy": "#005154",
+        "suites-back": "#00274a",
+        "suites-front": "#005154"
       },
       "page-background": {
         "default": "#ffffff",
