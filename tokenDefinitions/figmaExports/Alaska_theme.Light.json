@@ -1282,6 +1282,38 @@
           }
         }
       }
+    },
+    "suites-front": {
+      "$type": "color",
+      "$value": "#005154",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": true,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "--ds-basic-color-fare-suites-front"
+          }
+        }
+      }
+    },
+    "suites-back": {
+      "$type": "color",
+      "$value": "#00274a",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": true,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "--ds-basic-color-fare-suites-back"
+          }
+        }
+      }
     }
   },
   "advanced": {
@@ -1368,7 +1400,7 @@
       },
       "background-hover": {
         "$type": "color",
-        "$value": "#f2f2f2",
+        "$value": "#00000014",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -2715,7 +2747,7 @@
       },
       "isfalse-hover": {
         "$type": "color",
-        "$value": "#f2f2f2",
+        "$value": "#00000014",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4093,8 +4125,44 @@
             ],
             "codeSyntax": {
               "WEB": "* App only token *",
-              "ANDROID": "uiTokens.color.searchWidget.route.fieldIcon",
-              "iOS": "uiTokens.color.searchWidget.route.fieldIcon"
+              "ANDROID": "uiTokens.color.searchWidget.fieldIcon",
+              "iOS": "uiTokens.color.searchWidget.fieldIcon"
+            }
+          }
+        }
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "#00274a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "* App only token *",
+              "ANDROID": "uiTokens.color.searchWidget.divider",
+              "iOS": "uiTokens.color.searchWidget.divider"
+            }
+          }
+        }
+      },
+      "route-switcher": {
+        "$type": "color",
+        "$value": "#00274a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "* App only token *",
+              "ANDROID": "uiTokens.color.searchWidget.routeSwitcher",
+              "iOS": "uiTokens.color.searchWidget.routeSwitcher"
             }
           }
         }

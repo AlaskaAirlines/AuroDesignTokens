@@ -595,11 +595,11 @@ module.exports = {
           ]
         },
         "isfalse-hover": {
-          "value": "#f2f2f2",
+          "value": "#00000014",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#00000014"
           },
           "name": "ds-advanced-color-boolean-isfalse-hover",
           "attributes": {
@@ -1464,11 +1464,11 @@ module.exports = {
             ]
           },
           "background-hover": {
-            "value": "#f2f2f2",
+            "value": "#0000000d",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f2f2f2"
+              "value": "#0000000d"
             },
             "name": "ds-advanced-color-button-secondary-background-hover",
             "attributes": {
@@ -2106,11 +2106,11 @@ module.exports = {
             ]
           },
           "background-hover": {
-            "value": "#f2f2f2",
+            "value": "#0000000d",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f2f2f2"
+              "value": "#0000000d"
             },
             "name": "ds-advanced-color-header-button-background-hover",
             "attributes": {
@@ -2631,11 +2631,11 @@ module.exports = {
           ]
         },
         "background-hover": {
-          "value": "#f2f2f2",
+          "value": "#00000014",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#00000014"
           },
           "name": "ds-advanced-color-state-background-hover",
           "attributes": {
@@ -3331,6 +3331,48 @@ module.exports = {
             "color",
             "fare",
             "premiumeconomy"
+          ]
+        },
+        "suites-back": {
+          "value": "#525252",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#525252"
+          },
+          "name": "ds-basic-color-fare-suites-back",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "suites-back"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "suites-back"
+          ]
+        },
+        "suites-front": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-basic-color-fare-suites-front",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "suites-front"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "suites-front"
           ]
         }
       },

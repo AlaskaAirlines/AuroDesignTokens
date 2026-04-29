@@ -29,7 +29,9 @@
         "business": "#002c4e",
         "economy": "#0074ca",
         "first": "#101d2c",
-        "premiumEconomy": "#005154"
+        "premiumEconomy": "#005154",
+        "suitesBack": "#101d2c",
+        "suitesFront": "#101d2c"
       },
       "pageBackground": {
         "standard": "#ffffff",
@@ -337,9 +339,11 @@
       "selectedMuted": "#ffffffcc"
     },
     "searchWidget": {
+      "divider": "#101d2c",
       "fieldIcon": "#c7d6e5",
       "routeDestination": "#e9e6d9",
-      "routeOrigin": "#c7d6e5"
+      "routeOrigin": "#c7d6e5",
+      "routeSwitcher": "#101d2c"
     }
   }
 }

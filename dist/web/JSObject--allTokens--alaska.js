@@ -595,11 +595,11 @@ module.exports = {
           ]
         },
         "isfalse-hover": {
-          "value": "#f2f2f2",
+          "value": "#00000014",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#00000014"
           },
           "name": "ds-advanced-color-boolean-isfalse-hover",
           "attributes": {
@@ -2631,11 +2631,11 @@ module.exports = {
           ]
         },
         "background-hover": {
-          "value": "#f2f2f2",
+          "value": "#00000014",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#00000014"
           },
           "name": "ds-advanced-color-state-background-hover",
           "attributes": {
@@ -3331,6 +3331,48 @@ module.exports = {
             "color",
             "fare",
             "premiumeconomy"
+          ]
+        },
+        "suites-back": {
+          "value": "#00274a",
+          "filePath": "processed/web/Alaska_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00274a"
+          },
+          "name": "ds-basic-color-fare-suites-back",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "suites-back"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "suites-back"
+          ]
+        },
+        "suites-front": {
+          "value": "#005154",
+          "filePath": "processed/web/Alaska_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#005154"
+          },
+          "name": "ds-basic-color-fare-suites-front",
+          "attributes": {
+            "category": "basic",
+            "type": "color",
+            "item": "fare",
+            "subitem": "suites-front"
+          },
+          "path": [
+            "basic",
+            "color",
+            "fare",
+            "suites-front"
           ]
         }
       },
