@@ -153,10 +153,24 @@
         "letterSpacing": 0,
         "lineHeight": 14
       },
+      "body2xsemphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 10,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": 14
+      },
       "bodyDefault": {
         "fontFamily": "AS Circular",
         "fontSize": 16,
         "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 24
+      },
+      "bodydefaultemphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": 24
       },
@@ -167,6 +181,13 @@
         "letterSpacing": 0,
         "lineHeight": 26
       },
+      "bodylgemphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": 26
+      },
       "bodySm": {
         "fontFamily": "AS Circular",
         "fontSize": 14,
@@ -174,10 +195,24 @@
         "letterSpacing": 0,
         "lineHeight": 20
       },
+      "bodysmemphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "letterSpacing": 0,
+        "lineHeight": 20
+      },
       "bodyXs": {
         "fontFamily": "AS Circular",
         "fontSize": 12,
         "fontWeight": "Book",
+        "letterSpacing": 0,
+        "lineHeight": 16
+      },
+      "bodyxsemphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 12,
+        "fontWeight": "Medium",
         "letterSpacing": 0,
         "lineHeight": 16
       },
@@ -226,7 +261,7 @@
       "heading2xs": {
         "fontFamily": "AS Circular",
         "fontSize": 18,
-        "fontWeight": "Book",
+        "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       },
@@ -261,7 +296,7 @@
       "headingXs": {
         "fontFamily": "AS Circular",
         "fontSize": 20,
-        "fontWeight": "Book",
+        "fontWeight": "Light",
         "letterSpacing": 0,
         "lineHeight": "130%"
       }

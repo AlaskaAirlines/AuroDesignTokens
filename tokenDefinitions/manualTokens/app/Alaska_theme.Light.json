@@ -74,14 +74,14 @@
     "headingXs": {
         "fontFamily": "AS Circular",
         "fontSize": 20,
-        "fontWeight": "Book",
+        "fontWeight": "Light",
         "lineHeight": "130%",
         "letterSpacing": 0
     },
     "heading2xs": {
         "fontFamily": "AS Circular",
         "fontSize": 18,
-        "fontWeight": "Book",
+        "fontWeight": "Light",
         "lineHeight": "130%",
         "letterSpacing": 0
     },
@@ -92,10 +92,24 @@
         "lineHeight": 26,
         "letterSpacing": 0
     },
+    "bodyLgEmphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "lineHeight": 26,
+        "letterSpacing": 0
+    },
     "bodyDefault": {
         "fontFamily": "AS Circular",
         "fontSize": 16,
         "fontWeight": "Book",
+        "lineHeight": 24,
+        "letterSpacing": 0
+    },
+    "bodyDefaultEmphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 16,
+        "fontWeight": "Medium",
         "lineHeight": 24,
         "letterSpacing": 0
     },
@@ -106,6 +120,13 @@
         "lineHeight": 20,
         "letterSpacing": 0
     },
+    "bodySmEmphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "lineHeight": 20,
+        "letterSpacing": 0
+    },
     "bodyXs": {
         "fontFamily": "AS Circular",
         "fontSize": 12,
@@ -113,10 +134,24 @@
         "lineHeight": 16,
         "letterSpacing": 0
     },
+    "bodyXsEmphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 12,
+        "fontWeight": "Medium",
+        "lineHeight": 16,
+        "letterSpacing": 0
+    },
     "body2xs": {
         "fontFamily": "AS Circular",
         "fontSize": 10,
         "fontWeight": "Book",
+        "lineHeight": 14,
+        "letterSpacing": 0
+    },
+    "body2xsEmphasized": {
+        "fontFamily": "AS Circular",
+        "fontSize": 10,
+        "fontWeight": "Medium",
         "lineHeight": 14,
         "letterSpacing": 0
     },
