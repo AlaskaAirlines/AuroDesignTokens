@@ -153,7 +153,7 @@
         "letterSpacing": 0,
         "lineHeight": 14
       },
-      "body2xsemphasized": {
+      "body2xsEmphasized": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 10,
         "fontWeight": "Medium",
@@ -167,7 +167,7 @@
         "letterSpacing": 0,
         "lineHeight": 24
       },
-      "bodydefaultemphasized": {
+      "bodyDefaultEmphasized": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
         "fontWeight": "Medium",
@@ -181,7 +181,7 @@
         "letterSpacing": 0,
         "lineHeight": 26
       },
-      "bodylgemphasized": {
+      "bodyLgEmphasized": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 18,
         "fontWeight": "Medium",
@@ -195,7 +195,7 @@
         "letterSpacing": 0,
         "lineHeight": 20
       },
-      "bodysmemphasized": {
+      "bodySmEmphasized": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 14,
         "fontWeight": "Medium",
@@ -209,7 +209,7 @@
         "letterSpacing": 0,
         "lineHeight": 16
       },
-      "bodyxsemphasized": {
+      "bodyXsEmphasized": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 12,
         "fontWeight": "Medium",
