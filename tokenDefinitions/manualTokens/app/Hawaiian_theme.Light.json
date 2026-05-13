@@ -46,14 +46,14 @@
       "headingXl": {
         "fontFamily": "Slate Pro",
         "fontSize": 32,
-        "fontWeight": "Regular",
+        "fontWeight": "Medium",
         "lineHeight": "130%",
         "letterSpacing": 0
       },
       "headingLg": {
         "fontFamily": "Slate Pro",
         "fontSize": 28,
-        "fontWeight": "Regular",
+        "fontWeight": "Medium",
         "lineHeight": "130%",
         "letterSpacing": 0
       },
@@ -92,10 +92,24 @@
         "lineHeight": 26,
         "letterSpacing": 0
       },
+      "bodyLgEmphasized": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "lineHeight": 26,
+        "letterSpacing": 0
+      },
       "bodyDefault": {
         "fontFamily": "Slate Pro",
         "fontSize": 16,
         "fontWeight": "Regular",
+        "lineHeight": 24,
+        "letterSpacing": 0
+      },
+      "bodyDefaultEmphasized": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 16,
+        "fontWeight": "Medium",
         "lineHeight": 24,
         "letterSpacing": 0
       },
@@ -106,10 +120,24 @@
         "lineHeight": 20,
         "letterSpacing": 0
       },
+      "bodySmEmphasized": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "lineHeight": 20,
+        "letterSpacing": 0
+      },
       "bodyXs": {
         "fontFamily": "Slate Pro",
         "fontSize": 12,
         "fontWeight": "Regular",
+        "lineHeight": 16,
+        "letterSpacing": 0
+      },
+      "bodyXsEmphasized": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 12,
+        "fontWeight": "Medium",
         "lineHeight": 16,
         "letterSpacing": 0
       },
@@ -120,54 +148,61 @@
         "lineHeight": 14,
         "letterSpacing": 0
       },
+      "body2xsEmphasized": {
+        "fontFamily": "Slate Pro",
+        "fontSize": 10,
+        "fontWeight": "Medium",
+        "lineHeight": 14,
+        "letterSpacing": 0
+      },
       "accent2xl": {
         "fontFamily": "Slate Pro",
         "fontSize": 32,
         "fontWeight": "Regular",
         "lineHeight": "100%",
-        "letterSpacing": 1.6
+        "letterSpacing": 0
       },
       "accentXl": {
         "fontFamily": "Slate Pro",
         "fontSize": 26,
         "fontWeight": "Regular",
         "lineHeight": "130%",
-        "letterSpacing": 1.3
+        "letterSpacing": 0
       },
       "accentLg": {
         "fontFamily": "Slate Pro",
         "fontSize": 24,
         "fontWeight": "Regular",
         "lineHeight": "130%",
-        "letterSpacing": 1.2
+        "letterSpacing": 0
       },
       "accentMd": {
         "fontFamily": "Slate Pro",
         "fontSize": 22,
         "fontWeight": "Medium",
         "lineHeight": "130%",
-        "letterSpacing": 1.1
+        "letterSpacing": 0
       },
       "accentSm": {
         "fontFamily": "Slate Pro",
         "fontSize": 18,
         "fontWeight": "Medium",
         "lineHeight": "130%",
-        "letterSpacing": 0.9
+        "letterSpacing": 0
       },
       "accentXs": {
         "fontFamily": "Slate Pro",
         "fontSize": 16,
         "fontWeight": "Medium",
         "lineHeight": "130%",
-        "letterSpacing": 1.6
+        "letterSpacing": 0
       },
       "accent2xs": {
         "fontFamily": "Slate Pro",
         "fontSize": 14,
         "fontWeight": "Regular",
         "lineHeight": "130%",
-        "letterSpacing": 1.4
+        "letterSpacing": 0
       }
     }
   },

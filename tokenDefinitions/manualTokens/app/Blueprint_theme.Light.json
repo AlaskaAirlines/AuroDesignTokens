@@ -92,10 +92,24 @@
         "lineHeight": 26,
         "letterSpacing": 0
       },
+      "bodyLgEmphasized": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 18,
+        "fontWeight": "Medium",
+        "lineHeight": 26,
+        "letterSpacing": 0
+      },
       "bodyDefault": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 16,
         "fontWeight": "MediumItalic",
+        "lineHeight": 24,
+        "letterSpacing": 0
+      },
+      "bodyDefaultEmphasized": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 16,
+        "fontWeight": "Medium",
         "lineHeight": 24,
         "letterSpacing": 0
       },
@@ -106,6 +120,13 @@
         "lineHeight": 20,
         "letterSpacing": 0
       },
+      "bodySmEmphasized": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 14,
+        "fontWeight": "Medium",
+        "lineHeight": 20,
+        "letterSpacing": 0
+      },
       "bodyXs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 12,
@@ -113,10 +134,24 @@
         "lineHeight": 16,
         "letterSpacing": 0
       },
+      "bodyXsEmphasized": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 12,
+        "fontWeight": "Medium",
+        "lineHeight": 16,
+        "letterSpacing": 0
+      },
       "body2xs": {
         "fontFamily": "OpenSans-MediumItalic",
         "fontSize": 10,
         "fontWeight": "MediumItalic",
+        "lineHeight": 14,
+        "letterSpacing": 0
+      },
+      "body2xsEmphasized": {
+        "fontFamily": "OpenSans-MediumItalic",
+        "fontSize": 10,
+        "fontWeight": "Medium",
         "lineHeight": 14,
         "letterSpacing": 0
       },
