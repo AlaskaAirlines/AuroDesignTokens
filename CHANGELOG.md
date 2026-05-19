@@ -1,5 +1,13 @@
 # Semantic Release Automated Changelog
 
+# [8.19.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.18.0...v8.19.0) (2026-05-19)
+
+
+### Features
+
+* update app typography manual tokens ([64defc2](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/64defc209396987ea0081c621c773053f6a69e25))
+* update app typography manual tokens and add emphasized body styles [#448](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/448) ([69d9382](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/69d93823cd8eb8b075c58e43221a0d85756df83a))
+
 # [8.18.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.17.0...v8.18.0) (2026-04-29)
 
 
