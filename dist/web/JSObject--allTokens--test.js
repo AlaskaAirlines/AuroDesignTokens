@@ -406,11 +406,11 @@ module.exports = {
           ]
         },
         "error": {
-          "value": "#959595",
+          "value": "#e53339",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#e53339"
           },
           "name": "ds-advanced-color-boolean-error",
           "attributes": {
@@ -595,11 +595,11 @@ module.exports = {
           ]
         },
         "isfalse-hover": {
-          "value": "#00000014",
+          "value": "#0000000d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#00000014"
+            "value": "#0000000d"
           },
           "name": "ds-advanced-color-boolean-isfalse-hover",
           "attributes": {
@@ -616,11 +616,11 @@ module.exports = {
           ]
         },
         "isfalse-inverse": {
-          "value": "#ffffff33",
+          "value": "#ffffff26",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ffffff33"
+            "value": "#ffffff26"
           },
           "name": "ds-advanced-color-boolean-isfalse-inverse",
           "attributes": {
@@ -637,11 +637,11 @@ module.exports = {
           ]
         },
         "isfalse-inverse-hover": {
-          "value": "#ffffff26",
+          "value": "#ffffff33",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ffffff26"
+            "value": "#ffffff33"
           },
           "name": "ds-advanced-color-boolean-isfalse-inverse-hover",
           "attributes": {
@@ -2352,6 +2352,470 @@ module.exports = {
           ]
         }
       },
+      "interactive": {
+        "background-hover": {
+          "value": "#00000014",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000014"
+          },
+          "name": "ds-advanced-color-interactive-background-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "background-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "background-hover"
+          ]
+        },
+        "background-inverse-hover": {
+          "value": "#ffffff14",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff14"
+          },
+          "name": "ds-advanced-color-interactive-background-inverse-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "background-inverse-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "background-inverse-hover"
+          ]
+        },
+        "disabled": {
+          "value": "#dddddd",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#dddddd"
+          },
+          "name": "ds-advanced-color-interactive-disabled",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "disabled"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "disabled"
+          ]
+        },
+        "disabled-inverse": {
+          "value": "#ffffff66",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff66"
+          },
+          "name": "ds-advanced-color-interactive-disabled-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "disabled-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "disabled-inverse"
+          ]
+        },
+        "error": {
+          "value": "#e53339",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#e53339"
+          },
+          "name": "ds-advanced-color-interactive-error",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "error"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "error"
+          ]
+        },
+        "error-hover": {
+          "value": "#b1161c",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#b1161c"
+          },
+          "name": "ds-advanced-color-interactive-error-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "error-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "error-hover"
+          ]
+        },
+        "error-inverse": {
+          "value": "#f9a4a8",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#f9a4a8"
+          },
+          "name": "ds-advanced-color-interactive-error-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "error-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "error-inverse"
+          ]
+        },
+        "error-inverse-hover": {
+          "value": "#f15f65",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#f15f65"
+          },
+          "name": "ds-advanced-color-interactive-error-inverse-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "error-inverse-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "error-inverse-hover"
+          ]
+        },
+        "focused": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-advanced-color-interactive-focused",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "focused"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "focused"
+          ]
+        },
+        "focused-inverse": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-interactive-focused-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "focused-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "focused-inverse"
+          ]
+        },
+        "no-background-hover": {
+          "value": "#0000000d",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#0000000d"
+          },
+          "name": "ds-advanced-color-interactive-no-background-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "no-background-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "no-background-hover"
+          ]
+        },
+        "no-background-inverse-hover": {
+          "value": "#ffffff0d",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff0d"
+          },
+          "name": "ds-advanced-color-interactive-no-background-inverse-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "no-background-inverse-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "no-background-inverse-hover"
+          ]
+        },
+        "selection-indicator": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-interactive-selection-indicator",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-indicator"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-indicator"
+          ]
+        },
+        "selection-indicator-inverse": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-advanced-color-interactive-selection-indicator-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-indicator-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-indicator-inverse"
+          ]
+        },
+        "selection-off": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-interactive-selection-off",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-off"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-off"
+          ]
+        },
+        "selection-off-hover": {
+          "value": "#0000000d",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#0000000d"
+          },
+          "name": "ds-advanced-color-interactive-selection-off-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-off-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-off-hover"
+          ]
+        },
+        "selection-off-inverse": {
+          "value": "#ffffff26",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff26"
+          },
+          "name": "ds-advanced-color-interactive-selection-off-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-off-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-off-inverse"
+          ]
+        },
+        "selection-off-inverse-hover": {
+          "value": "#ffffff33",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff33"
+          },
+          "name": "ds-advanced-color-interactive-selection-off-inverse-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-off-inverse-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-off-inverse-hover"
+          ]
+        },
+        "selection-on": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-advanced-color-interactive-selection-on",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-on"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-on"
+          ]
+        },
+        "selection-on-hover": {
+          "value": "#525252",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#525252"
+          },
+          "name": "ds-advanced-color-interactive-selection-on-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-on-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-on-hover"
+          ]
+        },
+        "selection-on-inverse": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-interactive-selection-on-inverse",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-on-inverse"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-on-inverse"
+          ]
+        },
+        "selection-on-inverse-hover": {
+          "value": "#ffffffb2",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffffb2"
+          },
+          "name": "ds-advanced-color-interactive-selection-on-inverse-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "interactive",
+            "subitem": "selection-on-inverse-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "interactive",
+            "selection-on-inverse-hover"
+          ]
+        }
+      },
       "shared": {
         "background": {
           "value": "#ffffff",
@@ -2817,6 +3281,344 @@ module.exports = {
             "color",
             "state",
             "selected-hover"
+          ]
+        }
+      },
+      "switch": {
+        "thumb-disabled": {
+          "value": "#00000033",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000033"
+          },
+          "name": "ds-advanced-color-switch-thumb-disabled",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-disabled"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-disabled"
+          ]
+        },
+        "thumb-inverse-disabled": {
+          "value": "#ffffff99",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff99"
+          },
+          "name": "ds-advanced-color-switch-thumb-inverse-disabled",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-inverse-disabled"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-inverse-disabled"
+          ]
+        },
+        "thumb-inverse-off": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-switch-thumb-inverse-off",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-inverse-off"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-inverse-off"
+          ]
+        },
+        "thumb-inverse-on": {
+          "value": "#000000cc",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#000000cc"
+          },
+          "name": "ds-advanced-color-switch-thumb-inverse-on",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-inverse-on"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-inverse-on"
+          ]
+        },
+        "thumb-off": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-switch-thumb-off",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-off"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-off"
+          ]
+        },
+        "thumb-on": {
+          "value": "#ffffff",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff"
+          },
+          "name": "ds-advanced-color-switch-thumb-on",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "thumb-on"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "thumb-on"
+          ]
+        },
+        "track-disabled": {
+          "value": "#00000026",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000026"
+          },
+          "name": "ds-advanced-color-switch-track-disabled",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-disabled"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-disabled"
+          ]
+        },
+        "track-inverse-disabled": {
+          "value": "#ffffff26",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff26"
+          },
+          "name": "ds-advanced-color-switch-track-inverse-disabled",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-inverse-disabled"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-inverse-disabled"
+          ]
+        },
+        "track-inverse-off": {
+          "value": "#ffffff59",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff59"
+          },
+          "name": "ds-advanced-color-switch-track-inverse-off",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-inverse-off"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-inverse-off"
+          ]
+        },
+        "track-inverse-off-hover": {
+          "value": "#ffffff66",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffffff66"
+          },
+          "name": "ds-advanced-color-switch-track-inverse-off-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-inverse-off-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-inverse-off-hover"
+          ]
+        },
+        "track-inverse-on": {
+          "value": "#dddddd",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#dddddd"
+          },
+          "name": "ds-advanced-color-switch-track-inverse-on",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-inverse-on"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-inverse-on"
+          ]
+        },
+        "track-inverse-on-hover": {
+          "value": "#d0d0d0",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#d0d0d0"
+          },
+          "name": "ds-advanced-color-switch-track-inverse-on-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-inverse-on-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-inverse-on-hover"
+          ]
+        },
+        "track-off": {
+          "value": "#00000073",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000073"
+          },
+          "name": "ds-advanced-color-switch-track-off",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-off"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-off"
+          ]
+        },
+        "track-off-hover": {
+          "value": "#00000080",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#00000080"
+          },
+          "name": "ds-advanced-color-switch-track-off-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-off-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-off-hover"
+          ]
+        },
+        "track-on": {
+          "value": "#7e7e7e",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#7e7e7e"
+          },
+          "name": "ds-advanced-color-switch-track-on",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-on"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-on"
+          ]
+        },
+        "track-on-hover": {
+          "value": "#525252",
+          "filePath": "processed/web/Blueprint_theme.Light.json",
+          "isSource": true,
+          "original": {
+            "value": "#525252"
+          },
+          "name": "ds-advanced-color-switch-track-on-hover",
+          "attributes": {
+            "category": "advanced",
+            "type": "color",
+            "item": "switch",
+            "subitem": "track-on-hover"
+          },
+          "path": [
+            "advanced",
+            "color",
+            "switch",
+            "track-on-hover"
           ]
         }
       }
