@@ -25,7 +25,7 @@
       },
       "boolean": {
         "disabled-inverse": "#7e8894",
-        "error": "#e31f26",
+        "error": "#e01f26",
         "error-hover": "#b1161c",
         "error-inverse": "#f9a4a8",
         "error-inverse-hover": "#f15f65",
@@ -34,7 +34,7 @@
         "isfalse": "#ffffff",
         "isfalse-border": "#585e67",
         "isfalse-border-inverse": "#ffffff",
-        "isfalse-hover": "#00000014",
+        "isfalse-hover": "#0000000d",
         "isfalse-inverse": "#ffffff26",
         "isfalse-inverse-hover": "#ffffff33",
         "istrue": "#01426a",
@@ -140,6 +140,30 @@
         "text-inverse": "#ffffff",
         "text-inverse-hover": "#ebf3f9"
       },
+      "interactive": {
+        "background-hover": "#00000014",
+        "background-inverse-hover": "#ffffff14",
+        "disabled": "#dddddd",
+        "disabled-inverse": "#ffffff66",
+        "error": "#e01f26",
+        "error-hover": "#b1161c",
+        "error-inverse": "#f9a4a8",
+        "error-inverse-hover": "#f15f65",
+        "focused": "#01426a",
+        "focused-inverse": "#ffffff",
+        "no-background-hover": "#0000000d",
+        "no-background-inverse-hover": "#ffffff0d",
+        "selection-indicator": "#ffffff",
+        "selection-indicator-inverse": "#00274a",
+        "selection-off": "#ffffff",
+        "selection-off-hover": "#0000000d",
+        "selection-off-inverse": "#ffffff26",
+        "selection-off-inverse-hover": "#ffffff33",
+        "selection-on": "#01426a",
+        "selection-on-hover": "#00274a",
+        "selection-on-inverse": "#ffffff",
+        "selection-on-inverse-hover": "#ffffffb2"
+      },
       "shared": {
         "background": "#ffffff",
         "background-inverse": "#ffffff26",
@@ -159,7 +183,7 @@
       "state": {
         "background-disabled": "#dddddd",
         "background-hover": "#00000014",
-        "background-inverse-disabled": "#7e8894",
+        "background-inverse-disabled": "#ffffff66",
         "error-inverse": "#f9a4a8",
         "focused": "#01426a",
         "focused-inverse": "#ffffff",
@@ -167,6 +191,24 @@
         "no-background-inverse-hover": "#ffffff0d",
         "selected": "#01426a",
         "selected-hover": "#00274a"
+      },
+      "switch": {
+        "thumb-disabled": "#00000033",
+        "thumb-inverse-disabled": "#ffffff99",
+        "thumb-inverse-off": "#ffffff",
+        "thumb-inverse-on": "#000000cc",
+        "thumb-off": "#ffffff",
+        "thumb-on": "#ffffff",
+        "track-disabled": "#00000026",
+        "track-inverse-disabled": "#ffffff26",
+        "track-inverse-off": "#ffffff59",
+        "track-inverse-off-hover": "#ffffff66",
+        "track-inverse-on": "#e2e8ee",
+        "track-inverse-on-hover": "#c7d6e5",
+        "track-off": "#00000073",
+        "track-off-hover": "#00000080",
+        "track-on": "#01426a",
+        "track-on-hover": "#00274a"
       }
     }
   },
@@ -210,7 +252,7 @@
       },
       "status": {
         "default": "#afb9c6",
-        "error": "#e31f26",
+        "error": "#e01f26",
         "error-subtle": "#fbc6c6",
         "info": "#007db1",
         "info-subtle": "#e8f2f8",
