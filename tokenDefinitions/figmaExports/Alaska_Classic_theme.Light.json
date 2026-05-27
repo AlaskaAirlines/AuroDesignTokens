@@ -979,7 +979,7 @@
     },
     "Error": {
       "$type": "color",
-      "$value": "#e31f26",
+      "$value": "#e01f26",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1533,429 +1533,6 @@
     }
   },
   "advanced": {
-    "state": {
-      "focused": {
-        "$type": "color",
-        "$value": "#0074ca",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-focused"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "focused-inverse": {
-        "$type": "color",
-        "$value": "#5de3f7",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-focused-inverse"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "selected": {
-        "$type": "color",
-        "$value": "#0074ca",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-selected"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "selected-hover": {
-        "$type": "color",
-        "$value": "#003761",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-selected-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "no-background-hover": {
-        "$type": "color",
-        "$value": "#0000000d",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-no-background-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-hover": {
-        "$type": "color",
-        "$value": "#00000014",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-background-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "no-background-inverse-hover": {
-        "$type": "color",
-        "$value": "#ffffff0d",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-no-background-inverse-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-disabled": {
-        "$type": "color",
-        "$value": "#dddddd",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-background-disabled"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-inverse-disabled": {
-        "$type": "color",
-        "$value": "#7e8894",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-background-inverse-disabled"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "error-inverse": {
-        "$type": "color",
-        "$value": "#e31f26",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-state-error-inverse"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      }
-    },
-    "flightline": {
-      "indicator": {
-        "$type": "color",
-        "$value": "#003761",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {},
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "line": {
-        "$type": "color",
-        "$value": "#003761",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {},
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      }
-    },
-    "shared": {
-      "background": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-muted": {
-        "$type": "color",
-        "$value": "#f7f7f7",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background-muted"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-strong": {
-        "$type": "color",
-        "$value": "#676767",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background-strong"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-inverse": {
-        "$type": "color",
-        "$value": "#ffffff26",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background-inverse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-inverse-hover": {
-        "$type": "color",
-        "$value": "#ffffff33",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background-inverse-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "background-inverse-disabled": {
-        "$type": "color",
-        "$value": "#ffffff1a",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-background-inverse-disabled"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "text-accent": {
-        "$type": "color",
-        "$value": "#0074ca",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "TEXT_FILL"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-text-accent"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "scrim": {
-        "$type": "color",
-        "$value": "#00000080",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-scrim"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "emphasized-background": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-emphasized-background"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "emphasized-background-hover": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-shared-emphasized-background-hover"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      }
-    },
     "accents": {
       "accent1": {
         "$type": "color",
@@ -2255,6 +1832,413 @@
             "codeSyntax": {
               "WEB": "--ds-advanced-color-accent-default-inverse"
             },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "gradient-top": {
+        "$type": "color",
+        "$value": "#6899c6",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-avatar-gradient-top"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "gradient-bottom": {
+        "$type": "color",
+        "$value": "#cfe0ef",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-avatar-gradient-bottom"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "dropdown-emphasized": {
+      "background": {
+        "$type": "color",
+        "$value": "#00274a1a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-dropdown-emphasized-background"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-hover": {
+        "$type": "color",
+        "$value": "#00274a33",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-dropdown-emphasized-background-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "boolean": {
+      "indicator": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-indicator"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse-hover": {
+        "$type": "color",
+        "$value": "#0000000d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse-border": {
+        "$type": "color",
+        "$value": "#585e67",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse-border"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "istrue": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-istrue"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "istrue-hover": {
+        "$type": "color",
+        "$value": "#003761",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-istrue-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "#e01f26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-error"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-hover": {
+        "$type": "color",
+        "$value": "#b1161c",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-error-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "indicator-inverse": {
+        "$type": "color",
+        "$value": "#003761",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-indicator"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse-inverse": {
+        "$type": "color",
+        "$value": "#ffffff26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff33",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "isfalse-border-inverse": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-isfalse-border-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "istrue-inverse": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-istrue-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "istrue-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffffb2",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-istrue-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-inverse": {
+        "$type": "color",
+        "$value": "#f9a4a8",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-error-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-inverse-hover": {
+        "$type": "color",
+        "$value": "#f15f65",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-boolean-error-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "disabled-inverse": {
+        "$type": "color",
+        "$value": "#7e8894",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {},
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
@@ -3186,103 +3170,8 @@
         }
       }
     },
-    "boolean": {
+    "flightline": {
       "indicator": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-indicator"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse-hover": {
-        "$type": "color",
-        "$value": "#00000014",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse-border": {
-        "$type": "color",
-        "$value": "#585e67",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse-border"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "istrue": {
-        "$type": "color",
-        "$value": "#0074ca",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-istrue"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "istrue-hover": {
         "$type": "color",
         "$value": "#003761",
         "$description": "",
@@ -3292,18 +3181,16 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-istrue-hover"
-            },
+            "codeSyntax": {},
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
           }
         }
       },
-      "error": {
+      "line": {
         "$type": "color",
-        "$value": "#e31f26",
+        "$value": "#003761",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3311,199 +3198,7 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-error"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "error-hover": {
-        "$type": "color",
-        "$value": "#b1161c",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-error-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "indicator-inverse": {
-        "$type": "color",
-        "$value": "#01426a",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-indicator"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse-inverse": {
-        "$type": "color",
-        "$value": "#ffffff26",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse-inverse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse-inverse-hover": {
-        "$type": "color",
-        "$value": "#ffffff33",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse-inverse-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "isfalse-border-inverse": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-isfalse-border-inverse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "istrue-inverse": {
-        "$type": "color",
-        "$value": "#ffffff",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-istrue-inverse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "istrue-inverse-hover": {
-        "$type": "color",
-        "$value": "#ffffffb2",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-istrue-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "error-inverse": {
-        "$type": "color",
-        "$value": "#f9a4a8",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-error-inverse"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "error-inverse-hover": {
-        "$type": "color",
-        "$value": "#f15f65",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-error-inverse-hover"
-            },
-            "isOverride": false,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "disabled-inverse": {
-        "$type": "color",
-        "$value": "#7e8894",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-boolean-error-hover"
-            },
+            "codeSyntax": {},
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
@@ -3511,29 +3206,8 @@
         }
       }
     },
-    "hyperlink": {
-      "text": {
-        "$type": "color",
-        "$value": "#0074ca",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "TEXT_FILL"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-advanced-color-hyperlink-text"
-            },
-            "isOverride": true,
-            "parentCollectionId": "VariableCollectionId:744:38331",
-            "extensionCollectionId": "VariableCollectionId:13305:15584"
-          }
-        }
-      },
-      "text-hover": {
+    "footer": {
+      "background": {
         "$type": "color",
         "$value": "#01426a",
         "$description": "",
@@ -3541,12 +3215,10 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "TEXT_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-hyperlink-text-hover"
+              "WEB": "--ds-advanced-color-footer-background"
             },
             "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3554,20 +3226,18 @@
           }
         }
       },
-      "text-inverse": {
+      "foreground": {
         "$type": "color",
-        "$value": "#97eaf8",
+        "$value": "#00274a",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "TEXT_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-hyperlink-text-inverse"
+              "WEB": "--ds-advanced-color-footer-foreground"
             },
             "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3575,22 +3245,20 @@
           }
         }
       },
-      "text-inverse-hover": {
+      "pattern": {
         "$type": "color",
-        "$value": "#b4eff9",
+        "$value": "#ffffff",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL",
-              "TEXT_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-hyperlink-text-inverse-hover"
+              "WEB": "--ds-advanced-color-footer-pattern"
             },
-            "isOverride": true,
+            "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
           }
@@ -3631,6 +3299,25 @@
               "WEB": "--ds-advanced-color-header-background-interior"
             },
             "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "text & icon": {
+        "$type": "color",
+        "$value": "#2a2a2a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-header-texticon"
+            },
+            "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
           }
@@ -3770,29 +3457,31 @@
             }
           }
         }
-      },
-      "text & icon": {
+      }
+    },
+    "hyperlink": {
+      "text": {
         "$type": "color",
-        "$value": "#2a2a2a",
+        "$value": "#0074ca",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "ALL_SCOPES"
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "TEXT_FILL"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-header-texticon"
+              "WEB": "--ds-advanced-color-hyperlink-text"
             },
-            "isOverride": false,
+            "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
           }
         }
-      }
-    },
-    "footer": {
-      "background": {
+      },
+      "text-hover": {
         "$type": "color",
         "$value": "#01426a",
         "$description": "",
@@ -3800,10 +3489,12 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "ALL_SCOPES"
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "TEXT_FILL"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-footer-background"
+              "WEB": "--ds-advanced-color-hyperlink-text-hover"
             },
             "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3811,18 +3502,20 @@
           }
         }
       },
-      "foreground": {
+      "text-inverse": {
         "$type": "color",
-        "$value": "#00274a",
+        "$value": "#97eaf8",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "ALL_SCOPES"
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "TEXT_FILL"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-footer-foreground"
+              "WEB": "--ds-advanced-color-hyperlink-text-inverse"
             },
             "isOverride": true,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3830,7 +3523,30 @@
           }
         }
       },
-      "pattern": {
+      "text-inverse-hover": {
+        "$type": "color",
+        "$value": "#b4eff9",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-hyperlink-text-inverse-hover"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "interactive": {
+      "selection-indicator": {
         "$type": "color",
         "$value": "#ffffff",
         "$description": "",
@@ -3841,7 +3557,601 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-footer-pattern"
+              "WEB": "--ds-advanced-color-interactive-selection-indicator"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-off": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-off"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-off-hover": {
+        "$type": "color",
+        "$value": "#0000000d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-off-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-on": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-on"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-on-hover": {
+        "$type": "color",
+        "$value": "#003761",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-on-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-indicator-inverse": {
+        "$type": "color",
+        "$value": "#003761",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-indicator-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-off-inverse": {
+        "$type": "color",
+        "$value": "#ffffff26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-off-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-off-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff33",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-off-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-on-inverse": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-on-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selection-on-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffffb2",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-selection-on-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "focused": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-focused"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "focused-inverse": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-focused-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error": {
+        "$type": "color",
+        "$value": "#e01f26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-error"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-hover": {
+        "$type": "color",
+        "$value": "#b1161c",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-error-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-inverse": {
+        "$type": "color",
+        "$value": "#f9a4a8",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-error-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-inverse-hover": {
+        "$type": "color",
+        "$value": "#f15f65",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-error-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#dddddd",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "disabled-inverse": {
+        "$type": "color",
+        "$value": "#ffffff66",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-disabled-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "no-background-hover": {
+        "$type": "color",
+        "$value": "#0000000d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-no-background-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-hover": {
+        "$type": "color",
+        "$value": "#00000014",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-background-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "no-background-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff0d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-no-background-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff14",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-interactive-background-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "shared": {
+      "background": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-muted": {
+        "$type": "color",
+        "$value": "#f7f7f7",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background-muted"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-strong": {
+        "$type": "color",
+        "$value": "#676767",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background-strong"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-inverse": {
+        "$type": "color",
+        "$value": "#ffffff26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background-inverse"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-inverse-disabled": {
+        "$type": "color",
+        "$value": "#ffffff1a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background-inverse-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "text-accent": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-text-accent"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "scrim": {
+        "$type": "color",
+        "$value": "#00000080",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-scrim"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "emphasized-background": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-emphasized-background"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "emphasized-background-hover": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-emphasized-background-hover"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff33",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-shared-background-inverse-hover"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3892,20 +4202,19 @@
         }
       }
     },
-    "avatar": {
-      "gradient-top": {
+    "state": {
+      "focused": {
         "$type": "color",
-        "$value": "#6899c6",
+        "$value": "#0074ca",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-avatar-gradient-top"
+              "WEB": "--ds-advanced-color-state-focused"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3913,41 +4222,75 @@
           }
         }
       },
-      "gradient-bottom": {
+      "focused-inverse": {
         "$type": "color",
-        "$value": "#cfe0ef",
+        "$value": "#5de3f7",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-avatar-gradient-bottom"
+              "WEB": "--ds-advanced-color-state-focused-inverse"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-selected"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15584"
           }
         }
-      }
-    },
-    "dropdown-emphasized": {
-      "background": {
+      },
+      "selected-hover": {
         "$type": "color",
-        "$value": "#00274a1a",
+        "$value": "#003761",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-dropdown-emphasized-background"
+              "WEB": "--ds-advanced-color-state-selected-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "no-background-hover": {
+        "$type": "color",
+        "$value": "#0000000d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-no-background-hover"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -3957,17 +4300,398 @@
       },
       "background-hover": {
         "$type": "color",
-        "$value": "#00274a33",
+        "$value": "#00000014",
         "$description": "",
         "$extensions": {
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "FRAME_FILL",
-              "SHAPE_FILL"
+              "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "--ds-advanced-color-dropdown-emphasized-background-hover"
+              "WEB": "--ds-advanced-color-state-background-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "no-background-inverse-hover": {
+        "$type": "color",
+        "$value": "#ffffff0d",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-no-background-inverse-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-disabled": {
+        "$type": "color",
+        "$value": "#dddddd",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-background-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "background-inverse-disabled": {
+        "$type": "color",
+        "$value": "#ffffff66",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-background-inverse-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "error-inverse": {
+        "$type": "color",
+        "$value": "#e01f26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-state-error-inverse"
+            },
+            "isOverride": true,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      }
+    },
+    "switch": {
+      "track-off": {
+        "$type": "color",
+        "$value": "#00000073",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-off"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-off-hover": {
+        "$type": "color",
+        "$value": "#00000080",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-off-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-on": {
+        "$type": "color",
+        "$value": "#0074ca",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-on"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-on-hover": {
+        "$type": "color",
+        "$value": "#003761",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-on-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-disabled": {
+        "$type": "color",
+        "$value": "#00000026",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-off": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-off"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-on": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-on"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-disabled": {
+        "$type": "color",
+        "$value": "#00000033",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-inverse-off": {
+        "$type": "color",
+        "$value": "#ffffff59",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-inverse-off"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-inverse-off-hover": {
+        "$type": "color",
+        "$value": "#ffffff66",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-inverse-off-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-inverse-on": {
+        "$type": "color",
+        "$value": "#e2e8ee",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-inverse-on"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-inverse-on-hover": {
+        "$type": "color",
+        "$value": "#c7d6e5",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-inverse-on-hover"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "track-inverse-disabled": {
+        "$type": "color",
+        "$value": "#ffffff26",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-track-inverse-disabled"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-inverse-off": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-inverse-off"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-inverse-on": {
+        "$type": "color",
+        "$value": "#000000cc",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-inverse-on"
+            },
+            "isOverride": false,
+            "parentCollectionId": "VariableCollectionId:744:38331",
+            "extensionCollectionId": "VariableCollectionId:13305:15584"
+          }
+        }
+      },
+      "thumb-inverse-disabled": {
+        "$type": "color",
+        "$value": "#ffffff99",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-advanced-color-switch-thumb-inverse-disabled"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
