@@ -4549,7 +4549,7 @@
       },
       "track-inverse-off": {
         "$type": "color",
-        "$value": "#ffffff59",
+        "$value": "#ffffff73",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4568,7 +4568,7 @@
       },
       "track-inverse-off-hover": {
         "$type": "color",
-        "$value": "#ffffff66",
+        "$value": "#ffffff80",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4587,7 +4587,7 @@
       },
       "track-inverse-on": {
         "$type": "color",
-        "$value": "#aedeff",
+        "$value": "#ffffff",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4598,7 +4598,7 @@
             "codeSyntax": {
               "WEB": "--ds-advanced-color-switch-track-inverse-on"
             },
-            "isOverride": true,
+            "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15586"
           }
@@ -4606,7 +4606,7 @@
       },
       "track-inverse-on-hover": {
         "$type": "color",
-        "$value": "#63beff",
+        "$value": "#ffffffe5",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4617,7 +4617,7 @@
             "codeSyntax": {
               "WEB": "--ds-advanced-color-switch-track-inverse-on-hover"
             },
-            "isOverride": true,
+            "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
             "extensionCollectionId": "VariableCollectionId:13305:15586"
           }
@@ -4663,7 +4663,7 @@
       },
       "thumb-inverse-on": {
         "$type": "color",
-        "$value": "#000000cc",
+        "$value": "#101d2c",
         "$description": "",
         "$extensions": {
           "com.figma": {

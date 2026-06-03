@@ -3349,11 +3349,11 @@ module.exports = {
           ]
         },
         "thumb-inverse-on": {
-          "value": "#000000cc",
+          "value": "#463c8f",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#000000cc"
+            "value": "#463c8f"
           },
           "name": "ds-advanced-color-switch-thumb-inverse-on",
           "attributes": {
@@ -3454,11 +3454,11 @@ module.exports = {
           ]
         },
         "track-inverse-off": {
-          "value": "#ffffff73",
+          "value": "#ffffff80",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ffffff73"
+            "value": "#ffffff80"
           },
           "name": "ds-advanced-color-switch-track-inverse-off",
           "attributes": {
@@ -3475,11 +3475,11 @@ module.exports = {
           ]
         },
         "track-inverse-off-hover": {
-          "value": "#ffffff80",
+          "value": "#ffffff8c",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ffffff80"
+            "value": "#ffffff8c"
           },
           "name": "ds-advanced-color-switch-track-inverse-off-hover",
           "attributes": {
@@ -3496,11 +3496,11 @@ module.exports = {
           ]
         },
         "track-inverse-on": {
-          "value": "#ccc5e0",
+          "value": "#ffffff",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ccc5e0"
+            "value": "#ffffff"
           },
           "name": "ds-advanced-color-switch-track-inverse-on",
           "attributes": {
@@ -3517,11 +3517,11 @@ module.exports = {
           ]
         },
         "track-inverse-on-hover": {
-          "value": "#aca1cc",
+          "value": "#ffffffe5",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#aca1cc"
+            "value": "#ffffffe5"
           },
           "name": "ds-advanced-color-switch-track-inverse-on-hover",
           "attributes": {

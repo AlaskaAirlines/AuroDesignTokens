@@ -3865,7 +3865,7 @@
       },
       "track-inverse-off": {
         "$type": "color",
-        "$value": "#ffffff59",
+        "$value": "#ffffff73",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3881,7 +3881,7 @@
       },
       "track-inverse-off-hover": {
         "$type": "color",
-        "$value": "#ffffff66",
+        "$value": "#ffffff80",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3897,7 +3897,7 @@
       },
       "track-inverse-on": {
         "$type": "color",
-        "$value": "#e2e8ee",
+        "$value": "#ffffff",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3913,7 +3913,7 @@
       },
       "track-inverse-on-hover": {
         "$type": "color",
-        "$value": "#c7d6e5",
+        "$value": "#ffffffe5",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -3961,7 +3961,7 @@
       },
       "thumb-inverse-on": {
         "$type": "color",
-        "$value": "#000000cc",
+        "$value": "#00274a",
         "$description": "",
         "$extensions": {
           "com.figma": {
