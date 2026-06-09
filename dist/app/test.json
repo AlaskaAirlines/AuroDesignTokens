@@ -303,9 +303,10 @@
     }
   },
   "themeMetadata": {
+    "analyticsBrandVariable": "TEST",
+    "analyticsTrackingPrefix": "Test_",
     "code": "TEST",
     "displayName": "Test",
-    "iconUrl": "https://generalaviationnews.s3.amazonaws.com/uploads/2016/02/Alaska-Airlines-logo-old.jpeg",
     "name": "Test theme",
     "webviewCode": "renderingContext.rootTheme.test"
   },
