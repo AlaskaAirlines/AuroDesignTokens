@@ -193,6 +193,13 @@ function reportInconsistencies(label, variantKeys) {
 function checkSemanticsWeb() {
   console.log('--- Checking semantics/web (auro-tokendefinitions) ---\n');
 
+  // THEME_DEFINITIONS is a checked-in config; <2 entries is a misconfiguration,
+  // not an empty-but-valid state, so fail loudly rather than soft-skipping.
+  if (THEME_DEFINITIONS.length < 2) {
+    console.error(`semantics/web: expected at least 2 themes in THEME_DEFINITIONS, found ${THEME_DEFINITIONS.length}\n`);
+    return true;
+  }
+
   /** @type {Record<string, string[]>} */
   const themeKeys = {};
 
