@@ -1,5 +1,16 @@
 # Semantic Release Automated Changelog
 
+## [8.21.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.21.0...v8.21.1) (2026-06-11)
+
+
+### Bug Fixes
+
+* add manualTokens path for consistency checks with detailed reporting ([4672938](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/4672938215a07e2e475f681d816d544070da3e50))
+* backfill missing Hawaiian brand-* type tokens — Hawaiian_theme.Light.json ([f81fd4e](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f81fd4e58f8d521aa913824b63f6ac5fb78411e5))
+* enforce minimum theme count in checkSemanticsWeb function ([3e77476](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/3e77476e24e2aa6b8fd8c6c80dd39d226ee51caf))
+* sort JSON files in checkManualTokensWeb function for consistent processing order ([eb6a994](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/eb6a994c92edbd4f206f697e5d4f9b1ed3bd8fbc))
+* update manualTokens path to use constants for consistency ([93a734d](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/93a734d740e1e003136f77c777750a23af06359f))
+
 # [8.21.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.20.0...v8.21.0) (2026-06-03)
 
 
