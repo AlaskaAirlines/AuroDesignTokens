@@ -12,6 +12,27 @@
   },
   "basic": {
     "type": {
+      "brand-family-primary": {
+        "value": "\"Slate Pro\""
+      },
+      "brand-family-secondary": {
+        "value": "\"Chronicle Display\""
+      },
+      "brand-line-height-primary": {
+        "value": 1.3
+      },
+      "brand-line-height-secondary": {
+        "value": 1
+      },
+      "brand-letter-spacing-primary": {
+        "value": 0
+      },
+      "brand-letter-spacing-secondary": {
+        "value": "0.05em"
+      },
+      "brand-letter-spacing-tertiary": {
+        "value": "0.10em"
+      },
       "family-accent": {
         "value": "\"Slate Pro\""
       },
