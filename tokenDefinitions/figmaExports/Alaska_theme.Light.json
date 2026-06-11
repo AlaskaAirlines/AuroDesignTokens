@@ -2732,7 +2732,7 @@
     "footer": {
       "background": {
         "$type": "color",
-        "$value": "#00274a",
+        "$value": "#01426a",
         "$description": "",
         "$extensions": {
           "com.figma": {
