@@ -15,7 +15,7 @@ export default class ExportUtil {
    * @returns {Object}
    */
   static fetchImportTokens(fileName, platform) {
-    const figmaImportDir = path.join(process.cwd(), 'tokenDefinitions', 'figmaExports');
+    const figmaImportDir = path.join(process.cwd(), PATHS.FIGMA_EXPORTS);
     const manualImportDir = path.join(process.cwd(), PATHS.MANUAL_TOKENS, platform);
     let exportStr = this.fetchFile(figmaImportDir, fileName);
     exportStr = exportStr.replace(/[\u200B-\u200D\uFEFF]/g, ''); // remove zero-width characters that Figma sometimes adds

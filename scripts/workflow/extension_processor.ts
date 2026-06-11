@@ -3,6 +3,7 @@ import { rgbToHex } from './color.js'
 import { Token, TokensFile } from './token_types.js'
 import * as fs from 'fs'
 import path from "path";
+import { PATHS } from '../../src/config/constants.js'
 
 function tokenTypeFromVariable(variable: LocalVariable) {
   switch (variable.resolvedType) {
@@ -155,7 +156,7 @@ function findCorrectModeForVariable(
 
 export function createExtensionFiles(
   localVariablesResponse: GetLocalVariablesResponse, 
-  outputDir: string = 'tokenDefinitions/figmaExports'
+  outputDir: string = PATHS.FIGMA_EXPORTS
 ) {
   const localVariableCollections = localVariablesResponse.meta.variableCollections
   const localVariables = localVariablesResponse.meta.variables

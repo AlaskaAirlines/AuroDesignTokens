@@ -8,6 +8,7 @@ import FigmaApi from './figma_api.js'
 import { green } from './utils.js'
 import { tokenFilesFromLocalVariables } from './token_export.js'
 import { createExtensionFiles } from './extension_processor.js'
+import { PATHS } from '../../src/config/constants.js'
 
 /**
  * Usage:
@@ -30,7 +31,7 @@ async function main() {
 
   const tokensFiles = tokenFilesFromLocalVariables(localVariables)
 
-  let outputDir = path.join('tokenDefinitions', 'figmaExports');
+  let outputDir = PATHS.FIGMA_EXPORTS;
   const outputArgIdx = process.argv.indexOf('--output')
   if (outputArgIdx !== -1) {
     outputDir = process.argv[outputArgIdx + 1]
