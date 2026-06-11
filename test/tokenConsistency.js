@@ -227,7 +227,7 @@ function checkSemanticsWeb() {
 function checkManualTokensWeb() {
   console.log('--- Checking tokenDefinitions/manualTokens/web ---\n');
 
-  const dir = path.join(process.cwd(), 'tokenDefinitions', 'manualTokens', 'web');
+  const dir = path.join(process.cwd(), PATHS.MANUAL_TOKENS, 'web');
 
   if (!fs.existsSync(dir)) {
     console.log(`  Skipping: directory not found at ${dir}\n`);

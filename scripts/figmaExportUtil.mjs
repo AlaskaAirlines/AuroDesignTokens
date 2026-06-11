@@ -1,6 +1,7 @@
 import fs from "fs";
 import _ from "lodash";
 import path from "path";
+import { PATHS } from "../src/config/constants.js";
 
 export default class ExportUtil {
   static resetState() {
@@ -15,7 +16,7 @@ export default class ExportUtil {
    */
   static fetchImportTokens(fileName, platform) {
     const figmaImportDir = path.join(process.cwd(), 'tokenDefinitions', 'figmaExports');
-    const manualImportDir = path.join(process.cwd(), 'tokenDefinitions', 'manualTokens', platform);
+    const manualImportDir = path.join(process.cwd(), PATHS.MANUAL_TOKENS, platform);
     let exportStr = this.fetchFile(figmaImportDir, fileName);
     exportStr = exportStr.replace(/[\u200B-\u200D\uFEFF]/g, ''); // remove zero-width characters that Figma sometimes adds
     let exportJson = JSON.parse(exportStr);
