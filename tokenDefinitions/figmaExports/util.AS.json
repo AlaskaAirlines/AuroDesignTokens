@@ -168,88 +168,6 @@
     }
   },
   "grid": {
-    "breakpoint": {
-      "xs": {
-        "$type": "string",
-        "$value": "320px",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-grid-breakpoint-xs"
-            }
-          }
-        }
-      },
-      "sm": {
-        "$type": "string",
-        "$value": "576px",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-grid-breakpoint-sm"
-            }
-          }
-        }
-      },
-      "md": {
-        "$type": "string",
-        "$value": "768px",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-grid-breakpoint-md"
-            }
-          }
-        }
-      },
-      "lg": {
-        "$type": "string",
-        "$value": "1024px",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-grid-breakpoint-lg"
-            }
-          }
-        }
-      },
-      "xl": {
-        "$type": "string",
-        "$value": "1232px",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {
-              "WEB": "--ds-grid-breakpoint-xl"
-            }
-          }
-        }
-      }
-    },
     "column": {
       "xs": {
         "$type": "number",
@@ -327,6 +245,88 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-grid-column-xl"
+            }
+          }
+        }
+      }
+    },
+    "breakpoint": {
+      "xs": {
+        "$type": "string",
+        "$value": "320px",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-grid-breakpoint-xs"
+            }
+          }
+        }
+      },
+      "sm": {
+        "$type": "string",
+        "$value": "576px",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-grid-breakpoint-sm"
+            }
+          }
+        }
+      },
+      "md": {
+        "$type": "string",
+        "$value": "768px",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-grid-breakpoint-md"
+            }
+          }
+        }
+      },
+      "lg": {
+        "$type": "string",
+        "$value": "1024px",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-grid-breakpoint-lg"
+            }
+          }
+        }
+      },
+      "xl": {
+        "$type": "string",
+        "$value": "1232px",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-grid-breakpoint-xl"
             }
           }
         }

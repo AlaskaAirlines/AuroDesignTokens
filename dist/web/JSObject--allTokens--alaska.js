@@ -1975,11 +1975,11 @@ module.exports = {
       },
       "footer": {
         "background": {
-          "value": "#00274a",
+          "value": "#01426a",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#00274a"
+            "value": "#01426a"
           },
           "name": "ds-advanced-color-footer-background",
           "attributes": {
