@@ -237,7 +237,9 @@ function checkManualTokensWeb() {
   /** @type {Record<string, string[]>} */
   const variantKeys = {};
 
-  const files = fs.readdirSync(dir).filter(f => path.extname(f) === '.json');
+  const files = fs.readdirSync(dir)
+    .filter(f => path.extname(f) === '.json')
+    .sort();
   for (const file of files) {
     const variant = path.basename(file, '.json');
     console.log(`Processing file: ${file}`);
