@@ -5188,6 +5188,139 @@ module.exports = {
       }
     },
     "type": {
+      "brand-family-primary": {
+        "value": "\"Slate Pro\"",
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": "\"Slate Pro\""
+        },
+        "name": "ds-basic-type-brand-family-primary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-family-primary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-family-primary"
+        ]
+      },
+      "brand-family-secondary": {
+        "value": "\"Chronicle Display\"",
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": "\"Chronicle Display\""
+        },
+        "name": "ds-basic-type-brand-family-secondary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-family-secondary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-family-secondary"
+        ]
+      },
+      "brand-letter-spacing-primary": {
+        "value": 0,
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": 0
+        },
+        "name": "ds-basic-type-brand-letter-spacing-primary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-letter-spacing-primary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-letter-spacing-primary"
+        ]
+      },
+      "brand-letter-spacing-secondary": {
+        "value": "0.05em",
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": "0.05em"
+        },
+        "name": "ds-basic-type-brand-letter-spacing-secondary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-letter-spacing-secondary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-letter-spacing-secondary"
+        ]
+      },
+      "brand-letter-spacing-tertiary": {
+        "value": "0.10em",
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": "0.10em"
+        },
+        "name": "ds-basic-type-brand-letter-spacing-tertiary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-letter-spacing-tertiary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-letter-spacing-tertiary"
+        ]
+      },
+      "brand-line-height-primary": {
+        "value": 1.3,
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": 1.3
+        },
+        "name": "ds-basic-type-brand-line-height-primary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-line-height-primary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-line-height-primary"
+        ]
+      },
+      "brand-line-height-secondary": {
+        "value": 1,
+        "filePath": "processed/web/Hawaiian_theme.Light.json",
+        "isSource": true,
+        "original": {
+          "value": 1
+        },
+        "name": "ds-basic-type-brand-line-height-secondary",
+        "attributes": {
+          "category": "basic",
+          "type": "type",
+          "item": "brand-line-height-secondary"
+        },
+        "path": [
+          "basic",
+          "type",
+          "brand-line-height-secondary"
+        ]
+      },
       "family-accent": {
         "value": "\"Slate Pro\"",
         "filePath": "processed/web/Hawaiian_theme.Light.json",

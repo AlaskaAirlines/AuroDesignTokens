@@ -310,6 +310,13 @@
       }
     },
     "type": {
+      "brand-family-primary": "\"Slate Pro\"",
+      "brand-family-secondary": "\"Chronicle Display\"",
+      "brand-letter-spacing-primary": 0,
+      "brand-letter-spacing-secondary": "0.05em",
+      "brand-letter-spacing-tertiary": "0.10em",
+      "brand-line-height-primary": 1.3,
+      "brand-line-height-secondary": 1,
       "family-accent": "\"Slate Pro\"",
       "family-accent-fallback": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif",
       "family-body": "\"Slate Pro\"",
