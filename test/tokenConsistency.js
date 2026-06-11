@@ -128,128 +128,145 @@ function groupKeysByBaseToken(keys) {
   return grouped;
 }
 
-// Main test function
-async function runTest() {
-  console.log('\nRunning Token Consistency Test...\n');
-  
-  if (!THEME_DEFINITIONS || THEME_DEFINITIONS.length === 0) {
-    console.error('No themes found in THEME_DEFINITIONS');
-    process.exit(1);
+// Compare key sets across a group of variants (themes or files) and report
+// missing tokens. Returns true if any inconsistencies were found.
+/**
+ * @param {string} label
+ * @param {Record<string, string[]>} variantKeys
+ * @returns {boolean}
+ */
+function reportInconsistencies(label, variantKeys) {
+  const variants = Object.keys(variantKeys);
+
+  if (variants.length < 2) {
+    console.log(`  Skipping ${label}: fewer than 2 variants to compare\n`);
+    return false;
   }
-  
-  // Map to store all keys for each theme
-  /** @type {Record<string, string[]>} */
-  const themeKeys = {};
-  
-  // Process each theme
-  for (const theme of THEME_DEFINITIONS) {
-    const themeDir = path.join(process.cwd(), PATHS.TOKENS_DEFS, '/semantics/web/', theme.dir);
-    
-    if (!fs.existsSync(themeDir)) {
-      console.error(`Theme directory not found: ${themeDir}`);
-      continue;
-    }
-    
-    console.log(`Processing theme: ${theme.name} (${theme.dir})`);
-    
-    // Get all JSON files for the theme
-    const jsonFiles = getJsonFiles(themeDir);
-    const keys = new Set();
-    
-    // Extract keys from each JSON file
-    for (const file of jsonFiles) {
-      const fileKeys = extractKeysFromJsonFile(file);
-      fileKeys.forEach(key => keys.add(key));
-    }
-    
-    themeKeys[theme.dir] = Array.from(keys).sort();
-    console.log(`  Found ${keys.size} unique token keys\n`);
-  }
-  
-  // Compare keys across themes
-  const themes = Object.keys(themeKeys);
-  let hasInconsistencies = false;
-  
-  if (themes.length < 2) {
-    console.error('Not enough themes to compare');
-    process.exit(1);
-  }
-  
-  // Get all unique keys across all themes
-  const allUniqueKeys = new Set();
-  for (const theme of themes) {
-    themeKeys[theme].forEach((key) => allUniqueKeys.add(key));
-  }
-  
-  // Detect renamed tokens and inconsistencies
-  // Maps base token names to lists of themes
+
   const allBaseTokens = new Map();
-  
-  // Group tokens by base name for each theme
-  for (const theme of themes) {
-    const baseTokens = groupKeysByBaseToken(themeKeys[theme]);
-    
-    // Record which themes have which base tokens
+  for (const variant of variants) {
+    const baseTokens = groupKeysByBaseToken(variantKeys[variant]);
     for (const [baseToken, keys] of Object.entries(baseTokens)) {
       if (!allBaseTokens.has(baseToken)) {
-        allBaseTokens.set(baseToken, { themes: new Set(), keys });
+        allBaseTokens.set(baseToken, { variants: new Set(), keys });
       }
-      
-      allBaseTokens.get(baseToken).themes.add(theme);
+      allBaseTokens.get(baseToken).variants.add(variant);
     }
   }
-  
-  // Find inconsistencies
-  const inconsistentTokens = [];
-  
-  for (const [baseToken, data] of allBaseTokens.entries()) {
-    if (data.themes.size < themes.length) {
 
-      // This token doesn't appear in all themes
-      const missingInThemes = themes.filter(theme => !data.themes.has(theme));
-      const presentInThemes = Array.from(data.themes);
-      
+  const inconsistentTokens = [];
+  for (const [baseToken, data] of allBaseTokens.entries()) {
+    if (data.variants.size < variants.length) {
       inconsistentTokens.push({
         token: baseToken,
-        presentIn: presentInThemes,
-        missingFrom: missingInThemes,
+        presentIn: Array.from(data.variants),
+        missingFrom: variants.filter(v => !data.variants.has(v)),
         fullKeys: data.keys
       });
     }
   }
-  
-  // Sort by token path/name for readability
+
   inconsistentTokens.sort((a, b) => a.token.localeCompare(b.token));
-  
-  // Display inconsistencies
-  if (inconsistentTokens.length > 0) {
-    hasInconsistencies = true;
-    console.error('\n===== INCONSISTENT TOKENS DETECTED =====\n');
-    
-    for (const inconsistency of inconsistentTokens) {
-      const {token} = inconsistency;
-      
-      // Print inconsistency information
-      console.error(`Token: ${token}`);
-      console.error(`  ✓ Present in: ${inconsistency.presentIn.join(', ')}`);
-      console.error(`  ✗ Missing from: ${inconsistency.missingFrom.join(', ')}`);
-      
-      // Empty line for readability
-      console.error('');
-    }
-    
-    // Summary of inconsistencies
-    const uniqueInconsistentBaseTokens = new Set(inconsistentTokens.map(i => i.token));
-    console.error(`Found ${uniqueInconsistentBaseTokens.size} inconsistent tokens across all themes.`);
-    console.error('\nTest FAILED: Token names are inconsistent across themes\n');
-  } else {
-    console.log('\nTest PASSED: All themes have consistent tokens\n');
-    console.log(`Total number of consistent tokens across all themes: ${allUniqueKeys.size}\n`);
+
+  if (inconsistentTokens.length === 0) {
+    console.log(`\n${label}: PASSED — all variants have consistent tokens\n`);
+    return false;
   }
-  
-  if (hasInconsistencies) {
+
+  console.error(`\n===== ${label}: INCONSISTENT TOKENS DETECTED =====\n`);
+  for (const inconsistency of inconsistentTokens) {
+    console.error(`Token: ${inconsistency.token}`);
+    console.error(`  ✓ Present in: ${inconsistency.presentIn.join(', ')}`);
+    console.error(`  ✗ Missing from: ${inconsistency.missingFrom.join(', ')}`);
+    console.error('');
+  }
+  const uniqueInconsistentBaseTokens = new Set(inconsistentTokens.map(i => i.token));
+  console.error(`Found ${uniqueInconsistentBaseTokens.size} inconsistent tokens in ${label}.\n`);
+  return true;
+}
+
+// Check semantic web tokens published in the auro-tokendefinitions package.
+// Each theme has its own subdirectory; we union JSON keys per theme.
+/**
+ * @returns {boolean}
+ */
+function checkSemanticsWeb() {
+  console.log('--- Checking semantics/web (auro-tokendefinitions) ---\n');
+
+  /** @type {Record<string, string[]>} */
+  const themeKeys = {};
+
+  for (const theme of THEME_DEFINITIONS) {
+    const themeDir = path.join(process.cwd(), PATHS.TOKENS_DEFS, '/semantics/web/', theme.dir);
+
+    if (!fs.existsSync(themeDir)) {
+      console.error(`Theme directory not found: ${themeDir}`);
+      continue;
+    }
+
+    console.log(`Processing theme: ${theme.name} (${theme.dir})`);
+
+    const jsonFiles = getJsonFiles(themeDir);
+    const keys = new Set();
+    for (const file of jsonFiles) {
+      extractKeysFromJsonFile(file).forEach(k => keys.add(k));
+    }
+    themeKeys[theme.dir] = Array.from(keys).sort();
+    console.log(`  Found ${keys.size} unique token keys\n`);
+  }
+
+  return reportInconsistencies('semantics/web', themeKeys);
+}
+
+// Check manual web tokens defined locally in this repo. Each theme is a single
+// top-level JSON file (e.g., Alaska_theme.Light.json), so we treat the filename
+// as the variant identifier.
+/**
+ * @returns {boolean}
+ */
+function checkManualTokensWeb() {
+  console.log('--- Checking tokenDefinitions/manualTokens/web ---\n');
+
+  const dir = path.join(process.cwd(), 'tokenDefinitions', 'manualTokens', 'web');
+
+  if (!fs.existsSync(dir)) {
+    console.log(`  Skipping: directory not found at ${dir}\n`);
+    return false;
+  }
+
+  /** @type {Record<string, string[]>} */
+  const variantKeys = {};
+
+  const files = fs.readdirSync(dir).filter(f => path.extname(f) === '.json');
+  for (const file of files) {
+    const variant = path.basename(file, '.json');
+    console.log(`Processing file: ${file}`);
+    const keys = new Set(extractKeysFromJsonFile(path.join(dir, file)));
+    variantKeys[variant] = Array.from(keys).sort();
+    console.log(`  Found ${keys.size} unique token keys\n`);
+  }
+
+  return reportInconsistencies('manualTokens/web', variantKeys);
+}
+
+// Main test function
+async function runTest() {
+  console.log('\nRunning Token Consistency Test...\n');
+
+  if (!THEME_DEFINITIONS || THEME_DEFINITIONS.length === 0) {
+    console.error('No themes found in THEME_DEFINITIONS');
     process.exit(1);
   }
+
+  const semanticsHasInconsistencies = checkSemanticsWeb();
+  const manualHasInconsistencies = checkManualTokensWeb();
+
+  if (semanticsHasInconsistencies || manualHasInconsistencies) {
+    console.error('Test FAILED: Token names are inconsistent across themes\n');
+    process.exit(1);
+  }
+
+  console.log('Test PASSED: All themes have consistent tokens\n');
 }
 
 runTest().catch(error => {
