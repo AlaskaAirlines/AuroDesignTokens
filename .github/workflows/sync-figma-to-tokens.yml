@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       ticket-number:
-        description: 'The GitHub ticket number to associate this change with'
+        description: 'The ADO ticket number to associate this change with'
         required: true
         type: number
       change-type:
@@ -50,7 +50,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: '${{ inputs.change-type }}: update tokens from figma #${{ inputs.ticket-number }}'
+          commit-message: '${{ inputs.change-type }}: update tokens from figma AB#${{ inputs.ticket-number }}'
           title: Update tokens from Figma
           body: 'Update tokens from Figma from file: https://www.figma.com/file/${{ secrets.FIGMA_FILE_KEY }}'
           branch: update-tokens
