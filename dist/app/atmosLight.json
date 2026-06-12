@@ -303,9 +303,10 @@
     }
   },
   "themeMetadata": {
+    "analyticsBrandVariable": "Atmos-Light",
+    "analyticsTrackingPrefix": "Atmos_",
     "code": "atmosLight",
     "displayName": "Atmos Rewards",
-    "iconUrl": "https://images.contentstack.io/v3/assets/blt2cefe12c88e9dd91/blt745797a1be05e381/atmos-favicon.ico",
     "name": "Atmos Rewards",
     "webviewCode": "renderingContext.rootTheme.atmos"
   },
