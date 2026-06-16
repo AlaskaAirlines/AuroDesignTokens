@@ -15,6 +15,18 @@ import { PATHS } from '../src/config/constants.js';
 // Common property suffixes in design tokens
 const propertyNames = ['value', 'type', 'public', 'deprecated', 'usage'];
 
+// Required keys for themeMetadata blocks in dist/app/*.json. Downstream mobile
+// consumers depend on every theme carrying all of these — a missing or empty
+// value silently breaks analytics tagging or webview routing.
+const REQUIRED_THEME_METADATA_KEYS = [
+  'analyticsBrandVariable',
+  'analyticsTrackingPrefix',
+  'code',
+  'displayName',
+  'name',
+  'webviewCode',
+];
+
 // Recursively get all JSON files in a directory
 /**
  * @param {string} dir
@@ -258,6 +270,69 @@ function checkManualTokensWeb() {
   return reportInconsistencies('manualTokens/web', variantKeys);
 }
 
+// Check that every published dist/app/*.json carries a complete themeMetadata
+// block with all required keys present and non-empty. Runs against built
+// artifacts so a broken build pipeline is also caught here.
+/**
+ * @returns {boolean}
+ */
+function checkAppThemeMetadata() {
+  console.log('--- Checking dist/app themeMetadata ---\n');
+
+  const dir = path.join(process.cwd(), PATHS.DIST, 'app');
+
+  if (!fs.existsSync(dir)) {
+    console.error(`dist/app: directory not found at ${dir} — run \`npm run build\` first\n`);
+    return true;
+  }
+
+  const files = fs.readdirSync(dir)
+    .filter(f => path.extname(f) === '.json')
+    .sort();
+
+  if (files.length === 0) {
+    console.error(`dist/app: no JSON files found in ${dir}\n`);
+    return true;
+  }
+
+  const problems = [];
+  for (const file of files) {
+    console.log(`Processing file: ${file}`);
+    let parsed;
+    try {
+      parsed = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+    } catch (error) {
+      problems.push(`${file}: failed to parse — ${error instanceof Error ? error.message : String(error)}`);
+      continue;
+    }
+
+    const { themeMetadata } = parsed;
+    if (!themeMetadata || typeof themeMetadata !== 'object') {
+      problems.push(`${file}: themeMetadata block missing`);
+      continue;
+    }
+
+    for (const key of REQUIRED_THEME_METADATA_KEYS) {
+      const value = themeMetadata[key];
+      if (typeof value !== 'string' || !value) {
+        problems.push(`${file}: themeMetadata.${key} missing or empty`);
+      }
+    }
+  }
+
+  if (problems.length === 0) {
+    console.log('\ndist/app themeMetadata: PASSED — all themes have required metadata\n');
+    return false;
+  }
+
+  console.error('\n===== dist/app themeMetadata: PROBLEMS DETECTED =====\n');
+  for (const problem of problems) {
+    console.error(`  ✗ ${problem}`);
+  }
+  console.error(`\nFound ${problems.length} problems in dist/app themeMetadata.\n`);
+  return true;
+}
+
 // Main test function
 async function runTest() {
   console.log('\nRunning Token Consistency Test...\n');
@@ -269,8 +344,9 @@ async function runTest() {
 
   const semanticsHasInconsistencies = checkSemanticsWeb();
   const manualHasInconsistencies = checkManualTokensWeb();
+  const appMetadataHasIssues = checkAppThemeMetadata();
 
-  if (semanticsHasInconsistencies || manualHasInconsistencies) {
+  if (semanticsHasInconsistencies || manualHasInconsistencies || appMetadataHasIssues) {
     console.error('Test FAILED: Token names are inconsistent across themes\n');
     process.exit(1);
   }
