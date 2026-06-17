@@ -36,7 +36,6 @@
   },
   "scripts": {
     "build": "npm run build:processFigmaExport && npm run test:tokens && npm run build:tokens && npm run transform:css",
-    "build:ci": "npm-run-all sweep test build:tokens",
     "build:processFigmaExport": "node scripts/processFigmaExport.mjs",
     "build:tokens": "node scripts/styleDictionary.mjs",
     "transform:css": "node scripts/transformCSS.mjs",
