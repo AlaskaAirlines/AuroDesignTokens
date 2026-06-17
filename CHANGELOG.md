@@ -1,5 +1,17 @@
 # Semantic Release Automated Changelog
 
+# [9.0.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.21.2...v9.0.0) (2026-06-17)
+
+
+### Features
+
+* **themes:** add analytics metadata, drop unused iconUrl ([ac471a7](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/ac471a77213cc091c4753f9495383245d98defff))
+
+
+### BREAKING CHANGES
+
+* **themes:** themeMetadata.iconUrl is no longer emitted in dist/app/{alaskaLight,hawaiianLight,atmosLight,test}.json.
+
 ## [8.21.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v8.21.1...v8.21.2) (2026-06-12)
 
 
