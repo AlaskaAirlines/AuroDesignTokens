@@ -25,11 +25,69 @@
         "tertiarySubtle": "#c9e1a7"
       },
       "fare": {
+        "alaska": {
+          "basicEconomy": {
+            "bold": "#096173",
+            "standard": "#97eaf8",
+            "subtle": "#ebfafd"
+          },
+          "economy": {
+            "bold": "#005fa7",
+            "standard": "#0074ca",
+            "subtle": "#ebf7ff"
+          },
+          "economyExtraLegroom": {
+            "bold": "#265688",
+            "standard": "#265688",
+            "subtle": "#ebf3f9"
+          },
+          "firstBusiness": {
+            "bold": "#005154",
+            "gradientBack": "#00274a",
+            "gradientFront": "#005154",
+            "standard": "#005154",
+            "subtle": "#e9f1f1"
+          },
+          "premiumEconomy": {
+            "bold": "#00274a",
+            "standard": "#00274a",
+            "subtle": "#ecf0f3"
+          }
+        },
         "basicEconomy": "#97eaf8",
-        "business": "#01426a",
+        "business": "#005154",
         "economy": "#0074ca",
-        "first": "#00274a",
-        "premiumEconomy": "#005154",
+        "first": "#005154",
+        "hawaiian": {
+          "basicEconomy": {
+            "bold": "#515252",
+            "standard": "#ced0d0",
+            "subtle": "#f5f7f7"
+          },
+          "economy": {
+            "bold": "#1b6976",
+            "standard": "#00a5ba",
+            "subtle": "#ecf6f8"
+          },
+          "economyExtraLegroom": {
+            "bold": "#a91770",
+            "standard": "#ce0c88",
+            "subtle": "#fdf1f8"
+          },
+          "firstBusiness": {
+            "bold": "#463c8f",
+            "gradientBack": "#ce0c88",
+            "gradientFront": "#463c8f",
+            "standard": "#463c8f",
+            "subtle": "#edeaf4"
+          },
+          "premiumEconomy": {
+            "bold": "#831a57",
+            "standard": "#831a57",
+            "subtle": "#fdf1f8"
+          }
+        },
+        "premiumEconomy": "#265688",
         "suitesBack": "#00274a",
         "suitesFront": "#005154"
       },
