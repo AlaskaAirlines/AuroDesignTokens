@@ -25,11 +25,69 @@
         "tertiarySubtle": "#ff9080"
       },
       "fare": {
+        "alaska": {
+          "basicEconomy": {
+            "bold": "#096173",
+            "standard": "#97eaf8",
+            "subtle": "#ebfafd"
+          },
+          "economy": {
+            "bold": "#005fa7",
+            "standard": "#289bee",
+            "subtle": "#ebf7ff"
+          },
+          "economyExtraLegroom": {
+            "bold": "#265688",
+            "standard": "#265688",
+            "subtle": "#ebf3f9"
+          },
+          "firstBusiness": {
+            "bold": "#005154",
+            "gradientBack": "#00274a",
+            "gradientFront": "#005154",
+            "standard": "#005154",
+            "subtle": "#e9f1f1"
+          },
+          "premiumEconomy": {
+            "bold": "#00274a",
+            "standard": "#00274a",
+            "subtle": "#ecf0f3"
+          }
+        },
         "basicEconomy": "#d0d0d0",
         "business": "#463c8f",
-        "economy": "#ce0c88",
+        "economy": "#00a5ba",
         "first": "#463c8f",
-        "premiumEconomy": "#1b6976",
+        "hawaiian": {
+          "basicEconomy": {
+            "bold": "#515252",
+            "standard": "#ced0d0",
+            "subtle": "#f5f7f7"
+          },
+          "economy": {
+            "bold": "#1b6976",
+            "standard": "#00a5ba",
+            "subtle": "#ecf6f8"
+          },
+          "economyExtraLegroom": {
+            "bold": "#a91770",
+            "standard": "#ce0c88",
+            "subtle": "#fdf1f8"
+          },
+          "firstBusiness": {
+            "bold": "#463c8f",
+            "gradientBack": "#ce0c88",
+            "gradientFront": "#463c8f",
+            "standard": "#463c8f",
+            "subtle": "#edeaf4"
+          },
+          "premiumEconomy": {
+            "bold": "#831a57",
+            "standard": "#831a57",
+            "subtle": "#fdf1f8"
+          }
+        },
+        "premiumEconomy": "#ce0c88",
         "suitesBack": "#ce0c88",
         "suitesFront": "#463c8f"
       },
