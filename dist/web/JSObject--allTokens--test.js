@@ -4030,6 +4030,426 @@ module.exports = {
         }
       },
       "fare": {
+        "alaska": {
+          "basic-economy": {
+            "bold": {
+              "value": "#3c3d3d",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#3c3d3d"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#abadad",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#abadad"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy": {
+            "bold": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#7d7e7e"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#949595",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#949595"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy-extra-legroom": {
+            "bold": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "subtle"
+              ]
+            }
+          },
+          "first-business": {
+            "bold": {
+              "value": "#3c3d3d",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#3c3d3d"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#3c3d3d",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#3c3d3d"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "default"
+              ]
+            },
+            "gradient-back": {
+              "value": "#2a2a2a",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#2a2a2a"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-gradient-back",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "gradient-back"
+              ]
+            },
+            "gradient-front": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-gradient-front",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "gradient-front"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "subtle"
+              ]
+            }
+          },
+          "premium-economy": {
+            "bold": {
+              "value": "#2a2a2a",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#2a2a2a"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#2a2a2a",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#2a2a2a"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "subtle"
+              ]
+            }
+          }
+        },
         "basiceconomy": {
           "value": "#d0d0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
@@ -4113,6 +4533,426 @@ module.exports = {
             "fare",
             "first"
           ]
+        },
+        "hawaiian": {
+          "basic-economy": {
+            "bold": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#ced0d0",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ced0d0"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy": {
+            "bold": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#7d7e7e"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy-extra-legroom": {
+            "bold": {
+              "value": "#666767",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#666767"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#7d7e7e"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "subtle"
+              ]
+            }
+          },
+          "first-business": {
+            "bold": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#7d7e7e"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#7d7e7e"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "default"
+              ]
+            },
+            "gradient-back": {
+              "value": "#2a2a2a",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#2a2a2a"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-back",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "gradient-back"
+              ]
+            },
+            "gradient-front": {
+              "value": "#666767",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#666767"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-front",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "gradient-front"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "subtle"
+              ]
+            }
+          },
+          "premium-economy": {
+            "bold": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#515252",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "subtle"
+              ]
+            }
+          }
         },
         "premiumeconomy": {
           "value": "#525252",

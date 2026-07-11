@@ -4030,6 +4030,426 @@ module.exports = {
         }
       },
       "fare": {
+        "alaska": {
+          "basic-economy": {
+            "bold": {
+              "value": "#096173",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#096173"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#97eaf8",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#97eaf8"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#ebfafd",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ebfafd"
+              },
+              "name": "ds-basic-color-fare-alaska-basic-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "basic-economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy": {
+            "bold": {
+              "value": "#005fa7",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#005fa7"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#289bee",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#289bee"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#ebf7ff",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ebf7ff"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy-extra-legroom": {
+            "bold": {
+              "value": "#265688",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#265688"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#265688",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#265688"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#ebf3f9",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ebf3f9"
+              },
+              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "economy-extra-legroom",
+                "subtle"
+              ]
+            }
+          },
+          "first-business": {
+            "bold": {
+              "value": "#005154",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#005154"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#005154",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#005154"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "default"
+              ]
+            },
+            "gradient-back": {
+              "value": "#00274a",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#00274a"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-gradient-back",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "gradient-back"
+              ]
+            },
+            "gradient-front": {
+              "value": "#005154",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#005154"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-gradient-front",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "gradient-front"
+              ]
+            },
+            "subtle": {
+              "value": "#e9f1f1",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#e9f1f1"
+              },
+              "name": "ds-basic-color-fare-alaska-first-business-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "first-business",
+                "subtle"
+              ]
+            }
+          },
+          "premium-economy": {
+            "bold": {
+              "value": "#00274a",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#00274a"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#00274a",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#00274a"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#ecf0f3",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ecf0f3"
+              },
+              "name": "ds-basic-color-fare-alaska-premium-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "alaska",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "alaska",
+                "premium-economy",
+                "subtle"
+              ]
+            }
+          }
+        },
         "basiceconomy": {
           "value": "#97eaf8",
           "filePath": "processed/web/Atmos_theme.Light.json",
@@ -4114,12 +4534,432 @@ module.exports = {
             "first"
           ]
         },
+        "hawaiian": {
+          "basic-economy": {
+            "bold": {
+              "value": "#515252",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#515252"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#ced0d0",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ced0d0"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#f5f7f7"
+              },
+              "name": "ds-basic-color-fare-hawaiian-basic-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "basic-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "basic-economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy": {
+            "bold": {
+              "value": "#1b6976",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#1b6976"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#00a5ba",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#00a5ba"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#ecf6f8",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ecf6f8"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy",
+                "subtle"
+              ]
+            }
+          },
+          "economy-extra-legroom": {
+            "bold": {
+              "value": "#a91770",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#a91770"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#ce0c88",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ce0c88"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#fdf1f8",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#fdf1f8"
+              },
+              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "economy-extra-legroom"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "economy-extra-legroom",
+                "subtle"
+              ]
+            }
+          },
+          "first-business": {
+            "bold": {
+              "value": "#463c8f",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#463c8f"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#463c8f",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#463c8f"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "default"
+              ]
+            },
+            "gradient-back": {
+              "value": "#ce0c88",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#ce0c88"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-back",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "gradient-back"
+              ]
+            },
+            "gradient-front": {
+              "value": "#463c8f",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#463c8f"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-front",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "gradient-front"
+              ]
+            },
+            "subtle": {
+              "value": "#edeaf4",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#edeaf4"
+              },
+              "name": "ds-basic-color-fare-hawaiian-first-business-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "first-business"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "first-business",
+                "subtle"
+              ]
+            }
+          },
+          "premium-economy": {
+            "bold": {
+              "value": "#831a57",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#831a57"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-bold",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "bold"
+              ]
+            },
+            "default": {
+              "value": "#831a57",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#831a57"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-default",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "default"
+              ]
+            },
+            "subtle": {
+              "value": "#fdf1f8",
+              "filePath": "processed/web/Atmos_theme.Light.json",
+              "isSource": true,
+              "original": {
+                "value": "#fdf1f8"
+              },
+              "name": "ds-basic-color-fare-hawaiian-premium-economy-subtle",
+              "attributes": {
+                "category": "basic",
+                "type": "color",
+                "item": "fare",
+                "subitem": "hawaiian",
+                "state": "premium-economy"
+              },
+              "path": [
+                "basic",
+                "color",
+                "fare",
+                "hawaiian",
+                "premium-economy",
+                "subtle"
+              ]
+            }
+          }
+        },
         "premiumeconomy": {
-          "value": "#005154",
+          "value": "#265688",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#005154"
+            "value": "#265688"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {

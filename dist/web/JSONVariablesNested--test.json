@@ -238,10 +238,68 @@
         "tertiary-subtle": "#adadad"
       },
       "fare": {
+        "alaska": {
+          "basic-economy": {
+            "bold": "#3c3d3d",
+            "default": "#abadad",
+            "subtle": "#f5f7f7"
+          },
+          "economy": {
+            "bold": "#7d7e7e",
+            "default": "#949595",
+            "subtle": "#f5f7f7"
+          },
+          "economy-extra-legroom": {
+            "bold": "#515252",
+            "default": "#515252",
+            "subtle": "#f5f7f7"
+          },
+          "first-business": {
+            "bold": "#3c3d3d",
+            "default": "#3c3d3d",
+            "gradient-back": "#2a2a2a",
+            "gradient-front": "#515252",
+            "subtle": "#f5f7f7"
+          },
+          "premium-economy": {
+            "bold": "#2a2a2a",
+            "default": "#2a2a2a",
+            "subtle": "#f5f7f7"
+          }
+        },
         "basiceconomy": "#d0d0d0",
         "business": "#3d3d3d",
         "economy": "#676767",
         "first": "#2a2a2a",
+        "hawaiian": {
+          "basic-economy": {
+            "bold": "#515252",
+            "default": "#ced0d0",
+            "subtle": "#f5f7f7"
+          },
+          "economy": {
+            "bold": "#515252",
+            "default": "#7d7e7e",
+            "subtle": "#f5f7f7"
+          },
+          "economy-extra-legroom": {
+            "bold": "#666767",
+            "default": "#7d7e7e",
+            "subtle": "#f5f7f7"
+          },
+          "first-business": {
+            "bold": "#7d7e7e",
+            "default": "#7d7e7e",
+            "gradient-back": "#2a2a2a",
+            "gradient-front": "#666767",
+            "subtle": "#f5f7f7"
+          },
+          "premium-economy": {
+            "bold": "#515252",
+            "default": "#515252",
+            "subtle": "#f5f7f7"
+          }
+        },
         "premiumeconomy": "#525252",
         "suites-back": "#525252",
         "suites-front": "#7e7e7e"

@@ -371,7 +371,7 @@
       },
       "Weight": {
         "$type": "string",
-        "$value": "Book",
+        "$value": "Light",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -401,7 +401,7 @@
       },
       "Weight": {
         "$type": "string",
-        "$value": "Book",
+        "$value": "Light",
         "$description": "",
         "$extensions": {
           "com.figma": {
