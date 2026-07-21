@@ -15,11 +15,11 @@ Apply a theme to any element using the `data-aag-theme` attribute. All child ele
 Available theme codes:
 
 | Theme | Attribute Value |
-|------ | ---------------|
+| ----- | --------------- |
 | Alaska | `aag-theme-as` |
 | Alaska Classic | `aag-theme-asc` |
-| Hawaiian | `aag-theme-ha` |
 | Atmos | `aag-theme-atm` |
+| Hawaiian | `aag-theme-ha` |
 
 ## Nested Themes
 
@@ -100,11 +100,13 @@ Latest Atmos brand theme with latest tokens.
 
 ### [Hawaiian](https://auro.alaskaair.com/getting-started/developers/design-tokens/hawaiian)
 
-Hawaiian Airlines brand theme with v6.x tokens:
+Hawaiian Airlines brand theme with latest tokens:
 
-### [Alaska Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska-classic) (Deprecated)
+### [Alaska Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/alaska-classic)
 
 The Alaska Classic theme uses the latest token names with the deprecated Auro Classic values. It serves as a transition theme, facilitating a smooth migration for Auro components to the new "Alaska" theme.
+
+### [Auro Classic](https://auro.alaskaair.com/getting-started/developers/design-tokens/auro-classic) (Deprecated)
 
 Legacy v4.x tokens, maintained for backward compatibility:
 
