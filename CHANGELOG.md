@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [9.2.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.1.0...v9.2.0) (2026-07-21)
+
+
+### Features
+
+* split CSS theme selectors into color and typography groups AB[#1601893](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/1601893) ([200ce70](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/200ce705041cd00b83e636f0c57cd9862721293b))
+
 # [9.1.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.0.0...v9.1.0) (2026-07-13)
 
 
