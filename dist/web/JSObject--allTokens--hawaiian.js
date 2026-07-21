@@ -276,11 +276,11 @@ module.exports = {
           ]
         },
         "default-inverse": {
-          "value": "#edeaf4",
+          "value": "#eae5f4",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#edeaf4"
+            "value": "#eae5f4"
           },
           "name": "ds-advanced-color-accents-default-inverse",
           "attributes": {
@@ -553,11 +553,11 @@ module.exports = {
           ]
         },
         "isfalse-border": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-boolean-isfalse-border",
           "attributes": {
@@ -745,11 +745,11 @@ module.exports = {
       "button": {
         "flat": {
           "text": {
-            "value": "#676767",
+            "value": "#666767",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#676767"
+              "value": "#666767"
             },
             "name": "ds-advanced-color-button-flat-text",
             "attributes": {
@@ -768,11 +768,11 @@ module.exports = {
             ]
           },
           "text-disabled": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-flat-text-disabled",
             "attributes": {
@@ -791,11 +791,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-flat-text-hover",
             "attributes": {
@@ -860,11 +860,11 @@ module.exports = {
             ]
           },
           "text-inverse-hover": {
-            "value": "#adadad",
+            "value": "#abadad",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#adadad"
+              "value": "#abadad"
             },
             "name": "ds-advanced-color-button-flat-text-inverse-hover",
             "attributes": {
@@ -954,11 +954,11 @@ module.exports = {
             ]
           },
           "text-disabled": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-ghost-text-disabled",
             "attributes": {
@@ -1441,11 +1441,11 @@ module.exports = {
             ]
           },
           "background-disabled": {
-            "value": "#f7f7f7",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f7f7f7"
+              "value": "#f5f7f7"
             },
             "name": "ds-advanced-color-button-secondary-background-disabled",
             "attributes": {
@@ -1533,11 +1533,11 @@ module.exports = {
             ]
           },
           "border-disabled": {
-            "value": "#f7f7f7",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f7f7f7"
+              "value": "#f5f7f7"
             },
             "name": "ds-advanced-color-button-secondary-border-disabled",
             "attributes": {
@@ -1602,11 +1602,11 @@ module.exports = {
             ]
           },
           "border-inverse-disabled": {
-            "value": "#dddddd",
+            "value": "#dbdddd",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#dddddd"
+              "value": "#dbdddd"
             },
             "name": "ds-advanced-color-button-secondary-border-inverse-disabled",
             "attributes": {
@@ -1860,11 +1860,11 @@ module.exports = {
       },
       "dropdown-emphasized": {
         "background": {
-          "value": "#edeaf4",
+          "value": "#eae5f4",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#edeaf4"
+            "value": "#eae5f4"
           },
           "name": "ds-advanced-color-dropdown-emphasized-background",
           "attributes": {
@@ -1952,11 +1952,11 @@ module.exports = {
           ]
         },
         "line": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-advanced-color-flightline-line",
           "attributes": {
@@ -2396,11 +2396,11 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-interactive-disabled",
           "attributes": {
@@ -2902,11 +2902,11 @@ module.exports = {
           ]
         },
         "background-muted": {
-          "value": "#f7f7f7",
+          "value": "#f5f7f7",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f7f7f7"
+            "value": "#f5f7f7"
           },
           "name": "ds-advanced-color-shared-background-muted",
           "attributes": {
@@ -2923,11 +2923,11 @@ module.exports = {
           ]
         },
         "background-strong": {
-          "value": "#676767",
+          "value": "#666767",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#676767"
+            "value": "#666767"
           },
           "name": "ds-advanced-color-shared-background-strong",
           "attributes": {
@@ -2944,11 +2944,11 @@ module.exports = {
           ]
         },
         "emphasized-background": {
-          "value": "#edeaf4",
+          "value": "#eae5f4",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#edeaf4"
+            "value": "#eae5f4"
           },
           "name": "ds-advanced-color-shared-emphasized-background",
           "attributes": {
@@ -3074,11 +3074,11 @@ module.exports = {
       },
       "state": {
         "background-disabled": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-state-background-disabled",
           "attributes": {
@@ -3628,11 +3628,11 @@ module.exports = {
     "color": {
       "border": {
         "bold": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-border-bold",
           "attributes": {
@@ -3670,11 +3670,11 @@ module.exports = {
           ]
         },
         "default": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-border-default",
           "attributes": {
@@ -3754,11 +3754,11 @@ module.exports = {
           ]
         },
         "subtle": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-border-subtle",
           "attributes": {
@@ -3819,11 +3819,11 @@ module.exports = {
           ]
         },
         "primary-muted": {
-          "value": "#edeaf4",
+          "value": "#eae5f4",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#edeaf4"
+            "value": "#eae5f4"
           },
           "name": "ds-basic-color-brand-primary-muted",
           "attributes": {
@@ -4030,432 +4030,83 @@ module.exports = {
         }
       },
       "fare": {
-        "alaska": {
-          "basic-economy": {
-            "bold": {
-              "value": "#096173",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#096173"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "bold"
-              ]
+        "basic-economy": {
+          "bold": {
+            "value": "#515252",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#515252"
             },
-            "default": {
-              "value": "#97eaf8",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#97eaf8"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "bold"
             },
-            "subtle": {
-              "value": "#ebfafd",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ebfafd"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "bold"
+            ]
           },
-          "economy": {
-            "bold": {
-              "value": "#005fa7",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#005fa7"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "bold"
-              ]
+          "default": {
+            "value": "#ced0d0",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#ced0d0"
             },
-            "default": {
-              "value": "#289bee",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#289bee"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "default"
             },
-            "subtle": {
-              "value": "#ebf7ff",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ebf7ff"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "default"
+            ]
           },
-          "economy-extra-legroom": {
-            "bold": {
-              "value": "#265688",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#265688"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "bold"
-              ]
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#f5f7f7"
             },
-            "default": {
-              "value": "#265688",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#265688"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "subtle"
             },
-            "subtle": {
-              "value": "#ebf3f9",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ebf3f9"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "subtle"
-              ]
-            }
-          },
-          "first-business": {
-            "bold": {
-              "value": "#005154",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#005154"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "bold"
-              ]
-            },
-            "default": {
-              "value": "#005154",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#005154"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "default"
-              ]
-            },
-            "gradient-back": {
-              "value": "#00274a",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#00274a"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-gradient-back",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "gradient-back"
-              ]
-            },
-            "gradient-front": {
-              "value": "#005154",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#005154"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-gradient-front",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "gradient-front"
-              ]
-            },
-            "subtle": {
-              "value": "#e9f1f1",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#e9f1f1"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "subtle"
-              ]
-            }
-          },
-          "premium-economy": {
-            "bold": {
-              "value": "#00274a",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#00274a"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "bold"
-              ]
-            },
-            "default": {
-              "value": "#00274a",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#00274a"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "default"
-              ]
-            },
-            "subtle": {
-              "value": "#ecf0f3",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ecf0f3"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "subtle"
+            ]
           }
         },
         "basiceconomy": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-fare-basiceconomy",
           "attributes": {
@@ -4493,10 +4144,40 @@ module.exports = {
           ]
         },
         "economy": {
+          "bold": {
+            "value": "#1b4c55",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true
+          },
+          "default": {
+            "value": "#00a5ba",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true
+          },
+          "subtle": {
+            "value": "#ecf6f8",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true
+          },
           "value": "#00a5ba",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
+            "bold": {
+              "value": "#1b4c55",
+              "filePath": "processed/web/Hawaiian_theme.Light.json",
+              "isSource": true
+            },
+            "default": {
+              "value": "#00a5ba",
+              "filePath": "processed/web/Hawaiian_theme.Light.json",
+              "isSource": true
+            },
+            "subtle": {
+              "value": "#ecf6f8",
+              "filePath": "processed/web/Hawaiian_theme.Light.json",
+              "isSource": true
+            },
             "value": "#00a5ba"
           },
           "name": "ds-basic-color-fare-economy",
@@ -4512,6 +4193,77 @@ module.exports = {
             "fare",
             "economy"
           ]
+        },
+        "economy-extra-legroom": {
+          "bold": {
+            "value": "#a91770",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#a91770"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#ce0c88",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#ce0c88"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#fdf1f8",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#fdf1f8"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "subtle"
+            ]
+          }
         },
         "first": {
           "value": "#463c8f",
@@ -4534,424 +4286,192 @@ module.exports = {
             "first"
           ]
         },
-        "hawaiian": {
-          "basic-economy": {
-            "bold": {
-              "value": "#515252",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "bold"
-              ]
+        "first-business": {
+          "bold": {
+            "value": "#463c8f",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#463c8f"
             },
-            "default": {
-              "value": "#ced0d0",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ced0d0"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "bold"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "bold"
+            ]
           },
-          "economy": {
-            "bold": {
-              "value": "#1b6976",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#1b6976"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "bold"
-              ]
+          "default": {
+            "value": "#463c8f",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#463c8f"
             },
-            "default": {
-              "value": "#00a5ba",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#00a5ba"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "default"
             },
-            "subtle": {
-              "value": "#ecf6f8",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ecf6f8"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "default"
+            ]
           },
-          "economy-extra-legroom": {
-            "bold": {
-              "value": "#a91770",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#a91770"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "bold"
-              ]
+          "gradient-back": {
+            "value": "#ce0c88",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#ce0c88"
             },
-            "default": {
-              "value": "#ce0c88",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ce0c88"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-gradient-back",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "gradient-back"
             },
-            "subtle": {
-              "value": "#fdf1f8",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#fdf1f8"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "gradient-back"
+            ]
           },
-          "first-business": {
-            "bold": {
-              "value": "#463c8f",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#463c8f"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "bold"
-              ]
+          "gradient-front": {
+            "value": "#463c8f",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#463c8f"
             },
-            "default": {
-              "value": "#463c8f",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#463c8f"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-gradient-front",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "gradient-front"
             },
-            "gradient-back": {
-              "value": "#ce0c88",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ce0c88"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-back",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "gradient-back"
-              ]
-            },
-            "gradient-front": {
-              "value": "#463c8f",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#463c8f"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-front",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "gradient-front"
-              ]
-            },
-            "subtle": {
-              "value": "#edeaf4",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#edeaf4"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "gradient-front"
+            ]
           },
-          "premium-economy": {
-            "bold": {
-              "value": "#831a57",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#831a57"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "bold"
-              ]
+          "subtle": {
+            "value": "#eae5f4",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#eae5f4"
             },
-            "default": {
-              "value": "#831a57",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#831a57"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "subtle"
             },
-            "subtle": {
-              "value": "#fdf1f8",
-              "filePath": "processed/web/Hawaiian_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#fdf1f8"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "subtle"
+            ]
+          }
+        },
+        "premium-economy": {
+          "bold": {
+            "value": "#831a57",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#831a57"
+            },
+            "name": "ds-basic-color-fare-premium-economy-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#831a57",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#831a57"
+            },
+            "name": "ds-basic-color-fare-premium-economy-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#fdf1f8",
+            "filePath": "processed/web/Hawaiian_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#fdf1f8"
+            },
+            "name": "ds-basic-color-fare-premium-economy-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "subtle"
+            ]
           }
         },
         "premiumeconomy": {
@@ -5276,11 +4796,11 @@ module.exports = {
           ]
         },
         "accent1-muted": {
-          "value": "#edeaf4",
+          "value": "#eae5f4",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#edeaf4"
+            "value": "#eae5f4"
           },
           "name": "ds-basic-color-surface-accent1-muted",
           "attributes": {
@@ -5318,11 +4838,11 @@ module.exports = {
           ]
         },
         "accent2": {
-          "value": "#f7f7f7",
+          "value": "#f5f7f7",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f7f7f7"
+            "value": "#f5f7f7"
           },
           "name": "ds-basic-color-surface-accent2",
           "attributes": {
@@ -5339,11 +4859,11 @@ module.exports = {
           ]
         },
         "accent2-muted": {
-          "value": "#f7f7f7",
+          "value": "#f5f7f7",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f7f7f7"
+            "value": "#f5f7f7"
           },
           "name": "ds-basic-color-surface-accent2-muted",
           "attributes": {
@@ -5423,11 +4943,11 @@ module.exports = {
           ]
         },
         "neutral": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-surface-neutral",
           "attributes": {
@@ -5444,11 +4964,11 @@ module.exports = {
           ]
         },
         "neutral-medium": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-surface-neutral-medium",
           "attributes": {
@@ -5465,11 +4985,11 @@ module.exports = {
           ]
         },
         "neutral-subtle": {
-          "value": "#f7f7f7",
+          "value": "#f5f7f7",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f7f7f7"
+            "value": "#f5f7f7"
           },
           "name": "ds-basic-color-surface-neutral-subtle",
           "attributes": {
@@ -5530,11 +5050,11 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-texticon-disabled",
           "attributes": {
@@ -5698,11 +5218,11 @@ module.exports = {
           ]
         },
         "muted": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-basic-color-texticon-muted",
           "attributes": {

@@ -191,7 +191,7 @@
     },
     "Muted": {
       "$type": "color",
-      "$value": "#676767",
+      "$value": "#666767",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -210,7 +210,7 @@
     },
     "Disabled": {
       "$type": "color",
-      "$value": "#d0d0d0",
+      "$value": "#ced0d0",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -433,7 +433,7 @@
     },
     "Neutral-Subtle": {
       "$type": "color",
-      "$value": "#f7f7f7",
+      "$value": "#f5f7f7",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -452,7 +452,7 @@
     },
     "Neutral": {
       "$type": "color",
-      "$value": "#f2f2f2",
+      "$value": "#f1f3f3",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -471,7 +471,7 @@
     },
     "Neutral-Medium": {
       "$type": "color",
-      "$value": "#c5c5c5",
+      "$value": "#c3c5c5",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -626,7 +626,7 @@
   "Border": {
     "Subtle": {
       "$type": "color",
-      "$value": "#dddddd",
+      "$value": "#dbdddd",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -644,7 +644,7 @@
     },
     "Default": {
       "$type": "color",
-      "$value": "#959595",
+      "$value": "#949595",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1188,336 +1188,60 @@
     }
   },
   "Fare": {
-    "Alaska": {
-      "Basic-Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#ebfafd",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-basic-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.alaska.basicEconomy.subtle",
-                "iOS": "basicTokens.color.fare.alaska.basicEconomy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#97eaf8",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-basic-economy-default",
-                "ANDROID": "basicTokens.color.fare.alaska.basicEconomy.default",
-                "iOS": "basicTokens.color.fare.alaska.basicEconomy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#096173",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-basic-economy-bold",
-                "ANDROID": "basicTokens.color.fare.alaska.basicEconomy.bold",
-                "iOS": "basicTokens.color.fare.alaska.basicEconomy.bold"
-              }
+    "Basic-Economy": {
+      "Subtle": {
+        "$type": "color",
+        "$value": "#ebfafd",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-basic-economy-subtle",
+              "ANDROID": "basicTokens.color.fare.basicEconomy.subtle",
+              "iOS": "basicTokens.color.fare.basicEconomy.subtle"
             }
           }
         }
       },
-      "Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#ebf7ff",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.alaska.economy.subtle",
-                "iOS": "basicTokens.color.fare.alaska.economy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#289bee",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-default",
-                "ANDROID": "basicTokens.color.fare.alaska.economy.default",
-                "iOS": "basicTokens.color.fare.alaska.economy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#005fa7",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-bold",
-                "ANDROID": "basicTokens.color.fare.alaska.economy.bold",
-                "iOS": "basicTokens.color.fare.alaska.economy.bold"
-              }
+      "Default": {
+        "$type": "color",
+        "$value": "#97eaf8",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-basic-economy-default",
+              "ANDROID": "basicTokens.color.fare.basicEconomy.default",
+              "iOS": "basicTokens.color.fare.basicEconomy.default"
             }
           }
         }
       },
-      "Economy-Extra-Legroom": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#ebf3f9",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-extra-legroom-subtle",
-                "ANDROID": "basicTokens.color.fare.alaska.economyExtraLegroom.subtle",
-                "iOS": "basicTokens.color.fare.alaska.economyExtraLegroom.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#265688",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-extra-legroom-default",
-                "ANDROID": "basicTokens.color.fare.alaska.economyExtraLegroom.default",
-                "iOS": "basicTokens.color.fare.alaska.economyExtraLegroom.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#265688",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-economy-extra-legroom-bold",
-                "ANDROID": "basicTokens.color.fare.alaska.economyExtraLegroom.bold",
-                "iOS": "basicTokens.color.fare.alaska.economyExtraLegroom.bold"
-              }
-            }
-          }
-        }
-      },
-      "Premium-Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#ecf0f3",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-premium-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.alaska.premiumEconomy.subtle",
-                "iOS": "basicTokens.color.fare.alaska.premiumEconomy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-premium-economy-default",
-                "ANDROID": "basicTokens.color.fare.alaska.premiumEconomy.default",
-                "iOS": "basicTokens.color.fare.alaska.premiumEconomy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-premium-economy-bold",
-                "ANDROID": "basicTokens.color.fare.alaska.premiumEconomy.bold",
-                "iOS": "basicTokens.color.fare.alaska.premiumEconomy.bold"
-              }
-            }
-          }
-        }
-      },
-      "First-Business": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#e9f1f1",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-first-business-subtle",
-                "ANDROID": "basicTokens.color.fare.alaska.firstBusiness.subtle",
-                "iOS": "basicTokens.color.fare.alaska.firstBusiness.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#005154",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-first-business-default",
-                "ANDROID": "basicTokens.color.fare.alaska.firstBusiness.default",
-                "iOS": "basicTokens.color.fare.alaska.firstBusiness.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#005154",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-first-business-bold",
-                "ANDROID": "basicTokens.color.fare.alaska.firstBusiness.bold",
-                "iOS": "basicTokens.color.fare.alaska.firstBusiness.bold"
-              }
-            }
-          }
-        },
-        "gradient-front": {
-          "$type": "color",
-          "$value": "#005154",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-first-business-gradient-front",
-                "ANDROID": "basicTokens.color.fare.alaska.firstBusiness.gradientFront",
-                "iOS": "basicTokens.color.fare.alaska.firstBusiness.gradientFront"
-              }
-            }
-          }
-        },
-        "gradient-back": {
-          "$type": "color",
-          "$value": "#00274a",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-alaska-first-business-gradient-back",
-                "ANDROID": "basicTokens.color.fare.alaska.firstBusiness.gradientBack",
-                "iOS": "basicTokens.color.fare.alaska.firstBusiness.gradientBack"
-              }
+      "Bold": {
+        "$type": "color",
+        "$value": "#096173",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-basic-economy-bold",
+              "ANDROID": "basicTokens.color.fare.basicEconomy.bold",
+              "iOS": "basicTokens.color.fare.basicEconomy.bold"
             }
           }
         }
@@ -1543,6 +1267,44 @@
       }
     },
     "Economy": {
+      "Subtle": {
+        "$type": "color",
+        "$value": "#ebf7ff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-subtle",
+              "ANDROID": "basicTokens.color.fare.economy.subtle",
+              "iOS": "basicTokens.color.fare.economy.subtle"
+            }
+          }
+        }
+      },
+      "Default": {
+        "$type": "color",
+        "$value": "#289bee",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-default",
+              "ANDROID": "basicTokens.color.fare.economy.default",
+              "iOS": "basicTokens.color.fare.economy.default"
+            }
+          }
+        }
+      },
       "$type": "color",
       "$value": "#0074ca",
       "$description": "",
@@ -1557,6 +1319,84 @@
             "WEB": "--ds-basic-color-fare-economy",
             "ANDROID": "basicTokens.color.fare.economy",
             "iOS": "basicTokens.color.fare.economy"
+          }
+        }
+      },
+      "Bold": {
+        "$type": "color",
+        "$value": "#005fa7",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-bold",
+              "ANDROID": "basicTokens.color.fare.economy.bold",
+              "iOS": "basicTokens.color.fare.economy.bold"
+            }
+          }
+        }
+      }
+    },
+    "Economy-Extra-Legroom": {
+      "Subtle": {
+        "$type": "color",
+        "$value": "#ebf3f9",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-extra-legroom-subtle",
+              "ANDROID": "basicTokens.color.fare.economyExtraLegroom.subtle",
+              "iOS": "basicTokens.color.fare.economyExtraLegroom.subtle"
+            }
+          }
+        }
+      },
+      "Default": {
+        "$type": "color",
+        "$value": "#265688",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-extra-legroom-default",
+              "ANDROID": "basicTokens.color.fare.economyExtraLegroom.default",
+              "iOS": "basicTokens.color.fare.economyExtraLegroom.default"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$type": "color",
+        "$value": "#265688",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-economy-extra-legroom-bold",
+              "ANDROID": "basicTokens.color.fare.economyExtraLegroom.bold",
+              "iOS": "basicTokens.color.fare.economyExtraLegroom.bold"
+            }
           }
         }
       }
@@ -1580,6 +1420,65 @@
         }
       }
     },
+    "Premium-Economy": {
+      "Subtle": {
+        "$type": "color",
+        "$value": "#ecf0f3",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-premium-economy-subtle",
+              "ANDROID": "basicTokens.color.fare.premiumEconomy.subtle",
+              "iOS": "basicTokens.color.fare.premiumEconomy.subtle"
+            }
+          }
+        }
+      },
+      "Default": {
+        "$type": "color",
+        "$value": "#00274a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-premium-economy-default",
+              "ANDROID": "basicTokens.color.fare.premiumEconomy.default",
+              "iOS": "basicTokens.color.fare.premiumEconomy.default"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$type": "color",
+        "$value": "#00274a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-premium-economy-bold",
+              "ANDROID": "basicTokens.color.fare.premiumEconomy.bold",
+              "iOS": "basicTokens.color.fare.premiumEconomy.bold"
+            }
+          }
+        }
+      }
+    },
     "Business": {
       "$type": "color",
       "$value": "#005154",
@@ -1595,6 +1494,103 @@
             "WEB": "--ds-basic-color-fare-business",
             "ANDROID": "basicTokens.color.fare.business",
             "iOS": "basicTokens.color.fare.business"
+          }
+        }
+      }
+    },
+    "First-Business": {
+      "Subtle": {
+        "$type": "color",
+        "$value": "#e9f1f1",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-first-business-subtle",
+              "ANDROID": "basicTokens.color.fare.firstBusiness.subtle",
+              "iOS": "basicTokens.color.fare.firstBusiness.subtle"
+            }
+          }
+        }
+      },
+      "Default": {
+        "$type": "color",
+        "$value": "#005154",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-first-business-default",
+              "ANDROID": "basicTokens.color.fare.firstBusiness.default",
+              "iOS": "basicTokens.color.fare.firstBusiness.default"
+            }
+          }
+        }
+      },
+      "Bold": {
+        "$type": "color",
+        "$value": "#005154",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-first-business-bold",
+              "ANDROID": "basicTokens.color.fare.firstBusiness.bold",
+              "iOS": "basicTokens.color.fare.firstBusiness.bold"
+            }
+          }
+        }
+      },
+      "gradient-front": {
+        "$type": "color",
+        "$value": "#005154",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-first-business-gradient-front",
+              "ANDROID": "basicTokens.color.fare.firstBusiness.gradientFront",
+              "iOS": "basicTokens.color.fare.firstBusiness.gradientFront"
+            }
+          }
+        }
+      },
+      "gradient-back": {
+        "$type": "color",
+        "$value": "#00274a",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {
+              "WEB": "--ds-basic-color-fare-first-business-gradient-back",
+              "ANDROID": "basicTokens.color.fare.firstBusiness.gradientBack",
+              "iOS": "basicTokens.color.fare.firstBusiness.gradientBack"
+            }
           }
         }
       }
@@ -1646,341 +1642,6 @@
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-fare-suites-back"
-          }
-        }
-      }
-    },
-    "Hawaiian": {
-      "Basic-Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#f5f7f7",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-basic-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.hawaiian.basicEconomy.subtle",
-                "iOS": "basicTokens.color.fare.hawaiian.basicEconomy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#ced0d0",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-basic-economy-default",
-                "ANDROID": "basicTokens.color.fare.hawaiian.basicEconomy.default",
-                "iOS": "basicTokens.color.fare.hawaiian.basicEconomy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#515252",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-basic-economy-bold",
-                "ANDROID": "basicTokens.color.fare.hawaiian.basicEconomy.bold",
-                "iOS": "basicTokens.color.fare.hawaiian.basicEconomy.bold"
-              }
-            }
-          }
-        }
-      },
-      "Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#ecf6f8",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economy.subtle",
-                "iOS": "basicTokens.color.fare.hawaiian.economy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#00a5ba",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-default",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economy.default",
-                "iOS": "basicTokens.color.fare.hawaiian.economy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#1b6976",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-bold",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economy.bold",
-                "iOS": "basicTokens.color.fare.hawaiian.economy.bold"
-              }
-            }
-          }
-        }
-      },
-      "Economy-Extra-Legroom": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#fdf1f8",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-extra-legroom-subtle",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economyExtraLegroom.subtle",
-                "iOS": "basicTokens.color.fare.hawaiian.economyExtraLegroom.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#ce0c88",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-extra-legroom-default",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economyExtraLegroom.default",
-                "iOS": "basicTokens.color.fare.hawaiian.economyExtraLegroom.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#a91770",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-economy-extra-legroom-bold",
-                "ANDROID": "basicTokens.color.fare.hawaiian.economyExtraLegroom.bold",
-                "iOS": "basicTokens.color.fare.hawaiian.economyExtraLegroom.bold"
-              }
-            }
-          }
-        }
-      },
-      "Premium-Economy": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#fdf1f8",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-premium-economy-subtle",
-                "ANDROID": "basicTokens.color.fare.hawaiian.premiumEconomy.subtle",
-                "iOS": "basicTokens.color.fare.hawaiian.premiumEconomy.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#831a57",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-premium-economy-default",
-                "ANDROID": "basicTokens.color.fare.hawaiian.premiumEconomy.default",
-                "iOS": "basicTokens.color.fare.hawaiian.premiumEconomy.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#831a57",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-premium-economy-bold",
-                "ANDROID": "basicTokens.color.fare.hawaiian.premiumEconomy.bold",
-                "iOS": "basicTokens.color.fare.hawaiian.premiumEconomy.bold"
-              }
-            }
-          }
-        }
-      },
-      "First-Business": {
-        "Subtle": {
-          "$type": "color",
-          "$value": "#edeaf4",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-first-business-subtle",
-                "ANDROID": "basicTokens.color.fare.hawaiian.firstBusiness.subtle",
-                "iOS": "basicTokens.color.fare.hawaiian.firstBusiness.subtle"
-              }
-            }
-          }
-        },
-        "Default": {
-          "$type": "color",
-          "$value": "#463c8f",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-first-business-default",
-                "ANDROID": "basicTokens.color.fare.hawaiian.firstBusiness.default",
-                "iOS": "basicTokens.color.fare.hawaiian.firstBusiness.default"
-              }
-            }
-          }
-        },
-        "Bold": {
-          "$type": "color",
-          "$value": "#463c8f",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": false,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-first-business-bold",
-                "ANDROID": "basicTokens.color.fare.hawaiian.firstBusiness.bold",
-                "iOS": "basicTokens.color.fare.hawaiian.firstBusiness.bold"
-              }
-            }
-          }
-        },
-        "gradient-front": {
-          "$type": "color",
-          "$value": "#463c8f",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-first-business-gradient-front",
-                "ANDROID": "basicTokens.color.fare.hawaiian.firstBusiness.gradientFront",
-                "iOS": "basicTokens.color.fare.hawaiian.firstBusiness.gradientFront"
-              }
-            }
-          }
-        },
-        "gradient-back": {
-          "$type": "color",
-          "$value": "#ce0c88",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [
-                "ALL_FILLS",
-                "STROKE_COLOR"
-              ],
-              "codeSyntax": {
-                "WEB": "--ds-basic-color-fare-hawaiian-first-business-gradient-back",
-                "ANDROID": "basicTokens.color.fare.hawaiian.firstBusiness.gradientBack",
-                "iOS": "basicTokens.color.fare.hawaiian.firstBusiness.gradientBack"
-              }
-            }
           }
         }
       }
@@ -2911,7 +2572,7 @@
         },
         "background-hover": {
           "$type": "color",
-          "$value": "#f2f2f2",
+          "$value": "#f1f3f3",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -2927,7 +2588,7 @@
         },
         "background-disabled": {
           "$type": "color",
-          "$value": "#f7f7f7",
+          "$value": "#f5f7f7",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -2975,7 +2636,7 @@
         },
         "border-inverse-disabled": {
           "$type": "color",
-          "$value": "#dddddd",
+          "$value": "#dbdddd",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3155,7 +2816,7 @@
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "#d0d0d0",
+          "$value": "#ced0d0",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3237,7 +2898,7 @@
       "flat": {
         "text": {
           "$type": "color",
-          "$value": "#676767",
+          "$value": "#666767",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3253,7 +2914,7 @@
         },
         "text-hover": {
           "$type": "color",
-          "$value": "#525252",
+          "$value": "#515252",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3269,7 +2930,7 @@
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "#d0d0d0",
+          "$value": "#ced0d0",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3301,7 +2962,7 @@
         },
         "text-inverse-hover": {
           "$type": "color",
-          "$value": "#adadad",
+          "$value": "#abadad",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -3910,7 +3571,7 @@
       },
       "disabled": {
         "$type": "color",
-        "$value": "#dddddd",
+        "$value": "#dbdddd",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4025,7 +3686,7 @@
       },
       "background-muted": {
         "$type": "color",
-        "$value": "#f7f7f7",
+        "$value": "#f5f7f7",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4042,7 +3703,7 @@
       },
       "background-strong": {
         "$type": "color",
-        "$value": "#676767",
+        "$value": "#666767",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4321,7 +3982,7 @@
       },
       "background-disabled": {
         "$type": "color",
-        "$value": "#dddddd",
+        "$value": "#dbdddd",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -4946,7 +4607,7 @@
         },
         "border": {
           "$type": "color",
-          "$value": "#dddddd",
+          "$value": "#dbdddd",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5116,7 +4777,7 @@
       "disabled": {
         "text": {
           "$type": "color",
-          "$value": "#d0d0d0",
+          "$value": "#ced0d0",
           "$description": "",
           "$extensions": {
             "com.figma": {

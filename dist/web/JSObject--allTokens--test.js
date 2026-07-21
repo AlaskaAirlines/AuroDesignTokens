@@ -3,11 +3,11 @@ module.exports = {
     "color": {
       "accents": {
         "accent1": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-accents-accent1",
           "attributes": {
@@ -24,11 +24,11 @@ module.exports = {
           ]
         },
         "accent1-bold": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-accents-accent1-bold",
           "attributes": {
@@ -45,11 +45,11 @@ module.exports = {
           ]
         },
         "accent1-muted": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-advanced-color-accents-accent1-muted",
           "attributes": {
@@ -66,11 +66,11 @@ module.exports = {
           ]
         },
         "accent2": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-accents-accent2",
           "attributes": {
@@ -87,11 +87,11 @@ module.exports = {
           ]
         },
         "accent2-bold": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-accents-accent2-bold",
           "attributes": {
@@ -108,11 +108,11 @@ module.exports = {
           ]
         },
         "accent2-muted": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-advanced-color-accents-accent2-muted",
           "attributes": {
@@ -129,11 +129,11 @@ module.exports = {
           ]
         },
         "accent3": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-accents-accent3",
           "attributes": {
@@ -150,11 +150,11 @@ module.exports = {
           ]
         },
         "accent3-bold": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-accents-accent3-bold",
           "attributes": {
@@ -171,11 +171,11 @@ module.exports = {
           ]
         },
         "accent3-muted": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-advanced-color-accents-accent3-muted",
           "attributes": {
@@ -192,11 +192,11 @@ module.exports = {
           ]
         },
         "accent4": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-accents-accent4",
           "attributes": {
@@ -213,11 +213,11 @@ module.exports = {
           ]
         },
         "accent4-bold": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-accents-accent4-bold",
           "attributes": {
@@ -234,11 +234,11 @@ module.exports = {
           ]
         },
         "accent4-muted": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-advanced-color-accents-accent4-muted",
           "attributes": {
@@ -255,11 +255,11 @@ module.exports = {
           ]
         },
         "default": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-accents-default",
           "attributes": {
@@ -276,11 +276,11 @@ module.exports = {
           ]
         },
         "default-inverse": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-accents-default-inverse",
           "attributes": {
@@ -341,11 +341,11 @@ module.exports = {
       },
       "avatar": {
         "gradient-bottom": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-avatar-gradient-bottom",
           "attributes": {
@@ -362,11 +362,11 @@ module.exports = {
           ]
         },
         "gradient-top": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-advanced-color-avatar-gradient-top",
           "attributes": {
@@ -385,11 +385,11 @@ module.exports = {
       },
       "boolean": {
         "disabled-inverse": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-boolean-disabled-inverse",
           "attributes": {
@@ -427,11 +427,11 @@ module.exports = {
           ]
         },
         "error-hover": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-advanced-color-boolean-error-hover",
           "attributes": {
@@ -448,11 +448,11 @@ module.exports = {
           ]
         },
         "error-inverse": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-advanced-color-boolean-error-inverse",
           "attributes": {
@@ -469,11 +469,11 @@ module.exports = {
           ]
         },
         "error-inverse-hover": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-advanced-color-boolean-error-inverse-hover",
           "attributes": {
@@ -511,11 +511,11 @@ module.exports = {
           ]
         },
         "indicator-inverse": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-boolean-indicator-inverse",
           "attributes": {
@@ -553,11 +553,11 @@ module.exports = {
           ]
         },
         "isfalse-border": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-advanced-color-boolean-isfalse-border",
           "attributes": {
@@ -658,11 +658,11 @@ module.exports = {
           ]
         },
         "istrue": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-boolean-istrue",
           "attributes": {
@@ -679,11 +679,11 @@ module.exports = {
           ]
         },
         "istrue-hover": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-advanced-color-boolean-istrue-hover",
           "attributes": {
@@ -745,11 +745,11 @@ module.exports = {
       "button": {
         "flat": {
           "text": {
-            "value": "#3d3d3d",
+            "value": "#3c3d3d",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#3d3d3d"
+              "value": "#3c3d3d"
             },
             "name": "ds-advanced-color-button-flat-text",
             "attributes": {
@@ -768,11 +768,11 @@ module.exports = {
             ]
           },
           "text-disabled": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-flat-text-disabled",
             "attributes": {
@@ -791,11 +791,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-flat-text-hover",
             "attributes": {
@@ -837,11 +837,11 @@ module.exports = {
             ]
           },
           "text-inverse-disabled": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-flat-text-inverse-disabled",
             "attributes": {
@@ -860,11 +860,11 @@ module.exports = {
             ]
           },
           "text-inverse-hover": {
-            "value": "#adadad",
+            "value": "#abadad",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#adadad"
+              "value": "#abadad"
             },
             "name": "ds-advanced-color-button-flat-text-inverse-hover",
             "attributes": {
@@ -931,11 +931,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-ghost-text",
             "attributes": {
@@ -954,11 +954,11 @@ module.exports = {
             ]
           },
           "text-disabled": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-ghost-text-disabled",
             "attributes": {
@@ -1000,11 +1000,11 @@ module.exports = {
             ]
           },
           "text-inverse-disabled": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-ghost-text-inverse-disabled",
             "attributes": {
@@ -1025,11 +1025,11 @@ module.exports = {
         },
         "primary": {
           "background": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-primary-background",
             "attributes": {
@@ -1048,11 +1048,11 @@ module.exports = {
             ]
           },
           "background-disabled": {
-            "value": "#c5c5c5",
+            "value": "#c3c5c5",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#c5c5c5"
+              "value": "#c3c5c5"
             },
             "name": "ds-advanced-color-button-primary-background-disabled",
             "attributes": {
@@ -1071,11 +1071,11 @@ module.exports = {
             ]
           },
           "background-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-background-hover",
             "attributes": {
@@ -1094,11 +1094,11 @@ module.exports = {
             ]
           },
           "background-inactive": {
-            "value": "#dddddd",
+            "value": "#dbdddd",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#dddddd"
+              "value": "#dbdddd"
             },
             "name": "ds-advanced-color-button-primary-background-inactive",
             "attributes": {
@@ -1117,11 +1117,11 @@ module.exports = {
             ]
           },
           "background-inactive-hover": {
-            "value": "#adadad",
+            "value": "#abadad",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#adadad"
+              "value": "#abadad"
             },
             "name": "ds-advanced-color-button-primary-background-inactive-hover",
             "attributes": {
@@ -1140,11 +1140,11 @@ module.exports = {
             ]
           },
           "background-inverse": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-primary-background-inverse",
             "attributes": {
@@ -1186,11 +1186,11 @@ module.exports = {
             ]
           },
           "background-inverse-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-background-inverse-hover",
             "attributes": {
@@ -1209,11 +1209,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-primary-border",
             "attributes": {
@@ -1232,11 +1232,11 @@ module.exports = {
             ]
           },
           "border-disabled": {
-            "value": "#c5c5c5",
+            "value": "#c3c5c5",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#c5c5c5"
+              "value": "#c3c5c5"
             },
             "name": "ds-advanced-color-button-primary-border-disabled",
             "attributes": {
@@ -1255,11 +1255,11 @@ module.exports = {
             ]
           },
           "border-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-border-hover",
             "attributes": {
@@ -1278,11 +1278,11 @@ module.exports = {
             ]
           },
           "border-inverse": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-primary-border-inverse",
             "attributes": {
@@ -1324,11 +1324,11 @@ module.exports = {
             ]
           },
           "border-inverse-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-border-inverse-hover",
             "attributes": {
@@ -1441,11 +1441,11 @@ module.exports = {
             ]
           },
           "background-disabled": {
-            "value": "#f7f7f7",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f7f7f7"
+              "value": "#f5f7f7"
             },
             "name": "ds-advanced-color-button-secondary-background-disabled",
             "attributes": {
@@ -1487,11 +1487,11 @@ module.exports = {
             ]
           },
           "background-inverse-hover": {
-            "value": "#f7f7f7",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f7f7f7"
+              "value": "#f5f7f7"
             },
             "name": "ds-advanced-color-button-secondary-background-inverse-hover",
             "attributes": {
@@ -1510,11 +1510,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-secondary-border",
             "attributes": {
@@ -1533,11 +1533,11 @@ module.exports = {
             ]
           },
           "border-disabled": {
-            "value": "#f7f7f7",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f7f7f7"
+              "value": "#f5f7f7"
             },
             "name": "ds-advanced-color-button-secondary-border-disabled",
             "attributes": {
@@ -1556,11 +1556,11 @@ module.exports = {
             ]
           },
           "border-hover": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-secondary-border-hover",
             "attributes": {
@@ -1579,11 +1579,11 @@ module.exports = {
             ]
           },
           "border-inverse": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-button-secondary-border-inverse",
             "attributes": {
@@ -1602,11 +1602,11 @@ module.exports = {
             ]
           },
           "border-inverse-disabled": {
-            "value": "#dddddd",
+            "value": "#dbdddd",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#dddddd"
+              "value": "#dbdddd"
             },
             "name": "ds-advanced-color-button-secondary-border-inverse-disabled",
             "attributes": {
@@ -1625,11 +1625,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-secondary-text",
             "attributes": {
@@ -1648,11 +1648,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-secondary-text-hover",
             "attributes": {
@@ -1788,11 +1788,11 @@ module.exports = {
             ]
           },
           "text": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-tertiary-text",
             "attributes": {
@@ -1811,11 +1811,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-tertiary-text-hover",
             "attributes": {
@@ -1860,11 +1860,11 @@ module.exports = {
       },
       "dropdown-emphasized": {
         "background": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-advanced-color-dropdown-emphasized-background",
           "attributes": {
@@ -1881,11 +1881,11 @@ module.exports = {
           ]
         },
         "background-hover": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-dropdown-emphasized-background-hover",
           "attributes": {
@@ -1905,11 +1905,11 @@ module.exports = {
       "expanded": {
         "widget": {
           "background": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-expanded-widget-background",
             "attributes": {
@@ -1975,11 +1975,11 @@ module.exports = {
       },
       "footer": {
         "background": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-advanced-color-footer-background",
           "attributes": {
@@ -2129,11 +2129,11 @@ module.exports = {
             ]
           },
           "border": {
-            "value": "#d0d0d0",
+            "value": "#ced0d0",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#d0d0d0"
+              "value": "#ced0d0"
             },
             "name": "ds-advanced-color-header-button-border",
             "attributes": {
@@ -2152,11 +2152,11 @@ module.exports = {
             ]
           },
           "signedin-background": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-header-button-signedin-background",
             "attributes": {
@@ -2175,11 +2175,11 @@ module.exports = {
             ]
           },
           "signedin-background-hover": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-header-button-signedin-background-hover",
             "attributes": {
@@ -2268,11 +2268,11 @@ module.exports = {
       },
       "hyperlink": {
         "text": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-advanced-color-hyperlink-text",
           "attributes": {
@@ -2289,11 +2289,11 @@ module.exports = {
           ]
         },
         "text-hover": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-advanced-color-hyperlink-text-hover",
           "attributes": {
@@ -2396,11 +2396,11 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-interactive-disabled",
           "attributes": {
@@ -2522,11 +2522,11 @@ module.exports = {
           ]
         },
         "focused": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-interactive-focused",
           "attributes": {
@@ -2627,11 +2627,11 @@ module.exports = {
           ]
         },
         "selection-indicator-inverse": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-interactive-selection-indicator-inverse",
           "attributes": {
@@ -2732,11 +2732,11 @@ module.exports = {
           ]
         },
         "selection-on": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-interactive-selection-on",
           "attributes": {
@@ -2753,11 +2753,11 @@ module.exports = {
           ]
         },
         "selection-on-hover": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-advanced-color-interactive-selection-on-hover",
           "attributes": {
@@ -2902,11 +2902,11 @@ module.exports = {
           ]
         },
         "background-muted": {
-          "value": "#f7f7f7",
+          "value": "#f5f7f7",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f7f7f7"
+            "value": "#f5f7f7"
           },
           "name": "ds-advanced-color-shared-background-muted",
           "attributes": {
@@ -2923,11 +2923,11 @@ module.exports = {
           ]
         },
         "background-strong": {
-          "value": "#676767",
+          "value": "#666767",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#676767"
+            "value": "#666767"
           },
           "name": "ds-advanced-color-shared-background-strong",
           "attributes": {
@@ -3007,11 +3007,11 @@ module.exports = {
           ]
         },
         "text-accent": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-shared-text-accent",
           "attributes": {
@@ -3030,11 +3030,11 @@ module.exports = {
       },
       "skeleton": {
         "background": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-advanced-color-skeleton-background",
           "attributes": {
@@ -3051,11 +3051,11 @@ module.exports = {
           ]
         },
         "wave": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-skeleton-wave",
           "attributes": {
@@ -3074,11 +3074,11 @@ module.exports = {
       },
       "state": {
         "background-disabled": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-advanced-color-state-background-disabled",
           "attributes": {
@@ -3116,11 +3116,11 @@ module.exports = {
           ]
         },
         "background-inverse-disabled": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-state-background-inverse-disabled",
           "attributes": {
@@ -3158,11 +3158,11 @@ module.exports = {
           ]
         },
         "focused": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-state-focused",
           "attributes": {
@@ -3242,11 +3242,11 @@ module.exports = {
           ]
         },
         "selected": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-state-selected",
           "attributes": {
@@ -3263,11 +3263,11 @@ module.exports = {
           ]
         },
         "selected-hover": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-advanced-color-state-selected-hover",
           "attributes": {
@@ -3349,11 +3349,11 @@ module.exports = {
           ]
         },
         "thumb-inverse-on": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-switch-thumb-inverse-on",
           "attributes": {
@@ -3580,11 +3580,11 @@ module.exports = {
           ]
         },
         "track-on": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-advanced-color-switch-track-on",
           "attributes": {
@@ -3601,11 +3601,11 @@ module.exports = {
           ]
         },
         "track-on-hover": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-advanced-color-switch-track-on-hover",
           "attributes": {
@@ -3628,11 +3628,11 @@ module.exports = {
     "color": {
       "border": {
         "bold": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-border-bold",
           "attributes": {
@@ -3649,11 +3649,11 @@ module.exports = {
           ]
         },
         "brand": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-border-brand",
           "attributes": {
@@ -3670,11 +3670,11 @@ module.exports = {
           ]
         },
         "default": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-border-default",
           "attributes": {
@@ -3754,11 +3754,11 @@ module.exports = {
           ]
         },
         "subtle": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-border-subtle",
           "attributes": {
@@ -3777,11 +3777,11 @@ module.exports = {
       },
       "brand": {
         "primary": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-brand-primary",
           "attributes": {
@@ -3798,11 +3798,11 @@ module.exports = {
           ]
         },
         "primary-bold": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-brand-primary-bold",
           "attributes": {
@@ -3819,11 +3819,11 @@ module.exports = {
           ]
         },
         "primary-muted": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-brand-primary-muted",
           "attributes": {
@@ -3840,11 +3840,11 @@ module.exports = {
           ]
         },
         "primary-subtle": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-brand-primary-subtle",
           "attributes": {
@@ -3861,11 +3861,11 @@ module.exports = {
           ]
         },
         "secondary": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-brand-secondary",
           "attributes": {
@@ -3882,11 +3882,11 @@ module.exports = {
           ]
         },
         "secondary-bold": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-brand-secondary-bold",
           "attributes": {
@@ -3903,11 +3903,11 @@ module.exports = {
           ]
         },
         "secondary-muted": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-brand-secondary-muted",
           "attributes": {
@@ -3924,11 +3924,11 @@ module.exports = {
           ]
         },
         "secondary-subtle": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-brand-secondary-subtle",
           "attributes": {
@@ -3945,11 +3945,11 @@ module.exports = {
           ]
         },
         "tertiary": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-brand-tertiary",
           "attributes": {
@@ -3966,11 +3966,11 @@ module.exports = {
           ]
         },
         "tertiary-bold": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-brand-tertiary-bold",
           "attributes": {
@@ -3987,11 +3987,11 @@ module.exports = {
           ]
         },
         "tertiary-muted": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-brand-tertiary-muted",
           "attributes": {
@@ -4008,11 +4008,11 @@ module.exports = {
           ]
         },
         "tertiary-subtle": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-brand-tertiary-subtle",
           "attributes": {
@@ -4030,432 +4030,83 @@ module.exports = {
         }
       },
       "fare": {
-        "alaska": {
-          "basic-economy": {
-            "bold": {
-              "value": "#3c3d3d",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#3c3d3d"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "bold"
-              ]
+        "basic-economy": {
+          "bold": {
+            "value": "#3c3d3d",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#3c3d3d"
             },
-            "default": {
-              "value": "#abadad",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#abadad"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "bold"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-alaska-basic-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "basic-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "bold"
+            ]
           },
-          "economy": {
-            "bold": {
-              "value": "#7d7e7e",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#7d7e7e"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "bold"
-              ]
+          "default": {
+            "value": "#abadad",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#abadad"
             },
-            "default": {
-              "value": "#949595",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#949595"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "default"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "default"
+            ]
           },
-          "economy-extra-legroom": {
-            "bold": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "bold"
-              ]
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#f5f7f7"
             },
-            "default": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-basic-economy-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "basic-economy",
+              "state": "subtle"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-alaska-economy-extra-legroom-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "economy-extra-legroom",
-                "subtle"
-              ]
-            }
-          },
-          "first-business": {
-            "bold": {
-              "value": "#3c3d3d",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#3c3d3d"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "bold"
-              ]
-            },
-            "default": {
-              "value": "#3c3d3d",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#3c3d3d"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "default"
-              ]
-            },
-            "gradient-back": {
-              "value": "#2a2a2a",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#2a2a2a"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-gradient-back",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "gradient-back"
-              ]
-            },
-            "gradient-front": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-gradient-front",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "gradient-front"
-              ]
-            },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-alaska-first-business-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "first-business",
-                "subtle"
-              ]
-            }
-          },
-          "premium-economy": {
-            "bold": {
-              "value": "#2a2a2a",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#2a2a2a"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "bold"
-              ]
-            },
-            "default": {
-              "value": "#2a2a2a",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#2a2a2a"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "default"
-              ]
-            },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-alaska-premium-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "alaska",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "alaska",
-                "premium-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "basic-economy",
+              "subtle"
+            ]
           }
         },
         "basiceconomy": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-fare-basiceconomy",
           "attributes": {
@@ -4472,11 +4123,11 @@ module.exports = {
           ]
         },
         "business": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-basic-color-fare-business",
           "attributes": {
@@ -4493,11 +4144,41 @@ module.exports = {
           ]
         },
         "economy": {
-          "value": "#676767",
+          "bold": {
+            "value": "#7d7e7e",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true
+          },
+          "default": {
+            "value": "#949595",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true
+          },
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true
+          },
+          "value": "#666767",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#676767"
+            "bold": {
+              "value": "#7d7e7e",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true
+            },
+            "default": {
+              "value": "#949595",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true
+            },
+            "subtle": {
+              "value": "#f5f7f7",
+              "filePath": "processed/web/Blueprint_theme.Light.json",
+              "isSource": true
+            },
+            "value": "#666767"
           },
           "name": "ds-basic-color-fare-economy",
           "attributes": {
@@ -4512,6 +4193,77 @@ module.exports = {
             "fare",
             "economy"
           ]
+        },
+        "economy-extra-legroom": {
+          "bold": {
+            "value": "#515252",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#515252"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#515252",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#515252"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#f5f7f7"
+            },
+            "name": "ds-basic-color-fare-economy-extra-legroom-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-extra-legroom",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-extra-legroom",
+              "subtle"
+            ]
+          }
         },
         "first": {
           "value": "#2a2a2a",
@@ -4534,432 +4286,200 @@ module.exports = {
             "first"
           ]
         },
-        "hawaiian": {
-          "basic-economy": {
-            "bold": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "bold"
-              ]
+        "first-business": {
+          "bold": {
+            "value": "#3c3d3d",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#3c3d3d"
             },
-            "default": {
-              "value": "#ced0d0",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#ced0d0"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "bold"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-basic-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "basic-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "basic-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "bold"
+            ]
           },
-          "economy": {
-            "bold": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "bold"
-              ]
+          "default": {
+            "value": "#3c3d3d",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#3c3d3d"
             },
-            "default": {
-              "value": "#7d7e7e",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#7d7e7e"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "default"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "default"
+            ]
           },
-          "economy-extra-legroom": {
-            "bold": {
-              "value": "#666767",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#666767"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "bold"
-              ]
+          "gradient-back": {
+            "value": "#2a2a2a",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#2a2a2a"
             },
-            "default": {
-              "value": "#7d7e7e",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#7d7e7e"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-gradient-back",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "gradient-back"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-economy-extra-legroom-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "economy-extra-legroom"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "economy-extra-legroom",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "gradient-back"
+            ]
           },
-          "first-business": {
-            "bold": {
-              "value": "#7d7e7e",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#7d7e7e"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "bold"
-              ]
+          "gradient-front": {
+            "value": "#515252",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#515252"
             },
-            "default": {
-              "value": "#7d7e7e",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#7d7e7e"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-gradient-front",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "gradient-front"
             },
-            "gradient-back": {
-              "value": "#2a2a2a",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#2a2a2a"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-back",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "gradient-back"
-              ]
-            },
-            "gradient-front": {
-              "value": "#666767",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#666767"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-gradient-front",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "gradient-front"
-              ]
-            },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-first-business-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "first-business"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "first-business",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "gradient-front"
+            ]
           },
-          "premium-economy": {
-            "bold": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-bold",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "bold"
-              ]
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#f5f7f7"
             },
-            "default": {
-              "value": "#515252",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#515252"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-default",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "default"
-              ]
+            "name": "ds-basic-color-fare-first-business-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "first-business",
+              "state": "subtle"
             },
-            "subtle": {
-              "value": "#f5f7f7",
-              "filePath": "processed/web/Blueprint_theme.Light.json",
-              "isSource": true,
-              "original": {
-                "value": "#f5f7f7"
-              },
-              "name": "ds-basic-color-fare-hawaiian-premium-economy-subtle",
-              "attributes": {
-                "category": "basic",
-                "type": "color",
-                "item": "fare",
-                "subitem": "hawaiian",
-                "state": "premium-economy"
-              },
-              "path": [
-                "basic",
-                "color",
-                "fare",
-                "hawaiian",
-                "premium-economy",
-                "subtle"
-              ]
-            }
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "first-business",
+              "subtle"
+            ]
+          }
+        },
+        "premium-economy": {
+          "bold": {
+            "value": "#2a2a2a",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#2a2a2a"
+            },
+            "name": "ds-basic-color-fare-premium-economy-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#2a2a2a",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#2a2a2a"
+            },
+            "name": "ds-basic-color-fare-premium-economy-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#f5f7f7",
+            "filePath": "processed/web/Blueprint_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#f5f7f7"
+            },
+            "name": "ds-basic-color-fare-premium-economy-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "premium-economy",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "premium-economy",
+              "subtle"
+            ]
           }
         },
         "premiumeconomy": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {
@@ -4976,11 +4496,11 @@ module.exports = {
           ]
         },
         "suites-back": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-fare-suites-back",
           "attributes": {
@@ -4997,11 +4517,11 @@ module.exports = {
           ]
         },
         "suites-front": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-fare-suites-front",
           "attributes": {
@@ -5064,11 +4584,11 @@ module.exports = {
       },
       "status": {
         "default": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-status-default",
           "attributes": {
@@ -5085,11 +4605,11 @@ module.exports = {
           ]
         },
         "error": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-status-error",
           "attributes": {
@@ -5106,11 +4626,11 @@ module.exports = {
           ]
         },
         "error-subtle": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-status-error-subtle",
           "attributes": {
@@ -5127,11 +4647,11 @@ module.exports = {
           ]
         },
         "info": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-status-info",
           "attributes": {
@@ -5148,11 +4668,11 @@ module.exports = {
           ]
         },
         "info-subtle": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-status-info-subtle",
           "attributes": {
@@ -5169,11 +4689,11 @@ module.exports = {
           ]
         },
         "success": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-status-success",
           "attributes": {
@@ -5190,11 +4710,11 @@ module.exports = {
           ]
         },
         "success-subtle": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-status-success-subtle",
           "attributes": {
@@ -5211,11 +4731,11 @@ module.exports = {
           ]
         },
         "warning": {
-          "value": "#959595",
+          "value": "#949595",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#959595"
+            "value": "#949595"
           },
           "name": "ds-basic-color-status-warning",
           "attributes": {
@@ -5232,11 +4752,11 @@ module.exports = {
           ]
         },
         "warning-subtle": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-status-warning-subtle",
           "attributes": {
@@ -5255,11 +4775,11 @@ module.exports = {
       },
       "surface": {
         "accent1": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-surface-accent1",
           "attributes": {
@@ -5276,11 +4796,11 @@ module.exports = {
           ]
         },
         "accent1-muted": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-surface-accent1-muted",
           "attributes": {
@@ -5297,11 +4817,11 @@ module.exports = {
           ]
         },
         "accent1-subtle": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-surface-accent1-subtle",
           "attributes": {
@@ -5318,11 +4838,11 @@ module.exports = {
           ]
         },
         "accent2": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-surface-accent2",
           "attributes": {
@@ -5339,11 +4859,11 @@ module.exports = {
           ]
         },
         "accent2-muted": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-surface-accent2-muted",
           "attributes": {
@@ -5381,11 +4901,11 @@ module.exports = {
           ]
         },
         "inverse": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-surface-inverse",
           "attributes": {
@@ -5402,11 +4922,11 @@ module.exports = {
           ]
         },
         "inverse-subtle": {
-          "value": "#adadad",
+          "value": "#abadad",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#adadad"
+            "value": "#abadad"
           },
           "name": "ds-basic-color-surface-inverse-subtle",
           "attributes": {
@@ -5423,11 +4943,11 @@ module.exports = {
           ]
         },
         "neutral": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-surface-neutral",
           "attributes": {
@@ -5444,11 +4964,11 @@ module.exports = {
           ]
         },
         "neutral-medium": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-surface-neutral-medium",
           "attributes": {
@@ -5465,11 +4985,11 @@ module.exports = {
           ]
         },
         "neutral-subtle": {
-          "value": "#f2f2f2",
+          "value": "#f1f3f3",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#f2f2f2"
+            "value": "#f1f3f3"
           },
           "name": "ds-basic-color-surface-neutral-subtle",
           "attributes": {
@@ -5488,11 +5008,11 @@ module.exports = {
       },
       "texticon": {
         "accent1": {
-          "value": "#525252",
+          "value": "#515252",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#525252"
+            "value": "#515252"
           },
           "name": "ds-basic-color-texticon-accent1",
           "attributes": {
@@ -5530,11 +5050,11 @@ module.exports = {
           ]
         },
         "disabled": {
-          "value": "#d0d0d0",
+          "value": "#ced0d0",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#d0d0d0"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-texticon-disabled",
           "attributes": {
@@ -5572,11 +5092,11 @@ module.exports = {
           ]
         },
         "inverse-disabled": {
-          "value": "#7e7e7e",
+          "value": "#7d7e7e",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#7e7e7e"
+            "value": "#7d7e7e"
           },
           "name": "ds-basic-color-texticon-inverse-disabled",
           "attributes": {
@@ -5593,11 +5113,11 @@ module.exports = {
           ]
         },
         "inverse-muted": {
-          "value": "#c5c5c5",
+          "value": "#c3c5c5",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#c5c5c5"
+            "value": "#c3c5c5"
           },
           "name": "ds-basic-color-texticon-inverse-muted",
           "attributes": {
@@ -5614,11 +5134,11 @@ module.exports = {
           ]
         },
         "link-default": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-basic-color-texticon-link-default",
           "attributes": {
@@ -5635,11 +5155,11 @@ module.exports = {
           ]
         },
         "link-hover": {
-          "value": "#676767",
+          "value": "#666767",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#676767"
+            "value": "#666767"
           },
           "name": "ds-basic-color-texticon-link-hover",
           "attributes": {
@@ -5677,11 +5197,11 @@ module.exports = {
           ]
         },
         "link-inverse-hover": {
-          "value": "#dddddd",
+          "value": "#dbdddd",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#dddddd"
+            "value": "#dbdddd"
           },
           "name": "ds-basic-color-texticon-link-inverse-hover",
           "attributes": {
@@ -5698,11 +5218,11 @@ module.exports = {
           ]
         },
         "muted": {
-          "value": "#3d3d3d",
+          "value": "#3c3d3d",
           "filePath": "processed/web/Blueprint_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#3d3d3d"
+            "value": "#3c3d3d"
           },
           "name": "ds-basic-color-texticon-muted",
           "attributes": {
@@ -5722,11 +5242,11 @@ module.exports = {
       "tier-program": {
         "loungetier": {
           "lounge": {
-            "value": "#3d3d3d",
+            "value": "#3c3d3d",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#3d3d3d"
+              "value": "#3c3d3d"
             },
             "name": "ds-basic-color-tier-program-loungetier-lounge",
             "attributes": {
@@ -5745,11 +5265,11 @@ module.exports = {
             ]
           },
           "loungeplus": {
-            "value": "#7e7e7e",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7e7e7e"
+              "value": "#7d7e7e"
             },
             "name": "ds-basic-color-tier-program-loungetier-loungeplus",
             "attributes": {
@@ -5770,11 +5290,11 @@ module.exports = {
         },
         "loyaltytier": {
           "gold": {
-            "value": "#c5c5c5",
+            "value": "#c3c5c5",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#c5c5c5"
+              "value": "#c3c5c5"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-gold",
             "attributes": {
@@ -5793,11 +5313,11 @@ module.exports = {
             ]
           },
           "gold-muted": {
-            "value": "#dddddd",
+            "value": "#dbdddd",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#dddddd"
+              "value": "#dbdddd"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-gold-muted",
             "attributes": {
@@ -5816,11 +5336,11 @@ module.exports = {
             ]
           },
           "platinum": {
-            "value": "#adadad",
+            "value": "#abadad",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#adadad"
+              "value": "#abadad"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-platinum",
             "attributes": {
@@ -5839,11 +5359,11 @@ module.exports = {
             ]
           },
           "platinum-muted": {
-            "value": "#c5c5c5",
+            "value": "#c3c5c5",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#c5c5c5"
+              "value": "#c3c5c5"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-platinum-muted",
             "attributes": {
@@ -5862,11 +5382,11 @@ module.exports = {
             ]
           },
           "silver": {
-            "value": "#f2f2f2",
+            "value": "#f1f3f3",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f2f2f2"
+              "value": "#f1f3f3"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-silver",
             "attributes": {
@@ -5885,11 +5405,11 @@ module.exports = {
             ]
           },
           "silver-muted": {
-            "value": "#f2f2f2",
+            "value": "#f1f3f3",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#f2f2f2"
+              "value": "#f1f3f3"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-silver-muted",
             "attributes": {
@@ -5931,11 +5451,11 @@ module.exports = {
             ]
           },
           "titanium-muted": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-basic-color-tier-program-loyaltytier-titanium-muted",
             "attributes": {
@@ -5956,11 +5476,11 @@ module.exports = {
         },
         "oneworld": {
           "emerald": {
-            "value": "#525252",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#525252"
+              "value": "#515252"
             },
             "name": "ds-basic-color-tier-program-oneworld-emerald",
             "attributes": {
@@ -6002,11 +5522,11 @@ module.exports = {
             ]
           },
           "sapphire": {
-            "value": "#3d3d3d",
+            "value": "#3c3d3d",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#3d3d3d"
+              "value": "#3c3d3d"
             },
             "name": "ds-basic-color-tier-program-oneworld-sapphire",
             "attributes": {
