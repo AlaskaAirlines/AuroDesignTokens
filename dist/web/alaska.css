@@ -1,5 +1,6 @@
 :root,
-[data-aag-theme="aag-theme-as"] {
+[data-aag-theme="aag-theme-as"],
+[data-aag-theme="aag-theme-as-color"] {
   --ds-advanced-color-accents-accent1: #b2d583;
   --ds-advanced-color-accents-accent1-bold: #92c450;
   --ds-advanced-color-accents-accent1-muted: #deedca;
@@ -271,6 +272,11 @@
   --ds-basic-color-tier-program-oneworld-emerald: #139142;
   --ds-basic-color-tier-program-oneworld-ruby: #a41d4a;
   --ds-basic-color-tier-program-oneworld-sapphire: #015daa;
+}
+
+:root,
+[data-aag-theme="aag-theme-as"],
+[data-aag-theme="aag-theme-as-typography"] {
   --ds-basic-type-brand-family-primary: "AS Circular";
   --ds-basic-type-brand-family-secondary: "Good OT";
   --ds-basic-type-brand-letter-spacing-primary: 0;
@@ -309,7 +315,8 @@
   --ds-basic-type-weight-heading2: 450;
 }
 
-[data-aag-theme="aag-theme-atm"] {
+[data-aag-theme="aag-theme-atm"],
+[data-aag-theme="aag-theme-atm-color"] {
   --ds-advanced-color-accents-accent1: #c2d5d6;
   --ds-advanced-color-accents-accent1-bold: #3d7a7d;
   --ds-advanced-color-accents-accent1-muted: #dfe9ea;
@@ -581,6 +588,10 @@
   --ds-basic-color-tier-program-oneworld-emerald: #139142;
   --ds-basic-color-tier-program-oneworld-ruby: #a41d4a;
   --ds-basic-color-tier-program-oneworld-sapphire: #015daa;
+}
+
+[data-aag-theme="aag-theme-atm"],
+[data-aag-theme="aag-theme-atm-typography"] {
   --ds-basic-type-brand-family-primary: "AS Circular";
   --ds-basic-type-brand-family-secondary: Teodor;
   --ds-basic-type-brand-letter-spacing-primary: 0;
@@ -619,7 +630,8 @@
   --ds-basic-type-weight-heading2: 300;
 }
 
-[data-aag-theme="aag-theme-ha"] {
+[data-aag-theme="aag-theme-ha"],
+[data-aag-theme="aag-theme-ha-color"] {
   --ds-advanced-color-accents-accent1: #8ec891;
   --ds-advanced-color-accents-accent1-bold: #5db060;
   --ds-advanced-color-accents-accent1-muted: #d2e9d4;
@@ -891,6 +903,10 @@
   --ds-basic-color-tier-program-oneworld-emerald: #139142;
   --ds-basic-color-tier-program-oneworld-ruby: #a41d4a;
   --ds-basic-color-tier-program-oneworld-sapphire: #015daa;
+}
+
+[data-aag-theme="aag-theme-ha"],
+[data-aag-theme="aag-theme-ha-typography"] {
   --ds-basic-type-brand-family-primary: "Slate Pro";
   --ds-basic-type-brand-family-secondary: "Chronicle Display";
   --ds-basic-type-brand-letter-spacing-primary: 0;

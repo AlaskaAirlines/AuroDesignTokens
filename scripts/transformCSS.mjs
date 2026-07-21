@@ -21,7 +21,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import postcss from 'postcss';
 import cssnano from 'cssnano';
-import { THEME_DEFINITIONS, getThemeAttribute } from '../src/config/themes.js';
+import { THEME_DEFINITIONS } from '../src/config/themes.js';
 import { PATHS, CSS, WEB_THEME_DEFINITIONS } from '../src/config/constants.js';
 import cssnanoConfig from '../src/config/cssnano.js';
 
@@ -61,7 +61,6 @@ async function transformCSSFiles() {
     
     // Process each directory and its associated scope
     for (const { dir, code } of THEME_DEFINITIONS) {
-      const scope = getThemeAttribute(code);
       
       // Look first in the themes directory, then fall back to direct dist directory
       let cssFiles = await findCSSFiles(path.join(PATHS.DIST, 'themes'), dir);
@@ -82,23 +81,45 @@ async function transformCSSFiles() {
         // Use postcss to parse the CSS
         const result = await postcss().process(content, { from: filePath });
         
-        // Extract custom properties from root
-  /** @type {string[]} */
-  let customProperties = [];
+        // Extract custom properties from root, split into color and typography
+        /** @type {string[]} */
+        let colorProperties = [];
+        /** @type {string[]} */
+        let typographyProperties = [];
+        /** @type {string[]} */
+        let otherProperties = [];
         result.root.walkRules(rule => {
           if (rule.selector === CSS.ROOT_SELECTOR) {
             rule.walkDecls(decl => {
               if (decl.prop.startsWith('--')) {
-                customProperties.push(`  ${decl.prop}: ${decl.value};`);
+                const propStr = `  ${decl.prop}: ${decl.value};`;
+                if (decl.prop.includes('-type-')) {
+                  typographyProperties.push(propStr);
+                } else if (decl.prop.includes('-color-')) {
+                  colorProperties.push(propStr);
+                } else {
+                  otherProperties.push(propStr);
+                }
               }
             });
           }
         });
         
-        if (customProperties.length > 0) {
-          const propertiesStr = customProperties.join('\n');
-          const rescopedCSS = `[${scope}] {\n${propertiesStr}\n}`;
-          combinedCSS += `/* Properties from ${path.basename(filePath)} */\n${rescopedCSS}\n\n`;
+        const themeCode = `aag-theme-${code}`;
+        if (colorProperties.length > 0) {
+          const colorStr = colorProperties.join('\n');
+          const colorSelector = `[data-aag-theme="${themeCode}"], [data-aag-theme="${themeCode}-color"]`;
+          combinedCSS += `/* Color properties from ${path.basename(filePath)} */\n${colorSelector} {\n${colorStr}\n}\n\n`;
+        }
+        if (typographyProperties.length > 0) {
+          const typeStr = typographyProperties.join('\n');
+          const typeSelector = `[data-aag-theme="${themeCode}"], [data-aag-theme="${themeCode}-typography"]`;
+          combinedCSS += `/* Typography properties from ${path.basename(filePath)} */\n${typeSelector} {\n${typeStr}\n}\n\n`;
+        }
+        if (otherProperties.length > 0) {
+          const otherStr = otherProperties.join('\n');
+          const otherSelector = `[data-aag-theme="${themeCode}"]`;
+          combinedCSS += `/* Other properties from ${path.basename(filePath)} */\n${otherSelector} {\n${otherStr}\n}\n\n`;
         }
         
         // Add to minification queue
@@ -174,22 +195,32 @@ async function transformCSSFiles() {
 }
 
 /**
- * Rewrites each dist/web CSS theme file to contain a full 3-block multi-theme selector set.
+ * Rewrites each dist/web CSS theme file to contain multi-theme selector blocks
+ * split into color and typography groups.
  *
- * For the file\'s own theme:
+ * For the file's own theme:
  *   :root,
- *   [data-aag-theme="<code>"] { ...vars... }
+ *   [data-aag-theme="<code>"],
+ *   [data-aag-theme-color="<code>"] { ...color vars... }
+ *
+ *   :root,
+ *   [data-aag-theme="<code>"],
+ *   [data-aag-theme-typography="<code>"] { ...type vars... }
  *
  * For every other web theme (in definition order):
- *   [data-aag-theme="<other-code>"] { ...vars... }
+ *   [data-aag-theme="<other-code>"],
+ *   [data-aag-theme-color="<other-code>"] { ...color vars... }
+ *
+ *   [data-aag-theme="<other-code>"],
+ *   [data-aag-theme-typography="<other-code>"] { ...type vars... }
  *
  * CSS custom properties are extracted from the :root block written by Style Dictionary.
  */
 async function transformWebCSSFiles() {
   const webDir = path.join(PATHS.DIST, 'web');
 
-  // Step 1: Read custom properties from each theme file
-  /** @type {Record<string, string[]>} */
+  // Step 1: Read custom properties from each theme file, split into color, typography, and other
+  /** @type {Record<string, {color: string[], typography: string[], other: string[]}>} */
   const themeVars = {};
   for (const theme of WEB_THEME_DEFINITIONS) {
     const filePath = path.join(webDir, theme.file);
@@ -197,44 +228,69 @@ async function transformWebCSSFiles() {
       const content = await fs.readFile(filePath, 'utf8');
       const result = await postcss().process(content, { from: filePath });
       /** @type {string[]} */
-      const props = [];
+      const colorProps = [];
+      /** @type {string[]} */
+      const typeProps = [];
+      /** @type {string[]} */
+      const otherProps = [];
       result.root.walkRules(rule => {
         if (rule.selector === CSS.ROOT_SELECTOR) {
           rule.walkDecls(decl => {
             if (decl.prop.startsWith('--')) {
-              props.push(`  ${decl.prop}: ${decl.value};`);
+              const propStr = `  ${decl.prop}: ${decl.value};`;
+              if (decl.prop.includes('-type-')) {
+                typeProps.push(propStr);
+              } else if (decl.prop.includes('-color-')) {
+                colorProps.push(propStr);
+              } else {
+                otherProps.push(propStr);
+              }
             }
           });
         }
       });
-      themeVars[theme.code] = props;
-      console.log(`Read ${props.length} custom properties from web/${theme.file}`);
+      themeVars[theme.code] = { color: colorProps, typography: typeProps, other: otherProps };
+      console.log(`Read ${colorProps.length} color, ${typeProps.length} typography, and ${otherProps.length} other properties from web/${theme.file}`);
     } catch (error) {
       console.warn(`Warning: Could not read web/${theme.file}: ${error instanceof Error ? error.message : String(error)}`);
-      themeVars[theme.code] = [];
+      themeVars[theme.code] = { color: [], typography: [], other: [] };
     }
   }
 
-  // Step 2: Rewrite each theme file with ordered multi-theme selector blocks
+  // Step 2: Rewrite each theme file with ordered multi-theme selector blocks (color + typography)
   for (const theme of WEB_THEME_DEFINITIONS) {
     const filePath = path.join(webDir, theme.file);
     const ownVars = themeVars[theme.code];
-    if (!ownVars || ownVars.length === 0) {
+    if ((!ownVars.color || ownVars.color.length === 0) && (!ownVars.typography || ownVars.typography.length === 0) && (!ownVars.other || ownVars.other.length === 0)) {
       console.warn(`Skipping web/${theme.file}: no custom properties found`);
       continue;
     }
 
     const blocks = [];
 
-    // Own theme: :root combined with its attribute selector
-    blocks.push(`:root,\n[data-aag-theme="${theme.code}"] {\n${ownVars.join('\n')}\n}`);
+    // Own theme: :root combined with its attribute selectors, split by category
+    if (ownVars.color.length > 0) {
+      blocks.push(`:root,\n[data-aag-theme="${theme.code}"],\n[data-aag-theme="${theme.code}-color"] {\n${ownVars.color.join('\n')}\n}`);
+    }
+    if (ownVars.typography.length > 0) {
+      blocks.push(`:root,\n[data-aag-theme="${theme.code}"],\n[data-aag-theme="${theme.code}-typography"] {\n${ownVars.typography.join('\n')}\n}`);
+    }
+    if (ownVars.other.length > 0) {
+      blocks.push(`:root,\n[data-aag-theme="${theme.code}"] {\n${ownVars.other.join('\n')}\n}`);
+    }
 
     // Remaining themes in definition order
     for (const other of WEB_THEME_DEFINITIONS) {
       if (other.code === theme.code) continue;
       const otherVars = themeVars[other.code];
-      if (otherVars && otherVars.length > 0) {
-        blocks.push(`[data-aag-theme="${other.code}"] {\n${otherVars.join('\n')}\n}`);
+      if (otherVars && otherVars.color.length > 0) {
+        blocks.push(`[data-aag-theme="${other.code}"],\n[data-aag-theme="${other.code}-color"] {\n${otherVars.color.join('\n')}\n}`);
+      }
+      if (otherVars && otherVars.typography.length > 0) {
+        blocks.push(`[data-aag-theme="${other.code}"],\n[data-aag-theme="${other.code}-typography"] {\n${otherVars.typography.join('\n')}\n}`);
+      }
+      if (otherVars && otherVars.other.length > 0) {
+        blocks.push(`[data-aag-theme="${other.code}"] {\n${otherVars.other.join('\n')}\n}`);
       }
     }
 
