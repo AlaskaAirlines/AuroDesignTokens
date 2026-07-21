@@ -113,7 +113,7 @@ async function transformCSSFiles() {
         }
         if (typographyProperties.length > 0) {
           const typeStr = typographyProperties.join('\n');
-          const typeSelector = `[data-aag-theme="${themeCode}"], [data-aag-theme="${themeCode}-typography"]`;
+          const typeSelector = `[data-aag-theme="${themeCode}"], [data-aag-theme="${themeCode}-type"]`;
           combinedCSS += `/* Typography properties from ${path.basename(filePath)} */\n${typeSelector} {\n${typeStr}\n}\n\n`;
         }
         if (otherProperties.length > 0) {
@@ -196,23 +196,23 @@ async function transformCSSFiles() {
 
 /**
  * Rewrites each dist/web CSS theme file to contain multi-theme selector blocks
- * split into color and typography groups.
+ * split into color and type groups.
  *
  * For the file's own theme:
  *   :root,
  *   [data-aag-theme="<code>"],
- *   [data-aag-theme-color="<code>"] { ...color vars... }
+ *   [data-aag-theme="<code>-color"] { ...color vars... }
  *
  *   :root,
  *   [data-aag-theme="<code>"],
- *   [data-aag-theme-typography="<code>"] { ...type vars... }
+ *   [data-aag-theme="<code>-type"] { ...type vars... }
  *
  * For every other web theme (in definition order):
  *   [data-aag-theme="<other-code>"],
- *   [data-aag-theme-color="<other-code>"] { ...color vars... }
+ *   [data-aag-theme="<other-code>-color"] { ...color vars... }
  *
  *   [data-aag-theme="<other-code>"],
- *   [data-aag-theme-typography="<other-code>"] { ...type vars... }
+ *   [data-aag-theme="<other-code>-type"] { ...type vars... }
  *
  * CSS custom properties are extracted from the :root block written by Style Dictionary.
  */
@@ -273,7 +273,7 @@ async function transformWebCSSFiles() {
       blocks.push(`:root,\n[data-aag-theme="${theme.code}"],\n[data-aag-theme="${theme.code}-color"] {\n${ownVars.color.join('\n')}\n}`);
     }
     if (ownVars.typography.length > 0) {
-      blocks.push(`:root,\n[data-aag-theme="${theme.code}"],\n[data-aag-theme="${theme.code}-typography"] {\n${ownVars.typography.join('\n')}\n}`);
+      blocks.push(`:root,\n[data-aag-theme="${theme.code}"],\n[data-aag-theme="${theme.code}-type"] {\n${ownVars.typography.join('\n')}\n}`);
     }
     if (ownVars.other.length > 0) {
       blocks.push(`:root,\n[data-aag-theme="${theme.code}"] {\n${ownVars.other.join('\n')}\n}`);
@@ -287,7 +287,7 @@ async function transformWebCSSFiles() {
         blocks.push(`[data-aag-theme="${other.code}"],\n[data-aag-theme="${other.code}-color"] {\n${otherVars.color.join('\n')}\n}`);
       }
       if (otherVars && otherVars.typography.length > 0) {
-        blocks.push(`[data-aag-theme="${other.code}"],\n[data-aag-theme="${other.code}-typography"] {\n${otherVars.typography.join('\n')}\n}`);
+        blocks.push(`[data-aag-theme="${other.code}"],\n[data-aag-theme="${other.code}-type"] {\n${otherVars.typography.join('\n')}\n}`);
       }
       if (otherVars && otherVars.other.length > 0) {
         blocks.push(`[data-aag-theme="${other.code}"] {\n${otherVars.other.join('\n')}\n}`);

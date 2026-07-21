@@ -276,7 +276,7 @@
 
 :root,
 [data-aag-theme="aag-theme-ha"],
-[data-aag-theme="aag-theme-ha-typography"] {
+[data-aag-theme="aag-theme-ha-type"] {
   --ds-basic-type-brand-family-primary: "Slate Pro";
   --ds-basic-type-brand-family-secondary: "Chronicle Display";
   --ds-basic-type-brand-letter-spacing-primary: 0;
@@ -591,7 +591,7 @@
 }
 
 [data-aag-theme="aag-theme-as"],
-[data-aag-theme="aag-theme-as-typography"] {
+[data-aag-theme="aag-theme-as-type"] {
   --ds-basic-type-brand-family-primary: "AS Circular";
   --ds-basic-type-brand-family-secondary: "Good OT";
   --ds-basic-type-brand-letter-spacing-primary: 0;
@@ -906,7 +906,7 @@
 }
 
 [data-aag-theme="aag-theme-atm"],
-[data-aag-theme="aag-theme-atm-typography"] {
+[data-aag-theme="aag-theme-atm-type"] {
   --ds-basic-type-brand-family-primary: "AS Circular";
   --ds-basic-type-brand-family-secondary: Teodor;
   --ds-basic-type-brand-letter-spacing-primary: 0;
