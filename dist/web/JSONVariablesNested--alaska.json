@@ -44,18 +44,18 @@
       },
       "button": {
         "flat": {
-          "text": "#676767",
-          "text-disabled": "#d0d0d0",
-          "text-hover": "#525252",
+          "text": "#666767",
+          "text-disabled": "#ced0d0",
+          "text-hover": "#515252",
           "text-inverse": "#ffffff",
           "text-inverse-disabled": "#7e8894",
-          "text-inverse-hover": "#adadad"
+          "text-inverse-hover": "#abadad"
         },
         "ghost": {
           "background-hover": "#0000000d",
           "background-inverse-hover": "#ffffff0d",
           "text": "#01426a",
-          "text-disabled": "#d0d0d0",
+          "text-disabled": "#ced0d0",
           "text-inverse": "#ffffff",
           "text-inverse-disabled": "#7e8894"
         },
@@ -80,14 +80,14 @@
         },
         "secondary": {
           "background": "#ffffff",
-          "background-disabled": "#f7f7f7",
-          "background-hover": "#f2f2f2",
+          "background-disabled": "#f5f7f7",
+          "background-hover": "#f1f3f3",
           "background-inverse-hover": "#ffffff1a",
           "border": "#01426a",
           "border-disabled": "#cfe0ef",
           "border-hover": "#00274a",
           "border-inverse": "#ffffff",
-          "border-inverse-disabled": "#dddddd",
+          "border-inverse-disabled": "#dbdddd",
           "text": "#01426a",
           "text-hover": "#00274a",
           "text-inverse": "#ffffff"
@@ -143,7 +143,7 @@
       "interactive": {
         "background-hover": "#00000014",
         "background-inverse-hover": "#ffffff14",
-        "disabled": "#dddddd",
+        "disabled": "#dbdddd",
         "disabled-inverse": "#ffffff66",
         "error": "#e01f26",
         "error-hover": "#b1161c",
@@ -169,8 +169,8 @@
         "background-inverse": "#ffffff26",
         "background-inverse-disabled": "#ffffff1a",
         "background-inverse-hover": "#ffffff33",
-        "background-muted": "#f7f7f7",
-        "background-strong": "#676767",
+        "background-muted": "#f5f7f7",
+        "background-strong": "#666767",
         "emphasized-background": "#01426a1a",
         "emphasized-background-hover": "#01426a33",
         "scrim": "#00000080",
@@ -181,7 +181,7 @@
         "wave": "#e4e8ec"
       },
       "state": {
-        "background-disabled": "#dddddd",
+        "background-disabled": "#dbdddd",
         "background-hover": "#00000014",
         "background-inverse-disabled": "#ffffff66",
         "error-inverse": "#f9a4a8",
@@ -217,11 +217,11 @@
       "border": {
         "bold": "#585e67",
         "brand": "#00274a",
-        "default": "#959595",
+        "default": "#949595",
         "divider": "#00000026",
         "divider-inverse": "#ffffff66",
         "inverse": "#ffffff",
-        "subtle": "#dddddd"
+        "subtle": "#dbdddd"
       },
       "brand": {
         "primary": "#01426a",
@@ -238,67 +238,31 @@
         "tertiary-subtle": "#c9e1a7"
       },
       "fare": {
-        "alaska": {
-          "basic-economy": {
-            "bold": "#096173",
-            "default": "#97eaf8",
-            "subtle": "#ebfafd"
-          },
-          "economy": {
-            "bold": "#005fa7",
-            "default": "#289bee",
-            "subtle": "#ebf7ff"
-          },
-          "economy-extra-legroom": {
-            "bold": "#265688",
-            "default": "#265688",
-            "subtle": "#ebf3f9"
-          },
-          "first-business": {
-            "bold": "#005154",
-            "default": "#005154",
-            "gradient-back": "#00274a",
-            "gradient-front": "#005154",
-            "subtle": "#e9f1f1"
-          },
-          "premium-economy": {
-            "bold": "#00274a",
-            "default": "#00274a",
-            "subtle": "#ecf0f3"
-          }
+        "basic-economy": {
+          "bold": "#096173",
+          "default": "#97eaf8",
+          "subtle": "#ebfafd"
         },
         "basiceconomy": "#97eaf8",
         "business": "#005154",
         "economy": "#0074ca",
+        "economy-extra-legroom": {
+          "bold": "#265688",
+          "default": "#265688",
+          "subtle": "#ebf3f9"
+        },
         "first": "#005154",
-        "hawaiian": {
-          "basic-economy": {
-            "bold": "#515252",
-            "default": "#ced0d0",
-            "subtle": "#f5f7f7"
-          },
-          "economy": {
-            "bold": "#1b6976",
-            "default": "#00a5ba",
-            "subtle": "#ecf6f8"
-          },
-          "economy-extra-legroom": {
-            "bold": "#a91770",
-            "default": "#ce0c88",
-            "subtle": "#fdf1f8"
-          },
-          "first-business": {
-            "bold": "#463c8f",
-            "default": "#463c8f",
-            "gradient-back": "#ce0c88",
-            "gradient-front": "#463c8f",
-            "subtle": "#edeaf4"
-          },
-          "premium-economy": {
-            "bold": "#831a57",
-            "default": "#831a57",
-            "subtle": "#fdf1f8"
-          }
+        "first-business": {
+          "bold": "#005154",
+          "default": "#005154",
+          "gradient-back": "#00274a",
+          "gradient-front": "#005154",
+          "subtle": "#e9f1f1"
+        },
+        "premium-economy": {
+          "bold": "#00274a",
+          "default": "#00274a",
+          "subtle": "#ecf0f3"
         },
         "premiumeconomy": "#265688",
         "suites-back": "#00274a",
@@ -328,14 +292,14 @@
         "default": "#ffffff",
         "inverse": "#00274a",
         "inverse-subtle": "#2875b5",
-        "neutral": "#f2f2f2",
-        "neutral-medium": "#c5c5c5",
-        "neutral-subtle": "#f7f7f7"
+        "neutral": "#f1f3f3",
+        "neutral-medium": "#c3c5c5",
+        "neutral-subtle": "#f5f7f7"
       },
       "texticon": {
         "accent1": "#01426a",
         "default": "#2a2a2a",
-        "disabled": "#d0d0d0",
+        "disabled": "#ced0d0",
         "inverse": "#ffffff",
         "inverse-disabled": "#7e8894",
         "inverse-muted": "#ccd2db",
@@ -343,7 +307,7 @@
         "link-hover": "#01426a",
         "link-inverse-default": "#ffffff",
         "link-inverse-hover": "#ebf3f9",
-        "muted": "#676767"
+        "muted": "#666767"
       },
       "tier-program": {
         "loungetier": {
