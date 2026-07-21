@@ -52,6 +52,7 @@ Auro Design Tokens support multiple themes:
 |-------|-------------|-------|
 | Alaska | Current Alaska Airlines theme | Alaska Airlines branded interfaces |
 | Alaska Classic | Transition theme with the latest token names but Auro Classic values | For migration scenarios only |
+| Atmos | Current Atmos theme | Atmos branded interfaces |
 | Hawaiian | Hawaiian Airlines theme | Hawaiian Airlines branded interfaces |
 | Auro Classic | Legacy theme (deprecated) | Only for backward compatibility |
 
