@@ -2,155 +2,113 @@
   "basicTokens": {
     "color": {
       "border": {
-        "bold": "#adadad",
-        "brand": "#d0d0d0",
+        "bold": "#abadad",
+        "brand": "#ced0d0",
         "divider": "#00000026",
         "dividerInverse": "#ffffff66",
         "inverse": "#ffffff",
-        "standard": "#d0d0d0",
-        "subtle": "#dddddd"
+        "standard": "#ced0d0",
+        "subtle": "#dbdddd"
       },
       "brand": {
-        "primary": "#7e7e7e",
-        "primaryBold": "#525252",
-        "primaryMuted": "#dddddd",
-        "primarySubtle": "#adadad",
-        "secondary": "#7e7e7e",
-        "secondaryBold": "#525252",
-        "secondaryMuted": "#dddddd",
-        "secondarySubtle": "#959595",
-        "tertiary": "#7e7e7e",
-        "tertiaryBold": "#525252",
-        "tertiaryMuted": "#dddddd",
-        "tertiarySubtle": "#adadad"
+        "primary": "#7d7e7e",
+        "primaryBold": "#515252",
+        "primaryMuted": "#dbdddd",
+        "primarySubtle": "#abadad",
+        "secondary": "#7d7e7e",
+        "secondaryBold": "#515252",
+        "secondaryMuted": "#dbdddd",
+        "secondarySubtle": "#949595",
+        "tertiary": "#7d7e7e",
+        "tertiaryBold": "#515252",
+        "tertiaryMuted": "#dbdddd",
+        "tertiarySubtle": "#abadad"
       },
       "fare": {
-        "alaska": {
-          "basicEconomy": {
-            "bold": "#3c3d3d",
-            "standard": "#abadad",
-            "subtle": "#f5f7f7"
-          },
-          "economy": {
-            "bold": "#7d7e7e",
-            "standard": "#949595",
-            "subtle": "#f5f7f7"
-          },
-          "economyExtraLegroom": {
-            "bold": "#515252",
-            "standard": "#515252",
-            "subtle": "#f5f7f7"
-          },
-          "firstBusiness": {
-            "bold": "#3c3d3d",
-            "gradientBack": "#2a2a2a",
-            "gradientFront": "#515252",
-            "standard": "#3c3d3d",
-            "subtle": "#f5f7f7"
-          },
-          "premiumEconomy": {
-            "bold": "#2a2a2a",
-            "standard": "#2a2a2a",
-            "subtle": "#f5f7f7"
-          }
+        "basicEconomy": "#ced0d0",
+        "business": "#3c3d3d",
+        "economy": "#666767",
+        "economyExtraLegroom": {
+          "bold": "#515252",
+          "standard": "#515252",
+          "subtle": "#f5f7f7"
         },
-        "basicEconomy": "#d0d0d0",
-        "business": "#3d3d3d",
-        "economy": "#676767",
         "first": "#2a2a2a",
-        "hawaiian": {
-          "basicEconomy": {
-            "bold": "#515252",
-            "standard": "#ced0d0",
-            "subtle": "#f5f7f7"
-          },
-          "economy": {
-            "bold": "#515252",
-            "standard": "#7d7e7e",
-            "subtle": "#f5f7f7"
-          },
-          "economyExtraLegroom": {
-            "bold": "#666767",
-            "standard": "#7d7e7e",
-            "subtle": "#f5f7f7"
-          },
-          "firstBusiness": {
-            "bold": "#7d7e7e",
-            "gradientBack": "#2a2a2a",
-            "gradientFront": "#666767",
-            "standard": "#7d7e7e",
-            "subtle": "#f5f7f7"
-          },
-          "premiumEconomy": {
-            "bold": "#515252",
-            "standard": "#515252",
-            "subtle": "#f5f7f7"
-          }
+        "firstBusiness": {
+          "bold": "#3c3d3d",
+          "gradientBack": "#2a2a2a",
+          "gradientFront": "#515252",
+          "standard": "#3c3d3d",
+          "subtle": "#f5f7f7"
         },
-        "premiumEconomy": "#525252",
-        "suitesBack": "#525252",
-        "suitesFront": "#7e7e7e"
+        "premiumEconomy": {
+          "bold": "#2a2a2a",
+          "standard": "#2a2a2a",
+          "subtle": "#f5f7f7"
+        },
+        "suitesBack": "#515252",
+        "suitesFront": "#7d7e7e"
       },
       "pageBackground": {
         "standard": "#ffffff",
         "utility": "#ffffff"
       },
       "status": {
-        "error": "#959595",
-        "errorSubtle": "#f2f2f2",
-        "info": "#959595",
-        "infoSubtle": "#f2f2f2",
-        "standard": "#959595",
-        "success": "#959595",
-        "successSubtle": "#f2f2f2",
-        "warning": "#959595",
-        "warningSubtle": "#f2f2f2"
+        "error": "#949595",
+        "errorSubtle": "#f1f3f3",
+        "info": "#949595",
+        "infoSubtle": "#f1f3f3",
+        "standard": "#949595",
+        "success": "#949595",
+        "successSubtle": "#f1f3f3",
+        "warning": "#949595",
+        "warningSubtle": "#f1f3f3"
       },
       "surface": {
-        "accent1": "#7e7e7e",
-        "accent1Muted": "#dddddd",
-        "accent1Subtle": "#adadad",
-        "accent2": "#7e7e7e",
-        "accent2Muted": "#dddddd",
-        "inverse": "#7e7e7e",
-        "inverseSubtle": "#adadad",
-        "neutral": "#f2f2f2",
-        "neutralMedium": "#dddddd",
-        "neutralSubtle": "#f2f2f2",
+        "accent1": "#7d7e7e",
+        "accent1Muted": "#dbdddd",
+        "accent1Subtle": "#abadad",
+        "accent2": "#7d7e7e",
+        "accent2Muted": "#dbdddd",
+        "inverse": "#7d7e7e",
+        "inverseSubtle": "#abadad",
+        "neutral": "#f1f3f3",
+        "neutralMedium": "#dbdddd",
+        "neutralSubtle": "#f1f3f3",
         "standard": "#ffffff"
       },
       "textIcon": {
-        "accent1": "#525252",
-        "disabled": "#d0d0d0",
+        "accent1": "#515252",
+        "disabled": "#ced0d0",
         "inverse": "#ffffff",
-        "inverseDisabled": "#7e7e7e",
-        "inverseMuted": "#c5c5c5",
-        "linkDefault": "#3d3d3d",
-        "linkHover": "#676767",
+        "inverseDisabled": "#7d7e7e",
+        "inverseMuted": "#c3c5c5",
+        "linkDefault": "#3c3d3d",
+        "linkHover": "#666767",
         "linkInverseDefault": "#ffffff",
-        "linkInverseHover": "#dddddd",
-        "muted": "#3d3d3d",
+        "linkInverseHover": "#dbdddd",
+        "muted": "#3c3d3d",
         "standard": "#000000"
       },
       "tierProgram": {
         "loungeTier": {
-          "lounge": "#3d3d3d",
-          "loungePlus": "#7e7e7e"
+          "lounge": "#3c3d3d",
+          "loungePlus": "#7d7e7e"
         },
         "loyaltyTier": {
-          "gold": "#c5c5c5",
-          "goldMuted": "#dddddd",
-          "platinum": "#adadad",
-          "platinumMuted": "#c5c5c5",
-          "silver": "#f2f2f2",
-          "silverMuted": "#f2f2f2",
+          "gold": "#c3c5c5",
+          "goldMuted": "#dbdddd",
+          "platinum": "#abadad",
+          "platinumMuted": "#c3c5c5",
+          "silver": "#f1f3f3",
+          "silverMuted": "#f1f3f3",
           "titanium": "#2a2a2a",
-          "titaniumMuted": "#525252"
+          "titaniumMuted": "#515252"
         },
         "oneworld": {
-          "emerald": "#525252",
+          "emerald": "#515252",
           "ruby": "#2a2a2a",
-          "sapphire": "#3d3d3d"
+          "sapphire": "#3c3d3d"
         }
       }
     },
@@ -372,45 +330,45 @@
     "buttons": {
       "disabled": {
         "background": "#0000000d",
-        "text": "#d0d0d0"
+        "text": "#ced0d0"
       },
       "disabledInverse": {
         "background": "#ffffff0d",
-        "text": "#7e7e7e"
+        "text": "#7d7e7e"
       },
       "primary": {
-        "background": "#7e7e7e",
-        "backgroundPressed": "#525252",
+        "background": "#7d7e7e",
+        "backgroundPressed": "#515252",
         "text": "#ffffff"
       },
       "primaryInverse": {
         "background": "#ffffff",
         "backgroundPressed": "#ffffffcc",
-        "text": "#7e7e7e"
+        "text": "#7d7e7e"
       },
       "quaternary": {
-        "backgroundPressed": "#525252",
-        "text": "#7e7e7e"
+        "backgroundPressed": "#515252",
+        "text": "#7d7e7e"
       },
       "quaternaryInverse": {
-        "backgroundPressed": "#525252",
+        "backgroundPressed": "#515252",
         "text": "#ffffff"
       },
       "secondary": {
-        "background": "#dddddd",
-        "backgroundPressed": "#f2f2f2",
-        "text": "#7e7e7e"
+        "background": "#dbdddd",
+        "backgroundPressed": "#f1f3f3",
+        "text": "#7d7e7e"
       },
       "secondaryInverse": {
-        "background": "#dddddd",
-        "backgroundPressed": "#c5c5c5",
-        "text": "#7e7e7e"
+        "background": "#dbdddd",
+        "backgroundPressed": "#c3c5c5",
+        "text": "#7d7e7e"
       },
       "tertiary": {
         "background": "#00000014",
         "backgroundPressed": "#0000001f",
-        "border": "#dddddd",
-        "text": "#7e7e7e"
+        "border": "#dbdddd",
+        "text": "#7d7e7e"
       },
       "tertiaryInverse": {
         "background": "#ffffff14",
@@ -422,22 +380,22 @@
     "component": {
       "elevated": "#00000014",
       "pressed": "#0000001f",
-      "selected": "#7e7e7e",
-      "selectedMuted": "#dddddd"
+      "selected": "#7d7e7e",
+      "selectedMuted": "#dbdddd"
     },
     "componentInverse": {
       "elevated": "#ffffff14",
-      "error": "#dddddd",
+      "error": "#dbdddd",
       "pressed": "#ffffff1f",
       "selected": "#ffffff",
       "selectedMuted": "#ffffffcc"
     },
     "searchWidget": {
-      "divider": "#7e7e7e",
-      "fieldIcon": "#dddddd",
-      "routeDestination": "#adadad",
-      "routeOrigin": "#dddddd",
-      "routeSwitcher": "#7e7e7e"
+      "divider": "#7d7e7e",
+      "fieldIcon": "#dbdddd",
+      "routeDestination": "#abadad",
+      "routeOrigin": "#dbdddd",
+      "routeSwitcher": "#7d7e7e"
     }
   }
 }
