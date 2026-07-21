@@ -51,17 +51,95 @@ Auro Design Tokens support multiple themes:
 | Theme | Description | Usage |
 |-------|-------------|-------|
 | Alaska | Current Alaska Airlines theme | Alaska Airlines branded interfaces |
-| Alaska Classic | Transition theme with `v6.x` token names but Auro Classic values | For migration scenarios only |
+| Alaska Classic | Transition theme with the latest token names but Auro Classic values | For migration scenarios only |
 | Hawaiian | Hawaiian Airlines theme | Hawaiian Airlines branded interfaces |
 | Auro Classic | Legacy theme (deprecated) | Only for backward compatibility |
 
-## Theme Scoping
+## Applying a Theme
 
-### Alaska Air Group Exclusive
+Apply a theme to any element using the `data-aag-theme` attribute. All child elements will inherit the theme's design tokens.
 
-> ⚠️ The following link is only intended for Alaska Air Group employees and is protected by SSO.
+```html
+<html data-aag-theme="aag-theme-as">
+  <!-- All content uses Alaska theme tokens -->
+</html>
+```
 
-- [Prepare your pages for multi-brand theming](https://wiki.devtools.teamaag.com/guides/multibrand)
+Available theme codes:
+
+| Theme | Attribute Value |
+| ----- | --------------- |
+| Alaska | `aag-theme-as` |
+| Alaska Classic | `aag-theme-asc` |
+| Hawaiian | `aag-theme-ha` |
+| Atmos | `aag-theme-atm` |
+
+## Nested Themes
+
+You can nest themes by applying a different `data-aag-theme` value to a child element. The child and its descendants will use the nested theme's tokens, while the rest of the page retains the parent theme.
+
+```html
+<html data-aag-theme="aag-theme-as">
+  <!-- Alaska theme -->
+  <header>...</header>
+
+  <section data-aag-theme="aag-theme-ha">
+    <!-- Hawaiian theme within this section only -->
+    <p>This content uses Hawaiian tokens.</p>
+  </section>
+
+  <!-- Back to Alaska theme -->
+  <footer>...</footer>
+</html>
+```
+
+## Partial Theme Overrides (Color or Typography Only)
+
+Themes are split into **color** and **typography** token groups. You can apply just one aspect of a theme without affecting the other by appending `-color` or `-type` to the attribute value.
+
+### Color-only override
+
+Apply a theme's color tokens while keeping the parent theme's typography:
+
+```html
+<html data-aag-theme="aag-theme-as">
+  <!-- Alaska color + Alaska typography -->
+
+  <section data-aag-theme="aag-theme-ha-color">
+    <!-- Hawaiian colors, but still Alaska typography -->
+    <p>Hawaiian color palette with Alaska fonts.</p>
+  </section>
+</html>
+```
+
+### Typography-only override
+
+Apply a theme's typography tokens while keeping the parent theme's colors:
+
+```html
+<html data-aag-theme="aag-theme-as">
+  <!-- Alaska color + Alaska typography -->
+
+  <section data-aag-theme="aag-theme-ha-type">
+    <!-- Hawaiian typography, but still Alaska colors -->
+    <p>Hawaiian fonts with Alaska color palette.</p>
+  </section>
+</html>
+```
+
+### Combining partial overrides
+
+You can stack both partial selectors on the same element to mix color from one theme and typography from another:
+
+```html
+<html data-aag-theme="aag-theme-as">
+  <section data-aag-theme="aag-theme-ha-color">
+    <div data-aag-theme="aag-theme-atm-type">
+      <!-- Hawaiian colors + Atmos typography -->
+    </div>
+  </section>
+</html>
+```
 
 ## Documentation
 
