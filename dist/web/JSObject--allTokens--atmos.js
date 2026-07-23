@@ -4475,11 +4475,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#265688",
+          "value": "#005154",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#265688"
+            "value": "#005154"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {

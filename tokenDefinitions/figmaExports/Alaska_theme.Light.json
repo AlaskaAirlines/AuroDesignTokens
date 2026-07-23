@@ -1253,7 +1253,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1310,7 +1310,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1403,11 +1403,11 @@
     },
     "PremiumEconomy": {
       "$type": "color",
-      "$value": "#265688",
+      "$value": "#005154",
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1481,11 +1481,11 @@
     },
     "Business": {
       "$type": "color",
-      "$value": "#005154",
+      "$value": "#01426a",
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1597,11 +1597,11 @@
     },
     "First": {
       "$type": "color",
-      "$value": "#005154",
+      "$value": "#00274a",
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"

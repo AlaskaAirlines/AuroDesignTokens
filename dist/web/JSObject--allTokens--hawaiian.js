@@ -4159,7 +4159,7 @@ module.exports = {
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true
           },
-          "value": "#00a5ba",
+          "value": "#ce0c88",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
@@ -4178,7 +4178,7 @@ module.exports = {
               "filePath": "processed/web/Hawaiian_theme.Light.json",
               "isSource": true
             },
-            "value": "#00a5ba"
+            "value": "#ce0c88"
           },
           "name": "ds-basic-color-fare-economy",
           "attributes": {
@@ -4475,11 +4475,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#ce0c88",
+          "value": "#1b6976",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#ce0c88"
+            "value": "#1b6976"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {

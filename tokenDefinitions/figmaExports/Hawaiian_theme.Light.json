@@ -1457,7 +1457,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1519,11 +1519,11 @@
         }
       },
       "$type": "color",
-      "$value": "#00a5ba",
+      "$value": "#ce0c88",
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1631,11 +1631,11 @@
     },
     "PremiumEconomy": {
       "$type": "color",
-      "$value": "#ce0c88",
+      "$value": "#1b6976",
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1725,7 +1725,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"
@@ -1859,7 +1859,7 @@
       "$description": "",
       "$extensions": {
         "com.figma": {
-          "hiddenFromPublishing": true,
+          "hiddenFromPublishing": false,
           "scopes": [
             "ALL_FILLS",
             "STROKE_COLOR"

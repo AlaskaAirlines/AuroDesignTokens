@@ -244,14 +244,14 @@
           "subtle": "#ebfafd"
         },
         "basiceconomy": "#97eaf8",
-        "business": "#005154",
+        "business": "#01426a",
         "economy": "#0074ca",
         "economy-extra-legroom": {
           "bold": "#265688",
           "default": "#265688",
           "subtle": "#ebf3f9"
         },
-        "first": "#005154",
+        "first": "#00274a",
         "first-business": {
           "bold": "#005154",
           "default": "#005154",
@@ -264,7 +264,7 @@
           "default": "#00274a",
           "subtle": "#ecf0f3"
         },
-        "premiumeconomy": "#265688",
+        "premiumeconomy": "#005154",
         "suites-back": "#00274a",
         "suites-front": "#005154"
       },
