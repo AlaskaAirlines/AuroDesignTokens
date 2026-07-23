@@ -4123,11 +4123,11 @@ module.exports = {
           ]
         },
         "business": {
-          "value": "#005154",
+          "value": "#01426a",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#005154"
+            "value": "#01426a"
           },
           "name": "ds-basic-color-fare-business",
           "attributes": {
@@ -4266,11 +4266,11 @@ module.exports = {
           }
         },
         "first": {
-          "value": "#005154",
+          "value": "#00274a",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#005154"
+            "value": "#00274a"
           },
           "name": "ds-basic-color-fare-first",
           "attributes": {
@@ -4475,11 +4475,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#265688",
+          "value": "#005154",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#265688"
+            "value": "#005154"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {

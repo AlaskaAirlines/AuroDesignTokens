@@ -26,14 +26,14 @@
       },
       "fare": {
         "basicEconomy": "#97eaf8",
-        "business": "#005154",
+        "business": "#01426a",
         "economy": "#0074ca",
         "economyExtraLegroom": {
           "bold": "#265688",
           "standard": "#265688",
           "subtle": "#ebf3f9"
         },
-        "first": "#005154",
+        "first": "#00274a",
         "firstBusiness": {
           "bold": "#005154",
           "gradientBack": "#00274a",
