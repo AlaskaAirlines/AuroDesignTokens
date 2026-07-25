@@ -4150,7 +4150,7 @@ module.exports = {
             "isSource": true
           },
           "default": {
-            "value": "#289bee",
+            "value": "#0074ca",
             "filePath": "processed/web/Atmos_theme.Light.json",
             "isSource": true
           },
@@ -4169,7 +4169,7 @@ module.exports = {
               "isSource": true
             },
             "default": {
-              "value": "#289bee",
+              "value": "#0074ca",
               "filePath": "processed/web/Atmos_theme.Light.json",
               "isSource": true
             },

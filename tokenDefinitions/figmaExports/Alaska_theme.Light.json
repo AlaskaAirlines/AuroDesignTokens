@@ -1288,7 +1288,7 @@
       },
       "Default": {
         "$type": "color",
-        "$value": "#289bee",
+        "$value": "#0074ca",
         "$description": "",
         "$extensions": {
           "com.figma": {
