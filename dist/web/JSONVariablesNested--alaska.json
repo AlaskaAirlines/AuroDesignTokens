@@ -238,18 +238,23 @@
         "tertiary-subtle": "#c9e1a7"
       },
       "fare": {
-        "basic-economy": {
+        "basiceconomy": "#97eaf8",
+        "business": "#01426a",
+        "economy": "#0074ca",
+        "economy-basic": {
           "bold": "#096173",
           "default": "#97eaf8",
           "subtle": "#ebfafd"
         },
-        "basiceconomy": "#97eaf8",
-        "business": "#01426a",
-        "economy": "#0074ca",
         "economy-extra-legroom": {
           "bold": "#265688",
           "default": "#265688",
           "subtle": "#ebf3f9"
+        },
+        "economy-standard": {
+          "bold": "#005fa7",
+          "default": "#0074ca",
+          "subtle": "#ebf7ff"
         },
         "first": "#00274a",
         "first-business": {

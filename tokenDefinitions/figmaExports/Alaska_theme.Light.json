@@ -1188,7 +1188,7 @@
     }
   },
   "Fare": {
-    "Basic-Economy": {
+    "Economy-Basic": {
       "Subtle": {
         "$type": "color",
         "$value": "#ebfafd",
@@ -1201,9 +1201,9 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-basic-economy-subtle",
-              "ANDROID": "basicTokens.color.fare.basicEconomy.subtle",
-              "iOS": "basicTokens.color.fare.basicEconomy.subtle"
+              "WEB": "--ds-basic-color-fare-economy-basic-subtle",
+              "ANDROID": "basicTokens.color.fare.economyBasic.subtle",
+              "iOS": "basicTokens.color.fare.economyBasic.subtle"
             }
           }
         }
@@ -1220,9 +1220,9 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-basic-economy-default",
-              "ANDROID": "basicTokens.color.fare.basicEconomy.default",
-              "iOS": "basicTokens.color.fare.basicEconomy.default"
+              "WEB": "--ds-basic-color-fare-economy-basic-default",
+              "ANDROID": "basicTokens.color.fare.economyBasic.default",
+              "iOS": "basicTokens.color.fare.economyBasic.default"
             }
           }
         }
@@ -1239,9 +1239,9 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-basic-economy-bold",
-              "ANDROID": "basicTokens.color.fare.basicEconomy.bold",
-              "iOS": "basicTokens.color.fare.basicEconomy.bold"
+              "WEB": "--ds-basic-color-fare-economy-basic-bold",
+              "ANDROID": "basicTokens.color.fare.economyBasic.bold",
+              "iOS": "basicTokens.color.fare.economyBasic.bold"
             }
           }
         }
@@ -1266,7 +1266,7 @@
         }
       }
     },
-    "Economy": {
+    "Economy-Standard": {
       "Subtle": {
         "$type": "color",
         "$value": "#ebf7ff",
@@ -1279,16 +1279,16 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-economy-subtle",
-              "ANDROID": "basicTokens.color.fare.economy.subtle",
-              "iOS": "basicTokens.color.fare.economy.subtle"
+              "WEB": "--ds-basic-color-fare-economy-standard-subtle",
+              "ANDROID": "basicTokens.color.fare.economyStandard.subtle",
+              "iOS": "basicTokens.color.fare.economyStandard.subtle"
             }
           }
         }
       },
       "Default": {
         "$type": "color",
-        "$value": "#289bee",
+        "$value": "#0074ca",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1298,27 +1298,10 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-economy-default",
-              "ANDROID": "basicTokens.color.fare.economy.default",
-              "iOS": "basicTokens.color.fare.economy.default"
+              "WEB": "--ds-basic-color-fare-economy-standard-default",
+              "ANDROID": "basicTokens.color.fare.economyStandard.default",
+              "iOS": "basicTokens.color.fare.economyStandard.default"
             }
-          }
-        }
-      },
-      "$type": "color",
-      "$value": "#0074ca",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_FILLS",
-            "STROKE_COLOR"
-          ],
-          "codeSyntax": {
-            "WEB": "--ds-basic-color-fare-economy",
-            "ANDROID": "basicTokens.color.fare.economy",
-            "iOS": "basicTokens.color.fare.economy"
           }
         }
       },
@@ -1334,10 +1317,29 @@
               "STROKE_COLOR"
             ],
             "codeSyntax": {
-              "WEB": "--ds-basic-color-fare-economy-bold",
-              "ANDROID": "basicTokens.color.fare.economy.bold",
-              "iOS": "basicTokens.color.fare.economy.bold"
+              "WEB": "--ds-basic-color-fare-economy-standard-bold",
+              "ANDROID": "basicTokens.color.fare.economyStandard.bold",
+              "iOS": "basicTokens.color.fare.economyStandard.bold"
             }
+          }
+        }
+      }
+    },
+    "Economy": {
+      "$type": "color",
+      "$value": "#0074ca",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_FILLS",
+            "STROKE_COLOR"
+          ],
+          "codeSyntax": {
+            "WEB": "--ds-basic-color-fare-economy",
+            "ANDROID": "basicTokens.color.fare.economy",
+            "iOS": "basicTokens.color.fare.economy"
           }
         }
       }
