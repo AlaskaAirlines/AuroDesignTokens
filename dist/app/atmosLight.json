@@ -28,10 +28,20 @@
         "basicEconomy": "#97eaf8",
         "business": "#002c4e",
         "economy": "#0074ca",
+        "economyBasic": {
+          "bold": "#096173",
+          "standard": "#97eaf8",
+          "subtle": "#ebfafd"
+        },
         "economyExtraLegroom": {
           "bold": "#265688",
           "standard": "#265688",
           "subtle": "#ebf3f9"
+        },
+        "economyStandard": {
+          "bold": "#005fa7",
+          "standard": "#0074ca",
+          "subtle": "#ebf7ff"
         },
         "first": "#101d2c",
         "firstBusiness": {

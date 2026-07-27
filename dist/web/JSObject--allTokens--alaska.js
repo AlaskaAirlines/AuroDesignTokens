@@ -4030,77 +4030,6 @@ module.exports = {
         }
       },
       "fare": {
-        "basic-economy": {
-          "bold": {
-            "value": "#096173",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "#096173"
-            },
-            "name": "ds-basic-color-fare-basic-economy-bold",
-            "attributes": {
-              "category": "basic",
-              "type": "color",
-              "item": "fare",
-              "subitem": "basic-economy",
-              "state": "bold"
-            },
-            "path": [
-              "basic",
-              "color",
-              "fare",
-              "basic-economy",
-              "bold"
-            ]
-          },
-          "default": {
-            "value": "#97eaf8",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "#97eaf8"
-            },
-            "name": "ds-basic-color-fare-basic-economy-default",
-            "attributes": {
-              "category": "basic",
-              "type": "color",
-              "item": "fare",
-              "subitem": "basic-economy",
-              "state": "default"
-            },
-            "path": [
-              "basic",
-              "color",
-              "fare",
-              "basic-economy",
-              "default"
-            ]
-          },
-          "subtle": {
-            "value": "#ebfafd",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true,
-            "original": {
-              "value": "#ebfafd"
-            },
-            "name": "ds-basic-color-fare-basic-economy-subtle",
-            "attributes": {
-              "category": "basic",
-              "type": "color",
-              "item": "fare",
-              "subitem": "basic-economy",
-              "state": "subtle"
-            },
-            "path": [
-              "basic",
-              "color",
-              "fare",
-              "basic-economy",
-              "subtle"
-            ]
-          }
-        },
         "basiceconomy": {
           "value": "#97eaf8",
           "filePath": "processed/web/Alaska_theme.Light.json",
@@ -4144,40 +4073,10 @@ module.exports = {
           ]
         },
         "economy": {
-          "bold": {
-            "value": "#005fa7",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true
-          },
-          "default": {
-            "value": "#289bee",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true
-          },
-          "subtle": {
-            "value": "#ebf7ff",
-            "filePath": "processed/web/Alaska_theme.Light.json",
-            "isSource": true
-          },
           "value": "#0074ca",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "bold": {
-              "value": "#005fa7",
-              "filePath": "processed/web/Alaska_theme.Light.json",
-              "isSource": true
-            },
-            "default": {
-              "value": "#289bee",
-              "filePath": "processed/web/Alaska_theme.Light.json",
-              "isSource": true
-            },
-            "subtle": {
-              "value": "#ebf7ff",
-              "filePath": "processed/web/Alaska_theme.Light.json",
-              "isSource": true
-            },
             "value": "#0074ca"
           },
           "name": "ds-basic-color-fare-economy",
@@ -4193,6 +4092,77 @@ module.exports = {
             "fare",
             "economy"
           ]
+        },
+        "economy-basic": {
+          "bold": {
+            "value": "#096173",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#096173"
+            },
+            "name": "ds-basic-color-fare-economy-basic-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-basic",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-basic",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#97eaf8",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#97eaf8"
+            },
+            "name": "ds-basic-color-fare-economy-basic-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-basic",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-basic",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#ebfafd",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#ebfafd"
+            },
+            "name": "ds-basic-color-fare-economy-basic-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-basic",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-basic",
+              "subtle"
+            ]
+          }
         },
         "economy-extra-legroom": {
           "bold": {
@@ -4261,6 +4231,77 @@ module.exports = {
               "color",
               "fare",
               "economy-extra-legroom",
+              "subtle"
+            ]
+          }
+        },
+        "economy-standard": {
+          "bold": {
+            "value": "#005fa7",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#005fa7"
+            },
+            "name": "ds-basic-color-fare-economy-standard-bold",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-standard",
+              "state": "bold"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-standard",
+              "bold"
+            ]
+          },
+          "default": {
+            "value": "#0074ca",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#0074ca"
+            },
+            "name": "ds-basic-color-fare-economy-standard-default",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-standard",
+              "state": "default"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-standard",
+              "default"
+            ]
+          },
+          "subtle": {
+            "value": "#ebf7ff",
+            "filePath": "processed/web/Alaska_theme.Light.json",
+            "isSource": true,
+            "original": {
+              "value": "#ebf7ff"
+            },
+            "name": "ds-basic-color-fare-economy-standard-subtle",
+            "attributes": {
+              "category": "basic",
+              "type": "color",
+              "item": "fare",
+              "subitem": "economy-standard",
+              "state": "subtle"
+            },
+            "path": [
+              "basic",
+              "color",
+              "fare",
+              "economy-standard",
               "subtle"
             ]
           }
