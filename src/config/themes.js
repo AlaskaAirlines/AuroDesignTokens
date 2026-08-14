@@ -5,7 +5,6 @@ export const THEME_DEFINITIONS = [
   { dir: 'alaska', name: 'Alaska', code: 'as' },
   { dir: 'alaska-classic', name: 'Alaska Classic', code: 'asc' },
   { dir: 'auro-1', name: 'Auro 1', code: 'a1' },
-  { dir: 'auro-2', name: 'Auro 2', code: 'a2' },
   { dir: 'hawaiian', name: 'Hawaiian', code: 'ha' }
 ];
 
