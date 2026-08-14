@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [9.3.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.3.2...v9.3.3) (2026-08-14)
+
+
+### Bug Fixes
+
+* doc update to force release ([0ba98e6](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/0ba98e6b5a0bb2fbbbd71123f4d57b4e07036899))
+
 ## [9.3.2](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.3.1...v9.3.2) (2026-07-27)
 
 
