@@ -3,7 +3,7 @@
  */
 
 export const PATHS = {
-  TOKENS_DEFS: './node_modules/@aurodesignsystem/auro-tokendefinitions/tokens',
+  TOKENS_DEFS: './tokenDefinitions/coreTokens',
   MANUAL_TOKENS: './tokenDefinitions/manualTokens',
   FIGMA_EXPORTS: './tokenDefinitions/figmaExports',
   DIST: './dist',

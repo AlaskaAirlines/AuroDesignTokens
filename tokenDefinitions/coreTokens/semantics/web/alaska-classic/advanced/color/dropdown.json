@@ -1,0 +1,22 @@
+{
+  "advanced": {
+    "color": {
+      "dropdownEmphasized": {
+        "background": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Background color for the dropdown component",
+          "value": "#00274A1a"
+        },
+        "backgroundHover": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Background color for the dropdown component",
+          "value": "#00274A33"
+        }
+      }
+    }
+  }
+}

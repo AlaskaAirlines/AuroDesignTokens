@@ -1,0 +1,29 @@
+{
+  "advanced": {
+    "color": {
+      "footer": {
+        "background": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Footer background",
+          "value": "{basic.color.brand.primary.value}"
+        },
+        "foreground": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Footer foreground",
+          "value": "{basic.color.brand.primaryBold.value}"
+        },
+        "pattern": {
+          "deprecated": false,
+          "public": true,
+          "type": "semantic",
+          "usage": "Footer pattern",
+          "value": "{color.white.value}"
+        }
+      }
+    }
+  }
+}

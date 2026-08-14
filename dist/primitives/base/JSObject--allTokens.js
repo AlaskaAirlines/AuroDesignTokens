@@ -6,7 +6,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/family.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/family.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -31,7 +31,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "Georgia, serif",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/family.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/family.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -58,7 +58,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -83,7 +83,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.05em",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -108,7 +108,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.10em",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -136,7 +136,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -163,7 +163,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -192,7 +192,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "0.875rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -219,7 +219,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -246,7 +246,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.25rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -273,7 +273,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.5rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -300,7 +300,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.625rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -330,7 +330,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.625rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -355,7 +355,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -380,7 +380,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.875rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -405,7 +405,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -430,7 +430,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.125rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -455,7 +455,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.25rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -480,7 +480,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -505,7 +505,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -530,7 +530,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.625rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -555,7 +555,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -580,7 +580,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -605,7 +605,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.25rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -630,7 +630,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -655,7 +655,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -680,7 +680,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -705,7 +705,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "3rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -730,7 +730,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "3.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -755,7 +755,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "4rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -780,7 +780,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "4.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -805,7 +805,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "5.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -832,7 +832,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "700",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -857,7 +857,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "450",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -882,7 +882,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "500",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -907,7 +907,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "450",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -932,7 +932,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "300",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -957,7 +957,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "500",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -982,7 +982,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "400",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1007,7 +1007,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "600",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1035,7 +1035,7 @@ module.exports = {
       "public": false,
       "type": "primitive",
       "value": "#000000",
-      "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+      "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
       "isSource": true,
       "original": {
         "deprecated": false,
@@ -1059,7 +1059,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#f7f7f7",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1084,7 +1084,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#f2f2f2",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1109,7 +1109,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#dddddd",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1134,7 +1134,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#d0d0d0",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1159,7 +1159,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#c5c5c5",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1184,7 +1184,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#adadad",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1209,7 +1209,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#959595",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1234,7 +1234,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#7e7e7e",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1259,7 +1259,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#676767",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1284,7 +1284,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#525252",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1309,7 +1309,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#3d3d3d",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1334,7 +1334,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#2a2a2a",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1361,7 +1361,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#f7f8fa",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1386,7 +1386,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#e4e8ec",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1411,7 +1411,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#ccd2db",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1436,7 +1436,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#afb9c6",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1461,7 +1461,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#939fad",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1486,7 +1486,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#7e8894",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1511,7 +1511,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#6a717c",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1536,7 +1536,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#585e67",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1561,7 +1561,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#484d55",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1586,7 +1586,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#393d43",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1613,7 +1613,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#01426a",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1638,7 +1638,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#53b390",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1665,7 +1665,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#d99f6d",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1690,7 +1690,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#eed4be",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1715,7 +1715,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#030772",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1740,7 +1740,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#a9b6d6",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1765,7 +1765,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#cb7457",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1790,7 +1790,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#e7bfb1",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1815,7 +1815,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#fbdc7a",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1840,7 +1840,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#fdefc4",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1865,7 +1865,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#abaab1",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1890,7 +1890,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#e5e4e7",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1915,7 +1915,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#bcb8a4",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1940,7 +1940,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#dad8cd",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1965,7 +1965,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#e4e9ec",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -1990,7 +1990,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#f9fafb",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2015,7 +2015,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#282828",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2040,7 +2040,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#545454",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2067,7 +2067,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#139142",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2092,7 +2092,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#a41d4a",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2117,7 +2117,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "#015daa",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -2145,7 +2145,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#fbc6c6",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2172,7 +2172,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#f9a4a8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2199,7 +2199,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#f0898d",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2226,7 +2226,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#f15f65",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2253,7 +2253,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#e8454b",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2280,7 +2280,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#e53339",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2307,7 +2307,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#e31f26",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2334,7 +2334,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#b1161c",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2361,7 +2361,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#7a0f13",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2388,7 +2388,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#44090b",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2417,7 +2417,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#e8f2f8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2444,7 +2444,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#dbe6f0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2471,7 +2471,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#abc7de",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2498,7 +2498,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#7eabcd",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2525,7 +2525,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#5494c0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2552,7 +2552,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#007db1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2579,7 +2579,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#136791",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2606,7 +2606,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#195170",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2633,7 +2633,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#193b51",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2660,7 +2660,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#152734",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2689,7 +2689,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#d6eac7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2716,7 +2716,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#b6de9b",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2743,7 +2743,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#96cf6e",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2770,7 +2770,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#7ac248",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2797,7 +2797,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#5da72a",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2824,7 +2824,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#529325",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2851,7 +2851,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#447a1f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2878,7 +2878,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#325a16",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2905,7 +2905,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#294912",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2932,7 +2932,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#17290a",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2961,7 +2961,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#fff0b2",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -2988,7 +2988,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#ffe382",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3015,7 +3015,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#fac200",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3042,7 +3042,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#e0ae00",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3069,7 +3069,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#bd9200",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3096,7 +3096,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#9e7b00",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3123,7 +3123,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#856700",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3150,7 +3150,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#6b5300",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3177,7 +3177,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#523f00",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3204,7 +3204,7 @@ module.exports = {
           "public": false,
           "type": "primitive",
           "value": "#382b00",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -3233,7 +3233,7 @@ module.exports = {
       "public": false,
       "type": "primitive",
       "value": "#ffffff",
-      "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/color.json",
+      "filePath": "tokenDefinitions/coreTokens/primitives/base/color.json",
       "isSource": true,
       "original": {
         "deprecated": false,
@@ -3259,7 +3259,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.05)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3284,7 +3284,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.08)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3309,7 +3309,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.1)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3334,7 +3334,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.12)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3359,7 +3359,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.15)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3384,7 +3384,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.2)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3409,7 +3409,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.3)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3434,7 +3434,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.4)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3459,7 +3459,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.5)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3484,7 +3484,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.55)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3509,7 +3509,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.6)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3534,7 +3534,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.7)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3559,7 +3559,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.75)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3584,7 +3584,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.8)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3609,7 +3609,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(0, 0, 0, 0.9)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3636,7 +3636,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.05)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3661,7 +3661,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.08)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3686,7 +3686,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.1)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3711,7 +3711,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.12)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3736,7 +3736,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.15)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3761,7 +3761,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.2)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3786,7 +3786,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.3)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3811,7 +3811,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.4)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3836,7 +3836,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.5)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3861,7 +3861,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.55)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3886,7 +3886,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.6)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3911,7 +3911,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.7)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3936,7 +3936,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.75)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3961,7 +3961,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.8)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -3986,7 +3986,7 @@ module.exports = {
         "public": false,
         "type": "primitive",
         "value": "rgba(255, 255, 255, 0.9)",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -4012,7 +4012,7 @@ module.exports = {
       "public": false,
       "type": "primitive",
       "value": "rgba(0, 0, 0, 0)",
-      "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/transparency.json",
+      "filePath": "tokenDefinitions/coreTokens/primitives/base/transparency.json",
       "isSource": true,
       "original": {
         "deprecated": false,
