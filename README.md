@@ -49,7 +49,7 @@ import { AuroColorAlertNotificationOnLight } from '@aurodesignsystem/design-toke
 Auro Design Tokens support multiple themes:
 
 | Theme | Description | Usage |
-|-------|-------------|-------|
+| ----- | ----------- | ----- |
 | Alaska | Current Alaska Airlines theme | Alaska Airlines branded interfaces |
 | Alaska Classic | Transition theme with the latest token names but Auro Classic values | For migration scenarios only |
 | Atmos | Current Atmos theme | Atmos branded interfaces |
