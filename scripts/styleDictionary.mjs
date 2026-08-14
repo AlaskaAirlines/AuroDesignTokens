@@ -56,7 +56,7 @@ const __dirname = dirname(__filename);
 /**
  * Converts a directory name to a format without hyphens
  * For names with letters after hyphens (e.g., 'alaska-classic'), converts to camelCase ('alaskaClassic')
- * For names with numbers after hyphens (e.g., 'auro-1'), removes the hyphen ('auro1')
+ * For names with numbers after hyphens (e.g., 'theme-2'), removes the hyphen ('theme2')
  * @param {string} dirName - The directory name
  * @returns {string} The processed directory name
  */
