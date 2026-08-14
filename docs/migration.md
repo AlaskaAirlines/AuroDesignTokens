@@ -12,7 +12,8 @@ The `v5` release introduced significant changes, including new themes, renamed t
   - **NEW** Alaska theme in `./dist/themes/alaska`
   - **NEW** Alaska Classic theme in `./dist/themes/alaska-classic`
   - **NEW** Hawaiian theme in `./dist/themes/hawaiian`
-  - **NEW** Atmos theme in `./dist/themes/atmos`
+  - **NEW** Atmos theme in `./dist/themes/atmos` (previously named `Auro1`, located in `./dist/themes/auro-1`)
+  - **REMOVED** The `Auro2` theme (`./dist/themes/auro-2`) has been removed
 - **Unique Token Names**: Starting with `v5`, token names are distinct from those in `v4`, allowing both `v4` and later versions to coexist without conflict
 - **Theme Scoping**: Alaska and Hawaiian themes should not be used simultaneously within the same DOM scope
 - **Deprecated Tokens**: Some tokens have been completely removed beginning in `v5`.
