@@ -458,8 +458,8 @@
   --ds-basic-type-weight-heading2: 500;
 }
 
-/* Color properties from CSSCustomProperties--auro1.css */
-[data-aag-theme="aag-theme-a1"], [data-aag-theme="aag-theme-a1-color"] {
+/* Color properties from CSSCustomProperties--atmos.css */
+[data-aag-theme="aag-theme-atm"], [data-aag-theme="aag-theme-atm-color"] {
   --ds-advanced-color-button-flat-text: #6a717c;
   --ds-advanced-color-button-flat-text-disabled: #585e67;
   --ds-advanced-color-button-flat-text-hover: #585e67;
@@ -648,8 +648,8 @@
   --ds-basic-color-tier-program-oneworld-sapphire: #015daa;
 }
 
-/* Typography properties from CSSCustomProperties--auro1.css */
-[data-aag-theme="aag-theme-a1"], [data-aag-theme="aag-theme-a1-type"] {
+/* Typography properties from CSSCustomProperties--atmos.css */
+[data-aag-theme="aag-theme-atm"], [data-aag-theme="aag-theme-atm-type"] {
   --ds-basic-type-brand-family-primary: "AS Circular";
   --ds-basic-type-brand-family-secondary: Teodor;
   --ds-basic-type-brand-line-height-primary: 1.3;
