@@ -9,7 +9,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button text color",
             "value": "#676767",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -40,7 +40,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button disabled text color",
             "value": "#d0d0d0",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -71,7 +71,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button text hover color",
             "value": "#525252",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -102,7 +102,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button inverse text color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -133,7 +133,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button inverse disabled text color",
             "value": "#7e8894",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -164,7 +164,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Flat button inverse text hover color",
             "value": "#adadad",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/flat.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/flat.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -197,7 +197,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button background hover color",
             "value": "rgba(0, 0, 0, 0.05)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -228,7 +228,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button inverse background hover color",
             "value": "rgba(255, 255, 255, 0.05)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -259,7 +259,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button text color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -290,7 +290,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button text disabled color",
             "value": "#d0d0d0",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -321,7 +321,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button inverse text color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -352,7 +352,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Ghost button inverse text disabled color",
             "value": "#7e8894",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/ghost.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -385,7 +385,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button background color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -416,7 +416,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "#f5bede",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -447,7 +447,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button background hover color",
             "value": "#831a57",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -478,7 +478,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "#fad8eb",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -509,7 +509,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "#f0a5d2",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -540,7 +540,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button inverse background color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -571,7 +571,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "rgba(255, 255, 255, 0.75)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -602,7 +602,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button inverse background hover color",
             "value": "#fdf1f8",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -633,7 +633,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button border color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -664,7 +664,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "#f5bede",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -695,7 +695,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button border hover color",
             "value": "#831a57",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -726,7 +726,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button inverse border color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -757,7 +757,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "rgba(255, 255, 255, 0.75)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -788,7 +788,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button inverse border hover color",
             "value": "#fdf1f8",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -819,7 +819,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button text color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -850,7 +850,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button text disabled color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -881,7 +881,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Primary button inverse text color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/primary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/primary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -914,7 +914,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button background color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -945,7 +945,7 @@ module.exports = {
             "type": "semantic",
             "usage": "",
             "value": "#f7f7f7",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -976,7 +976,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button background hover color",
             "value": "#f2f2f2",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1007,7 +1007,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button inverse background hover color",
             "value": "rgba(0, 0, 0, 0.05)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1038,7 +1038,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button border color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1069,7 +1069,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button border hover color",
             "value": "#831a57",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1100,7 +1100,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button border disabled color",
             "value": "#f7f7f7",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1131,7 +1131,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button inverse border color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1162,7 +1162,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button border inverse disabled color",
             "value": "#dddddd",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1193,7 +1193,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button text color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1224,7 +1224,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button text hover color",
             "value": "#831a57",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1255,7 +1255,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Secondary button inverse text color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/secondary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1288,7 +1288,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button background color",
             "value": "rgba(0, 0, 0, 0.05)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1319,7 +1319,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button background hover color",
             "value": "rgba(0, 0, 0, 0.1)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1350,7 +1350,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button inverse background color",
             "value": "rgba(255, 255, 255, 0.05)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1381,7 +1381,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button inverse background hover color",
             "value": "rgba(255, 255, 255, 0.1)",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1412,7 +1412,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button text color",
             "value": "#ce0c88",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1443,7 +1443,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button text hover color",
             "value": "#831a57",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1474,7 +1474,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Tertiary button inverse text color",
             "value": "#ffffff",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/button/tertiary.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -1508,7 +1508,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#8ec891",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1537,7 +1537,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#5db060",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1566,7 +1566,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#d2e9d4",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1595,7 +1595,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#edb97d",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1624,7 +1624,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#e39131",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1653,7 +1653,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#f6dbbc",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1682,7 +1682,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#ccc5e0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1711,7 +1711,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1740,7 +1740,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#ccc5e0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1769,7 +1769,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#a8d6df",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1798,7 +1798,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#00a5ba",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1827,7 +1827,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#cbe6ec",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1856,7 +1856,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "rgba(0, 0, 0, 0.1)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1885,7 +1885,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "rgba(255, 255, 255, 0.2)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/accents.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/accents.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1916,7 +1916,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Used for creating the bottom gradient of the auro-avatar",
           "value": "#c0ccf1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/avatar.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/avatar.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1945,7 +1945,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Used for creating the top gradient of the auro-avatar",
           "value": "#8298e3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/avatar.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/avatar.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -1976,7 +1976,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean disabled inverse state color",
           "value": "#aca1cc",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2005,7 +2005,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean error state color",
           "value": "#e53339",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2034,7 +2034,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean error hover state color",
           "value": "#b1161c",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2063,7 +2063,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean error state color",
           "value": "#f9a4a8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2092,7 +2092,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean error state color",
           "value": "#f15f65",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2121,7 +2121,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean indicator color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2150,7 +2150,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean indicator inverse color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2179,7 +2179,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false state color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2208,7 +2208,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false border color",
           "value": "#adadad",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2237,7 +2237,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false inverse border color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2266,7 +2266,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false hover state color",
           "value": "#f2f2f2",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2295,7 +2295,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false inverse state color",
           "value": "rgba(255, 255, 255, 0.15)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2324,7 +2324,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean false inverse hover state color",
           "value": "rgba(255, 255, 255, 0.2)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2353,7 +2353,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean true state color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2382,7 +2382,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean true hover state color",
           "value": "#31295c",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2411,7 +2411,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean true inverse state color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2440,7 +2440,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Boolean true inverse hover state color",
           "value": "rgba(255, 255, 255, 0.7)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/boolean.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/boolean.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2471,7 +2471,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Background color for the dropdown component",
           "value": "#edeaf4",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/dropdown.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/dropdown.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2500,7 +2500,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Background color for the dropdown component",
           "value": "#ccc5e0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/dropdown.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/dropdown.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2531,7 +2531,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Flightline indicator color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/flightline.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/flightline.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2560,7 +2560,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Flightline line color",
           "value": "#d0d0d0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/flightline.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/flightline.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2591,7 +2591,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Footer background",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/footer.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/footer.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2620,7 +2620,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Footer foreground",
           "value": "#3c3376",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/footer.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/footer.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2649,7 +2649,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Footer pattern",
           "value": "rgba(0, 0, 0, 0.05)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/footer.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/footer.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2680,7 +2680,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default hyperlink color",
           "value": "#ce0c88",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2709,7 +2709,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Hyperlink hover state color",
           "value": "#831a57",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2738,7 +2738,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default hyperlink color on inverse/dark backgrounds",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2767,7 +2767,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Hyperlink hover state color on inverse/dark backgrounds",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/hyperlink.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2798,7 +2798,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2827,7 +2827,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background inverse color",
           "value": "rgba(255, 255, 255, 0.15)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2856,7 +2856,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background inverse disabled color",
           "value": "rgba(255, 255, 255, 0.1)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2885,7 +2885,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background inverse hover color",
           "value": "rgba(255, 255, 255, 0.2)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2914,7 +2914,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background muted color",
           "value": "#f7f7f7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2943,7 +2943,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component background strong color",
           "value": "#676767",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -2972,7 +2972,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Emphasized background color",
           "value": "#edeaf4",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3001,7 +3001,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Emphasized background hover color",
           "value": "#ccc5e0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3030,7 +3030,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Component scrim color",
           "value": "rgba(0, 0, 0, 0.5)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3059,7 +3059,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/shared.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/shared.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3090,7 +3090,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Background color for the auro-skeleton component",
           "value": "#f7f8fa",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/skeleton.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/skeleton.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3119,7 +3119,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Gradient effect of the auro-skeleton component",
           "value": "#e4e8ec",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/skeleton.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/skeleton.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3150,7 +3150,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#dddddd",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3179,7 +3179,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#f2f2f2",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3208,7 +3208,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#7e8894",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3237,7 +3237,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#f9a4a8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3266,7 +3266,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3295,7 +3295,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3324,7 +3324,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3353,7 +3353,7 @@ module.exports = {
           "type": "semantic",
           "usage": "",
           "value": "#31295c",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/advanced/color/state.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/advanced/color/state.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3388,7 +3388,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Bold border color",
           "value": "#adadad",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3417,7 +3417,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Brand border color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3446,7 +3446,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default border color",
           "value": "#d0d0d0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3475,7 +3475,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Divider border color",
           "value": "rgba(0, 0, 0, 0.15)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3504,7 +3504,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse divider border color",
           "value": "rgba(255, 255, 255, 0.4)",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3533,7 +3533,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse border color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3562,7 +3562,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle border color",
           "value": "#dddddd",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/border.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/border.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3593,7 +3593,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Primary brand color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3622,7 +3622,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Bold primary brand color",
           "value": "#31295c",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3651,7 +3651,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted primary brand color",
           "value": "#edeaf4",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3680,7 +3680,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle primary brand color",
           "value": "#8c7eb8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3709,7 +3709,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Secondary brand color",
           "value": "#ce0c88",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3738,7 +3738,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Bold secondary brand color",
           "value": "#831a57",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3767,7 +3767,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted secondary brand color",
           "value": "#fdf1f8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3796,7 +3796,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle secondary brand color",
           "value": "#e26db8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3825,7 +3825,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Tertiary brand color",
           "value": "#ee453d",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3854,7 +3854,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Bold tertiary brand color",
           "value": "#97322a",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3883,7 +3883,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted tertiary brand color",
           "value": "#ffeeea",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3912,7 +3912,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle tertiary brand color",
           "value": "#ff9080",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3943,7 +3943,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Basic fare brand color",
           "value": "#d0d0d0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/fare-brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/fare-brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -3972,7 +3972,7 @@ module.exports = {
           "type": "semantic",
           "usage": "First class fare brand color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/fare-brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/fare-brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4001,7 +4001,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Economy fare brand color",
           "value": "#ce0c88",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/fare-brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/fare-brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4030,7 +4030,7 @@ module.exports = {
           "type": "semantic",
           "usage": "First class fare brand color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/fare-brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/fare-brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4059,7 +4059,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Premium fare brand color",
           "value": "#1b6976",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/fare-brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/fare-brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4090,7 +4090,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default page background color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/page-background.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/page-background.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4119,7 +4119,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Utility page background color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/page-background.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/page-background.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4150,7 +4150,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default status color",
           "value": "#afb9c6",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4179,7 +4179,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Error status color",
           "value": "#e53339",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4208,7 +4208,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle error status color",
           "value": "#fbc6c6",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4237,7 +4237,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Info status color",
           "value": "#007db1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4266,7 +4266,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle info status color",
           "value": "#e8f2f8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4295,7 +4295,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Success status color",
           "value": "#529325",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4324,7 +4324,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle success status color",
           "value": "#d6eac7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4353,7 +4353,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Warning status color",
           "value": "#fac200",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4382,7 +4382,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle warning status color",
           "value": "#fff0b2",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/status.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/status.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4413,7 +4413,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Accent surface color",
           "value": "#aca1cc",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4442,7 +4442,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted accent surface color",
           "value": "#edeaf4",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4471,7 +4471,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle accent surface color",
           "value": "#aca1cc",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4500,7 +4500,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Accent surface color",
           "value": "#f7f7f7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4529,7 +4529,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted accent surface color",
           "value": "#f7f7f7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4558,7 +4558,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default surface color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4587,7 +4587,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse surface color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4616,7 +4616,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle inverse surface color",
           "value": "#8c7eb8",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4645,7 +4645,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Medium neutral surface color",
           "value": "#f2f2f2",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4674,7 +4674,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Medium neutral surface color",
           "value": "#dddddd",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4703,7 +4703,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Subtle neutral surface color",
           "value": "#f7f7f7",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/surface.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/surface.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4734,7 +4734,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Accent text color",
           "value": "#463c8f",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4763,7 +4763,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Default text color",
           "value": "#000000",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4792,7 +4792,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Disabled text/icon color",
           "value": "#d0d0d0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4821,7 +4821,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse text color",
           "value": "#ffffff",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4850,7 +4850,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse text color",
           "value": "#7e8894",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4879,7 +4879,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Inverse text color",
           "value": "#ccd2db",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4908,7 +4908,7 @@ module.exports = {
           "type": "semantic",
           "usage": "Muted text color",
           "value": "#3d3d3d",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/text-icon.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/text-icon.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -4940,7 +4940,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#01426a",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -4971,7 +4971,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge Plus brand color",
             "value": "#53b390",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5004,7 +5004,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#d99f6d",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5035,7 +5035,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#eed4be",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5066,7 +5066,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#030772",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5097,7 +5097,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#a9b6d6",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5128,7 +5128,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#cb7457",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5159,7 +5159,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#e7bfb1",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5190,7 +5190,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#fbdc7a",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5221,7 +5221,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#fdefc4",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5252,7 +5252,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#abaab1",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5283,7 +5283,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#e5e4e7",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5314,7 +5314,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#bcb8a4",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5345,7 +5345,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#dad8cd",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5376,7 +5376,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#e4e9ec",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5407,7 +5407,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#f9fafb",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5438,7 +5438,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#282828",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5469,7 +5469,7 @@ module.exports = {
             "type": "semantic",
             "usage": "Lounge brand color",
             "value": "#545454",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5502,7 +5502,7 @@ module.exports = {
             "type": "semantic",
             "usage": "OneWorld Emerald brand color",
             "value": "#139142",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5533,7 +5533,7 @@ module.exports = {
             "type": "semantic",
             "usage": "OneWorld Ruby brand color",
             "value": "#a41d4a",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5564,7 +5564,7 @@ module.exports = {
             "type": "semantic",
             "usage": "OneWorld Sapphire brand color",
             "value": "#015daa",
-            "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/color/tier-program.json",
+            "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/color/tier-program.json",
             "isSource": false,
             "original": {
               "deprecated": false,
@@ -5599,7 +5599,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Slate Pro",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5626,7 +5626,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Chronicle Display",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5653,7 +5653,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5680,7 +5680,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5707,7 +5707,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5734,7 +5734,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0.05em",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5761,7 +5761,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0.10em",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/brand.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/brand.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5790,7 +5790,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Slate Pro",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5817,7 +5817,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5844,7 +5844,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Slate Pro",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5871,7 +5871,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5898,7 +5898,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Chronicle Display",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5925,7 +5925,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Georgia, serif",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5952,7 +5952,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "Slate Pro",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -5979,7 +5979,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/family.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/family.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6008,7 +6008,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0.05em",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6035,7 +6035,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0.10em",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6062,7 +6062,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6089,7 +6089,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6116,7 +6116,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/letter-spacing.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6145,7 +6145,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6172,7 +6172,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6199,7 +6199,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.625rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6226,7 +6226,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.5rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6253,7 +6253,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.25rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6280,7 +6280,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6307,7 +6307,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "0.875rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6334,7 +6334,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6361,7 +6361,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/line-height.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6390,7 +6390,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "400",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6417,7 +6417,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "500",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6444,7 +6444,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "400",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6471,7 +6471,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "500",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6498,7 +6498,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "600",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6525,7 +6525,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "400",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6552,7 +6552,7 @@ module.exports = {
           "public": true,
           "type": "semantic",
           "value": "500",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/semantics/web/hawaiian/basic/type/weight.json",
+          "filePath": "tokenDefinitions/coreTokens/semantics/web/hawaiian/basic/type/weight.json",
           "isSource": false,
           "original": {
             "deprecated": false,
@@ -6584,7 +6584,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/family.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/family.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6609,7 +6609,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "Georgia, serif",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/family.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/family.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6636,7 +6636,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6661,7 +6661,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.05em",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6686,7 +6686,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.10em",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/letter-spacing.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/letter-spacing.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6714,7 +6714,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6741,7 +6741,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.3",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6770,7 +6770,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "0.875rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6797,7 +6797,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6824,7 +6824,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.25rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6851,7 +6851,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.5rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6878,7 +6878,7 @@ module.exports = {
           "public": true,
           "type": "primitive",
           "value": "1.625rem",
-          "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/line-height.json",
+          "filePath": "tokenDefinitions/coreTokens/primitives/base/type/line-height.json",
           "isSource": true,
           "original": {
             "deprecated": false,
@@ -6908,7 +6908,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.625rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6933,7 +6933,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6958,7 +6958,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "0.875rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -6983,7 +6983,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7008,7 +7008,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.125rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7033,7 +7033,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.25rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7058,7 +7058,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7083,7 +7083,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7108,7 +7108,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.625rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7133,7 +7133,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "1.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7158,7 +7158,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7183,7 +7183,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.25rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7208,7 +7208,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7233,7 +7233,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7258,7 +7258,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "2.75rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7283,7 +7283,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "3rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7308,7 +7308,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "3.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7333,7 +7333,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "4rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7358,7 +7358,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "4.5rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7383,7 +7383,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "5.375rem",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/size.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/size.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7410,7 +7410,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "700",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7435,7 +7435,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "450",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7460,7 +7460,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "500",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7485,7 +7485,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "450",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7510,7 +7510,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "300",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7535,7 +7535,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "500",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7560,7 +7560,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "400",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,
@@ -7585,7 +7585,7 @@ module.exports = {
         "public": true,
         "type": "primitive",
         "value": "600",
-        "filePath": "node_modules/@aurodesignsystem/auro-tokendefinitions/tokens/primitives/base/type/weight.json",
+        "filePath": "tokenDefinitions/coreTokens/primitives/base/type/weight.json",
         "isSource": true,
         "original": {
           "deprecated": false,

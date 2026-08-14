@@ -197,13 +197,13 @@ function reportInconsistencies(label, variantKeys) {
   return true;
 }
 
-// Check semantic web tokens published in the auro-tokendefinitions package.
+// Check semantic web tokens vendored under tokenDefinitions/coreTokens.
 // Each theme has its own subdirectory; we union JSON keys per theme.
 /**
  * @returns {boolean}
  */
 function checkSemanticsWeb() {
-  console.log('--- Checking semantics/web (auro-tokendefinitions) ---\n');
+  console.log('--- Checking semantics/web (coreTokens) ---\n');
 
   // THEME_DEFINITIONS is a checked-in config; <2 entries is a misconfiguration,
   // not an empty-but-valid state, so fail loudly rather than soft-skipping.
