@@ -352,37 +352,41 @@
         "text": "#ffffff"
       },
       "primaryInverse": {
-        "background": "#ffffff",
+        "background": "#7d7e7e",
         "backgroundPressed": "#ffffffcc",
-        "text": "#7d7e7e"
+        "text": "#ffffff"
       },
       "quaternary": {
-        "backgroundPressed": "#515252",
+        "backgroundPressed": "#0000000d",
         "text": "#7d7e7e"
       },
       "quaternaryInverse": {
-        "backgroundPressed": "#515252",
+        "backgroundPressed": "#ffffff0d",
         "text": "#ffffff"
       },
       "secondary": {
-        "background": "#dbdddd",
+        "background": "#ffffff",
         "backgroundPressed": "#f1f3f3",
+        "border": "#ced0d0",
+        "borderPressed": "#7d7e7e",
         "text": "#7d7e7e"
       },
       "secondaryInverse": {
         "background": "#dbdddd",
-        "backgroundPressed": "#c3c5c5",
-        "text": "#7d7e7e"
+        "backgroundPressed": "#f5f7f7",
+        "border": "#ced0d0",
+        "text": "#ffffff"
       },
       "tertiary": {
-        "background": "#00000014",
-        "backgroundPressed": "#0000001f",
+        "background": "#0000000d",
+        "backgroundPressed": "#0000001a",
         "border": "#dbdddd",
-        "text": "#7d7e7e"
+        "text": "#7d7e7e",
+        "textPressed": "#7d7e7e"
       },
       "tertiaryInverse": {
-        "background": "#ffffff14",
-        "backgroundPressed": "#ffffff1f",
+        "background": "#ffffff0d",
+        "backgroundPressed": "#ffffff1a",
         "border": "#ffffff",
         "text": "#ffffff"
       }
