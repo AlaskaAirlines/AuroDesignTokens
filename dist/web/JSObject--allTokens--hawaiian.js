@@ -1071,11 +1071,11 @@ module.exports = {
             ]
           },
           "background-hover": {
-            "value": "#831a57",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#83005c"
             },
             "name": "ds-advanced-color-button-primary-background-hover",
             "attributes": {
@@ -1255,11 +1255,11 @@ module.exports = {
             ]
           },
           "border-hover": {
-            "value": "#831a57",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#83005c"
             },
             "name": "ds-advanced-color-button-primary-border-hover",
             "attributes": {
@@ -1487,11 +1487,11 @@ module.exports = {
             ]
           },
           "background-inverse-hover": {
-            "value": "#0000000d",
+            "value": "#ffffff1a",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#0000000d"
+              "value": "#ffffff1a"
             },
             "name": "ds-advanced-color-button-secondary-background-inverse-hover",
             "attributes": {
@@ -1556,11 +1556,11 @@ module.exports = {
             ]
           },
           "border-hover": {
-            "value": "#831a57",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#83005c"
             },
             "name": "ds-advanced-color-button-secondary-border-hover",
             "attributes": {
@@ -1648,11 +1648,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#831a57",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#83005c"
             },
             "name": "ds-advanced-color-button-secondary-text-hover",
             "attributes": {
@@ -1811,11 +1811,11 @@ module.exports = {
             ]
           },
           "text-hover": {
-            "value": "#831a57",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#83005c"
             },
             "name": "ds-advanced-color-button-tertiary-text-hover",
             "attributes": {
@@ -2289,11 +2289,11 @@ module.exports = {
           ]
         },
         "text-hover": {
-          "value": "#831a57",
+          "value": "#83005c",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#831a57"
+            "value": "#83005c"
           },
           "name": "ds-advanced-color-hyperlink-text-hover",
           "attributes": {
@@ -3882,11 +3882,11 @@ module.exports = {
           ]
         },
         "secondary-bold": {
-          "value": "#831a57",
+          "value": "#83005c",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#831a57"
+            "value": "#83005c"
           },
           "name": "ds-basic-color-brand-secondary-bold",
           "attributes": {
@@ -4166,11 +4166,11 @@ module.exports = {
         },
         "economy-extra-legroom": {
           "bold": {
-            "value": "#a91770",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#a91770"
+              "value": "#83005c"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-bold",
             "attributes": {
@@ -4189,11 +4189,11 @@ module.exports = {
             ]
           },
           "default": {
-            "value": "#ce0c88",
+            "value": "#83005c",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ce0c88"
+              "value": "#83005c"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-default",
             "attributes": {
@@ -4212,11 +4212,11 @@ module.exports = {
             ]
           },
           "subtle": {
-            "value": "#fdf1f8",
+            "value": "#fbf3f8",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#fdf1f8"
+              "value": "#fbf3f8"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-subtle",
             "attributes": {
@@ -4237,11 +4237,11 @@ module.exports = {
         },
         "economy-standard": {
           "bold": {
-            "value": "#1b4c55",
+            "value": "#ce0c88",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#1b4c55"
+              "value": "#ce0c88"
             },
             "name": "ds-basic-color-fare-economy-standard-bold",
             "attributes": {
@@ -4260,11 +4260,11 @@ module.exports = {
             ]
           },
           "default": {
-            "value": "#00a5ba",
+            "value": "#ce0c88",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#00a5ba"
+              "value": "#ce0c88"
             },
             "name": "ds-basic-color-fare-economy-standard-default",
             "attributes": {
@@ -4283,11 +4283,11 @@ module.exports = {
             ]
           },
           "subtle": {
-            "value": "#ecf6f8",
+            "value": "#fbf3f8",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ecf6f8"
+              "value": "#fbf3f8"
             },
             "name": "ds-basic-color-fare-economy-standard-subtle",
             "attributes": {
@@ -4446,11 +4446,11 @@ module.exports = {
         },
         "premium-economy": {
           "bold": {
-            "value": "#831a57",
+            "value": "#5f0043",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#5f0043"
             },
             "name": "ds-basic-color-fare-premium-economy-bold",
             "attributes": {
@@ -4469,11 +4469,11 @@ module.exports = {
             ]
           },
           "default": {
-            "value": "#831a57",
+            "value": "#5f0043",
             "filePath": "processed/web/Hawaiian_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#831a57"
+              "value": "#5f0043"
             },
             "name": "ds-basic-color-fare-premium-economy-default",
             "attributes": {
@@ -5196,11 +5196,11 @@ module.exports = {
           ]
         },
         "link-hover": {
-          "value": "#831a57",
+          "value": "#83005c",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#831a57"
+            "value": "#83005c"
           },
           "name": "ds-basic-color-texticon-link-hover",
           "attributes": {

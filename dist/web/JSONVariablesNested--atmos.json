@@ -242,19 +242,19 @@
         "business": "#002c4e",
         "economy": "#0074ca",
         "economy-basic": {
-          "bold": "#096173",
-          "default": "#97eaf8",
-          "subtle": "#ebfafd"
+          "bold": "#515252",
+          "default": "#ced0d0",
+          "subtle": "#f5f7f7"
         },
         "economy-extra-legroom": {
-          "bold": "#265688",
-          "default": "#265688",
-          "subtle": "#ebf3f9"
+          "bold": "#184f88",
+          "default": "#184f88",
+          "subtle": "#f2f7fb"
         },
         "economy-standard": {
           "bold": "#005fa7",
           "default": "#0074ca",
-          "subtle": "#ebf7ff"
+          "subtle": "#f2f7fb"
         },
         "first": "#101d2c",
         "first-business": {

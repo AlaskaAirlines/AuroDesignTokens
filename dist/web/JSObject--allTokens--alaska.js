@@ -4095,11 +4095,11 @@ module.exports = {
         },
         "economy-basic": {
           "bold": {
-            "value": "#096173",
+            "value": "#515252",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#096173"
+              "value": "#515252"
             },
             "name": "ds-basic-color-fare-economy-basic-bold",
             "attributes": {
@@ -4118,11 +4118,11 @@ module.exports = {
             ]
           },
           "default": {
-            "value": "#97eaf8",
+            "value": "#ced0d0",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#97eaf8"
+              "value": "#ced0d0"
             },
             "name": "ds-basic-color-fare-economy-basic-default",
             "attributes": {
@@ -4141,11 +4141,11 @@ module.exports = {
             ]
           },
           "subtle": {
-            "value": "#ebfafd",
+            "value": "#f5f7f7",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ebfafd"
+              "value": "#f5f7f7"
             },
             "name": "ds-basic-color-fare-economy-basic-subtle",
             "attributes": {
@@ -4166,11 +4166,11 @@ module.exports = {
         },
         "economy-extra-legroom": {
           "bold": {
-            "value": "#265688",
+            "value": "#184f88",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#265688"
+              "value": "#184f88"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-bold",
             "attributes": {
@@ -4189,11 +4189,11 @@ module.exports = {
             ]
           },
           "default": {
-            "value": "#265688",
+            "value": "#184f88",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#265688"
+              "value": "#184f88"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-default",
             "attributes": {
@@ -4212,11 +4212,11 @@ module.exports = {
             ]
           },
           "subtle": {
-            "value": "#ebf3f9",
+            "value": "#f2f7fb",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ebf3f9"
+              "value": "#f2f7fb"
             },
             "name": "ds-basic-color-fare-economy-extra-legroom-subtle",
             "attributes": {
@@ -4283,11 +4283,11 @@ module.exports = {
             ]
           },
           "subtle": {
-            "value": "#ebf7ff",
+            "value": "#f2f7fb",
             "filePath": "processed/web/Alaska_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ebf7ff"
+              "value": "#f2f7fb"
             },
             "name": "ds-basic-color-fare-economy-standard-subtle",
             "attributes": {

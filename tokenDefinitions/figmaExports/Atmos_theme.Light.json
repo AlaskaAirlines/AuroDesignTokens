@@ -387,8 +387,7 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "SHAPE_FILL",
-            "TEXT_FILL",
-            "STROKE_COLOR"
+            "TEXT_FILL"
           ],
           "codeSyntax": {
             "WEB": "--ds-basic-color-texticon-disabled-inverse",
@@ -1386,7 +1385,7 @@
     "Economy-Basic": {
       "Subtle": {
         "$type": "color",
-        "$value": "#ebfafd",
+        "$value": "#f5f7f7",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1408,7 +1407,7 @@
       },
       "Default": {
         "$type": "color",
-        "$value": "#97eaf8",
+        "$value": "#ced0d0",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1419,8 +1418,8 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-basic-color-fare-economy-basic-default",
-              "ANDROID": "basicTokens.color.fare.economyBasic.default",
-              "iOS": "basicTokens.color.fare.economyBasic.default"
+              "ANDROID": "basicTokens.color.fare.economyBasic.standard",
+              "iOS": "basicTokens.color.fare.economyBasic.standard"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -1430,7 +1429,7 @@
       },
       "Bold": {
         "$type": "color",
-        "$value": "#096173",
+        "$value": "#515252",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1476,7 +1475,7 @@
     "Economy-Standard": {
       "Subtle": {
         "$type": "color",
-        "$value": "#ebf7ff",
+        "$value": "#f2f7fb",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1509,8 +1508,8 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-basic-color-fare-economy-standard-default",
-              "ANDROID": "basicTokens.color.fare.economyStandard.default",
-              "iOS": "basicTokens.color.fare.economyStandard.default"
+              "ANDROID": "basicTokens.color.fare.economyStandard.standard",
+              "iOS": "basicTokens.color.fare.economyStandard.standard"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -1566,7 +1565,7 @@
     "Economy-Extra-Legroom": {
       "Subtle": {
         "$type": "color",
-        "$value": "#ebf3f9",
+        "$value": "#f2f7fb",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1588,7 +1587,7 @@
       },
       "Default": {
         "$type": "color",
-        "$value": "#265688",
+        "$value": "#184f88",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1599,8 +1598,8 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-basic-color-fare-economy-extra-legroom-default",
-              "ANDROID": "basicTokens.color.fare.economyExtraLegroom.default",
-              "iOS": "basicTokens.color.fare.economyExtraLegroom.default"
+              "ANDROID": "basicTokens.color.fare.economyExtraLegroom.standard",
+              "iOS": "basicTokens.color.fare.economyExtraLegroom.standard"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -1610,7 +1609,7 @@
       },
       "Bold": {
         "$type": "color",
-        "$value": "#265688",
+        "$value": "#184f88",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1689,8 +1688,8 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-basic-color-fare-premium-economy-default",
-              "ANDROID": "basicTokens.color.fare.premiumEconomy.default",
-              "iOS": "basicTokens.color.fare.premiumEconomy.default"
+              "ANDROID": "basicTokens.color.fare.premiumEconomy.standard",
+              "iOS": "basicTokens.color.fare.premiumEconomy.standard"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -1779,8 +1778,8 @@
             ],
             "codeSyntax": {
               "WEB": "--ds-basic-color-fare-first-business-default",
-              "ANDROID": "basicTokens.color.fare.firstBusiness.default",
-              "iOS": "basicTokens.color.fare.firstBusiness.default"
+              "ANDROID": "basicTokens.color.fare.firstBusiness.standard",
+              "iOS": "basicTokens.color.fare.firstBusiness.standard"
             },
             "isOverride": false,
             "parentCollectionId": "VariableCollectionId:744:38331",
@@ -5103,7 +5102,7 @@
                 "ANDROID": "uiTokens.buttons.primary.text",
                 "iOS": "uiTokens.buttons.primary.text"
               },
-              "isOverride": true,
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5124,7 +5123,7 @@
                 "ANDROID": "uiTokens.buttons.primary.background",
                 "iOS": "uiTokens.buttons.primary.background"
               },
-              "isOverride": true,
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5145,7 +5144,7 @@
                 "ANDROID": "uiTokens.buttons.primary.backgroundPressed",
                 "iOS": "uiTokens.buttons.primary.backgroundPressed"
               },
-              "isOverride": true,
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5262,7 +5261,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#aedeff",
+          "$value": "#0000000d",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5280,12 +5279,54 @@
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
           }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#101d2c",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.buttons.secondary.border",
+                "iOS": "uiTokens.buttons.secondary.border"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15586"
+            }
+          }
+        },
+        "border-pressed": {
+          "$type": "color",
+          "$value": "#101d2c",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.buttons.secondary.borderPressed",
+                "iOS": "uiTokens.buttons.secondary.borderPressed"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15586"
+            }
+          }
         }
       },
       "secondary-inverse": {
         "text": {
           "$type": "color",
-          "$value": "#101d2c",
+          "$value": "#ffffff",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5327,7 +5368,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#aedeff",
+          "$value": "#ffffff1a",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5340,7 +5381,28 @@
                 "ANDROID": "uiTokens.buttons.secondaryInverse.backgroundPressed",
                 "iOS": "uiTokens.buttons.secondaryInverse.backgroundPressed"
               },
-              "isOverride": true,
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15586"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.buttons.secondaryInverse.border",
+                "iOS": "uiTokens.buttons.secondaryInverse.border"
+              },
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5369,9 +5431,30 @@
             }
           }
         },
+        "text-pressed": {
+          "$type": "color",
+          "$value": "#101d2c",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {
+                "WEB": "* App only token *",
+                "ANDROID": "uiTokens.buttons.tertiary.textPressed",
+                "iOS": "uiTokens.buttons.tertiary.textPressed"
+              },
+              "isOverride": false,
+              "parentCollectionId": "VariableCollectionId:744:38331",
+              "extensionCollectionId": "VariableCollectionId:13305:15586"
+            }
+          }
+        },
         "background": {
           "$type": "color",
-          "$value": "#00000014",
+          "$value": "#0000000d",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5392,7 +5475,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#0000001f",
+          "$value": "#0000001a",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5457,7 +5540,7 @@
         },
         "background": {
           "$type": "color",
-          "$value": "#ffffff14",
+          "$value": "#ffffff0d",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5478,7 +5561,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#ffffff1f",
+          "$value": "#ffffff1a",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5512,7 +5595,7 @@
                 "ANDROID": "uiTokens.buttons.tertiaryInverse.border",
                 "iOS": "uiTokens.buttons.tertiaryInverse.border"
               },
-              "isOverride": false,
+              "isOverride": true,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5543,7 +5626,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#63beff",
+          "$value": "#0000000d",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5556,7 +5639,7 @@
                 "ANDROID": "uiTokens.buttons.quaternary.backgroundPressed",
                 "iOS": "uiTokens.buttons.quaternary.backgroundPressed"
               },
-              "isOverride": true,
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
@@ -5587,7 +5670,7 @@
         },
         "background-pressed": {
           "$type": "color",
-          "$value": "#63beff",
+          "$value": "#ffffff0d",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5600,7 +5683,7 @@
                 "ANDROID": "uiTokens.buttons.quaternaryInverse.backgroundPressed",
                 "iOS": "uiTokens.buttons.quaternaryInverse.backgroundPressed"
               },
-              "isOverride": true,
+              "isOverride": false,
               "parentCollectionId": "VariableCollectionId:744:38331",
               "extensionCollectionId": "VariableCollectionId:13305:15586"
             }
