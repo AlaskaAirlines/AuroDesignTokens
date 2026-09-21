@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+## [9.4.1](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.4.0...v9.4.1) (2026-09-21)
+
+
+### Bug Fixes
+
+* update tokens from figma [#496](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/496) ([f2c11d3](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/f2c11d303b2b5f8ab0d9d61574f2ab7faa4ea130))
+
 # [9.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.3.3...v9.4.0) (2026-09-21)
 
 
