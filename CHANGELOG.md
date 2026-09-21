@@ -1,5 +1,12 @@
 # Semantic Release Automated Changelog
 
+# [9.4.0](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.3.3...v9.4.0) (2026-09-21)
+
+
+### Features
+
+* **static:** add typographyBandaid CSS and minify it during build AB[#1649193](https://github.com/AlaskaAirlines/AuroDesignTokens/issues/1649193) ([e0ccd8c](https://github.com/AlaskaAirlines/AuroDesignTokens/commit/e0ccd8ceef3d6db7695719b3152192d6b6b9bba2))
+
 ## [9.3.3](https://github.com/AlaskaAirlines/AuroDesignTokens/compare/v9.3.2...v9.3.3) (2026-08-14)
 
 
