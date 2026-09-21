@@ -17,6 +17,16 @@ export const CSS = {
 };
 
 /**
+ * Hand-maintained CSS that is not produced by Style Dictionary.
+ * Every .css file in SRC_DIR is copied verbatim into OUT_DIR during the build
+ * and minified alongside the generated output.
+ */
+export const STATIC_CSS = {
+  SRC_DIR: './static/css',
+  OUT_DIR: './dist/static'
+};
+
+/**
  * Web theme definitions for multi-theme selector rewriting in dist/web.
  * Each entry maps a generated CSS filename to its data-aag-theme attribute code.
  * These codes are intentionally separate from THEME_DEFINITIONS codes used in dist/themes.
