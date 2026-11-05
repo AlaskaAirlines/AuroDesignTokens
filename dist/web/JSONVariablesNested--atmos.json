@@ -45,10 +45,10 @@
       "button": {
         "flat": {
           "text": "#6a717c",
-          "text-disabled": "#585e67",
+          "text-disabled": "#dbdddd",
           "text-hover": "#585e67",
           "text-inverse": "#faf9f5",
-          "text-inverse-disabled": "#585e67",
+          "text-inverse-disabled": "#7e8894",
           "text-inverse-hover": "#afb9c6"
         },
         "ghost": {
@@ -238,7 +238,7 @@
         "tertiary-subtle": "#e9e6d9"
       },
       "fare": {
-        "basiceconomy": "#97eaf8",
+        "basiceconomy": "#ced0d0",
         "business": "#002c4e",
         "economy": "#0074ca",
         "economy-basic": {
@@ -269,7 +269,7 @@
           "default": "#00274a",
           "subtle": "#ecf0f3"
         },
-        "premiumeconomy": "#005154",
+        "premiumeconomy": "#00274a",
         "suites-back": "#101d2c",
         "suites-front": "#101d2c"
       },
