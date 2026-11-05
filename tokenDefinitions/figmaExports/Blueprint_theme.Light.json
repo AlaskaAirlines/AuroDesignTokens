@@ -2705,7 +2705,7 @@
         },
         "text-inverse": {
           "$type": "color",
-          "$value": "#ffffff",
+          "$value": "#7d7e7e",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -2762,7 +2762,7 @@
         },
         "background-inverse": {
           "$type": "color",
-          "$value": "#7d7e7e",
+          "$value": "#ffffff",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -2781,7 +2781,7 @@
         },
         "border-inverse-hover": {
           "$type": "color",
-          "$value": "#515252",
+          "$value": "#ffffffcc",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -2800,7 +2800,7 @@
         },
         "background-inverse-hover": {
           "$type": "color",
-          "$value": "#515252",
+          "$value": "#ffffffcc",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5154,7 +5154,7 @@
       "primary-inverse": {
         "text": {
           "$type": "color",
-          "$value": "#ffffff",
+          "$value": "#7d7e7e",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -5175,7 +5175,7 @@
         },
         "background": {
           "$type": "color",
-          "$value": "#7d7e7e",
+          "$value": "#ffffff",
           "$description": "",
           "$extensions": {
             "com.figma": {
