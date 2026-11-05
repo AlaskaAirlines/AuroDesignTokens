@@ -1466,7 +1466,7 @@
             "ANDROID": "basicTokens.color.fare.basicEconomy",
             "iOS": "basicTokens.color.fare.basicEconomy"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15585"
         }
@@ -1556,7 +1556,7 @@
             "ANDROID": "basicTokens.color.fare.economy",
             "iOS": "basicTokens.color.fare.economy"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15585"
         }
@@ -1632,7 +1632,7 @@
     },
     "PremiumEconomy": {
       "$type": "color",
-      "$value": "#1b6976",
+      "$value": "#5f0043",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1646,7 +1646,7 @@
             "ANDROID": "basicTokens.color.fare.premiumEconomy",
             "iOS": "basicTokens.color.fare.premiumEconomy"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15585"
         }
@@ -1736,7 +1736,7 @@
             "ANDROID": "basicTokens.color.fare.business",
             "iOS": "basicTokens.color.fare.business"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15585"
         }
@@ -1870,7 +1870,7 @@
             "ANDROID": "basicTokens.color.fare.first",
             "iOS": "basicTokens.color.fare.first"
           },
-          "isOverride": true,
+          "isOverride": false,
           "parentCollectionId": "VariableCollectionId:744:38331",
           "extensionCollectionId": "VariableCollectionId:13305:15585"
         }

@@ -65,18 +65,18 @@
           "background-hover": "#515252",
           "background-inactive": "#dbdddd",
           "background-inactive-hover": "#abadad",
-          "background-inverse": "#7d7e7e",
+          "background-inverse": "#ffffff",
           "background-inverse-disabled": "#ffffffbf",
-          "background-inverse-hover": "#515252",
+          "background-inverse-hover": "#ffffffcc",
           "border": "#7d7e7e",
           "border-disabled": "#c3c5c5",
           "border-hover": "#515252",
           "border-inverse": "#7d7e7e",
           "border-inverse-disabled": "#ffffffbf",
-          "border-inverse-hover": "#515252",
+          "border-inverse-hover": "#ffffffcc",
           "text": "#ffffff",
           "text-disabled": "#ffffff",
-          "text-inverse": "#ffffff"
+          "text-inverse": "#7d7e7e"
         },
         "secondary": {
           "background": "#ffffff",
