@@ -768,11 +768,11 @@ module.exports = {
             ]
           },
           "text-disabled": {
-            "value": "#585e67",
+            "value": "#dbdddd",
             "filePath": "processed/web/Atmos_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#585e67"
+              "value": "#dbdddd"
             },
             "name": "ds-advanced-color-button-flat-text-disabled",
             "attributes": {
@@ -837,11 +837,11 @@ module.exports = {
             ]
           },
           "text-inverse-disabled": {
-            "value": "#585e67",
+            "value": "#7e8894",
             "filePath": "processed/web/Atmos_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#585e67"
+              "value": "#7e8894"
             },
             "name": "ds-advanced-color-button-flat-text-inverse-disabled",
             "attributes": {
@@ -4031,11 +4031,11 @@ module.exports = {
       },
       "fare": {
         "basiceconomy": {
-          "value": "#97eaf8",
+          "value": "#ced0d0",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#97eaf8"
+            "value": "#ced0d0"
           },
           "name": "ds-basic-color-fare-basiceconomy",
           "attributes": {
@@ -4516,11 +4516,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#005154",
+          "value": "#00274a",
           "filePath": "processed/web/Atmos_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#005154"
+            "value": "#00274a"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {

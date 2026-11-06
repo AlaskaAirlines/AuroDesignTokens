@@ -25,8 +25,8 @@
         "tertiarySubtle": "#c9e1a7"
       },
       "fare": {
-        "basicEconomy": "#97eaf8",
-        "business": "#01426a",
+        "basicEconomy": "#ced0d0",
+        "business": "#005154",
         "economy": "#0074ca",
         "economyBasic": {
           "bold": "#515252",
@@ -43,7 +43,7 @@
           "standard": "#0074ca",
           "subtle": "#f2f7fb"
         },
-        "first": "#00274a",
+        "first": "#005154",
         "firstBusiness": {
           "bold": "#005154",
           "gradientBack": "#00274a",
