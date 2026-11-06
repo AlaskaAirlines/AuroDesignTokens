@@ -352,9 +352,9 @@
         "text": "#ffffff"
       },
       "primaryInverse": {
-        "background": "#ffffff",
+        "background": "#7d7e7e",
         "backgroundPressed": "#ffffffcc",
-        "text": "#7d7e7e"
+        "text": "#ffffff"
       },
       "quaternary": {
         "backgroundPressed": "#0000000d",

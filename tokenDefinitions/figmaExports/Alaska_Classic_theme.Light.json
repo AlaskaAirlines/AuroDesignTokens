@@ -1452,7 +1452,7 @@
     },
     "BasicEconomy": {
       "$type": "color",
-      "$value": "#ced0d0",
+      "$value": "#97eaf8",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1632,7 +1632,7 @@
     },
     "PremiumEconomy": {
       "$type": "color",
-      "$value": "#00274a",
+      "$value": "#005154",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1722,7 +1722,7 @@
     },
     "Business": {
       "$type": "color",
-      "$value": "#005154",
+      "$value": "#01426a",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -1856,7 +1856,7 @@
     },
     "First": {
       "$type": "color",
-      "$value": "#005154",
+      "$value": "#00274a",
       "$description": "",
       "$extensions": {
         "com.figma": {
