@@ -1140,11 +1140,11 @@ module.exports = {
             ]
           },
           "background-inverse": {
-            "value": "#ffffff",
+            "value": "#7d7e7e",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ffffff"
+              "value": "#7d7e7e"
             },
             "name": "ds-advanced-color-button-primary-background-inverse",
             "attributes": {
@@ -1186,11 +1186,11 @@ module.exports = {
             ]
           },
           "background-inverse-hover": {
-            "value": "#ffffffcc",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ffffffcc"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-background-inverse-hover",
             "attributes": {
@@ -1324,11 +1324,11 @@ module.exports = {
             ]
           },
           "border-inverse-hover": {
-            "value": "#ffffffcc",
+            "value": "#515252",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#ffffffcc"
+              "value": "#515252"
             },
             "name": "ds-advanced-color-button-primary-border-inverse-hover",
             "attributes": {
@@ -1393,11 +1393,11 @@ module.exports = {
             ]
           },
           "text-inverse": {
-            "value": "#7d7e7e",
+            "value": "#ffffff",
             "filePath": "processed/web/Blueprint_theme.Light.json",
             "isSource": true,
             "original": {
-              "value": "#7d7e7e"
+              "value": "#ffffff"
             },
             "name": "ds-advanced-color-button-primary-text-inverse",
             "attributes": {

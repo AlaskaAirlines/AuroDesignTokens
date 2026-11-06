@@ -238,8 +238,8 @@
         "tertiary-subtle": "#c9e1a7"
       },
       "fare": {
-        "basiceconomy": "#ced0d0",
-        "business": "#005154",
+        "basiceconomy": "#97eaf8",
+        "business": "#01426a",
         "economy": "#0074ca",
         "economy-basic": {
           "bold": "#515252",
@@ -256,7 +256,7 @@
           "default": "#0074ca",
           "subtle": "#f2f7fb"
         },
-        "first": "#005154",
+        "first": "#00274a",
         "first-business": {
           "bold": "#005154",
           "default": "#005154",
@@ -269,7 +269,7 @@
           "default": "#00274a",
           "subtle": "#ecf0f3"
         },
-        "premiumeconomy": "#00274a",
+        "premiumeconomy": "#005154",
         "suites-back": "#00274a",
         "suites-front": "#005154"
       },
