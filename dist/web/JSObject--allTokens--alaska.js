@@ -4516,11 +4516,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#00274a",
+          "value": "#184f88",
           "filePath": "processed/web/Alaska_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#00274a"
+            "value": "#184f88"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {
