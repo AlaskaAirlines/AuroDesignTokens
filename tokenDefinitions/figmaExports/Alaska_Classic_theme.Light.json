@@ -1632,7 +1632,7 @@
     },
     "PremiumEconomy": {
       "$type": "color",
-      "$value": "#00274a",
+      "$value": "#184f88",
       "$description": "",
       "$extensions": {
         "com.figma": {

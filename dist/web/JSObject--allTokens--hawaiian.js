@@ -4516,11 +4516,11 @@ module.exports = {
           }
         },
         "premiumeconomy": {
-          "value": "#5f0043",
+          "value": "#83005c",
           "filePath": "processed/web/Hawaiian_theme.Light.json",
           "isSource": true,
           "original": {
-            "value": "#5f0043"
+            "value": "#83005c"
           },
           "name": "ds-basic-color-fare-premiumeconomy",
           "attributes": {
